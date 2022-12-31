@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_ntm_fbi",
+  "Registry ID": "hbm:entity_ntm_fbi",
+  "Class": "com.hbm.entity.mob.EntityFBI"
+}

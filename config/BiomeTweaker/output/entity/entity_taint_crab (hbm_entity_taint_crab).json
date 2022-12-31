@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_taint_crab",
+  "Registry ID": "hbm:entity_taint_crab",
+  "Class": "com.hbm.entity.mob.EntityTaintCrab"
+}

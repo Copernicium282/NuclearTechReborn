@@ -1,0 +1,13 @@
+<galaxy>
+    <star name="51 Pegasi" temp="100" x="0" y="0" numPlanets="1" numGasGiants="1">
+        <planet name="51 Pegasi b">
+            <isKnown>true</isKnown>
+            <orbitalDistance>5</orbitalDistance>
+            <orbitalTheta>80</orbitalTheta>
+            <rotationalPeriod>128000</rotationalPeriod>
+            <GasGiant>true</GasGiant>
+            <gas>nitrogen</gas>
+            <gas>hydrogen</gas>
+        </planet>
+    </star>
+</galaxy>

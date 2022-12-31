@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_elder_one",
+  "Registry ID": "hbm:entity_elder_one",
+  "Class": "com.hbm.entity.mob.EntityQuackos"
+}
