@@ -4,6 +4,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import mods.nuclearcraft.Assembler;
+import mods.qmd.ore_leacher;
 import mods.mekanism.sawmill;
 import mods.mekanism.infuser;
 
