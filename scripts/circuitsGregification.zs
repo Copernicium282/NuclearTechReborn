@@ -13,7 +13,7 @@ import mods.mekanism.infuser;
 mods.qmd.ore_leacher.addRecipe(<ore:oreAluminium>, <liquid:nitric_acid>*16, <liquid:water>*20, <liquid:sulfuric_acid>*16, <ore:dustAluminium>*3, <contenttweaker:gallium_dust>*1, null, 1.0, 5.0, 0.001);
 
 //AsGa dust prep
-mods.nuclearcraft.Assembler.addRecipe(<contenttweaker:gallium_dust>*1, <nuclearcraft:gem_dust:10>*1, <contenttweaker:gallium_arsenide_dust>*1);
+mods.nuclearcraft.Assembler.addRecipe(<contenttweaker:gallium_dust>*1, <nuclearcraft:gem_dust:10>*1, <contenttweaker:gallium_arsenide_dust>*1, 1.0, 5.0, 0.001);
 
 //Silicon Boule prep
 //mods.nuclearcraft.AlloyFurnace.addRecipe(IIngredient itemInput1, IIngredient itemInput2, IIngredient itemOutput);
