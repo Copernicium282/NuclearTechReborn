@@ -68,3 +68,10 @@ temp = VanillaFactory.createItem("li_infused_schrabidate_quad_rod");
 temp.register();
 temp = VanillaFactory.createItem("rod_dilithium_pure");
 temp.register();
+
+//Circuits Gregification
+
+temp = VanillaFactory.createItem("gallium_dust");
+temp.register();
+temp = VanillaFactory.createItem("gallium_arsenide_dust");
+temp.register();
