@@ -37,7 +37,7 @@ recipes.addShaped("BasicCircuitBoard", <contenttweaker:basic_circuit_board>*3,
 [<hbm:wire_aluminium>, <hbm:wire_aluminium>, <hbm:wire_aluminium>]]);
 
 // Basic Resistor
-recipes.addShaped("BasicCircuitBoard", <contenttweaker:basic_resistor>*2,
+recipes.addShaped("BasicResistor", <contenttweaker:basic_resistor>*2,
 [[<minecraft:slime_ball>, <minecraft:paper>, <minecraft:slime_ball>],
 [<hbm:wire_aluminium>, <minecraft:redstone>, <hbm:wire_aluminium>],
 [null, <minecraft:paper>, null]]);
