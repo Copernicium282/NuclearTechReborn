@@ -1,0 +1,19 @@
+recipes.addShaped("AdvancedCircuit1", <advancedrocketry:ic:0>,
+[[<contenttweaker:basic_resistor>, <libvulpes:productplate:6>, <contenttweaker:basic_resistor>],
+[<immersiveengineering:material:26>, <contenttweaker:advanced_circuit_board>, <immersiveengineering:material:26>],
+[<hbm:red_cable>, <hbm:red_cable>, <hbm:red_cable>]]);
+
+recipes.addShaped("AdvancedCircuit2", <hbm:circuit_aluminium>,
+[[<contenttweaker:basic_resistor>, <hbm:plate_steel>, <contenttweaker:basic_resistor>],
+[<immersiveengineering:material:26>, <contenttweaker:advanced_circuit_board>, <immersiveengineering:material:26>],
+[<hbm:red_cable>, <hbm:red_cable>, <hbm:red_cable>]]);
+
+recipes.addShaped("AdvancedCircuit3", <mekanism:controlcircuit:0>,
+[[<contenttweaker:basic_resistor>, <immersiveengineering:metal:38>, <contenttweaker:basic_resistor>],
+[<immersiveengineering:material:26>, <contenttweaker:advanced_circuit_board>, <immersiveengineering:material:26>],
+[<hbm:red_cable>, <hbm:red_cable>, <hbm:red_cable>]]);
+
+recipes.addShaped("AdvancedCircuit4", <refinedstorage:processor:3>,
+[[<contenttweaker:basic_resistor>, <refinedstorage:quartz_enriched_iron>, <contenttweaker:basic_resistor>],
+[<immersiveengineering:material:26>, <contenttweaker:advanced_circuit_board>, <immersiveengineering:material:26>],
+[<hbm:red_cable>, <hbm:red_cable>, <hbm:red_cable>]]);
