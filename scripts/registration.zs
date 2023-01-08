@@ -89,3 +89,5 @@ temp = VanillaFactory.createItem("redstonic_circuit_board");
 temp.register();
 temp = VanillaFactory.createItem("advanced_circuit_board");
 temp.register();
+temp = VanillaFactory.createItem("silver_bolt");
+temp.register();

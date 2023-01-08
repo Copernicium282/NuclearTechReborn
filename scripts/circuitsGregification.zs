@@ -9,8 +9,8 @@ import mods.mekanism.sawmill;
 import mods.mekanism.infuser;
 
 //Gallium production
-//mods.qmd.ore_leacher.addRecipe(IIngredient inputItem,IIngredient inputFluid1, IIngredient inputFluid2, IIngredient inputfluid3, IIngredient outputItem1, IIngredient outputItem2, IIngredient OutputItem3)
-mods.qmd.ore_leacher.addRecipe(<ore:oreAluminium>, <liquid:nitric_acid>*16, <liquid:water>*20, <liquid:sulfuric_acid>*16, <ore:dustAluminium>*3, <contenttweaker:gallium_dust>*1, null, 1.0, 5.0, 0.001);
+val ga = ChanceItemIngredient.create(<contenttweaker:gallium_dust>, 20) as IIngredient;
+mods.nuclearcraft.Separator.addRecipe(<ore:oreAluminium>*1, <ore:dustAluminium>*2, ga);
 
 //AsGa dust prep
 mods.nuclearcraft.Assembler.addRecipe(<contenttweaker:gallium_dust>*1, <nuclearcraft:gem_dust:10>*1, null, null, <contenttweaker:gallium_arsenide_dust>*1);
@@ -86,4 +86,31 @@ recipes.addShaped("AdvancedCircuitBoard", <contenttweaker:advanced_circuit_board
 //Diode
 mods.nuclearcraft.Assembler.addRecipe(<hbm:wire_copper>*4, <qmd:semiconductor:2>*1, <mekanism:polyethene:2>*4, null, <contenttweaker:diode>*4);
 
+//Silver Bolt
+mods.nuclearcraft.Manufactory.addRecipe(<immersiveposts:metal_rods:3>*1, <contenttweaker:silver_bolt>*4);
+
+//Removing old recipes of circuits
+recipes.removeByRecipeName("mekanism:controlcircuit_1");
+recipes.removeByRecipeName("refinedstorage:raw_advanced_processor");
+
 //Advanced Circuit Recipes (Gregified)
+
+recipes.addShaped("AdvancedCircuit1", <advancedrocketry:ic:2>,
+[[<contenttweaker:diode>, <hbm:plate_steel>, <contenttweaker:diode>],
+[<advancedrocketry:ic:0>, <contenttweaker:advanced_circuit_board>, <advancedrocketry:ic:0>],
+[<hbm:wire_copper>, <hbm:wire_copper>, <hbm:wire_copper>]]);
+
+recipes.addShaped("AdvancedCircuit2", <hbm:circuit_red_copper>,
+[[<contenttweaker:diode>, <hbm:plate_steel>, <contenttweaker:diode>],
+[<hbm:circuit_aluminium>, <contenttweaker:advanced_circuit_board>, <hbm:circuit_aluminium>],
+[<hbm:wire_copper>, <hbm:wire_copper>, <hbm:wire_copper>]]);
+
+recipes.addShaped("AdvancedCircuit3", <mekanism:controlcircuit:1>,
+[[<contenttweaker:diode>, <hbm:plate_steel>, <contenttweaker:diode>],
+[<mekanism:controlcircuit:0>, <contenttweaker:advanced_circuit_board>, <mekanism:controlcircuit:0>],
+[<hbm:wire_copper>, <hbm:wire_copper>, <hbm:wire_copper>]]);
+
+recipes.addShaped("AdvancedCircuit4", <refinedstorage:processor:5>,
+[[<contenttweaker:diode>, <hbm:plate_steel>, <contenttweaker:diode>],
+[<refinedstorage:processor:3>, <contenttweaker:advanced_circuit_board>, <refinedstorage:processor:3>],
+[<hbm:wire_copper>, <hbm:wire_copper>, <hbm:wire_copper>]]);
