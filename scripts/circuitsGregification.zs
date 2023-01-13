@@ -69,6 +69,57 @@ recipes.addShaped("BasicCircuit4", <refinedstorage:processor:3>,
 [<immersiveengineering:material:26>, <contenttweaker:basic_circuit_board>, <immersiveengineering:material:26>],
 [<hbm:red_cable>, <hbm:red_cable>, <hbm:red_cable>]]);
 
+//Circuit Assembler Basic Circuits
+
+//Soldering Alloy
+mods.nuclearcraft.Assembler.addRecipe(<ore:dustTin>*3, <ore:dustLead>*2, null, null, <contenttweaker:soldering_alloy>*4);
+mods.nuclearcraft.Melter.addRecipe(<contenttweaker:soldering_alloy>*1, <liquid:soldering_alloy>*144);
+
+//Recipes
+val BasicCircuit1c = RecipeBuilder.newBuilder("BasicCircuit1c", "circuit_assembler", 10);
+BasicCircuit1c.addItemInput(<contenttweaker:basic_resistor> * 2);
+BasicCircuit1c.addItemInput(<immersiveengineering:material:26> * 2);
+BasicCircuit1c.addItemInput(<contenttweaker:basic_circuit_board> * 1);
+BasicCircuit1c.addItemInput(<libvulpes:productplate:6> * 1);
+BasicCircuit1c.addItemInput(<hbm:red_cable> * 3);
+BasicCircuit1c.addFluidInput(<liquid:soldering_alloy>*144);
+BasicCircuit1c.addItemOutput(<advancedrocketry:ic:0> * 2);
+BasicCircuit1c.addEnergyPerTickInput(16);
+BasicCircuit1c.build();
+
+val BasicCircuit2c = RecipeBuilder.newBuilder("BasicCircuit2c", "circuit_assembler", 10);
+BasicCircuit2c.addItemInput(<contenttweaker:basic_resistor> * 2);
+BasicCircuit2c.addItemInput(<immersiveengineering:material:26> * 2);
+BasicCircuit2c.addItemInput(<contenttweaker:basic_circuit_board> * 1);
+BasicCircuit2c.addItemInput(<hbm:plate_steel> * 1);
+BasicCircuit2c.addItemInput(<hbm:red_cable> * 3);
+BasicCircuit2c.addFluidInput(<liquid:soldering_alloy>*144);
+BasicCircuit2c.addItemOutput(<hbm:circuit_aluminium> * 2);
+BasicCircuit2c.addEnergyPerTickInput(16);
+BasicCircuit2c.build();
+
+val BasicCircuit3c = RecipeBuilder.newBuilder("BasicCircuit3c", "circuit_assembler", 10);
+BasicCircuit3c.addItemInput(<contenttweaker:basic_resistor> * 2);
+BasicCircuit3c.addItemInput(<immersiveengineering:material:26> * 2);
+BasicCircuit3c.addItemInput(<contenttweaker:basic_circuit_board> * 1);
+BasicCircuit3c.addItemInput(<immersiveengineering:metal:38> * 1);
+BasicCircuit3c.addItemInput(<hbm:red_cable> * 3);
+BasicCircuit3c.addFluidInput(<liquid:soldering_alloy>*144);
+BasicCircuit3c.addItemOutput(<mekanism:controlcircuit:0> * 2);
+BasicCircuit3c.addEnergyPerTickInput(16);
+BasicCircuit3c.build();
+
+val BasicCircuit4c = RecipeBuilder.newBuilder("BasicCircuit4c", "circuit_assembler", 10);
+BasicCircuit4c.addItemInput(<contenttweaker:basic_resistor> * 2);
+BasicCircuit4c.addItemInput(<immersiveengineering:material:26> * 2);
+BasicCircuit4c.addItemInput(<contenttweaker:basic_circuit_board> * 1);
+BasicCircuit4c.addItemInput(<refinedstorage:quartz_enriched_iron> * 1);
+BasicCircuit4c.addItemInput(<hbm:red_cable> * 3);
+BasicCircuit4c.addFluidInput(<liquid:soldering_alloy>*144);
+BasicCircuit4c.addItemOutput(<refinedstorage:processor:3> * 2);
+BasicCircuit4c.addEnergyPerTickInput(16);
+BasicCircuit4c.build();
+
 //Glass Lens Red
 mods.nuclearcraft.Manufactory.addRecipe(<advancedrocketry:lens:0>*1, <contenttweaker:glass_lens_blank>*1);
 mods.nuclearcraft.Assembler.addRecipe(<contenttweaker:glass_lens_blank>*1, <minecraft:dye:1>*1, null, null, <contenttweaker:glass_lens_red>*1);
@@ -114,3 +165,49 @@ recipes.addShaped("AdvancedCircuit4", <refinedstorage:processor:5>,
 [[<contenttweaker:diode>, <hbm:plate_steel>, <contenttweaker:diode>],
 [<refinedstorage:processor:3>, <contenttweaker:advanced_circuit_board>, <refinedstorage:processor:3>],
 [<hbm:wire_copper>, <hbm:wire_copper>, <hbm:wire_copper>]]);
+
+//Circuit Assembler Advanced Circuits
+//Recipes
+val AdvancedCircuit1c = RecipeBuilder.newBuilder("AdvancedCircuit1c", "circuit_assembler", 15);
+AdvancedCircuit1c.addItemInput(<contenttweaker:diode> * 2);
+AdvancedCircuit1c.addItemInput(<advancedrocketry:ic:0> * 2);
+AdvancedCircuit1c.addItemInput(<contenttweaker:advanced_circuit_board> * 1);
+AdvancedCircuit1c.addItemInput(<hbm:plate_steel> * 1);
+AdvancedCircuit1c.addItemInput(<hbm:wire_copper> * 3);
+AdvancedCircuit1c.addFluidInput(<liquid:soldering_alloy>*144);
+AdvancedCircuit1c.addItemOutput(<advancedrocketry:ic:2> * 2);
+AdvancedCircuit1c.addEnergyPerTickInput(30);
+AdvancedCircuit1c.build();
+
+val AdvancedCircuit2c = RecipeBuilder.newBuilder("AdvancedCircuit2c", "circuit_assembler", 15);
+AdvancedCircuit2c.addItemInput(<contenttweaker:diode> * 2);
+AdvancedCircuit2c.addItemInput(<hbm:circuit_aluminium> * 2);
+AdvancedCircuit2c.addItemInput(<contenttweaker:advanced_circuit_board> * 1);
+AdvancedCircuit2c.addItemInput(<hbm:plate_steel> * 1);
+AdvancedCircuit2c.addItemInput(<hbm:wire_copper> * 3);
+AdvancedCircuit2c.addFluidInput(<liquid:soldering_alloy>*144);
+AdvancedCircuit2c.addItemOutput(<hbm:circuit_red_copper> * 2);
+AdvancedCircuit2c.addEnergyPerTickInput(30);
+AdvancedCircuit2c.build();
+
+val AdvancedCircuit3c = RecipeBuilder.newBuilder("AdvancedCircuit3c", "circuit_assembler", 15);
+AdvancedCircuit3c.addItemInput(<contenttweaker:diode> * 2);
+AdvancedCircuit3c.addItemInput(<mekanism:controlcircuit:0> * 2);
+AdvancedCircuit3c.addItemInput(<contenttweaker:advanced_circuit_board> * 1);
+AdvancedCircuit3c.addItemInput(<hbm:plate_steel> * 1);
+AdvancedCircuit3c.addItemInput(<hbm:wire_copper> * 3);
+AdvancedCircuit3c.addFluidInput(<liquid:soldering_alloy>*144);
+AdvancedCircuit3c.addItemOutput(<mekanism:controlcircuit:1> * 2);
+AdvancedCircuit3c.addEnergyPerTickInput(30);
+AdvancedCircuit3c.build();
+
+val AdvancedCircuit4c = RecipeBuilder.newBuilder("AdvancedCircuit4c", "circuit_assembler", 15);
+AdvancedCircuit4c.addItemInput(<contenttweaker:diode> * 2);
+AdvancedCircuit4c.addItemInput(<refinedstorage:processor:3> * 2);
+AdvancedCircuit4c.addItemInput(<contenttweaker:advanced_circuit_board> * 1);
+AdvancedCircuit4c.addItemInput(<hbm:plate_steel> * 1);
+AdvancedCircuit4c.addItemInput(<hbm:wire_copper> * 3);
+AdvancedCircuit4c.addFluidInput(<liquid:soldering_alloy>*144);
+AdvancedCircuit4c.addItemOutput(<refinedstorage:processor:5> * 2);
+AdvancedCircuit4c.addEnergyPerTickInput(30);
+AdvancedCircuit4c.build();

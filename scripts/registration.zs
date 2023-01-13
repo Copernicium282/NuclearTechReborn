@@ -7,8 +7,8 @@ import mods.contenttweaker.Item;
  
 //fluids
  
-var fluidNames = ["deuterium_enriched_water","mixtureofgas","carbonicacid","polonium","lithiumsix","lithiumsvn","boronten","boronelvn","spicygold","contaminated_water","uranium_hexafluoride","uranium_hexafluoride_low","uranium_hexafluoride_medium","uranium_hexafluoride_high","hydrogen_peroxide"] as string[];
-var colorsNamed = ["5871F5","4671F5","4671F5","7C9C98","ECECEC","CBCBCB","9A9A9A","757575","FFEC42","514326","E2E2D0","E2E2D0","E2E2D0","E2E2D0","FFFFFF"] as string[];
+var fluidNames = ["deuterium_enriched_water","mixtureofgas","carbonicacid","polonium","lithiumsix","lithiumsvn","boronten","boronelvn","spicygold","contaminated_water","uranium_hexafluoride","uranium_hexafluoride_low","uranium_hexafluoride_medium","uranium_hexafluoride_high","hydrogen_peroxide","soldering_alloy"] as string[];
+var colorsNamed = ["5871F5","4671F5","4671F5","7C9C98","ECECEC","CBCBCB","9A9A9A","757575","FFEC42","514326","E2E2D0","E2E2D0","E2E2D0","E2E2D0","FFFFFF","3D3D3D"] as string[];
  
 for i,name in fluidNames{
 	var zsFluid = VanillaFactory.createFluid(name,Color.fromHex(colorsNamed[i]));
@@ -90,4 +90,6 @@ temp.register();
 temp = VanillaFactory.createItem("advanced_circuit_board");
 temp.register();
 temp = VanillaFactory.createItem("silver_bolt");
+temp.register();
+temp = VanillaFactory.createItem("soldering_alloy");
 temp.register();
