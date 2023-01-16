@@ -7,10 +7,10 @@ import mods.nuclearcraft.Assembler;
 import mods.qmd.ore_leacher;
 import mods.mekanism.sawmill;
 import mods.mekanism.infuser;
+import mods.modularmachinery.RecipeBuilder;
 
 //Gallium production
-val ga = ChanceItemIngredient.create(<contenttweaker:gallium_dust>, 20) as IIngredient;
-mods.nuclearcraft.Separator.addRecipe(<ore:oreAluminium>*1, <ore:dustAluminium>*2, ga);
+mods.nuclearcraft.Separator.addRecipe(<ore:oreAluminium>*5, <ore:dustAluminium>*10, <contenttweaker:gallium_dust>);
 
 //AsGa dust prep
 mods.nuclearcraft.Assembler.addRecipe(<contenttweaker:gallium_dust>*1, <nuclearcraft:gem_dust:10>*1, null, null, <contenttweaker:gallium_arsenide_dust>*1);

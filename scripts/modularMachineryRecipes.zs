@@ -62,6 +62,21 @@ recipes.addShaped("ModularMachinery_BigEnergyInput", <modularmachinery:blockener
 [<modularmachinery:blockenergyinputhatch:3>, <hbm:machine_lithium_battery>, <modularmachinery:blockenergyinputhatch:3>],
 [<advancedrocketry:ic:2>, <minecraft:repeater>, <advancedrocketry:ic:2>]]);
 
+recipes.addShaped("ModularMachinery_Vent", <modularmachinery:blockcasing:1>,
+[[null, null, null],
+[null, <modularmachinery:blockcasing:0>, null],
+[null, <advancedrocketry:oxygenvent>, null]]);
+
+recipes.addShaped("ModularMachinery_Gearbox", <modularmachinery:blockcasing:3>,
+[[null, null, null],
+[null, <modularmachinery:blockcasing:0>, null],
+[null, <chisel:technical:10>, null]]);
+
+recipes.addShaped("ModularMachinery_Circuitry", <modularmachinery:blockcasing:5>,
+[[<hbm:circuit_copper>, <hbm:circuit_copper>, <hbm:circuit_copper>],
+[<hbm:circuit_copper>, <modularmachinery:blockcasing:0>, <hbm:circuit_copper>],
+[<hbm:circuit_copper>, <hbm:circuit_copper>, <hbm:circuit_copper>]]);
+
 
 //Blueprint Recipes
 
@@ -105,3 +120,13 @@ recipes.addShaped("gas_centrifuge", <modularmachinery:itemblueprint>.withTag({dy
 [[<qmd:ingot_alloy:5>, <qmd:part:3>, <qmd:ingot_alloy:5>],
 [<qmd:ingot_alloy:3>, <nuclearcraft:centrifuge>, <qmd:ingot_alloy:3>],
 [<qmd:ingot_alloy:5>, <qmd:part:3>, <qmd:ingot_alloy:5>]]);
+
+recipes.addShaped("circuit_assembler", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:circuit_assembler"}),
+[[null, <hbm:machine_assembler>, null],
+[null, <modularmachinery:itemmodularium>, null],
+[null, null, null]]);
+
+//upgrade templates
+mods.nuclearcraft.Assembler.addRecipe(<ore:plateSteel>*6, <hbm:bolt_tungsten>*24, null, null, <contenttweaker:machine_upgrade_template>*1);
+mods.nuclearcraft.Assembler.addRecipe(<contenttweaker:machine_upgrade_template>*1, <mekanism:tierinstaller:1>*2, null, null, <contenttweaker:upgrade_speed_a>*1);
+mods.nuclearcraft.Assembler.addRecipe(<contenttweaker:upgrade_speed_a>*1, <mekanism:tierinstaller:2>*4, null, null, <contenttweaker:upgrade_speed_b>*1);

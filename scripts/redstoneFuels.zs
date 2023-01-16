@@ -8,26 +8,34 @@ import mods.nuclearcraft.SolidFission;
 import mods.nuclearcraft.FuelReprocessor;
 import mods.nuclearcraft.ChanceItemIngredient;
 
+//Billets
+
+mods.nuclearcraft.Assembler.addRecipe(<mekanism:compressedredstone>*24, <ore:dustGraphite>*4, <ore:dustBeryllium>*2, <ore:dustRadium>*2, <contenttweaker:billet_her>);
+mods.nuclearcraft.Assembler.addRecipe(<mekanism:compressedredstone>*12, <ore:dustGraphite>*4, <ore:dustBeryllium>*2, <ore:dustRadium>*2, <contenttweaker:billet_mer>);
+mods.nuclearcraft.Assembler.addRecipe(<mekanism:compressedredstone>*6, <ore:dustGraphite>*4, <ore:dustBeryllium>*2, <ore:dustRadium>*2, <contenttweaker:billet_ler>);
+
 //Fuel
 
-mods.nuclearcraft.Assembler.addRecipe(<hbm:billet_yharonite>*1, <hbm:cladding_lead>*1, <hbm:billet_les>*1, <contenttweaker:billet_her>);
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotCobalt>, <ore:ingotZircaloy>, <ore:ingotLead>, <contenttweaker:billet_her>*9, <contenttweaker:pellet_fuel_her>);
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotCobalt>, <ore:ingotZircaloy>, <ore:ingotLead>, <contenttweaker:billet_mer>*9, <contenttweaker:pellet_fuel_mer>);
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotCobalt>, <ore:ingotZircaloy>, <ore:ingotLead>, <contenttweaker:billet_ler>*9, <contenttweaker:pellet_fuel_ler>);
 
 //Tooltips
 
-<contenttweaker:pellet_fuel_her>.addShiftTooltip(format.italic("Low-Enriched Scrhabidium Sandwiched Yharonite Billet Fuel"), format.gray("Hold Shift for more info"));
-<contenttweaker:pellet_fuel_her>.addShiftTooltip(format.blue("Arrives From: Elliptical non-euclidean shapes"));
-<contenttweaker:pellet_fuel_her>.addShiftTooltip(format.blue("Departs to: Hyperbolic non-euclidean shapes"));
-<contenttweaker:pellet_fuel_her>.addShiftTooltip(format.yellow("Function Type: MEDIUM / SQUARE ROOT"));
-//Lead Creation Function
-//x * 0.5
+<contenttweaker:pellet_fuel_her>.addShiftTooltip(format.italic("Highly Enriched Redstone-Based Starter Fuel"), format.gray("Hold Shift for more info"));
+<contenttweaker:pellet_fuel_her>.addShiftTooltip(format.blue("Splits with: Slow Neutrons"));
+<contenttweaker:pellet_fuel_her>.addShiftTooltip(format.blue("Splits into: Fast Neutrons"));
+<contenttweaker:pellet_fuel_her>.addShiftTooltip(format.green("Function Type: SAFE / LINEAR"));
 
-//Lead Destruction Function
-//x² * 50
+<contenttweaker:pellet_fuel_mer>.addShiftTooltip(format.italic("Medium-Enriched Redstone-Based Starter Fuel"), format.gray("Hold Shift for more info"));
+<contenttweaker:pellet_fuel_mer>.addShiftTooltip(format.blue("Splits with: Slow Neutrons"));
+<contenttweaker:pellet_fuel_mer>.addShiftTooltip(format.blue("Splits into: Fast Neutrons"));
+<contenttweaker:pellet_fuel_mer>.addShiftTooltip(format.green("Function Type: SAFE / LINEAR"));
 
-//Doom Function
-//(x + 10)² / 10000 * 10000
-
-
+<contenttweaker:pellet_fuel_ler>.addShiftTooltip(format.italic("Low-Enriched Redstone-Based Starter Fuel"), format.gray("Hold Shift for more info"));
+<contenttweaker:pellet_fuel_ler>.addShiftTooltip(format.blue("Splits with: Slow Neutrons"));
+<contenttweaker:pellet_fuel_ler>.addShiftTooltip(format.blue("Splits into: Fast Neutrons"));
+<contenttweaker:pellet_fuel_ler>.addShiftTooltip(format.green("Function Type: SAFE / LINEAR"));
 
 //Fission Recipes
 //mods.nuclearcraft.SolidFission.addRecipe(FuelInputName, DepletedFuelName, ProcessTimeInTicks, HeatPerTick, BaseEfficiency, CriticalityFactor, DecayFactor, SelfPrimingOrNot(true/false), RadiationEmitted);

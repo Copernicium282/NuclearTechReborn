@@ -7,25 +7,8 @@ import mods.nuclearcraft.Separator;
 
 mods.nuclearcraft.Separator.removeRecipeWithOutput(<nuclearcraft:uranium:10>*9, <nuclearcraft:uranium:5>*1);
 
-val yellowcake_processing = RecipeBuilder.newBuilder("yellowcake_processing", "chemical_plant", 300);
-yellowcake_processing.addItemInput(<nuclearcraft:dust:4> * 12);
-yellowcake_processing.addItemInput(<mekanism:otherdust:3> * 8);
-yellowcake_processing.addFluidInput(<liquid:water> * 1000);
-yellowcake_processing.addItemOutput(<contenttweaker:powder_yellowcake> * 2);
-yellowcake_processing.addEnergyPerTickInput(100);
-yellowcake_processing.build();
-
-val uranium_hexafluoride_processing = RecipeBuilder.newBuilder("uranium_hexafluoride_processing", "chemical_plant", 300);
-uranium_hexafluoride_processing.addItemInput(<contenttweaker:powder_yellowcake> * 1);
-uranium_hexafluoride_processing.addItemInput(<nuclearcraft:gem_dust:5> * 3);
-uranium_hexafluoride_processing.addFluidInput(<liquid:water> * 1000);
-uranium_hexafluoride_processing.addItemOutput(<mekanism:otherdust:3> * 4);
-uranium_hexafluoride_processing.addFluidOutput(<liquid:uranium_hexafluoride> * 200);
-uranium_hexafluoride_processing.addEnergyPerTickInput(100);
-uranium_hexafluoride_processing.build();
-
 val leuf = RecipeBuilder.newBuilder("leuf", "gas_centrifuge", 120);
-leuf.addFluidInput(<liquid:uranium_hexafluoride> * 1000);
+leuf.addFluidInput(<liquid:uf6> * 1000);
 leuf.addFluidOutput(<liquid:uranium_hexafluoride_low> * 800);
 leuf.addItemOutput(<nuclearcraft:uranium:10> * 4);
 leuf.build();
