@@ -1,6 +1,6 @@
 {
     "registryname": "decay_pool",
-    "localizedname": "Decay Pool (Tier 1)",
+    "localizedname": "Decay Pool",
     "requires-blueprint": true,
     "parts": [
         {
@@ -8,7 +8,23 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "tconstruct:seared_glass@0"
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:glass@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
             ]
         },
         {
@@ -16,100 +32,12 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "minecraft:water@0"
+                "chisel:glass@5"
             ]
         },
         {
-            "x": -2,
+            "x": 0,
             "y": 0,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "tconstruct:seared_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "tconstruct:seared_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "tconstruct:seared_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
             "z": 1,
             "elements": [
                 "minecraft:water@0"
@@ -117,18 +45,82 @@
         },
         {
             "x": 1,
-            "y": -1,
+            "y": 0,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@2"
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:glass@5"
             ]
         },
         {
             "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
             "y": -1,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@2"
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
             ]
         },
         {
@@ -136,7 +128,23 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "minecraft:water@0"
+                "hbm:brick_concrete@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
             ]
         },
         {
@@ -144,7 +152,23 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "tconstruct:seared_glass@0"
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
             ]
         },
         {
@@ -152,15 +176,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "tconstruct:seared_glass@0"
+                "chisel:technicalnew@2"
             ]
         },
         {
@@ -168,327 +184,95 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@2"
+                "chisel:technicalnew@2"
             ]
         },
         {
-            "x": -2,
-            "y": -1,
+            "x": 0,
+            "y": 1,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@2"
+                "chisel:technicalnew@2"
             ]
         },
         {
-            "x": 2,
-            "y": 3,
+            "x": -1,
+            "y": 1,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@2"
+                "chisel:glass@5"
             ]
         },
         {
             "x": 1,
-            "y": 1,
-            "z": 0,
+            "y": 3,
+            "z": 2,
             "elements": [
-                "tconstruct:seared_glass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "tconstruct:seared_glass@0"
+                "chisel:technicalnew@2"
             ]
         },
         {
             "x": 0,
             "y": 1,
-            "z": 4,
+            "z": 1,
             "elements": [
-                "tconstruct:seared_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "qmd:discharge_lamp2@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
+                "hbm:machine_geo@0"
             ]
         },
         {
             "x": 1,
             "y": 1,
-            "z": 4,
+            "z": 0,
             "elements": [
-                "tconstruct:seared_glass@0"
+                "chisel:technicalnew@2"
             ]
         },
         {
-            "x": 2,
+            "x": -1,
             "y": 1,
-            "z": 4,
+            "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "qmd:discharge_lamp2@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "tconstruct:seared_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "tconstruct:seared_glass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "tconstruct:seared_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
+                "chisel:technicalnew@2"
             ]
         },
         {
             "x": 0,
-            "y": 0,
-            "z": 3,
+            "y": 1,
+            "z": 2,
             "elements": [
                 "modularmachinery:blockenergyoutputhatch@0"
             ]
         },
         {
             "x": 1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "tconstruct:seared_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "minecraft:water@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
             "y": 1,
-            "z": 3,
+            "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@2"
+                "chisel:glass@5"
             ]
         },
         {
             "x": -1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
             "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
+                "chisel:technicalnew@2"
             ]
         },
         {
             "x": 0,
-            "y": 1,
-            "z": 3,
+            "y": -1,
+            "z": 1,
             "elements": [
-                "minecraft:water@0"
+                "chisel:technicalnew@2"
             ]
         },
         {
@@ -496,7 +280,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@2"
+                "chisel:technicalnew@2"
             ]
         },
         {
@@ -504,31 +288,15 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
+                "chisel:technicalnew@2"
             ]
         },
         {
             "x": 1,
-            "y": 1,
-            "z": 3,
+            "y": -1,
+            "z": 1,
             "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
+                "chisel:technicalnew@2"
             ]
         },
         {
@@ -536,439 +304,55 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
+                "chisel:technicalnew@2"
             ]
         },
         {
             "x": -1,
             "y": 2,
-            "z": 3,
+            "z": 0,
             "elements": [
-                "minecraft:water@0"
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:glass@5"
             ]
         },
         {
             "x": 0,
             "y": 2,
-            "z": 3,
+            "z": 0,
             "elements": [
                 "modularmachinery:blockinputbus@0"
             ]
         },
         {
             "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:metal_device1@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "mekanism:basicblock2@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "qmd:discharge_lamp2@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "qmd:discharge_lamp2@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
             "y": 2,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "minecraft:water@0"
+                "chisel:technicalnew@2"
             ]
         },
         {
             "x": 0,
             "y": 2,
-            "z": 2,
+            "z": 1,
             "elements": [
                 "nuclearcraft:decay_generator@0"
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 2,
-            "z": 2,
+            "z": 0,
             "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
+                "chisel:technicalnew@2"
             ]
         }
     ]}

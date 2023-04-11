@@ -37,19 +37,19 @@ for item in Junk {
 //New and cheaper recipes for everyone!
 
 recipes.addShaped("mekenergytablet", <mekanism:energytablet>,
-[[<industrialrenewal:battery>, <qmd:part:6>, <industrialrenewal:battery>],
+[[<nuclearcraft:lithium_ion_cell>, <qmd:part:6>, <nuclearcraft:lithium_ion_cell>],
 [<qmd:semiconductor:1>, <mekanism:ingot:1>, <qmd:semiconductor:1>],
-[<industrialrenewal:battery>, <qmd:part:6>, <industrialrenewal:battery>]]);
+[<nuclearcraft:lithium_ion_cell>, <qmd:part:6>, <nuclearcraft:lithium_ion_cell>]]);
 
 recipes.addShaped("mekeportableteleporter", <mekanism:portableteleporter>,
-[[<industrialrenewal:battery>, <qmd:part:4>, <industrialrenewal:battery>],
+[[<nuclearcraft:lithium_ion_cell>, <qmd:part:4>, <nuclearcraft:lithium_ion_cell>],
 [<qmd:semiconductor:0>, <mekanism:teleportationcore>, <qmd:semiconductor:0>],
-[<industrialrenewal:battery>, <qmd:part:4>, <industrialrenewal:battery>]]);
+[<nuclearcraft:lithium_ion_cell>, <qmd:part:4>, <nuclearcraft:lithium_ion_cell>]]);
 
 recipes.addShaped("meklaserfocus", <bfr:reactorglass:1>,
-[[<industrialrenewal:battery>, <qmd:part:4>, <industrialrenewal:battery>],
+[[<nuclearcraft:lithium_ion_cell>, <qmd:part:4>, <nuclearcraft:lithium_ion_cell>],
 [<advancedrocketry:lens:0>, <qmd:part:10>, <advancedrocketry:lens:0>],
-[<industrialrenewal:battery>, <qmd:part:4>, <industrialrenewal:battery>]]);
+[<nuclearcraft:lithium_ion_cell>, <qmd:part:4>, <nuclearcraft:lithium_ion_cell>]]);
 
 recipes.addShaped("mektelepframe", <mekanism:basicblock:7>,
 [[<qmd:ingot_alloy:6>, <qmd:part:4>, <qmd:ingot_alloy:6>],

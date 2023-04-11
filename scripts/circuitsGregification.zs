@@ -10,10 +10,13 @@ import mods.mekanism.infuser;
 import mods.modularmachinery.RecipeBuilder;
 
 //Gallium production
-mods.nuclearcraft.Separator.addRecipe(<ore:oreAluminium>*5, <ore:dustAluminium>*10, <contenttweaker:gallium_dust>);
+mods.nuclearcraft.Separator.addRecipe(<hbm:ore_aluminium>*5, <hbm:powder_aluminium>*10, <contenttweaker:gallium_dust>*1);
 
-//AsGa dust prep
+//AsGa dust prep 
 mods.nuclearcraft.Assembler.addRecipe(<contenttweaker:gallium_dust>*1, <nuclearcraft:gem_dust:10>*1, null, null, <contenttweaker:gallium_arsenide_dust>*1);
+
+//Vacuum Tube production
+mods.nuclearcraft.Assembler.addRecipe(<minecraft:glass>*1, <hbm:plate_steel>*2, <hbm:wire_copper>*1, null, <contenttweaker:vacuum_tube>*1);
 
 //Silicon Boule prep
 //mods.nuclearcraft.AlloyFurnace.addRecipe(IIngredient itemInput1, IIngredient itemInput2, IIngredient itemOutput);
@@ -51,22 +54,22 @@ recipes.removeByRecipeName("refinedstorage:raw_basic_processor");
 //Basic Circuit Recipes (Gregified)
 recipes.addShaped("BasicCircuit1", <advancedrocketry:ic:0>,
 [[<contenttweaker:basic_resistor>, <libvulpes:productplate:6>, <contenttweaker:basic_resistor>],
-[<immersiveengineering:material:26>, <contenttweaker:basic_circuit_board>, <immersiveengineering:material:26>],
+[<contenttweaker:vacuum_tube>, <contenttweaker:basic_circuit_board>, <contenttweaker:vacuum_tube>],
 [<hbm:red_cable>, <hbm:red_cable>, <hbm:red_cable>]]);
 
 recipes.addShaped("BasicCircuit2", <hbm:circuit_aluminium>,
 [[<contenttweaker:basic_resistor>, <hbm:plate_steel>, <contenttweaker:basic_resistor>],
-[<immersiveengineering:material:26>, <contenttweaker:basic_circuit_board>, <immersiveengineering:material:26>],
+[<contenttweaker:vacuum_tube>, <contenttweaker:basic_circuit_board>, <contenttweaker:vacuum_tube>],
 [<hbm:red_cable>, <hbm:red_cable>, <hbm:red_cable>]]);
 
 recipes.addShaped("BasicCircuit3", <mekanism:controlcircuit:0>,
-[[<contenttweaker:basic_resistor>, <immersiveengineering:metal:38>, <contenttweaker:basic_resistor>],
-[<immersiveengineering:material:26>, <contenttweaker:basic_circuit_board>, <immersiveengineering:material:26>],
+[[<contenttweaker:basic_resistor>, <mekanism:ingot:4>, <contenttweaker:basic_resistor>],
+[<contenttweaker:vacuum_tube>, <contenttweaker:basic_circuit_board>, <contenttweaker:vacuum_tube>],
 [<hbm:red_cable>, <hbm:red_cable>, <hbm:red_cable>]]);
 
 recipes.addShaped("BasicCircuit4", <refinedstorage:processor:3>,
 [[<contenttweaker:basic_resistor>, <refinedstorage:quartz_enriched_iron>, <contenttweaker:basic_resistor>],
-[<immersiveengineering:material:26>, <contenttweaker:basic_circuit_board>, <immersiveengineering:material:26>],
+[<contenttweaker:vacuum_tube>, <contenttweaker:basic_circuit_board>, <contenttweaker:vacuum_tube>],
 [<hbm:red_cable>, <hbm:red_cable>, <hbm:red_cable>]]);
 
 //Circuit Assembler Basic Circuits
@@ -78,7 +81,7 @@ mods.nuclearcraft.Melter.addRecipe(<contenttweaker:soldering_alloy>*1, <liquid:s
 //Recipes
 val BasicCircuit1c = RecipeBuilder.newBuilder("BasicCircuit1c", "circuit_assembler", 10);
 BasicCircuit1c.addItemInput(<contenttweaker:basic_resistor> * 2);
-BasicCircuit1c.addItemInput(<immersiveengineering:material:26> * 2);
+BasicCircuit1c.addItemInput(<contenttweaker:vacuum_tube> * 2);
 BasicCircuit1c.addItemInput(<contenttweaker:basic_circuit_board> * 1);
 BasicCircuit1c.addItemInput(<libvulpes:productplate:6> * 1);
 BasicCircuit1c.addItemInput(<hbm:red_cable> * 3);
@@ -89,7 +92,7 @@ BasicCircuit1c.build();
 
 val BasicCircuit2c = RecipeBuilder.newBuilder("BasicCircuit2c", "circuit_assembler", 10);
 BasicCircuit2c.addItemInput(<contenttweaker:basic_resistor> * 2);
-BasicCircuit2c.addItemInput(<immersiveengineering:material:26> * 2);
+BasicCircuit2c.addItemInput(<contenttweaker:vacuum_tube> * 2);
 BasicCircuit2c.addItemInput(<contenttweaker:basic_circuit_board> * 1);
 BasicCircuit2c.addItemInput(<hbm:plate_steel> * 1);
 BasicCircuit2c.addItemInput(<hbm:red_cable> * 3);
@@ -100,9 +103,9 @@ BasicCircuit2c.build();
 
 val BasicCircuit3c = RecipeBuilder.newBuilder("BasicCircuit3c", "circuit_assembler", 10);
 BasicCircuit3c.addItemInput(<contenttweaker:basic_resistor> * 2);
-BasicCircuit3c.addItemInput(<immersiveengineering:material:26> * 2);
+BasicCircuit3c.addItemInput(<contenttweaker:vacuum_tube> * 2);
 BasicCircuit3c.addItemInput(<contenttweaker:basic_circuit_board> * 1);
-BasicCircuit3c.addItemInput(<immersiveengineering:metal:38> * 1);
+BasicCircuit3c.addItemInput(<mekanism:ingot:4> * 1);
 BasicCircuit3c.addItemInput(<hbm:red_cable> * 3);
 BasicCircuit3c.addFluidInput(<liquid:soldering_alloy>*144);
 BasicCircuit3c.addItemOutput(<mekanism:controlcircuit:0> * 2);
@@ -111,7 +114,7 @@ BasicCircuit3c.build();
 
 val BasicCircuit4c = RecipeBuilder.newBuilder("BasicCircuit4c", "circuit_assembler", 10);
 BasicCircuit4c.addItemInput(<contenttweaker:basic_resistor> * 2);
-BasicCircuit4c.addItemInput(<immersiveengineering:material:26> * 2);
+BasicCircuit4c.addItemInput(<contenttweaker:vacuum_tube> * 2);
 BasicCircuit4c.addItemInput(<contenttweaker:basic_circuit_board> * 1);
 BasicCircuit4c.addItemInput(<refinedstorage:quartz_enriched_iron> * 1);
 BasicCircuit4c.addItemInput(<hbm:red_cable> * 3);
@@ -136,9 +139,6 @@ recipes.addShaped("AdvancedCircuitBoard", <contenttweaker:advanced_circuit_board
 
 //Diode
 mods.nuclearcraft.Assembler.addRecipe(<hbm:wire_copper>*4, <qmd:semiconductor:2>*1, <mekanism:polyethene:2>*4, null, <contenttweaker:diode>*4);
-
-//Silver Bolt
-mods.nuclearcraft.Manufactory.addRecipe(<immersiveposts:metal_rods:3>*1, <contenttweaker:silver_bolt>*4);
 
 //Removing old recipes of circuits
 recipes.removeByRecipeName("mekanism:controlcircuit_1");

@@ -172,3 +172,4 @@ iridium.addItemInput(<qmd:isotope:7> * 1);
 iridium.addItemOutput(<qmd:dust:10> * 1);
 iridium.addEnergyPerTickOutput(10);
 iridium.build();
+

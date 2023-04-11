@@ -1,6 +1,0 @@
-
-{
-  "Name": "entity_nuclear_creeper",
-  "Registry ID": "hbm:entity_nuclear_creeper",
-  "Class": "com.hbm.entity.mob.EntityNuclearCreeper"
-}

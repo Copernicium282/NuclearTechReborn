@@ -7,23 +7,15 @@
         {
             "x": -1,
             "y": 0,
-            "z": 0,
-            "elements": [
-                "chisel:technicalnew@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
             "z": 1,
             "elements": [
                 "modularmachinery:blockenergyinputhatch@3"
             ]
         },
         {
-            "x": 0,
-            "y": 2,
-            "z": 2,
+            "x": -1,
+            "y": 0,
+            "z": 0,
             "elements": [
                 "chisel:technicalnew@2"
             ]
@@ -32,6 +24,14 @@
             "x": 1,
             "y": 2,
             "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
             "elements": [
                 "chisel:technicalnew@2"
             ]
@@ -73,7 +73,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "modularmachinery:blockfluidinputhatch@2"
             ]
         },
         {
@@ -81,7 +81,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@1"
+                "modularmachinery:blockinputbus@2"
             ]
         },
         {
@@ -93,6 +93,22 @@
             ]
         },
         {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
             "x": -1,
             "y": 1,
             "z": 0,
@@ -101,11 +117,11 @@
             ]
         },
         {
-            "x": 0,
-            "y": 1,
+            "x": -1,
+            "y": -1,
             "z": 0,
             "elements": [
-                "chisel:technical1@1"
+                "chisel:technicalnew@2"
             ]
         },
         {
@@ -113,7 +129,15 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockoutputbus@0"
+                "modularmachinery:blockoutputbus@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:technical@4"
             ]
         },
         {
@@ -141,11 +165,11 @@
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": 2,
+            "x": -1,
+            "y": -1,
+            "z": 1,
             "elements": [
-                "nuclearcraft:machine_interface@0"
+                "chisel:technicalnew@2"
             ]
         },
         {
@@ -157,7 +181,7 @@
             ]
         },
         {
-            "x": 1,
+            "x": 0,
             "y": 1,
             "z": 2,
             "elements": [
@@ -166,6 +190,62 @@
         },
         {
             "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
             "y": 2,
             "z": 0,
             "elements": [
@@ -181,9 +261,17 @@
             ]
         },
         {
-            "x": 0,
+            "x": 1,
             "y": 2,
             "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
             "elements": [
                 "chisel:technicalnew@2"
             ]
@@ -192,22 +280,6 @@
             "x": -1,
             "y": 2,
             "z": 2,
-            "elements": [
-                "chisel:technicalnew@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
             "elements": [
                 "chisel:technicalnew@2"
             ]

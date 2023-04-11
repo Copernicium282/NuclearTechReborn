@@ -82,14 +82,9 @@ recipes.addShaped("ModularMachinery_Circuitry", <modularmachinery:blockcasing:5>
 
 
 recipes.addShaped("water_pump", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:water_pump"}),
-[[<harvestcraft:freshwateritem>, <harvestcraft:freshwateritem>, <harvestcraft:freshwateritem>],
-[<harvestcraft:freshwateritem>, <modularmachinery:itemmodularium>, <harvestcraft:freshwateritem>],
-[<harvestcraft:freshwateritem>, <harvestcraft:freshwateritem>, <harvestcraft:freshwateritem>]]);
-
-recipes.addShaped("charging_station", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:charging_station"}),
-[[<libvulpes:battery:0>, <libvulpes:battery:0>, <libvulpes:battery:0>],
-[<libvulpes:battery:0>, <modularmachinery:itemmodularium>, <libvulpes:battery:0>],
-[<libvulpes:battery:0>, <libvulpes:battery:0>, <libvulpes:battery:0>]]);
+[[<hbm:rod_water>, <hbm:rod_water>, <hbm:rod_water>],
+[<hbm:rod_water>, <modularmachinery:itemmodularium>, <hbm:rod_water>],
+[<hbm:rod_water>, <hbm:rod_water>, <hbm:rod_water>]]);
 
 recipes.addShaped("lava_pump", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:lava_pump"}),
 [[<chisel:lavastone:0>, <chisel:lavastone:0>, <chisel:lavastone:0>],
@@ -104,17 +99,7 @@ recipes.addShaped("catalytic_chem_reactor", <modularmachinery:itemblueprint>.wit
 recipes.addShaped("decay_pool", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:decay_pool"}),
 [[null, <nuclearcraft:decay_generator>, null],
 [null, <modularmachinery:itemmodularium>, null],
-[null, <nuclearcraft:decay_hastener>, null]]);
-
-recipes.addShaped("silex", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:silex"}),
-[[<qmd:ingot_alloy:4>, <qmd:ingot_alloy:6>, <qmd:ingot_alloy:4>],
-[<qmd:ingot_alloy:6>, <modularmachinery:itemmodularium>, <qmd:ingot_alloy:6>],
-[<qmd:ingot_alloy:4>, <qmd:ingot_alloy:6>, <qmd:ingot_alloy:4>]]);
-
-recipes.addShaped("chemical_plant", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:chemical_plant"}),
-[[<nuclearcraft:alloy:6>, <qmd:ingot:11>, <nuclearcraft:alloy:6>],
-[<qmd:ingot:12>, <nuclearcraft:chemical_reactor>, <qmd:ingot:12>],
-[<nuclearcraft:alloy:6>, <qmd:ingot:11>, <nuclearcraft:alloy:6>]]);
+[null, null, null]]);
 
 recipes.addShaped("gas_centrifuge", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:gas_centrifuge"}),
 [[<qmd:ingot_alloy:5>, <qmd:part:3>, <qmd:ingot_alloy:5>],
@@ -126,7 +111,12 @@ recipes.addShaped("circuit_assembler", <modularmachinery:itemblueprint>.withTag(
 [null, <modularmachinery:itemmodularium>, null],
 [null, null, null]]);
 
-//upgrade templates
-mods.nuclearcraft.Assembler.addRecipe(<ore:plateSteel>*6, <hbm:bolt_tungsten>*24, null, null, <contenttweaker:machine_upgrade_template>*1);
-mods.nuclearcraft.Assembler.addRecipe(<contenttweaker:machine_upgrade_template>*1, <mekanism:tierinstaller:1>*2, null, null, <contenttweaker:upgrade_speed_a>*1);
-mods.nuclearcraft.Assembler.addRecipe(<contenttweaker:upgrade_speed_a>*1, <mekanism:tierinstaller:2>*4, null, null, <contenttweaker:upgrade_speed_b>*1);
+recipes.addShaped("fluid_irradiator", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fluid_irradiator"}),
+[[null, <nuclearcraft:fission_irradiator>, null],
+[null, <modularmachinery:itemmodularium>, null],
+[null, null, null]]);
+
+recipes.addShaped("fluid_pressurizer", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fluid_pressurizer"}),
+[[null, <nuclearcraft:pressurizer>, null],
+[null, <modularmachinery:itemmodularium>, null],
+[null, null, null]]);

@@ -1,6 +1,0 @@
-
-{
-  "Name": "entity_tainted_creeper",
-  "Registry ID": "hbm:entity_tainted_creeper",
-  "Class": "com.hbm.entity.mob.EntityTaintedCreeper"
-}
