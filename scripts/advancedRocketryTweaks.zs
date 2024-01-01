@@ -20,7 +20,7 @@ recipes.removeByRecipeName("hbm:photo_panel");
 recipes.addShaped("UpgradedPhotovoltaicPanel", <hbm:photo_panel>,
 [[null, <ore:paneGlass>, null],
 [<hbm:plate_polymer>, <ore:siliconWafer>, <hbm:plate_polymer>],
-[null, <hbm:circuit_aluminium>, null]]);
+[null, <mekanism:enrichedalloy>, null]]);
 
 //Recipe Tweaks
 

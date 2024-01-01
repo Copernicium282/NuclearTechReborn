@@ -1,0 +1,137 @@
+[
+  {
+    "stretchX": 1.0,
+    "stretchZ": 1.0,
+    "seed": 23652533,
+    "valueModifier": 1.0,
+    "oreMaximum": 6000,
+    "oreMinimum": 0.2,
+    "oreID": "minecraft:coal_ore",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "tierReq": 0,
+    "progressMultiplier": 1.0
+  },
+  {
+    "stretchX": 2.0,
+    "stretchZ": 2.0,
+    "seed": 14662363532,
+    "valueModifier": 1.0,
+    "oreMaximum": 3000,
+    "oreMinimum": 0.3,
+    "oreID": "minecraft:iron_ore",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "tierReq": 1,
+    "progressMultiplier": 1.0
+  },
+  {
+    "stretchX": 3.0,
+    "stretchZ": 3.0,
+    "seed": 346747643,
+    "valueModifier": 1.0,
+    "oreMaximum": 1500,
+    "oreMinimum": 0.4,
+    "oreID": "minecraft:gold_ore",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "tierReq": 2,
+    "progressMultiplier": 1.0
+  },
+  {
+    "stretchX": 2.0,
+    "stretchZ": 2.0,
+    "seed": 235352311,
+    "valueModifier": 1.0,
+    "oreMaximum": 2600,
+    "oreMinimum": 0.2,
+    "oreID": "minecraft:redstone_ore",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "tierReq": 2,
+    "progressMultiplier": 1.0
+  },
+  {
+    "stretchX": 2.5,
+    "stretchZ": 2.5,
+    "seed": 1207510918,
+    "valueModifier": 1.0,
+    "oreMaximum": 1400,
+    "oreMinimum": 0.3,
+    "oreID": "minecraft:lapis_ore",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "tierReq": 1,
+    "progressMultiplier": 1.0
+  },
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 23526523525,
+    "valueModifier": 0.9,
+    "oreMaximum": 1000,
+    "oreMinimum": 0.5,
+    "oreID": "minecraft:diamond_ore",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "tierReq": 2,
+    "progressMultiplier": 1.0
+  },
+  {
+    "stretchX": 4.0,
+    "stretchZ": 4.0,
+    "seed": 3642553252,
+    "valueModifier": 1.0,
+    "oreMaximum": 800,
+    "oreMinimum": 0.5,
+    "oreID": "minecraft:emerald_ore",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "tierReq": 2,
+    "progressMultiplier": 1.0
+  },
+  {
+    "stretchX": 1.0,
+    "stretchZ": 1.0,
+    "seed": 3205391,
+    "valueModifier": 1.0,
+    "oreMaximum": 5000,
+    "oreMinimum": 0.2,
+    "oreID": "minecraft:quartz_ore",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      -1
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 1,
+    "progressMultiplier": 1.0
+  }
+]

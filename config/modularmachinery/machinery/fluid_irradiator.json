@@ -41,7 +41,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
+                "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
@@ -89,7 +89,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch@2"
+                "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {

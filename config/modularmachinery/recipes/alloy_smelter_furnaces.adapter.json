@@ -6,19 +6,19 @@
             "io": "output",
             "target": "item",
             "operation": 1,
-            "multiplier": 3.0
+            "multiplier": 4.0
         },
         {
             "io": "input",
             "target": "item",
             "operation": 1,
-            "multiplier": 3.0
+            "multiplier": 4.0
         },
         {
             "io": "input",
             "target": "duration",
             "operation": 0,
-            "multiplier": 40
+            "multiplier": 50
         }
     ]
 }

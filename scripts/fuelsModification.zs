@@ -123,5 +123,6 @@ val fuelsCarbide = [
 
 for item in fuelsCarbide {
     mods.nuclearcraft.PebbleFission.removeRecipeWithInput(item);
+    JEI.removeAndHide(item);
 }
 

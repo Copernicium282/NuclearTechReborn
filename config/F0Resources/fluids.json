@@ -1,0 +1,55 @@
+[
+  {
+    "stretchX": 1.0,
+    "stretchZ": 1.0,
+    "seed": 234174891,
+    "valueModifier": 1.0,
+    "fluidMaximum": 10000000,
+    "fluidMinimum": 0.1,
+    "fluidID": "water",
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "fluidDrainRate": 50,
+    "isDrainRateBasedOnFluidAmount": false,
+    "drainRateMax": 1.0,
+    "drainRateMin": 0.2
+  },
+  {
+    "stretchX": 3.0,
+    "stretchZ": 3.0,
+    "seed": 14151412,
+    "valueModifier": 1.0,
+    "fluidMaximum": 1000000,
+    "fluidMinimum": 0.3,
+    "fluidID": "lava",
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "fluidDrainRate": 10,
+    "isDrainRateBasedOnFluidAmount": false,
+    "drainRateMax": 1.0,
+    "drainRateMin": 0.2
+  },
+  {
+    "stretchX": 0.5,
+    "stretchZ": 0.5,
+    "seed": 234141,
+    "valueModifier": 1.0,
+    "fluidMaximum": 100000000,
+    "fluidMinimum": 0.1,
+    "fluidID": "lava",
+    "dimensionBlacklist": [
+      -1
+    ],
+    "isBlacklistWhitelist": true,
+    "fluidDrainRate": 10,
+    "isDrainRateBasedOnFluidAmount": false,
+    "drainRateMax": 1.0,
+    "drainRateMin": 0.2
+  }
+]

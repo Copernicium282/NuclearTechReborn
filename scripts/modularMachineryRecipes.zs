@@ -21,46 +21,181 @@ recipes.addShaped("ModularMachinery_MachineController", <modularmachinery:blockc
 [<modularmachinery:itemmodularium>, <refinedstorage:external_storage>, <modularmachinery:itemmodularium>]]);
 
 //Modular Machinery Hatches
-
+//Basic
 recipes.addShaped("ModularMachinery_NormalItemOutput", <modularmachinery:blockoutputbus:2>,
 [[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
 [<modularmachinery:blockoutputbus:1>, <advancedrocketry:ic:4>, <modularmachinery:blockoutputbus:1>],
-[<advancedrocketry:ic:2>, <minecraft:repeater>, <advancedrocketry:ic:2>]]);
+[<ore:anyBasicCircuit>, <minecraft:repeater>, <ore:anyBasicCircuit>]]);
 
 recipes.addShaped("ModularMachinery_NormalItemInput", <modularmachinery:blockinputbus:2>,
 [[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
 [<modularmachinery:blockinputbus:1>, <advancedrocketry:ic:4>, <modularmachinery:blockinputbus:1>],
-[<advancedrocketry:ic:2>, <minecraft:repeater>, <advancedrocketry:ic:2>]]);
+[<ore:anyBasicCircuit>, <minecraft:repeater>, <ore:anyBasicCircuit>]]);
 
 recipes.addShaped("ModularMachinery_NormalFluidInput", <modularmachinery:blockfluidinputhatch:2>,
 [[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
 [<modularmachinery:blockfluidinputhatch:1>, <advancedrocketry:ic:5>, <modularmachinery:blockfluidinputhatch:1>],
-[<advancedrocketry:ic:2>, <minecraft:repeater>, <advancedrocketry:ic:2>]]);
+[<ore:anyBasicCircuit>, <minecraft:repeater>, <ore:anyBasicCircuit>]]);
 
 recipes.addShaped("ModularMachinery_NormalFluidOutput", <modularmachinery:blockfluidoutputhatch:2>,
 [[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
 [<modularmachinery:blockfluidoutputhatch:1>, <advancedrocketry:ic:5>, <modularmachinery:blockfluidoutputhatch:1>],
-[<advancedrocketry:ic:2>, <minecraft:repeater>, <advancedrocketry:ic:2>]]);
+[<ore:anyBasicCircuit>, <minecraft:repeater>, <ore:anyBasicCircuit>]]);
 
 recipes.addShaped("ModularMachinery_NormalEnergyOutput", <modularmachinery:blockenergyoutputhatch:2>,
 [[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
 [<modularmachinery:blockenergyoutputhatch:1>, <hbm:machine_battery>, <modularmachinery:blockenergyoutputhatch:1>],
-[<advancedrocketry:ic:2>, <minecraft:repeater>, <advancedrocketry:ic:2>]]);
+[<ore:anyBasicCircuit>, <minecraft:repeater>, <ore:anyBasicCircuit>]]);
 
 recipes.addShaped("ModularMachinery_NormalEnergyInput", <modularmachinery:blockenergyinputhatch:2>,
 [[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
 [<modularmachinery:blockenergyinputhatch:1>, <hbm:machine_battery>, <modularmachinery:blockenergyinputhatch:1>],
-[<advancedrocketry:ic:2>, <minecraft:repeater>, <advancedrocketry:ic:2>]]);
+[<ore:anyBasicCircuit>, <minecraft:repeater>, <ore:anyBasicCircuit>]]);
+
+//Reinforced
+recipes.addShaped("ModularMachinery_ReinforcedItemOutput", <modularmachinery:blockoutputbus:3>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockoutputbus:2>, <advancedrocketry:ic:4>, <modularmachinery:blockoutputbus:2>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_ReinforcedItemInput", <modularmachinery:blockinputbus:3>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockinputbus:2>, <advancedrocketry:ic:4>, <modularmachinery:blockinputbus:2>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_ReinforcedFluidInput", <modularmachinery:blockfluidinputhatch:3>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockfluidinputhatch:2>, <advancedrocketry:ic:5>, <modularmachinery:blockfluidinputhatch:2>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_ReinforcedFluidOutput", <modularmachinery:blockfluidoutputhatch:3>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockfluidoutputhatch:2>, <advancedrocketry:ic:5>, <modularmachinery:blockfluidoutputhatch:2>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_ReinforcedEnergyOutput", <modularmachinery:blockenergyoutputhatch:3>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockenergyoutputhatch:2>, <hbm:machine_battery>, <modularmachinery:blockenergyoutputhatch:2>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
 
 recipes.addShaped("ModularMachinery_ReinforcedEnergyInput", <modularmachinery:blockenergyinputhatch:3>,
 [[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
-[<modularmachinery:blockenergyinputhatch:2>, <hbm:machine_lithium_battery>, <modularmachinery:blockenergyinputhatch:2>],
-[<advancedrocketry:ic:2>, <minecraft:repeater>, <advancedrocketry:ic:2>]]);
+[<modularmachinery:blockenergyinputhatch:2>, <hbm:machine_battery>, <modularmachinery:blockenergyinputhatch:2>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+//Big
+recipes.addShaped("ModularMachinery_BigItemOutput", <modularmachinery:blockoutputbus:4>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockoutputbus:3>, <advancedrocketry:ic:4>, <modularmachinery:blockoutputbus:3>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_BigItemInput", <modularmachinery:blockinputbus:4>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockinputbus:3>, <advancedrocketry:ic:4>, <modularmachinery:blockinputbus:3>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_BigFluidInput", <modularmachinery:blockfluidinputhatch:4>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockfluidinputhatch:3>, <advancedrocketry:ic:5>, <modularmachinery:blockfluidinputhatch:3>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_BigFluidOutput", <modularmachinery:blockfluidoutputhatch:4>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockfluidoutputhatch:3>, <advancedrocketry:ic:5>, <modularmachinery:blockfluidoutputhatch:3>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_BigEnergyOutput", <modularmachinery:blockenergyoutputhatch:4>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockenergyoutputhatch:3>, <hbm:machine_battery>, <modularmachinery:blockenergyoutputhatch:3>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
 
 recipes.addShaped("ModularMachinery_BigEnergyInput", <modularmachinery:blockenergyinputhatch:4>,
 [[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
-[<modularmachinery:blockenergyinputhatch:3>, <hbm:machine_lithium_battery>, <modularmachinery:blockenergyinputhatch:3>],
-[<advancedrocketry:ic:2>, <minecraft:repeater>, <advancedrocketry:ic:2>]]);
+[<modularmachinery:blockenergyinputhatch:3>, <hbm:machine_battery>, <modularmachinery:blockenergyinputhatch:3>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+//Huge
+recipes.addShaped("ModularMachinery_HugeItemOutput", <modularmachinery:blockoutputbus:5>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockoutputbus:4>, <advancedrocketry:ic:4>, <modularmachinery:blockoutputbus:4>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_HugeItemInput", <modularmachinery:blockinputbus:5>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockinputbus:4>, <advancedrocketry:ic:4>, <modularmachinery:blockinputbus:4>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_HugeFluidInput", <modularmachinery:blockfluidinputhatch:5>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockfluidinputhatch:4>, <advancedrocketry:ic:5>, <modularmachinery:blockfluidinputhatch:4>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_HugeFluidOutput", <modularmachinery:blockfluidoutputhatch:5>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockfluidoutputhatch:4>, <advancedrocketry:ic:5>, <modularmachinery:blockfluidoutputhatch:4>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_HugeEnergyOutput", <modularmachinery:blockenergyoutputhatch:5>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockenergyoutputhatch:4>, <hbm:machine_battery>, <modularmachinery:blockenergyoutputhatch:4>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_HugeEnergyInput", <modularmachinery:blockenergyinputhatch:5>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockenergyinputhatch:4>, <hbm:machine_battery>, <modularmachinery:blockenergyinputhatch:4>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+//Ludicrous
+recipes.addShaped("ModularMachinery_LudicrousItemOutput", <modularmachinery:blockoutputbus:6>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockoutputbus:5>, <advancedrocketry:ic:4>, <modularmachinery:blockoutputbus:5>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_LudicrousItemInput", <modularmachinery:blockinputbus:6>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockinputbus:5>, <advancedrocketry:ic:4>, <modularmachinery:blockinputbus:5>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_LudicrousFluidInput", <modularmachinery:blockfluidinputhatch:6>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockfluidinputhatch:5>, <advancedrocketry:ic:5>, <modularmachinery:blockfluidinputhatch:5>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_LudicrousFluidOutput", <modularmachinery:blockfluidoutputhatch:6>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockfluidoutputhatch:5>, <advancedrocketry:ic:5>, <modularmachinery:blockfluidoutputhatch:5>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_LudicrousEnergyOutput", <modularmachinery:blockenergyoutputhatch:6>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockenergyoutputhatch:5>, <hbm:machine_battery>, <modularmachinery:blockenergyoutputhatch:5>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_LudicrousEnergyInput", <modularmachinery:blockenergyinputhatch:6>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockenergyinputhatch:5>, <hbm:machine_battery>, <modularmachinery:blockenergyinputhatch:5>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+//Ultimate
+recipes.addShaped("ModularMachinery_UltimateFluidInput", <modularmachinery:blockfluidinputhatch:7>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockfluidinputhatch:6>, <advancedrocketry:ic:5>, <modularmachinery:blockfluidinputhatch:6>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_UltimateFluidOutput", <modularmachinery:blockfluidoutputhatch:7>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockfluidoutputhatch:6>, <advancedrocketry:ic:5>, <modularmachinery:blockfluidoutputhatch:6>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_UltimateEnergyOutput", <modularmachinery:blockenergyoutputhatch:7>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockenergyoutputhatch:6>, <hbm:machine_battery>, <modularmachinery:blockenergyoutputhatch:6>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
+
+recipes.addShaped("ModularMachinery_UltimateEnergyInput", <modularmachinery:blockenergyinputhatch:7>,
+[[<minecraft:comparator>, <advancedrocketry:ic:3>, <minecraft:comparator>],
+[<modularmachinery:blockenergyinputhatch:6>, <hbm:machine_battery>, <modularmachinery:blockenergyinputhatch:6>],
+[<ore:anyAdvancedCircuit>, <minecraft:repeater>, <ore:anyAdvancedCircuit>]]);
 
 recipes.addShaped("ModularMachinery_Vent", <modularmachinery:blockcasing:1>,
 [[null, null, null],

@@ -16,7 +16,11 @@ val Recipe = [
     <mekanism:portableteleporter>,
     <mekanism:basicblock:7>,
     <mekanismgenerators:hohlraum>,
-    <mekanism:machineblock:11>
+    <mekanism:machineblock:11>,
+    <mekanism:basicblock:6>.withTag({tier: 0}),
+    <mekanism:basicblock:6>.withTag({tier: 1}),
+    <mekanism:basicblock:6>.withTag({tier: 2}),
+    <mekanism:basicblock:6>.withTag({tier: 3})
 ] as IItemStack[];
 
 for item in Recipe {
@@ -26,7 +30,11 @@ for item in Recipe {
 //Remove Junk
 
 val Junk = [
-    <mekanismgenerators:generator:3>
+    <mekanismgenerators:generator:3>,
+    <mekanism:basicblock:6>.withTag({tier: 0}),
+    <mekanism:basicblock:6>.withTag({tier: 1}),
+    <mekanism:basicblock:6>.withTag({tier: 2}),
+    <mekanism:basicblock:6>.withTag({tier: 3})
 ] as IItemStack[];
 
 for item in Junk {
@@ -37,9 +45,9 @@ for item in Junk {
 //New and cheaper recipes for everyone!
 
 recipes.addShaped("mekenergytablet", <mekanism:energytablet>,
-[[<nuclearcraft:lithium_ion_cell>, <qmd:part:6>, <nuclearcraft:lithium_ion_cell>],
-[<qmd:semiconductor:1>, <mekanism:ingot:1>, <qmd:semiconductor:1>],
-[<nuclearcraft:lithium_ion_cell>, <qmd:part:6>, <nuclearcraft:lithium_ion_cell>]]);
+[[<ore:ingotAluminum>, <hbm:battery_advanced_cell>.withTag({charge: 0 as long}), <ore:ingotAluminum>],
+[<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>],
+[<ore:ingotAluminum>, <hbm:battery_advanced_cell>.withTag({charge: 0 as long}), <ore:ingotAluminum>]]);
 
 recipes.addShaped("mekeportableteleporter", <mekanism:portableteleporter>,
 [[<nuclearcraft:lithium_ion_cell>, <qmd:part:4>, <nuclearcraft:lithium_ion_cell>],

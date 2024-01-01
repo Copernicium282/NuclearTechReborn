@@ -20,62 +20,47 @@ for i,name in fluidNames{
 
 //Modular Machinery
 
-var temp = VanillaFactory.createItem("modular_blend");
-temp.register();
-temp = VanillaFactory.createItem("catalyst");
-temp.register();
+val modular_machinery = ["modular_blend","catalyst"] as string[];
+for i,item in modular_machinery{
+	var temp = VanillaFactory.createItem(item);
+	temp.register();
+}
 
 //Solinium Fuels
 
-temp = VanillaFactory.createItem("billet_hes");
-temp.register();
-temp = VanillaFactory.createItem("billet_mes");
-temp.register();
-temp = VanillaFactory.createItem("billet_les");
-temp.register();
-temp = VanillaFactory.createItem("pellet_fuel_hes");
-temp.register();
-temp = VanillaFactory.createItem("pellet_fuel_mes");
-temp.register();
-temp = VanillaFactory.createItem("pellet_fuel_les");
-temp.register();
-temp = VanillaFactory.createItem("pellet_depleted_fuel_hes");
-temp.register();
-temp = VanillaFactory.createItem("pellet_depleted_fuel_mes");
-temp.register();
-temp = VanillaFactory.createItem("pellet_depleted_fuel_les");
-temp.register();
+val solinium_fuels = ["billet_hes","billet_mes","billet_les","pellet_fuel_hes","pellet_fuel_mes","pellet_fuel_les","pellet_depleted_fuel_hes","pellet_depleted_fuel_mes","pellet_depleted_fuel_les"] as string[];
+for i,item in solinium_fuels{
+	var temp = VanillaFactory.createItem(item);
+	temp.register();
+}
 
 //Dilithium Processing
 
-temp = VanillaFactory.createItem("li_infused_schrabidate_quad_rod");
-temp.register();
-temp = VanillaFactory.createItem("rod_dilithium_pure");
-temp.register();
+val dilithium_processing = ["li_infused_schrabidate_quad_rod","rod_dilithium_pure"] as string[];
+for i,item in dilithium_processing{
+	var temp = VanillaFactory.createItem(item);
+	temp.register();
+}
 
 //Circuits Gregification
 
-temp = VanillaFactory.createItem("gallium_dust");
-temp.register();
-temp = VanillaFactory.createItem("vacuum_tube");
-temp.register();
-temp = VanillaFactory.createItem("gallium_arsenide_dust");
-temp.register();
-temp = VanillaFactory.createItem("coated_circuit_board");
-temp.register();
-temp = VanillaFactory.createItem("basic_circuit_board");
-temp.register();
-temp = VanillaFactory.createItem("basic_resistor");
-temp.register();
-temp = VanillaFactory.createItem("glass_lens_blank");
-temp.register();
-temp = VanillaFactory.createItem("glass_lens_red");
-temp.register();
-temp = VanillaFactory.createItem("redstonic_circuit_board");
-temp.register();
-temp = VanillaFactory.createItem("advanced_circuit_board");
-temp.register();
-temp = VanillaFactory.createItem("soldering_alloy");
-temp.register();
-temp = VanillaFactory.createItem("diode");
-temp.register();
+val gregification = ["gallium_dust","vacuum_tube","gallium_arsenide_dust","coated_circuit_board","basic_circuit_board","basic_resistor","glass_lens_blank","glass_lens_red","redstonic_circuit_board","advanced_circuit_board","soldering_alloy","diode"] as string[];
+for i,item in gregification{
+	var temp = VanillaFactory.createItem(item);
+	temp.register();
+}
+//Research and Misc
+
+val research = ["speed_upgrade_research","energy_upgrade_research","enderium_gem"] as string[];
+for i,item in research{
+	var temp = VanillaFactory.createItem(item);
+	temp.register();
+}
+
+//TinyDusts
+
+val tinydusts = ["powder_molybdenum_tiny","powder_pr147_tiny","powder_eu155_tiny"] as string[];
+for i,item in tinydusts{
+	var temp = VanillaFactory.createItem(item);
+	temp.register();
+}
