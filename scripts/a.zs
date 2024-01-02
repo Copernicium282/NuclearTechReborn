@@ -1,8 +1,3 @@
-addReprocessingRecipes("LECm245", "Curium246", 4, "Curium247", 1, "Berkelium247", 2, "Californium249", 1, "Molybdenum", "Europium155", 0.5D, 60);
-addReprocessingRecipes("HECm245", "Curium246", 3, "Curium247", 1, "Berkelium247", 2, "Californium249", 1, "Molybdenum", "Europium155", 1.5D, 60);
-addReprocessingRecipes("LECm247", "Curium246", 5, "Berkelium247", 1, "Berkelium248", 1, "Californium249", 1, "Molybdenum", "Europium155", 0.5D, 60);
-addReprocessingRecipes("HECm247", "Berkelium247", 4, "Berkelium248", 1, "Californium249", 1, "Californium251", 1, "Molybdenum", "Europium155", 1.5D, 60);
-		
 addReprocessingRecipes("LEB248", "Berkelium247", 5, "Berkelium248", 1, "Californium249", 1, "Californium251", 1, "Ruthenium106", "Promethium147", 0.5D, 60);
 addReprocessingRecipes("HEB248", "Berkelium248", 1, "Californium249", 1, "Californium251", 2, "Californium252", 3, "Ruthenium106", "Promethium147", 1.5D, 60);
 		
