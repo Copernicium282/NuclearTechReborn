@@ -1,7 +1,0 @@
-{
-	title: "Beginning",
-	icon: "minecraft:sapling",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: "circle"
-}

@@ -1,7 +1,0 @@
-{
-	title: "HBM-Nuclear Tech Mod",
-	icon: "hbm:decontamination_module",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: "rsquare"
-}
