@@ -1,0 +1,57 @@
+{
+	title: "Beginning with HBM",
+	icon: "hbm:book_guide",
+	x: -10.5d,
+	y: -0.5d,
+	description: "The Main mod in this modpack",
+	text: [
+		"Getting started with HBM might be a bit confusing at first, so here's a list of things to do to start off your journey into HBM:",
+		"Craft a template folder,",
+		"Make flat stamps,",
+		"Use folder to turn flat stamps into plate stamps and wire stamps.",
+		"All stamps have a durability limit, and after that they break and require a replacement. "
+	],
+	dependencies: [
+		"138394f8"
+	],
+	tasks: [{
+		uid: "45f398ec",
+		type: "item",
+		items: [{
+			item: "hbm:stamp_stone_flat"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6faefc14",
+		type: "item",
+		items: [{
+			item: "hbm:template_folder"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "35e10410",
+		type: "item",
+		items: [{
+			item: "hbm:stamp_stone_plate"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5baf8159",
+		type: "item",
+		items: [{
+			item: "hbm:stamp_stone_wire"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

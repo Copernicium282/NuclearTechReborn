@@ -1,0 +1,23 @@
+{
+	x: -9.0d,
+	y: -0.5d,
+	text: [
+		"Making a Burner press would allow you to make many sorts of stuff, such as Plates, Wires and different kinds of bullet casings.",
+		"For now, we only need some Copper plates and Copper wires in order to make some copper panels and a Blast Furnace, which we will talk on later.",
+		"Burner Presses take any kind of fuel, and after they cross the Blue line (which approximately takes 2 coal to get the Press started/ to cross the blue line),",
+		"the Press starts working and outputs items based on the stamp and inputs used. Note that the Press constantly needs fuel to operate, and if the ",
+		"meter indicator falls below the blue line, it will stop working and need fuel to start again.",
+		"On the Contrary, the more towards the red line the indicator goes, the faster the Press works, and the more Plates/Wires/Bullet casings it outputs in",
+		"a shorter amount of time."
+	],
+	dependencies: [
+		"cc0b2d12"
+	],
+	tasks: [{
+		uid: "89df9b33",
+		type: "item",
+		items: [{
+			item: "hbm:machine_press"
+		}]
+	}]
+}
