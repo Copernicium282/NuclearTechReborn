@@ -231,7 +231,7 @@ for i,za_fuel in za_depleted8{
     mods.modularmachinery.RecipeBuilder.newBuilder(za_fuel, "silex", 280).addItemInput(za_depfuelarray8[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(43).addItemOutput(za_depfuelarray8[i][1]).addItemOutput(za_depfuelarray8[i][2]).addItemOutput(za_depfuelarray8[i][3]).addItemOutput(za_depfuelarray8[i][4]).addItemOutput(<nuclearcraft:dust:10> * 2).addItemOutput(htra4[0] * 4).addItemOutput(htra4[1] * 3).build();
 }
 
-val za_depleted9 = ["HEAZA242","HECMZA243"] as string[];
+var za_depleted9 = ["HEAZA242","HECMZA243"] as string[];
 val za_depfuelarray9 = [[<nuclearcraft:depleted_fuel_americium:7>,<nuclearcraft:americium:14> * 3,<nuclearcraft:curium:4>,<nuclearcraft:curium:14> * 2,<nuclearcraft:berkelium:4>],
     [<nuclearcraft:depleted_fuel_curium:7>,<nuclearcraft:curium:9>,<nuclearcraft:curium:14> * 3,<nuclearcraft:berkelium:4> * 2,<nuclearcraft:berkelium:9>]] as IItemStack[][];
 
@@ -252,7 +252,7 @@ for i,za_fuel in za_depleted10{
     mods.modularmachinery.RecipeBuilder.newBuilder(za_fuel, "silex", 280).addItemInput(za_depfuelarray10[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(43).addItemOutput(za_depfuelarray10[i][1]).addItemOutput(za_depfuelarray10[i][2]).addItemOutput(za_depfuelarray10[i][3]).addItemOutput(za_depfuelarray10[i][4]).addItemOutput(<nuclearcraft:dust:10> * 2).addItemOutput(htra5[0] * 4).addItemOutput(htra5[1] * 3).build();
 }
 
-val za_depleted9 = ["HECMZA245","HECMZA247"] as string[];
+za_depleted9 = ["HECMZA245","HECMZA247"] as string[];
 val za_depfuelarray11 = [[<nuclearcraft:depleted_fuel_curium:15>,<nuclearcraft:curium:14> * 3,<nuclearcraft:curium:19>,<nuclearcraft:berkelium:4> * 2,<nuclearcraft:californium:4>],
     [<nuclearcraft:depleted_fuel_curium:23>,<nuclearcraft:berkelium:4> * 4,<nuclearcraft:berkelium:9>,<nuclearcraft:californium:4>,<nuclearcraft:californium:14>]] as IItemStack[][];
 
