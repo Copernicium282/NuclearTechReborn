@@ -1,0 +1,98 @@
+[
+  {
+    "name": "f0r.iron",
+    "isUnlocalized": true,
+    "durability": 251,
+    "color": 14211288,
+    "tier": 2,
+    "speed": 1.0
+  },
+  {
+    "name": "f0r.diamond",
+    "isUnlocalized": true,
+    "durability": 1562,
+    "color": 3402699,
+    "tier": 3,
+    "speed": 1.5
+  },
+  {
+    "name": "f0r.copper",
+    "isUnlocalized": true,
+    "durability": 176,
+    "color": 16756312,
+    "tier": 1,
+    "speed": 0.75
+  },
+  {
+    "name": "f0r.tin",
+    "isUnlocalized": true,
+    "durability": 150,
+    "color": 13100786,
+    "tier": 1,
+    "speed": 0.6
+  },
+  {
+    "name": "f0r.lead",
+    "isUnlocalized": true,
+    "durability": 100,
+    "color": 3884653,
+    "tier": 1,
+    "speed": 0.4
+  },
+  {
+    "name": "f0r.aluminum",
+    "isUnlocalized": true,
+    "durability": 225,
+    "color": 13948127,
+    "tier": 1,
+    "speed": 1.0
+  },
+  {
+    "name": "f0r.nickel",
+    "isUnlocalized": true,
+    "durability": 300,
+    "color": 15722933,
+    "tier": 2,
+    "speed": 0.9
+  },
+  {
+    "name": "f0r.platinum",
+    "isUnlocalized": true,
+    "durability": 1400,
+    "color": 13037823,
+    "tier": 4,
+    "speed": 4.0
+  },
+  {
+    "name": "f0r.steel",
+    "isUnlocalized": true,
+    "durability": 400,
+    "color": 9803157,
+    "tier": 2,
+    "speed": 1.1
+  },
+  {
+    "name": "f0r.invar",
+    "isUnlocalized": true,
+    "durability": 425,
+    "color": 14146521,
+    "tier": 2,
+    "speed": 1.0
+  },
+  {
+    "name": "f0r.bronze",
+    "isUnlocalized": true,
+    "durability": 325,
+    "color": 15702582,
+    "tier": 2,
+    "speed": 1.0
+  },
+  {
+    "name": "f0r.constantan",
+    "isUnlocalized": true,
+    "durability": 275,
+    "color": 15453329,
+    "tier": 2,
+    "speed": 1.0
+  }
+]

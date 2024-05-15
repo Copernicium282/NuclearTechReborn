@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/li_infused_cf_blazing_quad_rod"
+  }
+}
