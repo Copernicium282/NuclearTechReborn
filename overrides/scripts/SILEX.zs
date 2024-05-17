@@ -5,12 +5,16 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IIngredient;
 
+//Fuel Reprocessor now valid for QMD recipes, all other recipes completely shifted to SILEX
+
 //htra-highly toxic radioactive wastes
 val htra1 = [<hbm:powder_sr90_tiny>,<hbm:powder_cs137_tiny>] as IItemStack[];
 val htra2 = [<contenttweaker:powder_molybdenum_tiny>,<hbm:powder_cs137_tiny>] as IItemStack[];
 val htra3 = [<contenttweaker:powder_pr147_tiny>,<hbm:powder_sr90_tiny>] as IItemStack[];
 val htra4 = [<contenttweaker:powder_molybdenum_tiny>,<contenttweaker:powder_pr147_tiny>] as IItemStack[];
 val htra5 = [<contenttweaker:powder_molybdenum_tiny>,<contenttweaker:powder_eu155_tiny>] as IItemStack[];
+val htra6 = [<contenttweaker:powder_ru106_tiny>,<contenttweaker:powder_pr147_tiny>] as IItemStack[];
+val htra7 = [<contenttweaker:powder_ru106_tiny>,<contenttweaker:powder_eu155_tiny>] as IItemStack[];
 
 //Oxide and Nitride
 /*htra1
@@ -142,8 +146,54 @@ val depfuelarray11 = [[<nuclearcraft:depleted_fuel_curium:13>,<nuclearcraft:curi
     [<nuclearcraft:depleted_fuel_curium:21>,<nuclearcraft:berkelium:2> * 4,<nuclearcraft:berkelium:7>,<nuclearcraft:californium:2>,<nuclearcraft:californium:12>],
     [<nuclearcraft:depleted_fuel_curium:22>,<nuclearcraft:berkelium:3> * 4,<nuclearcraft:berkelium:8>,<nuclearcraft:californium:3>,<nuclearcraft:californium:13>]] as IItemStack[][];
 
-for i,fuel in depleted9{
+for i,fuel in depleted11{
     mods.modularmachinery.RecipeBuilder.newBuilder(fuel, "silex", 280).addItemInput(depfuelarray11[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(64).addItemOutput(depfuelarray11[i][1]).addItemOutput(depfuelarray11[i][2]).addItemOutput(depfuelarray11[i][3]).addItemOutput(depfuelarray11[i][4]).addItemOutput(htra5[0] * 5).addItemOutput(htra5[1] * 4).build();
+}
+
+/*htra6
+
+SPACE to continue
+
+*/
+val depleted12 = ["LEBOX248","LEBN248","LECFOX249","LECFN249"] as string[];
+val depfuelarray12 = [[<nuclearcraft:depleted_fuel_berkelium:1>,<nuclearcraft:berkelium:2> * 5,<nuclearcraft:berkelium:7>,<nuclearcraft:californium:2>,<nuclearcraft:californium:12>],
+    [<nuclearcraft:depleted_fuel_berkelium:2>,<nuclearcraft:berkelium:3> * 5,<nuclearcraft:berkelium:8>,<nuclearcraft:californium:3>,<nuclearcraft:californium:13>],
+    [<nuclearcraft:depleted_fuel_californium:1>,<nuclearcraft:californium:17> * 2,<nuclearcraft:californium:17> * 2,<nuclearcraft:californium:17> * 2,<nuclearcraft:californium:17> * 2],
+    [<nuclearcraft:depleted_fuel_californium:2>,<nuclearcraft:californium:18> * 2,<nuclearcraft:californium:18> * 2,<nuclearcraft:californium:18> * 2,<nuclearcraft:californium:18> * 2]] as IItemStack[][];
+
+for i,fuel in depleted12{
+    mods.modularmachinery.RecipeBuilder.newBuilder(fuel, "silex", 280).addItemInput(depfuelarray12[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(43).addItemOutput(depfuelarray12[i][1]).addItemOutput(depfuelarray12[i][2]).addItemOutput(depfuelarray12[i][3]).addItemOutput(depfuelarray12[i][4]).addItemOutput(htra6[0] * 4).addItemOutput(htra6[1] * 3).build();
+}
+
+val depleted13 = ["HEBOX248","HEBN248","HECFOX249","HECFN249"] as string[];
+val depfuelarray13 = [[<nuclearcraft:depleted_fuel_berkelium:5>,<nuclearcraft:berkelium:7>,<nuclearcraft:californium:2>,<nuclearcraft:californium:12> * 2,<nuclearcraft:californium:17> * 3],
+    [<nuclearcraft:depleted_fuel_berkelium:6>,<nuclearcraft:berkelium:8>,<nuclearcraft:californium:3>,<nuclearcraft:californium:13> * 2,<nuclearcraft:californium:18> * 3],
+    [<nuclearcraft:depleted_fuel_californium:5>,<nuclearcraft:californium:7>,<nuclearcraft:californium:17> * 2,<nuclearcraft:californium:17> * 2,<nuclearcraft:californium:17> * 2],
+    [<nuclearcraft:depleted_fuel_californium:6>,<nuclearcraft:californium:8>,<nuclearcraft:californium:18> * 2,<nuclearcraft:californium:18> * 2,<nuclearcraft:californium:18> * 2]] as IItemStack[][];
+
+for i,fuel in depleted13{
+    mods.modularmachinery.RecipeBuilder.newBuilder(fuel, "silex", 280).addItemInput(depfuelarray13[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(64).addItemOutput(depfuelarray13[i][1]).addItemOutput(depfuelarray13[i][2]).addItemOutput(depfuelarray13[i][3]).addItemOutput(depfuelarray13[i][4]).addItemOutput(htra6[0] * 5).addItemOutput(htra6[1] * 4).build();
+}
+
+/*htra7
+
+SPACE to continue
+
+*/
+val depleted14 = ["LECFOX251","LECFN251"] as string[];
+val depfuelarray14 = [[<nuclearcraft:depleted_fuel_californium:9>,<nuclearcraft:californium:17> * 2,<nuclearcraft:californium:17> * 2,<nuclearcraft:californium:17> * 2,<nuclearcraft:californium:17> * 2],
+    [<nuclearcraft:depleted_fuel_californium:10>,<nuclearcraft:californium:18> * 2,<nuclearcraft:californium:18> * 2,<nuclearcraft:californium:18> * 2,<nuclearcraft:californium:18> * 2]] as IItemStack[][];
+
+for i,fuel in depleted14{
+    mods.modularmachinery.RecipeBuilder.newBuilder(fuel, "silex", 280).addItemInput(depfuelarray14[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(43).addItemOutput(depfuelarray14[i][1]).addItemOutput(depfuelarray14[i][2]).addItemOutput(depfuelarray14[i][3]).addItemOutput(depfuelarray14[i][4]).addItemOutput(htra7[0] * 4).addItemOutput(htra7[1] * 3).build();
+}
+
+val depleted15 = ["HECFOX251","HECFN251"] as string[];
+val depfuelarray15 = [[<nuclearcraft:depleted_fuel_californium:13>,<nuclearcraft:californium:17> * 3,<nuclearcraft:californium:17> * 2,<nuclearcraft:californium:17> * 2,<nuclearcraft:californium:17> * 2],
+    [<nuclearcraft:depleted_fuel_californium:14>,<nuclearcraft:californium:18> * 3,<nuclearcraft:californium:18> * 2,<nuclearcraft:californium:18> * 2,<nuclearcraft:californium:18> * 2]] as IItemStack[][];
+
+for i,fuel in depleted15{
+    mods.modularmachinery.RecipeBuilder.newBuilder(fuel, "silex", 280).addItemInput(depfuelarray15[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(64).addItemOutput(depfuelarray15[i][1]).addItemOutput(depfuelarray15[i][2]).addItemOutput(depfuelarray15[i][3]).addItemOutput(depfuelarray15[i][4]).addItemOutput(htra7[0] * 5).addItemOutput(htra7[1] * 4).build();
 }
 
 
@@ -231,7 +281,7 @@ for i,za_fuel in za_depleted8{
     mods.modularmachinery.RecipeBuilder.newBuilder(za_fuel, "silex", 280).addItemInput(za_depfuelarray8[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(43).addItemOutput(za_depfuelarray8[i][1]).addItemOutput(za_depfuelarray8[i][2]).addItemOutput(za_depfuelarray8[i][3]).addItemOutput(za_depfuelarray8[i][4]).addItemOutput(<nuclearcraft:dust:10> * 2).addItemOutput(htra4[0] * 4).addItemOutput(htra4[1] * 3).build();
 }
 
-var za_depleted9 = ["HEAZA242","HECMZA243"] as string[];
+val za_depleted9 = ["HEAZA242","HECMZA243"] as string[];
 val za_depfuelarray9 = [[<nuclearcraft:depleted_fuel_americium:7>,<nuclearcraft:americium:14> * 3,<nuclearcraft:curium:4>,<nuclearcraft:curium:14> * 2,<nuclearcraft:berkelium:4>],
     [<nuclearcraft:depleted_fuel_curium:7>,<nuclearcraft:curium:9>,<nuclearcraft:curium:14> * 3,<nuclearcraft:berkelium:4> * 2,<nuclearcraft:berkelium:9>]] as IItemStack[][];
 
@@ -252,10 +302,50 @@ for i,za_fuel in za_depleted10{
     mods.modularmachinery.RecipeBuilder.newBuilder(za_fuel, "silex", 280).addItemInput(za_depfuelarray10[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(43).addItemOutput(za_depfuelarray10[i][1]).addItemOutput(za_depfuelarray10[i][2]).addItemOutput(za_depfuelarray10[i][3]).addItemOutput(za_depfuelarray10[i][4]).addItemOutput(<nuclearcraft:dust:10> * 2).addItemOutput(htra5[0] * 4).addItemOutput(htra5[1] * 3).build();
 }
 
-za_depleted9 = ["HECMZA245","HECMZA247"] as string[];
+val za_depleted11 = ["HECMZA245","HECMZA247"] as string[];
 val za_depfuelarray11 = [[<nuclearcraft:depleted_fuel_curium:15>,<nuclearcraft:curium:14> * 3,<nuclearcraft:curium:19>,<nuclearcraft:berkelium:4> * 2,<nuclearcraft:californium:4>],
     [<nuclearcraft:depleted_fuel_curium:23>,<nuclearcraft:berkelium:4> * 4,<nuclearcraft:berkelium:9>,<nuclearcraft:californium:4>,<nuclearcraft:californium:14>]] as IItemStack[][];
 
-for i,za_fuel in za_depleted9{
+for i,za_fuel in za_depleted11{
     mods.modularmachinery.RecipeBuilder.newBuilder(za_fuel, "silex", 280).addItemInput(za_depfuelarray11[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(64).addItemOutput(za_depfuelarray11[i][1]).addItemOutput(za_depfuelarray11[i][2]).addItemOutput(za_depfuelarray11[i][3]).addItemOutput(za_depfuelarray11[i][4]).addItemOutput(<nuclearcraft:dust:10> * 2).addItemOutput(htra5[0] * 5).addItemOutput(htra5[1] * 4).build();
+}
+
+/*htra6
+
+SPACE to continue
+
+*/
+val za_depleted12 = ["LEBZA248","LECFZA249"] as string[];
+val za_depfuelarray12 = [[<nuclearcraft:depleted_fuel_berkelium:3>,<nuclearcraft:berkelium:4> * 5,<nuclearcraft:berkelium:9>,<nuclearcraft:californium:4>,<nuclearcraft:californium:14>],
+    [<nuclearcraft:depleted_fuel_californium:3>,<nuclearcraft:californium:19> * 2,<nuclearcraft:californium:19> * 2,<nuclearcraft:californium:19> * 2,<nuclearcraft:californium:19> * 2]] as IItemStack[][];
+
+for i,za_fuel in za_depleted12{
+    mods.modularmachinery.RecipeBuilder.newBuilder(za_fuel, "silex", 280).addItemInput(za_depfuelarray12[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(43).addItemOutput(za_depfuelarray12[i][1]).addItemOutput(za_depfuelarray12[i][2]).addItemOutput(za_depfuelarray12[i][3]).addItemOutput(za_depfuelarray12[i][4]).addItemOutput(<nuclearcraft:dust:10> * 2).addItemOutput(htra6[0] * 4).addItemOutput(htra6[1] * 3).build();
+}
+
+val za_depleted13 = ["HEBZA248","HECFZA249"] as string[];
+val za_depfuelarray13 = [[<nuclearcraft:depleted_fuel_berkelium:7>,<nuclearcraft:berkelium:9>,<nuclearcraft:californium:4>,<nuclearcraft:californium:14> * 2,<nuclearcraft:californium:19> * 3],
+    [<nuclearcraft:depleted_fuel_californium:7>,<nuclearcraft:californium:9>,<nuclearcraft:californium:19> * 2,<nuclearcraft:californium:19> * 2,<nuclearcraft:californium:19> * 2]] as IItemStack[][];
+
+for i,za_fuel in za_depleted13{
+    mods.modularmachinery.RecipeBuilder.newBuilder(za_fuel, "silex", 280).addItemInput(za_depfuelarray13[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(64).addItemOutput(za_depfuelarray13[i][1]).addItemOutput(za_depfuelarray13[i][2]).addItemOutput(za_depfuelarray13[i][3]).addItemOutput(za_depfuelarray13[i][4]).addItemOutput(<nuclearcraft:dust:10> * 2).addItemOutput(htra6[0] * 5).addItemOutput(htra6[1] * 4).build();
+}
+
+/*htra7
+
+SPACE to continue
+
+*/
+val za_depleted14 = ["LECFZA251"] as string[];
+val za_depfuelarray14 = [[<nuclearcraft:depleted_fuel_californium:11>,<nuclearcraft:californium:19> * 2,<nuclearcraft:californium:19> * 2,<nuclearcraft:californium:19> * 2,<nuclearcraft:californium:19> * 2]] as IItemStack[][];
+
+for i,za_fuel in za_depleted14{
+    mods.modularmachinery.RecipeBuilder.newBuilder(za_fuel, "silex", 280).addItemInput(za_depfuelarray14[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(43).addItemOutput(za_depfuelarray14[i][1]).addItemOutput(za_depfuelarray14[i][2]).addItemOutput(za_depfuelarray14[i][3]).addItemOutput(za_depfuelarray14[i][4]).addItemOutput(<nuclearcraft:dust:10> * 2).addItemOutput(htra7[0] * 4).addItemOutput(htra7[1] * 3).build();
+}
+
+val za_depleted15 = ["HECFZA2451"] as string[];
+val za_depfuelarray15 = [[<nuclearcraft:depleted_fuel_californium:15>,<nuclearcraft:californium:19> * 3,<nuclearcraft:californium:19> * 2,<nuclearcraft:californium:19> * 2,<nuclearcraft:californium:19> * 2]] as IItemStack[][];
+
+for i,za_fuel in za_depleted15{
+    mods.modularmachinery.RecipeBuilder.newBuilder(za_fuel, "silex", 280).addItemInput(za_depfuelarray15[i][0] * 9).addFluidInput(<liquid:acid> * 1000).addItemInput(<hbm:laser_crystal_co2>).setChance(0).addEnergyPerTickInput(64).addItemOutput(za_depfuelarray15[i][1]).addItemOutput(za_depfuelarray15[i][2]).addItemOutput(za_depfuelarray15[i][3]).addItemOutput(za_depfuelarray15[i][4]).addItemOutput(<nuclearcraft:dust:10> * 2).addItemOutput(htra7[0] * 5).addItemOutput(htra7[1] * 4).build();
 }

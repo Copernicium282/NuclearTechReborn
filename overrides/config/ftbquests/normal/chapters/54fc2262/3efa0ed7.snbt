@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	text: [
+		"Amount of copper ore veins per chunk : 4"
+	],
+	dependencies: [
+		"0f86155f"
+	],
+	tasks: [{
+		uid: "226ee2b1",
+		type: "item",
+		items: [{
+			item: "hbm:ore_copper"
+		}]
+	}]
+}

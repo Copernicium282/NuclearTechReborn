@@ -1,0 +1,19 @@
+{
+	title: "Neutron Reflector",
+	x: 4.5d,
+	y: 0.0d,
+	description: "PbCu Alloy",
+	text: [
+		"Made in a Blast Furnace using a Copper and a Lead ingot to get 4 Neutron Reflectors"
+	],
+	dependencies: [
+		"dfdb3022"
+	],
+	tasks: [{
+		uid: "0e1121e7",
+		type: "item",
+		items: [{
+			item: "hbm:neutron_reflector"
+		}]
+	}]
+}

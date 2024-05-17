@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 4.0d,
+	dependencies: [
+		"0f86155f"
+	],
+	tasks: [{
+		uid: "b7d314d2",
+		type: "item",
+		items: [{
+			item: "hbm:ore_nether_fire"
+		}]
+	}]
+}

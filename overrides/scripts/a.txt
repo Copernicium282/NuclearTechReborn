@@ -1,0 +1,12 @@
+val frc = [
+    <nuclearcraft:depleted_fuel_thorium:0> * 9,
+    <nuclearcraft:depleted_fuel_uranium:0> * 9,
+    <nuclearcraft:depleted_fuel_uranium:8> * 9,
+    <nuclearcraft:depleted_fuel_neptunium:0> * 9,
+    <nuclearcraft:depleted_fuel_plutonium:0> * 9
+] as IItemStack[];
+
+for item in frc {
+    mods.nuclearcraft.FuelReprocessor.removeRecipeWithInput(frc);
+}
+

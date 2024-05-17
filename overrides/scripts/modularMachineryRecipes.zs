@@ -17,8 +17,8 @@ mods.nuclearcraft.AlloyFurnace.addRecipe(<contenttweaker:modular_blend>, <ore:in
 recipes.removeByRecipeName("modularmachinery:controller");
 recipes.addShaped("ModularMachinery_MachineController", <modularmachinery:blockcontroller>,
 [[<modularmachinery:itemmodularium>, <advancedrocketry:ic:3>, <modularmachinery:itemmodularium>],
-[<refinedstorage:importer>, <nuclearcraft:machine_interface>, <refinedstorage:exporter>],
-[<modularmachinery:itemmodularium>, <refinedstorage:external_storage>, <modularmachinery:itemmodularium>]]);
+[<appliedenergistics2:part:240>, <nuclearcraft:machine_interface>, <appliedenergistics2:part:260>],
+[<modularmachinery:itemmodularium>, <appliedenergistics2:spatial_storage_cell_2_cubed>, <modularmachinery:itemmodularium>]]);
 
 //Modular Machinery Hatches
 //Basic

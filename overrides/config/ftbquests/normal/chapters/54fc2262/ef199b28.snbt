@@ -1,0 +1,17 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	text: [
+		"Amount of aluminium ore veins per chunk : 4"
+	],
+	dependencies: [
+		"0f86155f"
+	],
+	tasks: [{
+		uid: "4a2313b0",
+		type: "item",
+		items: [{
+			item: "hbm:ore_aluminium"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	dependencies: [
+		"19d17131"
+	],
+	tasks: [{
+		uid: "80186c86",
+		type: "item",
+		items: [{
+			item: "hbm:fwatz_scaffold"
+		}]
+	}]
+}

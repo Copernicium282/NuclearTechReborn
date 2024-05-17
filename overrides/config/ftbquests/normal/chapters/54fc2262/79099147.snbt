@@ -1,0 +1,17 @@
+{
+	x: -3.5d,
+	y: -6.0d,
+	text: [
+		"Amount of sulfur ore veins per chunk : 5"
+	],
+	dependencies: [
+		"0f86155f"
+	],
+	tasks: [{
+		uid: "74b15839",
+		type: "item",
+		items: [{
+			item: "hbm:ore_sulfur"
+		}]
+	}]
+}

@@ -7,6 +7,18 @@ import mods.nuclearcraft.Centrifuge;
 import mods.nuclearcraft.Crystallizer;
 import mods.nuclearcraft.Melter;
 import mods.nuclearcraft.AlloyFurnace;
+import mods.nuclearcraft.FissionIrradiator;
+import mods.nuclearcraft.FuelReprocessor;
+import mods.ncsteamadditions.steam_crusher;
+
+//NCSteamAdditions Tweaks
+mods.nuclearcraft.FissionIrradiator.removeRecipeWithOutput(<ncsteamadditions:core_of_transformation>);
+mods.ncsteamadditions.steam_crusher.addRecipe(<hbm:machine_schrabidium_transmutator>, <liquid:schrabidic>*1000, <ncsteamadditions:core_of_transformation>*4);
+recipes.removeByRecipeName("ncsteamadditions:tile.ncsteamadditions.heat_exchanger");
+recipes.addShaped("Heat Exchanger", <ncsteamadditions:heat_exchanger>,
+[[<minecraft:glass_pane>, <nuclearcraft:heat_exchanger_tube_thermoconducting>, <minecraft:glass_pane>],
+[<ncsteamadditions:copper_sheet>, <nuclearcraft:heat_exchanger_tube_thermoconducting>, <ncsteamadditions:copper_sheet>],
+[<minecraft:iron_bars>, <ncsteamadditions:pipe>, <minecraft:iron_bars>]]);
 
 //some recipes
 mods.nuclearcraft.Crystallizer.addRecipe(<liquid:polonium>*576, <nuclearcraft:fission_dust:2>*4);
@@ -25,7 +37,7 @@ mods.nuclearcraft.Crystallizer.addRecipe(<liquid:contaminated_water>*1000, <hbm:
 //Oredicting stuff
 val baseSilicon = <ore:baseSilicon>;
 baseSilicon.add(<nuclearcraft:gem:6>);
-baseSilicon.add(<refinedstorage:silicon>);
+baseSilicon.add(<appliedenergistics2:material:5>);
 baseSilicon.add(<libvulpes:productnugget:3>);
 
 val baseCarbon = <ore:baseCarbon>;
@@ -84,3 +96,97 @@ recipes.addShaped("EuropiumDust", <nuclearcraft:fission_dust:10>,
 [[<contenttweaker:powder_eu155_tiny>,<contenttweaker:powder_eu155_tiny>,<contenttweaker:powder_eu155_tiny>],
 [<contenttweaker:powder_eu155_tiny>,<contenttweaker:powder_eu155_tiny>,<contenttweaker:powder_eu155_tiny>],
 [<contenttweaker:powder_eu155_tiny>,<contenttweaker:powder_eu155_tiny>,<contenttweaker:powder_eu155_tiny>]]);
+
+recipes.addShaped("RutheniumDust", <nuclearcraft:fission_dust:7>,
+[[<contenttweaker:powder_ru106_tiny>,<contenttweaker:powder_ru106_tiny>,<contenttweaker:powder_ru106_tiny>],
+[<contenttweaker:powder_ru106_tiny>,<contenttweaker:powder_ru106_tiny>,<contenttweaker:powder_ru106_tiny>],
+[<contenttweaker:powder_ru106_tiny>,<contenttweaker:powder_ru106_tiny>,<contenttweaker:powder_ru106_tiny>]]);
+
+//Fuel Reprocessor to SILEX
+val silex = [
+    <nuclearcraft:depleted_fuel_thorium:1> * 9,
+    <nuclearcraft:depleted_fuel_thorium:2> * 9,
+    <nuclearcraft:depleted_fuel_thorium:3> * 9,
+    <nuclearcraft:depleted_fuel_uranium:1> * 9,
+    <nuclearcraft:depleted_fuel_uranium:2> * 9,
+    <nuclearcraft:depleted_fuel_uranium:3> * 9,
+    <nuclearcraft:depleted_fuel_uranium:5> * 9,
+    <nuclearcraft:depleted_fuel_uranium:6> * 9,
+    <nuclearcraft:depleted_fuel_uranium:7> * 9,
+    <nuclearcraft:depleted_fuel_uranium:9> * 9,
+    <nuclearcraft:depleted_fuel_uranium:10> * 9,
+    <nuclearcraft:depleted_fuel_uranium:11> * 9,
+    <nuclearcraft:depleted_fuel_uranium:13> * 9,
+    <nuclearcraft:depleted_fuel_uranium:14> * 9,
+    <nuclearcraft:depleted_fuel_uranium:15> * 9,
+    <nuclearcraft:depleted_fuel_neptunium:1> * 9,
+    <nuclearcraft:depleted_fuel_neptunium:2> * 9,
+    <nuclearcraft:depleted_fuel_neptunium:3> * 9,
+    <nuclearcraft:depleted_fuel_neptunium:5> * 9,
+    <nuclearcraft:depleted_fuel_neptunium:6> * 9,
+    <nuclearcraft:depleted_fuel_neptunium:7> * 9,
+    <nuclearcraft:depleted_fuel_plutonium:1> * 9,
+    <nuclearcraft:depleted_fuel_plutonium:2> * 9,
+    <nuclearcraft:depleted_fuel_plutonium:3> * 9,
+    <nuclearcraft:depleted_fuel_plutonium:5> * 9,
+    <nuclearcraft:depleted_fuel_plutonium:6> * 9,
+    <nuclearcraft:depleted_fuel_plutonium:7> * 9,
+    <nuclearcraft:depleted_fuel_plutonium:9> * 9,
+    <nuclearcraft:depleted_fuel_plutonium:10> * 9,
+    <nuclearcraft:depleted_fuel_plutonium:11> * 9,
+    <nuclearcraft:depleted_fuel_plutonium:13> * 9,
+    <nuclearcraft:depleted_fuel_plutonium:14> * 9,
+    <nuclearcraft:depleted_fuel_plutonium:15> * 9,
+    <nuclearcraft:depleted_fuel_mixed:1> * 9,
+    <nuclearcraft:depleted_fuel_mixed:2> * 9,
+    <nuclearcraft:depleted_fuel_mixed:3> * 9,
+    <nuclearcraft:depleted_fuel_mixed:5> * 9,
+    <nuclearcraft:depleted_fuel_mixed:6> * 9,
+    <nuclearcraft:depleted_fuel_mixed:7> * 9,
+    <nuclearcraft:depleted_fuel_americium:1> * 9,
+    <nuclearcraft:depleted_fuel_americium:2> * 9,
+    <nuclearcraft:depleted_fuel_americium:3> * 9,
+    <nuclearcraft:depleted_fuel_americium:5> * 9,
+    <nuclearcraft:depleted_fuel_americium:6> * 9,
+    <nuclearcraft:depleted_fuel_americium:7> * 9,
+    <nuclearcraft:depleted_fuel_curium:1> * 9,
+    <nuclearcraft:depleted_fuel_curium:2> * 9,
+    <nuclearcraft:depleted_fuel_curium:3> * 9,
+    <nuclearcraft:depleted_fuel_curium:5> * 9,
+    <nuclearcraft:depleted_fuel_curium:6> * 9,
+    <nuclearcraft:depleted_fuel_curium:7> * 9,
+    <nuclearcraft:depleted_fuel_curium:9> * 9,
+    <nuclearcraft:depleted_fuel_curium:10> * 9,
+    <nuclearcraft:depleted_fuel_curium:11> * 9,
+    <nuclearcraft:depleted_fuel_curium:13> * 9,
+    <nuclearcraft:depleted_fuel_curium:14> * 9,
+    <nuclearcraft:depleted_fuel_curium:15> * 9,
+    <nuclearcraft:depleted_fuel_curium:17> * 9,
+    <nuclearcraft:depleted_fuel_curium:18> * 9,
+    <nuclearcraft:depleted_fuel_curium:19> * 9,
+    <nuclearcraft:depleted_fuel_curium:21> * 9,
+    <nuclearcraft:depleted_fuel_curium:22> * 9,
+    <nuclearcraft:depleted_fuel_curium:23> * 9,
+    <nuclearcraft:depleted_fuel_berkelium:1> * 9,
+    <nuclearcraft:depleted_fuel_berkelium:2> * 9,
+    <nuclearcraft:depleted_fuel_berkelium:3> * 9,
+    <nuclearcraft:depleted_fuel_berkelium:5> * 9,
+    <nuclearcraft:depleted_fuel_berkelium:6> * 9,
+    <nuclearcraft:depleted_fuel_berkelium:7> * 9,
+    <nuclearcraft:depleted_fuel_californium:1> * 9,
+    <nuclearcraft:depleted_fuel_californium:2> * 9,
+    <nuclearcraft:depleted_fuel_californium:3> * 9,
+    <nuclearcraft:depleted_fuel_californium:5> * 9,
+    <nuclearcraft:depleted_fuel_californium:6> * 9,
+    <nuclearcraft:depleted_fuel_californium:7> * 9,
+    <nuclearcraft:depleted_fuel_californium:9> * 9,
+    <nuclearcraft:depleted_fuel_californium:10> * 9,
+    <nuclearcraft:depleted_fuel_californium:11> * 9,
+    <nuclearcraft:depleted_fuel_californium:13> * 9,
+    <nuclearcraft:depleted_fuel_californium:14> * 9,
+    <nuclearcraft:depleted_fuel_californium:15> * 9
+] as IItemStack[];
+
+for depfuel in silex {
+    mods.nuclearcraft.FuelReprocessor.removeRecipeWithInput(depfuel);
+}

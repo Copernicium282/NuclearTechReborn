@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: -7.5d,
+	dependencies: [
+		"f8d2c084"
+	],
+	tasks: [{
+		uid: "b6f6a224",
+		type: "item",
+		items: [{
+			item: "hbm:barbed_wire_fire"
+		}]
+	}]
+}

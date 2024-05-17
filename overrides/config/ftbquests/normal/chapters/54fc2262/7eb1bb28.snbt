@@ -1,0 +1,27 @@
+{
+	title: "Making an Assembly Machine",
+	icon: "hbm:machine_assembler",
+	x: -6.0d,
+	y: -1.0d,
+	description: "Basic requirement to start with HBM",
+	text: [
+		"So to make the Assembly Machine, you need:",
+		"-3*paneGlass",
+		"-2*blockCopper",
+		"-1*blockSteel",
+		"-2*HBM Motor",
+		"-1*HBM Basic Circuit",
+		"",
+		"Next step is to make a Machine Template."
+	],
+	dependencies: [
+		"97008a6d"
+	],
+	tasks: [{
+		uid: "0aab1a75",
+		type: "item",
+		items: [{
+			item: "hbm:machine_assembler"
+		}]
+	}]
+}

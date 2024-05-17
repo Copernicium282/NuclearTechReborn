@@ -1,0 +1,11 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "22542d13",
+		type: "item",
+		items: [{
+			item: "hbm:ore_uranium"
+		}]
+	}]
+}

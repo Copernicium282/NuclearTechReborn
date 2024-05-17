@@ -4,9 +4,11 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IIngredient;
 import mods.nuclearcraft.Separator;
+import mods.ncsteamadditions.steam_washer;
 
 mods.nuclearcraft.Separator.removeRecipeWithOutput(<nuclearcraft:uranium:10>*9, <nuclearcraft:uranium:5>*1);
 mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<liquid:uranium>*160);
+mods.ncsteamadditions.steam_washer.removeRecipeWithOutput(<nuclearcraft:uranium:5>);
 
 val leuf = RecipeBuilder.newBuilder("leuf", "gas_centrifuge", 120);
 leuf.addFluidInput(<liquid:uf6> * 1000);

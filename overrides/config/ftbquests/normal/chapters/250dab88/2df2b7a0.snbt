@@ -1,0 +1,48 @@
+{
+	title: "Planks from wood in NTP",
+	x: -10.5d,
+	y: -0.5d,
+	description: "Should have put the complete NTP wiki here...",
+	text: [
+		"So to get planks from wood using NTP(No Tree Punching), you need to grab a flint hatchet and put the logs on the ground.",
+		"Once done, right-click the top of the wood with the hatchet to get planks."
+	],
+	dependencies: [
+		"138394f8"
+	],
+	tasks: [{
+		uid: "6faae923",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		consume_items: false
+	},
+	{
+		uid: "4c8cf5cf",
+		type: "item",
+		items: [{
+			item: "notreepunching:axe/flint"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52424373",
+		type: "item",
+		item: "minecraft:log",
+		count: 4
+	}]
+}

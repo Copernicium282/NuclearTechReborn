@@ -1,0 +1,17 @@
+{
+	x: -7.5d,
+	y: -3.5d,
+	text: [
+		"Amount of rare earth ore veins per chunk : 6"
+	],
+	dependencies: [
+		"0f86155f"
+	],
+	tasks: [{
+		uid: "622a81ce",
+		type: "item",
+		items: [{
+			item: "hbm:ore_rare"
+		}]
+	}]
+}

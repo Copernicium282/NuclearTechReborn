@@ -1,0 +1,20 @@
+{
+	x: 2.5d,
+	y: -2.0d,
+	text: [
+		"Right-click Boiler to memorize the position.",
+		"Click on mirrors to turn them towards the boiler"
+	],
+	dependencies: [
+		"f7bf64f8"
+	],
+	tasks: [{
+		uid: "13ad4678",
+		type: "item",
+		items: [{
+			item: "hbm:mirror_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

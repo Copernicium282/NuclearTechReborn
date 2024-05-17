@@ -1,0 +1,12 @@
+{
+	title: "HBM Ores",
+	icon: "minecraft:iron_ore",
+	x: -3.0d,
+	y: -1.0d,
+	description: "Ores",
+	tasks: [{
+		uid: "7b4ffc3a",
+		type: "custom",
+		icon: "hbm:ore_lignite"
+	}]
+}

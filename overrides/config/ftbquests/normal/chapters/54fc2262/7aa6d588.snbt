@@ -1,0 +1,33 @@
+{
+	title: "Redstone-Copper Alloy",
+	x: 5.0d,
+	y: -1.0d,
+	description: "RedCu and its different forms",
+	text: [
+		"Made by using a Copper ingot and a Redstone powder in a Blast Furnace to get 2 RedCu Alloy"
+	],
+	dependencies: [
+		"dfdb3022"
+	],
+	tasks: [{
+		uid: "386036df",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_red_copper"
+		}]
+	},
+	{
+		uid: "e999f44d",
+		type: "item",
+		items: [{
+			item: "hbm:wire_red_copper"
+		}]
+	},
+	{
+		uid: "7a3111a7",
+		type: "item",
+		items: [{
+			item: "hbm:powder_red_copper"
+		}]
+	}]
+}

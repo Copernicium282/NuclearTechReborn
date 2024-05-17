@@ -1,7 +1,7 @@
 {
 	title: "Beginning with HBM",
 	icon: "hbm:book_guide",
-	x: -10.5d,
+	x: -9.0d,
 	y: -0.5d,
 	description: "The Main mod in this modpack",
 	text: [
@@ -12,7 +12,7 @@
 		"All stamps have a durability limit, and after that they break and require a replacement. "
 	],
 	dependencies: [
-		"138394f8"
+		"2df2b7a0"
 	],
 	tasks: [{
 		uid: "45f398ec",

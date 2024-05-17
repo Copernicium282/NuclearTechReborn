@@ -1,0 +1,54 @@
+{
+	title: "Aluminium Ingot",
+	x: 2.0d,
+	y: -3.5d,
+	description: "Aluminium and its different forms",
+	text: [
+		""
+	],
+	dependencies: [
+		"ef199b28"
+	],
+	tasks: [{
+		uid: "4f42f101",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_aluminium"
+		}]
+	},
+	{
+		uid: "e732b6ec",
+		type: "item",
+		items: [{
+			item: "hbm:powder_aluminium"
+		}]
+	},
+	{
+		uid: "b9840095",
+		type: "item",
+		items: [{
+			item: "hbm:wire_aluminium"
+		}]
+	},
+	{
+		uid: "8b586eea",
+		type: "item",
+		items: [{
+			item: "hbm:plate_aluminium"
+		}]
+	},
+	{
+		uid: "b38db2eb",
+		type: "item",
+		items: [{
+			item: "hbm:hull_small_aluminium"
+		}]
+	},
+	{
+		uid: "27e3fb2d",
+		type: "item",
+		items: [{
+			item: "hbm:hull_big_aluminium"
+		}]
+	}]
+}

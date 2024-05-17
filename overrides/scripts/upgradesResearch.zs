@@ -38,8 +38,6 @@ speed_upgrade_research_c.build();
 
 //Remove old recipes
 val Upgrades = [
-    <mekanism:speedupgrade>,
-    <mekanism:energyupgrade>,
     <nuclearcraft:upgrade:1>,
     <nuclearcraft:upgrade>
 ] as IItemStack[];
@@ -60,9 +58,3 @@ speed_upgrade.addItemInput(<contenttweaker:speed_upgrade_research> * 2);
 speed_upgrade.addEnergyPerTickInput(50);
 speed_upgrade.addItemOutput(<nuclearcraft:upgrade> * 1);
 speed_upgrade.build();
-
-//Unification
-recipes.addShapeless("SpeedUpgrades", <mekanism:speedupgrade>,  [<nuclearcraft:upgrade>]);
-recipes.addShapeless("EnergyUpgrades", <mekanism:energyupgrade>,  [<nuclearcraft:upgrade:1>]);
-recipes.addShapeless("SpeedUpgradesReverse", <nuclearcraft:upgrade>,  [<mekanism:speedupgrade>]);
-recipes.addShapeless("EnergyUpgradesReverse", <nuclearcraft:upgrade:1>,  [<mekanism:energyupgrade>]);

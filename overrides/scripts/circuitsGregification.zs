@@ -4,9 +4,8 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import mods.nuclearcraft.Assembler;
+import mods.ntm.Shredder;
 import mods.qmd.ore_leacher;
-import mods.mekanism.sawmill;
-import mods.mekanism.infuser;
 import mods.modularmachinery.RecipeBuilder;
 import mods.nuclearcraft.ChanceItemIngredient;
 import mods.jei.JEI;
@@ -31,9 +30,9 @@ mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:itemSilicon>*32, <contenttweaker:g
 mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:dustSilicon>*32, <contenttweaker:gallium_arsenide_dust>*1, <libvulpes:productboule:3>*1, 2.0, 5.0, 0.0);
 
 //Silicon Wafer prep
-//mods.mekanism.sawmill.addRecipe(IIngredient inputStack, IItemStack outputStack);
-mods.mekanism.sawmill.addRecipe(<qmd:semiconductor:2>*1, <qmd:semiconductor:3>*16);
-mods.mekanism.sawmill.addRecipe(<libvulpes:productboule:3>*1, <advancedrocketry:wafer:0>*16);
+//mods.ntm.Shredder.addRecipe(<minecraft:beef>, <minecraft:cooked_beef>);
+mods.ntm.Shredder.addRecipe(<qmd:semiconductor:2>, <qmd:semiconductor:3>*16);
+mods.ntm.Shredder.addRecipe(<libvulpes:productboule:3>, <advancedrocketry:wafer:0>*16);
 
 //Coated Circuit Board
 recipes.addShaped("CoatedCircuitBoard", <contenttweaker:coated_circuit_board>*3,
@@ -59,30 +58,21 @@ mods.nuclearcraft.Assembler.addRecipe(<minecraft:slime_ball>*1, <minecraft:paper
 
 //Removing old recipes of circuits
 mods.jei.JEI.removeAndHide(<hbm:circuit_raw>);
-mods.mekanism.infuser.removeRecipe(<mekanism:controlcircuit:0>);
-mods.jei.JEI.removeAndHide(<refinedstorage:processor:0>);
-furnace.remove(<refinedstorage:processor:3>);
 
 //make basic circuit oredict
 val anyBasicCircuit = <ore:anyBasicCircuit>;
 anyBasicCircuit.add(<advancedrocketry:ic:0>);
 anyBasicCircuit.add(<hbm:circuit_aluminium>);
-anyBasicCircuit.add(<mekanism:controlcircuit:0>);
-anyBasicCircuit.add(<refinedstorage:processor:3>);
 
 //Basic Circuit Recipes (Gregified)
 
-recipes.addShapeless("mekanism-basic-circuit", <mekanism:controlcircuit:0>, [<hbm:circuit_aluminium>, <mekanism:nugget:4>]);
-
-recipes.addShapeless("AR-basic-circuit", <advancedrocketry:ic:0>, [<hbm:circuit_aluminium>, <mekanism:nugget:1>]);
+recipes.addShapeless("AR-basic-circuit", <advancedrocketry:ic:0>, [<hbm:circuit_aluminium>, <hbm:nugget_cadmium>]);
 
 recipes.addShaped("BasicCircuit2", <hbm:circuit_aluminium>,
-[[<contenttweaker:basic_resistor>, <mekanism:enrichedalloy>, <contenttweaker:basic_resistor>],
+[[<contenttweaker:basic_resistor>, <hbm:plate_advanced_alloy>, <contenttweaker:basic_resistor>],
 [<contenttweaker:vacuum_tube>, <contenttweaker:basic_circuit_board>, <contenttweaker:vacuum_tube>],
 [<hbm:red_cable>, <hbm:red_cable>, <hbm:red_cable>]]);
 recipes.addShapeless("HBM-basic-circuit", <hbm:circuit_aluminium>,  [<ore:anyBasicCircuit>]);
-
-recipes.addShapeless("RS-basic-circuit", <refinedstorage:processor:3>, [<hbm:circuit_aluminium>, <refinedstorage:processor_binding>]);
 
 //Circuit Assembler Basic Circuits
 
@@ -97,16 +87,12 @@ val BasicCircuit2c = RecipeBuilder.newBuilder("BasicCircuit2c", "circuit_assembl
 BasicCircuit2c.addItemInput(<contenttweaker:basic_resistor> * 2);
 BasicCircuit2c.addItemInput(<contenttweaker:vacuum_tube> * 1);
 BasicCircuit2c.addItemInput(<contenttweaker:basic_circuit_board> * 2);
-BasicCircuit2c.addItemInput(<mekanism:enrichedalloy> * 1);
+BasicCircuit2c.addItemInput(<hbm:plate_advanced_alloy> * 1);
 BasicCircuit2c.addItemInput(<hbm:red_cable> * 2);
 BasicCircuit2c.addFluidInput(<liquid:soldering_alloy>*144);
 BasicCircuit2c.addItemOutput(<hbm:circuit_aluminium> * 2);
 BasicCircuit2c.addEnergyPerTickInput(16);
 BasicCircuit2c.build();
-
-//Glass Lens Red
-mods.nuclearcraft.Manufactory.addRecipe(<advancedrocketry:lens:0>*1, <contenttweaker:glass_lens_blank>*1);
-mods.nuclearcraft.Assembler.addRecipe(<contenttweaker:glass_lens_blank>*1, <minecraft:dye:1>*1, null, null, <contenttweaker:glass_lens_red>*1);
 
 //Advanced Circuit Prep
 //Redstonic Circuit Board
@@ -134,44 +120,32 @@ RecipeBuilder.newBuilder("AdvancedCircuitBoard_circ_assembler", "circuit_assembl
     .build();
 
 //Diode
-recipes.addShaped("diode_manual", <contenttweaker:diode>*2,
+recipes.addShaped("diode_manual", <contenttweaker:diode>*4,
 [
-  [<mekanism:polyethene:2>, <hbm:wire_copper>,      <mekanism:polyethene:2>],
+  [<hbm:ingot_polymer>, <hbm:wire_copper>,      <hbm:ingot_polymer>],
   [<hbm:wire_copper>,       <qmd:semiconductor:2>,  <hbm:wire_copper>],
-  [<mekanism:polyethene:2>, <hbm:wire_copper>,      <mekanism:polyethene:2>]
+  [<hbm:ingot_polymer>, <hbm:wire_copper>,      <hbm:ingot_polymer>]
 ]
 );
-mods.nuclearcraft.Assembler.addRecipe(<hbm:wire_copper>*4, <qmd:semiconductor:2>*1, <mekanism:polyethene>*4, null, <contenttweaker:diode>*4);
-mods.nuclearcraft.Assembler.addRecipe(<hbm:wire_copper>*1, <qmd:semiconductor:3>*1, <mekanism:polyethene>*1, null, <contenttweaker:diode>*1);
-mods.nuclearcraft.Assembler.addRecipe(<hbm:wire_copper>*4, <qmd:semiconductor:1>*1, <mekanism:polyethene>*4, null, <contenttweaker:diode>*4);
-mods.nuclearcraft.Assembler.addRecipe(<hbm:wire_copper>*16, <qmd:semiconductor>*1, <mekanism:polyethene>*16, null, <contenttweaker:diode>*16);
-
-//Removing old recipes of circuits
-recipes.removeByRecipeName("mekanism:controlcircuit_1");
-mods.jei.JEI.removeAndHide(<refinedstorage:processor:2>);
-furnace.remove(<refinedstorage:processor:5>);
+mods.nuclearcraft.Assembler.addRecipe(<hbm:wire_copper>*4, <qmd:semiconductor:2>*1, <hbm:ingot_polymer>*4, null, <contenttweaker:diode>*8);
+mods.nuclearcraft.Assembler.addRecipe(<hbm:wire_copper>*1, <qmd:semiconductor:3>*1, <hbm:ingot_polymer>*1, null, <contenttweaker:diode>*2);
+mods.nuclearcraft.Assembler.addRecipe(<hbm:wire_copper>*4, <qmd:semiconductor:1>*1, <hbm:ingot_polymer>*4, null, <contenttweaker:diode>*8);
+mods.nuclearcraft.Assembler.addRecipe(<hbm:wire_copper>*16, <qmd:semiconductor>*1, <hbm:ingot_polymer>*16, null, <contenttweaker:diode>*32);
 
 //Advanced Circuit Recipes (Gregified)
 //Oredicting
 val anyAdvancedCircuit = <ore:anyAdvancedCircuit>;
-anyAdvancedCircuit.add(<mekanism:controlcircuit:1>);
 anyAdvancedCircuit.add(<advancedrocketry:ic:2>);
 anyAdvancedCircuit.add(<hbm:circuit_copper>);
-anyAdvancedCircuit.add(<refinedstorage:processor:5>);
 
 recipes.addShaped("AdvancedCircuit2", <hbm:circuit_copper>,
 [[<contenttweaker:diode>, <hbm:plate_steel>, <contenttweaker:diode>],
 [<hbm:circuit_aluminium>, <contenttweaker:advanced_circuit_board>, <hbm:circuit_aluminium>],
 [<hbm:wire_copper>, <hbm:wire_copper>, <hbm:wire_copper>]]);
 
-
-recipes.addShapeless("mekanism-adv-circuit", <mekanism:controlcircuit:1>, [<hbm:circuit_red_copper>, <mekanism:nugget:4>]);
-
-recipes.addShapeless("AR-adv-circuit", <advancedrocketry:ic:2>, [<hbm:circuit_red_copper>, <mekanism:nugget:1>]);
+recipes.addShapeless("AR-adv-circuit", <advancedrocketry:ic:2>, [<hbm:circuit_red_copper>, <hbm:nugget_cadmium>]);
 
 recipes.addShapeless("HBM-adv-circuit", <hbm:circuit_copper>,  [<ore:anyBasicCircuit>]);
-
-recipes.addShapeless("RS-adv-circuit", <refinedstorage:processor:5>, [<hbm:circuit_red_copper>, <refinedstorage:processor_binding>]);
 
 //Circuit Assembler Advanced Circuits
 //Recipes

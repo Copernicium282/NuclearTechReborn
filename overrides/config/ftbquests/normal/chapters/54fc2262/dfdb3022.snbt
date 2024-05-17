@@ -1,0 +1,47 @@
+{
+	title: "Copper Ingot",
+	x: 3.5d,
+	y: -1.0d,
+	description: "Copper and its different forms",
+	text: [
+		""
+	],
+	dependencies: [
+		"3efa0ed7"
+	],
+	tasks: [{
+		uid: "32177af9",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_copper"
+		}]
+	},
+	{
+		uid: "00293bd6",
+		type: "item",
+		items: [{
+			item: "hbm:powder_copper"
+		}]
+	},
+	{
+		uid: "813eed7e",
+		type: "item",
+		items: [{
+			item: "hbm:wire_copper"
+		}]
+	},
+	{
+		uid: "b3861cd3",
+		type: "item",
+		items: [{
+			item: "hbm:board_copper"
+		}]
+	},
+	{
+		uid: "d041bd50",
+		type: "item",
+		items: [{
+			item: "hbm:part_copper"
+		}]
+	}]
+}

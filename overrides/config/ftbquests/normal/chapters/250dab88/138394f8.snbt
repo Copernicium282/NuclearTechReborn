@@ -13,7 +13,6 @@
 	dependencies: [
 		"9bba69a3"
 	],
-	dependency_requirement: "all_started",
 	tasks: [{
 		uid: "ae9ef64e",
 		type: "checkmark",

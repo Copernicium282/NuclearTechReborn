@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: 3.5d,
+	text: [
+		"Amount of niter ore veins per chunk : 6"
+	],
+	dependencies: [
+		"0f86155f"
+	],
+	tasks: [{
+		uid: "d0b096f4",
+		type: "item",
+		items: [{
+			item: "hbm:ore_niter"
+		}]
+	}]
+}

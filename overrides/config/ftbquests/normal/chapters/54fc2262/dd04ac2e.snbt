@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: -5.5d,
+	text: [
+		"Amount of lignite ore veins per chunk : 3"
+	],
+	dependencies: [
+		"0f86155f"
+	],
+	tasks: [{
+		uid: "b598718e",
+		type: "item",
+		items: [{
+			item: "hbm:ore_lignite"
+		}]
+	}]
+}

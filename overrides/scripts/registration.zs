@@ -59,7 +59,7 @@ for i,item in research{
 
 //TinyDusts
 
-val tinydusts = ["powder_molybdenum_tiny","powder_pr147_tiny","powder_eu155_tiny"] as string[];
+val tinydusts = ["powder_molybdenum_tiny","powder_pr147_tiny","powder_eu155_tiny","powder_ru106_tiny"] as string[];
 for i,item in tinydusts{
 	var temp = VanillaFactory.createItem(item);
 	temp.register();

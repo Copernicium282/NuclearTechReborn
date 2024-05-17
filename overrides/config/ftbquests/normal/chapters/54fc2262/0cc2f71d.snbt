@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: 1.0d,
+	dependencies: [
+		"19d17131"
+	],
+	tasks: [{
+		uid: "b2225d04",
+		type: "item",
+		items: [{
+			id: "hbm:fusion_shield_tungsten",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

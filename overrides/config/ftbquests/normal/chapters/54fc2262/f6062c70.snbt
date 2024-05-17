@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -5.5d,
+	text: [
+		"Amount of fluorite ore veins per chunk : 6"
+	],
+	dependencies: [
+		"0f86155f"
+	],
+	tasks: [{
+		uid: "619ee255",
+		type: "item",
+		items: [{
+			item: "hbm:ore_fluorite"
+		}]
+	}]
+}

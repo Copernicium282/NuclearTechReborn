@@ -1,0 +1,24 @@
+{
+	title: "Machine Template Folder",
+	icon: "hbm:template_folder",
+	x: -4.5d,
+	y: -1.0d,
+	description: "To make Machine Templates",
+	text: [
+		"So to make Machine Templates, you first need to make the Machine Template Folder.",
+		"After making it, you need to Right-Click while it is in your hand to open a list of templates that you can make using some paper and dye (More info ",
+		"in description of Machine Template folder)"
+	],
+	dependencies: [
+		"7eb1bb28"
+	],
+	tasks: [{
+		uid: "b8911819",
+		type: "item",
+		items: [{
+			item: "hbm:template_folder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

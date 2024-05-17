@@ -1,0 +1,17 @@
+{
+	x: 0.5d,
+	y: 1.5d,
+	text: [
+		"Amount of tungsten ore veins per chunk : 6"
+	],
+	dependencies: [
+		"0f86155f"
+	],
+	tasks: [{
+		uid: "299bc42a",
+		type: "item",
+		items: [{
+			item: "hbm:ore_tungsten"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Blast Furnace",
+	x: -6.0d,
+	y: -0.5d,
+	description: "More like your Alloy Smelter",
+	text: [
+		"This Furnace can take various types of coal forms, lava buckets or solid fuel (items) as fuel in order to make various different types of alloys, such as",
+		"Steel, HSSA, etc. Useful to make your first assembly machine, and now I shall meet you in the HBM chapter of this questbook. Good Luck!"
+	],
+	dependencies: [
+		"5ced3ca3"
+	],
+	tasks: [{
+		uid: "d2869e97",
+		type: "item",
+		items: [{
+			item: "hbm:machine_difurnace_off"
+		}]
+	}]
+}

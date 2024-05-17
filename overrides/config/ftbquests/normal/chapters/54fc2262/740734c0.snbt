@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: -3.5d,
+	dependencies: [
+		"f7bf64f8"
+	],
+	tasks: [{
+		uid: "7c49826c",
+		type: "item",
+		items: [{
+			item: "hbm:blades_aluminum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

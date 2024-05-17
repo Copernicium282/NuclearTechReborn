@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: -2.0d,
+	dependencies: [
+		"dfdb3022"
+	],
+	tasks: [{
+		uid: "12e61d86",
+		type: "item",
+		items: [{
+			item: "hbm:heater_firebox"
+		}]
+	}]
+}

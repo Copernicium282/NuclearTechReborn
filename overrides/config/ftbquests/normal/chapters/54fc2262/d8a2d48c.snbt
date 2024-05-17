@@ -1,0 +1,17 @@
+{
+	x: -7.5d,
+	y: 1.5d,
+	text: [
+		"Amount of asbestos ore veins per chunk : 2"
+	],
+	dependencies: [
+		"0f86155f"
+	],
+	tasks: [{
+		uid: "562b361c",
+		type: "item",
+		items: [{
+			item: "hbm:ore_asbestos"
+		}]
+	}]
+}
