@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40109
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Neutrino Lens§f\\n\\n§aX-ray vision for your helmet  -  spot ores, oil, and treasure through solid rock!§f\\n\\nThe §bNeutrino Lens§f is an armor modification that highlights valuable blocks as markers through walls. It must be linked to a §bDepth-Resource Scanning Module Satellite§f and installed in a helmet via the §bArmor Modification Table§f. Toggle the HUD key to see markers.\\n\\n§6Crafting§f (Crafting Table):\\n§b•§f 2x Polymer Bar, 3x Starmetal Ingot, 1x Versatile Circuit Board.\\n\\n§6Detects§f:\\n§b•§f Bedrock Ores, Oil, Bedrock Oil.\\n§b•§f Coltan Ore, Alexandrite.\\n§b•§f Bobbleheads (shows \"A Treasure!\").\\n§b•§f Conserve Crates, Starmetal Crates, Loot Piles.\\n§b•§f Pink Logs, Schist, Australium Ore.\\n§b•§f End Portal Frames, Volcano Core.\\n\\nSome blocks like Coltan and Oil only show part of the time to avoid screen clutter.\\n\\n§ePS:§f Pairs perfectly with the Depth-Resource Satellite for finding bedrock ore and oil without a Survey Scanner!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:neutrino_lens"
+      },
+      "name:8": "Neutrino Lens",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40108,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:neutrino_lens",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

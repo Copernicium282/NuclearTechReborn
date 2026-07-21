@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Modular Kitchen: Core Architecture§f\n\n§aConstruct a unified cooking network and become a master chef in your own home!§f\nThe §9Cooking for Blockheads§f mod allows you to build a functional, modular kitchen multiblock. By placing specialized kitchen blocks adjacent to each other, you form a connected inventory network that the §9Cooking Table§f accesses to display every meal you can craft with your available ingredients.\n\n§6Core Kitchen Modules§f:\n§b• Cooking Table§f: The brain of the kitchen. Place it adjacent to your storage blocks. Opening its GUI displays all recipes you can make using ingredients anywhere in your kitchen, allowing instant, single-click crafting.\n§b• Fridge§f: High-capacity storage specifically designed for food items.\n§b• Oven§f: Automatically cooks food placed inside it.\n§b- Fuel Penalty§f: In this pack, fuel in the Oven lasts only §c33% (1/3rd)§f as long as in a vanilla furnace. It is highly recommended to upgrade to a §9Heating Unit§f early on.\n§b• Sink§f: An essential utility for water-heavy recipes (like dough).\n§b- Config Warning§f: The sink §cdoes not provide infinite water automatically§f in this modpack. You §cmust pipe water into the back or bottom§f of the Sink using pipes/cables for it to function.\n\n§6Storage \u0026 Layout§f:\nAny kitchen blocks placed adjacent to each other link automatically. Use §bKitchen Counters§f, §bKitchen Cabinets§f, and §bKitchen Corners§f to add stylish decoration and massive dry-storage capacity to your network.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cookingforblockheads:cooking_table"
+      },
+      "name:8": "Kitchen Basics",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30249,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cookingforblockheads:cooking_table"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

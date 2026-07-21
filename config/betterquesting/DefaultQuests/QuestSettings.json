@@ -1,7 +1,7 @@
 {
   "betterquesting:10": {
     "editmode:1": 0,
-    "home_offset_y:3": -64,
+    "home_offset_x:3": -256,
     "livesDef:3": 4,
     "livesMax:3": 12,
     "livesdef:3": 4,

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your window into the ME network. The ME Terminal lets you view, search, insert, and extract items from anywhere on the network.\n\nIt uses 1 channel and attaches to cables or device busses. Right-click to open the GUI, which shows every item stored across all cells in the network. The search bar filters by name, and you can sort by name, quantity, or mod.\n\nThis is the basic terminal. For crafting, you want the Crafting Terminal. For fluids, the Fluid Terminal. For patterns, the Pattern Terminal. They all build on this one.\n\n§ePS:§f Place a terminal wherever you do the most work. They are cheap and each one costs only 1 channel.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 380,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Terminal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30170,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 380,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

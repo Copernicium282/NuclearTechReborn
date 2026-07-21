@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    30123,
+    30129
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Basic Ingredients§f\n\n§aProduce flour, dough, butter, and cooking oil as recipe foundations.§f\n\nMost HarvestCraft recipes require intermediate ingredients. Mastering these production chains is essential before attempting complex meals, as nearly every cooked dish depends on at least one of these base ingredients. Key production chains:\n\n§6Flour§f: Grinder(grain) or Mortar and Pestle(grain) → Flour\n§6Dough§f: Mixing Bowl → Flour + Water\n§6Batter§f: Mixing Bowl → Flour + Egg + Milk\n§6Butter§f: Juicer → Heavy Cream + Salt\n§6Cooking Oil§f: Juicer or Presser → Seeds/Nuts\n§6Sugar§f: Presser → Sugar Cane\n§6Tofu§f: Presser → Soybean → Silken Tofu (2 from Soybean)\n§6Fresh Water§f: Water Filter → Woven Cotton (8 water + 8 salt)\n§6Salt§f: Water Filter byproduct",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:flouritem"
+      },
+      "name:8": "Basic Ingredients",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30125,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "harvestcraft:flouritem"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "harvestcraft:doughitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

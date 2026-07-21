@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40280,
+    40296
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Electronium§f\n\n§aThe last ingot-form material. Pure electrons, forged from dineutronium.§f\n\n§bElectronium§f is the final material with an ingot form in NTM. It stores energy at near-infinite density, made entirely of electrons.\n\n§6Crafting§f (Book of Boxcars):\n§e2 Dineutronium Ingots§f (bottom slots) + §e2 Ionized Particles§f (top slots) → §e1 Electronium Ingot§f\n\nThe Book of Boxcars is found in meteor dungeon safes or crafted from 8 black book pages and a balefire egg. Its GUI has a §e2×2§f crafting grid that lights up red when a valid recipe is placed.\n\n§6Uses§f:\n§b• FEnSU§f, unlimited energy storage, needs §e64 electronium ingots§f plus other rare materials\n§b• Digamma Laser Crystal§f, for digamma-based laser equipment\n\n§ePS:§f Stockpile ionized particles from your fusion reactor before attempting electronium production. Each FEnSU demands a huge amount of ingots, and ionized particles are the usual bottleneck.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_electronium"
+      },
+      "name:8": "Electronium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40281,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_electronium",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

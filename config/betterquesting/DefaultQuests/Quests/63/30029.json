@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30025
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fluid Infuser§f\n\n§aInfuses items with fluid properties.§f\nThe §bFluid Infuser§f takes §b1 item input§f and §b1 fluid input§f, then produces an infused item output. Default cycle is §b600 ticks§f at §b10 RF/t§f. It\u0027s used for processes like infusing graphite with molten salt, creating moderator materials, and other fluid-item combination recipes.\n\nYou\u0027ll need this for reactor moderator production and several advanced material recipes. It\u0027s one of those machines you build once and keep coming back to as your reactor designs evolve.\n\n§ePS:§f The Fluid Infuser loses progress if interrupted, so make sure your item and fluid inputs are steady before walking away.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:infuser"
+      },
+      "name:8": "Fluid Infuser",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30029,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:infuser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

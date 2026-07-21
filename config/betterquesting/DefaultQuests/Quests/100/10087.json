@@ -1,0 +1,26 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Small Plate Presser is the first machine the AR progression asks you to build, and it gates every other machine in the mod. No presser, no Lathe, no Rolling Machine, no nothing.\n\nPlace a machine block above the presser and a Block of Obsidian below it. Give it a redstone pulse and the presser converts the machine block into a fully assembled multiblock controller. The obsidian gets consumed, so build an obsidian farm.\n\nThis is the most-used AR block in the entire mod. Every multiblock machine flows through it.\n\n§ePS:§f Build at least 2 pressers, one for machine assembly and one for plate crafting. Pair with a Hopper above to auto-supply machine blocks from a chest.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:platepress"
+      },
+      "name:8": "§6Small Plate Presser§f"
+    }
+  },
+  "questID:3": 10087,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:platepress"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

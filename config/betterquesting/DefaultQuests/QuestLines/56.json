@@ -1,0 +1,30 @@
+{
+  "lineID:3": 56,
+  "order:3": 6,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "RF-powered jetpacks worn in the chestplate slot. Progress through Copper, Bronze/Iron, Steel/Invar, Electrum, and Platinum tiers for increasing speed, acceleration, and energy buffer.\n\nProgression:\n    Jetpack Tiers - Sequential upgrade path\n    Flight Mechanics - Controls, hover mode, and charging",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ironjetpacks:copper_jetpack"
+      },
+      "name:8": "Iron Jetpacks"
+    }
+  },
+  "quests:9": {
+    "0:10": {
+      "id:3": 30258,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 0,
+      "y:3": 0
+    },
+    "1:10": {
+      "id:3": 30259,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 80,
+      "y:3": 0
+    }
+  }
+}

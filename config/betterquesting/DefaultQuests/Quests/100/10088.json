@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10022
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Linker is the tool that binds AR machines together. Shift-right-click one tile, right-click the second, and they\u0027re linked. The two tiles now share data and respond to each other\u0027s state changes.\n\nThe Linker isn\u0027t consumed on use, so you can reuse the same one for many bindings. You\u0027ll use it for the Guidance Computer, Rocket Assembling Machine, Wireless Transceiver pairing, Satellite Terminal, and Warp Controller.\n\nThis is the most-used tool in the AR progression. Keep at least 4 in your hotbar at all times.\n\n§ePS:§f For complex networks, label your Linkers with anvils to remember which pairs are connected. The recipe is just Redstone, Gold Ingot, and Iron Ingot, no machine required.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "libvulpes:linker"
+      },
+      "name:8": "§6Linker§f"
+    }
+  },
+  "questID:3": 10088,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:linker"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

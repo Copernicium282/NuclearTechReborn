@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40219
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6RBMK Thorium Fuel (ThMEU)§f\n\n§aThe safest RBMK fuel. Euler function physically caps flux output, making it a perfect stabilizer.§f\n\n§bThMEU-233§f is RBMK thorium fuel composed of U-233 (fissile) and Th-232 (fertile). Its Euler flux function makes it one of the safest fuels in the game.\n\n§6RBMK Fuel Stats§f:\n§b• Yield:§f 100,000,000\n§b• Self-igniting:§f No\n§b• Splits with:§f Slow neutrons into fast neutrons\n§b• Flux Function:§f (1 minus e^(negative x/25)) times 20, Euler type\n§b• Danger Level:§f Safe, absolute max output of 20 flux\n§b• Depletion:§f Boosted slope, gets stronger as it depletes\n§b• Xenon Gen:§f x times 0.5 | Xenon Burn: x squared times 50\n§b• Heat at 100 flux:§f 0.65 degrees C (negligible)\n§b• Melting Point:§f 3,350 degrees C\n\n§6Breeding Nature§f: The boosted slope depletion function means thorium fuel becomes §estronger§f as it depletes, reflecting the breeding of U-233 from Th-232 during operation.\n\n§6Stabilizer Fuel§f: Because the Euler function plateaus at just 20 flux, ThMEU is §eideal for stabilizing§f dangerous linear and negative-quadratic function fuels. It absorbs their excess flux output without causing runaway reactions.\n\n§6Crafting§f (shapeless): Empty RBMK Fuel Rod + 8 Thorium Fuel Billets\n\n§6Recycling§f (SILEX, infrared laser):\n§b• Brand New:§f 84% ThMEU, 6% U-233, 10% long-lived waste\n§b• Fully Depleted:§f 4% ThMEU, 22% U-233, 74% long-lived waste\n§b• The §e22% U-233§f from fully depleted fuel makes this cycle self-sustaining!\n\n§ePS:§f Use ThMEU as a buffer fuel alongside high-output fuels in your RBMK. It prevents meltdowns while contributing stable, predictable power.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:rbmk_fuel_empty"
+      },
+      "name:8": "RBMK Thorium Fuel (ThMEU)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40274,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_th232"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

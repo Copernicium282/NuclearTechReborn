@@ -1,0 +1,19 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Making Muons§f\n\n§aClick to acknowledge: you now understand the muon production chain.§f\n\nThis is a checkbox quest. Muons are second-generation leptons produced when pions decay. Pions come from firing proton beams at graphite, beryllium, or tungsten targets in a Target Chamber.\n\nThe decay chain goes: proton beam hits target, produces pions, pions decay into muons. Muons can then catalyze fusion reactions in the Nucleosynthesis Chamber.\n\nMuonium is a bound state of a positive muon and an electron, like hydrogen but with a muon instead of a proton. It is a fluid used in exotic recipes.\n\n§ePS:§f Antimuons are the antimatter counterpart. Both are useful in different recipe chains.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:fluid_muonium"
+      },
+      "name:8": "Making Muons"
+    }
+  },
+  "questID:3": 461,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

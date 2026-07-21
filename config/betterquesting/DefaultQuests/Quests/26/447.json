@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    448
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Strontium-90 Purification§f\n\n§aNeutron-activated Zirconium. A fission product for radiation sources.§f\n\nStrontium Ingot is made by bombarding Zirconium with fast neutrons in a Target Chamber. The recipe costs 20,000 RF and outputs Strontium plus alpha particles as byproducts.\n\nZirconium is much easier to source in bulk than Strontium, so just feed Zirconium into your Target Chamber with a neutron beam. You can also get Strontium from Yttrium via neutron, photon, or deuteron bombardment, but Zirconium is the simplest path.\n\nStrontium is used in radiation source recipes and can be reprocessed from Light Fission Waste in the NC Fuel Reprocessor. Check JEI for all the uses.\n\n§ePS:§f The Fuel Reprocessor has a 20% chance per waste unit to extract Strontium Dust. Not great odds, but it adds up.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14,
+        "id:8": "qmd:ingot"
+      },
+      "name:8": "Strontium-90 Purification"
+    }
+  },
+  "questID:3": 447,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "qmd:ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

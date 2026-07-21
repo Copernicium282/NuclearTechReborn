@@ -1,0 +1,34 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    0
+  ],
+  "preRequisites:11": [
+    10026,
+    10062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Why walk across a planet when you can hover? The §6Hovercraft§f gives you fast ground transportation that crosses water, lava, and small gaps without building roads or railways.\n\nVanilla recipe: Advanced Batteries, User Interface, dilithium gems, structure tower, and monopropellant rocket engines. Burns 500 RF/t while hovering. The GUI throttle controls speed, and it hovers 1 block above the ground.\n\nIt can\u0027t climb hills steeper than 30 degrees, so plan your routes around steep terrain. The Advanced Battery is the energy source and must be recharged at a Battery Charger after extended use.\n\n§ePS:§f Stockpile 4 batteries for a 20-minute exploration trip. Pair with a Space Suit for vacuum worlds and a Beacon network for waypoint navigation.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:hovercraft"
+      },
+      "name:8": "§6Hovercraft§f"
+    }
+  },
+  "questID:3": 10072,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:hovercraft"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

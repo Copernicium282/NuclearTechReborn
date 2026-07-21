@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40256
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Oily Scraps§f\n\n§aShred polluted dirt blocks, get grimy residue. It\u0027s your ticket to arsenic.§f\n\n§bOily Scraps§f are obtained by shredding various polluted earth blocks found near oil deposits.\n\n§6Sources§f (shredder):\n§b• Cracked Stone, Oily Sand, Red Oily Sand§f\n§b• Dead Dirt, Porous Stone, Oily Dirt§f\n\n§6Key Use§f:\n§b• §eArsenic Nugget§f, Ore Acidizer: 16 Oily Scraps + 100 mB High-Performance Solvent\n\n§6Where to Find§f:\n§b• Oil biomes§f generate these blocks naturally around bedrock oil deposits\n§b• Shredding§f them in any shredder converts them to oily scraps\n§b• Renewable§f as long as you keep finding oil-bearing terrain\n\n§ePS:§f Arsenic shows up in alloys like Arsenic Bronze and in circuits later in progression. Stockpile these scraps while you\u0027re mining oil, you\u0027ll need them sooner than you think.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:scrap_oil"
+      },
+      "name:8": "Oily Scraps",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40257,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:scrap_oil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

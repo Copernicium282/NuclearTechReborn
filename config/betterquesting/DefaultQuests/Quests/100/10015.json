@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    10008,
+    10014
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Precision Laser Etcher§f uses the Vacuum Laser Emitter to etch Circuit Plates into Integrated Circuits. These are the core ingredient for Control Circuit Boards, Item IO Boards, and every other AR logic part.\n\nThe multiblock is 3x4x4 with Structure Blocks, a Vacuum Laser Emitter adjacent and active, Motors, and a Control Circuit Board on the controller face. Power draw is 400-600 RF/t depending on recipe tier.\n\nThe etcher also produces precision masks for satellite components. Its structure is symmetrical, so you can mirror the assembly in any cardinal direction.\n\n§ePS:§f Power through a Power Plug on the bottom layer. The top is a Control Circuit Board facing the controller block.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:precisionlaseretcher"
+      },
+      "name:8": "Precision Laser Etcher",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10015,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:precisionlaseretcher"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

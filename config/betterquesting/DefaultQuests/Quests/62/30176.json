@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30175
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Crafting on the go, no cables required. The Wireless Crafting Terminal combines wireless network access with a 3x3 crafting grid, identical to the wired Crafting Terminal but completely portable.\n\nCraft from the mines, the Nether, your farm, wherever. As long as you are within range of a Wireless Access Point with enough boosters, you have full access to network storage and crafting.\n\nIt uses the same battery as the basic Wireless Terminal and recharges in the same AE Charger.\n\n§ePS:§f This is the single most useful item in AE2 once you have the resources to make it. It eliminates the need to return to base for crafting entirely.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:wireless_crafting_terminal"
+      },
+      "name:8": "Wireless Crafting Terminal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30176,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_crafting_terminal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

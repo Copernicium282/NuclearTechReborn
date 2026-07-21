@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Scraps§f\n\n§aGarbage from structures and machines. Most of it is useless. Some of it is gold.§f\n\nScraps come in several varieties, each with different origins and uses.\n\n§bScrap§f: Found in chests or salvaged from structures with an anvil. Burns as fuel (1 second in a TU generator) or crafts into a Scrap Block (2-3 seconds of burn time).\n\n§bPlastic Scraps§f: Shred bobbleheads to get these. Smelt them into §bPolymer Bars§f. This is your early-game polymer source before petrochemical production is online.\n\n§bOily Scraps§f: Shred cracked stone, oily sand, red oily sand, dead dirt, porous stone, or oily dirt. Crafts into §bArsenic Nuggets§f.\n\n§bRadioactive Scraps§f: Shred sellafite or broken ZIRNOX fuel elements. No current use, just waste.\n\n§bCMB Scrap Metal§f: Dropped by the Hunter Chopper. Smelt into §bCMB Steel Ingots§f.\n\n§ePS:§f Plastic Scraps are the most useful. Save CMB Scrap for CMB Steel.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:scrap"
+      },
+      "name:8": "Scraps",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40169,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:scrap"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

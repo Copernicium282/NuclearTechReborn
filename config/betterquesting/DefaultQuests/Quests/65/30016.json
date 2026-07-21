@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    30014
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Tank Modules§f\n\n§aAdd automation, monitoring, and computer control to your tanks.§f\n\nUp to §e10 modules§f can be installed per tank. You can filter, drain, and redstone-control a single tank all at once.\n\n§6Tank Interface§f lets hoppers, pipes from other mods, and conduits fill and drain containers from any side. Makes the tank a drop-in replacement for any standard fluid container.\n\n§6Tank Fluid Filter§f shows the current filter. Right-click it with a Configurator to set which fluid the tank accepts. Everything else gets rejected.\n\n§6Tank Sensor§f checks conditions on the tank and emits a weak redstone signal when they are met. Up to 10 per tank. The GUI lets you set the sensor type and parameters like fluid level thresholds. Rotate with a wrench.\n\n§6Tank Data Port§f requires ComputerCraft. Connects to a computer or wired modem and provides a peripheral API for programmatic tank management. All calls take at least 1 tick.\n\n§ePS:§f Pair a Tank Sensor with a Tank Fluid Filter to build fully automatic fluid transfer setups.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pressure:tank_interface"
+      },
+      "name:8": "Tank Modules",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30016,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pressure:tank_interface"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "pressure:tank_filter"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "pressure:tank_sensor"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "pressure:tank_data_port"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

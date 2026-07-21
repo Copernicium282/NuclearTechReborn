@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    30125
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Simple Snacks \u0026 Sides§f\n\n§aQuick hunger fixes from simple ingredients and mixing.§f\n\nLow-hunger items (§e1-4 shanks§f) perfect for early game or supplementing meals. Most require only the §bMixing Bowl§f or simple crafting.\n\n§6Examples§f: Toast (4), Mashed Potatoes (5), Fries (2), Boiled Egg (3), Popcorn (2), Roasted Pumpkin Seeds (1), Trail Mix (4), Donut (4), Chocolate Bar (1), Peanut Butter (1), Rice Cake (2), Peppermint (2), Taffy (2), Cheese (2).\n\nRaw crops restore §e1 hunger, 0.6§f saturation. Craft them into better food using your cooking utensils.\n\n§6Quick Recipes§f:\n§b• Toast§f: Bread in Skillet → §e4 hunger§f\n§b• Fries§f: Potato + Cooking Oil in Skillet → §e2 hunger§f\n§b• Boiled Egg§f: Egg in Pot → §e3 hunger§f\n§b• Popcorn§f: Corn in Skillet → §e2 hunger§f\n§b• Trail Mix§f: Mixed nuts and fruits in Mixing Bowl → §e4 hunger§f\n§b• Cheese§f: Milk + Salt in Presser → §e2 hunger§f\n\n§eTip§f: These snacks are stepping stones. Use them as ingredients in larger meals. Toast goes into French Toast and Sandwiches; Cheese goes into Grilled Cheese and Burgers.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:toastitem"
+      },
+      "name:8": "Simple Snacks \u0026 Sides",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30126,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:toastitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:mashedpotatoesitem"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:donutitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

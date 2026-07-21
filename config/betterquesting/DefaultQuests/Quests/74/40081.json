@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40080
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cracked Oil§f\\n\\n§aYour first cracked fluid, the gateway to mid-game refining.§f\\n\\nCracked Oil is a viscous, polluting liquid that comes out of the §bCatalytic Cracking Tower§f when you process crude oil with steam. Run §e100mB§f crude oil plus §e200mB§f steam through the tower and you get §e80mB§f Cracked Oil plus §e20mB§f Petroleum Gas. Not much fuel value at §e25 kTU§f per bucket, so do not burn it raw.\\n\\nThe real value is in processing it further. Heat it to §e350°C§f in a boiler to make Hot Cracked Oil, then run that through your Oil Refinery for §e150mB§f Aromatic Hydrocarbons, §e300mB§f Cracked Light Oil, §e400mB§f Cracked Naphtha, and §e150mB§f Unsaturated Hydrocarbons per bucket. Those are the building blocks for Bakelite, rubber, and a whole bunch of advanced materials.\\n\\nYou can also solidify §e200mB§f into Oil Tar, or hydrotreat §e1,000mB§f with §e50mB§f Liquid Hydrogen to get §e900mB§f Desulfurized Cracked Oil plus Sour Gas.\\n\\n§ePS:§f Cracked Oil is the linchpin of mid-game petrochemistry. Stockpile it.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 61,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Cracked Oil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40081,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 61,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

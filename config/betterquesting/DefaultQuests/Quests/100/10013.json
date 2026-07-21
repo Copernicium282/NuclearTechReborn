@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    10009,
+    10012
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Lens Block§f is the heavy optical component used inside the Observatory and as a critical ingredient for the Vacuum-Chamber Laser Emitter. It is the first crafted component in the AR progression that requires a multiblock machine to produce.\n\nRecipe in the Precision Assembler: 1 Iron Rod + 3 Lenses + 3 Glass, at 100 ticks per block. The block transmits light like vanilla glass but emits a soft glow when powered.\n\n§cWARNING:§f A single Lens Block needs 3 Basic Lenses from the Precision Assembler. That makes the Lens the real bottleneck, not the glass or iron rod. Stock up on silicon wafers before you start.\n\n§ePS:§f You cannot hand-craft this. The Precision Assembler is mandatory.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:blocklens"
+      },
+      "name:8": "Lens Block",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10013,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:blocklens"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

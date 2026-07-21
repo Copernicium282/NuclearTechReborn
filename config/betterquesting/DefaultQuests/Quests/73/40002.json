@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40001
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Burner Press§f\n\n§aNeed plates and wire? Time to get stamping.§f\n\nThe §bBurner Press§f uses solid fuel (coal, charcoal, lignite) to hammer ingots into plates, wire, and other shapes. Drop a §bstamp§f in the top slot and a metal ingot in the bottom, and let it work.\n\nThe press heats up over time, so batch your work. Small runs waste most of the cycle warming up before anything happens.\n\nCraft it at a table from iron, a furnace, and a piston. It\u0027s one of the first machines you\u0027ll build, and you\u0027ll be using it constantly.\n\n§ePS:§f Slap a §bBurner Press Preheater§f underneath it to cut warm-up time dramatically. Later on, the §bElectric Press§f eliminates fuel entirely.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_press"
+      },
+      "name:8": "Burner Press",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40002,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_press"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

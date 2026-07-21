@@ -1,0 +1,29 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Carbon Brick§f is a crafting component you will need in bulk for CO2 scrubbers, circuit boards, and lightweight space suit parts. It shows up everywhere in the AR progression.\n\nThe recipe varies by modpack configuration, so check JEI for the exact version in your pack. Carbon Bricks are a metadata variant of the advancedrocketry:misc item family (metadata 1), so the item ID is shared with the User Interface (misc:0) and other parts.\n\n§cWARNING:§f AR Carbon Brick is not the same as HBM\u0027s Carbon Brick. They are different items from different mods, even if they look similar.\n\n§ePS:§f Carbon comes from coal, charcoal, or carbon dust. Stock up before building CO2 scrubbers.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "advancedrocketry:misc"
+      },
+      "name:8": "Carbon Brick",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10002,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "advancedrocketry:misc"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

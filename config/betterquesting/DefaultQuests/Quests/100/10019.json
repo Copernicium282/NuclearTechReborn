@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10013
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Observatory§f is a 5x5x5 multiblock that scans for unexplored planets and asteroids, generating the Planet ID Chips you need to fly anywhere beyond the Overworld.\n\nThe structure has a center column with three Lens Blocks at different elevations. Better motors increase your view distance: Motor adds 25, Advanced Motor adds 50, Enhanced adds 100, Elite adds 175. The GUI has two tabs, one for scanning data and one for asteroid selection.\n\nTo scan, click the Scan Planet button in the GUI. The Observatory needs to be in range of the target, and it only works at night or in space. Each scan consumes Data Storage from connected Data Buses.\n\n§ePS:§f You can substitute regular Glass for one of the three Lens Block positions. The Observatory still completes as long as at least two positions use Lens Blocks.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:observatory"
+      },
+      "name:8": "Observatory",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10019,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:observatory"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

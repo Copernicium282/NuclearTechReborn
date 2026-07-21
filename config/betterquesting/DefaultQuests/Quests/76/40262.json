@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40261
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Ferrouranium§f\n\n§aA carbon steel-uranium alloy. Hard, durable, and radiation resistant.§f\n\n§bFerrouranium§f is a carbon steel-uranium (U-238) alloy known for its high hardness and durability, with radiation resistance from its uranium content.\n\n§6Production§f (§bCrucible§f):\n§b• 1×§f Uranium-238 Nugget\n§b• 2×§f Steel Nuggets\n§b→ §e3×§f Ferrouranium Nuggets\n\n§6Key Uses§f:\n§b• Ferrouranium Anvil§f, durable high-tier anvil\n§b• Ferrouranium Drill Bit§f, tough mining tool\n§b• Ducrete§f, reinforced construction material\n§b• Weapons§f, high-durability weapon components\n§b• HEV MarK IV Power Armor§f, essential armor component\n§b• Research Reactor§f and §bBreeding Reactor§f construction\n§b• Cooling Tower§f, required for reactor cooling\n\n§ePS:§f The 3:1 output ratio makes ferrouranium efficient to produce. Stockpile nuggets for anvil and drill bit crafting. The anvil is essential for late-game assembly recipes!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_ferrouranium"
+      },
+      "name:8": "Ferrouranium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40262,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_ferrouranium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

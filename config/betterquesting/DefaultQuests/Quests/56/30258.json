@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Jetpack Tiers§f\n\n§aTime to ditch the elytra and strap a rocket to your chest.§f\nIron Jetpacks gives you RF-powered flight via chestplate jetpacks. Upgrade through five active tiers (several vanilla tiers like Wood, Stone, Gold, Diamond, and Emerald are §cdisabled§f in this pack).\n\n§6Active Tiers§f:\n§b• Copper§f (Tier 1): §e250,000 RF§f buffer, §c85 FE/t§f usage.\n§b• Bronze §f/ §bIron§f (Tier 2): §e800,000 RF§f, §c120 FE/t§f. Both share identical flight stats.\n§b• Steel §f/ §bInvar§f (Tier 3): §e12,000,000 RF§f, §c350 FE/t§f. Steel is slightly faster vertically; both have enchantability 15.\n§b• Electrum§f (Tier 3 alt): §e10,000,000 RF§f, §c310 FE/t§f. Fastest Tier 3 in the air, but lower capacity.\n§b• Platinum§f (Tier 4): §e36,000,000 RF§f, §c720 FE/t§f. The endgame package.\n\n§6Upgrading§f:\nPlace your current jetpack in the center slot, surround it with the next tier\u0027s metal ingots, two §bcoils§f (Basic for lower tiers, Advanced for higher), a capacitor, and a leather strap. Energy is §apreserved across upgrades§f.\n\n§ePS:§f Coils shift from Basic to Advanced once you hit the midpoint of the tier list. Check JEI for exact recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ironjetpacks:copper_jetpack"
+      },
+      "name:8": "Jetpack Tiers",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30258,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ironjetpacks:copper_jetpack"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    10022
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Rocket Engines§f are the thrust source for every AR rocket. The basic Monopropellant Rocket Engine burns monopropellant fuel for short-range and atmospheric missions. Bipropellant and Nuclear Thermal variants handle interplanetary flight with much higher thrust.\n\nEach motor goes at the bottom of the rocket frame. A single motor covers a 3x3 column, but taller rockets need one motor per 3x3 column of height. The motor\u0027s thrust multiplier determines how heavy a rocket you can lift off the pad.\n\n§ePS:§f When you upgrade to Bipropellant, the Monopropellant motor becomes your atmospheric landing thruster. It is throttleable and re-lightable, which makes it ideal for controlled descent. Most large rockets keep one for landing.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:rocketmotor"
+      },
+      "name:8": "Rocket Engines",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10026,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:rocketmotor"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:advrocketmotor"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:bipropellantrocketmotor"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:advbipropellantrocketmotor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

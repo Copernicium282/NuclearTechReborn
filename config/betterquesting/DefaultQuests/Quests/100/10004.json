@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    10003,
+    10002,
+    10087
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Electric Arc Furnace§f is the primary metal-processing multiblock in Advanced Rocketry. It smelts and alloys materials using high-power electrical arcs, running at 2x the speed of a vanilla furnace.\n\nThe multiblock is a 5x5x5 structure built from HeatProof Bricks with coils on the interior and Structure Towers. It needs continuous power, so hook it up to a serious RF generator.\n\nSteel production is the main reason you build one: Iron + Coal in the Arc Furnace yields Steel Ingots. Titanium alloy and carbon smelting also happen here.\n\n§cWARNING:§f The Arc Furnace does not produce experience like a vanilla furnace. All that XP goes nowhere.\n\n§ePS:§f Pair with Item IO Circuit Boards on the inner faces for automated input/output.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:arcfurnace"
+      },
+      "name:8": "Electric Arc Furnace",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10004,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:arcfurnace"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40012,
+    40039
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Assembly Machine§f\n\n§aWelcome to the factory. This thing builds everything from here on out.§f\n\nThe §bAssembly Machine§f is a 3×3 pseudo-multiblock that crafts most advanced machines in the game. Pick a recipe via the blue folder button, feed it power (HE), and load the materials.\n\nCraft it at a Tier 2 (steel) anvil: steel ingots ×8, copper plates ×4, motors ×2, vacuum tubes ×4. Duplicating from another assembly machine is cheaper.\n\nSome recipes need a §bblueprint§f in the blueprint slot. Blueprint booklets spawn in structures, right-click to consume and get a random one.\n\n§ePS:§f Power it with a wood-burning generator or stirling engine to get started.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_assembly_machine"
+      },
+      "name:8": "Assembly Machine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40013,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_assembly_machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

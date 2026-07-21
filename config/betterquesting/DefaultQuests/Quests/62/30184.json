@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    30152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Sometimes you want to shut off part of your network with a lever. Toggle Buses make that happen.\n\nPlace a §6ME Toggle Bus §fon a cable, attach a redstone source, and it connects or disconnects the network branch on the other side. Redstone on means connected. Redstone off means disconnected. Simple.\n\nThe §6ME Inverted Toggle Bus §fflips the logic: connected when there is no redstone, disconnected when there is. Useful for emergency shutoffs.\n\nToggle Buses use zero power at idle and cost 1 channel from the host cable. They do not isolate power draw, so a disconnected sub-network still tries to draw power from your energy cells.\n\n§ePS:§f Chain a Redstone Repeater into multiple Toggle Buses to sequence parts of your network turning on in stages.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 80,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "Toggle Buses",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30184,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 80,
+          "id:8": "appliedenergistics2:part"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 100,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

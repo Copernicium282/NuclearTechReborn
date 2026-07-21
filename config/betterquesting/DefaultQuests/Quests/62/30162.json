@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The simplest networked storage in AE2. The ME Chest holds a single storage cell and connects directly to the ME network. You also get a built-in terminal GUI for inserting and extracting items.\n\nIt is basically a storage cell holder with a terminal attached. One cell, one chest, one controller, and you have a working network. Perfect for early-game when you just need to store a few hundred items without chests scattered everywhere.\n\nThe ME Chest can also act as a cable endpoint, so you don\u0027t need separate cables running to it.\n\n§ePS:§f For anything beyond a handful of cells, switch to the ME Drive. It holds 10 cells and is the real workhorse.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:chest"
+      },
+      "name:8": "ME Chest",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30162,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:chest"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

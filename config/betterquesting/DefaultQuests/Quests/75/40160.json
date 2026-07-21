@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40159
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fiberglass§f\n\n§aTwice as good as polymer insulation. Once you have peroxide, switch everything over.§f\n\nFiberglass is a synthetic silicate glass fiber polymer used for high-grade insulation. You get it from the §bOre Acidizer§f using §bHydrogen Peroxide§f.\n\nProduction: §bOre Acidizer§f with §e500mB§f Hydrogen Peroxide + §bSand§f \u003d Fiberglass Bar. A Mining Laser on sand with a crystallizing upgrade also works.\n\nInsulation-wise, fiberglass gives §e16§f units per recipe compared to §e8§f for polymer-based options (Teflon, Bakelite, rubber). Same crafting layout: two bars side by side.\n\nFiberglass is also used in the Soyuz Rocket, FEnSU power storage, Breeding Reactor Core, and can be processed into silicon in the Arc Furnace.\n\n§ePS:§f Fiberglass bars compact into Rolls of Fiberglass (block form), useful as construction material.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_fiberglass"
+      },
+      "name:8": "Fiberglass",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40160,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_fiberglass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

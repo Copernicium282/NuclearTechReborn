@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    30160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Need to send items, fluids, or power across your base without running cables everywhere? §6P2P Tunnels §f are your answer.\n\nPlace two tunnels of the same type on separate networks and they pair automatically. Items, fluids, power, and redstone flow through as if the networks were directly connected.\n\nAn ME P2P Tunnel uses 1 channel on each side but carries 32 channels of payload with a Dense Cable. That is a lot of bandwidth in a small package.\n\nVariants exist for items, fluids, redstone, Forge Energy, and even EU from IC2.\n\n§ePS:§f Use a Memory Card to copy tunnel configurations. Place one tunnel, shift-right-click with the card, then right-click the second tunnel to paste the link.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 460,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "P2P Tunnels",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30195,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 460,
+          "id:8": "appliedenergistics2:part"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 461,
+          "id:8": "appliedenergistics2:part"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 462,
+          "id:8": "appliedenergistics2:part"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 463,
+          "id:8": "appliedenergistics2:part"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 467,
+          "id:8": "appliedenergistics2:part"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 469,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

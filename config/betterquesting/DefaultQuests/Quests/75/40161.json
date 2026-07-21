@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40159
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Integrated \u0026 Military Grade Circuit Boards§f\n\n§aThe two circuits you\u0027ll be crafting by the hundreds. One gates mid-game, the other gates everything else.§f\n\n§bIntegrated Circuit Board§f: The first circuit requiring Silicon. Crafted in the Soldering Station (10s, 5kHE/s, 50kHE total). Recipe: 4 Microchips + 4 Printed Circuit Boards + 4 Lead Wire.\n\nUsed in mid-game machines, automation, missiles, and tools like the Geiger counter.\n\n§bMilitary Grade Circuit Board§f: The first circuit to use a liquid (Sulfuric Acid). Recipe: 4 Capacitors + 16 Microchips + 8 PCBs + 2 Rubber + 8 Lead Wire + 1,000mB Sulfuric Acid. Duration: 15s, 20kHE/s, 300kHE total.\n\nUsed in particle accelerators, nuclear warheads, and advanced reactor components. This is the most used circuit in the game.\n\n§ePS:§f Set up automated Sulfuric Acid production before scaling up Military Grade boards.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9,
+        "id:8": "hbm:circuit"
+      },
+      "name:8": "Integrated \u0026 Military Grade Circuit Boards",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40161,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "hbm:circuit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

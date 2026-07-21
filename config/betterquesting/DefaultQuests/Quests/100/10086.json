@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    10056,
+    10058
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ID Chips store destination data for planets, satellites, space stations, asteroids, and the space elevator. Insert a chip into the Guidance Computer (10028) to set where your rocket goes.\n\nThe satellite ID chip is the simplest, made from an HBM Satellite ID Chip. The planet ID chip adds Advanced Chips on top. The asteroid chip needs a Data Unit and Tracking Circuit. The space station chip uses an expensive versatile circuit plus a Linker. The space elevator chip is assembled at the Precision Assembler from a space station chip and Tracking Circuit.\n\nThe chip family is the backbone of every AR mission. The Guidance Computer reads the chip to set the destination dimension, and the Rocket Assembling Machine validates it against the rocket\u0027s structure.\n\n§ePS:§f You need one chip per destination. Launch a satellite first to get a satellite ID chip, then use that to craft the planet ID chip.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:planetidchip"
+      },
+      "name:8": "§6Advanced Rocketry ID Chips§f"
+    }
+  },
+  "questID:3": 10086,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:planetidchip"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:spacestationchip"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:asteroidchip"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:elevatorchip"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:misc"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

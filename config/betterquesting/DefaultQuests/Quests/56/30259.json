@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30258
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Flight Mechanics§f\n\n§aHolding jump is just the beginning. Time to learn the controls before you crater yourself.§f\n\n§6Keybinds§f (check Options \u003e Controls):\n§b• Engine Toggle§f: Turns thrust on/off. Kill the engine when walking so you don\u0027t drain power.\n§b• Hover Mode§f: Freezes you in midair. Lower tiers drift down slowly; higher tiers hold altitude better. Great for building or precision work.\n§b• Emergency Descent§f: If you run out of energy mid-flight with the engine on, the jetpack auto-activates a controlled fall to save you from lethal fall damage.\n\n§6Flight Behavior§f:\nVertical speed increases with tier, from §e0.29§f (Copper) up to §e0.92§f (Platinum). Sprinting multiplies fuel burn by §e1.4x§f to §e3.8x§f depending on tier, so hold off on sprinting unless you really need the burst. Water cuts your vertical speed to §e40%§f.\n\n§6Charging§f:\nJetpacks don\u0027t recharge on their own. Drop one into any compatible RF charger to fill it back up.\n\n§cWARNING:§f Running out of fuel at altitude is no joke. Watch your energy bar, especially over lava or irradiated zones.\n\n§ePS:§f You need §bcoils§f, capacitors, and thrusters to craft every tier. Start with a Basic Coil.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ironjetpacks:basic_coil"
+      },
+      "name:8": "Flight Mechanics",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30259,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ironjetpacks:basic_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

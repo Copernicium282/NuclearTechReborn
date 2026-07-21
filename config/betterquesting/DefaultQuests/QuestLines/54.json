@@ -1,0 +1,37 @@
+{
+  "lineID:3": 54,
+  "order:3": 1,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Environmental pollution simulation. Industrial machines emit Carbon, Sulfur, and Dust that accumulate in chunks, causing debuffs and hazards. Manage your industrial footprint with chimneys, filters, and respirators.\n\nProgression:\n    The Three Pollutants - Understanding environmental hazards\n    Cleanup Systems - Chimneys, vacuums, and pollutant pumps\n    Personal Protection - Respirators and filter maintenance",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "adpother:iron_filter"
+      },
+      "name:8": "Pollution of the Realms"
+    }
+  },
+  "quests:9": {
+    "0:10": {
+      "id:3": 30252,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 0,
+      "y:3": 0
+    },
+    "1:10": {
+      "id:3": 30253,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 80,
+      "y:3": 0
+    },
+    "2:10": {
+      "id:3": 30254,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 80,
+      "y:3": 40
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    30038,
+    30043
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Molten Salt Reactor§f\n\n§aA different approach to nuclear power.§f\nThe §bMolten Salt Reactor§f (MSR) uses liquid fuel instead of solid fuel rods. Fuel salt is circulated through the reactor core, heated by fission, and then cooled in an external heat exchanger to produce steam.\n\nMSRs are more complex to build than Solid Fission Reactors but offer better fuel efficiency and can use a wider range of fuels. They also produce less waste per unit of power.\n\n§cWARNING:§f MSRs require careful fluid management. Leaks are catastrophic.\n\n§ePS:§f The MSR is a step up in complexity. Get comfortable with Solid Fission first before attempting one.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:salt_fission_controller"
+      },
+      "name:8": "Molten Salt Reactor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30053,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:salt_fission_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:salt_fission_vessel"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:fission_source"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

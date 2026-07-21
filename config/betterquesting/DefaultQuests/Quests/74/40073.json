@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Light Oil§f\n\n§aLowest volume, highest energy density of the raw fractions. Don\u0027t waste it.§f\n\nLight Oil is the third most common refinery output at §e150mB§f per §e1,000mB§f hot crude oil. Despite the low volume, it packs §e1.46 MTU§f and §e2.2 MHE§f per bucket.\n\n§6Fractioning Tower§f:\n§e100mB§f Light Oil → §e40mB§f Diesel + §e60mB§f Kerosene.\n\n§6Desh Production§f:\n§e200mB§f Light Oil + §e200mB§f Mercury + §e1× Desh Blend§f → §e1× Desh Ingot§f in a §bChemical Plant§f. One of the only ways to make desh.\n\n§6Other Uses§f:\n§b• Catalytic Reformer§f: §e1,000mB§f → §e500mB§f Aromatic Hydrocarbons + §e150mB§f Liquid Hydrogen + §e100mB§f Reformate Gas.\n§b• Coker Unit§f: §e370mB§f → §e1× Petroleum Coke§f.\n§b• Pyrolysis Oven§f: §e490mB§f → §e1× Solid Fuel§f.\n§b• Rotary Furnace§f: §e100mB§f + DeshReady™ Blend → §e1× Ingot§f.\n\n§ePS:§f Light Oil is renewable via the §bDesulfurized Crude Oil§f path. Critical for desh production, so don\u0027t crack it down unnecessarily.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Light Oil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40073,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 21,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

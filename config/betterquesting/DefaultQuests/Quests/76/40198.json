@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40193
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Short-Lived Nuclear Waste§f\n\n§aSeven flavors of radioactive garbage, each with different recycling yields. Sort them carefully.§f\n\n§bShort-Lived Nuclear Waste§f comes from fission products with relatively short half-lives. There are §e7 sub-classes§f based on source: U-233, U-235, Np-237, Pu-239, Pu-240, Pu-241, and Sa-326.\n\n§6How You Get It§f: Extract from spent fuel using a §bSILEX§f. Each fuel type produces its corresponding waste class.\n\n§6Decay Yields§f (put in §bNuclear Waste Disposal Drum§f):\n§b•§f §bU-233§f → Zirconium, Dust, Lead, U-238, Bismuth\n§b•§f §bU-235§f → Zirconium, Dust, Lead, U-238, Bismuth\n§b•§f §bNp-237§f → Zirconium, Dust, U-238, Lead\n§b•§f §bPu-239§f → Zirconium, Dust, Lead, U-238\n§b•§f §bPu-240§f → Zirconium, Dust, Bismuth, Lead, U-238\n§b•§f §bPu-241§f → Bismuth, Dust, Lead\n§b•§f §bSa-326§f → Bismuth, Mercury, Cerium, Lanthanum, Dust\n\n§6Fresh (Non-Decayed)§f: Yields different isotopes, including Pu-238, Sr-90, I-131, Cs-137, and more. Check the full table on the wiki.\n\n§cWARNING:§f Pyrophoric when not decayed! Handle with care or automate the entire chain.\n\nAmericium-242m type is currently unobtainable.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nuclear_waste_short"
+      },
+      "name:8": "Short-Lived Nuclear Waste",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40198,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nuclear_waste_short"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

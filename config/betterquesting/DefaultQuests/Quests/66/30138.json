@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30122
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Smoothies \u0026 Milkshakes§f\n\n§aBlend fruit drinks and creamy shakes in the Juicer.§f\n\n§6Smoothies§f (Juicer: 2× fruit + Snowball): Apple, Apricot, Banana, Blackberry, Blueberry, Cherry, Coconut, Cranberry, Gooseberry, Grape, Grapefruit, Lemon, Lime, Mango, Melon, Orange, Papaya, Peach, Pear, Plum, Pomegranate, Raspberry, Strawberry. Each restores §e3 hunger, 1.2§f saturation + §eSpeed§f.\n\n§6Milkshakes§f (Juicer): Strawberry (3), Chocolate (3), Banana (3), Raspberry (5), Durian (3), Gooseberry (3). Each restores §e3-5 hunger§f + §eSpeed§f.\n\n§6Specialty§f: Egg Nog (Juicer, 5), Fruit Punch (Juicer, 2), Hot Chocolate (Juicer, 5), Pina Colada (Juicer), Bubble Tea (Pot, 4), Boba Tea (4).\n\n§6Crafting Method§f:\n§b• Smoothies§f: §e2× Fruit + 1× Snowball§f in Juicer → §e3 hunger§f + Speed\n§b• Milkshakes§f: §e1× Fruit + 1× Milk + 1× Ice Cream§f in Juicer → §e3-5 hunger§f + Speed\n§b• Specialty§f: Varies by recipe; check JEI for exact ingredients.\n\n§eTip§f: Smoothies and milkshakes are excellent travel foods, as they restore decent hunger and grant a Speed boost for faster exploration.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:strawberrysmoothieitem"
+      },
+      "name:8": "Smoothies \u0026 Milkshakes",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30138,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:strawberrysmoothieitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:strawberrymilkshakeitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

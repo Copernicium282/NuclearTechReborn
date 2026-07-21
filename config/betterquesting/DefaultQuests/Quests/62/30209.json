@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30197
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Biometric Card§f is a §6Memory Card§f that locks settings to your player ID. Right-click an AE2 block to copy both its settings and your identity.\n\nCrafted from §6Engineering Processor§f, §b2 Iron Ingots§f, §b2 Gold Ingots§f, and §b1 Redstone Dust§f. It stores §b1 settings snapshot§f and lasts for §b100 uses§f.\n\nOnly the player who created the card can paste from it. This makes it ideal for locking down §6Storage Bus§f configurations or assigning §6Security Terminal§f permissions (CRAFT or SECURITY level).\n\n§cWARNING:§f The card stores your player ID, not your name. Renaming a player will break the binding.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:biometric_card"
+      },
+      "name:8": "Biometric Card",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30209,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:biometric_card"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40232
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Antimatter§f\n\n§aMatter\u0027s opposite. Touch normal matter and both disappear. Store it wrong and your base goes with them.§f\n\n§bAntimatter§f is a gas held in cells or capsules. It is the gateway to antischrabidium, flashgold, and the deepest end-game content. Standard barrels explode on contact. Use §bMagnetic Antimatter Containment Barrels§f.\n\n§6Make It§f:\n§b•§f Particle Accelerator (score §e300§f): H Ion Capsule + Cu Ion Capsule -\u003e Antiproton + Positron\n§b•§f Crafting Table (shapeless): Antiproton + Positron + Empty Cell -\u003e §eAntimatter Cell§f\n§b•§f Cyclotron byproduct, small amounts from most recipes\n§b•§f Spaceship loot\n\n§6What It Is For§f:\n§b•§f §bAntischrabidium§f, 2x antimatter capsules in accelerator (score 400)\n§b•§f §bMuon Capsule§f, antimatter + H ion (score 2,500)\n§b•§f §bFlashgold§f, antimatter + Au-198 + ionized particles\n§b•§f §bFlashlead§f, flashgold + Pb-209 + antimatter\n§b•§f §bAntimatter Cluster§f, 9 cells in a full grid\n§b•§f §bCustom Nuke Rod§f, antimatter cell + copper + aluminium plates\n\n§ePS:§f One antimatter capsule needs two particle accelerator runs (H ion + Cu ion). Budget your accelerator time accordingly.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 33,
+        "id:8": "hbm:cell"
+      },
+      "name:8": "Antimatter",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40235,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 33,
+          "id:8": "hbm:cell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

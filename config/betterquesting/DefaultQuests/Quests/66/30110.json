@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Apiary§f\n\n§aBreed bees for honeycombs, waxcombs, and grubs.§f\n\nPut a §bQueen Bee§f inside the Apiary and let the colony work. Each cycle produces one of three outputs: §bHoneycomb§f (35%), §bWaxcomb§f (35%), or §bBee Grub§f (30%). The queen takes §e1 damage per cycle§f and is consumed after §e36 cycles§f, so keep buying replacements from the §bMarket§f.\n\nBase cycle is §e3,500 ticks§f (~2.9 min). Each flower, crop, or garden block within a 2-block radius reduces cycle time by §e15%§f. Surround it with flowers for maximum speed.\n\nPress combs in the §bPresser§f: Honeycomb becomes §b2 Honey§f + Grain Bait. Waxcomb becomes §b2 Beeswax§f + Grain Bait.\n\nCraft with §e6 planks§f, §e3 iron§f, §e2 copper§f, and §e1 honeycomb§f.\n\n§ePS:§f Set up multiple apiaries in a flower garden to scale honey and wax production for downstream processing.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:apiary"
+      },
+      "name:8": "Apiary",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30110,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:apiary"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

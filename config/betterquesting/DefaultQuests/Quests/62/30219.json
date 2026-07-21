@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30159
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Creative Energy Cell§f provides §binfinite AE power§f to an ME network. It\u0027s a creative-mode-only block with no crafting recipe.\n\nRegistered in AE2\u0027s creative tab only. Some modpacks enable it via config, but this pack follows vanilla AE2 rules and disables survival acquisition.\n\nFor survival power, use §6ME Energy Cells§f fed by external generators. The §6Vibration Chamber§f burns furnace fuels for AE power, or connect to an RF/FE generator via energy acceptors.\n\n§ePS:§f This quest exists for reference. If you somehow have one in survival, it disables the entire AE2 energy balance. Use responsibly in multiplayer.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:creative_energy_cell"
+      },
+      "name:8": "Creative Energy Cell",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30219,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:creative_energy_cell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

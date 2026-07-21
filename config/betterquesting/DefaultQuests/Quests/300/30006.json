@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30003
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Utility Items§f\n\n§aThe toolbox you never knew you needed!§f\n\nThe §bCrescent Hammer§f is your best friend, §9shift-right-click§f to pick up machines, §9right-click§f to rotate. The §bMultimeter§f reads RF storage, I/O rates, and redstone status on any machine. §bRedprint§f copies and pastes machine settings.\n\n§bUpgrade Kits§f tier machines from Basic through Hardened, Reinforced, Signalum, and Resonant, inventory and upgrades are preserved. §bConversion Kits§f switch between input/output variants. The §bForge Lexicon§f converts items between equivalent mod forms, and the §bTome of Knowledge§f stores up to §e10,000 XP§f to prevent loss on death.\n\nAlso included: §bSignalum Security Lock§f (machine ownership), §bPhyto-Gro§f (fertilizer), §bAqua-Chow§f (fishing bait), and §bPigments§f (§e16§f dyes from byproducts).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalfoundation:wrench"
+      },
+      "name:8": "Utility Items",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30006,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalfoundation:wrench"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40193
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fallout\\n\\n§aNuclear ash from explosions. Radioactive, but you can extract useful isotopes from it.\\n\\n§bFallout§f is fission products and neutron-activated materials pulled into the sky by nuclear explosions, then falling back as ash. It also forms from nuclear waste blocks.\\n\\n§6Behavior§f: Falls like snow as shallow granular layers. Dig with a shovel for piles, compress into blocks for storage. Radioactivity: §e30 RAD/s§f (item form).\\n\\n§6SILEX Processing§f (BiSmUTh crystal, 9.0x):\\n• §e90%§f Tiny Pile of Dust\\n• §e2%§f Cobalt-60 Nugget\\n• §e3%§f Strontium-90 Powder\\n• §e1%§f Iodine-131 Powder\\n• §e3%§f Caesium-137 Powder\\n• §e1%§f Gold-198 Nugget\\n\\n§6Uses§f: §bRadiation-Powered Engine§f fuel. The isotopes extracted are more valuable than the fallout itself.\\n\\n§ePS:§f Sr-90 makes great RTG pellets. Don\u0027t let fallout scatter wastefully, collect and process it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:fallout"
+      },
+      "name:8": "Fallout",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40212,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:fallout"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

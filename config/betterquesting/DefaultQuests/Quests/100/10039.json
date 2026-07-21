@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10007
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Got a satellite primary function module and a Data Unit? The §6Satellite Builder§f is where you combine them into an actual satellite ready for launch.\n\nDrop the primary function (ore scanner, biome changer, etc.) into the GUI along with a Data Unit, and the builder assembles a satellite item. The motor tier you use in the recipe affects the resulting satellite\u0027s scan speed, so go higher if you want faster data collection.\n\nThis machine is networked, so it links up with your §6Satellite Control Center§f to track what\u0027s in orbit. Every orbital science mission in AR starts here, whether you\u0027re mapping ores on distant planets or changing biomes from space.\n\n§ePS:§f Pair with a Data Unit from the Crystallizer (quest 10006) for maximum storage on the resulting satellite.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:satellitebuilder"
+      },
+      "name:8": "Satellite Assembling Machine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10039,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:satellitebuilder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

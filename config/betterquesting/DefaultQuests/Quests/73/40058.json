@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aSteam power starts here.§f\n\nThe Boiler sits above a firebox or other heat source and converts it into steam. Craft it at the Tier 2 Anvil from steel ingots, copper plates, and insulators.\n\nPlace a heat source below, then the Boiler on top. Use a Fluid ID to select what fluid to heat. Three universal fluid duct ports handle input and output.\n\nThe input tank holds 16,000 mB. The output can hold up to 1,600,000 mB of steam. Heat transfer scales with temperature difference.\n\nYou\u0027ll use it for boiling water into steam to power engines, upgrading steam density for turbines, and heating crude or cracked oil for the refinery.\n\n§cWARNING:§f The boiler explodes if the output tank overflows. Monitor your fluid levels or use the Industrial Boiler instead, which doesn\u0027t blow up.\n\n§ePS:§f Pair a Firebox below with a Steam Engine adjacent for a complete power train.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:heat_boiler"
+      },
+      "name:8": "Boiler",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40058,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:heat_boiler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

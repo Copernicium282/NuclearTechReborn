@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30224
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Tomb Many Graves§f\n\n§aYou\u0027re gonna die. A lot. At least your stuff is safe.§f\nWhen you perish, §9Tomb Many Graves§f places a grave block at your death site holding your entire inventory. §9Shift§f while standing on it to grab your stuff back.\n\nThe grave is locked to you, so nobody else can rob it. When you respawn you get a §eDeath Inventory List§f that spawns a particle trail pointing you straight back to your grave.\n\nItems return to their original slots when you reclaim the grave. If a slot is occupied, the grave items take priority and the duplicates drop on the ground. There\u0027s even a model of your own head on top of the grave block.\n\n§ePS:§f The grave searches a §e9-block radius§f around your death location to find a safe spot to spawn.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "minecraft:skull"
+      },
+      "name:8": "Tomb Many Graves",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30226,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "minecraft:skull"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

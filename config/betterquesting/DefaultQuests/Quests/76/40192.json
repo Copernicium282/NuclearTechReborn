@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40191
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Industrial Steam Turbine§f\n\n§aNeed more power? This is the turbine that actually delivers.§f\n\nThe §bIndustrial Steam Turbine§f is a pseudo-multiblock machine that crushes the single-block turbine in every way. It has §e100%§f conversion efficiency. No other turbine matches that.\n\n§6Crafting§f (Assembly Factory):\n§b•§f 16× Steel Plate, 4× Rubber Bar, 2× Titanium Steam Turbine, 4× Dense Gold Wire\n§b•§f 4× High-Speed Steel Pipe, 2× Integrated Circuit Board\n\n§6Power per Stage§f:\n§b•§f §bUltra Dense Steam§f (150 mB/t) → §e18 kHE/t§f\n§b•§f §bSuper Dense Steam§f (1,500 mB/t) → §e27 kHE/t§f\n§b•§f §bDense Steam§f (15,000 mB/t) → §e30 kHE/t§f\n§b•§f §bSteam§f (150,000 mB/t) → §e300 kHE/t§f\n\nOne full line of turbines produces §e375 kHE/t§f (7.5 MHE/s) and outputs §e1,500 mB/t§f of Low-Pressure Steam.\n\n§6Operation§f: Maintain a 1:1 ratio of turbines per density type. It has a ramp-up period on startup and decay period on shutdown.\n\n§ePS:§f This is the turbine you want for §bPWR§f and §bRBMK§f setups. Don\u0027t try to run a large reactor off single-block turbines unless you enjoy watching your base explode.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_large_turbine"
+      },
+      "name:8": "Industrial Steam Turbine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40192,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_large_turbine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

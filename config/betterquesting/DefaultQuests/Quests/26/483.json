@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    482
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Vacuum Chamber Heaters \u0026 Mercury Loops§f\n\n§aPreheat the chamber to plasma temperatures. Fusion does not happen cold.§f\n\nVacuum Chamber Heaters are placed on the inside walls of Vacuum Chamber hulls. They bring the interior to plasma-grade temperatures needed for nucleosynthesis and containment recipes. Multiple tiers exist, from Copper (low heat) to Diamond (highest).\n\nThe standard setup is a Mercury Loop: pump Mercury fluid into the chamber via a Fluid Port, heat it with the heaters, and let it circulate. The heated Mercury transfers energy to the synthesis reaction. Coolant vents remove excess heat.\n\nDiamond Heaters require Diamond plus Osmiridium Ingot. They are the strongest but not cheap.\n\n§ePS:§f The Nucleosynthesis Chamber will not run fusion recipes until the chamber reaches plasma temperature. If your recipes are not firing, check your heaters.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 7,
+        "id:8": "qmd:vacuum_chamber_heater"
+      },
+      "name:8": "Vacuum Chamber Heaters \u0026 Mercury Loops"
+    }
+  },
+  "questID:3": 483,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "qmd:vacuum_chamber_heater"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "qmd:vacuum_chamber_heater"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

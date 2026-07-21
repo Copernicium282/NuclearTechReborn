@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40076
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Satellites§f\\n\\n§aExpensive orbital platforms launched on Soyuz rockets  -  map the underground and scan for resources!§f\\n\\nSatellites go into space on §bSoyuz rockets§f and provide services like resource scanning. Multiple types exist, each with different functions. They must be linked with a §bSatellite ID Manager§f before launch or they are lost forever.\\n\\n§6Linking§f:\\n§b•§f Put the satellite in the right slot to generate a random ID.\\n§b•§f Copy that ID to a Satellite Control Interface with matching frequency.\\n\\n§6Launching§f:\\n§b•§f Soyuz Launcher + Soyuz Rocket, needs §e128,000mB§f Kerosene.\\n\\n§6Satellite Base§f (Assembly Factory  -  needed for all satellite types):\\n§b•§f 12x Rubber Bar, 3x Titanium Shell, Medium Thruster, 8x Low-Density Element\\n§b•§f 4x Desh Compound Plate, Kerosene Barrel, 24x Photovoltaic Panel\\n§b•§f 12x Integrated Circuit Board, Lithium-Ion Battery\\n\\n§6Depth-Resource Scanning Module§f: Arc Welder combines an M700 Survey Scanner with a Satellite Base. Maps underground ores.\\n\\n§ePS:§f Build Soyuz infrastructure first. The satellite is useless without fuel, a launcher, and a matching control interface!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:sat_base"
+      },
+      "name:8": "Satellites",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40109,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:sat_base"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

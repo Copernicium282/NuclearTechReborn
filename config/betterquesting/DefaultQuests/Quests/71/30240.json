@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30239
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Power Core (Medium)§f\\n\\n§aMid-tier upgrade core. Your Powercells are about to get a serious upgrade.§f\\n\\nThe §bPower Core (Medium)§f is used to craft §bPowercell (Medium)§f blocks. A 9×9×9 Medium network can push §e182,250 RF/t§f per side, plenty for most mid-game setups. Each Powercell (Medium) needs 4 cores plus an emerald in the center slot. Dimensional Shards substitute for Redstone in the recipe, so check your reserves before crafting.\\n\\n§6Crafting§f: §b1 Emerald§f (center) + §b1 Redstone Block§f (top) + §b4 Redstone or Dimensional Shards§f\\n\\nDimensional Shards come from RFTools Dimensions, so if you haven\u0027t set up a dimension yet, stick with Redstone.\\n\\n§9Note:§f The Copy NBT upgrade path (Low to Medium to High) preserves stored energy. Plan your swap during low-load moments.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftoolspower:power_core2"
+      },
+      "name:8": "Power Core (Medium)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30240,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolspower:power_core2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aHBM doesn\u0027t use vanilla armor. Time to learn the real system.§f\n\nEvery piece of NTM armor has three stats: Damage Threshold (DT), Damage Resistance (DR), and Radiation Resistance (RR). DT is a flat number that blocks damage entirely if the hit is below it. DR is a percentage reduction after DT applies. RR stacks across all four pieces, and the formula 10^(-totalRR) means each point is exponentially more valuable.\n\nThe combat line goes Steel, Titanium, Advanced Alloy, Cobalt, Starmetal, Schrabidium, CMB Steel, and Dineutronium.\n\nThe hazmat line goes Basic, Advanced, High-Performance, Liquidator, and PaA Battle Hazmat.\n\n§9Note:§f Different damage types (Explosion, Fire, Physical, Energy) each have separate DT and DR values. AP ammo cuts DR, while DTN rounds reduce DT.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:steel_plate"
+      },
+      "name:8": "Armors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40044,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:steel_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

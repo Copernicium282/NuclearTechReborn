@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40121
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Petroil§f\n\n§aReclaimed oil plus lubricant, blended into a medium-grade fuel for the diesel generator!§f\n\nPetroil is a custom fuel blend made by mixing §bReclaimed Industrial Oil§f and §bEngine Lubricant§f in the §bIndustrial Mixer§f. At §e130 kTU§f and §e195 kHE§f per bucket, it is a medium-grade fuel for the §bDiesel Generator§f and §bRadial Performance Engine§f.\n\n§6Production§f:\n§b•§f §e800mB§f Reclaimed Industrial Oil + §e200mB§f Engine Lubricant → §e1,000mB§f Petroil.\n\n§6Uses§f:\n§b•§f Fuel for Diesel Generator and Radial Performance Engine.\n§b•§f Leaded Petroil: §e10,000mB§f + Tetraethyllead → §e12,000mB§f.\n§b•§f Solid Fuel: §e13,000mB§f → §e1×§f (Industrial Solidification Machine).\n§b•§f Chainsaw fuel, tossable gas cans.\n\n§ePS:§f Petroil has lower energy density than Diesel or Gasoline, but it is made from recycled materials. It works as a stepping stone while you build up to higher-grade fuels!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 17,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Petroil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40120,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 17,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

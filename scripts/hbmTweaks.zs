@@ -12,11 +12,6 @@ import crafttweaker.liquid.ILiquidStack;
 // mods.nuclearcraft.ElectricFurnace.removeRecipeWithInput(<ore:logWood>);
 furnace.remove(<ore:logWood>, <ore:charcoal>);
 
-recipes.addShaped("AdvancedShredderBlades", <hbm:blades_advanced_alloy>,
-[[null, <ore:plateAdvancedAlloy>, null],
-[<ore:plateAdvancedAlloy>, <ore:ingotAdvancedAlloy>, <ore:plateAdvancedAlloy>],
-[null, <ore:plateAdvancedAlloy>, null]]);
-
 //Pollutant release upon mining lignite ore
 <ore:oreCoal>.add(<hbm:ore_lignite>);
 

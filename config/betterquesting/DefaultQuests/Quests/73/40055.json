@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40013,
+    40018
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aThe workhorse of fluid processing.§f\n\nThe Chemical Plant handles chemical synthesis, acid production, and compound crafting. Built at the Assembly Factory from an Assembly Machine, steel ingots, copper pipes, insulators, motors, heating coils, and an analog circuit board.\n\nIt has 3 fluid inputs at 24,000 mB each, 3 item slots, and a GUI where you select a chemistry template before powering it up.\n\nBlueprint recipes need the template in the blueprint slot. Nitric Acid from Air, synthesized Stone, Xenon Gas, Instant Electrodes, and Engine Lubricant from Creosote are just a few.\n\nCommon jobs include Solid Fuel from Infernal Coal and peroxide, oil and gas refining steps, and acid production for ore processing.\n\n§ePS:§f Pipe fluids in directly. The Chemical Plant is your gateway to automated fluid processing, build it before scaling up oil or ore refining.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_chemical_plant"
+      },
+      "name:8": "Chemical Plant",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40055,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_chemical_plant"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

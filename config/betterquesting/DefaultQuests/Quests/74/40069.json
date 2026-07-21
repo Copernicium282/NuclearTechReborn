@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40067
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Bitumen§f\n\n§aThick, heavy, and perfect for asphalt. Or crack it back into crude oil. Your call.§f\n\nBitumen is a viscous byproduct from processing §bHeavy Oil§f in the §bFractioning Tower§f. Every §e100mB§f of Heavy Oil yields §e30mB§f of Bitumen.\n\n§6Main Uses§f:\n§b• Asphalt§f: §e1,000mB§f Bitumen + §e2× Gravel§f + §e6× Sand§f → §e16× Asphalt blocks§f. Increases player speed by §e50%§f and has §e72.0§f blast resistance.\n§b• Catalytic Cracking Tower§f: §e100mB§f Bitumen + §e200mB§f Steam → §e80mB§f Crude Oil + §e20mB§f Aromatic Hydrocarbons.\n§b• Coker Unit§f: §e16,000mB§f → §e1× Petroleum Coke§f + §e1,600mB§f Coker Oil.\n§b• Solidification§f: §e100mB§f → §e1× Oil Tar§f.\n\nOther production routes: §bChemical Plant§f (Tar Sand + Oil Tar → §e1,000mB§f), §bIndustrial Liquefaction§f (Coal Tar/Oil Tar/Crack Oil Tar).\n\n§ePS:§f Direct coking is wasteful at §e16,000mB§f per coke. Fraction it down first, then process the lighter outputs.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 13,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Bitumen",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40069,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 13,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

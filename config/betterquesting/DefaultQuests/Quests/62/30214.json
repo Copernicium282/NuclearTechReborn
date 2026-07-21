@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30172
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "An §6Encoded Pattern§f is a crafting recipe stored as an item. It\u0027s the fundamental data piece of AE2\u0027s §6autocrafting§f system without patterns, your network cannot craft anything automatically.\n\nEncoded Patterns are created interactively in a §6Pattern Terminal§f: place a §6Blank Pattern§f in the slot, add output and input items, and the terminal encodes the recipe. There is no direct crafting recipe for an Encoded Pattern.\n\nThree pattern types: §6crafting§f (3x3 grid), §6processing§f (machine interface), and §6stonecutting§f. Sneak-right-click to clear an encoded pattern back to blank.\n\n§ePS:§f Blank Patterns cost 3 Iron Ingots + 1 Calculation Processor + 1 Certus Quartz Crystal. Keep spares in your ME Chest for on-demand pattern creation.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:encoded_pattern"
+      },
+      "name:8": "Encoded Pattern",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30214,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "appliedenergistics2:encoded_pattern"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

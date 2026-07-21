@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ME Smart Cable carries 8 channels just like Glass and Covered, but it displays active channel usage as glowing lines on the cable face.\n\nThe more channels in use, the more lines light up. This makes network debugging straightforward, since you can see at a glance which cables are near capacity.\n\nAvailable in all 16 AE2 colors. Same channel limits and color isolation as other 8-channel cables.\n\nSmart Cable can be upgraded to Dense Smart Cable for 32-channel backbone runs.\n\n§ePS:§f Temporarily swap key cable segments to Smart Cable when troubleshooting channel issues. Swap back to Covered once you find the bottleneck.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 56,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Smart Cable",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30154,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 56,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

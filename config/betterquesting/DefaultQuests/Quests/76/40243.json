@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40242
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Carbon Dioxide§f §aYour ZIRNOX needs this waste gas to keep from melting. More isn\u0027t always better though.§f §bCarbon Dioxide§f (CO2) is a polluting gas that occurs as a waste product in petrochemical and material refinement. Its one job is cooling the §bZIRNOX§f reactor, which can consume up to §e16,000 mB§f. §6Production§f:\n§b• Chemical Plant§f, 1,000 mB Natural Gas → 1,000 mB CO2 (3s, 100 HE/t)\n§b• Electrolysis§f, Alumina (200 mB) → 100 mB CO2 + Aluminium Powder + Fluorite\n§b• Fractioning Tower§f, Coker Gas (100 mB) → 75 mB CO2 + 25 mB Aromatics\n§b• Combination Oven§f, Limestone Powder → CO2 + Calcium Powder\n§b• Pyrolysis Oven§f, Coal Tar → 1,000 mB CO2 + Fine Soot §6Key Uses§f:\n§b• §eZIRNOX Coolant§f, the only real use; trial and error needed to find the ideal amount for your fuel load §ePS:§f The Chemical Plant route (Natural Gas) is simplest for bulk production. But remember, dumping in more CO2 doesn\u0027t mean more power, experiment with amounts for your specific setup.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 55,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Carbon Dioxide",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40243,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 55,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

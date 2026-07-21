@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40001
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Iron Furnace§f\n\n§aVanilla furnace that actually tries. Burns fuel only when smelting, and gets faster with upgrades.§f\n\nThe §bIron Furnace§f is an upgrade to the vanilla furnace that only consumes fuel during active smelting. It has built-in burn time bonuses (+25% to +100% depending on fuel type) and accepts Mk.I through Mk.III speed upgrades.\n\nCrafted from iron ingots, a furnace, and stone bricks. Only takes a few iron to make, and the fuel savings add up fast.\n\nWith a Mk.III upgrade it smelts at double speed, 4 seconds per operation. It also accepts redstone control for automation.\n\n§ePS:§f A small but noticeable improvement. Worth the upgrade once you have iron to spare.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:furnace_iron"
+      },
+      "name:8": "Iron Furnace",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40034,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:furnace_iron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

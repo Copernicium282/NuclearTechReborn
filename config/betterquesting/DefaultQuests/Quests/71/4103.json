@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6The Crafter§f\\n\\n§aAutomate multi-step recipes at blazing speed inside a single block.§f\\n\\nThe RFTools §bCrafter§f stores multiple recipes and handles internal steps. No more piping items between a dozen auto-crafters.\\n\\n§6Tiers§f (all store §e50,000 RF§f, receive §e500 RF/t§f):\\n§b• Tier 1§f: §e2 recipes§f\\n§b• Tier 2§f: §e4 recipes§f\\n§b• Tier 3§f: §e8 recipes§f\\n\\n§6Internal Routing§f:\\nEach recipe output can be set to §bExternal§f (pipe out) or §bInternal§f (feed into the next recipe). This means you can chain sugarcane into paper, paper into books, and books into bookcases, all inside one machine.\\n\\nCosts §e100 RF§f per operation, and Tier 3 can fire §e5 operations per tick§f in fast mode.\\n\\n§9Note:§f Plan your internal dependencies carefully. The Crafter pre-builds buffers in the order you specify.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:crafter1"
+      },
+      "name:8": "Crafter",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4103,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:crafter1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

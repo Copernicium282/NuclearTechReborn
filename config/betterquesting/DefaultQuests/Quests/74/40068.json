@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Polymer§f\n\n§aWithout this plastic, the cracking tower stays locked. Get polymer flowing.§f\n\nPolymer is a synthetic plastic and the gate material for the §bCatalytic Cracking Tower§f. Once you crack oil, the entire petrochemical chain opens up.\n\n§6Crafting (Chemical Plant)§f:\n§e500mB§f §bPetroleum Gas§f + §e2× Coal Powder§f + §e1× Fluorite§f → §e1× Polymer Bar§f\n\nYou can also smelt §bPlastic Scraps§f found through exploration for polymer without setting up oil refining.\n\n§6What It Unlocks§f:\n§b• Catalytic Cracking Tower§f: The big one. Unlocks cracked oil chains, natural gas processing, and way more output options.\n§b• Insulators§f: §e1× Polymer Bar§f → §e8× Insulators§f for electronics.\n§b• Electric Tools§f: Combine with §bHigh-Speed Steel§f for advanced tools.\n\n§ePS:§f §bPetroleum Gas§f can also come from §bSchist Strata§f mining. If you save polymer for the cracking tower, you can skip parts of early oil refining.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_polymer"
+      },
+      "name:8": "Polymer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40068,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "hbm:ingot_polymer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

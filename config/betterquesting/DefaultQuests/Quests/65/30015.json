@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    30014
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Tank Fluid I/O§f\n\n§aHook your tanks up to standard pipes and machines from other mods.§f\n\n§6Tank Fluid Intake§f accepts fluid from standard pipes. Up to 10 allowed per tank. Any connected pipe can push fluid in by default. Add a Tank Fluid Filter to restrict it to one fluid type.\n\n§6Tank Fluid Outlet§f pushes fluid into standard pipes, machines, or tanks. It needs a suction source like a machine or a pull-pipe to drive fluid out. Up to 6 sides can be configured as separate colored outputs from the Tank GUI.\n\n§6Powered Tank Fluid Outlet§f works like a normal Fluid Outlet but automatically pushes fluid out without needing suction. Same 6 colored output sides.\n\nUse the colored output channels to sort different fluids into separate destinations. No complex external pipe filtering needed.\n\n§ePS:§f The Tank GUI has a filter slot. Right-click it with a fluid container to set what the tank accepts.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pressure:tank_fluid_input"
+      },
+      "name:8": "Tank Fluid I/O",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30015,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pressure:tank_fluid_input"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "pressure:tank_fluid_output"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "pressure:tank_fluid_output_auto"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

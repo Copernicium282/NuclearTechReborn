@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40240
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6BSCCO§f\n\n§aBismuth Strontium Calcium Copper Oxide. Sounds like a chemistry exam. It is your particle accelerator bottleneck.§f\n\n§bBSCCO§f is a superconducting alloy made into dense wire. Without it, you cannot build the §bLarge BSCCO Coils§f needed for high-tier particle accelerator recipes.\n\n§6Make It§f (Crucible):\n§b•§f 2 Bismuth + 2 Strontium + 2 Calcium + 3 Copper (all nuggets)\n§b•§f Output: §e1 BSCCO Ingot§f\n\n§6What It Is For§f:\n§b•§f §bLarge BSCCO Coil§f, 64 Dense BSCCO Wire + 64 Polymer Bars in assembly machine. Score range §e7,500-15,000§f\n§b•§f §bSolid State Quantum Processor§f, for quantum computers and QPUs\n§b•§f §bPlasma Forge§f, 32 Dense BSCCO Wire in the recipe\n§b•§f Heavy Magnetic Storage Tank, Quantum Battery, Gerald the Android\n\n§ePS:§f BSCCO gates the particle accelerator. No coils, no antimatter, no dark matter, no endgame. Automate bismuth, strontium, and calcium production before you need thousands of wire.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_bscco"
+      },
+      "name:8": "BSCCO",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40241,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_bscco"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

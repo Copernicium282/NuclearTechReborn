@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    30088,
+    30042
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Solid Fission Reactor§f\n\n§aYour first real nuclear reactor.§f\nThe §bSolid Fission Reactor§f is a multiblock structure built from §bFission Controller§f, §bFission Cells§f, §bHeat Sinks§f, §bModerators§f, and casing blocks. It ranges from §b1x1§f to §b24x24§f in size and generates RF by splitting atoms.\n\nBuild the controller, surround it with cells and cooling, and feed it fuel. The reactor produces power continuously while fuel lasts. Heat management is everything here: too much heat and it meltdowns.\n\n§cWARNING:§f If the reactor overheats, it will meltdowns and destroy nearby blocks. Always overbuild your cooling.\n\n§ePS:§f Start small (3x3x3 or so) and expand as you learn the heat dynamics.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:solid_fission_controller"
+      },
+      "name:8": "Solid Fission Reactor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30043,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:solid_fission_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:solid_fission_cell"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:fission_source"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:fission_cell_port"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

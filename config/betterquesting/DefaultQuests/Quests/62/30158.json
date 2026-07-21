@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30156
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Energy Cell stores 200,000 AE of power. It acts as a battery for your network, smoothing out supply and demand spikes.\n\nPlace it on any cable in the network. It charges when there is excess power and discharges when demand exceeds supply. Multiple cells stack their storage capacity.\n\nCraft with Certus Quartz Crystals, Fluix Crystals, and an Iron Block.\n\nAt least one Energy Cell is strongly recommended. Heavy crafting operations can drain power faster than your generators supply it, and without a buffer you get brownouts.\n\n§9Note:§f Energy Cells do not consume channels. They are pure power storage.\n\n§ePS:§f Place cells near your Energy Acceptor for the fastest charge/discharge response.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:energy_cell"
+      },
+      "name:8": "Energy Cell",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30158,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:energy_cell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

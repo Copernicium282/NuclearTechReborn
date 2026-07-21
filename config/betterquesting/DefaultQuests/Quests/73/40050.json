@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40049
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aFire can\u0027t touch you anymore.§f\n\nStarmetal Armor upgrades from Cobalt pieces and gives you 10 defense, 1.0 RR, a hard damage cap of 15, and a 0.5 damage modifier. The whole set is fireproof, so lava, fire, and afterburn are just background noise.\n\nBismuth Armor is a notable side-grade. Jump Boost, Speed, Regen II, Night Vision, fall damage nullification, and three dashes. It needs Rare Earth, Bismuth Compound, and Gold Wire. Incredible for exploration, but it doesn\u0027t upgrade further.\n\n§ePS:§f Starmetal\u0027s fire immunity alone makes it worth rushing. Bismuth is great for getting around but won\u0027t carry you into endgame.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:starmetal_helmet"
+      },
+      "name:8": "Starmetal Armor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40050,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:starmetal_helmet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40081
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Aromatic Hydrocarbons§f\\n\\n§aThe least common cracked oil product, but the most versatile  -  bakelite, TNT, and solvent all start here!§f\\n\\nRefine §bHot Cracked Oil§f in the §bOil Refinery§f and you get Aromatic Hydrocarbons alongside three other products. Every §e1,000mB§f of cracked oil gives §e150mB§f of this stuff. It is flammable, viscous, and provides §e458 kTU§f per bucket.\\n\\n§6Sources§f:\\n§b•§f Oil Refinery (Hot Cracked Oil or Desulfurized variants).\\n§b•§f Catalytic Reformer from Light Oil or Cracked Light Oil.\\n§b•§f Fractioning Tower from Coker Gas, Reformate, or BTX.\\n\\n§6Key recipes§f:\\n§b•§f Bakelite: §e500mB§f + §e500mB§f Petroleum Gas in Chemical Plant.\\n§b•§f TNT: §e500mB§f + Niter yields 4x TNT.\\n§b•§f Solvent: §e500mB§f + §e500mB§f Naphtha in Industrial Mixer.\\n§b•§f Petroleum Coke: §e1,700mB§f in Coker Unit.\\n\\n§ePS:§f This is the cheapest source of the benzene ring structure in HBM. Route cracked oil here for bakelite production!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 67,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Aromatic Hydrocarbons",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40111,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 67,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Demon Core§f\n\n§aTwo beryllium half-spheres with a plutonium pit. A screwdriver keeps it from going critical.§f\n\nThe §bDemon Core§f references the infamous real-life criticality accident. In NTM, it comes in two states:\n§b• Suspended (Open)§f, held together by a screwdriver, emits §e5 RAD/s§f. Not used in recipes.\n§b• Closed§f, drop the suspended version to close it, emits §e100,000 RAD/s§f. This is what you craft with.\n\n§6Uses§f:\n§b• Fau Armor§f, closed demon core in the chestplate recipe\n§b• DNT Nano Suit Boots§f, closed core flanked by DNT armor plating\n§b• Crucible (Weapon)§f, yharonite + closed core + yharonite\n§b• Demon Core Lamp§f, emits blue radiation light, §e100k-750k RAD/s§f depending on distance\n\n§cWARNING:§f The closed demon core is absurdly radioactive. Handle with full hazmat and keep it stored when not in use. The lamp variant is decorative but will irradiate anything nearby.\n\n§ePS:§f You\u0027ll need at least two demon cores for endgame armor (one for Fau, one for DNT Nano Suit). They don\u0027t stack, so plan your storage carefully.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:demon_core_closed"
+      },
+      "name:8": "Demon Core",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40292,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:demon_core_closed"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

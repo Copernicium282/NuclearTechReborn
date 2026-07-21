@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30034,
+    30049,
+    30262
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Welcome to Trinity§f\n\n§aNuclear weapons testing. For science.§f\nThe §bTrinity§f questline introduces you to NuclearCraft\u0027s weapons systems. These aren\u0027t just for show. Nuclear bombs produce massive explosions, radiation, and unique materials like §bTrinitite§f.\n\nTo get started, you\u0027ll need to craft your first §bNuclear Bomb§f. This requires enriched uranium or plutonium, conventional explosives, and a detonator. The explosion will leave behind §bTrinitite Glass§f, a unique material used in advanced recipes.\n\n§cWARNING:§f Nuclear bombs destroy a large area. Test in a safe location away from your base.\n\n§ePS:§f Trinity is more of a side quest than main progression. The materials are useful but not required for reactor operation.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "trinity:detonator"
+      },
+      "name:8": "Welcome to Trinity",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30054,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "trinity:detonator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

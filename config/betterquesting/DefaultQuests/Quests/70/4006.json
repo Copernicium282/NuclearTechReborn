@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Robot Assembler§f\\n\\n§aBuild robots, drones, and microcontrollers. You can\u0027t craft them by hand.§f\\nMobile OC units need a specialized assembler to put them together. Place a template (Robot Case, Drone Case, or MCU Case) in the top slot, fill the component slots, and click Assemble.\\n\\n§6Assembly Costs§f:\\n§bRobots§f: 50,000 energy base + 10,000 per complexity point.\\n§bDrones§f: 25,000 base + 15,000 per complexity.\\n§bMicrocontrollers§f: 10,000 base + 10,000 per complexity.\\n\\nThe assembler applies 50 energy per tick while working, so more complex builds take longer. The progress bar fills as power is consumed, and once finished you retrieve the assembled unit from the output slot.\\n\\n§ePS:§f Every component you add increases complexity. Plan your build to keep costs reasonable, and check JEI for what parts are available.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "opencomputers:assembler"
+      },
+      "name:8": "Robot Assembler",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4006,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "opencomputers:assembler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

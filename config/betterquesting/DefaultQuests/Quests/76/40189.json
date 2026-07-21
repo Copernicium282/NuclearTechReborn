@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40188
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6ZIRNOX Nuclear Reactor§f\n\n§aYour first reactor. It\u0027s cheap, it\u0027s simple, and it won\u0027t kill you if you read the manual.§f\n\nThe §bZIRNOX GCR§f is a single-block gas-cooled reactor, not a modular multiblock. You build it, fuel it, and it produces §esuper dense steam§f. That\u0027s the good news.\n\n§6Crafting§f (Assembly Machine, 30s, 100 HE/t):\n§b•§f 4× Steel Shell, 8× Steel Pipe, 8× Boron Ingot, 16× Graphite Ingot\n§b•§f 16× Rubber Bar, 16× Concrete, 4× Integrated Circuit Board\n\n§6The GUI§f:\n§b•§f §bFuel Rod Assembly§f, center rods deplete faster than edge rods\n§b•§f §bControl Rod§f, on/off switch for the reaction\n§b•§f §bTemperature§f, hard cap at §e800°C§f; meltdown above that\n§b•§f §bPressure§f, hard cap at §e30 BAR§f; also causes meltdown\n§b•§f §bCO2§f (§e16,000 mB§f), §bWater§f (§e32,000 mB§f), §bSteam§f (§e8,000 mB§f)\n\n§cWARNING:§f Super dense steam stuck in the reactor turns it into a radiation bomb. Get your pipe setup right before you turn it on.\n\nThe ZIRNOX is a stepping stone, not an endgame reactor. It burns fuel fast and produces modest power. Use it to get your first fission products, then move on to a PWR or RBMK.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_zirnox"
+      },
+      "name:8": "ZIRNOX Nuclear Reactor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40189,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_zirnox"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

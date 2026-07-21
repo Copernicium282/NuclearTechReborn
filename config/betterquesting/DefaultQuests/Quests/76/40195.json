@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40194
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Technetium Steel§f\n\n§aThe alloy that opens up half the machines in this mod. Corrosion-resistant and absolutely essential.§f\n\n§bTechnetium Steel§f is steel blended with technetium-99. The result is an extremely corrosion-resistant alloy used in dozens of mid-to-late game recipes.\n\n§6How to Make It§f (Crucible or Blast Furnace):\n§b•§f §e1×§f Steel Ingot + §e1×§f Technetium-99 Nugget\n§b→§f §e1×§f Technetium Steel Ingot\n\n§6Key Uses§f:\n§b•§f §bResearch Reactor§f and §bBreeding Reactor§f construction\n§b•§f §bAssembly Factory§f and §bChemical Factory§f\n§b•§f §bModerated RBMK Fuel Rods§f\n§b•§f §bGas Centrifuge Overclocking Upgrade§f\n§b•§f §bBarrels§f for corrosive fluid storage\n§b•§f §bDeuterium Filter§f for deuterium extraction\n§b•§f §bReactor Remote Control Block§f\n§b•§f §bRTG§f and §bRadiolysis Chamber§f\n\n§bCadmium Steel§f substitutes for technetium steel in §ealmost every§f recipe. If you\u0027re short on technetium, the cadmium path works.\n\n§ePS:§f Unlocks §eBobmazon Level 5§f. Check JEI for the full list of recipes that require this alloy.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_tcalloy"
+      },
+      "name:8": "Technetium Steel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40195,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_tcalloy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

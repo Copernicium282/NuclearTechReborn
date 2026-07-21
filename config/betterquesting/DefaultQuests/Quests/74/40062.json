@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40061
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Oil Derrick§f\n\n§aThe cheapest way to get crude oil flowing. Every petrochemical setup starts here.§f\n\nThe Oil Derrick drills down to oil deposits and extracts crude oil plus natural gas. Place it directly above a deposit and supply power.\n\n§6Stats§f:\n§b• Power§f: §e2kHE/s§f\n§b• Oil output§f: §e500mB§f crude + §e100-500mB§f natural gas per §e2.5s§f cycle\n§b• Buffers§f: §e64,000mB§f each for oil and gas\n§b• Depletion§f: §c5%§f chance per cycle to deplete a deposit block\n\n§cWARNING:§f If the drill hits §bUranium Ore§f or §bAsbestos Ore§f, poison gas releases at the surface. Wear a §bGas Mask§f.\n\nThe §bNatural Gas§f byproduct is valuable. Store it for cracking into §bPetroleum Gas§f and §bUnsaturated Hydrocarbons§f rather than flaring it off.\n\n§ePS:§f The derrick is a stepping stone. Upgrade to the §bPumpjack§f once you have the materials.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_well"
+      },
+      "name:8": "Oil Derrick",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40062,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_well"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

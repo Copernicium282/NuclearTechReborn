@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30089
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Viaduct§f\n\n§aTeleport between locations at §e10 blocks per second§f through tube networks!§f\n\n§bViaducts§f carry players between configured destinations, every opened side is both entrance and exit. Name destinations and assign custom icons for easy navigation.\n\n§6Crafting§f:\n§b• Untreated§f: §e3× Bronze Ingot§f + §e6× Hardened Glass§f → §e4× Viaduct (Untreated)§f.\n§b• Viaduct§f: §e1× Untreated§f + §e100 mB Zephyrean Aerotheum§f → §e1× Viaduct§f (§e800 RF§f, Fluid Transposer).\n\nZephyrean Aerotheum is made from Bliz Powder and Niter in the Magma Crucible. Untreated viaducts don\u0027t work, they are just the base ingredient.\n\n§9Right-click§f an entrance to pick a destination. §9Sneak§f mid-travel to exit early.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermaldynamics:duct_64"
+      },
+      "name:8": "Viaduct",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30102,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "thermaldynamics:duct_64"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    4004
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nanomachines§f\\n\\n§aInject robot swarms into yourself for potion effects and auto-protection.§f\\nNanomachines are internal augmentations controlled by a neural network. You program triggers, and they grant status effects.\\n\\n§6Controller§f:\\nStores §e100,000 energy§f. Each active input node drains §e0.5 energy/tick§f. Reconfiguring the network costs §e5,000 energy§f.\\n\\n§6Input Limits§f:\\n§e2 active inputs§f is safe. Going above that applies toxic debuffs. Hard maximum is §e4 active inputs§f.\\n\\n§6Effects§f:\\nSpeed, Haste, Strength, Jump Boost, Resistance, Fire Resistance, Water Breathing, Night Vision, and Absorption are available. So are Blindness, Nausea, Poison, Wither, and more if you\u0027re feeling chaotic.\\n\\n§cWARNING:§f If the controller runs out of energy, it deals §e5 damage§f to you and restores §e50 energy§f to itself. Keep it charged or become a battery.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14,
+        "id:8": "opencomputers:component"
+      },
+      "name:8": "Nanomachines",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4010,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "opencomputers:component"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

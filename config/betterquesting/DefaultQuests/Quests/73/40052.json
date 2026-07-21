@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aBetter than coal in every way. Except the gas.§f\n\nInfernal Coal burns for 4,800 ticks, smelting 24 blocks per piece. That\u0027s triple regular coal. Found in the Nether at any y-level with any pickaxe.\n\nYou can shred it into Coal Powder or combine it with hydrogen peroxide in the Chemical Plant for Solid Fuel. Either way, it\u0027s excellent fuel.\n\n§cWARNING:§f Mining the ore releases Monoxide gas. You need a Catalytic or Combo filter in your gas mask to breathe. Hazmat alone won\u0027t block CO.\n\n§ePS:§f This is your best early fuel source for the Blast Furnace. Stock up before scaling steel production.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:coal_infernal"
+      },
+      "name:8": "Infernal Coal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40052,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:coal_infernal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40203
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Chicago Pile\\n\\n§aNo power, no reactor, no problem. Just graphite, fuel rods, and neutron physics.\\n\\nThe §bChicago Pile§f is a crude early-game breeding reactor made from drilled graphite blocks. It transmutes uranium rods into plutonium without requiring any electricity. Place graphite blocks, drill them with a §bHand Drill§f, and insert fuel rods.\\n\\n§6Rod Types§f:\\n§b• Uranium Rod§f, breeds into plutonium, not self-sustaining\\n§b• Ra226Be / Plutonium§f, neutron sources to kickstart reactions\\n§b• Lithium Rod§f, breeds into tritium for fusion fuel\\n§b• Control Rod§f, blocks neutron flux when inserted\\n\\n§6Neutron Mechanics§f:\\n• Source rods emit neutrons in rays every direction\\n• Optimal efficiency at §e1.5 blocks§f, max range §e5 blocks§f\\n• Solid blocks block rays, useful for isolating multiple piles\\n\\n§6Heat§f: Caps at §e1,000°C§f before fiery meltdown. Natural cooling §e5%/tick§f. Aluminum shell adds §e1.5%§f, fans add §e2.5%§f each. Max cooling: §e11.5%/tick§f with shell plus 2 fans.\\n\\n§6Depletion§f: At §e50,000§f flux, uranium transmutes into plutonium rod (neutron source, 3 flux/ray). Process in Tier 2 Anvil for reactor-grade plutonium.\\n\\n§ePS:§f Keep piles thin. Stack layers and neutrons have nowhere to escape, rod heat skyrockets. A single neutron source per layer is enough.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:pile_rod_uranium"
+      },
+      "name:8": "Chicago Pile",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40205,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pile_rod_uranium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

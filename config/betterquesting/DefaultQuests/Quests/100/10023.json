@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10058
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Docking Pad§f is the landing counterpart to the Launch Pad. Rockets returning from a Space Station can use a Docking Pad as their return target, and it also serves as the home base for Unmanned Vehicle missions.\n\nCraft it shapeless: 1 Concrete Tile + 1 Tracking Circuit. Like the Launch Pad, it needs a 3x3 air clearance and must be linked to a Space Station Assembler using a Linker.\n\n§cWARNING:§f If a rocket returns to a planet with no Docking Pad or Launch Pad, it lands in a random 3x3 area and may destroy terrain. Always pre-place pads at your destinations.\n\n§ePS:§f The pad pairs with the Launch Pad for two-way rocket traffic. Place at least one pad per destination you plan to visit.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:landingpad"
+      },
+      "name:8": "Docking Pad",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10023,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:landingpad"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

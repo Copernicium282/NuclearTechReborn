@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30109
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fish \u0026 Seafood§f\n\n§aCatch, cook, and prepare fish and ocean creatures.§f\n\nHarvestCraft adds §e25+ fish species§f. Raw fish restores §e1 hunger, 0.6§f saturation. Cook in a furnace for §e2 hunger, 1.2§f saturation. Use the §bWater Trap§f for passive fishing.\n\n§6Raw Fish§f: Anchovy, Bass, Carp, Catfish, Charr, Clam, Crab, Crayfish, Eel, Frog, Grouper, Herring, Jellyfish, Mudfish, Octopus, Oyster, Perch, Scallop, Shrimp, Snail, Snapper, Tilapia, Trout, Tuna, Turtle, Walleye, Sardine, Mussel.\n\n§6Cooked§f: Clam, Crab, Crayfish, Frog Legs, Octopus, Oyster, Scallop, Shrimp, Snail, Turtle, Mussel.\n\nFish can be used in §bFish Sandwich§f, §bFish Taco§f, §bSushi§f, and more.\n\n§6Fish Processing§f:\n§b• Grinder§f: Grind any raw fish into §bGround Fish§f (used in fish cakes, fish sticks, fish and chips).\n§b• Smelting§f: Cook raw fish in a furnace for §e2× hunger§f restoration.\n§b• Water Trap§f: Passively catch fish using Fish Trap Bait (§e1 fish per 2.5 minutes§f).\n\n§eTip§f: Set up a row of §bWater Traps§f in an ocean biome for passive fish income. Feed the fish into a §bGrinder§f for §bGround Fish§f used in many meal recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:shrimprawitem"
+      },
+      "name:8": "Fish \u0026 Seafood",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30127,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "harvestcraft:shrimprawitem"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "harvestcraft:crabrawitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

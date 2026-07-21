@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10082
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Microwave Receiver is a multiblock built from Solar Panels that receives wireless power from paired transmitters like the Microwave Transmitter Satellite.\n\nThe receiver reads satellite ID chips from its input ports and pulls power from each connected satellite. Power output scales with the planet\u0027s insolation multiplier. It only works during daytime and needs line of sight to the satellite.\n\nFor maximum range, launch a Microwave Transmitter Satellite into geostationary orbit (Y\u003d512) above your home base. The receiver can then pull power from anywhere on the planet\u0027s surface.\n\n§ePS:§f For interplanetary missions, launch multiple satellites in areostationary orbit at each destination. The receiver is the cheapest way to power remote outposts, no fuel transport needed.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:microwavereciever"
+      },
+      "name:8": "§6Microwave Receiver§f"
+    }
+  },
+  "questID:3": 10084,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:microwavereciever"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

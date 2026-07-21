@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Fluid storage without fuss? The §6ME Fluid Interface §fmirrors the regular ME Interface but for fluids. It bridges your ME network with fluid tanks, pipes, and processing machines on the §6Fluid Channel§f.\n\nPlace it next to a tank and it pushes or pulls fluids automatically. Use §6fluid processing patterns §fto automate complex fluid recipes, just like you would with items. The §6internal buffer §fholds 9 tanks of fluid temporarily, so things flow smoothly even when your processing backs up.\n\nCraft it with 4 Iron Ingots, 2 Lapis, an Annihilation Core, and a Formation Core. Check JEI for the exact pattern.\n\n§ePS:§f Redstone control lets you toggle push/pull behaviour. A §9Note:§f on channels, the Fluid Interface uses one fluid channel per block, so plan your Dense Cable layout accordingly.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:fluid_interface"
+      },
+      "name:8": "ME Fluid Interface",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30180,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:fluid_interface"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

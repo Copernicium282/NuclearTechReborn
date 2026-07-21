@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Tired of running back to your terminal? The §6ME Wireless Access Point §flets you access the network from anywhere within range.\n\nPlace it in a central location, connect it to your network, and any Wireless Terminal in range connects. Default range is 16 blocks. Add §6Wireless Boosters §fin the slot to extend it: 4 boosters reaches 24 blocks, and 16 boosters reaches 80 blocks.\n\nCraft it from a Wireless Receiver, a Calculation Processor, and a Fluix Cable. It costs 1 channel from the host cable.\n\n§ePS:§f Place it high up with clear line of sight for best range. Walls reduce effective distance. And yes, it works across dimensions with a Quantum Bridge.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:wireless_access_point"
+      },
+      "name:8": "ME Wireless Access Point",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30196,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_access_point"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Deep Vein Mining \u0026 Metallurgy: Drills \u0026 Lathes§f\\n\\n§aDeploy heavy mining machinery to extract massive ore deposits from bedrock veins!§f\\nTraditional strip mining yields limited results. Industrial Renewal allows you to locate massive subterranean §bDeep Ore Veins§f and drill them for infinite wealth.\\n\\n§6Deep Ore Veins§f:\\n§b• Generation§f: Spawn beneath bedrock with a §e5% spawn chance§f per chunk, containing between §e1,000 and 8,000 blocks§f of ores.\\n§b• Ore Distribution§f: Veins contain a mixture of resources: §bCoal (60%)§f, §bCopper/Tin (40%)§f, §bIron (30%)§f, §bOsmium/Silver/Nickel (10-20%)§f, §bRedstone/Lapis (6%)§f, and §bDiamond (1%)§f.\\n\\n§6Mining Drills \u0026 Tiers§f:\\nTo mine a Deep Vein, you must use a §bMining Drill§f loaded with a drill head:\\n§b• Drill Head Durability§f:\\n§b- Steel Drill§f: Entry-level. Max damage §e400§f.\\n§b- Diamond Drill§f: Mid-grade. Max damage §e2,000§f.\\n§b- Deep Vein Drill§f: Industrial grade. Max damage §e12,000§f.\\n§b• Cooldown§f: The drill pauses for §e120 ticks (6 seconds)§f between mining cycles.\\n§b• Resources Consumed§f:\\n§b- Energy§f: Consumes §e768 FE/tick§f on standard ores, and §e1,024 FE/tick§f when drilling deep veins.\\n§b- Water§f: Requires §e10 mB of water per tick§f for cooling.\\n\\n§6The Lathe Machine§f:\\nAutomate metallurgy components like bolts, wires, and sheets:\\n§b• Power Draw§f: Consumes §e128 FE/tick§f while active.\\n§b• Iron Blades§f: The lathe requires an §bIron Blade§f to shape metal. A single blade is configured to last §e2,880 minutes§f (exactly §a48 real-life hours§f of operation) before wearing out.\\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialrenewal:mining"
+      },
+      "name:8": "Deep Vein Mining",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4204,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialrenewal:mining"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

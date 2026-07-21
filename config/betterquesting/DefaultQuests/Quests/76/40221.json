@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40215
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Saturnite\\n\\n§aHeat-resistant superalloy that makes bullets catch fire and blocks antimatter explosions.\\n\\n§bSaturnite§f is a durable, heat-resistant, corrosion-resistant alloy. Hard but brittle. Excellent neutron reflector. Its properties are, frankly, bizarre.\\n\\n§6Production§f (§bRotary Furnace§f):\\n• Standard: 250 mB Reformate Gas + Copper Powder + 4x High-Speed Steel Powder → §e2 ingots§f\\n• Boosted: add Borax → §e4 ingots§f (double output)\\n\\n§6Key Uses§f:\\n• §bAntimatter Containment Barrel§f, essential for antimatter storage\\n• Guns (bullets set targets on fire)\\n• §bAsteroid Mining Ship§f fuselage and shielding\\n• Fusion reactor lining and neutron shielding\\n• BF rocket fuselages\\n• Combine with meteorite ingot → §bStarmetal§f\\n\\n§ePS:§f Always use the borax-boosted recipe if you have it. Double output for the same inputs. You will need a lot of saturnite for antimatter barrels and the asteroid mining ship.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_saturnite"
+      },
+      "name:8": "Saturnite",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40221,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_saturnite"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

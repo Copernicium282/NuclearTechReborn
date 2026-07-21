@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40186
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nuclear Age§f\n\n§aReady to split atoms and melt faces? Welcome to the Nuclear Age.§f\n\nThis is the biggest and hardest stretch of the mod. You\u0027re moving from petrochemicals and pre-nuclear prep into actual reactors, fission power, and materials that glow in the dark.\n\n§6What You\u0027ll Cover§f:\n§b•§f §bUranium Enrichment§f, yellowcake to UF6 to fuel rods\n§b•§f §bFission Reactors§f, ZIRNOX, PWR, RBMK, Watz power plants\n§b•§f §bFuel Recycling§f, PUREX processing and waste management\n§b•§f §bResistant Alloys§f, Technetium Steel and Cadmium Steel\n§b•§f §bFusion Power§f, the Fusion Reactor and its byproducts\n§b•§f §bExotic Materials§f, schrabidium, antimatter, dineutronium\n\n§6Key Rules§f:\n§b•§f §bRadiation Safety§f, wear resistant armor, carry a Tungsten Reacher\n§b•§f §bHeat Management§f, every reactor needs cooling; steam is your power output\n§b•§f §bNeutron Flux§f, breeding and transmutation depend on flux levels\n§b•§f §bWaste Handling§f, spent fuel pools, disposal drums, PUREX\n\n§cWARNING:§f This stage is dangerous. Reactors melt down violently. Radioactive materials require careful handling. Read the wiki page for a reactor before you build one!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14,
+        "id:8": "hbm:rod"
+      },
+      "name:8": "Nuclear Age",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40187,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "hbm:rod"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

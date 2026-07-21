@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10050
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Need air in a sealed room? The §6Oxygen Vent§f pushes pressurized oxygen into the space, creating a breathable atmosphere.\n\nIt requires a liquid oxygen source piped in through a Fluid Tank or Liquid IO Board. Once supplied, it releases oxygen at a steady rate and maintains positive pressure to prevent vacuum seepage through small openings.\n\nFor a complete life support setup, pair it with a CO2 Scrubber (quest 10050) on the opposite wall. The vent handles oxygen, the scrubber handles CO2, together they keep the room livable.\n\nBigger rooms need more vents. The vent\u0027s range grows as it finds adjacent scrubbers, so placing scrubbers directly next to it increases its effective area.\n\n§ePS:§f Every sealed room in the late game needs this: stations, planetary outposts, the Space Elevator cabin. Budget accordingly.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:oxygenvent"
+      },
+      "name:8": "Oxygen Vent",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10051,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:oxygenvent"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

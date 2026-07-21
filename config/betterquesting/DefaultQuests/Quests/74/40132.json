@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40087
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Coker Gas§f\n\n§aGaseous byproduct of light-fluid coking - key for weapon steel and reformate gas!§f\n\nCoker Gas is a flammable, combustible, polluting gas with a gaseous fuel grade at §e62.5 kTU§f and §e93.7 kHE§f per bucket. It is produced when coking lighter fluids like Wood Oil, Aromatic Hydrocarbons, and Sour Gas in the §bCoker Unit§f.\n\n§6Production§f (Coker Unit):\n§b•§f Wood Oil (§e3,000mB§f) → Charcoal + §e300mB§f Coker Gas.\n§b•§f Aromatic Hydrocarbons (§e1,700mB§f) → §e170mB§f Coker Gas.\n§b•§f Sour Gas (§e1,000mB§f) → Sulfur + §e150mB§f Coker Gas.\n§b•§f Smaller yields from Cracked Diesel, Light Oil, Reformate, BTX.\n\n§6Uses§f:\n§b•§f Rotary Furnace: §e100mB§f + Steel Ingot + Flux → Weapon Steel.\n§b•§f Fractioning Tower: §e100mB§f → §e25mB§f Aromatic Hydrocarbons + §e75mB§f Carbon Dioxide.\n§b•§f Pyrolysis Oven: §e4,000mB§f → §e100mB§f Reformate Gas.\n\n§ePS:§f Coker Gas is one of the few renewable sources of §bReformate Gas§f outside the Vacuum Refinery. Stockpile it and run it through the Pyrolysis Oven for a steady supply!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 107,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Coker Gas",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40132,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 107,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

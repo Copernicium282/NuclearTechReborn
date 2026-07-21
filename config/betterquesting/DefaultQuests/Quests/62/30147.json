@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Inscriber is where Printed Circuits and Processors get made. It takes an item in the middle slot, a Press or Printed Silicon on top or bottom, and stamps them together.\n\nIt holds 1600 AE of internal power and processes each item in 100 ticks (5 seconds). Input and output from any side, so automate it with Import/Export Buses.\n\nEach Inscriber has 3 upgrade slots for Acceleration Cards to speed things up. Build separate Inscribers for each circuit type (Calculation, Engineering, Logic, Silicon) to keep throughput reasonable.\n\n§cWARNING:§f The Inscriber will not work without power. Hook it up to your AE network or provide RF through an Energy Acceptor.\n\n§ePS:§f Check JEI for the full list of Inscriber recipes. There are more than you think.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:inscriber"
+      },
+      "name:8": "Inscriber",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30147,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:inscriber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Presser§f\n\n§aExtract honey, oil, tofu, and sugar through mechanical pressing.§f\n\nThe Presser is a multi-purpose extraction block used in many HarvestCraft chains. It runs without power, just drop items in and collect outputs.\n\nKey recipes: Honeycomb becomes §e2 Honey§f + Grain Bait. Waxcomb becomes §e2 Beeswax§f + Grain Bait. Soybeans become §e2 Silken Tofu§f. Sugar Cane becomes Sugar. Seeds and nuts become Cooking Oil. Fresh Water becomes §e2 Bubbly Water§f for sodas.\n\nEach item processes in §e125 ticks§f (~6.25 seconds). Automate with hoppers or itemducts (in from top, out from bottom).\n\nCraft with §e5 iron ingots§f, §e2 iron blocks§f, and §e1 piston§f.\n\n§ePS:§f The Presser also produces bait as a byproduct on many recipes, which feeds into your Ground Traps and Water Traps.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:presser"
+      },
+      "name:8": "Presser",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30112,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:presser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

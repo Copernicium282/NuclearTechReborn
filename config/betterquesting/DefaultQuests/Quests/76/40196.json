@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40193
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Spent Fuel Pool Drum§f\n\n§aYour hot fuel will kill you. Cool it down first.§f\n\nThe §bSpent Fuel Pool Drum§f holds §e12§f hot depleted fuel rods and cools them for recycling. Hot fuel is pyrophoric and highly radioactive. Touching it without protection is a fast way to respawn.\n\n§6Crafting§f:\n§b•§f 4× Steel Ingot, 4× Iron Bars, 3× Empty Quad Rod\n\n§6How to Use It§f:\n§b•§f Place it §bunderwater§f, the more water touching the sides, the faster it cools\n§b•§f Insert hot depleted fuel into the GUI\n§b•§f Wait, average §e5 minutes§f but the deviation is insane, anywhere from §e2 seconds§f to §e1 hour§f\n\nOnce cooled, the fuel goes into a §bPUREX§f or §bCentrifuge§f to extract useful isotopes like Technetium-99, Uranium-238, and Plutonium nuggets.\n\n§cWARNING:§f Depleted fuel and fuel rods are pyrophoric. Use a §bTungsten Reacher§f and hazmat suit. Better yet, set up a conveyor chain so you never touch the stuff directly.\n\n§ePS:§f Check JEI for the exact cooling mechanics. Water placement matters more than you\u0027d think.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_waste_drum"
+      },
+      "name:8": "Spent Fuel Pool Drum",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40196,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_waste_drum"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40083
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Compressor§f\\n\\n§aNeed pressurized fluids? This is the only machine that does it.§f\\n\\nThe §bCompressor§f is a §e3×9×4§f multiblock that squeezes liquids and gases into higher Pressure Units. Each cycle takes §e5 seconds§f and eats §e2.5 kHE/t§f. Its main job in a petrochemical setup is pressurizing crude oil to §e2 PU§f for the Vacuum Refinery, and you need §e2§f of them running at once.\\n\\n§6Crafting§f (Assembly Factory): §e8×§f Cast Steel Plate, §e4×§f Copper Plate, §e2×§f Steel Shell, §e3×§f Motor, §e1×§f Analog Circuit Board.\\n\\nOther recipes include compressing Petroleum Gas to Liquid Petroleum Gas, Perfluoromethyl to its cold variant, and Blood to Heavy Oil at §e3 PU§f. Compressed air feeds Pneumatic Tubes at variable pressure depending on tube length.\\n\\nThere is also a §bCompact Compressor§f, a §e3×3×7§f version that stacks vertically and works identically. Same compression, smaller footprint.\\n\\n§ePS:§f Budget for at least two compressors when planning your vacuum refinery build. They are not optional, the vacuum refinery will not accept unpressurized crude.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_compressor"
+      },
+      "name:8": "Compressor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40084,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_compressor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

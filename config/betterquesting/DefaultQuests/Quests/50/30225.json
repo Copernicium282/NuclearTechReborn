@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30238
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Starter Kit§f\n\n§aYou didn’t think we’d send you out there empty-handed, did you?§f\nYou get a §9Shield§f in your offhand and §c9× Bread§f in your hotbar. Not much, but enough to survive the first night while you figure out where to set up.\n\nUse the shield to block arrows and melee attacks while you’re gathering materials. The bread keeps your hunger bar from dropping while you’re knapping flint shards and cutting plant fibers for your first tools.\n\n§ePS:§f You’ll want to find a permanent base location fast. That bread won’t last forever, and neither will your patience with a dirt hut.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:shield"
+      },
+      "name:8": "Starter Kit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30225,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:shield"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

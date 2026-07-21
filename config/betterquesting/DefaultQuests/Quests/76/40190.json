@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40189
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Steam§f\n\n§aEvery nuclear reactor in this mod produces steam. Understanding the density chain is non-negotiable.§f\n\nSteam is generated when §e1mB§f of water absorbs §e200TU§f of heat, becoming §e100mB§f of standard steam at 100°C.\n\n§6Density Stages§f (each is 10× denser than the last):\n§b•§f §bSteam§f (100°C), base form, 2 TU per 10mB\n§b•§f §bDense Steam§f (300°C), 18 TU per 10mB\n§b•§f §bSuper Dense Steam§f (450°C), 120 TU per 10mB, ZIRNOX output\n§b•§f §bUltra Dense Steam§f (600°C), 120 TU per 1mB, densest form\n§b•§f §bLow-Pressure Steam§f (~20°C), no power output, from turbines\n\n§6Turbine Step-Down§f: Feed steam through a turbine and it drops one density level, produces power, and increases volume by 10×. Ultra Dense → Super Dense → Dense → Steam → Low-Pressure. The low-pressure output needs a cooling tower or steam condenser to become water again.\n\n§bRBMK Bonus§f: Higher density steam in the RBMK gives up to §e25%§f more power at Ultra Dense.\n\n§ePS:§f A ZIRNOX needs §e3§f steam turbines plus a condenser for a closed cooling loop. Match your turbine count to your reactor\u0027s steam output.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Steam",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40190,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

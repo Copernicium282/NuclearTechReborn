@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40008
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Red Copper§f\n\n§aCopper\u0027s fancy cousin. Conducts electricity like nobody\u0027s business.§f\n\nToss copper and redstone into the §bBlast Furnace§f and you get §bRed Copper§f. Two ingots per batch. The crucible works too for smaller runs.\n\nThis alloy goes into wires, cables, battery sockets, capacitors, and transformers. It\u0027s also half of §bAdvanced Alloy§f (steel + red copper in the blast furnace), which is needed for the shredder blades and advanced machines.\n\nRedstone is usually the bottleneck here. Bedrock ore processing helps if you need to scale up production.\n\n§ePS:§f You\u0027ll want a steady supply. Red copper is used in nearly every electrical component.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_red_copper"
+      },
+      "name:8": "Red Copper",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40011,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_red_copper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

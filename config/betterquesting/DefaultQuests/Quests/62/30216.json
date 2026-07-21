@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30140
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Meteorite Compass§f points toward the nearest AE2 Meteorite in the world. Hold it in your hand and the needle spins toward the target.\n\nCrafted from §b5 Iron Ingots§f and §b1 Charged Certus Quartz Crystal§f. No power required.\n\nThe spin speed indicates distance: faster spin means closer meteorite. The compass points down if the meteorite is below you and up if it\u0027s above. Works across the overworld, Nether, and most mod dimensions.\n\n§ePS:§f Meteorites are always buried §b20-30 blocks§f below the surface. Dig down when the compass spins fast. You need the §6Sky Stone§f and §6Charged Certus Quartz Ore§f inside.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:sky_compass"
+      },
+      "name:8": "Meteorite Compass",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30216,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:sky_compass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

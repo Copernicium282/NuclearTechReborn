@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30225
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Comforts§f\n\n§aSleep far from home without losing your spawn point.§f\n§9Sleeping Bags§f and §9Hammocks§f let you skip the night without resetting your spawn. Perfect for scouting long distances, mapping oil reserves, or just surviving until dawn in a mineshaft.\n\nDrop a sleeping bag and it activates automatically. It has a §c5% chance to break§f each use, so pack spares. Hammocks require two support blocks §a4 blocks apart§f with §9Rope and Nails§f, then right-click with a colored §9Hammock Cloth§f to hang it.\n\nBoth let you sleep through the night or transition to daytime.\n\n§ePS:§f Your spawn stays anchored at your main base. Die on a far expedition and you\u0027ll respawn where you belong.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:bed"
+      },
+      "name:8": "Comforts",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30236,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:bed"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

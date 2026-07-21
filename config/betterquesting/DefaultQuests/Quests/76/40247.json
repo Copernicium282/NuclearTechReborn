@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40246
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Automatic Crafting Table§f §aTired of clicking the same recipe 1,000 times? This thing does it for you.§f §bThe Automatic Crafting Table§f (ACT) is a powered machine that crafts items automatically. Place ingredients into the blue crafting grid to set the recipe. When items arrive via funnels or automation, they go into the gray crafting grid, get consumed, and the product appears in the gray output slot. §6Specifications§f:\n§b• Power§f: §e100 HE§f per operation\n§b• Speed§f: §e1 operation per tick§f (20 per second)\n§b• Recipe Setup§f: Place ingredients in blue grid to define the pattern §ePS:§f For 3×3 or 2×2 recipes using all the same item (like 9 powders → 1 ingot), the §bCombinator Funnel§f is a cheaper unpowered alternative. Save the ACT for complex recipes with different ingredients.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_autocrafter"
+      },
+      "name:8": "Automatic Crafting Table",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40247,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_autocrafter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

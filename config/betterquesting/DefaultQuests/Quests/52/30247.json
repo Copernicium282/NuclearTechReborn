@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30246
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Tiered Upgrades§f\n\n§aTwo paths diverge in a backpack, and you get to pick one§f\n\nStarting at Iron tier, every backpack splits into two specialties: §dStorage§f (more slots) or §dUpgrade§f (more upgrade points for functional modules). Choose carefully, because you can\u0027t switch later.\n\n§6Progression§f:\n§b• Iron§f: §e36 slots§f (Storage) or §e27 slots§f + §e12 points§f (Upgrade)\n§b• Gold§f: §e45 slots§f (Storage) or §e36 slots§f + §e17 points§f (Upgrade)\n§b• Diamond§f: §e54 slots§f (Storage) or §e45 slots§f + §e23 points§f (Upgrade)\n\n§6Recipe Pattern§f:\nSurround the previous tier\u0027s backpack with the tier\u0027s material (iron, gold, or diamonds). Put a §bChest§f in the center for Storage path, or a §bBlank Upgrade§f for Upgrade path.\n\n§ePS:§f Upgrade specialty gives you +5 bonus points on top of the base, so a Diamond Upgrade backpack can hold a ridiculous number of functional modules.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ironbackpacks:upgrade"
+      },
+      "name:8": "Tiered Upgrades",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30247,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ironbackpacks:upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

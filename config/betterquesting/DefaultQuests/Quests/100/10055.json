@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10008
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Every electronic circuit in AR starts with a §6Silicon Wafer§f, and getting one is a three-step process.\n\nFirst, smelt sand into a Silicon Ingot in the Electric Arc Furnace. That takes about 10 minutes per ingot, so build multiple EAFs in parallel. Second, grow the ingot into a Silicon Boule in the Crystallizer. Third, slice the boule into four wafers at the Cutting Machine.\n\nEach wafer feeds into circuit plate recipes, and every circuit in the mod needs one or more plates. You\u0027ll be consuming these constantly, so set up a production line early.\n\nThis is one of the most resource-intensive materials in the mod because the downstream demand never stops.\n\n§ePS:§f The silicon ingot recipe is painfully slow. At least three parallel EAFs will keep your wafer supply from becoming a bottleneck.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:wafer"
+      },
+      "name:8": "Silicon Wafer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10055,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:wafer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

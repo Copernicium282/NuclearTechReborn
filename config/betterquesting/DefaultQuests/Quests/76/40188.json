@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40187
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Yellowcake§f\n\n§aYour uranium is sitting there doing nothing. Time to turn it into something useful.§f\n\nYellowcake is the first step in uranium enrichment. It\u0027s a fine yellow powder that emits mild radiation (0.5 RAD/s) but isn\u0027t pyrophoric, so you can handle it without dying. Barely.\n\n§6How to Make It§f (Chemical Plant):\n§b•§f §e500mB§f Hydrogen Peroxide\n§b•§f §e2§f Uranium Billets\n§b•§f §e2§f Sulfur\n§b→§f §eYellowcake§f\n\n§6What It\u0027s For§f, Uranium Hexafluoride (Chemical Plant):\n§b•§f §e1,000mB§f Water + §eYellowcake§f + §e4§f Fluorite\n§b→§f §e1,200mB§f Uranium Hexafluoride + §e2§f Sulfur\n\nBoth §bfluorite§f and §bsulfur§f loop back through the process. Fluorite comes out of the centrifuge, sulfur comes out of UF6 production. Once you start, you don\u0027t lose materials.\n\n§ePS:§f Check JEI for the full recipe chain. Yellowcake can also be compacted into granular blocks for storage, though you\u0027d need a lot of them.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:powder_yellowcake"
+      },
+      "name:8": "Yellowcake",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40188,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:powder_yellowcake"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

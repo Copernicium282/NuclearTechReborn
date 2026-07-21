@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    413
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6RF Cavities§f\n\n§aThe engine that makes particles go faster. More cavities, more energy.§f\n\nRF cavities are placed inside the accelerator multiblock structure to boost particle beam energy. Beam energy scales with the number of RF cavities and the redstone signal strength on the controller.\n\nCraft them from accelerator casing, steel chassis, tough alloy, redstone, and copper coils. Check JEI for the exact recipe, as the crafting may involve QMD-specific steps.\n\nYou will need plenty of these for higher-energy beams. A LINAC with just a few cavities produces low-energy particles. Stack them up when you are ready for the good stuff.\n\n§ePS:§f The Beam Meter lets you check energy levels on the fly. Right-click a beam port to read the output.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:accelerator_cavity"
+      },
+      "name:8": "Radio Frequency (RF) Cavities"
+    }
+  },
+  "questID:3": 418,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:accelerator_cavity"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "qmd:accelerator_cavity"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

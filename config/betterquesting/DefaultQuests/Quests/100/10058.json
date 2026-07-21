@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    10056
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Tracking Circuit§f is the navigation brain of AR. It gives machines positional awareness, used in the Guidance Computer, Docking Pad, Planet Holo Selector, and every satellite launcher.\n\nCraft it in the §6Precision Assembler§f: 1 redstone dust, 1 §6Eye of Ender§f, 1 Basic Circuit Plate. Takes 900 ticks at 50 RF/t. The Eye of Ender is the unique ingredient, no substitutions.\n\nThis is the §6most-demanded circuit§f in the entire mod. You\u0027ll want at least 32 in storage before serious rocket construction. The Guidance Computer uses it to lock destinations, the Docking Pad uses it to align with rockets, and the Rocket Monitoring Station uses it for fleet status.\n\n§ePS:§f The Eye of Ender bottleneck (blaze powder + ender pearl) means a §6Blaze Farm§f and §6Enderman Farm§f are basically mandatory at this stage. Set those up first.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "advancedrocketry:ic"
+      },
+      "name:8": "Tracking Circuit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10058,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "advancedrocketry:ic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

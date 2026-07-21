@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30125
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Asian Cuisine§f\n\n§aMaster stir-fries, curries, sushi, and Asian-inspired dishes.§f\n\nAsian recipes use the §bSkillet§f, §bCutting Board§f, and §bPot§f. Many are high-value meals.\n\n§6Stir-fries \u0026 Curries§f: Veggie Stirfry (5), Meaty Stirfry (6), Chicken Curry (9), Deluxe Chicken Curry, Rainbow Curry (7), Kung Pao Chicken (6), Sweet and Sour Chicken (8), General Tso\u0027s Chicken (7), Vindaloo (7), Pad Thai (8), Pork Lo Mein (9), Chicken Chow Mein (8).\n\n§6Sushi§f: Sushi (4), California Roll (6), Futo Maki (9), Onigiri (3), Salmon Onigiri (5), Tuna Onigiri (5), Crab Kimbap (6).\n\n§6Rice Dishes§f: Fried Rice (5), Curry Rice (6), Omurice (8), Bibimbap (8), Gyudon (6), Pho (6), Ramen (4).\n\n§6Crafting Tools§f:\n§b• Skillet§f: Stir-fries, curries, fried rice, lo mein, pad thai.\n§b• Cutting Board§f: Sushi, rolls, onigiri, dim sum, spring rolls.\n§b• Pot§f: Pho, Ramen, Miso Soup, Wonton Soup, Hot and Sour Soup.\n\n§eTip§f: Asian cuisine offers some of the most diverse meal options. Stock up on Rice, Soy Sauce, and Noodles from the Presser and Grinder for maximum variety.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:chickencurryitem"
+      },
+      "name:8": "Asian Cuisine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30132,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:chickencurryitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:sushiitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

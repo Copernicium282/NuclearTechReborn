@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40220
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Polonium-210§f\n\n§aRare, extremely radioactive element, RTG power and neutron sources!§f\n\n§bPolonium-210§f (Po-210) is a rare and extremely radioactive element/isotope (§e75 RAD/s§f). Obtainable from recycling spent Ra-226 neutron sources or direct cyclotron production. Pyrophoric and hot in both solid and powder forms due to its 138-day half-life.\n\n§6Production§f:\n§b• Ra-226Be Neutron Source Recycling§f, recovering Po-210 from spent research reactor/RBMK neutron sources\n§b• Cyclotron§f, produced from iodine or mercury bombardment\n§b• Nether Plutonium Ore§f, centrifuging yields Po-210 (if enabled)\n\n§6Key Uses§f:\n§b• Po-210Be RBMK Neutron Sources§f\n§b• RTG Pellet§f, §e50 HE/t§f heat value; with RTG decay enabled: 9,936,000 tick lifespan (~6 real days, 2y7d in-game), producing 347.76 MHE total. Decays to lead.\n§b• Self-Charging Battery§f, mid tier, provides §e1.25 kHE/t§f\n§b• Yharonite Transmutation§f, end-game material\n§b• Polonium Glass§f, powder + sand → smelt into novelty red glass (non-radioactive, functional as normal glass, usable as red glass in recipes)\n\n§eTip§f: The RTG pellet is a strong mid-tier power source. With a ~6 real-day lifespan, it bridges the gap between basic RTGs and nuclear reactors. Stockpile Po-210 from cyclotron production for sustained RTG operation!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_polonium"
+      },
+      "name:8": "Polonium-210",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40267,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_polonium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

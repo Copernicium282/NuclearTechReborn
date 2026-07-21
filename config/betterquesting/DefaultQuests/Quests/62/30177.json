@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30175
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The wireless version of the Pattern Terminal. Encode crafting and processing patterns from anywhere within range of a Wireless Access Point.\n\nSet up a new production line at a remote outpost and encode the patterns on the spot. No need to run back to base to create patterns and then carry them to the new location.\n\nWorks exactly like the wired Pattern Terminal: place blank patterns, set recipes, encode, and insert into your pattern providers.\n\n§ePS:§f Pair with a Wireless Crafting Terminal for full remote AE2 capability. You can set up, encode, and test patterns all from the production site.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:wireless_pattern_terminal"
+      },
+      "name:8": "Wireless Pattern Terminal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30177,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_pattern_terminal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

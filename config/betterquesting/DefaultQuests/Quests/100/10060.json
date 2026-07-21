@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    10012
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Any AR machine that moves §6items§f in or out needs this board. Input Hatches, Output Hatches, Chest Interfaces, the whole item I/O family runs on the §6Item IO Circuit Board§f.\n\nTwo recipes available: a §6vanilla crafting§f recipe (redstone, quartz, gold dust, wood slab, iron plate) and a §6Precision Assembler§f recipe (200 ticks, 10 RF/t) using redstone, gold plate, and steel plate. The Precision Assembler is faster for bulk.\n\nOne board per machine built. The Lathe, Rolling Machine, Precision Assembler, Cutting Machine, Crystallizer, Electric Arc Furnace, Chemical Reactor, and Laser Etcher all eat these. It also shows up in the AE2 1k ME Storage Component recipe.\n\n§ePS:§f Build a continuous Precision Assembler production line. Manual crafting is too slow for the volume you\u0027ll need. Stockpile 64+ before building machines.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "advancedrocketry:ic"
+      },
+      "name:8": "Item IO Circuit Board",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10060,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "advancedrocketry:ic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

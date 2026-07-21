@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    40054
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Circuits§f\n\n§aYour first circuit board. Welcome to the electrical age.§f\n\nThe §bAnalog Circuit Board§f is the entry-level circuit made at the §bSoldering Station§f. You need it for the chemical plant, arc furnace, and most mid-game machines. It\u0027s the thing that unlocks everything electrical.\n\nCheck JEI at the soldering station for the recipe. Expect capacitors, vacuum tubes, PCBs, lead wires, and about §e2 kHE/s§f for 5 seconds. Not expensive per board, but you\u0027ll need a lot of them as you scale up.\n\n§ePS:§f Automate capacitor and PCB production early. Higher circuit tiers eat them by the stack, and hand-crafting gets old fast.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 7,
+        "id:8": "hbm:circuit"
+      },
+      "name:8": "Circuits",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40018,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "hbm:circuit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

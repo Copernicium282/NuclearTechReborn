@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30025
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Electrolyzer§f\n\n§aUses electrical energy to split fluids.§f\nThe §bElectrolyzer§f takes §b1 fluid input§f and produces §bup to 4 fluid outputs§f. Default cycle is §b3200 ticks§f at §b40 RF/t§f. It\u0027s the slowest NC machine but produces up to 4 different fluid outputs per recipe.\n\nUsed for electrolyzing water into hydrogen and oxygen, splitting molten salts, and other electrochemical processes. Essential for some reactor coolant and fuel production chains.\n\n§cWARNING:§f The Electrolyzer is a power hog at 40 RF/t and very slow. Budget accordingly.\n\n§ePS:§f Speed Upgrades help, but even with upgrades this machine is slow. Plan your production lines around its throughput.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:electrolyzer"
+      },
+      "name:8": "Electrolyzer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30082,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:electrolyzer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

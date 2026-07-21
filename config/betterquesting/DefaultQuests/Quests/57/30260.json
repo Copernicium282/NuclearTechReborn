@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Core Drawers \u0026 Aesthetics§f\n\n§aDitch the chest maze and see what you\u0027ve got at a glance.§f\n\nDrawers show their item on the front face, so you always know what\u0027s inside. §9Right-click§f to insert a stack, §9double-right-click§f to dump all matching items, §9left-click§f to grab one, and §9shift + left-click§f for a full stack.\n\n§6Drawer Types§f:\n§b• 1x1 Full Drawer§f: 1 item type, §e32 stacks§f capacity.\n§b• 1x2 Full Drawer§f: 2 item types, §e16 stacks§f each.\n§b• 2x2 Full Drawer§f: 4 item types, §e8 stacks§f each.\n§b• Compacting Drawer§f: Stores compressible items like iron or redstone. Automatically converts between §bBlocks§f, §bIngots§f, and §bNuggets§f. Capacity is §e16 stacks§f.\n\nBreaking a drawer keeps everything inside. Move it wherever you want without items spilling out.\n\n§6Custom Looks§f:\nUse a §bFraming Table§f to restyle drawers with any blocks you like. Add structural blocks for the body, trim blocks for edges, and face blocks for the front. §cNote:§f The decoration blocks are consumed during crafting.\n\n§ePS:§f A single 1x1 drawer holding 32 stacks of cobblestone already beats a chest.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "storagedrawers:trim"
+      },
+      "name:8": "Core Drawers \u0026 Aesthetics",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30260,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "storagedrawers:trim"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

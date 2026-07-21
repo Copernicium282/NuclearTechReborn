@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30047
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Reflector§f\n\n§aBounces neutrons back into the reactor.§f\n§bBeryllium Reflectors§f and §bLead-Steel Reflectors§f sit on the reactor boundary and bounce escaping neutrons back inside. Beryllium reflects §b50%§f of neutrons with §b100%§f reflectivity. Lead-Steel reflects §b25%§f with §b50%§f reflectivity.\n\nReflectors are essentially free neutron multipliers. Place them on the outer edges of your reactor where neutrons would otherwise escape into the void. They don\u0027t require any special adjacency rules like heat sinks do.\n\n§ePS:§f Reflectors don\u0027t generate heat themselves, but the redirected neutrons will increase heat in adjacent fuel cells. Always factor that into your cooling budget before adding reflectors to a running reactor.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:fission_reflector"
+      },
+      "name:8": "Reflector",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30048,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:fission_reflector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    437
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Synchrotron Ring Accelerator§f\n\n§aThe ring accelerator. Circulate and re-accelerate beams to GeV scales.§f\n\nThe Synchrotron is a square ring multiblock that repeatedly accelerates particles around a loop, reaching far higher energies than a LINAC. Minimum size is 11 blocks on each side.\n\nBuild it as a square ring with dipole magnets at corners, beam blocks along the axis, quadrupole yokes for focus, RF cavities for energy, vents for cooling, and an energy port. The controller needs an Advanced Processor.\n\nRing accelerators are where QMD gets serious. The energy scales available here unlock spallation reactions, exotic particle production, and the path to antimatter.\n\n§ePS:§f Size matters. A larger ring means more RF cavities and more energy per pass. Start at 11x11 and scale up as your infrastructure allows.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:ring_accelerator_controller"
+      },
+      "name:8": "Synchrotron Ring Accelerator"
+    }
+  },
+  "questID:3": 446,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:ring_accelerator_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

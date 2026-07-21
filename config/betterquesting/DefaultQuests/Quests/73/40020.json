@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40017
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Arc Welder§f\n\n§aStick two plates together with 10,000 volts. What could go wrong?§f\n\nThe §bArc Welder§f fuses metal plates into welded components using electricity and a welding fluid. Three color-coded input slots (red, yellow, green) match the output ports. Feed it power and fluid, and it produces welded plates, steel frames, and other construction pieces.\n\nCrafted at a §bTier 2 Anvil§f from cast steel plates, tungsten ingots, a transformer, and graphite electrodes.\n\nWelded plates are the backbone of advanced generators, power infrastructure, and most late-game machines. You\u0027ll be coming back to this one a lot.\n\n§ePS:§f The arc welder accepts upgrade modules (speed, power, overdrive) in the two side slots.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_arc_welder"
+      },
+      "name:8": "Arc Welder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40020,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_arc_welder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

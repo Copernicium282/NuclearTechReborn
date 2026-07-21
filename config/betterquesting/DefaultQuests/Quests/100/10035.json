@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    10034
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Space Station Deployment§f is the launch milestone that turns a built station into an orbital outpost. Compile a station via the Space Station Assembler, retrieve the Container and ID Chip, load the Container into a rocket\u0027s Satellite Bay, and launch.\n\nWhen the rocket reaches orbit, the container auto-deploys and the station blocks spawn in space. The Space Station ID Chip is your return key, insert it into a Guidance Computer on any future rocket to set the station as destination.\n\n§cWARNING:§f Orbiting stations are in vacuum. Never travel without a fully charged Space Suit with Airtight Seal or you will suffocate instantly.\n\n§ePS:§f This is the most important mid-game milestone. Every late-game AR content, warping, gas giant mining, satellite missions, requires an orbital station.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:spacestation"
+      },
+      "name:8": "Space Station Deployment",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10035,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:spacestation"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:spacestationchip"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

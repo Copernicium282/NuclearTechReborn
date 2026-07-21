@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30162
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Portable Cell§f is a wearable §6ME Storage Cell§f that connects wirelessly to your ME network via a §6Wireless Access Point§f. It combines a chest, energy cell, and storage component into one item.\n\nCrafted from §6ME Chest§f, §61k ME Storage Component§f, and §6ME Energy Cell§f. It holds §b20,000 AE§f internally and draws §b0.5 AE/t§f idle, §b1 AE/t§f when connected.\n\nThe wireless range is §b16 blocks§f base, extendable with §6Range Cards§f. You can install §6Capacity§f and §6Acceleration Cards§f just like a regular ME Drive.\n\n§ePS:§f Place a §6Wireless Access Point§f at your mining site, then activate the Portable Cell to connect. One channel consumed by the access point, so plan cabling accordingly.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:portable_cell"
+      },
+      "name:8": "Portable Cell",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30206,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:portable_cell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

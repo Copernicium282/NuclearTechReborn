@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40201
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Caesium-137§f\n\n§aExtremely radioactive fission product, ~9% of short-lived nuclear waste!§f\n\n§bCaesium-137§f (Cs-137) is an extremely radioactive caesium isotope and a common nuclear fission product (§e20 RAD/s§f). It is naturally pyrophoric.\n\n§6Production§f:\n§b• Short-Lived Nuclear Waste§f, Cs-137 makes up ~9% of short-lived waste on average\n§b• MOX Fuel Cycles§f, reprocessing MOX fuel in the research reactor produces Cs-137\n§b• Highly Enriched Pu-239 Fuel§f, research reactor fuel cycle yields Cs-137\n\n§6Uses§f:\n§b• Currently none§f, but has potential applications in §esalted nuclear weapons§f\n\n§eTip§f: Cs-137 makes up ~9% of short-lived waste, you\u0027ll get significant quantities during PUREX reprocessing. Store it for future salted nuke recipes!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_caesium"
+      },
+      "name:8": "Caesium-137",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40265,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_caesium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

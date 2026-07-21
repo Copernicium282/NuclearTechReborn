@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40276
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Schrabidium Creation§f\n\n§aMultiple paths to the iconic transuranic, from nuclear bombs to particle accelerators.§f\n\n§bSchrabidium§f is a radioactive superactinide used for nuclear fuels, tools, armor, and exotic materials. Several methods exist, each with trade-offs.\n\n§6Nuclear Explosion§f: Detonate near uranium ore. §e10%§f conversion to schrabidium ore, §e90%§f scorched (unusable). High yield but scars the terrain and can\u0027t be automated.\n\n§6Dirty Bomb§f: Destroy a nuclear waste barrel with an explosive near uranium. §e1%§f conversion, cheap but unreliable. Enclose in concrete for safety.\n\n§6Cyclotron§f: Bombard plutonium dust with ionized particles (fusion byproduct) for §e1 nugget§f. Contained but net power negative.\n\n§6Higgs Boson Exposure§f (best): Expose §e8 uranium-238 ingots§f to a Higgs Boson capsule in the Exposure Chamber. Produces §e8 schrabidium ingots§f at §e100%§f efficiency. Requires a PA but automates well.\n\n§6PUREX§f: Process depleted LEP ZIRNOX or MEP PWR fuel with §e250 mB§f schrabidic acid. Provides technetium as a bonus but requires fusion tech.\n\n§cWARNING:§f Schrabidium is radioactive at §e15 RAD/s§f per ingot. Hold it without tier 3 hazmat and you\u0027ll go blind.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_schrabidium"
+      },
+      "name:8": "Schrabidium Creation",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40277,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_schrabidium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

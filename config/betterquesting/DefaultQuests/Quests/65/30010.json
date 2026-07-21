@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6High Pressure Pipe§f\n\n§aThe backbone of every fluid network.§f\n\nPipe fluids anywhere with §bunlimited throughput§f and zero loss. Multiple fluids can share the same pipe at the same time, and you can route them in any shape you want. Loops, intersections, weird zigzags, it all works.\n\nThese connect to Inputs, Outputs, Pumps, and Drains to form your network. They also work with ForgeMultipart covers and pipes/tanks from other mods, so you are not locked into a single mod.\n\n§9Note:§f Inputs, Outputs, Pumps, and Drains all support fluid filtering. Use the Configurator to set them.\n\n§cWARNING:§f If you loop an output back to itself without a filter, it will explode. Plan your layouts carefully.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pressure:pipe"
+      },
+      "name:8": "High Pressure Pipe",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30010,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pressure:pipe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

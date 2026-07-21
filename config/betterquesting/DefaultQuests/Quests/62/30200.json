@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    30140
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Certus Quartz Tools§f are AE2\u0027s starter tool set, crafted from §6Certus Quartz Crystals §fon §bwooden sticks§f. The full lineup: Pickaxe, Axe, Hoe, Shovel, Sword, Cutting Knife, and Wrench.\n\nAll use §6iron tool material§f, so you get iron-level mining speed and durability (§b250 uses§f each). The §6Pickaxe§f, §6Axe§f, §6Hoe§f, and §6Shovel§f mine at §b6.0§f speed on stone, while the §6Sword§f deals §b2.0§f attack damage.\n\nThe real draw is the §6Certus Quartz Wrench§f, which rotates AE2 blocks just like the standard AE2 Wrench. The §6Cutting Knife§f opens a GUI for cutting quartz blocks into facades.\n\n§ePS:§f Certus Quartz is non-renewable early on, so use the §6Quartz Grindstone§f to double your dust yield before committing to tool crafting.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:certus_quartz_pickaxe"
+      },
+      "name:8": "Certus Quartz Tools",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30200,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:certus_quartz_axe"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:certus_quartz_hoe"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:certus_quartz_spade"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:certus_quartz_pickaxe"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:certus_quartz_sword"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:certus_quartz_wrench"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:certus_quartz_cutting_knife"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

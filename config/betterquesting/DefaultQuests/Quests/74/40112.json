@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40081
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Unsaturated Hydrocarbons§f\\n\\n§aGaseous feedstock from cracked oil  -  rubber, PVC, perfluoromethyl, and C-4 all start with this!§f\\n\\nRefining §bHot Cracked Oil§f in the §bOil Refinery§f produces Unsaturated Hydrocarbons as a gas alongside Aromatic Hydrocarbons. You get §e150mB§f per §e1,000mB§f of cracked oil. It provides §e3.66 MTU§f per bucket as a gaseous fuel.\\n\\n§6Sources§f:\\n§b•§f Oil Refinery from cracked oil variants.\\n§b•§f Catalytic Cracking Tower from Reformate.\\n§b•§f Catalytic Reformer from Petroleum Gas.\\n\\n§6Recipes§f:\\n§b•§f Rubber: §e500mB§f + Sulfur in Chemical Plant.\\n§b•§f PVC: §e250mB§f + §e250mB§f Chlorine Gas + Cadmium Powder yields 2x PVC.\\n§b•§f Perfluoromethyl: §e500mB§f + §e1,000mB§f Petroleum Gas + Fluorite.\\n§b•§f C-4: §e500mB§f + Niter.\\n§b•§f Engine Lubricant: §e500mB§f + §e500mB§f Heating Oil.\\n§b•§f Phosgene: §e500mB§f + §e500mB§f Chlorine Gas.\\n\\n§ePS:§f This is the gateway to rubber and PVC. Keep a steady flow from your cracked oil line!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 68,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Unsaturated Hydrocarbons",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40112,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 68,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

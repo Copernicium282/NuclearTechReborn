@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Ducts Overview§f\n\n§aPipe RF, fluids, items, and even players across your base with tiered duct networks!§f\n\nThermal Dynamics adds §bducts§f, pipes that carry §6Redstone Flux§f, fluids, items, and players. All connect adjacently. Wrench them with a §bCrescent Hammer§f: §9right-click§f to disconnect, §9shift-right-click§f to pick up.\n\n§b• Fluxducts§f: RF power.\n§b• Fluiducts§f: fluids.\n§b• Itemducts§f: items.\n§b• Viaducts§f: player transport.\n§b• Structuralducts§f: decorative, used for covers.\n\nStart with §bLeadstone Fluxduct§f and §bFluiduct§f, both need only basic metals. Higher tiers unlock vacuum routing, impulse speed, and player teleportation, so plan your trunk lines around the tier you actually need. Ducts connect to adjacent blocks and to each other, and you can cover them with Facades for a cleaner look.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermaldynamics:duct_0"
+      },
+      "name:8": "Ducts Overview",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30089,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "thermaldynamics:duct_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

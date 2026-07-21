@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    472
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Decelerator§f\n\n§aSlow particles down so you can catch them. The decay-trap of the QMD endgame.§f\n\nThe Decelerator takes a high-energy beam and slows it to capture-friendly energies. It uses inverted RF cavities to subtract energy from the beam instead of adding it. The slowed beam exits the opposite face.\n\nBuild it like a LINAC: hollow rectangular multiblock with quadrupole yokes, inverted RF cavities, vents, and beam ports. The controller needs an Elite Processor.\n\nThis is essential for antimatter production. You need to slow antiparticles low enough to capture them into Antimatter Cells. Too much deceleration per pass and the beam collapses.\n\n§ePS:§f Balance deceleration with focus restoration from the yokes. Check the Beam Meter to monitor energy levels as the beam travels.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:decelerator_controller"
+      },
+      "name:8": "Decelerator"
+    }
+  },
+  "questID:3": 475,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:decelerator_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

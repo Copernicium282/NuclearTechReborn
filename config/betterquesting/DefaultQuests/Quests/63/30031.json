@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30037
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Irradiator§f\n\n§aTransmutes items using neutron bombardment.§f\nThe §bFission Irradiator§f sits inside a §bSolid Fission Reactor§f and uses neutron flux to transmute items placed inside it. It\u0027s not a standalone machine like the others. Place it as a component in your reactor structure and it processes items using the reactor\u0027s neutron economy.\n\nThe Irradiator converts materials into different isotopes or enriched variants. It\u0027s key for producing §bLEU-233§f, §bHEU-235§f, and other advanced fuels that can\u0027t be made through normal processing.\n\n§ePS:§f The Irradiator\u0027s efficiency depends on its position relative to fuel cells and moderators. Place it where neutron flux is highest for best results.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:irradiator"
+      },
+      "name:8": "Irradiator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30031,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:irradiator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

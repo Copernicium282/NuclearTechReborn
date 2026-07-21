@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Boiler: Oil Refining§f\n\n§aCrude oil needs to hit §e350°C§f before the refinery can touch it. This machine does that.§f\n\nThe Boiler heats fluids using an external heat source like a §bFirebox§f. For oil processing, you need to convert §bCrude Oil§f into §bHot Crude Oil§f before feeding it to the §bOil Refinery§f.\n\n§6Setup§f:\nPlace a §bFirebox§f underneath, then the boiler on top. §9Right-click§f the boiler with a §bFluid Identifier§f to select which fluid to heat. Defaults to water.\n§b• Input tank§f: §e16,000mB§f\n§b• Heat transfer§f: §eΔT × 0.01 TU/t§f\n§b• Ducts§f: Three connections (top, two sides)\n\nCrafted on a §bTier 2 Anvil§f with §e4× Steel Ingot§f, §e16× Copper Plate§f, §e8× Insulator§f.\n\n§cWARNING:§f The boiler §cexplodes§f if the output tank overflows. Watch your fluid levels. The §bIndustrial Boiler§f does not explode.\n\n§ePS:§f Many setups use a §bFluid Burner§f burning §bHeating Oil§f to heat the boiler, making the system self-sustaining.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:heat_boiler"
+      },
+      "name:8": "Boiler: Oil Refining",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40065,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:heat_boiler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

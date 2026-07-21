@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    472
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nucleosynthesis Chamber§f\n\n§aNuclear fusion and exotic synthesis. The biggest reaction chamber in QMD.§f\n\nThe Nucleosynthesis Chamber is built on a Vacuum Chamber hull and triggers muon-catalyzed fusion, isotope synthesis, and exotic particle production. It is the heaviest multiblock in the mod.\n\nBuild the Vacuum Chamber hull with coils, beam ports, energy ports, fluid ports, and heaters. The heaters are critical, they preheat the chamber to plasma temperatures before any fusion recipe can run.\n\nExample recipe: 500 mB Hydrogen plus 144 mB Boron-11 plus a muon particle produces Helium. This is real muon-catalyzed fusion, just in Minecraft.\n\n§ePS:§f Mercury loops are the standard heating method. Pump mercury in, heat it with Vacuum Chamber Heaters, and let it circulate.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:nucleosynthesis_chamber_controller"
+      },
+      "name:8": "Nucleosynthesis Chamber"
+    }
+  },
+  "questID:3": 482,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:nucleosynthesis_chamber_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

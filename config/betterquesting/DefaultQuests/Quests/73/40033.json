@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40013
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Electric Press§f\n\n§aThe burner press, but plugged in. Faster, no warm-up, no fuel.§f\n\nSame stamps, same recipes, but the §bElectric Press§f runs on HE and doesn\u0027t waste time warming up. It maintains consistent speed from the moment you start it, unlike the burner press which needs to heat up first.\n\nCrafted at the §bAssembly Machine§f from steel plates, rubber bars, hydraulic pistons, and a circuit board. Handles plates, wires, circuits, and powder compacting (the flat stamp re-solidifies diamond, emerald, lapis, coal into usable forms).\n\n§ePS:§f The §bConveyor Press§f is the next step: belt-fed automation with no GUI fiddling. The ammo press handles bullet and casing production separately.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_epress"
+      },
+      "name:8": "Electric Press",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40033,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_epress"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

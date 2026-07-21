@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40221
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Watz Power Plant§f\n\n§aThe worst power-to-cost ratio in the mod. You build it for the mud, not the watts.§f\n\nThe §bWatz§f is a single-body fission reactor similar to the ZIRNOX, but costs late-game resources and produces barely §e5 MHE/s§f on its best fuel. That is ZIRNOX territory. The real reason to build one is §bPoisonous Mud§f, which you need for §bCMB Steel§f.\n\n§6How It Runs§f:\n§b•§f Place a §bPressure Pump§f on top, supply a redstone signal\n§b•§f Cold coolant in through the top, hot coolant + poisonous mud out the bottom\n§b•§f Fuel pellets go in the GUI. No boiling water directly, you need a separate heat exchanger\n§b•§f Depletes fuel agonizingly slowly. Great for servers, useless for breeding\n\n§6Construction§f: 1 Core Component, 26 Supercoolers, 36 Reaction Chambers, 48 Stability Elements, 192 High-Speed Steel Bolts, and a Pneumatic Rivet Gun. Watz units stack vertically and a single pump controls the whole stack.\n\n§6Fuels§f: MEU, MEP, HEN, and schrabidium-based. Absorber pellets boost poisonous mud output.\n\n§cWARNING:§f If the poisonous mud buffer fills, it melts down hard. Corrosive mud sprays everywhere. Keep the output flowing!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:struct_watz_core"
+      },
+      "name:8": "Watz Power Plant",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40224,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:struct_watz_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

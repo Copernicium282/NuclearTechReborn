@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40243
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nitric Acid§f §aCorrosive, oxidizing, and absolutely necessary for explosives and rocket fuel.§f §bNitric Acid§f (HNO3) is a strongly corrosive, polluting liquid (NFPA 3/0/2, OX) used in explosives, rocket propellant, nitroglycerin production, and bedrock ore cleaning. §6Production§f:\n§b• Chemical Plant§f (2.5s, 100 HE/t), 500 mB Sulfuric Acid + 1× Niter → 1,000 mB §eNitric Acid§f\n§b• Blueprint: Air§f (10s, 5 kHE/t), 8,000 mB Compressed Air + 2,000 mB Water → 1,000 mB §eNitric Acid§f\n§b• Industrial Mixer§f, 500 mB Sulfuric Acid + Niter → 1,000 mB Nitric Acid\n§b• Industrial Liquefaction§f, Niter → 750 mB Nitric Acid §6Key Uses§f:\n§b• §eTATB§f, Chemical Plant: Sour Gas + 10 mB Nitric Acid + TNT\n§b• §eSolid Rocket Fuel§f, Petroleum Gas + 100 mB Nitric Acid + 2 Solid Fuel → 4 Rocket Propellant\n§b• §eNitroglycerin§f, Industrial Mixer: Petroleum Gas + Nitric Acid + Fish Oil\n§b• §eChlorocalcite Solution§f, 250 mB Nitric Acid + 250 mB Water + Chlorocalcite §ePS:§f The Blueprint: Air route eats power (5 kHE/t) but skips niter entirely. Use the Chemical Plant for smaller batches, the Air route when you need volume.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 82,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Nitric Acid",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40244,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 82,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

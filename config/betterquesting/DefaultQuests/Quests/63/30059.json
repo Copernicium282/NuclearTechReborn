@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    30043
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Warning: Redstone Conduits§f\n\n§aRedstone signal management for reactor control.§f\nThis quest covers using §bRedstone Conduits§f to control reactor components. Redstone signals can be used to enable/disable fuel insertion, control cooling systems, and trigger emergency shutdowns.\n\nSet up redstone conduits to automate your reactor\u0027s operation. A redstone signal can start or stop fuel feed, adjust coolant flow, or trigger emergency cooling when things get hot.\n\n§cWARNING:§f Improper redstone wiring can cause your reactor to run uncontrolled. Test your automation thoroughly before relying on it. Meltdowns from redstone bugs are the worst kind.\n\n§ePS:§f Redstone conduits are also useful for controlling any machine in NuclearCraft, not just reactors.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:fission_source"
+      },
+      "name:8": "Warning: Redstone Conduits",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30059,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {},
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

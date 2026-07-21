@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40275
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Advanced Particle Accelerator§f\n\n§aPush momentum to the limit. The higher you go, the stranger the particles.§f\n\nThe §bParticle Accelerator§f is a modular machine that slams particles together at relativistic speeds. Unlike the cyclotron which transmutes elements, the PA creates new byproducts from collisions. Two designs work: linear (straight line) or synchronous (square loop). Synchronous needs §bdipole magnets§f for turns but scales better.\n\n§6Core Components§f:\n§b• Particle Source§f, creates particles from 2 input items (requires cooling)\n§b• RF Cavity§f, accelerates by §e100 points§f, adds §e100 defocus§f (requires cooling)\n§b• Quadrupole Magnets§f, reduces defocus by §e100§f, needs coils (requires cooling)\n§b• Dipole Magnets§f, redirects based on momentum (requires cooling)\n§b• Particle Detector§f, performs the recipe at §e0 defocus§f (requires cooling)\n§b• Beamline§f, connects components, extends ring size cheaply\n\n§6Coil Tiers§f:\n§b• Gold§f: §e0-2,200§f momentum, cheapest start\n§b• NbTi§f: §e1,500-8,400§f, mid-game workhorse\n§b• BSCCO§f: §e7,500-15,000§f, late-game standard\n§b• Chlorophyte§f: §e14,500-75,000§f, endgame only, needed for digamma\n\n§cWARNING:§f If a particle\u0027s defocus hits §e1000§f, it crashes and you lose the capsules. Match your coil range to your target recipe. Undersized coils cause a §e10x§f power penalty that stacks, so plan your layout carefully.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:particle_digamma"
+      },
+      "name:8": "Advanced Particle Accelerator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40276,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:particle_higgs"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

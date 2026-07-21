@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40231
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Particle Accelerator: Products§f\n\n§aFrom chicken nuggets to digamma particles. Every recipe the accelerator can make.§f\n\nEach recipe needs a §bParticle Detector§f at the receiving end. Particles must have §e0 defocus§f. Every recipe has a §escore threshold§f determined by ring size and coil tier.\n\n§6Recipes§f:\n§b•§f §bAntimatter Capsule§f, H Ion + Cu Ion, score §e300§f, yields 1000 mB antimatter\n§b•§f §bAntischrabidium Capsule§f, 2x Antimatter, score §e400§f\n§b•§f §bMuon Capsule§f, Antimatter + H Ion, score §e2,500§f\n§b•§f §bHiggs Boson Capsule§f, Pb Ion + H Ion, score §e6,500§f, transmutes U-238 to schrabidium\n§b•§f §bDark Matter Capsule§f, 2x Antischrabidium, score §e10,000§f, transmutes Pu to euphemium\n§b•§f §bStrange Quark Capsule§f, Dark Matter + Muon, score §e12,500§f, makes Dark Crystal\n§b•§f §bSparkticle Capsule§f, Pulverized Enchantment + Strange Quark, score §e12,500§f, makes dineutronium\n§b•§f §bDigamma Particle§f, Higgs Boson + Sparkticle, score §e70,000§f, RBMK Digamma fuel\n\n§ePS:§f Higher score means bigger ring. Digamma needs §e70,000§f, so you need a massive synchrotron with Chlorophyte coils. Plan your ring layout around your target recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:particle_amat"
+      },
+      "name:8": "Particle Accelerator: Products",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40232,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:particle_amat"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30025
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Assembler§f\n\n§aThe workhorse of mid-game NuclearCraft.§f\nThe §bAssembler§f takes §b4 item inputs§f and produces §b1 output§f. Default cycle is §b600 ticks§f at §b10 RF/t§f. It handles plate crafting, part assembly, TRISO fuel coating, and more.\n\nAlmost every part and plate in NuclearCraft is built here. Basic Plates, Advanced Plates, DU Plates, Elite Plates, Chassis, Motors, Actuators, Servos, Solenoids. The Assembler is the bottleneck for scaling any NC production.\n\nBuild extras early. Seriously, you\u0027ll thank yourself later when you\u0027re not waiting on a single machine.\n\n§ePS:§f TRISO fuel coating is done here too. If you\u0027re getting into advanced reactor fuels, you\u0027ll be using this machine a lot.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:assembler"
+      },
+      "name:8": "Assembler",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30083,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:assembler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

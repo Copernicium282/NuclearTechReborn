@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Sharing a server and worried someone will mess with your ME network? The §6ME Security Terminal §fgatekeeps who gets access.\n\nIt stores up to 8 player permissions with 5 tiers: §6NONE§f, §6ROTATE §f(open drives), §6DISABLE§f, §6CRAFT §f(access terminals), and §6SECURE §f(full admin). Set permissions per player and the terminal logs every security event.\n\nPair it with a Wireless Access Point to lock wireless terminal access to specific players.\n\nCraft it from Iron, an ME Chest, Fluix Cables, a 16k Storage Component, and an Engineering Processor. It costs 1 channel.\n\n§cWARNING:§f If you lock yourself out, you will need to break the terminal to reset. Set your own permissions first.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:security_station"
+      },
+      "name:8": "ME Security Terminal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30197,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:security_station"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

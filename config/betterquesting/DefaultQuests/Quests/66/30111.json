@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Grinder§f\n\n§aGrind meat into ground meat and grains into flour.§f\n\nThe Grinder is the workhorse of HarvestCraft food processing. It turns raw meats into ground variants (2x output) and grains into flour (2x output), plus handles spices like peppercorn and cinnamon.\n\nEach item processes in §e125 ticks§f (~6.25 seconds). Raw meat produces 2x ground meat of the same type. Grains (wheat, barley, oats, corn, rice, rye) produce 2x flour. Spices produce seasoning plus bait as a bonus.\n\nCraft with §e6 iron ingots§f, §e1 iron sword§f, and §e1 redstone repeater§f. Automate with hoppers or itemducts (items in from top, extract from bottom).\n\nThis machine is required for most meal recipes. Build one early and pair it with a §bPresser§f for a complete food processing line.\n\n§ePS:§f The Grinder also handles soybeans (into tofu) and various nuts into flour. Check JEI for the full recipe list.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:grinder"
+      },
+      "name:8": "Grinder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30111,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:grinder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

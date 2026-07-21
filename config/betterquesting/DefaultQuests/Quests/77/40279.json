@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40278
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Euphemium§f\n\n§aOne of the most powerful materials in NTM, born from balefire and exotic matter.§f\n\n§bEuphemium§f is fictional exotic matter, extremely hard to produce in quantity. It comes in ingot, nugget, powder, and block forms.\n\n§6Balefire Method§f:\n§b1.§f Craft §bSchrabidium Clusters§f (starmetal + schrabidium + ferric schrabidate)\n§b2.§f Get a §bBalefire Bomb§f or dud (duds are easiest, small footprint, no fueling)\n§b3.§f Place clusters around the bomb, detonate. Clusters touched by balefire become §bEuphemium-Etched Clusters§f\n§b4.§f Centrifuge etched clusters into euphemium nuggets\n\n§6Exposure Chamber Method§f:\nExpose §bPlutonium§f to a §bDark Matter Capsule§f in the Exposure Chamber for a direct euphemium ingot. This is safer and automatable.\n\n§6Properties§f: Nearly indestructible when compounded with astatine and osmiridium. Creates and stabilizes singularities. Causes temporary paralysis on hit. Almost completely inert.\n\n§6Uses§f: §bEuphemium Compound Plates§f (Plasma Forge, requires osmiridium), euphemium armor, custom nukes, artificial xen crystals, and spark blend. Cannot be stamped, must be forged.\n\n§cWARNING:§f Balefire spreads fast and destroys everything. Detonate far from your base. The exposure chamber method is safer for bulk production.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_euphemium"
+      },
+      "name:8": "Euphemium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40279,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_euphemium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

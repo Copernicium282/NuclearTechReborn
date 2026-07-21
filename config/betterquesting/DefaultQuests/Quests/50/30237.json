@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30223
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Realistic Torches§f\n\n§aTorches don’t burn forever anymore. Deal with it.§f\nVanilla torches are gone. Craft §9Unlit Torches§f from coal and a stick, then light them with a §9Matchbox§f or Flint and Steel. Once lit, they burn for §c72,000 ticks (60 minutes)§f before going out.\n\nRain and running water instantly extinguish lit torches. Protect outdoor lighting with roofing.\n\nFor permanent light, craft torches with §9Glowstone Crystals§f instead of coal. They never burn out.\n\nHolding certain items in your hand projects dynamic light as you walk: lit torches, lava buckets, glowstone dust, blaze rods, blaze powder, and glowstone crystals. Updates every §c10 ticks§f.\n\nMatchboxes have §a64 uses§f and don’t start fires. The vanilla torch recipe is §cremoved§f, so get used to the matchbox.\n\n§ePS:§f You’ll want to transition to permanent lighting or RF-powered lights once your industrial base grows.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "realistictorches:torch_lit"
+      },
+      "name:8": "Realistic Torches",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30237,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "realistictorches:torch_lit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

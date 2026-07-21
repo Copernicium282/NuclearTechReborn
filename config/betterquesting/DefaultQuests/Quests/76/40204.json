@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40203
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Breeding Reactor§f\n\n§aNot a reactor at all. It\u0027s a neutron flux harvester that turns cheap elements into expensive ones.§f\n\nThe §bBreeding Reactor§f transmutes isotopes into heavier forms using neutron flux from an adjacent §bResearch Reactor§f. When running, green lightning arcs from the center rod to the outer ones.\n\n§6How It Works§f:\n§b•§f Place rods in the left slot of the GUI\n§b•§f Adjacent research reactor must provide sufficient flux\n§b•§f Each recipe has a minimum flux requirement\n§b•§f Quad rods need only §e3×§f the single rod flux, not 4×, more efficient\n\n§6Breeding Chain§f:\n§b•§f §bThorium-232§f, §e500§f flux → Thorium Fuel\n§b•§f §bLithium§f, §e200§f flux → Tritium\n§b•§f §bCobalt§f, §e100§f flux → Cobalt-60\n§b•§f §bRadium-226§f, §e300§f flux → Actinium-227\n§b•§f §bNatural Uranium§f, §e200§f flux → Reactor-Grade Pu\n§b•§f §bU-238§f, §e300§f flux → Reactor-Grade Pu\n§b•§f §bU-235§f, §e300§f flux → Np-237\n§b•§f §bNp-237§f, §e200§f flux → Pu-238\n§b•§f §bPu-238§f, §e1,000§f flux → Pu-239\n\n§6Multi-Stage§f: Some elements chain together. U-235 → Np-237 → Pu-238 → Pu-239, each step needing different flux.\n\n§ePS:§f Always pair with a research reactor. The breeding reactor does nothing on its own.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_reactor_breeding"
+      },
+      "name:8": "Breeding Reactor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40204,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_reactor_breeding"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

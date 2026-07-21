@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30156
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Vibration Chamber burns solid fuels to generate AE power. It is AE2\u0027s own power generator, useful before you have a large external power setup.\n\nIt produces 5 AE per tick, with burn speed that scales dynamically from 20 to 200 based on network demand. When the network needs more power, the chamber burns fuel faster. When there is a surplus, it slows down to conserve.\n\nAny fuel that works in a vanilla furnace works here: coal, charcoal, lava buckets, etc.\n\nThe chamber outputs power directly to the cable network, no Energy Acceptor needed.\n\n§ePS:§f A tree farm feeding charcoal into a Vibration Chamber is a solid early-game AE power source. But you will want external RF/FE generation once your network grows.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:vibration_chamber"
+      },
+      "name:8": "Vibration Chamber",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30157,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:vibration_chamber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

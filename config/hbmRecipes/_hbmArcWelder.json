@@ -2,26 +2,6 @@
   "recipes": [
     {
       "inputs": [
-        ["dict","plateIron",2],
-        ["item","hbm:coil_copper"],
-        ["item","hbm:coil_copper_torus"]
-      ],
-      "output": ["hbm:motor",2],
-      "duration": 100,
-      "consumption": 200
-    },
-    {
-      "inputs": [
-        ["dict","plateSteel"],
-        ["item","hbm:coil_copper"],
-        ["item","hbm:coil_copper_torus"]
-      ],
-      "output": ["hbm:motor",2],
-      "duration": 100,
-      "consumption": 400
-    },
-    {
-      "inputs": [
         ["dict","plateSteel",2],
         ["dict","wireDenseMingrade",2]
       ],
@@ -73,14 +53,6 @@
         ["dict","wireFineMingrade",8]
       ],
       "output": ["hbm:wire_dense",1,31],
-      "duration": 100,
-      "consumption": 10000
-    },
-    {
-      "inputs": [
-        ["dict","wireFineAdvancedAlloy",8]
-      ],
-      "output": ["hbm:wire_dense",1,32],
       "duration": 100,
       "consumption": 10000
     },

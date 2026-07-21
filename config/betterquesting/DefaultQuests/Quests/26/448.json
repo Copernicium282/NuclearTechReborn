@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    427
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nuclear Spallation Scrap§f\n\n§aLight Fission Waste. What happens when protons smash heavy nuclei apart.§f\n\nLight Fission Waste is produced by spallation reactions in a Target Chamber. Fire high-energy protons (100-400 MeV) at heavy metal targets like Bismuth, Platinum, Gold, Lead, or Tungsten. The proton chips fragments off the nucleus, releasing neutrons and leaving waste.\n\nThis is different from nuclear fission in a reactor. Spallation uses proton beams, not neutron chains. Both produce fission waste, but the physics are distinct.\n\nThe waste can be reprocessed in the NC Fuel Reprocessor to extract useful isotopes. Check JEI for the reprocessing recipes and yields.\n\n§ePS:§f Bismuth is the easiest target to source. Start there before moving to Platinum or Tungsten.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:waste_fission"
+      },
+      "name:8": "Nuclear Spallation Scrap"
+    }
+  },
+  "questID:3": 448,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:waste_fission"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

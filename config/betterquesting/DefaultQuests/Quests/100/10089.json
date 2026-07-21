@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10049
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Gas Charge Pad refills your Space Suit oxygen tanks when you stand on it. It draws liquid oxygen from an adjacent tank or fluid duct, and the GUI shows your suit\u0027s current oxygen percentage.\n\nThe pad also refills monopropellant fuel for jet boots. It\u0027s the first life support infrastructure you build and a prerequisite for every vacuum mission.\n\nPlace it inside an airlock paired with the Airlock Door (10053) so you can charge up before opening the outer door.\n\n§ePS:§f For faster refills, use a Tier 3 Fluid Tank with 64,000 mB capacity. That handles 5+ suit refills before needing a tank refill. This quest is a re-skin of quest 10052, both reference the same item, but this one unlocks earlier in the progression.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:oxygencharger"
+      },
+      "name:8": "§6Gas Charger§f"
+    }
+  },
+  "questID:3": 10089,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:oxygencharger"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

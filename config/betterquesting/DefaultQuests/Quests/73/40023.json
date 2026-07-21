@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40022
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Solar Steam Setup§f\n\n§aNow you need something to turn all that steam into actual power.§f\n\nThe §bSteam Engine§f converts steam into HE. Hook it up to your Solar Tower Boiler with a steam pipe, provide fresh water as coolant, and connect power cables to extract the electricity.\n\nIt outputs exhaust steam as a byproduct. Don\u0027t waste it: a §bSteam Condenser§f turns exhaust back into water, creating a closed-loop system that keeps everything running smoothly.\n\nCrafted at the §bAssembly Machine§f using welded plates and advanced components.\n\n§ePS:§f The engine can also run on regular boilers, not just solar. Any steam source works.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_steam_engine"
+      },
+      "name:8": "Solar Steam Setup",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40023,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_steam_engine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

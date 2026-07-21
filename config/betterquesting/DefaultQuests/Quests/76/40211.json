@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40193
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Corium\\n\\n§aWhat happens when your reactor melts down. Molten fuel that burns through bedrock.\\n\\n§bCorium§f forms during RBMK or PWR meltdowns from molten fuel, cladding, and reactor structures. It does not occur naturally.\\n\\n§6Properties§f:\\n• §e150 RAD/s§f radioactivity\\n• NFPA 704: Health §e4§f, Fire §e0§f, Reactivity §e3§f\\n• Melts through the ground and penetrates any barrier\\n• Resistant to mining and explosions\\n\\n§6Cleanup§f: Corium is the most persistent contaminant from a meltdown. The amount depends on reactor size. There is no refining or recycling method. It radiates the environment indefinitely.\\n\\n§cWARNING:§f Cleanup requires heavy radiation protection gear. Even a small RBMK meltdown produces enough corium and radioactive scrap to make the area uninhabitable. Design your reactor to never reach this point.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:block_corium"
+      },
+      "name:8": "Corium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40211,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:block_corium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

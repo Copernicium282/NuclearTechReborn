@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40288
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Dangerous Drops§f\n\n§aItems that explode, form black holes, or warp reality when dropped. Handle with extreme care.§f\n\nCertain endgame items have destructive behavior when dropped from inventory:\n\n§b• Antimatter cells§f break containment and explode. Antischrabidium creates a Folkvangr field instead. The antimatter cluster has a larger effect.\n§b• Singularities§f lose containment and form miniature black holes that suck in nearby blocks and entities. Higher strength ones last longer. Only destroyed by an antimatter cluster.\n§b• Artificial Xen Crystal§f creates floating islands from a large area, turns entities upside down permanently, and resets tile entities.\n§b• Demon Core§f (open form) goes permanently supercritical when dropped. The closed form emits 100,000 RAD/s.\n§b• Dead-man\u0027s detonator§f activates on drop.\n\n§cWARNING:§f Never carry these items without secure storage. The closed demon core is required for Fau armor and DNT boots, but the open form is a death sentence.\n\n§ePS:§f Ancient scrap metal and UFO coins can also be found in these dangerous zones. Use Fau armor when exploring digamma or Folkvangr-affected areas.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:debris_element"
+      },
+      "name:8": "Dangerous Drops",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40314,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ancient_scrap"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

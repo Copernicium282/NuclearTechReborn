@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    10026,
+    10027
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nuclear Thermal Rocket Engine§f uses a nuclear reactor core to superheat hydrogen propellant, producing 2-3x the thrust of chemical rockets. It is the engine of choice for interplanetary missions beyond Earth orbit.\n\nThe motor requires a Nuclear Fission Core to operate and liquid hydrogen as propellant. Pipe hydrogen in from a Chemical Reactor feeding on Electrolyser output. Its thrust multiplier is the highest in AR and it is the only motor capable of escaping gas giant gravity wells.\n\n§cWARNING:§f The nuclear engine\u0027s high-Isp exhaust requires a Structure Block frame around the engine to prevent terrain damage at ignition.\n\n§ePS:§f Pair with Bipropellant Fuel Tanks of at least 50,000 mB capacity for a single interplanetary transfer.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:nuclearrocketmotor"
+      },
+      "name:8": "Nuclear Propulsion",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10029,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:nuclearrocketmotor"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:nuclearcore"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:nuclearfueltank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

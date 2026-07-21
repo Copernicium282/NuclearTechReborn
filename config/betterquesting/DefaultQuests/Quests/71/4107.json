@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6The Spawner§f\\n\\n§aClone any mob on demand, no more unreliable dark-room farms.§f\\n\\nThe §bSpawner§f (§e200,000 RF§f buffer, §e2,000 RF/t§f) plus up to 3 §bMatter Beamers§f (§e200,000 RF§f each, §e1,000 RF/t§f) create mobs from DNA and raw matter.\\n\\n§6Setup§f:\\n1. Craft a §bSyringe§f and hit your target mob until it reaches §e100% DNA§f\\n2. Insert the syringe into the Spawner\\n3. Point up to 3 Beamers at the Spawner (§e8 blocks max§f distance)\\n4. Load each beamer with the mob\u0027s three ingredient categories (check JEI for specifics)\\n\\nThe Beamers send §e1 block per 20 ticks§f at §e2,000 RF§f each. Once enough matter accumulates, the Spawner materializes the mob.\\n\\n§6Spawn Costs§f (RF burst per mob):\\n§b• Bat§f: §e100§f  §b• Zombie/Creeper/Animals§f: §e800§f\\n§b• Blaze/Guardian§f: §e1,000§f  §b• Enderman/Ghast§f: §e2,000§f\\n§b• Wither§f: §e20,000§f  §b• Ender Dragon§f: §e100,000§f\\n\\n§9Note:§f The Spawner stores up to §e6,400 units§f of energized matter per ingredient type.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:redstone_transmitter_block"
+      },
+      "name:8": "Spawner",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4107,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:redstone_transmitter_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30260
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Drawer Networks \u0026 Upgrades§f\n\n§aGot drawers everywhere? Time to wire them together.§f\n\n§9Shift + right-click§f a drawer with an empty hand to open its upgrade GUI. Each drawer has §e5 upgrade slots§f.\n\n§6Storage Upgrades§f:\n§b• Obsidian§f: §a2x§f capacity. §b• Iron§f: §a4x§f. §b• Gold§f: §a8x§f. §b• Diamond§f: §a16x§f. §b• Emerald§f: §a32x§f.\nStack multiple upgrades in one drawer for huge capacity. A single 1x1 drawer with a full set of Emerald-tier upgrades holds §e1,024 stacks§f.\n§b• Void Upgrade§f: Destroys overflow once full. §cUse this on automated farms§f or your pipes will back up and lag.\n§b• Conversion Upgrade§f: Merges ore dictionary variants from different mods into one slot.\n\n§6Controller \u0026 Slaves§f:\nA §bDrawer Controller§f links all adjacent drawers (including through §bTrims§f) within a §e12-block radius§f. Pipe items into the Controller and it sorts them to the right drawer automatically.\n§bController Slaves§f give you extra I/O points on the same network, so you can run pipes in from multiple sides.\n\n§6Drawer Key§f:\n§9Right-click§f a drawer to lock its slot. Locked slots keep their item type even when empty, so random junk can\u0027t sneak in.\n\n§ePS:§f One Controller, one pipe face, everything sorted. That\u0027s the dream.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "storagedrawers:upgrade_storage"
+      },
+      "name:8": "Drawer Networks \u0026 Upgrades",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30261,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "storagedrawers:upgrade_storage"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

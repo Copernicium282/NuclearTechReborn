@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40310
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6High Energy Field Jammer§f\n\n§aCraft it, place it, forget it. Suppresses Folkvangr within 300 blocks.§f\n\nThe High Energy Field Jammer is a simple block that disrupts Folkvangr fields. It requires no power and no maintenance.\n\n§6Recipe§f:\nStarmetal Ingot + Versatile Circuit Board + Starmetal Ingot\nVersatile Circuit Board + Alexandrite + Versatile Circuit Board\nStarmetal Ingot + Versatile Circuit Board + Starmetal Ingot\n\n§6Effect§f: If a DFC meltdown or any Folkvangr-type explosion occurs within a §e300-block§f spherical radius, the jammer nullifies it immediately. No terrain damage, no entity damage.\n\n§cWARNING:§f The jammer does NOT save the DFC core. The core is still destroyed. It only prevents the area destruction that follows. It\u0027s a safety net, not a substitute for proper stabilizer setup.\n\n§ePS:§f Place at least one before your first DFC startup. Consider a second as backup. The recipe needs starmetal, so make sure your cyclotron is producing it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:field_disturber"
+      },
+      "name:8": "High Energy Field Jammer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40313,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:field_disturber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

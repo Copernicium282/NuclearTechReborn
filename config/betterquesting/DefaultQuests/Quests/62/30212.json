@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    30142
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Pure Crystals§f are refined quartz variants needed for advanced AE2 components. There are three types:\n\n§6Pure Certus Quartz Crystal§f (material:10): required for §6Formation Cores§f and §6P2P Tunnels§f. §6Pure Nether Quartz Crystal§f (material:11): required for §6Engineering Processor§f variants. §6Pure Fluix Crystal§f (material:12): used in high-tier crafting recipes.\n\nThey are produced by growing quartz buds in a §6Crystal Growth Accelerator§f, which speeds up the natural growth process. This is the only way to obtain them in bulk.\n\n§ePS:§f Automate with an §6Import Bus§f feeding buds into the accelerator and an §6Export Bus§f extracting grown crystals. The accelerator needs §bAE power§f to function.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Pure Crystals",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30212,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 10,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 11,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 12,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

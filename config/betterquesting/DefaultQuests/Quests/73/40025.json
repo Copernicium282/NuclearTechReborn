@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40006
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Foundry Basin§f\n\n§aWhere molten metal meets mold. Drop in a blank mold and pour.§f\n\nThe §bFoundry Basin§f holds 9 mold slots and receives molten metal from the crucible through foundry channels. Place it next to or below the crucible, insert a mold shaped for the form you want (ingot, plate, block, etc.), and let the metal flow.\n\nCrafted at the §bSteel Anvil§f from firebrick and cobblestone slabs.\n\nUnlike the shallow basin, the full basin takes top input only and handles larger batches. For mass-producing plates and blocks, this is your go-to.\n\n§ePS:§f More efficient than stamping at the press for high-volume work.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:foundry_basin"
+      },
+      "name:8": "Foundry Basin",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40025,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:foundry_basin"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

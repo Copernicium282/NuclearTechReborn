@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Network Tool§f is AE2\u0027s diagnostic handheld. Right-click any AE2 block to inspect its settings in a GUI. Sneak-right-click to get a full network breakdown showing power draw, channel usage, and cable density.\n\nShapeless recipe: §6Illuminated Panel§f + §6Wooden Chest§f + §6Quartz Wrench§f + §6Calculation Processor§f.\n\nThe network breakdown view shows which blocks consume the most power, helping you identify bottlenecks. It also displays the channel topology of your cable network.\n\n§ePS:§f Keep one in your hotbar for quick diagnostics. A §6Security Terminal§f can restrict who uses the Network Tool on your network.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:network_tool"
+      },
+      "name:8": "Network Tool",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30207,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:network_tool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

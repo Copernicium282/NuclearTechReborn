@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    413
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Sodium-22 Source (Positrons)§f\n\n§aAn ion source that turns fluid into positrons. Yes, antimatter from a canister.§f\n\nThis ion source consumes Sodium-22 fluid and emits positron particles. Positrons are the antimatter counterpart of electrons and are used in downstream antimatter recipes.\n\nPlace it at the end of a LINAC just like any other ion source. The particle species it emits depends on the fluid you feed it, so check JEI to confirm what Sodium-22 produces.\n\nThe Laser Ion Source variant is an upgrade tier, but that comes later. For now, this basic version gets your positron beam started.\n\n§ePS:§f Positrons are useful for making Positronium, a muon-electron bound state. That is a whole different rabbit hole.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:accelerator_source",
+        "tag:10": {
+          "particle_storage:10": {
+            "particle_amount:3": 5000000,
+            "particle_capacity:3": 5000000
+          }
+        }
+      },
+      "name:8": "Sodium-22 Source (Positrons)"
+    }
+  },
+  "questID:3": 439,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:accelerator_source",
+          "tag:10": {
+            "particle_storage:10": {
+              "particle_amount:3": 5000000,
+              "particle_capacity:3": 5000000
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

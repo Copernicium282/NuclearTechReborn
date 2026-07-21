@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40298
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Soyuz-FG Rocket§f\n\n§aThe Soviet-era launch vehicle that gets your payloads into orbit.§f\n\nThe Soyuz-FG is assembled in an assembly machine from titanium shells, rubber bars, solid fuel, small and medium thrusters, control units, and 32 low-density elements. It launches from a Soyuz Launch Platform built in the world from concrete, scaffold blocks, and component blocks.\n\n§6Launch requirements§f:\n§b• 128,000 mB§f kerosene\n§b• 128,000 mB§f liquid oxygen\n§b• 750 kHE§f power to the platform\nA 30-second countdown plays two alarms before liftoff.\n\n§6Payloads§f: Satellites, orbital modules, and Gerald. The rocket can also enter cargo mode for point-to-point delivery, though that\u0027s an expensive shipping method.\n\n§cWARNING:§f All satellites MUST be linked to a satellite control interface with matching frequency before launch. An unlinked satellite goes full freedom and is lost forever.\n\n§ePS:§f The launch platform is large. Budget 4+ stacks of concrete, 7 stacks of scaffold blocks, and 6+ stacks of component blocks.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:soyuz_launcher"
+      },
+      "name:8": "Soyuz-FG Rocket",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40300,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:soyuz_launcher"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

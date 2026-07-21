@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40259
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Leviathan Steam Turbine§f\n\n§aThe ultimate steam turbine. Processes massive volumes of steam with no GUI required.§f\n\n§bThe Leviathan Steam Turbine§f is a massive pseudo-multiblock machine capable of processing very large amounts of steam at once, limited only by fluid transfer rates. Significantly more powerful than the Industrial Steam Turbine.\n\n§6Crafting§f (§bAssembly Machine§f):\n§b• 6×§f Steel Shell\n§b• 16×§f Welded Steel Plate\n§b• 12×§f Titanium Plate\n§b• 16×§f Technetium Steel Ingot\n§b• 5×§f Reinforced Turbofan Blades\n§b• 3×§f Titanium Steam Turbine\n§b• 1×§f Beryllium Flywheel\n§b• 48×§f Dense Gold Wire\n§b• 16×§f High-Speed Steel Pipe\n§b• 16×§f Steel Pipe\n\n§6Specifications§f:\n§b• No GUI§f, compression level set via large lever on side\n§b• Water buffer§f: §e1,000,000,000 mB§f (1 billion)\n§b• Steam buffer§f: §e1,000,000,000 mB§f\n§b• Power buffer§f: §e100,000,000,000 HE§f (100 GHE)\n§b• Processing§f: §eInstantaneous§f, handles any steam volume\n§b• Efficiency§f: §c85%§f (less efficient than Industrial Turbine at 100%)\n\n§ePS:§f Use for high-volume low-pressure steam where multiple Industrial Turbines would be impractical. Ideal for the Fusion Reactor and large RBMK designs. The 85% efficiency means you lose 15% power, so only use when throughput matters more than efficiency!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_chungus"
+      },
+      "name:8": "Leviathan Steam Turbine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40260,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_chungus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

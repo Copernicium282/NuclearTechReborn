@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    413
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6P-Type Wafer Doping§f\n\n§aHole-rich silicon made by bombarding wafers with Boron-11 ions. Yes, really.§f\n\nP-Type Doped Silicon is produced in a Target Chamber. Feed a Silicon Wafer and a Boron-11 ion beam (minimum 600 keV energy, focus 2.0) into the chamber and out comes P-Type silicon.\n\nYou need Diborane fluid piped into an Ion Source to generate the Boron-11 beam, then a LINAC with enough RF cavities and magnets to reach the energy threshold. Use the Beam Meter to verify.\n\nP-Type is required for Advanced Processors, which unlock ring accelerators and all the high-tier multiblocks. There is no shortcut for this one.\n\n§cWARNING:§f The beam must meet BOTH the 600 keV energy AND focus 2.0 thresholds or the Target Chamber rejects it. Check your beam before you wonder why nothing is happening.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:semiconductor"
+      },
+      "name:8": "P-Type Wafer Doping"
+    }
+  },
+  "questID:3": 430,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:semiconductor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

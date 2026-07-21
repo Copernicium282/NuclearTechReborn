@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    30149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Spatial components are the storage elements for spatial storage cells. Instead of items or fluids, they store entire 3D volumes of blocks.\n\nThree tiers: the 2 cubed component stores a 2x2x2 area (8 blocks), the 16 cubed stores a 16x16x16 area (4096 blocks), and the 128 cubed stores a 128x128x128 area. That last one is massive and very late-game.\n\nComponents are crafted with Fluix Pearls, Glowstone Dust, and Engineering Processors. The 16 cubed needs a 2 cubed component in its recipe, and the 128 cubed needs a 16 cubed.\n\nSpatial storage preserves everything: blocks, tile entities, inventories, and NBT data. You can literally pick up a room and move it somewhere else.\n\n§ePS:§f You will need a Spatial IO Port to actually use spatial cells.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Spatial Components",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30167,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 32,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 33,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 34,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

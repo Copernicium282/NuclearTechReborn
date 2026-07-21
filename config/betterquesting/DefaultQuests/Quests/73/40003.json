@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40002
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Stamps§f\n\n§aThe burner press is useless without these. Different stamps, different outputs.§f\n\nStamps are the tool heads that go in the top slot of the §bBurner Press§f. Pick the right one and the press shapes ingots into what you need.\n\n§6Types§f:\n§b• Flat Stamp§f: Basic shaping\n§b• Plate Stamp§f: Ingots to plates\n§b• Wire Stamp§f: Ingots to wires\n§b• Circuit Stamp§f: Electronic bits\n\nFlat stamps are crafted at a table from bricks and iron. The rest are made at the anvil. Higher-tier stamps (steel, titanium, desh) last longer before breaking.\n\n§ePS:§f Grab an §biron flat stamp§f and an §biron plate stamp§f first. They cover the most common early-game recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:stamp_iron_flat"
+      },
+      "name:8": "Stamps",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40003,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:stamp_iron_flat"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

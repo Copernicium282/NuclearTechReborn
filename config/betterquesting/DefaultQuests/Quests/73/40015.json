@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40013
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Stirling Engine§f\n\n§aHeat in, electricity out. But push it too hard and things get... violent.§f\n\nPlace it directly above a heat source (firebox, heating oven). Runs at 50% efficiency. Craft at a Tier 2 anvil.\n\n§cWARNING:§f Max safe input is §e300 TU/t§f (150 HE/t). Go over and you\u0027ll hear a warning. Keep going and the engine launches its gear like a projectile. Destroys blocks, kills entities. The gear is retrievable, but your base might not be.\n\n§6Heavy Variant§f handles §e1,500 TU/t§f. Needs beryllium, gold coils, and a large steel gear at a Tier 2 anvil.\n\n§ePS:§f Stick to lignite or charcoal with the standard engine. Use the heavy variant for rocket fuel or blaze rods.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_stirling"
+      },
+      "name:8": "Stirling Engine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40015,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_stirling"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

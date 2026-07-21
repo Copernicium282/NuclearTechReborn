@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10011
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Lathe§f is a 2x4x2 multiblock that turns ingots and plates into rods and wires. Every mid-tier AR machine depends on it because rods feed into the Precision Assembler, Centrifuge, and most rocket components.\n\nThe structure is compact: Structure Blocks form the walls, a Motor sits on top, with Input and Output Hatches on opposite ends. A Control Circuit Board (ic:3) marks the controller face.\n\nPower draw is 20 RF/t while running. Recipes are registered at runtime and show up in JEI under Advanced Rocketry: Lathe.\n\n§ePS:§f Right-click the Control Circuit Board with a Wrench to see the multiblock preview. This machine is a prerequisite for the Precision Assembler and Centrifuge.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:lathe"
+      },
+      "name:8": "Lathe",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10010,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:lathe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

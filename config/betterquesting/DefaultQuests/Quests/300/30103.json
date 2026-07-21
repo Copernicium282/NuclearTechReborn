@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    30102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Long Range Viaducts§f\n\n§aExtend viaduct speed and connection range for long-distance player transport!§f\n\n§bLong Range Viaducts§f speed up travel beyond the standard §e10 blocks/second§f, and §bLong Range Linking Viaducts§f bridge gaps that exceed normal connection range.\n\n§6Recipes (Fluid Transposer)§f:\n§b• Long Range§f: §e1× Viaduct§f + §e500 mB Zephyrean Aerotheum§f (§e4,000 RF§f).\n§b• Long Range Linking§f: §e1× Viaduct§f + §e1,000 mB Resonant Ender§f (§e8,000 RF§f).\n\nResonant Ender is made by melting Ender Pearls in the Magma Crucible, so stockpile some before upgrading. These are perfect for connecting distant bases or linking your mining outpost to your main storage.\n\nUse Linking at endpoints of long runs, and Long Range between them to keep travel snappy.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "thermaldynamics:duct_64"
+      },
+      "name:8": "Long Range Viaducts",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30103,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 1,
+          "id:8": "thermaldynamics:duct_64"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "thermaldynamics:duct_64"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

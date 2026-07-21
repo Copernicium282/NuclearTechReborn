@@ -1,0 +1,26 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Book of Boxcars§f\n\n§aThe black book that unlocks electronium and the rod of discord.§f\n\nThe Book of Boxcars is a rare item found in meteor dungeon safes or the red room. It can also be crafted from 8 black book pages (stamped with Part 1-8 printing press stamps at a burner or electric press) plus a balefire egg. The stamps themselves spawn in meteor dungeon safes that don\u0027t contain the book.\n\n§6Uses§f:\n§b• Electronium§f: 2 ionized particles + 2 dineutronium powder in the book\u0027s 2x2 grid\n§b• Rod of Discord§f: ender pearl + blaze rod + euphemium nugget\n§b• Other recipes§f: Metastable U238 ingot, Balefire and Steel, Brittle Spade, Diamond/Mese Gavel\n\nThe book has a built-in 2x2 crafting grid. A valid recipe makes the GUI glow red.\n\n§ePS:§f Electronium is the critical recipe. It feeds into the FEnSU, your infinite energy storage. Keep the book in your base, not in your inventory, since it\u0027s irreplaceable.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:book_of_"
+      },
+      "name:8": "Book of Boxcars",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40296,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:book_of_"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

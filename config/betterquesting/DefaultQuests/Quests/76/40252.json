@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40251
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Capacitors§f §aPower storage that discharges fast. From 600 kHE copper cells to 6 GHE spark monsters.§f §bCapacitors§f are power storage devices that discharge large amounts of power rapidly, making them vital for power banks supporting high-power operations. §6Tiers§f:\n§b• Copper§f, 600 kHE, 1 kHE/t (Chemical Plant)\n§b• Gold§f, 6 MHE, 10 kHE/t (Assembly Machine)\n§b• Niobium§f, 60 MHE, 100 kHE/t (Assembly Factory)\n§b• Tantalum§f, 300 MHE, 500 kHE/t (Assembly Factory)\n§b• Bismuth§f, 1.5 GHE, 2.5 MHE/t (Assembly Factory + QPU)\n§b• Spark§f, 6 GHE, 10 MHE/t (Assembly Factory + Cold Perfluoromethyl) §ePS:§f Copper for early buffers, tantalum for mid-game, Spark for end-game machines like the Particle Accelerator and ICF. Higher tiers charge and discharge faster, critical for burst-power machines.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:capacitor_copper"
+      },
+      "name:8": "Capacitors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40252,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:capacitor_copper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

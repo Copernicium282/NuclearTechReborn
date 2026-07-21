@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40005
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Blast Furnace§f\n\n§aThis is where the real metalworking begins. Alloys, steel, the works.§f\n\nThe §bBlast Furnace§f runs on solid fuel (coal, lignite, blaze rods, lava) with a big internal buffer. It burns 800 fuel per recipe and can hold up to 25,600. Add an §bextension§f on top for 3× speed at no extra fuel cost.\n\nCraft it at a Tier 2 anvil from stone bricks, firebrick, and copper plates.\n\n§6Key Alloys§f:\n§b• Steel§f: iron + coal (ore + flux/coke gives 2-3 ingots)\n§b• Red Copper§f: copper + redstone\n§b• Advanced Alloy§f: steel + red copper\n§b• Neutron Reflector§f: tungsten + coal\n\n§ePS:§f Build multiples for serious throughput. One blast furnace will bottleneck everything.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_difurnace_off"
+      },
+      "name:8": "Blast Furnace",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40008,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_difurnace_off"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

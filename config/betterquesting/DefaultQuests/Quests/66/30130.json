@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30125
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Soups \u0026 Stews§f\n\n§aBoil hearty soups and stews in the Pot for reliable hunger restoration.§f\n\nAll soups require §bStock§f (Pot + Water + seeds/spider eye/dirt) as a base. Most restore §e3-7 hunger§f.\n\n§6Basic Soups§f: Vegetable (5), Chicken Noodle (6), Tomato (3), Carrot (4), Potato (4), Cucumber (4), Beet (4), Celery (5), Rice (3), Seed (3), Cactus (3), Spider Eye (4), Pumpkin (4).\n\n§6Creamed Soups§f: Creamed Corn (3), Creamed Broccoli (6), Cream of Avocado (6).\n\n§6Complex§f: Onion Soup (11), Split Pea (6), Turnip (6), Leek Bacon (5), Chicken Gumbo (9), Lamb Barley, Old World Veggie, Miner\u0027s Stew.\n\n§eTip:§f Onion Soup at 11 hunger is one of the best soup-tier foods.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:vegetablesoupitem"
+      },
+      "name:8": "Soups \u0026 Stews",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30130,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:vegetablesoupitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:chickennoodlesoupitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

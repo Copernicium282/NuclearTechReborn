@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Machine Interface§f\n\n§aLets you interact with NC machines without opening the GUI.§f\nThe §bMachine Interface§f is a dummy block that sits next to an NC machine and exposes its inventory, fluid, and energy connections to adjacent blocks and pipes. Place it on any face of a machine and you can pipe items, fluids, or power through it.\n\nUseful for automation setups where you want to keep the machine\u0027s GUI clean or when you need to access multiple sides of a machine from one direction. It doesn\u0027t add any processing capability, just makes piping easier.\n\n§ePS:§f The Machine Interface is especially handy with §bThermal Dynamics§f pipes or §bAE2§f import/export buses for fully automated processing lines.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:machine_interface"
+      },
+      "name:8": "Machine Interface",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30024,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:machine_interface"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

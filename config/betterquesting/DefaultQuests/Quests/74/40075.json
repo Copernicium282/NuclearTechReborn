@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40072
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Heating Oil§f\n\n§aSounds boring, but this is your ticket to reformate and naphtha recycling.§f\n\nHeating Oil is a co-product from fractioning §bNaphtha§f or §bIndustrial Oil§f. It serves as a feedstock for the §bCatalytic Reformer§f.\n\n§6Production§f:\n§b• From Naphtha§f: §e100mB§f Naphtha → §e60mB§f Diesel + §e40mB§f Heating Oil.\n§b• From Industrial Oil§f: §e100mB§f Industrial Oil → §e60mB§f Heating Oil + §e40mB§f Engine Lubricant.\n\n§6Catalytic Reformer§f:\n§e1,000mB§f Heating Oil → §e500mB§f Naphtha + §e150mB§f Petroleum Gas + §e100mB§f Liquid Hydrogen.\n\n§ePS:§f Heating Oil\u0027s main value is feeding the §bCatalytic Reformer§f, where it upgrades back into Naphtha and Petroleum Gas. Stockpile it for when you unlock reforming. It can also be burned as a low-grade fuel in a §bFluid Burner§f to heat your boiler.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 96,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Heating Oil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40075,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 15,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

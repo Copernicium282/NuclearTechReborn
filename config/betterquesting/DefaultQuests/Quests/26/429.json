@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    427
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Beam Blocks \u0026 Beam Ports§f\n\n§aThe IO system for every particle chamber. Get the routing right or nothing works.§f\n\nBeam blocks form the spine of every chamber multiblock, carrying particles from the outer beam port inward to the central target. Beam ports sit on the outer face and can be set to INPUT, OUTPUT, or DISABLED with the Beam Meter tool.\n\nDifferent chambers have different port rules. Target Chambers need exactly one INPUT. Beam Dumps require ALL ports to be INPUT. Collision Chambers typically need one input on each of two opposing faces.\n\nCraft beam blocks from stainless steel, tungsten, and beamline pipes. Place beam ports on the outside of chambers for easy diagnostics.\n\n§ePS:§f The Beam Meter is your best friend here. Shift right-click a port to toggle its mode.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:particle_chamber_beam_port"
+      },
+      "name:8": "Target Chamber Outputs"
+    }
+  },
+  "questID:3": 429,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "id:8": "qmd:particle_chamber_beam"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "qmd:particle_chamber_beam_port"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

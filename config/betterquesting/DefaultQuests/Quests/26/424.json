@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    409
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6N-Type Wafer Doping§f\n\n§aElectron-rich silicon for every basic QMD controller. This is where it all starts.§f\n\nN-Type Doped Silicon is made by placing a Silicon Wafer into a powered Fission Irradiator. The recipe costs 120,000 RF and bombards the wafer with neutrons from uranium.\n\nYou need a silicon boule first, grown from raw silicon and hafnium via the Ore Leacher and NC Manufactory chain. Slice the boule into wafers with the Manufactory, then irradiate.\n\nN-Type is an ingredient in Basic Processors, detector casings, accelerator controllers, and more. You will be making a lot of this.\n\n§ePS:§f The Fission Irradiator only works while receiving neutron flux from an adjacent running reactor. Build the reactor first.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "qmd:semiconductor"
+      },
+      "name:8": "N-Type Wafer Doping"
+    }
+  },
+  "questID:3": 424,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "qmd:semiconductor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

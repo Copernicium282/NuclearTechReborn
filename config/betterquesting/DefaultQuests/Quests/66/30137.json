@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    30122
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Juices§f\n\n§aExtract fresh fruit juices using the Juicer.§f\n\nAll juices require §e2× fruit§f in the §bJuicer§f. Each restores §e2 hunger, 1.2§f saturation and grants a brief §eSpeed§f boost.\n\n§6Juices§f: Apple, Apricot, Blackberry, Blueberry, Cactus Fruit, Carrot, Cherry, Cranberry, Fig, Grape, Grapefruit, Kiwi, Lemon, Lime, Mango, Melon, Orange, Papaya, Peach, Pear, Persimmon, Plum, Pomegranate, Raspberry, Starfruit, Strawberry.\n\n§6Juice Recipes§f:\n§b• 2× Fruit§f → §e1× Juice§f (in Juicer)\n§b• Each juice restores§f: §e2 hunger, 1.2§f saturation + §eSpeed§f boost\n§b• Bait Byproduct§f: Many juice recipes also produce §bFruit Bait§f (for Ground Traps)\n\n§eTip:§f Juices are a great early-game food source once you have fruit trees established. Collect all §e26+ juice types§f for maximum variety.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:applejuiceitem"
+      },
+      "name:8": "Juices",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30137,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:applejuiceitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:orangejuiceitem"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:strawberryjuiceitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

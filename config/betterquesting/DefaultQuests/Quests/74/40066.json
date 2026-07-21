@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40065
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Oil Refinery§f\n\n§aSplit hot crude oil into its core fractions. This is the heart of your petrochemical operation.§f\n\nThe Oil Refinery processes hot crude oil, hot cracked oil, or hot desulfurized oil into multiple useful byproducts. It requires power and pre-heated oil.\n\n§6Recipe (per §e1,000mB§f hot crude oil)§f:\n§e500mB§f §bHeavy Oil§f, §e250mB§f §bNaphtha§f, §e150mB§f §bLight Oil§f, §e100mB§f §bPetroleum Gas§f, plus §bSulfur§f as a solid byproduct.\n\nThe sulfur accumulates in the center block on the bottom. Extract it via the GUI or automate with item ducts.\n\n§6Cracked Oil Recipe§f:\n§e400mB§f Cracked Naphtha, §e300mB§f Cracked Light Oil, §e150mB§f Aromatic Hydrocarbons, §e150mB§f Unsaturated Hydrocarbons.\n\nCrafted in the §bAssembly Machine§f with welded steel plates, copper, shells, pipes, insulators, and analog circuit boards.\n\n§cNote:§f Explosions can damage the refinery. Repair with a §bBlowtorch§f and §bSteel Plates§f.\n\n§ePS:§f Each fraction needs further processing in a §bFractioning Tower§f. Check JEI for the full breakdown.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_refinery"
+      },
+      "name:8": "Oil Refinery",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40066,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_refinery"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40085
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Hydrotreater§f\\n\\n§aStrip the sulfur out of your oils, and get sour gas as a bonus.§f\\n\\nThe §bHydrotreater§f does hydrodesulfurization: it takes petroleum products plus pressurized Liquid Hydrogen (§e1 PU§f) and removes the sulfur, producing §bSour Gas§f as a byproduct. It needs a §bCatalytic Converter§f to run, making it a post-RBMK, post-Vacuum Refinery machine.\\n\\nIt eats §e200 kHE/s§f and processes §e1,000mB§f of input fluid per second (averaging §e50 mB/t§f). The core recipes in JEI: Crude Oil and Cracked Oil both yield §e900mB§f desulfurized product plus §e150mB§f Sour Gas. Diesel gives §e800mB§f High-Octane variant plus §e300mB§f Sour Gas. Natural Gas converts to §e800mB§f Petroleum Gas plus §e150mB§f Sour Gas.\\n\\n§6Crafting§f (Assembly Factory): §e8×§f Welded Steel Plate, §e4×§f Cast Copper Plate, §e8×§f Niobium Ingot, §e4×§f Cadmium Steel Ingot, §e2×§f Steel Shell, §e8×§f Steel Pipe, §e2×§f Desh Motor, §e1×§f Versatile Circuit Board.\\n\\n§ePS:§f The hydrotreater and §bCatalytic Reformer§f form a loop, reformer produces Liquid Hydrogen, hydrotreater consumes it. The Sour Gas byproduct can be reformed into Sulfuric Acid, so nothing goes to waste.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_hydrotreater"
+      },
+      "name:8": "Hydrotreater",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40089,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_hydrotreater"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30221
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Random TP§f\n\n§aSpawn area looks like a crater field? Time to relocate.§f\nType §9/rtp§f in chat and you’ll warp to a random spot between §c256§f and §c1,024 blocks§f away. The system searches for a safe landing spot, so you won’t end up inside a wall or above a lava lake.\n\nThere’s a §c5-minute cooldown§f between teleports, so pick your landing zone wisely. Same dimension only, no cross-dimensional shenanigans.\n\nGreat for escaping over-mined terrain around spawn and finding fresh resource nodes far away. Or just for exploring when you’re bored.\n\n§ePS:§f Always carry a bed or sleeping bag when you RTP. You never know where you’ll end up, and it might be a long walk back.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:ender_pearl"
+      },
+      "name:8": "Random TP",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30224,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:ender_pearl"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

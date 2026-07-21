@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cutting Board§f\n\n§aSlice, cut, and assemble sandwiches, burgers, tacos, and sushi.§f\n\nThe §bCutting Board§f is a reusable crafting utensil for assembly recipes: sandwiches (BLT, Chicken, Fish, PB\u0026J, etc.), burgers (Hamburger, Cheeseburger, Deluxe), tacos, burritos, sushi, wraps, and pizza. Place it in the crafting grid with ingredients, and it stays in the grid after crafting.\n\n§6Crafting§f:\n§eShapeless recipe:§f\n§b• 1× Brick§f\n§b• 1× Stick§f\n§b• 1× Wood Plank§f\n\n§6Recipe Categories§f:\n§b• Sandwiches§f: BLT, Chicken Sandwich, Fish Sandwich, Ham \u0026 Cheese, Tuna Fish Sandwich, Peanut Butter \u0026 Jelly, Hamburger, Cheeseburger, Deluxe Cheeseburger, Coleslaw Burger, Bacon Cheeseburger.\n§b• Tacos \u0026 Wraps§f: Taco, Fish Taco, Burrito, Bean Burrito, Pork Lettuce Wrap, Fish Lettuce Wrap, Vegetarian Lettuce Wrap, Spring Roll, Egg Roll, Dim Sum.\n§b• Sushi§f: California Roll, Futomaki, Sushi (various types).\n§b• Other Assembly§f: Pizza, Supreme Pizza, Meat Feast Pizza, Hot Dog, Corndog, Chili Dog, Footlong.\n\n§6Usage§f:\n§9Place the Cutting Board§f in a crafting grid alongside the recipe\u0027s ingredients. The Cutting Board is reusable and does not get consumed during crafting. The output is the assembled food item.\n\n§eTip§f: The Cutting Board is one of the most-used utensils, so craft multiple for parallel processing, or build your meal production around a single Cutting Board integrated with a §bDrawer Controller§f.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:cuttingboarditem"
+      },
+      "name:8": "Cutting Board",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30113,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:cuttingboarditem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

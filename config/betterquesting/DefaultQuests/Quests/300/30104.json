@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30089
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Redstone Relay§f\n\n§aSend redstone signals through duct networks for remote automation and control!§f\n\n§bRedstone Relays§f attach to any duct type, carrying redstone signals alongside whatever the duct is transporting.\n\n§6Crafting§f:\n§e1× Redstone§f + §e1× Nether Quartz§f + §e2× Signalum Nugget§f + §e2× Lead Ingot§f → §e1× Redstone Relay§f.\n\n§6Transfer Modes§f:\n§b• Redstone Input§f: reads signal from adjacent block, sends through ducts.\n§b• Redstone Output§f: receives from ducts, outputs to adjacent block.\n§b• Comparator Input§f: measures like a comparator, transmits strength.\n\n§6Signal Modes§f: Scaled, Inverted Scaled, Threshold, Inverted Threshold.\n\n§e16 color-coded channels§f, relays only talk on the same channel, so you can run §e16 independent signals§f through one duct network without interference.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermaldynamics:relay"
+      },
+      "name:8": "Redstone Relay",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30104,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermaldynamics:relay"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

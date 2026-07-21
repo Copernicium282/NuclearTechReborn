@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30125
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cakes§f\n\n§aBake placeable cake blocks that serve multiple slices.§f\n\nCakes are crafted in the §bBakeware§f and placed as blocks. Each cake serves §e4-8 slices§f. Slice hunger varies by type.\n\n§6Cakes§f:\n§b•§f Carrot Cake: 5 hunger/slice\n§b•§f Cheesecake: 5 hunger/slice\n§b•§f Cherry Cheesecake: 6 hunger/slice\n§b•§f Chocolate Sprinkle Cake: 8 hunger/slice\n§b•§f Holiday Cake: 6 hunger/slice\n§b•§f Lamington: 4 hunger/slice\n§b•§f Pavlova: 6 hunger/slice\n§b•§f Pineapple Upside Down Cake: 6 hunger/slice\n§b•§f Pumpkin Cheesecake: 6 hunger/slice\n§b•§f Red Velvet Cake: 6 hunger/slice\n\n§ePS:§f Chocolate Sprinkle Cake at 8 hunger per slice is the best cake for pure hunger restoration. Cakes can be broken and re-placed without losing slices.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:cheesecakeitem"
+      },
+      "name:8": "Cakes",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30135,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:cheesecakeitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:chocolatecherryitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

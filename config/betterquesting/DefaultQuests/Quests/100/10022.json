@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Rocket Assembling Machine§f validates a placed rocket structure, calculates thrust, weight, and fuel ratio, and spawns the rocket as a flyable EntityRocket once you confirm in the GUI.\n\nIt enforces size bounds: max 16x16 footprint, max 64 blocks tall, min 3x3 footprint, min 4 blocks tall. Build your frame from Structure Blocks, place a Rocket Motor at the bottom, fuel tanks in the middle, and a Rocket Seat at the top.\n\nThe GUI shows live stats as you build and validates every 10 ticks. If something is wrong, the error field in the GUI tells you exactly what is missing.\n\n§ePS:§f The assembler must be linked to a Guidance Computer via a Linker before it will spawn a rocket. Right-click the Guidance Computer with a Planet ID Chip to set the destination.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:rocketbuilder"
+      },
+      "name:8": "Rocket Assembling Machine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10022,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:rocketbuilder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

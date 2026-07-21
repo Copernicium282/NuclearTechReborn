@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    413
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Focusing Electromagnets§f\n\n§aSteer the beam or lose it. Magnets keep your particles going where you want.§f\n\nElectromagnets are placed on the long sides of accelerator multiblocks to steer and focus the particle beam. Multiple tiers exist with different field strengths. You will need these for any ring accelerator or beam-routing setup.\n\nWithout magnets, particles spray everywhere and your beam focus drops. Focus is everything in QMD. If focus hits zero, the beam collapses. Keep those magnets loaded.\n\nCraft from magnesium diboride alloy, stainless steel, and tough alloy. Higher tiers use BSCCO superconducting wire for stronger fields.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "qmd:accelerator_magnet"
+      },
+      "name:8": "Focusing Electromagnets"
+    }
+  },
+  "questID:3": 416,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:accelerator_magnet"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "qmd:accelerator_magnet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

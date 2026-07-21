@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    4006
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Drones§f\\n\\n§aLight, fast, and free to fly anywhere. The ultimate remote scouts.§f\\nDrones are small flying computers. Unlike robots, they have §eno flight height limit§f.\\n\\n§6Key Stats§f:\\nEnergy buffer: §e5,000§f. Power drain: §e0.4 energy/tick§f while running. No screen or keyboard support, so you control them wirelessly from a base station.\\n\\n§6Remote Control§f:\\nGive the drone a Wireless Network Card, then send commands from another computer using the modem API. The drone listens and executes locally.\\n\\n§6Assembly§f:\\nBuild in the Robot Assembler with a Drone Case. Base cost §e25,000 energy§f + §e15,000 per complexity point§f.\\n\\n§ePS:§f Drones are great for scouting, relaying data, or quick flyby tasks. For sustained work, a robot with hover upgrades is usually more practical.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 23,
+        "id:8": "opencomputers:material"
+      },
+      "name:8": "Drones",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4008,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 23,
+          "id:8": "opencomputers:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

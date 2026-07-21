@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Logistics \u0026 Transport: Railroads \u0026 Conveyors§f\\n\\n§aConstruct automated cargo rail networks and conveyor belts to move items across your base!§f\\nPiping every single item across large distances is expensive. Building a dedicated railway or conveyor line is the ideal solution for transporting bulk resources.\\n\\n§6Railroad Networks§f:\\nLay down rails to connect your outposts to your processing hubs:\\n§b• Tracks§f: Craft standard tracks, intersections, curves, slopes, and crossings to route your trains around terrain.\\n§b• Locomotives§f: Powered train engines that pull or push cargo carts along the tracks.\\n§b• Cargo \u0026 Fluid Carts§f: Carts containing large chest inventories or §e64,000 mB§f fluid tanks.\\n\\n§6Cart Loaders \u0026 Unloaders§f:\\nAutomate the loading and unloading of trains at stations:\\n§b• Cart Item Loader§f: Automatically transfers items from adjacent storage containers into cargo carts. Operates at a speed of §e4 items per tick§f.\\n§b• Fluid Loader§f: Automatically pumps fluids in and out of fluid carts.\\n\\n§6Conveyor Belts§f:\\nFor short-distance, block-to-block item automation:\\n§b• Conveyors§f: Move items placed on them in a straight line, rising or falling to match levels. Can be connected to inserters and hoppers to feed processing machines directly.\\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialrenewal:frame"
+      },
+      "name:8": "Railroads \u0026 Conveyors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4205,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialrenewal:frame"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

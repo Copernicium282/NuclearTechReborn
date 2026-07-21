@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    472
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Gluon Gun§f\n\n§aFires gluon particles. Heavy damage, radiation poisoning, very cool.§f\n\nThe Gluon Gun is one of three QMD endgame weapons. Right-click to fire a gluon projectile that deals heavy burst damage and applies radiation poisoning to the target.\n\nCraft from an Elite Processor, Elite Plating, Super Alloy, Extreme Alloy, and BSCCO Wire. It requires a fuel cell or antimatter cell to operate. Check the tooltip for the exact fuel type.\n\nMobs hit take radiation damage over time on top of the initial burst. It is effective against anything that survives the first shot.\n\n§cWARNING:§f Do not fire this near antimatter cells. The gluon burst can trigger a detonation. Keep your distance.\n\n§ePS:§f The Gluon Gun is the mid-tier weapon of the three. The Antimatter Launcher is the heavy hitter.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:gluon_gun"
+      },
+      "name:8": "Gluon Gun",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 487,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:gluon_gun",
+          "tag:10": {
+            "qmd_item_mode:10": {
+              "mode:8": "breaking"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

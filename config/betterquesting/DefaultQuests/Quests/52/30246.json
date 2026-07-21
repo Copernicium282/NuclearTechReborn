@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Basic Backpack§f\n\n§aYour first step toward not drowning in your own inventory§f\n\nTired of leaving half your mining loot on the ground? The Basic Backpack gives you §e18 extra slots§f of storage that wear in your §bchest armor slot§f, so it won\u0027t conflict with your tools or armor.\n\n§6Crafting§f:\nSurround a §bChest§f with §e4× Wool§f in the corners and §e4× Leather§f on the sides. Quick and cheap.\n\nThe Basic Backpack supports §e4 upgrade points§f for functional modules, but it can\u0027t be specialized into Storage or Upgrade paths. That comes at the next tier.\n\n§ePS:§f Craft a few of these early. You\u0027ll need one as an ingredient when upgrading to Iron tier, and having spares for different loadouts is never a bad idea.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ironbackpacks:upgrade"
+      },
+      "name:8": "Basic Backpack",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30246,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ironbackpacks:upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

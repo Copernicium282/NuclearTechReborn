@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Basic Metals§f\n\n§aSmelt, compress, and gear up with your new metals!§f\n\nEach of the §e9§f base metals comes as ingot, nugget, dust, gear, plate, coin, and storage block. Smelt ores 1:1, or double your yield through the §bPulverizer§f. Gears are §e4§f ingots + §e1§f Iron Rod; plates are §e2§f ingots.\n\nThe §bInduction Smelter§f is where things get interesting: ore + sand gives §e2§f ingots, ore + Rich Slag gives §e3§f, and ore + Cinnabar gives §e3§f plus a bonus Gold Ingot. Want it simpler? Toss Pyrotheum Dust + ore in a crafting grid for §e1§f ingot, or Petrotheum Dust + ore for §e2§f dust.\n\n§ePS:§f Storage blocks work as beacon bases and prevent mob spawns.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 128,
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "Basic Metals",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30002,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 128,
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

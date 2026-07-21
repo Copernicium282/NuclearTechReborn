@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6No Tree Punching§f\n\n§aYou can’t punch trees. We’re serious.§f\nNo Tree Punching overhauls early-game survival. Punching trees does nothing. Breaking stone with bare hands does nothing. You have to forage for loose rocks on the ground and knap flint shard tools.\n\nGather loose stone, marble, limestone, and basalt by right-clicking them. Find gravel for flint, then right-click a hard stone block with flint for a §c60% chance§f to start knapping and §a70% success§f to get §bFlint Shards§f. Craft a Flint Knife to cut tall grass for Plant Fibers (§a40% drop chance§f), and a Flint Hatchet to chop logs into planks on the ground (§a60% success§f, §c60% durability loss§f per use).\n\nThe Fire Pit is your first cookstove: §c400 tick cook time§f, §c5× faster fuel burn§f than a furnace. The Fire Starter has a §c50% success rate§f. Ceramic Buckets carry only water.\n\nTool tiers progress: Tin (level 0) through Bone (level 4) to Flint.\n\n§ePS:§f This is the NITRO early game. Embrace the struggle. It gets better.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:flint"
+      },
+      "name:8": "No Tree Punching",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30238,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:flint"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

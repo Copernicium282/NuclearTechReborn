@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10091,
+    10054
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Black Hole Generator contains a micro-singular black hole that generates power. It consumes items from input ports to sustain itself, so keep the hopper stocked.\n\nThe generator must be built near a black hole star to function. The GUI shows the singularity mass (decreases over time) and estimated lifetime. When the singularity mass hits zero, the generator collapses into a mini black hole.\n\n§cWARNING:§f The collapse deals 1000 HP of damage to anything within 20 blocks and destroys every block in a 100-block radius. Build it at least 200 blocks from your main base. Pair with a Tesseract for power transmission.\n\nThis is the single most powerful power source in AR. It replaces every other generator for endgame bases. If you\u0027re building this, you\u0027re past the point of worrying about power.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:blackholegenerator"
+      },
+      "name:8": "§6Black Hole Generator§f"
+    }
+  },
+  "questID:3": 10083,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:blackholegenerator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

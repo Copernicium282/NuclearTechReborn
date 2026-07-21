@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ME Covered Cable carries the same 8 channels as Glass Cable, but with an opaque, non-transparent shell. Functionally identical, visually different.\n\nUse covered cables when you want clean cable runs without the visible internals. Common in finished builds, hidden conduit runs behind walls, or anywhere cable appearance matters. Same color isolation rules as Glass Cable apply.\n\nAvailable in all 16 AE2 colors. Covered Cable can be upgraded to Dense Covered Cable by applying a Dense Cover, boosting it to 32 channels for backbone runs.\n\n§ePS:§f Use Glass or Smart Cable while building and debugging, then swap to Covered for the final look. Smart Cable lets you see channel usage at a glance, which makes troubleshooting much easier.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 36,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Covered Cable",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30153,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 36,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

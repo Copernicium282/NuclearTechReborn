@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10022
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You can\u0027t just slap Space Suit components together on a regular crafting table. AR\u0027s suit pieces need the §6Suit Workstation§f, a specialized crafting tile with a 3x3 grid that accepts AR-specific recipes.\n\nIt\u0027s basically a crafting table that knows how to handle wool-dyed suit pieces, the helmet, chest-piece, leggings, boots, and the Oxygen Scrubber. No power required, it\u0027s always active.\n\nThe workstation also has a secondary GUI for configuring suit modules like oxygen tanks, jet boots, and magnetic boots on a per-piece basis. Customize your loadout before heading into vacuum.\n\n§ePS:§f Place this near your Oxygen Vent and Gas Charge Pad so you can craft a suit and fill it with oxygen in one trip.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:suitworkstation"
+      },
+      "name:8": "Suit Workstation",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10048,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:suitworkstation"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

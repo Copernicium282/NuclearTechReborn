@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Electrolysis Machine§f\n\n§aSplit fluids into elements and process ore crystals for double the yield!§f\n\nThe §bElectrolysis Machine§f (electrolyzer) has two modes. Mode 1 splits fluids into their elements. Mode 2 processes ore-derived crystals with Nitric Acid for maximum yield.\n\n§6Crafting§f (Assembly Factory):\n§b•§f §e8×§f Cast Steel Plate, §e16×§f Copper Plate, §e3×§f Titanium Shell, §e8×§f Rubber Bar, §e16×§f Firebrick, §e16×§f Copper Coil, §e8×§f Integrated Circuit Board.\n\n§6Mode 1 - Fluid Electrolysis§f:\n§b•§f Water (§e2,000mB§f) → §e200mB§f Liquid Oxygen + §e200mB§f Liquid Hydrogen.\n§b•§f Heavy Water (§e2,000mB§f) → §e200mB§f Liquid Oxygen + §e200mB§f Deuterium.\n§b•§f Potassiumchloride Solution (§e250mB§f) → §e125mB§f Chlorine Gas + Dust.\n§b•§f Calciumchloride Solution (§e250mB§f) → §e125mB§f Chlorine Gas + §e125mB§f Calcium Solution.\n\n§6Mode 2 - Ore Crystal Processing§f:\nRequires §bNitric Acid§f. Produces §e6×§f main ingot, §e2×§f secondary ingot, and §e3§f nuggets of byproduct (usually Lithium). Place a Strand Caster under an outlet for rapid casting.\n\n§ePS:§f The Electrolyzer is the best source of §bLiquid Hydrogen§f for your Hydrotreater and the easiest route to §bChlorine Gas§f. For ore crystals, it yields §e6 ingots§f per crystal vs §e3§f from a furnace - a §e100%§f boost!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_electrolyser"
+      },
+      "name:8": "Electrolysis Machine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40144,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_electrolyser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

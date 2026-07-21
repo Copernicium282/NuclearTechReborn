@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Firebox \u0026 Heating Oven§f\n\n§aBurn stuff, make heat. Two tiers of the same idea.§f\n\n§6Firebox§f: Burns fuel slowly and efficiently. Safe for standard stirling engines (under 300 TU/t). Crafted at a Tier 2 anvil from a furnace, steel plates, and red copper.\n\n§6Heating Oven§f: 5x the heat output, 8x faster, but burns through fuel quicker. Base output of 500 TU/t will overspeed a standard stirling, so pair it with the heavy stirling instead. Can receive heat from below (halved), so stack a few for crucible-level temperatures.\n\nBoth save fuel when the heat buffer is full.\n\n§6Fuel bonuses§f:\n§b• Coal/Lignite/Coke§f: +25% time, +100% heat\n§b• Solid Fuel§f: +50% time, +200% heat\n§b• Rocket Fuel§f: +50% time, +400% heat\n§b• Balefire§f: -50% time, +1400% heat\n\n§ePS:§f Firebox for stirling engines, heating oven for crucibles. Simple rule.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:heater_firebox"
+      },
+      "name:8": "Firebox",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40026,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:heater_firebox"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

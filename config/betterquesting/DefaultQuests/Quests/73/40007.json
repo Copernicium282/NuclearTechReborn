@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40006
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Bricked Furnace§f\n\n§aNot just a furnace. It\u0027s a furnace that loves construction materials.§f\n\nThe §bBricked Furnace§f smelts sand and cobblestone at §e2× speed§f, and clay or fireclay at §e4× speed§f. It also produces ashes from fuel, which you\u0027ll want to collect.\n\nCraft it at a table from bricks and stone. One of the cheapest upgrades you can make, and it pays for itself immediately if you\u0027re building blast furnaces.\n\nOther furnace options: §bIron Furnace§f (20% faster, supports speed upgrades), §bSteel Furnace§f (TU-powered, bonus output), §bElectric Furnace§f (clean automation, needs power).\n\n§ePS:§f This is the best furnace for bulk firebrick production. The 4× speed on fireclay is unmatched.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_furnace_brick_off"
+      },
+      "name:8": "Bricked Furnace",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40007,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_furnace_brick_off"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

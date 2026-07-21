@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    10012
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Every AR multiblock needs a controller face, and the §6Control Circuit Board§f is what marks it. Without one, no machine assembles.\n\nGood news: this is the §6only AR circuit§f with a §6vanilla crafting table§f recipe. Redstone, Nether Quartz, copper dust, wood slab, and iron plate in a 3x3 grid. No multiblock required, so you can mass-produce it early.\n\nYou right-click the control circuit with a Wrench to assemble the multiblock preview. One board per machine, and AR players routinely need 50+ of them. Set up autocrafting with AE2 or Refined Storage so you never run out mid-build.\n\n§ePS:§f A stack of 64 fits in a single Drawer unit. Keep a stash near your assembly area.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "advancedrocketry:ic"
+      },
+      "name:8": "Control Circuit Board",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10059,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "advancedrocketry:ic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

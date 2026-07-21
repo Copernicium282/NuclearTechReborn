@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40258
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Magnetic Antimatter Container§f §aPortable antimatter transport. Regular barrels explode on contact. This one doesn\u0027t.§f §bThe Magnetic Antimatter Container§f stores any fluid, including antimatter, with a capacity of §e16,000 mB§f. Expensive, but necessary for moving exotic fluids safely. §6Crafting§f:\n§b• 5×§f Saturnite Plate + §b1×§f Super Conducting Ring Coil → §eMagnetic Antimatter Container§f §6Features§f:\n§b• Antimatter-safe§f, compatible with all antimatter-class fluids\n§b• Portable§f, carry exotic fluids in your inventory\n§b• 16,000 mB§f capacity §ePS:§f Use the Heavy Magnetic Storage Tank for bulk stationary storage, these containers for transport. Antimatter touches normal matter and both vanish, so don\u0027t cheap out on containment.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:barrel_antimatter"
+      },
+      "name:8": "Magnetic Antimatter Container",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40259,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:barrel_antimatter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

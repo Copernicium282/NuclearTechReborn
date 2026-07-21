@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    10025,
+    10026,
+    10027
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Guidance Computer§f is the flight controller for every AR rocket. It is a single block linked to the Rocket Assembling Machine via a Linker, and it reads the Planet ID Chip to set the destination dimension.\n\nWithout a Guidance Computer, the assembler will not spawn a rocket entity. The computer stores destination ID, return trip settings, and max safe altitude.\n\nRight-click the Guidance Computer with a researched Planet ID Chip to set the destination. An unresearched chip will not bind and the GUI reports \u0027Invalid destination\u0027.\n\n§ePS:§f The Guidance Computer also drives the Planet Holo Selector, giving you a 3D preview of the destination world. It is the single most important infrastructure tile for any planetary mission.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:guidancecomputer"
+      },
+      "name:8": "Guidance Computer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10028,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:guidancecomputer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

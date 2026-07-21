@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40141,
+    40112,
+    40142
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Hard Plastic§f\\n\\n§aPost-bismuth polycarbonate  -  the material behind catalytic reformers, missiles, and advanced circuits!§f\\n\\nHard Plastic is made by combining §bBTX§f and §bPhosgene§f in the §bChemical Plant§f. Recipe: §e500mB§f BTX + §e500mB§f Phosgene yields §e1×§f Hard Plastic Bar. Needs the Polycarbonate Synthesis template.\\n\\n§6What it builds§f:\\n§b•§f Catalytic Reformer components  -  gates the entire advanced refining chain.\\n§b•§f Versatile Circuit Boards and other high-tier circuits.\\n§b•§f Missile body and warhead recipes.\\n§b•§f Various late-game HBM machines.\\n\\n§6Prerequisites§f:\\n§b•§f BTX production requires bismuth in the chain.\\n§b•§f Phosgene requires chlorine.\\n\\n§ePS:§f Hard Plastic is a significant milestone. Once you can produce it, the Catalytic Reformer and all its advanced chains open up. Get your bismuth and chlorine supply sorted first!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_pc"
+      },
+      "name:8": "Hard Plastic",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40114,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "hbm:ingot_pc"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

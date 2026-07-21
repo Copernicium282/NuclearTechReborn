@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30025
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fluid Enricher§f\n\n§aEnriches items with fluid additives.§f\nThe §bFluid Enricher§f takes §b1 item input§f and §b1 fluid input§f, producing §b1 fluid output§f. Default cycle is §b600 ticks§f at §b10 RF/t§f. It\u0027s used for enriching materials with fluid additives, creating enriched variants for advanced recipes.\n\nYou\u0027ll need this for some nuclear fuel processing and advanced material production chains. It\u0027s a niche machine but essential when you need it. The enriched fluids it produces are used in downstream processes.\n\n§ePS:§f The Enricher loses progress on interruption. Buffer your inputs with tanks or ducts to prevent stalls in your processing line. Steady input means steady output.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:enricher"
+      },
+      "name:8": "Fluid Enricher",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30085,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:enricher"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

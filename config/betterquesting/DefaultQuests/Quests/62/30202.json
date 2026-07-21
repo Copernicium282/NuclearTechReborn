@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30158
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Entropy Manipulator§f is AE2\u0027s powered multi-tool. Right-click to rotate blocks, sneak-right-click to dismantle them, and use it on a §6Security Terminal§f to cycle permissions.\n\nCrafted from a §6Fluix Crystal§f, §6ME Energy Cell§f, §6Engineering Processor§f, and §b3 Iron Ingots§f. It holds §b200,000 AE§f internally and costs §b1,600 AE§f per right-click (sneak-right-click is free).\n\nHeat and cool mode: right-click to heat blocks (turns water to ice, grass to dirt) or sneak-right-click to cool them (turns lava to obsidian, grass to dirt). This makes it useful beyond just AE2 maintenance.\n\n§cWARNING:§f Dismantling a §6Controller§f or §6Quantum Ring§f will destroy the multiblock structure. Charge it in a §6Charger§f between uses.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:entropy_manipulator"
+      },
+      "name:8": "Entropy Manipulator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30202,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:entropy_manipulator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

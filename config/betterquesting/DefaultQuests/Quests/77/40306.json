@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40297
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6ICF Reactor Basics§f\n\n§aInertial Confinement Fusion. Second only to the DFC in power output. Cannot melt down.§f\n\nThe ICF uses two modular laser emitters focused onto small fuel pellets to produce fusion. It can output multiple GHE/s and is the primary source of stellar flux, which you need for heavy duty elements and Gerald.\n\n§6Key facts§f:\n§b• Cannot melt down§f, the only hazard is laser line-of-sight\n§b• Produces stellar flux§f as a byproduct (Q \u003d E x 10^-11, where E \u003d reactor heat in TU)\n§b• Fuel pellets§f are made in the ICF fuel pellet maker at 1,000 mB each, very efficient\n§b• Depleted pellets§f yield empty housings, ionized particles, and iron powder\n§b• Pellets can be muon catalyzed§f to reduce startup temperature\n\n§6The reactor chamber§f holds up to 1,000,000,000,000 TU of heat and 24,000 mB of stellar flux. It uses cold/hot cooling fluid buffers (512,000 mB each) to manage temperature.\n\n§ePS:§f The ICF is your stepping stone. You need stellar flux from it to make heavy duty elements, which you need for Gerald, which gives you osmiridium, which you need for the DFC. Build the ICF first.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:icf_controller"
+      },
+      "name:8": "ICF Reactor Basics",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40306,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:icf_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

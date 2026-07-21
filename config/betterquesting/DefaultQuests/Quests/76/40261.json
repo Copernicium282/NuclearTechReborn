@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40260
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Asteroid Mining Ship§f\n\n§aThe most useful satellite. Periodically returns with valuable asteroid materials.§f\n\n§bThe Asteroid Mining Ship§f is a satellite rocket that periodically (every ~10 minutes) returns from space and deploys cargo on your cargo landing pad. Requires a §bCargo Landing Pad§f with a matching §bSatellite ID-Chip§f.\n\n§6Warning§f: If the ship crashes into something during landing, or the cargo pad ID-chip is changed, it will §eexplode§f and the satellite is gone.\n\n§6Crafting§f (§bAssembly Machine§f):\n§b• 24×§f Saturnite Plate\n§b• 2×§f Desh Motor\n§b• 2×§f Titanium Drill\n§b• 1×§f Military Grade Circuit Board\n§b• 1×§f Fluid Barrel: Kerosene\n§b• 1×§f Small Thruster\n§b• 12×§f Photovoltaic Panel\n§b• 4×§f Centrifuge Element\n§b• 1×§f Lithium-Ion Battery\n\n§6Cargo§f (powder form unless specified):\n§bVery Common§f: Coal, Redstone, Fluorite, Aluminium, Copper, Phosphorus Crystals\n§bCommon§f: Iron, Lapis, Diamond, Lead, Thorium, Aluminium Crystals\n§bUncommon§f: Titanium, Desh Blend, Uranium, Plutonium, Energy Powder, Nitanium Blend, Tungsten Crystals, Gold Crystals\n§bRare§f: Lithium Crystals, Diamond Gravel, Uranium Crystals, Plutonium Crystals\n§bVery Rare§f: Trixite Crystals, Starmetal Crystals\n\n§ePS:§f This is the best way to obtain starmetal, trixite, and other rare space materials. Build the cargo landing pad first, set the same frequency on the ID-chip, and make sure the landing zone is clear!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:sat_miner"
+      },
+      "name:8": "Asteroid Mining Ship",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40261,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:sat_miner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

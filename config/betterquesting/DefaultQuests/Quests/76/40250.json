@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40249
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Blowtorch \u0026 Welding Torch§f §aTwo tiers of welding tools. The basic one runs on natural gas, the upgrade needs liquid oxygen.§f Both are used for welding cast steel plates to blocks during multiblock assembly. §6Blowtorch§f:\n§b• Fuel§f: §e4,000 mB§f Natural Gas (250 mB per operation)\n§b• Recipe§f: Copper Plate ×3 + Iron Ingot §6Acetylene Welding Torch§f:\n§b• Fuel§f: §e8,000 mB§f Unsaturated Hydrocarbons + §e16,000 mB§f Liquid Oxygen\n§b• Consumption§f: 10 mB + 20 mB per operation\n§b• Recipe§f: Steel Plate ×3 + Bakelite Bar + Steel Tank §6Common Uses§f:\n§b• Welding cast steel plates§f to various blocks\n§b• Assembling §emultiblock structures§f that require welded joints §ePS:§f Start with the basic Blowtorch, Natural Gas is easy to produce. Upgrade to Acetylene when you have unsaturated hydrocarbons and liquid oxygen running, it lasts much longer between refuels.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:blowtorch"
+      },
+      "name:8": "Blowtorch \u0026 Welding",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40250,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:blowtorch"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

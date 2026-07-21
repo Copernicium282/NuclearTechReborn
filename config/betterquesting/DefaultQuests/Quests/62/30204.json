@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30158
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Matter Cannon§f is AE2\u0027s ranged weapon. It fires §6Matter Balls§f and §6Singularities§f as ammo, dealing §b6§f to §b20 damage§f respectively.\n\nCrafted from §b5 Iron Ingots§f, §6Formation Core§f, §64k ME Storage Component§f, and §6ME Energy Cell§f. It holds §b200,000 AE§f internally and costs §b1,600 AE§f per shot.\n\nSingularities are produced by the §6Matter Condenser§f and deal serious damage. A §6Diamond Singularity§f hits for §b20§f, while a §6Matter Ball§f only does §b6§f.\n\n§ePS:§f The Matter Cannon is powerful but expensive to run. Keep a §6Charger§f nearby or carry spare energy cells. It\u0027s best saved for tough fights rather than everyday mob clearing.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:matter_cannon"
+      },
+      "name:8": "Matter Cannon",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30204,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:matter_cannon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

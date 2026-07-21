@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30096
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Signalum-Plated Itemduct§f\n\n§aMid-tier itemduct that fuses Impulse speed with Signalum capacity for busy trunk lines!§f\n\n§bSignalum-Plated Itemducts§f are faster than Impulse and carry more per tick, ideal for main transport lines between processing areas. Craft them in a §bFluid Transposer§f with Signalum Ingot and Energized Glowstone.\n\nLike all itemducts, items take the shortest path. Pair with §bFilters§f and §bServos§f for high-throughput routed networks. The Signalum plating also makes them visually distinct, so you can tell your trunk lines from feeder branches at a glance.\n\n§eTip§f: Use §bSignalum-Plated§f on your main trunk lines and standard §bItemducts§f on short feeder branches. Cost vs throughput, only for the busiest segments.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "thermaldynamics:duct_32"
+      },
+      "name:8": "Signalum-Plated Itemduct",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30098,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 4,
+          "id:8": "thermaldynamics:duct_32"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

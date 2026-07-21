@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40123
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fullerene§f\\n\\n§aMagenta carbon powder processed through a laser  -  the precursor to crystalline fullerite!§f\\n\\nFullerene is a vibrant magenta allotrope of carbon made in the §bSILEX§f. You feed it §bFullerene Solution§f with a §bBiSmUTh Laser Crystal§f at 1.0x or higher focus. One crystal per operation.\\n\\n§6Fullerene Solution§f comes from the Industrial Mixer: §e500mB§f HPS + Fine Soot yields §e250mB§f solution.\\n\\n§6What it is for§f:\\n§b•§f Crystalline Fullerite (Ore Acidizer): §e4×§f Fullerene + §e1,000mB§f BTX yields §e1×§f Crystalline Fullerite. This is the main use.\\n§b•§f Works as a magenta dye in vanilla and modded recipes.\\n\\n§6Production chain§f: HPS to Fullerene Solution (Industrial Mixer) to Fullerene (SILEX) to Crystalline Fullerite (Ore Acidizer with BTX).\\n\\n§ePS:§f Both HPS and BTX are required. The Pyrolysis Oven and everything beyond it depends on this chain. Do not skip it!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "hbm:powder_ash"
+      },
+      "name:8": "Fullerene",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40106,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 5,
+          "id:8": "hbm:powder_ash"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

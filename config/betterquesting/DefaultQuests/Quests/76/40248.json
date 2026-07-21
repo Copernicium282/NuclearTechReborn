@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40247
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Combinator Funnel§f §aNo power, no problem. Combines 9 small powders into 1 full powder without touching a single watt.§f §bThe Combinator Funnel§f is a cheap, unpowered substitute for the Automatic Crafting Table. It only works for §e2×2§f or §e3×3§f recipes using the same item, like 9 small powders into 1 full-size powder. §6Usage§f:\n§b• Toggle button§f in UI selects 2×2, 3×3, or both patterns\n§b• Input slot§f on top\n§b• Output slot§f on bottom\n§b• No power§f required, completely passive §6Common Uses§f:\n§b• §ePowder Compacting§f, 9 small powders → 1 full powder\n§b• §eMaterial Condensing§f, nuggets → ingots, ingots → blocks §ePS:§f Pair it with hoppers for a fully passive processing line. Great for early automation before you\u0027ve got power infrastructure sorted.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_funnel"
+      },
+      "name:8": "Combinator Funnel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40248,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_funnel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

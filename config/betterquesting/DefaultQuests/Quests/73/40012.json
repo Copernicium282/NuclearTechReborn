@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40010,
+    40011
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Motors§f\n\n§aThe guts of every machine. You\u0027ll burn through stacks of these.§f\n\n§6Standard Motor§f: Crafted at a table, anvil, or arc welder. Uses red copper wire, iron plates, copper coils, and ring coils.\n\n§6Desh Motor§f: For advanced machines and power armor. Made at a table or Tier 3 anvil from polymer, dense gold wire, desh, and a standard motor.\n\n§6Bismuth Motor§f: The top tier. Uses bismuth, dense superconducting coils, cast steel plate, and HSS ingots.\n\nStandard motors get consumed by the dozen, so batch-craft a bunch whenever you can. The recipes vary by crafting method (table vs anvil vs arc welder), so check JEI for the one that works best for your setup.\n\n§ePS:§f Desh and bismuth motors show up later for power armor and endgame machines. Don\u0027t worry about them yet.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:motor"
+      },
+      "name:8": "Motor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40012,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:motor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

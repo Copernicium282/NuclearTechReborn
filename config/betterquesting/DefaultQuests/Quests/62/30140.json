@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Certus Quartz Ore spawns between Y 32 and 64 in the overworld, in veins of up to 10 blocks. Mine it to get Certus Quartz Crystals, with a small chance of Charged Certus Quartz Crystals dropping alongside them.\n\nSilk Touch yields the ore block itself, which you can process later for more control over output. Fortune enchantments increase the crystal drop rate significantly.\n\nThis is the starting point for everything AE2. You will need a LOT of Certus Quartz, so grab a good pickaxe and start caving. Every processor, cable, and storage cell traces back to this ore.\n\n§ePS:§f Look for the blue-white sparkle in stone. It stands out once you know what to look for, especially at night.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:quartz_ore"
+      },
+      "name:8": "Certus Quartz Ore",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30140,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

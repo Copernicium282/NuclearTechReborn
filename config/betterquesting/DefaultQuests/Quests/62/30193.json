@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Got more items than you know what to do with? The §6Matter Condenser §fturns excess into something useful.\n\nIt has three modes: §6Trash §f(delete items), §6Matter Balls §f(256 items into 1 Matter Ball), and §6Singularity §f(256,000 items into 1 Singularity). Singularities are the most compressed storage form in AE2.\n\nPlace a Storage Component in the bottom slot to increase internal storage capacity. The condenser needs power to operate and consumes AE/t while processing.\n\nCraft it from Iron, Quartz Glass, and Fluix Dust. Check JEI for the exact pattern.\n\n§cWARNING:§f Do not accidentally set it to Trash mode when you meant Singularity. Those items are gone.\n\n§ePS:§f Connect an Import Bus to feed the Condenser and an Export Bus to extract the output.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:condenser"
+      },
+      "name:8": "Matter Condenser",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30193,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:condenser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

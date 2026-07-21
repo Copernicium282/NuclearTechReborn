@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    30160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your ME network needs to talk to the outside world, and buses are the way it happens.\n\n§6Storage Bus §f: slaps an adjacent inventory onto the network. The network sees those items like they are on storage cells. Most common bus, most useful bus.\n\n§6Import Bus §f: pulls items from an adjacent inventory into the network. Pair with a Crafting Upgrade and it will request items automatically when the inventory runs low.\n\n§6Export Bus §f: pushes items from the network into an adjacent inventory. Supports Fuzzy Mode for ore-dict matching and Crafting Upgrade for on-demand crafting.\n\nAll three come in fluid variants too. Slap Speed Cards in any of them to move items faster.\n\n§ePS:§f The Export Bus has a Scheduling Mode setting. Round-robin distributes evenly across configured slots.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 220,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "Network Buses",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30181,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 220,
+          "id:8": "appliedenergistics2:part"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 240,
+          "id:8": "appliedenergistics2:part"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 260,
+          "id:8": "appliedenergistics2:part"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 221,
+          "id:8": "appliedenergistics2:part"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 241,
+          "id:8": "appliedenergistics2:part"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 261,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

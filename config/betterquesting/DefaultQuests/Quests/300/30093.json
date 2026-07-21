@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30092
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Signalum-Plated Fluiduct§f\n\n§aBigger pipes for your mid-to-late game refinery and cooling setups!§f\n\n§bSignalum-Plated Fluiducts§f push more fluid per tick than Hardened, same basic behavior. They share network pressure mechanics, full network means max throughput.\n\n§6Crafting§f:\n§b• Transparent§f: §e1× Signalum Ingot§f + §e1× Glass§f → §e6× Signalum-Plated Fluiduct§f.\n§b• Opaque§f: §e1× Signalum Ingot§f + §e1× Lead Ingot§f → §e6× Signalum-Plated Fluiduct (Opaque)§f.\n\nThese are your go-to for moving large volumes of oil, water, or coolant between machines. Opaque variants are cheaper if you don\u0027t need to see the fluid inside, and they look cleaner in tight builds.\n\n§eTip§f: Stick §bFilters§f on these to keep multiple fluid types separated in the same network, one fluid per filter side.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "thermaldynamics:duct_16"
+      },
+      "name:8": "Signalum-Plated Fluiduct",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30093,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 4,
+          "id:8": "thermaldynamics:duct_16"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

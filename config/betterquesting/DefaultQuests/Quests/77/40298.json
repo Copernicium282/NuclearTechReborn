@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40297
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Low-Density Element§f\n\n§aLightweight aerospace panels forged with stellar flux. Rockets eat these by the stack.§f\n\nLow-Density Elements are welded in the arc welder from PVC or hard plastic bars, fiberglass, and aluminium or titanium plates. They need §e5-10 kHE/t§f power and take 10 seconds each.\n\n§6Primary use§f: Each §bSoyuz-FG§f rocket needs §e32§f of them. Orbital modules need 1 each. Satellite bases use 8. Since you\u0027ll be launching multiple Soyuz rockets for Gerald and satellites, you\u0027ll burn through stacks fast.\n\nThe recipe is straightforward but the volume adds up. A single Gerald launch cycle (rocket + orbital module) costs 33 low-density elements. Factor in satellite launches and you\u0027re looking at 50+ per run.\n\n§ePS:§f Automate the arc welder with an assembler pipeline. Keep titanium and fiberglass stocked. These components gate your entire space program.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "hbm:part_generic"
+      },
+      "name:8": "Low-Density Element",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40298,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "hbm:part_generic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40005
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Burner Press Preheater§f\n\n§aTired of waiting for your press to warm up? Fix that.§f\n\nThe §bBurner Press Preheater§f sits directly beneath the burner press and heats it up before operation. The speed boost is massive, especially for small batches where the press would otherwise spend most of its cycle warming up before stamping anything.\n\nCraft it at a table from copper plates, lava, stone, and tungsten.\n\nPlace it directly beneath the burner press. It connects automatically and starts preheating immediately. No configuration needed.\n\n§ePS:§f Without the preheater, a few items means a lot of wasted warm-up time. With it, you\u0027re stamping almost immediately.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:press_preheater"
+      },
+      "name:8": "Burner Press Preheater",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40004,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:press_preheater"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

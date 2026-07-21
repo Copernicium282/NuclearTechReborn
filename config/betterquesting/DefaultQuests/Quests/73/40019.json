@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40017
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Steam Engine§f\n\n§aBest power-per-buck before turbines. And it looks cool doing it.§f\n\nCraft at a Tier 2 anvil: dense stone ×16, steel plates ×12, steel shells ×2, copper coils ×4, large gear.\n\nThe setup: §bFirebox§f -\u003e §bBoiler§f (water to steam) -\u003e §bSteam Engine§f -\u003e §bSteam Condenser§f (low-pressure steam back to water). Closed loop, no water loss.\n\n§e3,400 HE/t§f output (68 kHE/s). Handles §e2,000 mB/t§f steam throughput.\n\nThe boiler needs a heat source underneath and a Fluid ID set to input water. Always include the steam condenser or you\u0027ll run out of water fast.\n\n§ePS:§f See the Boiler quest for the multiblock details.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_steam_engine"
+      },
+      "name:8": "Steam Engine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40019,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_steam_engine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

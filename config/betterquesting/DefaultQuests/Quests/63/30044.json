@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    30043,
+    30048
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Inside the Reactor§f\n\n§aUnderstanding the component layout.§f\nA Solid Fission Reactor is made of several component types, each with a specific role:\n\n§bFuel Cells§f: Hold the fuel and produce heat + neutrons. Place them where they can reach moderators.\n§bHeat Sinks§f: Absorb heat. Each type has a cooling rate and placement rule (e.g., Water Sink needs exactly one adjacent chamber).\n§bModerators§f: Redirect neutrons to adjacent fuel cells. Graphite gives +10 flux, Beryllium +22, Heavy Water +36.\n§bReflectors§f: Bounce neutrons back into the reactor. Beryllium reflects 50% efficiency, Lead-Steel 25%.\n\nThe layout matters. A well-designed reactor can double or triple the output of a poorly planned one.\n\n§ePS:§f Use a reactor planner tool to test layouts before building. Trial and error gets expensive fast.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:solid_fission_controller"
+      },
+      "name:8": "Inside the Reactor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30044,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {},
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

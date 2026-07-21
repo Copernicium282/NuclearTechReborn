@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30125
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cookies, Pies \u0026 Pastries§f\n\n§aSweet treats from the Bakeware and Saucepan.§f\n\n§6Cookies§f (Bakeware): Peanut Butter Cookies (5), Raisin Cookies (6), Cream Cookie (6), Sugar Cookie (7), Butter Cookie (6), Creeper Cookie (5), Lavender Shortbread (4), Meringue Cookie (6), Tim Tam (4), Snickers Bar (3), Crackers (4), Cracker (4).\n\n§6Pies§f (Bakeware): Sweet Potato Pie (9), Pecan Pie (7), Lemon Meringue (6), Keylime Pie (6), Peach Cobbler (5), Gooseberry Pie (5), Strawberry Rhubarb Pie (6), Cobblestone Cobbler (6), Spider Eye Pie (6), Slime Pie (7), Butter Tart (10), River Mud Cake (11), Battenberg (11), Fruitcake (11).\n\n§6Candy§f (Saucepan): Caramel Apple (3), Taffy (2), Jellybeans (3), Cotton Candy (5), Chocolate Caramel Fudge (2), Salted Caramel (2).\n\n§6Crafting Tools§f:\n§b• Bakeware§f: All cookies, pies, cakes, and pastries.\n§b• Saucepan§f: Candies, caramels, and sugar-based treats.\n§b• Mixing Bowl§f: Doughs and batters used in baking.\n\n§eTip§f: Set up a §bSugar Cane Farm§f and §bWheat Farm§f to keep your baking line supplied. Bakeware is the most versatile utensil, so craft multiple for parallel production.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:sweetpotatopieitem"
+      },
+      "name:8": "Cookies, Pies \u0026 Pastries",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30136,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:sweetpotatopieitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:peanutbuttercookiesitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

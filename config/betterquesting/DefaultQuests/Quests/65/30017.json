@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    30010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Misc Tools \u0026 Items§f\n\n§aA few handy things for moving fluid around by hand.§f\n\n§6Configurator§f is your filter tool. Right-click any filterable block to open the filter GUI. Click a fluid to set it, X to remove. Works on Outputs, Inputs, Pumps, Drains, and even EnderIO Fluid Conduits.\n\n§6Hand Pump§f sucks fluid from the world or tanks into Canisters in your inventory. Also works with other portable fluid containers like Thermal Expansion portable tanks.\n\n§6Canister§f holds up to §e64 buckets§f of fluid. Right-click a tank or machine to fill or drain it. Works with the Hand Pump too.\n\n§6Infinite Water Source§f is exactly what it sounds like. Pipe water out with a Pump, a powered High Pressure Input, or pipes from other mods.\n\n§6Creative Fluid Source§f provides unlimited fluid for testing. Creative mode only.\n\n§ePS:§f The Canister shows a fill gauge on its model so you can see how full it is at a glance.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pressure:configurator"
+      },
+      "name:8": "Misc Tools \u0026 Items",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30017,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pressure:configurator"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "pressure:hand_pump"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "pressure:canister"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

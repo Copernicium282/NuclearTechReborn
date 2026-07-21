@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Ferric Schrabidate§f\n\n§aIron meets schrabidium in liquid form. The only way to make dineutronium.§f\n\n§bFerric Schrabidate§f is an iron-schrabidium alloy made by dissolving iron powder into schrabidic acid. It is radioactive and causes blindness like schrabidium. You need this for the §bExposure Chamber§f to produce §bDineutronium§f.\n\n§6Make It§f:\n§b•§f Chemical Plant: §e250 mB§f Schrabidic Acid + 1 Iron Powder -\u003e Ferric Schrabidate Powder\n§b•§f Smelt the powder into an ingot\n\n§6What It Is For§f:\n§b•§f §bDineutronium§f, 8 ingots + Sparkticle Capsule in the Exposure Chamber\n§b•§f §bCMB-Schrabidate Laser Crystal§f, enables UV range for the FEL\n§b•§f Ferric Schrabidate Anvil, tier 6\n§b•§f Dense wire for high-end components\n\n§ePS:§f You will burn through stacks of this. Get your schrabidium-to-acid-to-ferric pipeline running before you touch the Particle Accelerator.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_schrabidate"
+      },
+      "name:8": "Ferric Schrabidate",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40228,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_schrabidate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

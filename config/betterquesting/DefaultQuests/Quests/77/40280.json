@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40278
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Dineutronium§f\n\n§aThe mod\u0027s ultimate material. Higher tier than even euphemium.§f\n\n§bDineutronium§f (§bDNT§f) is the final tier material in NTM. It makes the most overpowered armor, tools, and reactor components in the game. It cannot be stamped into plates, so compound plates must be made in an anvil.\n\n§6Production§f:\nRequires a §bParticle Accelerator§f at §e12,500+§f momentum and an §bExposure Chamber§f.\nRecipe: §e8×§b Ferric Schrabidate Ingots§f + §e1×§b Sparkticle Capsule§f → §bDineutronium Ingot§f\n\nThe Sparkticle Capsule itself needs Pulverized Enchantment + Strange Quark Capsule at §e12,500 momentum§f. The Strange Quark needs Dark Matter + Muon at §e12,500 momentum§f. Each step feeds the next.\n\n§6Key Uses§f:\n§b• DNT Nano Suit§f, the ultimate power armor, needs §e24§b DNT compound plates§f\n§b• Electronium§f, combine with ionized particles via Book of Boxcars\n§b• Dineutronium Compound Plate§f, made in an anvil, used in countless recipes\n\n§cWARNING:§f Each ingot costs rare materials and massive power. A mistake in the PA layout wastes sparkticle capsules you can\u0027t afford to lose.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_dineutronium"
+      },
+      "name:8": "Dineutronium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40280,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_dineutronium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40226
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Ionized Particles§f\n\n§aA fusion byproduct that can be duplicated, key to schrabidic acid and end-game materials!§f\n\n§bIonized Particles§f are a special item only obtainable in fusion reactors. Required for balefire and the most end-game materials. They can also be liquefied into helium-4 for fuel.\n\n§6Production§f:\n§b• Fusion Reactor§f, all plasmas except He-4-Oxygen and Balefire-Antimatter produce them. He-3-Deuterium is fastest (50% faster production)\n§b• Chlorinated Petroleum Wax + Ionic Gel§f, infinite duplication loop (see below)\n\n§6Duplication Mechanic§f (§e50% efficiency per cycle§f):\n§bStep 1§f, §bIndustrial Mixer§f: 1 Ionized Particle + 200 mB Liquid Hydrogen + 1,000 mB Water → 1,000 mB §eIonic Gel§f\n§bStep 2§f, §bOre Acidizer§f: 500 mB Ionic Gel + Chlorinated Petroleum Wax → §e1 Ionized Particle§f\n§b• Note§f: Mixer produces 1,000 mB gel, acidizer consumes 500 mB per particle, effectively doubling yield\n§b• Requires§f: steady Chlorinated Petroleum Wax supply and at least 1 initial Ionized Particle to bootstrap\n\n§6Key Uses§f:\n§b• Flashgold RBMK Fuel§f\n§b• Helium-4§f, liquefy for fuel\n§b• Electronium§f\n§b• Schrabidic Acid§f, key ingredient\n\n§eTip§f: The duplication loop is essential for bulk ionized particle production. Set up the Mixer + Acidizer with a conveyor splitter to send new particles where needed. Only need 1 initial particle from fusion to bootstrap infinite production!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:pellet_charged"
+      },
+      "name:8": "Ionized Particles",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40264,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pellet_charged"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40310
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Folkvangr Field§f\n\n§aThe DFC\u0027s meltdown event. Annihilates everything in a massive spherical area.§f\n\nA Folkvangr field occurs when the DFC\u0027s restriction field hits 0% or heat saturation reaches 100%. The core destabilizes and generates a Sessrumnir sphere that expands rapidly, ignoring blast resistance entirely.\n\n§6Effects§f: Creates a perfectly spherical crater. No radiation is left behind because it\u0027s consumed by the reaction. The converted energy anomalously vanishes, and the resulting vacuum sucks in air and loose objects.\n\n§6Causes§f: Stabilizers offline or overwhelmed, too many chained emitters, or component failure during operation.\n\n§6Prevention§f:\n§b• Multiple stabilizers§f running with redundancy\n§b• Monitor restriction field§f and heat constantly\n§b• Install a High Energy Field Jammer§f within 300 blocks\n§b• Never exceed heat saturation limits§f\n\n§cWARNING:§f The field destroys blocks in a huge radius with no blast resistance check. It can erase months of building in seconds. Prevention is the only reliable defense.\n\n§ePS:§f A Folkvangr field is the end of your DFC. The core is destroyed regardless of whether a jammer is present.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:dfc_core"
+      },
+      "name:8": "Fölkvangr Field",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40312,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:dfc_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

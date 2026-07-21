@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    20001
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Pumps§f\n\n§aGravity is optional. Make smoke go wherever you want.§f\nPumps force smoke to travel downward, counteracting its natural tendency to rise. Place them in your vent line to redirect exhaust through underground passages or lower-level systems.\n\nThey need a §e50 RF/t§f signal to run (internal buffer §e10,000 RF§f), but Forge Energy can be disabled in the config if you prefer passive ventilation. Redstone control is built in: activate with a signal, or invert it to run only when unpowered.\n\nCraft them by surrounding a §bRepeater§f with vent blocks and a coal block in the center.\n\n§9Note:§f Pumps work with connected vent pipes. The system searches for vents and pollutant blocks nearby to route smoke through.\n\n§ePS:§f Essential for getting smoke from basement furnaces up through the roof.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "adchimneys:brick"
+      },
+      "name:8": "Pumps",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 20003,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "adchimneys:brick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

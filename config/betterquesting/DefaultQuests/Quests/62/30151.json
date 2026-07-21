@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Quartz Fiber is a clever little cable segment. It passes AE power between two network segments but does NOT pass data or channels.\n\nThis means you can share a power source across multiple independent networks without merging them. Each side of the Fiber belongs to a separate network, connected only for power sharing.\n\nUse cases:\n§b-§f Powering a sub-network from your main backbone without channel bleed\n§b-§f Running power to a isolated network for security or organization\n§b-§f Splitting a large network into manageable channel segments\n\nCraft with Quartz Glass, Fluix Dust, and Gold Cable.\n\n§9Note:§f The Fiber itself does not consume channels. It is purely a power bridge.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 140,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "Quartz Fiber",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30151,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 140,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Advanced Plating§f\n\n§aThe mid-tier plate that gates your progression.§f\n§bAdvanced Plating§f is crafted in the §bAssembler§f from §bBasic Plates§f and other materials. It shows up in recipes for §bDU Plating§f, §bElite Plating§f, and many machine frames. Think of it as the stepping stone between basic and advanced NuclearCraft.\n\nYou\u0027ll need a steady supply of these once you start building reactors and advanced processors. The Assembler is the bottleneck for plate production, so build extras or invest in Speed Upgrades to keep throughput high.\n\n§ePS:§f Advanced Plating also shows up in Modular Machinery multiblock recipes. Stock up before you start building big structures.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "nuclearcraft:part"
+      },
+      "name:8": "Advanced Plating",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30025,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "nuclearcraft:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

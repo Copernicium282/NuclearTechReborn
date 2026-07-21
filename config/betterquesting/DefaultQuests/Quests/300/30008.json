@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30003
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Storage Blocks, Glass \u0026 Rockwool§f\n\n§aPack it tight, build it pretty!§f\n\nAll §e9§f base metals and §e8§f alloys have storage blocks, §e9§f ingots each. They work as beacon bases and mobs can\u0027t spawn on them. Charcoal and Coal Coke get blocks too.\n\n§bHardened Glass§f is blast-resistant and made in the §bInduction Smelter§f: Pulverized Lead + Pulverized Obsidian. Tint it with metal dust for colored variants. It is also used in several duct recipes, so keep a stack on hand.\n\n§bRockwool§f is fireproof and comes in §e16§f colors, smelt Slag in a furnace for Light Gray, then dye it however you like. Perfect for hiding your ductwork.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalfoundation:storage"
+      },
+      "name:8": "Storage Blocks, Glass \u0026 Rockwool",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30008,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalfoundation:storage"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

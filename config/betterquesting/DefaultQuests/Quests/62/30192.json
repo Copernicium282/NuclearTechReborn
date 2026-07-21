@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    30191
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Autocrafting needs a brain, and the §6Crafting CPU §fit is. Build a multiblock from Crafting Units, Co-Processors, and Crafting Storage blocks in a 3x3x3 cube.\n\nEach Crafting Unit core manages one crafting job. Co-Processors add parallel job slots. Crafting Storage provides buffer space for ingredients during complex recipes.\n\nStart with a single Crafting Unit for testing. Expand to a full 3x3x3 once you need more storage or parallel processing. Place a Crafting Monitor on the structure to see job progress.\n\nCraft the Crafting Unit core from Iron, a Calculation Processor, Fluix Cables, and a Logic Processor.\n\n§ePS:§f Multiple CPUs can run independent jobs simultaneously. Just make sure your Molecular Assemblers have enough channels.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:crafting_unit"
+      },
+      "name:8": "Crafting CPU",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30192,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:crafting_unit"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:crafting_accelerator"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:crafting_monitor"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:crafting_storage_1k"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

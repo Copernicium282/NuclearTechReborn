@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40013
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Shredder§f\n\n§aDouble your ore output. Or turn everything into scrap. Your call.§f\n\nThe §bShredder§f crushes ores into powder. Ore in, 2 powder out, smelt for 2 ingots. Equip two §bShredder Blades§f and give it power.\n\nCraft it at the assembly machine: steel plates ×8, copper plates ×4, motors ×2.\n\n§6Blade Durability§f:\n§b• Steel§f: 200\n§b• Titanium§f: 350\n§b• Advanced Alloy§f: 700\n§b• Desh§f: Unbreakable\n\nSpread input across all 9 slots to reduce blade and power cost per item. Items without a powder form come out as §bscrap§f.\n\n§cWARNING:§f Never re-shred scrap. The dust is inferior to just smelting the scrap directly.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_shredder"
+      },
+      "name:8": "Shredder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40016,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_shredder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

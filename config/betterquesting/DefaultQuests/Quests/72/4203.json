@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4201
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fluid Logistics: Pipes, Tanks \u0026 Pumps§f\\n\\n§aPipe water, steam, and fuels through high-volume storage and pumping networks!§f\\nManaging liquids is vital for steam boilers, cooling loops, and fuel combustion systems.\\n\\n§6Fluid Pipes \u0026 Storage§f:\\n§b• Fluid Pipe§f: Transfers up to §e500 mB per tick§f per connection.\\n§b• Fluid Tank§f: A massive stationary storage structure holding up to §e1,000,000 mB (1,000 buckets)§f of liquid.\\n§b• Barrel§f: A medium storage container holding up to §e64,000 mB (64 buckets)§f.\\n§b• Fluid Cart§f: A railway cargo cart designed to transport up to §e64,000 mB§f of liquid across tracks.\\n\\n§6Fluid Pumps§f:\\nThe Fluid Pump extracts liquids from the world automatically:\\n§b• Power Draw§f: Consumes §e10 FE/tick§f while active.\\n§b• Pump Radius§f: Operates in a radius of §e8 blocks/chunks§f.\\n§b• Infinite Water Source§f: The pump is configured to §anever consume water blocks§f (`pumpInfinityWater\u003dtrue`), giving you an infinite supply of water for your steam boilers.\\n§b• Lava Harvesting Safeguard§f: Pumping lava replaces the source blocks with §bCobblestone§f (`replaceLavaWithCobble\u003dtrue`). This prevents cascading flowing lava animations, saving server performance and preventing lag.\\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialrenewal:fluid_tank"
+      },
+      "name:8": "Fluid Logistics",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4203,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialrenewal:fluid_tank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

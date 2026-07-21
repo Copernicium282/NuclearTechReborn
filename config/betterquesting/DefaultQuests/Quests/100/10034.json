@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10022
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Space Station Assembler§f compiles a player-built station structure into a packed Space Station Container item plus a Space Station ID Chip. The container launches into orbit via a rocket\u0027s Satellite Bay.\n\nCraft it: User Interface, Dilithium Dust, Gear Titanium, a Rocket Assembling Machine, and Advanced Circuits in the pattern \u0027u d g / d s d / a d a\u0027. Build the station frame with a Station Docking Port and Station Gravity Controller attached, then right-click the assembler to compile.\n\nThe assembler inherits validation logic from the Rocket Assembling Machine, same 3x3 to 16x16 bounds.\n\n§ePS:§f The Rocket Assembling Machine is a hard requirement in the recipe. Keep at least one Advanced Circuit in your inventory when building.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:stationbuilder"
+      },
+      "name:8": "Space Station Assembler",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10034,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:stationbuilder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

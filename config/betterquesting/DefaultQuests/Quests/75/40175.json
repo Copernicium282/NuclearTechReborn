@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40172
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Uranium Hexafluoride§f\n\n§aTurn yellowcake into gas, then centrifuge it into something useful. The enrichment pipeline.§f\n\nUF6 is a corrosive radioactive gas and the final step before uranium enrichment. Must be processed in a §bGas Centrifuge§f to separate U-235 from U-238.\n\nProduction (Chemical Plant, 5s, 500HE/t): §e1,000mB§f Water + Yellowcake + §e4§f Fluorite \u003d §e1,200mB§f UF6 + §e2§f Sulfur.\n\nStorage requires a specialized tank or Fluid Barrels. Processing via Gas Centrifuge separates the majority U-238 from the small amount of U-235. The SILEX can also process it.\n\nOther use: Pulsating Crystal (crafted using UF6 in cells).\n\n§cWARNING:§f UF6 is both corrosive and radioactive. Full PPE required.\n\n§ePS:§f One batch of §e1,200mB§f UF6 feeds a full centrifuge cascade. Scale up Yellowcake production before starting enrichment.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 29,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Uranium Hexafluoride",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40175,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 29,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

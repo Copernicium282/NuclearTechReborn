@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30003
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Tools \u0026 Armor§f\n\n§aEvery metal, every tool, mine in style!§f\n\nAll §e12§f Thermal metals provide pickaxe, shovel, axe, hoe, and sword. The real stars are the §b3x3 area tools§f: §bHammer§f (mining), §bExcavator§f (digging), and §bSickle§f (crops and leaves), available in every TF metal plus Iron, Gold, and Diamond.\n\n§cArmor, Bows, Fishing Rods, Shears, and Shields are disabled§f in this pack, so don\u0027t go looking for them. The Hammer is your best friend for strip mining, it clears a 3x3 tunnel in one swing.\n\n§ePS:§f Old tools can be recycled in the §bInduction Smelter§f with Sand to recover ingots (§e10%§f Slag byproduct).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalfoundation:tool.hammer_steel"
+      },
+      "name:8": "Tools \u0026 Armor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30007,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalfoundation:tool.hammer_steel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30170
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "How many iron ingots do you have right now? If you need to know without opening a terminal, the §6ME Storage Monitor §f displays the count on its face.\n\nSet an item in the config slot and the panel shows the current stored count, refreshing every tick. It also emits redstone like a Level Emitter, so you can hook it up to other systems.\n\nCraft it from a Level Emitter, an Illuminated Panel, and a Dark Illuminated Panel. Place it on a cable or directly on an ME Drive for at-a-glance inventory checks.\n\n§ePS:§f Pair with a Conversion Monitor to watch crafting jobs in real time.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 400,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Storage Monitor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30186,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 400,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

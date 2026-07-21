@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    10040
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A satellite is only as useful as the instruments you put on it. The §6Satellite Sensors \u0026 Instruments§f questline covers the modules that go beyond the basic primary function.\n\nOre scanners, biome changers, mass detectors, composition sensors. Each one is a separate craftable item that gets loaded into the satellite at the Builder. You can fit up to four sensors plus one primary function per satellite, so mix and match based on your mission goals.\n\nCombining an Ore Scanner with a Biome Changer on the same satellite gives you both ore discovery and terrain modification from a single orbital asset. The Composition Sensor is required for asteroid mining since there\u0027s no surface biome to map out there.\n\n§ePS:§f Every sensor adds a data tick to what the satellite collects. More sensors means richer data, but also more power draw in orbit.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:satelliteprimaryfunction"
+      },
+      "name:8": "Satellite Sensors \u0026 Instruments",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10043,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:satelliteprimaryfunction"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "advancedrocketry:satelliteprimaryfunction"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "advancedrocketry:satelliteprimaryfunction"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "advancedrocketry:satelliteprimaryfunction"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "advancedrocketry:satelliteprimaryfunction"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "advancedrocketry:satelliteprimaryfunction"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

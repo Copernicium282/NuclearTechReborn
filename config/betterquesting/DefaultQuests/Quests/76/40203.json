@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40195
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Research Reactor§f\n\n§aNot a power reactor. This one burns fuel efficiently and generates neutron flux for breeding.§f\n\nThe §bResearch Reactor§f is a non-power reactor. Its job is to burn fuel at high efficiency and produce neutron flux for breeding reactors. It must be §bsubmerged in water§f since it has no active cooling.\n\n§6Crafting§f (Assembly Machine, 10s, 100 HE/t):\n§b•§f 8× Steel Ingot, 4× Cadmium Steel Ingot, 2× Desh Motor, 5× Boron Ingot\n§b•§f 8× Lead Plate, 3× Cathode Ray Tube, 4× Integrated Circuit Board\n\n§6Operation§f:\n§b•§f Needs a §bneutron source§f (Ra226Be or Pu238Be plate) to start, removable after\n§b•§f §e12 fuel plate slots§f, split into vertical and horizontal sections (isolated)\n§b•§f Explodes at §e1,000°C§f, be careful with strong fuels\n§b•§f Emits §bCherenkov radiation§f and oxyhydrogen bubbles when running\n\n§6GUI Displays§f:\n§b•§f §bTop Left§f, Flux output (higher \u003d better for breeding)\n§b•§f §bMiddle Left§f, Heat (keep it low)\n§b•§f §bBottom Left§f, Control rod extraction % (100 \u003d full power, 0 \u003d off)\n\n§bBreeding§f: Breeder reactors use the total flux value. Each recipe has a minimum flux requirement. Multiple reactors can feed one breeder.\n\n§ePS:§f Shut it down when not breeding. These fuels are expensive and the reactor eats them whether you\u0027re using the flux or not.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_reactor_small_new"
+      },
+      "name:8": "Research Reactor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40203,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_reactor_small_new"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

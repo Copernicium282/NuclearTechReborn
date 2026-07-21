@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40223,
+    40224,
+    40241
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fusion Reactor§f\n\n§aFusing light elements into heavy ones. The power output is obscene and it cannot melt down.§f\n\nThe §bFusion Reactor§f is a 15x15x5 torus multiblock cooled with §bPerfluoromethyl§f. Unlike every fission reactor, it is impossible to meltdown. The tradeoff: it costs an absurd amount of materials and needs serious power just to ignite.\n\n§6Core Components§f:\n§b•§f §bTorus§f, holds 4,000 mB fuel + 10 MHE electricity, has 4 ports for attachments\n§b•§f §bKlystron§f, converts HE to KyU at 1:1, needs 50%+ charge or it throttles. If output drops below torus demand, plasma dies\n§b•§f §bCollector Chamber§f, +50% byproduct rate, no power cost\n§b•§f §bBreeding Chamber§f, runs all RBMK irradiation recipes using neutron flux\n§b•§f §bBoiler§f, converts plasma TU to super dense steam at 200 TU/mB\n§b•§f §bMHD Turbine§f, plasma to electricity directly with +35% efficiency. Needs 5 MTU/t minimum or efficiency halves\n§b•§f §bCoupler§f, links two tori, feeds output plasma back as klystron input for high-tier plasmas\n\n§6Build Cost§f: 484 BSCCO Coils, 484 Cast Steel Plates, 280 Piping Blocks, 160 Blankets, 1 Core Component, a blowtorch. Per torus.\n\n§ePS:§f Start with a single torus and a klystron. Add couplers and MHD turbines once you can afford the BSCCO wire.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:fusion_torus"
+      },
+      "name:8": "Fusion Reactor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40225,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:fusion_torus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

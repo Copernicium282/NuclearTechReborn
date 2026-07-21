@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4100
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Storage Scanner§f\\n\\n§aOne console to search every chest, crate, and storage block in your base.§f\\n\\nThe §bStorage Scanner§f indexes up to §e20 inventories§f in a radius, vanilla chests, iron chests, Modular Storage blocks, Drawer Controllers, you name it.\\n\\nOpen the GUI to search across everything at once. Double-click to request items into your inventory. By default, requested items route §ainto your player inventory§f, not an output slot.\\n\\n§6Energy Costs§f:\\n§b• Insert§f: §e20 RF§f per item\\n§b• Request§f: §e100 RF§f per item\\n§b• Buffer§f: §e50,000 RF§f stored, §e500 RF/t§f input\\n\\n§9Note:§f You can pipe items in and out of the Scanner with XNet or Thermal Dynamics conduits to automate the entire scanned network.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:redstone_transmitter_block"
+      },
+      "name:8": "Storage Scanner",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4101,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:redstone_transmitter_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    30149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Storage components are the guts of every item storage cell. You need one component per cell, and they come in four tiers: 1k, 4k, 16k, and 64k.\n\nEach tier is 4x the capacity of the previous one. A 1k component holds 1024 bytes, a 4k holds 4096, and so on up to 65536 bytes for 64k. The byte cost per item type also scales: 1k uses 8 bytes per type, 4k uses 32, 16k uses 128, and 64k uses 512.\n\nCraft them tier by tier. The 4k recipe needs a 1k, the 16k needs a 4k, and the 64k needs a 16k. Higher tiers also require Pure Certus Quartz Crystals and Printed Calculation Circuits.\n\n§ePS:§f Craft 1k components first and upgrade them. Do not try to skip tiers.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 35,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Storage Components",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30163,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 35,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 36,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 37,
+          "id:8": "appliedenergistics2:material"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 38,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

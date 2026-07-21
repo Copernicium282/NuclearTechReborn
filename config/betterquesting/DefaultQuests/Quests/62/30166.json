@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    30165
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Fluid storage cells are the fluid version of item storage cells. Same four tiers, same component-plus-housing recipe.\n\nOne key difference: fluid cells only store 5 fluid types per cell, compared to 63 item types on item cells. So you will need more fluid cells to cover a wide variety of fluids.\n\nFluid cells go into ME Drives and ME Chests just like item cells. The network keeps track of both item and fluid storage on separate channels, so they never conflict.\n\n§ePS:§f You will want fluid cells for anything involving coolant, fuel, or chemical processing. They are not optional for mid-game automation.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:fluid_storage_cell_1k"
+      },
+      "name:8": "Fluid Storage Cells",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30166,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:fluid_storage_cell_1k"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:fluid_storage_cell_4k"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:fluid_storage_cell_16k"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:fluid_storage_cell_64k"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Solar Tower Boiler§f\n\n§aFree steam from the sun. No fuel, no maintenance, just mirrors and water.§f\n\nPlace the §bSolar Tower Boiler§f and right-click it with a §bMirror Adjustment Tool§f to save its position. Then scatter §bHeliostat Mirrors§f within 100 blocks and aim each one at the boiler with the same tool.\n\nFeed water in via pipe and extract steam to run engines. At least 13 mirrors give you baseline production. More mirrors \u003d more steam, up to about 10,000 mB/t theoretical.\n\nThe catch: daytime only. Zero output at night, reduced in the evening. And it only makes regular steam, not pressurized.\n\nSolid blocks above the mirrors block them (transparent ones are fine). Place the boiler high up for maximum mirror coverage.\n\n§ePS:§f You\u0027ll need a Steam Engine or Turbine plus a Steam Condenser for a closed-loop system.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_solar_boiler"
+      },
+      "name:8": "Solar Tower Boiler",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40022,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_solar_boiler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    431,
+    441
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Vacuum Chambers§f\n\n§aThe hull for antimatter containment and fusion. Requires a Nether Star to unlock.§f\n\nVacuum Chambers are the largest QMD multiblock class, used for Exotic Containment, Nucleosynthesis, and other endgame machines. Interior ranges from 5x5x5 to 7x7x7 blocks.\n\nBuild from Vacuum Chamber Casing and Glass, then add beam ports, energy ports, fluid ports, and internal coils. The coils are critical, they contain plasma and exotic particles inside.\n\nCasing is crafted from Osmiridium, Tough Alloy, Stainless Steel, and Steel Frames. Coils use BSCCO Wire and Osmiridium. This is expensive.\n\n§cWARNING:§f The interior must be hollow. Only chamber components (target, beam blocks, ports, coils) are allowed inside. The multiblock validation will reject anything else.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "Vacuum Chambers"
+    }
+  },
+  "questID:3": 444,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:nether_star"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

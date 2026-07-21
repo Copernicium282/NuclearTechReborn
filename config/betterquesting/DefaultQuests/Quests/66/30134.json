@@ -1,0 +1,57 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    30129,
+    30139,
+    30130,
+    30136,
+    30133,
+    30131,
+    30132,
+    30126,
+    30138,
+    30128,
+    30135
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Large Meals \u0026 Feasts§f\n\n§aTop-tier foods that restore massive hunger and grant buffs.§f\n\nThe largest HarvestCraft meals restore §e15-26 hunger§f. §bTop Tier Foods§f (§e≥10 hunger§f with default config) are always edible and grant §eStrength + Resistance§f for 3 minutes. §bGlistening Salad§f additionally gives Regeneration.\n\n§6Large Meals§f: Delighted Meal (15), Onion Soup (11), Supreme Pizza (14), Spaghetti Dinner (13), Gumbo (13), Jambalaya (13), Chicken Gumbo (9), Chicken Dinner (9), Chicken and Waffles (14), BBQ Platter (14), Toasted Western (12), Monte Cristo (11), Homestyle Lunch (11), Corned Beef Breakfast (26!), Weekend Picnic (19), Thankful Dinner (24), Korean Dinner (24), Meat Feast Pizza (24), Salisbury Steak (17), Chimichanga (17), Corned Beef Hash (18), Southern Style Breakfast (20).\n\n§6Crafting Tools§f:\n§b• Skillet§f: Most large meals (Delighted Meal, Monte Cristo, Chicken and Waffles).\n§b• Cutting Board§f: Sandwiches, platters, and assembled meals.\n§b• Bakeware§f: Pies, pot pies, and baked dishes.\n§b• Pot§f: Soups, stews, and Gumbo.\n\n§eTip:§f Corned Beef Breakfast at 26 hunger is the single highest-restoration food in HarvestCraft. Stock up on ingredients, as most large meals require 5+ components from different cooking tools.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:delightedmealitem"
+      },
+      "name:8": "Large Meals \u0026 Feasts",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30134,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:delightedmealitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:supremepizzaitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

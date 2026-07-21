@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Particle Accelerator§f\n\n§aSmash particles at relativistic speeds. Build exotic matter. Try not to crash the beam.§f\n\nThe §bParticle Accelerator§f is a modular end-game machine that collides particles to create antimatter, antischrabidium, dark matter, and other exotic byproducts. It comes in §blinear§f (straight) and §bsynchrotron§f (square ring) designs.\n\n§6Components§f:\n§b•§f §bParticle Source§f, creates the beam from two input items\n§b•§f §bRF Cavity§f, +100 acceleration, +100 defocus. Crash at 1000 defocus\n§b•§f §bQuadrupole Magnets§f, -100 defocus. Needs coils to function\n§b•§f §bDipole Magnets§f, redirects around corners. Synchrotron only\n§b•§f §bParticle Detector§f, accepts particles at §e0 defocus§f and executes recipes\n\n§6Coils§f (determine operational range):\n§b•§f §bGold§f: 0-2,200, min dipole side 15\n§b•§f §bNbTi§f: 1,500-8,400, min 21\n§b•§f §bBSCCO§f: 7,500-15,000, min 27\n§b•§f §bChlorophyte§f: 14,500-75,000, min 51\n\nBelow-min coils: §e10x§f power penalty. Stack two penalties: §e100x§f, particle crashes. All components need §bcold perfluoromethyl§f cooling.\n\n§cWARNING:§f Calculate power needs before building. You need multiple MHE. Fission or fusion must sustain it. Design in creative first.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:pa_beamline"
+      },
+      "name:8": "Particle Accelerator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40231,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pa_beamline"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

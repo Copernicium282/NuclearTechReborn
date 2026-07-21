@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40232
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Exposure Chamber§f\n\n§aThe machine that turns boring ingots into schrabidium, euphemium, and dineutronium.§f\n\nThe §bExposure Chamber§f takes particle capsules from the Particle Accelerator and transmutes ingots into exotic materials. One capsule gives §e8 operations§f. It draws §e10 kHE/t§f with a §e1 MHE§f buffer.\n\n§6Recipes§f:\n§b•§f §bHiggs Boson§f + 8 Uranium Ingot -\u003e §e8 Schraranium Ingot§f\n§b•§f §bHiggs Boson§f + 8 U-238 Ingot -\u003e §e8 Schrabidium Ingot§f (100% efficient)\n§b•§f §bDark Matter§f + 8 Plutonium Ingot -\u003e §e8 Euphemium Ingot§f\n§b•§f §bSparkticle§f + 8 Ferric Schrabidate Ingot -\u003e §e8 Dineutronium Ingot§f\n\n§6Build Cost§f (Assembly Machine): 12 Cast Aluminium Plates, 4 Technetium Steel Ingots, 12 Hard Plastic Bars, 32 Dense Advanced Alloy Wire, 2 Desh Motors, 4 Versatile Circuit Boards, 1 Tantalium Capacitor Block, 16 Quartz Glass.\n\n§ePS:§f This is the only way to make dineutronium. Stockpile capsules before production runs. Each one feeds 8 crafts, so plan your accelerator output accordingly.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_exposure_chamber"
+      },
+      "name:8": "Exposure Chamber",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40233,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_exposure_chamber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

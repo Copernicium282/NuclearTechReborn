@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Plutonium§f\n\n§aArtificial, powerful, and more dangerous than uranium. The next step up.§f\n\nPlutonium is a radioactive artificial element, generally more powerful than uranium in both weapons and fuel, and more hazardous to work with.\n\nProduction: breeding natural uranium in a nuclear reactor, fuel reprocessing, or Nether ore (if enabled in config). Desert Atom structures also contain a block.\n\nFour isotopes: §bPu-238§f (RTG pellets, self-charging batteries at 10 HE/t), §bPu-239§f (extremely useful in fuel and weapons), §bPu-240§f (mostly nuisance, moderate fuel role), §bPu-241§f (extremely powerful fuel/breeding material, very hard to obtain).\n\nMust be converted to §bPlutonium Hexafluoride§f for enrichment via Gas Centrifuge or SILEX. Unenriched plutonium is used in Euphemium production via dark matter.\n\nContributes §e1.15§f to the custom nuke. Breeds into nuclear waste.\n\n§ePS:§f Set up a breeding reactor using uranium to start plutonium production.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_plutonium"
+      },
+      "name:8": "Plutonium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40176,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_plutonium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

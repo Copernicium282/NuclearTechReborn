@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Power Core (Low)§f\\n\\n§aThe entry-level ingredient for modular RF storage, and your first step into the Powercell grid.§f\\n\\nThe §bPower Core (Low)§f doesn\u0027t store energy itself. It\u0027s the crafting nucleus needed to build §bPowercell (Low)§f blocks. Each Powercell you build requires 4 of these in the cardinal slots.\\n\\n§6Crafting§f: §b1 Diamond§f (center) + §b1 Redstone Block§f (top) + §b4 Redstone§f (cardinals)\\n\\nCraft at least §e8 cores§f to build a 2×2×2 Powercell network from day one. That gives you the per-block transfer multiplier, and the network scales up from there. Power Cores are also used in higher-tier recipes, so making extras now saves recrafting later.\\n\\n§9Note:§f Power Cores are the bottleneck for scaling up. Stockpile diamonds early.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftoolspower:power_core1"
+      },
+      "name:8": "Power Core (Low)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30239,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolspower:power_core1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

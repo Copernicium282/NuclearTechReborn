@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30249
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Kitchen Utensils \u0026 Functional Upgrades§f\n\n§aAccessorize your culinary workspace and install powerful upgrades to automate cooking!§f\nOnce the core architecture of your kitchen is in place, you can decorate it with specialty utensil racks and insert electrical upgrades to revolutionize food preservation and preparation.\n\n§6Kitchen Utensils \u0026 Accessories§f:\n§b• Tool Rack§f: Placed on a wall adjacent to your kitchen. It provides slots to display and store standard cooking utensils (like Pam\u0027s HarvestCraft §bPot§f, §bPan§f, §bBakeware§f, or §bCutting Board§f), which are automatically shared with the Cooking Table.\n§b• Spice Rack§f: Hangs on a wall to store and display up to §e9 spice bottles or seasoning items§f.\n§b• Fruit Basket§f: Place it down to store fresh crops or raw ingredients.\n§b• Toaster§f: A fun countertop appliance. Insert bread slices to get §atoasted bread§f.\n\n§6Functional Upgrades§f:\n§b• Heating Unit§f: Slide this upgrade directly into your §9Oven§f. It converts the oven to run on §eRF/FE electricity§f instead of solid fuel, completely solving your fuel consumption worries.\n§b• Ice Unit§f: Install this inside a §9Fridge§f to allow your kitchen to automatically craft ice, snow, and cool refreshments.\n§b• Preservation Chamber§f: An advanced cooling upgrade for your §9Fridge§f. It keeps ingredients from decaying or spoiling, ensuring long-term freshness.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cookingforblockheads:cow_jar"
+      },
+      "name:8": "Kitchen Utilities",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30250,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cookingforblockheads:cow_jar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

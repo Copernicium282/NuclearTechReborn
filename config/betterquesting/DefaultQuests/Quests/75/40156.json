@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Pneumatic Tubes§f\n\n§aItems teleport through pipes using compressed air. Faster than belts, but costs more to set up.§f\n\nPneumatic Tubes send items instantly through a network, unlike slow-moving conveyors. They need §bcompressed air§f (minimum 1 PU) and consume §e50mB§f per operation (200mB/s when busy).\n\nRange scales with pressure: §b1 PU§f \u003d 10m, §b2 PU§f \u003d 25m, §b3 PU§f \u003d 100m, §b4 PU§f \u003d 250m, §b5 PU§f \u003d 1000m. The range is direct distance, not line length, so a 500m loop with endpoints next to each other works on 1 PU.\n\nEjecting tubes have §e15§f filter slots with whitelist/blacklist, configurable recipient order (round robin, sorted, random), and source order (first, last, random slot).\n\n§ePS:§f Use tubes for long-distance transport and belts for local sorting. Combine both for optimal factory logistics.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:pneumatic_tube"
+      },
+      "name:8": "Pneumatic Tubes",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40156,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pneumatic_tube"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

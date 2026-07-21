@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30049
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fission Bombs§f\n\n§aWeapons-grade nuclear devices.§f\n§bFission Bombs§f are the standard nuclear weapons in NuclearCraft. They use enriched uranium or plutonium to produce a fission explosion. The blast destroys terrain, generates radiation, and leaves behind §bTrinitite Glass§f.\n\nCraft them with enriched fuel, conventional explosives, and detonation wiring. Place them, wire them to redstone, and detonate from a safe distance. The explosion radius depends on the fuel grade used.\n\n§cWARNING:§f These destroy a large area. Test in a safe location far from anything you care about. Meltdowns are bad, but uncontrolled nuclear detonations are worse.\n\n§ePS:§f The explosion radius scales with the fuel grade. Higher enrichment means bigger boom and more Trinitite Glass in the crater.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "trinity:u235_pit"
+      },
+      "name:8": "Fission Bombs",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30262,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "trinity:u235_pit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

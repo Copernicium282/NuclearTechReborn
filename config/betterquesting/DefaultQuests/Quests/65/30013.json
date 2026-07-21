@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fluid Output§f\n\n§aPut fluids back into the world or turn them into XP.§f\n\n§6Fluid Drain§f handles two jobs. If you pipe in a placeable fluid and there is air in front, it places a source block once it has at least a bucket worth. If you pipe in §bliquid XP or mob essence§f, it spits out XP orbs instead. Any extra fluid past what it can place is destroyed. Filterable.\n\n§6Sluice§f is simpler. It only accepts fluids that can be placed in the world, one bucket at a time. If the block in front is air and it has a bucket of fluid buffered, it places a source block. Filterable.\n\n§ePS:§f The Drain is your go-to for XP farming and general fluid disposal. The Sluice is better when you want controlled, one-bucket-at-a-time placement.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pressure:drain"
+      },
+      "name:8": "Fluid Output",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30013,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pressure:drain"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "pressure:sluice"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

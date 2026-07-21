@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40097
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Coke§f\\n\\n§aThree flavors, one purpose, fuel that burns hotter than coal.§f\\n\\nCoke is what you get when you heat coal or petroleum fluids without oxygen. Three interchangeable variants exist: §bPetroleum Coke§f, §bCoal Coke§f, and §bLignite Coke§f. They all work in the same recipes and burn hotter than raw coal.\\n\\nThe easiest path is the §bCombination Oven§f: coal briquettes go in, coke plus coal tar creosote come out. §e1×§f Coal Coke + §e150mB§f Creosote per briquette. For petroleum coke, the §bCoker Unit§f is your go-to, it handles everything from heavy oil to bitumen and produces coke alongside coker fluids.\\n\\nCoke is great for steelmaking since it increases your yield per iron ore. It also crafts §e2×§f torches compared to regular coal, and you can press petroleum coke in a Burner Press with a Flat Stamp to get Graphite Ingots.\\n\\nThe byproducts matter too. Coal Tar Creosote from the Combination Oven feeds Fluid Burners. Coker fluids from the Coker Unit can be fractioned for cracked oils and heating oil.\\n\\n§ePS:§f If you are early game, start with the Combination Oven for coal coke and creosote. The Coker Unit takes over once you are into mid-game petroleum processing and need volume.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "hbm:coke"
+      },
+      "name:8": "Coke",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40098,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 2,
+          "id:8": "hbm:coke"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

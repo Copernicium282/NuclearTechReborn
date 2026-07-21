@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    30147
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Processor Presses are the molds that stamp circuits. Four types exist:\n\n§b-§f Calculation Press: for Calculation Circuits (Pure Certus Quartz)\n§b-§f Engineering Press: for Engineering Circuits (Pure Nether Quartz)\n§b-§f Logic Press: for Logic Circuits (Pure Fluix)\n§b-§f Silicon Press: for Printed Silicon (Silicon item)\n\nYou find your first set in Meteorite chests. Use a Meteorite Compass to locate them. Once you have one of each, you can duplicate them in the Inscriber by combining a Press with an Iron Ingot.\n\nPresses are never consumed. They last forever in the Inscriber. The only challenge is getting the first set.\n\n§ePS:§f The Silicon Press is special: you craft it from Printed Silicon and an Iron Block.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 13,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Processor Presses",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30148,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "id:8": "appliedenergistics2:material"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 19,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

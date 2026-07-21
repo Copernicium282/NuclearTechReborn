@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40089
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Desulfurized Oil§f\\n\\n§aRun your crude through the hydrotreater and the vacuum refinery starts outputting reformate gas instead of sour gas.§f\\n\\nDesulfurized Oils come from running Cracked Oil or Crude Oil through the §bHydrotreater§f with pressurized Liquid Hydrogen. The output is sulfur-free petroleum that opens up a different processing path in the §bVacuum Refinery§f.\\n\\nThe key difference: regular crude in the vacuum refinery gives you §e150mB§f Sour Gas per bucket. Desulfurized crude gives you §e150mB§f Reformate Gas instead. Same machine, same power draw, completely different downstream chain.\\n\\nReformate Gas is what you need for §bHigh-Performance Solvent§f, §bSaturnite§f production, CMB welding, and Osmiridium plate welding, all essential for endgame. Without desulfurized oil, you cannot access those recipes.\\n\\nYou can also boil and refine desulfurized oils in the standard Oil Refinery for different outputs: §e350mB§f Desulfurized Naphtha, §e300mB§f Heavy Oil, §e200mB§f Desulfurized Light Oil, and §e150mB§f Unsaturated Hydrocarbons.\\n\\n§ePS:§f If endgame is your goal, desulfurization is not optional. Build the hydrotreater, feed it Liquid Hydrogen, and route the output straight into your vacuum refinery.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 134,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Desulfurized Oil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40090,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 134,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

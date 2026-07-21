@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    30160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Need to know when your network has enough of something? The §6ME Level Emitter §femits a redstone signal based on item count.\n\nPut an item in the config slot, set a threshold, and the emitter outputs signal strength 15 when the count meets your target. Flip it to §6LOW_SIGNAL §fmode and it outputs when the count drops below instead.\n\nThe real power move: add a §6Crafting Upgrade §fand the emitter will request a crafting job automatically when the count drops below threshold. Set it and forget it.\n\nFuzzy Mode lets you match ore-dictionary equivalents. The §6Fluid Level Emitter §fdoes the same thing for fluids.\n\n§ePS:§f A Crafting Upgrade turns the emitter from a passive sensor into an active restocking trigger.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 280,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "Level Emitters",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30183,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 280,
+          "id:8": "appliedenergistics2:part"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 281,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

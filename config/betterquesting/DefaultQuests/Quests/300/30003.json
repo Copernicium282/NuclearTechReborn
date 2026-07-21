@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30002
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Alloys \u0026 Advanced Materials§f\n\n§aBlend metals into alloys, the backbone of Thermal Expansion machines!§f\n\n§e8§f alloys, all smelted in the §bInduction Smelter§f. You can pre-mix dust blends (shapeless crafting) before smelting to save time.\n\nThe basics: §bSteel§f (Pulverized Iron + Coal Coke), §bElectrum§f (Gold + Silver), §bInvar§f (Iron + Nickel), §bBronze§f (Copper + Tin), §bConstantan§f (Copper + Nickel). The fancy ones: §bSignalum§f and §bLumium§f use Pulverized Silver + Copper with Destabilized Redstone or Energized Glowstone (§e4:3:1§f ratio). §bEnderium§f is Platinum + Iridium + Resonant Ender.\n\n§ePS:§f Signalum, Lumium, and Enderium unlock the top-tier Thermal Expansion machine upgrades. Check JEI for exact ratios, the 4:3:1 blend is easy to get wrong.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 160,
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "Alloys \u0026 Advanced Materials",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30003,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 160,
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

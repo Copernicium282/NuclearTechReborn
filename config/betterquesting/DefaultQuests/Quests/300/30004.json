@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30003
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Processing Byproducts§f\n\n§aDon\u0027t toss the scraps, byproducts are surprisingly useful!§f\n\nThe §bInduction Smelter§f and §bPulverizer§f produce several byproducts. §bSlag§f comes from sand-based recipes and crafts §bRockwool§f. §bRich Slag§f is the catalyst for §e3x§f ore output, you get it from ore + dust recipes (§e75%§f chance). §bCinnabar§f drops from Destabilized Redstone Ore (§e50%§f) and doubles as the §e3x§f catalyst plus Gold Ingot bonus.\n\nFrom Oil Sand and Shale you get §bBitumen§f, smelt it to Crude Oil or combine with Coal for §bCoal Coke§f, which burns §e4x§f longer. The §bPulverizer§f on Oil Sand gives §bTar§f (§e50%§f, §e3§f Bitumen). Fluid ores drop §bClathrates§f that melt to §e250 mB§f in a Magma Crucible.\n\n§ePS:§f Sawdust, Rosin, Sulfur, and Niter all have their uses too, check JEI.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 771,
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "Processing Byproducts",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30004,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 866,
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

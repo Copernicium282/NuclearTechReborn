@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Chimney Blocks§f\n\n§aRealistic smoke, but make it fashionable.§f\nChimneys are the core of the §9Advanced Chimneys§f mod. Place them on top of furnaces, fireplaces, or any heat source and watch smoke rise. Smoke particles react to wind, collide with obstacles, and get tinted by the chimney material itself.\n\n§6Materials§f: Brick, cobblestone, concrete, glass (transparent), terracotta, and more. Each has its own color that can tint passing smoke.\n\n§6What They Do§f:\n- §bSmoke rises§f naturally through the chimney column and out the top\n- §bClimbable§f like ladders, so you can scale your smokestacks\n- §bWind interaction§f makes smoke drift and swirl realistically\n- §bRepaint§f with a Paintbrush to match any block texture\n\n§ePS:§f Chimneys pair nicely with §9Pollution of the Realms§f. Industrial smoke contributes to environmental pollution.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "adchimneys:brick"
+      },
+      "name:8": "Chimney Blocks",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 20000,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "adchimneys:brick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

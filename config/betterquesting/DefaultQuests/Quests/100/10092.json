@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10051
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Force Field Projector creates a straight-line barrier of force field blocks in the direction it faces. It extends up to 32 blocks when powered and stops if it hits an unreplaceable block or loses its redstone signal.\n\nThe force field blocks entity movement and projectile damage. It doesn\u0027t block items or fluids. The field is invisible by default but becomes visible when the projector receives a redstone signal.\n\nUse it for base defense, Thermite Torch fire containment, or the Warp Controller (10038) containment field. It\u0027s the only block in AR that can block explosions.\n\n§ePS:§f Place multiple projectors around your base perimeter for layered defense. The projector is directional, it extends in the direction it faces, so aim carefully. The gemDilithium in the recipe is expensive, only build what you need.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:forcefieldprojector"
+      },
+      "name:8": "§6Force Field Projector§f"
+    }
+  },
+  "questID:3": 10092,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:forcefieldprojector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

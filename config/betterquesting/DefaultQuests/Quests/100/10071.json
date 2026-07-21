@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10038,
+    10062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Low-gravity moon making it impossible to walk normally? The §6Area Gravity Controller§f creates a configurable sphere of artificial gravity that works on any surface, planet, asteroid, or custom structure.\n\nVanilla recipe: titanium sheets, Mass Detector satellite function, and a Warp Core. The GUI lets you set gravity strength (0.0 to 2.0x Earth normal) and field radius (16-256 blocks). The field is spherical and passes through walls.\n\nMultiple controllers link together to extend the field. Set to 1.0x on low-gravity moons for normal walking, or 0.5x on high-gravity gas giants to prevent fall damage.\n\n§ePS:§f The Warp Core in the recipe is expensive. Build 1-2 controllers unless you have surplus. One controller covers a decent base area at moderate radius.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:gravitymachine"
+      },
+      "name:8": "§6Area Gravity Controller§f"
+    }
+  },
+  "questID:3": 10071,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:gravitymachine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

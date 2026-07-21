@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Shipping Bin§f\n\n§aSell crops, fish, and meat for emeralds.§f\n\nThe Shipping Bin converts your harvested goods into emeralds. Right-click to open the GUI, pick what you want to sell (crops, fish, or meat), insert items, and collect emeralds. Crops sell for §e32 emeralds§f each, fish and meat for §e16§f.\n\nCraft it with §e4 planks§f, §e4 logs§f, and §e1 emerald§f. Pair it with a §bMarket§f for a full buy-sell economy: sell crops, buy exotic seeds, repeat.\n\nYou can automate it with hoppers or itemducts. Route items in from the top and pull emeralds from the bottom.\n\n§ePS:§f A steady farm feeding the Shipping Bin is a reliable passive emerald income source.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:shippingbin"
+      },
+      "name:8": "Shipping Bin",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30107,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:shippingbin"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

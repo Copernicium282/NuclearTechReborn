@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Uranium§f\n\n§aThe most common radioactive element. Everything nuclear starts here.§f\n\nUranium is the foundation of nuclear technology in NTM. Most early nuclear science revolves around refining and breeding it.\n\nFour forms: §bNatural Uranium§f (unenriched, mildly radioactive), §bU-238§f (non-fissile depleted uranium, byproduct of enrichment, used in weapons and armor for density), §bU-235§f (fissile, highly reactive, used in fuels and weapons), and §bUranium Fuel§f (U-238 + U-235 at 5:1 ratio).\n\nMining: found deep underground (y\u003d5 to 25) in small pockets. §e7§f veins per chunk, §e5§f ore per vein. Mining releases radon gas, so wear a respirator.\n\nEnrichment: §bGas Centrifuge§f for early-game, §bSILEX§f for late-game. Centrifuging ore also yields small amounts of §bRadium-226§f, useful as a neutron source.\n\n§ePS:§f Don\u0027t skip the respirator. Radon exposure is not fun.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_uranium"
+      },
+      "name:8": "Uranium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40172,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_uranium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

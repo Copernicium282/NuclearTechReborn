@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nuclear Furnace§f\n\n§aAn electric furnace that runs on FE instead of coal.§f\nThe §bNuclear Furnace§f is your first powered machine in NuclearCraft. No fuel slot, no burn time, just hook it up to a power source and it smelts anything a vanilla furnace can. The default cycle is §b400 ticks§f (20 seconds) at §b20 RF/t§f.\n\nYou need §bTough Alloy Ingots§f to craft it, which means you\u0027ll need an §bAlloy Furnace§f first. It\u0027s a bit of a chicken-and-egg situation for your first NC machine, but that\u0027s the progression.\n\nInsert §bSpeed Upgrades§f to halve processing time, or §bEnergy Upgrades§f to cut power consumption. Up to 8 upgrades per machine.\n\n§ePS:§f The Nuclear Furnace accepts FE on any face, making it easy to wire into existing setups.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:nuclear_furnace"
+      },
+      "name:8": "Nuclear Furnace",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30020,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:nuclear_furnace"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

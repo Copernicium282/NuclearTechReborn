@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30170
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Managing dozens of ME Interfaces scattered across a big base gets tedious fast. The Interface Terminal lets you view and configure every interface on the network from one spot.\n\nOpen it up and you see all your interfaces listed with their current patterns and configs. Change a filter, swap a pattern, adjust priority, all without walking to each individual block.\n\nIt also works with fluid interfaces, so one terminal covers both item and fluid interface management.\n\n§ePS:§f Put this near your main crafting area. When you add a new production line, you can configure its interface from here instead of running across the base.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 480,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Interface Terminal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30174,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 480,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

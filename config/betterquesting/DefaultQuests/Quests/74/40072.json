@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Naphtha§f\n\n§aCrack it, reform it, or fraction it down. This mid-weight fraction has options.§f\n\nNaphtha is the second most common refinery output at §e250mB§f per §e1,000mB§f hot crude oil. Medium fuel value (§e110 kTU§f / §e165 kHE§f per bucket) with several processing routes.\n\n§6Fractioning Tower§f:\n§e100mB§f Naphtha → §e60mB§f Diesel + §e40mB§f Heating Oil.\n\n§6Catalytic Reformer§f:\n§e1,000mB§f Naphtha → §e500mB§f Reformate + §e150mB§f Petroleum Gas + §e100mB§f Liquid Hydrogen.\n\n§6Chemical Plant§f:\n§e1,000mB§f Naphtha → §e800mB§f Gasoline.\n\n§6Other Uses§f:\n§b• Industrial Mixer§f: §e500mB§f Naphtha + §e500mB§f Aromatic Hydrocarbons → §e1,000mB§f §bSolvent§f.\n§b• Coker Unit§f: §e4,900mB§f → §e1× Petroleum Coke§f.\n§b• Pyrolysis Oven§f: §e6,500mB§f → §e1× Solid Fuel§f.\n§b• Solidification§f: §e16,000mB§f → §e1× Solid Fuel§f.\n\n§ePS:§f Naphtha\u0027s fuel value is higher than Heavy Oil. Fraction it to §bDiesel§f for best fuel efficiency, or reform it for higher-value products.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 19,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Naphtha",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40072,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 19,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

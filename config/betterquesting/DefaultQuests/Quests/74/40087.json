@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40085
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Coker Unit§f\\n\\n§aA 24-block beast that turns heavy residues into petroleum coke and coker fluids.§f\\n\\nThe §bCoker Unit§f towers at §e24 blocks§f tall and needs an external heat source below it, Firebox, Heating Oven, Electric Heater, or Fluid Burner. It thermally cracks petroleum products into §bPetroleum Coke§f plus one of three coker fluids depending on what you feed it.\\n\\nThe coker fluids are not dead ends. Run §bCoker Oil§f through a Fractioning Tower and you get §e70mB§f Heating Oil + §e30mB§f Cracked Oil per §e100mB§f. §bCoker Naphtha§f gives you §e75mB§f Cracked Naphtha + §e25mB§f Cracked Light Oil. §bCoker Gas§f yields §e75mB§f CO2 + §e25mB§f Aromatic Hydrocarbons.\\n\\nThere are also non-standard recipes, §e1,000mB§f Sour Gas produces §e1×§f Sulfur + §e150mB§f Coker Gas, which is a handy way to extract sulfur.\\n\\n§6Crafting§f (Assembly Machine): §e8×§f Welded Steel Plate, §e4×§f Steel Shell, §e8×§f Copper Plate, §e4×§f Rubber Bar, §e4×§f Niobium Ingot.\\n\\n§cWARNING:§f The coker unit is one of the most polluting machines in the mod, §e20 soot/s§f. Keep it far from glyphid nests.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_coker"
+      },
+      "name:8": "Coker Unit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40087,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_coker"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

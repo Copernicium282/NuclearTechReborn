@@ -1,0 +1,28 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Crude Oil§f\n\n§aThis is where your petrochemical empire begins.§f\n\nCrude oil is a flammable, viscous, polluting liquid found in underground oil deposits deep below the surface. Each deposit block holds §e250mB§f and burns at §e25.0 kTU§f per bucket. It is the foundation of nearly every advanced material and machine chain in HBM.\n\n§6Finding Oil§f:\nUse an §bOil Reservoir Detector§f to scan for deposits. It pings §eorange§f when near a deposit and §egreen§f when one is directly below you. Patches of §boily dirt or sand§f on the surface mark §bbedrock oil deposits§f, which need a §bHydraulic Fracking Tower§f later on.\n\n§6Extracting§f:\nPlace an §bOil Derrick§f or §bPumpjack§f above a deposit and supply power. Both also produce §bNatural Gas§f as a byproduct. Store it for later cracking or burn it off in a §bFlare Stack§f.\n\n§6Refining§f:\nHeat crude oil in a §bBoiler§f to get §bHot Crude Oil§f, then feed it into an §bOil Refinery§f. Check JEI for the full breakdown of outputs.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Crude Oil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40060,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 10,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

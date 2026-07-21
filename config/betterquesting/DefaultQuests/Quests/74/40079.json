@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Oil Tar§f\n\n§aFive variants, one purpose: tanks, dye, and coking. Pick whichever you can make cheapest.§f\n\nOil Tar is a sticky petroleum product with five interchangeable variants: §bOil Tar§f, §bCrack Oil Tar§f, §bCoal Tar§f, §bWood Tar§f, and §bParaffin Wax§f.\n\n§6Production§f:\n§b• Oil Tar§f: Solidify Crude Oil, Bitumen, or Heavy Oil in the §bIndustrial Solidification Machine§f.\n§b• Crack Oil Tar§f: Byproduct from refining §bCracked Oil§f (replaces sulfur).\n§b• Coal Tar§f: Solidify §bCoal Oil§f from the §bIndustrial Liquefaction Machine§f. Easiest to mass-produce.\n§b• Wood Tar§f: Solidify §bWood Oil§f. Cannot be acidized into Chlorinated Petroleum Wax.\n§b• Paraffin Wax§f: Solidify §bEngine Lubricant§f. Combines with §bChlorine Gas§f in the §bAcidizer§f.\n\n§6Uses§f:\n§b• Black Dye§f: Substitute in crafting recipes.\n§b• Fluid Tanks§f: Required for §bSteel Barrels§f, §bUniversal Fluid Tanks§f, and the §bBAT-9000§f.\n§b• Coke§f: Wood Tar in the §bCombination Oven§f → §bCoke§f.\n\n§ePS:§f The §bIndustrial Liquefaction Machine§f needs tar to craft, so start with §bCrude Oil§f solidification for your first batch.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:oil_tar"
+      },
+      "name:8": "Oil Tar",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40079,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "hbm:oil_tar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

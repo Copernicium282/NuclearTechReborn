@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30141
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Fluix Crystal is the backbone reagent of Applied Energistics 2. Every cable, every processor, every storage cell needs it.\n\nMaking one is simple: drop a Charged Certus Quartz Crystal, a Nether Quartz, and Redstone Dust into water. They combine on contact into a Fluix Crystal. No machine required, just a water source block.\n\nYou will need hundreds of these before your ME network is functional. Set up an automated drop line that funnels ingredients into a water pool and collects the output.\n\n§9Note:§f A single water source block can convert multiple stacks at once. You do not need one block per crystal.\n\n§cWARNING:§f Do not forget the Redstone. Without it, the conversion does not happen.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 7,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Fluix Crystal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30145,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 7,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40200
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cadmium§f\n\n§aThe element that gives you an alternative to technetium steel. Also makes rubber and PVC.§f\n\n§bCadmium§f (Cd, atomic 48) is the starting point for cadmium steel, a substitute for technetium steel in most recipes.\n\n§6How to Get It§f:\n§b•§f §bMustard Willow Leaves§f → Ore Acidizer: §e10 leaves§f + §e250 mB High-Performance Solvent§f \u003d §e1 Cadmium Powder§f\n§b•§f §bSmelt§f the powder into a Cadmium Ingot\n\n§6What It\u0027s For§f:\n§b•§f §bCadmium Steel§f, Crucible: §e1 Cd nugget§f + §e1 steel ingot§f \u003d §e1 Cd steel ingot§f\n§b•§f §bPVC Bars§f, Chemical Plant: §e1 Cadmium Powder§f + §e250 mB Unsaturated Hydrocarbons§f + §e250 mB Chlorine Gas§f \u003d §e2 PVC Bars§f (5s, 100 kHE/t)\n§b•§f §bRubber Bars§f, Ore Acidizer: §e1 Cadmium Powder§f + §e4,000 mB Fish Oil§f \u003d §e16 Rubber Bars§f\n§b•§f §bOrange Dye§f substitute\n\n§ePS:§f Two processing paths here, Ore Acidizer for rubber, Chemical Plant for PVC. Pick based on what you need. Check JEI for both recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_cadmium"
+      },
+      "name:8": "Cadmium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40201,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_cadmium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

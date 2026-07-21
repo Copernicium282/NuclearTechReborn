@@ -1,0 +1,33 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    10022
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fueling Station§f automatically loads fuel into docked rockets, replacing the manual bucket-fill workflow. It links to a rocket via a Linker and pulls from adjacent Fluid Tanks or Fluid Ducts.\n\nCraft it: Machine Structure, User Interface, Liquid IO Circuit Board, Steel Fan, and Tin Plates in the pattern \u0027b g b / l b f / p p p\u0027. The station is a Network Machine and must be part of a network controlled by a Guidance Computer or Planet Holo Selector.\n\nIt can move monopropellant, bipropellant fuel, and oxidizer into the rocket\u0027s tanks in parallel.\n\n§ePS:§f Place the station adjacent to a fluid tank with a Liquid IO Board on the side facing the tank. The station pulls directly without needing a pump. For bipropellant, route fuel and oxidizer through separate ducts to the same station.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:fuelingstation"
+      },
+      "name:8": "Fueling Station",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10025,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:fuelingstation"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

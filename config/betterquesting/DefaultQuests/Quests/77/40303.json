@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40279
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Euphemium Armor§f\n\n§aFull damage immunity with zero power requirements. The lazy man\u0027s endgame armor.§f\n\nEuphemium Armor grants complete resistance to all damage types, including radiation, and gives permanent saturation so you never eat again. It requires no power source to function.\n\n§6Crafting§f: Each piece needs euphemium compound plates (forged in the Plasma Forge from euphemium ingots, astatine powder, bismuth powder, volcanic gem, and osmiridium ingots). The full set uses §e24§f compound plates total. The chestplate also requires a §bBroken Pocket Watch§f, which needs yharonite billets from the DFC.\n\n§6Set bonuses§f: Full set gives saturation, regeneration, resistance, and fire resistance. It blocks all incoming damage including armor-piercing attacks.\n\n§cWARNING:§f You need osmiridium (from Gerald\u0027s crater) and yharonite (from the DFC\u0027s tungsten crate) to craft this. It\u0027s accessible but not cheap.\n\n§ePS:§f If you don\u0027t need digamma resistance specifically, this armor is the most practical choice. No power management, no charge anxiety.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:euphemium_plate"
+      },
+      "name:8": "Euphemium Armor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40303,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:euphemium_helmet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40085
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Catalytic Reformer§f\\n\\n§aTurn mediocre fractions into premium products, reformate, liquid hydrogen, sulfuric acid.§f\\n\\nThe §bCatalytic Reformer§f is an optional late-game machine that upgrades petroleum products into more valuable ones. It chews through §e2,000 mB/s§f of fluid at §e400 kHE/s§f and needs a §bCatalytic Converter§f (Hard Plastic Bars + Cobalt Powder + Arsenic) to operate.\\n\\nThe headline recipe: §e1,000mB§f Naphtha → §e500mB§f Reformate + §e150mB§f Petroleum Gas + §e100mB§f Liquid Hydrogen. But check JEI, it also reformats Light Oil into Aromatic Hydrocarbons and Reformate Gas, and the big one: §e1,000mB§f Sour Gas → §e750mB§f Sulfuric Acid + §e100mB§f Petroleum Gas + §e150mB§f Liquid Hydrogen.\\n\\n§6Crafting§f (Assembly Factory): §e12×§f Cast Steel Plate, §e8×§f Copper Plate, §e8×§f Niobium Ingot, §e4×§f Cadmium Steel Ingot, §e3×§f Steel Shell, §e8×§f Steel Pipe, §e1×§f Motor, §e1×§f Versatile Circuit Board.\\n\\n§ePS:§f Pairs beautifully with the §bHydrotreater§f. The reformer makes Liquid Hydrogen, the hydrotreater eats it, loop them together with a Vacuum Refinery for a closed petrochemical system.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_catalytic_reformer"
+      },
+      "name:8": "Catalytic Reformer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40086,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_catalytic_reformer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

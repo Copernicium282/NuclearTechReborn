@@ -38,11 +38,11 @@ mods.nuclearcraft.Assembler.addRecipe(<ore:ingotCobalt>, <ore:ingotZircaloy>, <o
 <contenttweaker:pellet_fuel_les>.addShiftTooltip(format.green("Function Type: SAFE / LINEAR"));
 
 //Fission Recipes
-//mods.nuclearcraft.SolidFission.addRecipe(FuelInputName, DepletedFuelName, ProcessTimeInTicks, HeatPerTick, BaseEfficiency, CriticalityFactor, DecayFactor, SelfPrimingOrNot(true/false), RadiationEmitted);
+//mods.nuclearcraft.SolidFission.addRecipe(FuelInputName, DepletedFuelName, ProcessTimeInTicks, HeatPerTick, BaseEfficiency, CriticalityFactor, FluxDecayFactor, DecayFactor, SelfPrimingOrNot(true/false), RadiationEmitted);
 
-SolidFission.addRecipe(<contenttweaker:pellet_fuel_hes>, <contenttweaker:pellet_depleted_fuel_hes>, 288000, 130, 2.00, 40, 0.001, true, 48.0e-6);
-SolidFission.addRecipe(<contenttweaker:pellet_fuel_mes>, <contenttweaker:pellet_depleted_fuel_mes>, 384000, 70, 1.90, 60, 0.001, true, 48.0e-6);
-SolidFission.addRecipe(<contenttweaker:pellet_fuel_les>, <contenttweaker:pellet_depleted_fuel_les>, 576000, 30, 1.80, 80, 0.001, true, 48.0e-6);
+SolidFission.addRecipe(<contenttweaker:pellet_fuel_hes>, <contenttweaker:pellet_depleted_fuel_hes>, 288000, 130, 2.00, 40, 0, 0.001, true, 48.0e-6);
+SolidFission.addRecipe(<contenttweaker:pellet_fuel_mes>, <contenttweaker:pellet_depleted_fuel_mes>, 384000, 70, 1.90, 60, 0, 0.001, true, 48.0e-6);
+SolidFission.addRecipe(<contenttweaker:pellet_fuel_les>, <contenttweaker:pellet_depleted_fuel_les>, 576000, 30, 1.80, 80, 0, 0.001, true, 48.0e-6);
 
 //Fuel Reprocessing
 

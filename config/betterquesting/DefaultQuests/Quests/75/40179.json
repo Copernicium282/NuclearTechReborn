@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40176
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Plutonium-240§f\n\n§aThe disappointment isotope. Comes free with Pu-239 production.§f\n\nPu-240 is a common and somewhat disappointing isotope. Not very useful on its own and contaminates weapons-grade plutonium.\n\nProperties: §e7.5§f RAD/s, §e22.2%§f of raw plutonium, fertile category.\n\nProduction: bred from Pu-239 neutron capture. Usually an indirect byproduct of Pu-239 production.\n\nUses: moderate role in plutonium fuel as §bReactor Grade Plutonium§f, breeding into Pu-241 (if no fission occurs), and contributes §e1.05§f to the custom nuke\u0027s salted stage.\n\nBreeds into nuclear waste.\n\nHigh spontaneous fission rate prevents chain reactions in weapons, so it must be minimized in warheads.\n\n§ePS:§f Use the SILEX to separate Pu-239 from Pu-240 for weapons-grade material. Pu-240 is still usable in Reactor Grade Plutonium for fuel.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_pu240"
+      },
+      "name:8": "Plutonium-240",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40179,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_pu240"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

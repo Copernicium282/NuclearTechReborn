@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30003
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Elemental Materials§f\n\n§aHunt elementals, harvest their rods, and brew elemental dusts!§f\n\nThree mobs spawn at §elight ≤8§f: §bBlizz§f (cold biomes, drops Blizz Rods), §bBlitz§f (dry biomes, Blitz Rods), and §bBasalz§f (mountains, Basalz Rods). Craft rods shapeless for §e2x§f powder, or pulverize for §e4x§f.\n\nCombine powder with Redstone and a catalyst to make elemental dusts, §e2 per craft§f. §bPyrotheum§f (Blaze Powder + Sulfur) smelts ore to ingot in the grid. §bCryotheum§f (Snowball) freezes things. §bAerotheum§f (Niter) is the wind element. §bPetrotheum§f (Bitumen) breaks ore to §e2x§f dust in the grid.\n\n§ePS:§f All four melt to their respective fluids in a Magma Crucible, §e250 mB§f each.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1024,
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "Elemental Materials",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30005,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1024,
+          "id:8": "thermalfoundation:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Chisel§f\n\n§aEvery block has a thousand faces. Time to pick the right one.§f\n§9Chisel§f gives you thousands of decorative variants for factory plates, lab walls, concrete, metals, stone, and wood. Your builds won\u0027t look like everyone else\u0027s.\n\nThree tiers of chisel:\n§b• Iron§f: §c512 durability§f, single-block chiseling, left-click to change blocks directly. No modes.\n§b• Diamond§f: §c5,056 durability§f, supports advanced modes (1×1, 3×3, column, panel).\n§b• iChisel§f: §c10,048 durability§f, all modes plus extra GUI features.\n\nSome blocks have special properties. White concrete gives a §a1.35× speed boost§f when you walk on it. Many blocks have connected textures that blend together seamlessly. The §9Auto Chisel§f can automate the whole process, running faster when fed FE.\n\nYou can chisel raw stone into stone bricks and stone bricks into mossy stone bricks directly, no furnace needed.\n\n§ePS:§f Check JEI for the full block catalog. There are a LOT of variants.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "chisel:chisel_iron"
+      },
+      "name:8": "Chisel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30234,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "chisel:chisel_iron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

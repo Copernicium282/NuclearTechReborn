@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Tired of carrying individual storage cells around? The ME Drive holds up to 10 storage cells in a single block and exposes them all to the network.\n\nEach cell slot has an LED indicator: green means the cell has items, orange is full, blue is empty, and red means the cell is partitioned. Handy for spotting which drives need attention at a glance.\n\nDrives use 1 channel when connected to a controller network. Build a room of drives for a proper storage system, and use the ME Chest for quick early-game storage until you can afford drives.\n\n§ePS:§f The drive accepts any AE2 storage cell: item cells, fluid cells, and spatial cells all work.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:drive"
+      },
+      "name:8": "ME Drive",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30161,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:drive"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

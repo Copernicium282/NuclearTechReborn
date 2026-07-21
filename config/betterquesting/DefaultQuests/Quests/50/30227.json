@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Pollutant Pump§f\n\n§aYour furnaces are poisoning the air. Time to do something about it.§f\n§9Pollution of the Realms§f drops carbon, sulfur, and dust blocks into the atmosphere from your machines. The §9Pollutant Pump§f sucks them up before they cause problems.\n\nIt pulls pollution within a §c4-block radius§f around the intake pipe on top. Costs §c64 RF/tick§f to run with a §e10,000 RF§f internal buffer, and attempts one extraction every §c60 ticks (3 seconds)§f.\n\nHook up RF to the bottom or sides, run pipes up to your factory ceiling where the pollution accumulates, and route the collected materials out through item or fluid pipes.\n\n§ePS:§f Place intake pipes near your dirtiest machines. Pollution builds up fast once you get industrial.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:bucket"
+      },
+      "name:8": "Pollutant Pump",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30227,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:bucket"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

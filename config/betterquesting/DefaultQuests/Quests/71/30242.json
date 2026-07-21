@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30239
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Powercell (Low)§f\\n\\n§aModular RF storage. Adjacent cells link into a shared multiblock network that scales with size.§f\\n\\nThe §bPowercell (Low)§f holds §e500,000 RF§f and transfers §e250 RF/t§f per side. Link up to §e729 blocks§f (9×9×9), every block adds §a+0.25×§f to the side transfer rate.\\n\\n§9Right-click§f a face with a wrench to cycle between §bInput§f (blue), §cOutput§f (orange), and §7Disabled§f. Insert a §bPowercell Card§f for wireless linking across distances or dimensions.\\n\\nBroke it? §aNo power lost§f, the block retains all stored energy.\\n\\n§6Crafting§f: §b4× Power Core§f (cardinals) + §b4× Redstone§f (corners) + §b1 Machine Frame§f (center)\\n\\n§9Note:§f A basic 2×2×2 Low network already transfers §e500 RF/t§f per side, enough to drive mid-game machinery.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftoolspower:cell1"
+      },
+      "name:8": "Powercell (Low)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30242,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolspower:cell1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

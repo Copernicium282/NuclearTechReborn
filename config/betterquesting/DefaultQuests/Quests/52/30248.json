@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30247
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Backpack Upgrades§f\n\n§aMake your backpack actually do something useful§f\n\nBackpacks aren\u0027t just bigger inventories. Each one has upgrade points you can spend on functional modules. §9Shift + Right-click§f your backpack or open its GUI to see the upgrade slots.\n\n§6Available Upgrades§f:\n§b• Blank Upgrade§f: The base template for crafting all other upgrades. §e1 point§f.\n§b• Latch Upgrade§f: Locks your backpack so contents stay put. §e1 point§f.\n§b• Damage Bar Upgrade§f: Shows a fill bar on the backpack icon so you know how full it is without opening it. §e1 point§f.\n§b• Extra Upgrade§f: Grants §e+1 upgrade point§f to the backpack. Yes, it pays for itself and then some. §e-1 point§f (net gain).\n\n§cWARNING:§f The Everlasting Upgrade has been §cdisabled§f in this pack. Don\u0027t plan around it.\n\n§ePS:§f Check JEI for all upgrade recipes. The Blank Upgrade is just string, paper, and a stick, so stock up.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ironbackpacks:upgrade"
+      },
+      "name:8": "Backpack Upgrades",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30248,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ironbackpacks:upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

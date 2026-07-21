@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30093
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Super-Laminar Fluiduct§f\n\n§aMaximum fluid throughput for your endgame refineries and high-volume coolant loops!§f\n\n§bSuper-Laminar Fluiducts§f are the top-tier fluid duct with best possible throughput, crafted with §bEnderium§f. Required for any large-scale fluid operation that outpaces Signalum-Plated.\n\n§6Crafting§f:\n§b• Transparent§f: §e1× Enderium Ingot§f + §e1× Glass§f → §e6× Super-Laminar Fluiduct§f.\n§b• Opaque§f: §e1× Enderium Ingot§f + §e1× Lead Ingot§f → §e6× Super-Laminar Fluiduct (Opaque)§f.\n\nUse cases: refinery outputs exceeding §e10,000 mB/tick§f per side, §bMagmatic Dynamo§f coolant loops with §bGelid Cryotheum§f, NuclearCraft heat exchanger circuits.\n\n§eTip§f: Only Super-Laminar can keep up with a fully-fueled §bMagmatic Dynamo§f burning §bBlazing Pyrotheum§f. Plan for these at the end of your duct line.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "thermaldynamics:duct_16"
+      },
+      "name:8": "Super-Laminar Fluiduct",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30094,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 6,
+          "id:8": "thermaldynamics:duct_16"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

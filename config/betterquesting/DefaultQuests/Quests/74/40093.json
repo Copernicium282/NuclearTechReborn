@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40085
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Sour Gas§f\\n\\n§aA corrosive byproduct that turns into your most reliable sulfuric acid source.§f\\n\\nSour Gas shows up whenever you desulfurize oil in the §bHydrotreater§f or run regular crude through the §bVacuum Refinery§f. It is corrosive, flammable, and polluting at §e250 kTU§f per bucket, handle with care.\\n\\nThe main use is in the §bCatalytic Reformer§f: §e1,000mB§f Sour Gas → §e750mB§f Sulfuric Acid + §e100mB§f Petroleum Gas + §e150mB§f Liquid Hydrogen. That sulfuric acid feeds directly into fracking solution production and bedrock ore processing. It is one of the most reliable ways to get sulfur without relying on bedrock glowstone or glyphid grinding.\\n\\nOther options: the §bCoker Unit§f extracts §e1×§f Sulfur + §e150mB§f Coker Gas from §e1,000mB§f. The Chemical Plant can combine it with TNT and Nitric Acid for TATB. It can also be solidified into fuel, though that is a waste.\\n\\n§ePS:§f Sour Gas is marked corrosive and toxic fumes, pipe it directly into your catalytic reformer or storage tanks. Do not let it sit in open systems.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 94,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Sour Gas",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40093,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 94,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

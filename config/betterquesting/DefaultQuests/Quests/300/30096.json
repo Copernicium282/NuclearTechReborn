@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30095
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Impulse Itemduct§f\n\n§aDouble your item transfer speed with Energized Glowstone infusion!§f\n\n§bImpulse Itemducts§f move items at §e20 ticks per block§f, twice as fast as standard. Crafted in a §bFluid Transposer§f.\n\n§6Recipe§f:\n§e1× Itemduct§f + §e200 mB§f §bEnergized Glowstone§f → §e2× Impulse Itemduct§f (§e800 RF§f).\n\nUse these on your main item trunk lines between processing areas, the speed boost adds up fast over long runs. Energized Glowstone is made by smelting Glowstone Dust in the Magma Crucible, so keep a steady supply. Pair with higher-tier servos for maximum throughput on busy lines. Standard Itemducts are fine for short feeder branches where speed doesn\u0027t matter.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "thermaldynamics:duct_32"
+      },
+      "name:8": "Impulse Itemduct",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30096,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 2,
+          "id:8": "thermaldynamics:duct_32"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

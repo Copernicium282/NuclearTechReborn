@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Waiting for Certus Quartz to grow naturally is painful. The §6Crystal Growth Accelerator §ffixes that.\n\nPlace §6Charged Certus Quartz Seeds §fon the accelerator and they grow into crystals much faster than the random natural process. It also grows §6Pure Certus Quartz §fwhen given the right seed combinations.\n\nThe accelerator is a single block, no multiblock setup needed. It consumes 8 AE/t when active, so factor that into your power budget.\n\nCraft it from Iron, Fluix Cables, Quartz Glass, and a Fluix Block.\n\n§9Note:§f Place the accelerator adjacent to water for best results. Growth speed scales with power supply.\n\n§ePS:§f Build a row of accelerators for mass crystal production. You will need them for Formation Cores.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:quartz_growth_accelerator"
+      },
+      "name:8": "Crystal Growth Accelerator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30194,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:quartz_growth_accelerator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

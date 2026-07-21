@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Modern Markings§f\n\n§aYour factory needs floor labels. Yes, really.§f\n§9Modern Markings§f adds clean industrial floor and wall decorations: caution stripes, arrows, borders, and signs. Perfect for labeling walkways, marking exits, and organizing rooms in your nuclear facility.\n\nThese integrate with Chisel, so you can cycle through different line designs and styles on placed markings. No need to break and replace to change the look.\n\nThink of it as the finishing touch for your factory build. Mark dangerous areas, label storage rooms, and make sure nobody accidentally walks into the RBMK containment zone.\n\n§ePS:§f Use caution stripes around HBM Nuclear Tech machinery to visually mark radiation containment zones. Looks professional and keeps you alive.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:sign"
+      },
+      "name:8": "AGS ModernMarkings",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30232,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ags_modernmarkings:chalk"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

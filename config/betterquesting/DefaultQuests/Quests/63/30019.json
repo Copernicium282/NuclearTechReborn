@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    30026
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Voltaic Pile§f\n\n§aYour first nuclear-grade battery.§f\nThe §bBasic Voltaic Pile§f stores §b160,000 RF§f and transfers up to §b16,000 RF/t§f. It accepts and outputs FE on all six faces, so you can place it anywhere in your power network. Think of it as a stepping stone between vanilla Redstone energy and the bigger batteries.\n\nCraft it with §bBasic Plates§f, §bCopper Solenoids§f, and a §bMagnesium Block§f in a 3x3 grid. Not expensive, but you\u0027ll want to upgrade to the Advanced and DU tiers once your power needs grow.\n\nThe Advanced Voltaic Pile holds §b640,000 RF§f and the DU tier holds §b2,560,000 RF§f. Each tier quadruples the transfer rate too.\n\n§ePS:§f These also work as components in Modular Machinery energy hatches if you\u0027re building multiblocks.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:voltaic_pile_basic"
+      },
+      "name:8": "Voltaic Pile",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30019,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:voltaic_pile_basic",
+          "tag:10": {
+            "energyStorage:10": {
+              "capacity:4": 160000,
+              "energy:4": 0,
+              "maxTransfer:3": 16000
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

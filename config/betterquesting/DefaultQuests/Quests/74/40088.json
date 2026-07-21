@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40080
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cooling Towers and Condenser§f\\n\\n§aYour cracking tower produces waste steam. This is how you turn it back into water.§f\\n\\nThe §bCatalytic Cracking Tower§f outputs low-pressure steam after every operation. Without a way to condense it back into water, your whole setup stalls. Four tiers exist, each faster than the last.\\n\\n§bSteam Condenser§f (Crafting Table): §e2,000 mB/s§f rate. Made from §e2×§f Steel Ingot, §e4×§f Iron Plate, §e1×§f Cast Copper Plate. Good enough for a single cracking tower.\\n\\n§bAuxiliary Cooling Tower§f (Tier 3 Anvil): §e20,000 mB/s§f. §e64×§f Concrete Bricks, §e128×§f Iron Bars, §e4×§f Steam Condensers.\\n\\n§bCooling Tower§f (Tier 4 Anvil): §e200,000 mB/s§f. The iconic hyperbolic shape. §e128×§f Concrete, §e32×§f Steel Scaffold, §e16×§f Steam Condensers.\\n\\n§bHigh-Power Steam Condenser§f (Assembly Machine): §e20,000,000 mB/s§f, but it needs power. §e8×§f Welded Steel Plate, §e4×§f Welded Cadmium Steel Plate, §e16×§f Copper Plate, §e3×§f Desh Motor, §e24×§f Steel Pipe.\\n\\n§ePS:§f Low-pressure steam condenses at §e1:1§f into water. Start with a basic condenser and upgrade as your refinery scales up.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_tower_large"
+      },
+      "name:8": "Cooling Towers and Condenser",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40088,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_condenser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

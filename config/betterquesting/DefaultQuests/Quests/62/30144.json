@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    30142
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Crystal Seeds are how you grow Pure Crystals without mining. Craft them from dust and drop them into water. Three types exist:\n\n§b-§f Certus Quartz Seed: grows into Pure Certus Quartz Crystal\n§b-§f Nether Quartz Seed: grows into Pure Nether Quartz Crystal\n§b-§f Fluix Seed: grows into Pure Fluix Crystal\n\nEach seed goes through 3 growth stages in water, producing 1 Pure Crystal at stage completion. Growth is slow without help, but a Crystal Growth Accelerator placed adjacent to the water speeds things up dramatically. Multiple accelerators stack.\n\nPure Crystals are essential for processors and advanced AE2 components. Set up a dedicated growing pool with accelerators as soon as you can.\n\n§ePS:§f Seeds do not despawn. Toss a stack in water and come back later.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Crystal Seeds",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30144,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 10,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 11,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 12,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

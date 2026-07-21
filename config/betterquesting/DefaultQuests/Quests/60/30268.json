@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cincinnasite§f\n§aThe Nether\u0027s native metal. Yours for the taking.§f\n\nMine §bCincinnasite Ore§f from netherrack across the dimension and smelt it into ingots. The ore is tough (hardness 3, resistance 5), so bring a decent pickaxe.\n\n§6The Forge§f\nThe §bCincinnasite Forge§f is a dedicated smelter that runs at twice the speed of a vanilla furnace. It also emits light when active, so it doubles as decoration.\n\n§6Tools§f\nThe standard §bCincinnasite Pickaxe§f and §bAxe§f are iron-tier with 512 durability. Combine them with diamonds to get the §bDiamond-Reinforced§f variants with 2048 durability. That\u0027s a serious upgrade for Nether mining.\n\n§6Decoration§f\nBricks, tiles, pillars, lanterns, bars, walls, slabs, doors, and fire bowls. The ancient §bNether Cities§f are built almost entirely from these blocks, and now you can too.\n\n§ePS:§f Check JEI for the full decorative block lineup. There are more variants than you\u0027d think.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betternether:cincinnasite_ore"
+      },
+      "name:8": "Cincinnasite Metallurgy",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30268,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betternether:cincinnasite_pickaxe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

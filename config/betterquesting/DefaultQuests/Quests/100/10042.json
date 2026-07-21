@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    10040
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Satellites need power to stay alive in orbit, and that means solar panels.\n\nThe §6Small Solar Panel§f generates 10 RF/t in direct sunlight, while the §6Large Solar Panel§f bumps that to 40 RF/t. You\u0027ll also want a §6Satellite Battery§f to buffer power during eclipses when the panel goes dark.\n\nThese get launched as part of the satellite assembly, so plan your payload before launch. A satellite without power dies within a day. For long-duration missions, the large panel is basically mandatory, the small one just can\u0027t keep up.\n\nThe panels only work in direct sunlight, so a polar orbit keeps them out of planetary shadow longer. And yes, they do stop working if the satellite passes behind a planet or station.\n\n§ePS:§f The battery tiers scale with capacity. Higher tiers let your satellite survive longer eclipses.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "advancedrocketry:satellitepowersource"
+      },
+      "name:8": "Satellite Power \u0026 Storage",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10042,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:satellitepowersource"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "advancedrocketry:satellitepowersource"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:battery"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "libvulpes:battery"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

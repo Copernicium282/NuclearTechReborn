@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Want to pick up an entire room and move it somewhere else? §6Spatial Storage §fdoes exactly that.\n\nBuild a frame of §6Spatial Pylons §fdefining a region from 2x2x2 up to 128x128x128. Place a §6Spatial IO Port §fon the structure, insert a Spatial Storage Cell, and the entire region gets sampled into the cell. Move the cell to another Spatial IO Port and the region rebuilds.\n\nIt is like copy-paste for the physical world. Walls, machines, chests with items, everything.\n\nCraft Spatial Pylons from Quartz Glass, Fluix Cables, Fluix Dust, and Fluix Crystals.\n\n§cWARNING:§f Power draw scales with region volume. A 128x128x128 region will drain your energy cells fast. Plan your power supply accordingly.\n\n§ePS:§f Each pylon emits light to show the region boundaries. Use that to verify your frame before activating.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:spatial_pylon"
+      },
+      "name:8": "Spatial IO",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30199,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "appliedenergistics2:spatial_pylon"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:spatial_io_port"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30265
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Dimensional Hazards§f\\n\\n§aCustom dimensions collapse when power fails, here\u0027s how to not die in one.§f\\n\\nIf the §bDimension Builder§f hits §e0 RF§f, your pocket dimension collapses. Lethal void damage, no survivors, items lost. Fun.\\n\\n§6Phased Field Generator (PFG)§f:\\nKeep this charged handheld device in your inventory at all times inside custom dimensions:\\n§b• Buffer§f: §e1,000,000 RF§f, charges at §e1,000 RF/t§f\\n§b• Emergency Shield§f: If the dimension collapses, the PFG auto-triggers a personal forcefield blocking all lethal damage for §c100 RF/t§f, enough time to teleport out\\n\\n§6Activity Probe§f:\\nPlace this inside your dimension to §ahalt power consumption when nobody\u0027s online§f. Saves your base\u0027s energy reserve from draining while you\u0027re away.\\n\\n§cWARNING:§f Always carry a fully-charged PFG. One collapse can cost you everything.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftoolsdim:efficiency_essence"
+      },
+      "name:8": "Dimensional Hazards",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30267,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:efficiency_essence"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

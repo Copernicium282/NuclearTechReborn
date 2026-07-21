@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30252
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cleanup Systems§f\n\n§aPollution builds fast. You need chimneys and filters before your base becomes a death trap.§f\n\nYour machines pump out gas clouds constantly. Without ventilation, carbon and sulfur will pool inside your base and start killing you. Two systems handle this: §9chimneys§f for passive venting and §9Filter blocks§f for active purification.\n\n§6Chimneys \u0026 Vents§f: Place chimneys from §9Advanced Chimneys§f on top of fuel-burning blocks. They vent smoke straight up to altitude 127, preventing carbon buildup in your workrooms. Different styles (Cobblestone, Brick, Bedrock) are purely cosmetic.\n\n§6Filter Block§f: The real workhorse. This block purifies air and water in a configurable radius. Drop a filter material into the GUI slot, power it, and make sure a chimney or open sky is above it. The filter consumes material and produces useful byproducts:\n§b- Tree Leaves§f: filters §eCarbon§f, yields §bCoal Dust§f\n§b- Wool§f (any color): filters §eSulfur§f, yields §bSulfur Dust§f\n§b- Paper§f: filters §eDust§f, yields §bClay Balls§f\n\n§ePS:§f The filter also cleans polluted water in a radius around it. Place it near any tainted water sources.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "adpother:iron_filter"
+      },
+      "name:8": "Cleanup Systems",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30253,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "adpother:iron_filter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

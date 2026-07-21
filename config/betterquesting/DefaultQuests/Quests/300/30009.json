@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30004
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fluids§f\n\n§aLiquids, elementals, and fuels, the lifeblood of Thermal Expansion!§f\n\nThe molten fluids, §bDestabilized Redstone§f (emits light §e7§f, conducts signals), §bEnergized Glowstone§f (floats upward), and §bResonant Ender§f (teleports on contact), are melted from ores or clathrates in the §bMagma Crucible§f.\n\nElemental fluids (§e250 mB§f, §e8,000 RF§f each) are where the fun starts. §bBlazing Pyrotheum§f smelts cobble to stone and burns at §e2,000,000 RF/bucket§f in a Magmatic Dynamo. §bGelid Cryotheum§f is the ultimate coolant, §e3x§f more effective than water and §e12x§f longer lasting. §bZephyrean Aerotheum§f slows entities. §bTectonic Petrotheum§f breaks stone on contact.\n\nAlso available: fossil fuels (Crude Oil through Refined Fuel), bio fluids (Seed Oil, Sap, Tree Oil), and Primal Mana.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalfoundation:fluid_redstone"
+      },
+      "name:8": "Fluids",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30009,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalfoundation:fluid_redstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

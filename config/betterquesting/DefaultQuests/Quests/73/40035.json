@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Steel Furnace§f\n\n§aThree slots, bonus output, and it runs on heat. The workhorse of NTM smelting.§f\n\nThe §bSteel Furnace§f runs on §bTU§f from a firebox or heating oven. Three input slots process simultaneously, and you get a bonus: every 4 items smelted yields a 5th free item for ores and wood.\n\nCrafted at a §bTier 2 Anvil§f from stone bricks, iron ingots, steel plates, red copper, and steel grates.\n\nHeat transfer rate is ΔT × 0.05 TU/t per active slot. Pair it with a strong heat source for best throughput.\n\n§ePS:§f Great for automation. The multi-slot processing and bonus yield make it the best furnace for bulk smelting.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:furnace_steel"
+      },
+      "name:8": "Steel Furnace",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40035,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:furnace_steel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

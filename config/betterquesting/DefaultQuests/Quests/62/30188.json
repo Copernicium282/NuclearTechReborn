@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    30149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Want your ME network to look good and actually light up a room? Illuminated Panels do both.\n\nThree brightness tiers: §6Bright §f(full light, used by Storage Monitors), §6Illuminated §f(medium, default), and §6Dark §f(dim, used by Conversion Monitors). Each emits light level 15 when the network is powered.\n\nPanels are dyeable, matching the ME Cable colour palette. They also double as visual network state indicators: steady light means the network is working, dark means no power.\n\nCraft 3 from Quartz Glass, Glowstone Dust, Iron, and Redstone. Upgrade between tiers with shapeless recipes.\n\n§ePS:§f Panels do not transmit channels, power, or items. They are decoration with a side of information.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 160,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "Illuminated Panels",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30188,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 160,
+          "id:8": "appliedenergistics2:part"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 180,
+          "id:8": "appliedenergistics2:part"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 200,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

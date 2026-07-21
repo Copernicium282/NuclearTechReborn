@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Separator§f\n\n§aSplits items into component parts.§f\nThe §bSeparator§f takes §b1 item input§f and produces §b2 item outputs§f. Default cycle is §b800 ticks§f at §b10 RF/t§f. It\u0027s used for separating composite materials into their constituent components.\n\nThe Separator is essential for breaking down alloy dusts back into their base metals, or separating processed materials for further refinement in other machines. It\u0027s a processing step you\u0027ll use repeatedly throughout your progression.\n\n§ePS:§f The two outputs are always different items. Make sure your piping handles both streams. Missing one output can stall your entire processing line and waste power while the machine sits idle waiting.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:separator"
+      },
+      "name:8": "Separator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30081,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:separator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

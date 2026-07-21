@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Better Builder\u0027s Wands§f\n\n§aPlacing blocks one at a time? That\u0027s medieval.§f\nBuilding Wands let you place multiple blocks in a single click. More tiers, more blocks at once.\n\n§b• Stone§f: §c5 blocks§f max, horizontal only.\n§b• Iron§f: §c9 blocks§f max, toggle between horizontal and vertical.\n§b• Diamond§f: Up to §c1,024 blocks§f, all direction modes available.\n§b• Unbreakable§f: No durability, scales with damage value.\n\nCycle through build modes by right-clicking. Toggle fluid placement mode to replace water or other fluids instead of placing blocks.\n\nThe diamond and unbreakable wands have full directional control: horizontal, vertical, N-S, E-W, and no-lock for free placement in any direction.\n\n§ePS:§f These are a lifesaver for building walls, roads, and large platforms. Once you use one, you\u0027ll never go back.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterbuilderswands:wandiron"
+      },
+      "name:8": "Better Builder\u0027s Wands",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30228,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterbuilderswands:wandiron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

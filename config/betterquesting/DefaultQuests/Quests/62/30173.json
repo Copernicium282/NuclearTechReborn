@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30170
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The fluid equivalent of the ME Terminal. It shows all fluids stored in the network and lets you deposit or withdraw them using buckets, cells, or any fluid container.\n\nRight-click with a fluid container to fill or empty it from the network. The terminal lists every fluid type with quantities, and you can search by name just like the item terminal.\n\nYou need fluid storage cells in a drive for this to be useful. Item cells do not store fluids, so if you only have item cells, this terminal shows nothing.\n\n§ePS:§f Place a Fluid Terminal near your fluid processing area for quick access to coolant, fuel, and chemical supplies.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 520,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Fluid Terminal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30173,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 520,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

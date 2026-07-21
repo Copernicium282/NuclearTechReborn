@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40087
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Coker Naphtha§f\n\n§aMedium-grade coker byproduct - reform it for reformate gas or mix it into solvent!§f\n\nCoker Naphtha is a flammable, combustible, polluting viscous liquid with a medium fuel grade at §e125 kTU§f and §e187 kHE§f per bucket. It is a common byproduct when coking lighter fluids in the §bCoker Unit§f.\n\n§6Production§f (Coker Unit):\n§b•§f Cracked Naphtha (§e6,400mB§f) → §e640mB§f Coker Naphtha.\n§b•§f Reclaimed Industrial Oil (§e5,800mB§f) → §e580mB§f.\n§b•§f Naphtha (§e4,900mB§f) → §e490mB§f.\n§b•§f Diesel (§e590mB§f) → §e59mB§f.\n\n§6Uses§f:\n§b•§f Catalytic Reformer: §e1,000mB§f → §e500mB§f Reformate + §e100mB§f Reformate Gas + §e50mB§f Liquid Hydrogen.\n§b•§f Fractioning Tower: §e100mB§f → §e75mB§f Cracked Naphtha + §e25mB§f Cracked Light Oil.\n§b•§f Industrial Mixer: §e500mB§f + §e500mB§f Aromatic Hydrocarbons → §e1,000mB§f Solvent.\n\n§ePS:§f Coker Naphtha is decent fuel but much more valuable when reformed. The §bCatalytic Reformer§f route gives Reformate Gas - the §e100mB§f per §e1,000mB§f adds up fast with large coker batches!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 106,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Coker Naphtha",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40131,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 106,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

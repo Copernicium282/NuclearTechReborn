@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40006
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Foundry Mold§f\n\n§aTells the basin what shape to pour. Ingot, plate, block, or something weirder.§f\n\nCraft a §bBlank Mold§f at the anvil (firebrick + iron ingot), then combine it with a sample item to get the specific mold you want. Pop it into a foundry basin, pour molten metal from the crucible through channels, and extract the finished casting.\n\nMolds are reusable. Check JEI for the full list: ingots, plates, wires, dense wires, blades, pipes, weapon parts, and more. The shallow basin takes 5 molds, the full basin takes 9.\n\n§ePS:§f Some molds produce multiple items per pour (wires x8, ingots x9 in the full basin).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:foundry_mold"
+      },
+      "name:8": "Foundry Mold",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40027,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:foundry_mold"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

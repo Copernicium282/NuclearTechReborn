@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40046
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aAll the protection, none of the slowdown.§f\n\nThe PaA Battle Hazmat trades raw radiation resistance for combat mobility. 1.7 total RR with zero speed penalty, compared to the Liquidator\u0027s 2.4 RR but 40% speed cut.\n\nMade from PaA Alloy Plates in the Assembly Machine. Each piece needs PaA Alloy from the processing line. It\u0027s the best hazmat set for fighting in contaminated zones where you need both protection and speed.\n\n§cWARNING:§f This does NOT protect against Digamma Radiation. Only FAU Armor handles that.\n\n§ePS:§f If you\u0027re just standing near a reactor, the Liquidator is still better. But if you\u0027re fighting IN the contamination, this is the one.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:hazmat_paa_helmet"
+      },
+      "name:8": "PaA Battle Hazmat",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40047,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:hazmat_paa_helmet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    20000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Vent Ducts§f\n\n§aRoute smoke through walls, floors, and ceilings.§f\nVents are the intermediate blocks of the ventilation system. While chimneys vent smoke upward into the sky, vents let smoke pass through solid surfaces, so you can route exhaust to wherever you need it.\n\nAvailable in the same materials as chimneys (brick, cobblestone, concrete, glass, terracotta), so they blend right into your builds. Nobody has to know your smoke travels through the walls.\n\n§9Note:§f Vents are crafted from chimney blocks. Place them in a line between your chimney and wherever you want the smoke to go.\n\n§ePS:§f Pair with §bPumps§f for active ventilation in enclosed spaces where smoke can\u0027t rise on its own.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "adchimneys:brick"
+      },
+      "name:8": "Vent Ducts",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 20002,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "adchimneys:brick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

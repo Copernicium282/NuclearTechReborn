@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40086
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Reformate Gas§f\\n\\n§aThe rarest vacuum refinery product, and the one you will need in massive quantities for endgame.§f\\n\\nReformate Gas only shows up when you run §bDesulfurized Crude Oil§f through the Vacuum Refinery. You get §e150mB§f per §e1,000mB§f of desulfurized crude, less than half of what regular crude gives you for Reformate. But this gaseous output at §e10.5 MTU§f and §e15.7 MHE§f per bucket is irreplaceable.\\n\\nIt is the ingredient for §bHigh-Performance Solvent§f (§e750mB§f Reformate Gas + §e250mB§f Chlorine Gas), used in HPS production. It welds Combine Steel Plates at §e1,000mB§f per plate and Osmiridium Plates at a staggering §e16,000mB§f per plate in the Arc Welder. It also feeds into Saturnite and CMB welding recipes.\\n\\nOther production paths exist in JEI, the Catalytic Reformer, Fractioning Tower, and even the Coker Unit can produce small amounts. But the vacuum refinery is your main source.\\n\\n§ePS:§f You will burn through Reformate Gas fast during endgame crafting. Build multiple vacuum refineries running desulfurized crude and pipe everything into dedicated storage. Running out mid-weld is a frustration you do not need.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 100,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Reformate Gas",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40092,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 100,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

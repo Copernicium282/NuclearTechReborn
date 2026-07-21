@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30222
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Mutant Beasts§f\n\n§aSomeone added Chemical X to the gunpowder. Bad idea.§f\nMutant Zombies, Skeletons, Creepers, and Endermen roam the world. They spawn rarely, but when they do, you\u0027ll know.\n\nEach type has its own spawn weight: Zombies are most common, Endermen are rare and terrifying. Defeating them drops stuff like the §eHulk Hammer§f or §eEndersoul Hand§f. The Mutant Creeper also drops §eChemical X§f, a mutagenic fluid you can throw at regular mobs to force them to mutate. The Creeper Minion hatches from that fight and sits on your shoulder.\n\nOh, and regular mobs can spawn with NTM armor and weapons. They look normal. They are not.\n\n§cWARNING:§f Some of those NTM-geared mobs will end you instantly. Watch yourself.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:bone"
+      },
+      "name:8": "Mutant Beasts",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30231,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:bone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

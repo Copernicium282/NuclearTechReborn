@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    10040
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Satellites are in orbit, but how do you actually see what they\u0027ve found? That\u0027s where the §6Satellite Control Center§f comes in.\n\nThis multiblock terminal connects to your satellites via a Data Bus and displays everything they\u0027ve collected: ore maps, biome data, atmospheric readings. The GUI lists every active satellite with its status, orbit, and remaining power, and lets you pull data out as a Data Unit for use in the Astrobody Data Processor.\n\nPlace it somewhere with a clear view of the sky. Underground terminals can\u0027t receive satellite data. If you\u0027re on a space station, put it in a glass-domed room.\n\n§ePS:§f The terminal powers itself at 10,000 RF capacity. Not huge, but it doesn\u0027t draw much. Just make sure you have enough for the Data Bus connections too.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:satellitecontrolcenter"
+      },
+      "name:8": "Satellite Control Center",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10041,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:satellitecontrolcenter"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:dataunit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

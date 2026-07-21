@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40287
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Undefined§f\n\n§aThe output of digamma fuel recycling. Glitchy, mysterious, and useful.§f\n\n§bUndefined§f is obtained by recycling used §bDigamma RBMK Fuel Pellets§f in a §bSILEX§f with a Spark Laser Crystal. The yield is §e6×§f per operation at §e16.6%§f chance per slot across §e6 slots§f. Output stays the same regardless of how depleted the fuel was.\n\nIts tooltip cycles randomly between other item names and \"ERROR #\", and its texture glitches out. Nobody knows what it actually is.\n\n§6Uses§f:\n§b• Murky Anvil§f, §e8 Undefined§f surrounding a Steel Anvil in a crafting table\n§b• Digamma Laser Crystal§f, §e6 Undefined§f + Electronium Ingot + Quartz Glass\n\nThe murky anvil shares recipes with the dineutronium anvil and has its own unique properties. The digamma laser crystal is used in specialized laser equipment.\n\n§ePS:§f Undefined is entirely optional. If you\u0027re not after the murky anvil or digamma laser crystal, skip the whole digamma fuel cycle. The SILEX process is slow, so plan for multiple fuel rods if you need serious quantities.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:undefined"
+      },
+      "name:8": "Undefined",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40289,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:undefined"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

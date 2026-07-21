@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30233
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6RF Lux§f\n\n§aLights that don’t look like you raided a dungeon for glowstone.§f\n§9RF Lux§f gives you clean, configurable lighting with optional redstone control. Three tiers:\n\n§b• Level 0§f: No power needed, glowstone-level light.\n§b• Level 1§f: Larger area, §c5 RF/t§f from a §e10,000 RF§f buffer.\n§b• Level 2§f: Maximum area, §c20 RF/t§f.\n\nAvailable as flat panels or full blocks, with §65 color options§f each. Great for keeping your factory floors lit without looking like a torch spam incident.\n\nRedstone control means you can hook these up to sensors and switches for automated lighting systems that turn on when you walk in and off when you leave.\n\n§ePS:§f Check JEI for all the color and form factor variants.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:redstone_lamp"
+      },
+      "name:8": "RF Lux",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30229,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:redstone_lamp"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

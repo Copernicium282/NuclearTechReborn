@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30121
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Garden Seeds \u0026 Grains§f\n\n§aDiscover world-gen gardens and farm grains for advanced recipes.§f\n\n§bGarden Seeds§f (Arid, Frost, Shaded, Soggy, Tropical, Windy) can be planted to grow §eworld-gen garden patches§f that passively drop crops, making them a great way to obtain seeds and crops early. Use bone meal to accelerate.\n\n§6Garden Types§f: Arid (Cactus Fruit, Agave, Cassava), Frost (Raspberry, Oats, Rye, Broccoli), Shaded (Blackberry, Tomato, Garlic, Leek), Soggy (Blueberry, Cranberry, Rice, Okra), Tropical (Grape, Pineapple, Kiwi, Sesame), Windy (Strawberry, Barley, Corn, Peanut).\n\n§bGrains§f (Barley, Oats, Rye, Corn) are processed into Flour via the §bGrinder§f or §bMortar and Pestle§f.\n\n§6Garden Mechanics§f:\n§b• World Generation§f: Gardens spawn naturally in specific biomes (Arid in deserts, Frost in cold biomes, etc.).\n§b• Drop Rates§f: Each garden block drops 1-3 random crops when harvested. Use §eBone Meal§f to force additional drops.\n§b• Renewable§f: Gardens regenerate crops over time, so place them near your base for a passive food source.\n§b• Seed Production§f: Harvesting gardens yields §bGarden Seeds§f that can be replanted elsewhere.\n\n§eTip§f: Collect all §e6 garden types§f early to unlock the widest variety of crops. Plant them in a §bGreenhouse§f or enclosed farm for controlled, automated harvesting.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:barleyitem"
+      },
+      "name:8": "Garden Seeds \u0026 Grains",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30123,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:barleyitem"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:cornitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

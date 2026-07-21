@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Large Mining Drill§f\\n\\n§aThe only machine that can pull bedrock ore out of the ground  -  your gateway to infinite resources!§f\\n\\nThe §bLarge Mining Drill§f is a 7x7x7 pseudo-multiblock that mines a 3x3 column straight down to bedrock. It cannot mine depth rock, but once it hits bedrock it starts extracting ore that never runs out.\\n\\n§6Crafting§f (Assembly Factory):\\n§b•§f 8x Stone Bricks, 8x Steel Ingot, 8x Iron Ingot, 2x Motor, 1x Analog Circuit Board.\\n\\n§6Operation§f:\\n§b•§f Base power draw: §e10 kHE/t§f.\\n§b•§f Speed with steel drillbit: ~§e300 seconds§f per raw ore.\\n§b•§f Needs a drillbit to operate. Steel to start, upgrade to Desh later.\\n§b•§f Output port near the miller connects to a Bedrock Ore Processor.\\n\\n§6GUI toggles§f: Walling (sandbags), Silk Touch, Crushing, Vein Mining.\\n\\n§ePS:§f Hook the output directly to a Bedrock Ore Processor for a fully automated infinite resource pipeline!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_excavator"
+      },
+      "name:8": "Large Mining Drill",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40107,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_excavator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

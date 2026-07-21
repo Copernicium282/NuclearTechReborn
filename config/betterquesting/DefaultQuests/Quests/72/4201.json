@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Heavy Steam: Boilers \u0026 Turbines§f\\n\\n§aBoil water and spin massive turbines to generate high-capacity industrial power!§f\\nFor heavy industrial machinery, solar and wind power are not enough. You must harness thermodynamic steam systems to generate high-voltage electricity.\\n\\n§6Steam Boilers§f:\\nThe Steam Boiler consumes water and fuel (solid or liquid) to generate high-pressure steam:\\n§b• Conversion Rate§f: Converts water to steam at a §e1:5 ratio§f.\\n§b• Water Intake§f: Consumes §e76 mB of water per tick§f.\\n§b• Steam Output§f: Generates §e380 mB of steam per tick§f.\\n§b• Solid Fuel Penalty§f: Solid fuels burn twice as fast inside the boiler firebox compared to a standard furnace (e.g., a piece of Coal provides §c800 ticks§f of firebox heat instead of 1,600 ticks).\\n\\n§6Steam Turbines§f:\\nFeed high-pressure steam from your boiler directly into a §bSteam Turbine§f to generate electricity:\\n§b• Power Output§f: Produces a massive §e512 FE/tick§f at full speed.\\n§b• Steam Consumption§f: Requires §e250 mB of steam per tick§f to maintain maximum rotation.\\n§b• Water Condensation§f: As the turbine spins, it cools the steam back into liquid form, allowing you to recycle the output §bWater§f back into your boiler system.\\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialrenewal:steam_turbine"
+      },
+      "name:8": "Steam Power",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4201,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialrenewal:steam_turbine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

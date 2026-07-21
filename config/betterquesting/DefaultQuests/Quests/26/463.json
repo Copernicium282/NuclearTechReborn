@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    427
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Decay Chamber§f\n\n§aLet unstable particles fall apart and collect the pieces.§f\n\nThe Decay Chamber is a particle chamber that lets incoming beams decay or interact over the chamber path length, producing new particle species on the output ports. Use it to harvest muons, pions, neutrinos, and other short-lived secondaries.\n\nBuild it as a square multiblock with odd dimensions. Place a Particle Chamber at center, beam blocks to the outer faces, beam ports, energy ports, and fluid ports. You can have multiple input beam ports.\n\nThe chamber processes beams in segments, computing focus loss at each step. Unstable species decay as they travel. Output particles exit through OUTPUT ports with their new species.\n\n§ePS:§f The longer the chamber, the more decay time. A 7x7 chamber gives particles more distance to decay than a 3x3.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:decay_chamber_controller"
+      },
+      "name:8": "Decay Chamber"
+    }
+  },
+  "questID:3": 463,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:decay_chamber_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

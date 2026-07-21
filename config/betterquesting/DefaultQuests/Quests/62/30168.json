@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    30167
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Spatial storage cells let you capture and move entire 3D structures. Combine a spatial component with an ME Storage Housing to make one.\n\nThe 2 cubed cell captures a tiny 2x2x2 cube. The 16 cubed captures a 16x16x16 chunk. The 128 cubed is enormous and requires serious endgame infrastructure.\n\nTo use one, you need a Spatial IO Port. Place the cell in the port, build your structure within the capture area, and activate it. The structure vanishes from the world and is stored in the cell. Place the cell in another port at the destination to release it.\n\nEverything is preserved: machines keep their inventories, chests keep their contents, signs keep their text.\n\n§ePS:§f Great for moving bases, factory sections, or quarry setups without breaking and replacing every block.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:spatial_storage_cell_2_cubed"
+      },
+      "name:8": "Spatial Storage Cells",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30168,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:spatial_storage_cell_2_cubed"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:spatial_storage_cell_16_cubed"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:spatial_storage_cell_128_cubed"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

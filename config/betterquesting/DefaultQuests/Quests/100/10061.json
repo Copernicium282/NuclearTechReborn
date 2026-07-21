@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    10012
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Same idea as the Item IO board, but for §6fluids§f. The §6Liquid IO Circuit Board§f goes into Fueling Stations, Rolling Machines, Centrifuges, Chemical Reactors, Electrolysers, and anything with a fluid tank.\n\nTwo recipes: §6vanilla crafting§f (redstone, quartz, lapis lazuli, wood slab, iron plate) and §6Precision Assembler§f (200 ticks, 10 RF/t) using redstone, lapis, and steel plate. Multiblock machines with multiple fluid hatches may need 2-4 boards each.\n\nThe Liquid IO board is also a component in the AE2 1k ME Fluid Storage Component, so you\u0027ll need it for your storage network too.\n\n§ePS:§f Lapis lazuli is the bottleneck ingredient. A Lapis Farm with silk touch pays for itself in no time at this stage.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "advancedrocketry:ic"
+      },
+      "name:8": "Liquid IO Circuit Board",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10061,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "advancedrocketry:ic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

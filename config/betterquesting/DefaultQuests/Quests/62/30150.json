@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    30149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Cores are the building blocks that define how items flow in your ME network. Two types:\n\n§bFormation Core§f (placing items into inventories):\n- Storage Bus, Import Bus, ME Pattern Provider (output side)\n- Formation Plane\n\n§bAnnihilation Core§f (extracting items from inventories):\n- Export Bus, ME Pattern Provider (input side)\n- Molecular Assembler\n- Annihilation Plane\n\nBoth require Processors and Pure Crystals to craft. Every bus and plane that touches an external inventory needs a Core, so plan production in proportion to your automation scale.\n\n§ePS:§f Formation goes in, Annihilation comes out. Remember that and you will never mix them up.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 43,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Cores",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30150,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 43,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 44,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40308,
+    40281
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6FEnSU§f\n\n§aInfinite energy storage. The only thing that can handle DFC-scale power.§f\n\nThe Ferriswheel Electronium Storage Unit is forged in the Plasma Forge for §e300 seconds§f at §e1 GHE/t§f consumption and §e1 GTU/t§f plasma input. It is the most expensive machine in the mod.\n\n§6Recipe§f: 64 electronium ingots, quantum battery, 128 welded osmiridium plates, 64 cast bismuth bronze plates, 32 cast combine steel plates, 32 dense magnetized tungsten wire, 64 dineutronium compound plates, 64 pulverized enchantment, metastable U-238M2 ingot, and 128 crystalline fullerite.\n\n§6Properties§f: Infinite capacity, extremely high input and output rates. The DFC\u0027s power output fluctuates wildly and can spike to levels that destroy conventional storage. The FEnSU absorbs these spikes without issue.\n\n§cWARNING:§f This requires 64 electronium ingots, which means 128 dineutronium powder and 128 ionized particles via the Book of Boxcars. Build your FEnSU before the DFC, not after.\n\n§ePS:§f With fragment-boosted forge speed (4x), the 300s duration drops to 75s. Stockpile fragments.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_battery_redd"
+      },
+      "name:8": "FEnSU",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40309,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_battery_redd"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

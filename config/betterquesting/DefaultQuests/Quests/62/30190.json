@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30161
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Need to move data between storage cells fast? The §6ME IO Port §fdoes exactly that.\n\nPlace it in the centre of a 3x3 arrangement of ME Drives and the port gives you a single GUI to see and manage all cells across those drives. Move items between cells, reorganize storage, or consolidate partial stacks.\n\nThe port does not host autocrafting patterns. For that you need a Pattern Terminal on an ME Interface.\n\nCraft it from Glass, an ME Drive, a Fluix Cable, a Logic Processor, and Iron Ingots.\n\n§cWARNING:§f Drives inside an IO Port are isolated from the network until a Controller connects them. And the port uses 1 channel from the controller, so plan cabling.\n\n§ePS:§f An IO Port without attached drives is just an expensive cable endpoint. Place at least 1 Drive.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:io_port"
+      },
+      "name:8": "ME IO Port",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30190,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:io_port"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

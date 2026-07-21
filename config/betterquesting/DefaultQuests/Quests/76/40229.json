@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40227
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Schrabidic Acid§f\n\n§aRadioactive, corrosive, flows like water but spreads like lava. Handle with extreme care.§f\n\n§bSchrabidic Acid§f is the chemical backbone of schrabidium processing. NFPA ratings are §e4/0/4§f, meaning it is an acid and a radiological hazard. It heavily irradiates players on contact.\n\n§6Make It§f (Chemical Factory, 5s, 5.0 kHE/t):\n§b•§f §e8,000 mB§f Schrabidium Trisulfide\n§b•§f §e6,000 mB§f Hydrogen Peroxide\n§b•§f 1 Ionized Particle\n§b•§f Output: §e16,000 mB§f Schrabidic Acid\n\n§6What It Is For§f:\n§b•§f Ferric Schrabidate, 250 mB per Iron Powder\n§b•§f PUREX schrabidium extraction, 500 mB per run, yields 0.75 ingots\n§b•§f Schrabidium Trisulfide precursor chain\n\n§ePS:§f Stockpile hydrogen peroxide and get a reliable ionized particle source from fusion before scaling. You need trisulfide too: Schrabidium Powder + Sulfur + H2O2 -\u003e Trisulfide.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Schrabidic Acid",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40229,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

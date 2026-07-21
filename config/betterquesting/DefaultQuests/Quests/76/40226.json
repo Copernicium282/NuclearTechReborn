@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40225
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fusion Plasma Types \u0026 Byproducts§f\n\n§aTen plasmas, ten different outputs. Pick the wrong one and you are burning fuel for nothing.§f\n\nAll recipes take §e5 seconds§f at §e25 kHE/t§f. The plasma you run determines your power output, byproducts, and neutron flux.\n\n§6Plasma Table§f:\n§b•§f §bDeuterium§f: He-4 output, 1.0 MTU/t, 50 flux, entry-level\n§b•§f §bD-Oxygen§f: Ionized Particles, 1.25 MTU/t, 50 flux\n§b•§f §bD-Tritium§f: He-4, 3.75 MTU/t, 100 flux, best general-purpose\n§b•§f §bHe-3§f: He-4, 3.75 MTU/t, §e0 flux§f (aneutronic)\n§b•§f §bT-He4§f: Ionized Particles, 4.0 MTU/t, 500 flux\n§b•§f §bTritium-Chlorine§f: Chlorophyte, 6.25 MTU/t, 500 flux\n§b•§f §bChlorine§f: Chlorophyte, 10 MTU/t, 1000 flux, needs 4 klystrons\n§b•§f §bDHC§f: Chlorophyte, §e25 MTU/t§f, 2000 flux, needs coupler\n§b•§f §bBalefire§f: Thermonuclear Ash, 12.5 MTU/t, 2000 flux\n§b•§f §bStellar§f: Gold Powder, §e50 MTU/t§f, §e10,000 flux§f, needs coupler\n\n§6Ionized Particles§f: Fusion byproduct, can be duplicated via Ionic Gel + Chlorinated Petroleum Wax. Used for Schrabidic Acid, Electronium, Helium-4, and Flashgold RBMK fuel.\n\n§ePS:§f §bHe-3§f produces zero flux, perfect when you want power without breeding. §bD-Tritium§f is the workhorse for most players.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 56,
+        "id:8": "hbm:fluid_icon"
+      },
+      "name:8": "Fusion Plasma Types \u0026 Byproducts",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40226,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 57,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

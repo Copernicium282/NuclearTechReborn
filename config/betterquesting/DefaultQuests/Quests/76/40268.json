@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40201
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Strontium-90§f\n\n§aCommon fission product, long-lived RTG power with multi-year lifespan!§f\n\n§bStrontium-90§f (Sr-90) is a very radioactive and dangerous isotope (§e15 RAD/s§f) and a common fission product. Naturally pyrophoric from decay heat and hydroreactive.\n\n§6Production§f:\n§b• Short-Lived Nuclear Waste§f, Sr-90 makes up ~5.5% on average\n§b• MOX Fuel Cycles§f, reprocessing MOX fuel in the research reactor\n§b• Highly Enriched U-233 Fuel§f, research reactor fuel cycle\n\n§6Key Uses§f:\n§b• RTG Pellet§f, §e15 HE/t§f heat value; with RTG decay enabled: 208,800,000 tick lifespan (~4 real months, 43.5 years in-game), producing §e3,132 MHE§f total. Decays to zirconium.\n\n§eTip§f: The Sr-90 RTG pellet is your best mid-to-high tier passive power source, one pellet lasts 4 real months and produces over 3 GHE total! Set up automated short-lived waste processing to maintain a steady supply!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3800,
+        "id:8": "hbm:ingot_raw"
+      },
+      "name:8": "Strontium-90",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40268,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3800,
+          "id:8": "hbm:ingot_raw"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

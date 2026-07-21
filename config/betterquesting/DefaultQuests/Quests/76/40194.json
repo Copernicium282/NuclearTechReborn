@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40193
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Technetium-99§f\n\n§aThe first fission product you\u0027ll actually care about. Mildly radioactive, extremely useful.§f\n\n§bTechnetium-99§f is a common byproduct of uranium and plutonium fission. At §e2.75 RAD/s§f, it\u0027s the tamest thing coming out of your reactor. You\u0027ll want a lot of it.\n\n§6Where It Comes From§f:\n§b•§f §bDepleted ZIRNOX Fuel§f, process spent uranium, plutonium, or MOX rods\n§b•§f §bDepleted Research Reactor Fuel§f, same deal\n§b•§f §bU-235 Short-Lived Waste§f, Tc-99 makes up §e20%§f of the U-235 type\n\n§6What It\u0027s For§f:\n§b•§f §bTechnetium Steel§f, the corrosion-resistant alloy you\u0027ll use everywhere\n§b•§f §bSelf-Charging Batteries§f, low-output perpetual power\n\nEvery uranium-based fuel except natural uranium, MOX, and plutonium yields Tc-99 when reprocessed. Start with ZIRNOX spent fuel, it\u0027s the lowest-effort source.\n\n§ePS:§f Check JEI for which fuels produce technetium. The research reactor fuels are richer sources but more expensive to run.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_technetium"
+      },
+      "name:8": "Technetium-99",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40194,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_technetium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

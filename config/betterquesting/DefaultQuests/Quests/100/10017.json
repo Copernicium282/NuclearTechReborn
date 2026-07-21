@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10016
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Chemical Reactor§f mixes up to three fluid inputs (or two fluids plus an item) under heat and pressure to produce advanced chemicals: rocket fuel, bipropellant fuel, nitrogen tetroxide, and oxygen/hydrogen precursors for the Atmosphere Terraformer.\n\nThe multiblock is 3x4x4 with Structure Blocks, Motors, Liquid IO Boards, Item IO Board, and a Control Circuit Board. Power draw scales with the recipe.\n\nThis machine is the prerequisite for bipropellant fuel, which feeds the Bipropellant Rocket Motor used by every orbital rocket in the late game. It also enables space suit enchanting through a special recipe.\n\n§ePS:§f Build redundant Liquid IO Boards on the output face. Many high-tier recipes output two fluids and one item, and a single output hatch bottlenecks the recipe.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:chemicalreactor"
+      },
+      "name:8": "Chemical Reactor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10017,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:chemicalreactor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

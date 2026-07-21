@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Pressurizer§f\n\n§aApplies extreme pressure to compact materials.§f\nThe §bPressurizer§f takes §b1 item input§f and produces §b1 output§f. Default cycle is §b600 ticks§f at §b40 RF/t§f. It\u0027s used for compacting materials under pressure, creating dense plates and compressed variants that can\u0027t be made any other way.\n\nThe Pressurizer is power-hungry at 40 RF/t, same as the Melter. But it produces materials essential for advanced recipes and reactor components. You\u0027ll need it for certain plate and component recipes.\n\n§ePS:§f The Pressurizer loses progress on interruption. Keep your item supply steady to avoid wasted cycles and power consumption. A hopper or duct feeding items in helps a lot.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:pressurizer"
+      },
+      "name:8": "Pressurizer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30084,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:pressurizer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

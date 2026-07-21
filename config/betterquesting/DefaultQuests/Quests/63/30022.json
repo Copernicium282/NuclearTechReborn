@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Speed Upgrade§f\n\n§aMakes your NC machines run faster. Simple as that.§f\nEach §bSpeed Upgrade§f cuts processing time roughly in half at the cost of proportionally more power consumption. You can slot up to §b8 upgrades§f per machine, but past 4 or 5 you\u0027re burning power for diminishing returns.\n\nCraft them with §bLapis§f, §bRedstone§f, and a §bHeavy Weighted Pressure Plate§f in a checkerboard pattern. They\u0027re cheap enough that you should be slapping them on everything.\n\nEvery §bUpgradableProcessor§f machine in NC accepts Speed Upgrades: Nuclear Furnace, Alloy Furnace, Manufactory, Assembler, Pressurizer, Chemical Reactor, and all the fluid processors.\n\n§cWARNING:§f Speed Upgrades increase power draw proportionally. Make sure your power generation can keep up before you max out the slots.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:upgrade"
+      },
+      "name:8": "Speed Upgrade",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30022,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

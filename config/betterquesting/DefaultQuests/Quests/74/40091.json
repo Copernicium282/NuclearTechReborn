@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40086
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Reformate§f\\n\\n§aA high-energy liquid that bridges vacuum refining and advanced fuel production.§f\\n\\nReformate is the second most common output from the Vacuum Refinery, showing up at §e250mB§f per §e1,000mB§f of crude oil processed. It packs §e2.4 MTU§f and §e6.0 MHE§f per bucket with a high fuel grade, but burning it would be a waste.\\n\\nThe real play is fractioning it. §e100mB§f Reformate in a Fractioning Tower yields §e60mB§f BTX plus §e40mB§f Aromatic Hydrocarbons. BTX opens up advanced chemical production chains. You can also mix it in an Industrial Mixer: §e100mB§f Reformate + §e900mB§f Kerosene → §e1,000mB§f Jet Fuel, or the same ratio with Diesel for High-Octane Diesel.\\n\\nThe Catalytic Reformer can also produce Reformate from Naphtha, Cracked Naphtha, or Coker Naphtha, usually §e500mB§f per §e1,000mB§f input.\\n\\n§ePS:§f Reformate is renewable through the vacuum refinery setup. Do not crack or coke it if you can help it, fractioning it into BTX gives you way more value per bucket.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 92,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Reformate",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40091,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 92,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

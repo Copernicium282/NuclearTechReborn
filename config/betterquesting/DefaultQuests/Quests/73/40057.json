@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aCast plates are just the raw material. Weld them into something useful.§f\n\nThe Arc Welder fuses cast plates into welded components, the building blocks for oil refineries, Watz reactors, and fusion. Craft it at the Tier 2 Anvil from cast steel plates, tungsten ingots, a transformer, and graphite electrodes.\n\nThe GUI has three color-coded item slots and one fluid input. The main product is the Welded Plate, two cast plates becoming one. You can also make simplified components (circuits, motors) and assemble missiles.\n\n§ePS:§f Welded plates are a bottleneck for oil refining. Set up automated cast plate production before building the Arc Welder, or you\u0027ll be waiting a long time.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_arc_welder"
+      },
+      "name:8": "Welded Plates",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40057,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_arc_welder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

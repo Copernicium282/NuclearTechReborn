@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    472
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Lepton Cannon§f\n\n§aFires charged leptons. Electrons, muons, or tau particles at your enemies.§f\n\nThe Lepton Cannon is one of three QMD endgame weapons. Right-click to fire a lepton projectile that deals heavy burst damage and applies radiation poisoning.\n\nCraft from an Elite Processor, Elite Plating, Super Alloy, Extreme Alloy, and BSCCO Wire. It needs a fuel cell, likely a Positron Cell or Muonium Cell. Check the tooltip.\n\nSame radiation poisoning mechanic as the Gluon Gun. Hit them once for burst damage, then watch them melt from radiation.\n\n§cWARNING:§f Do not fire near antimatter cells. The lepton burst can trigger detonation. Same rule as the Gluon Gun.\n\n§ePS:§f All three endgame weapons use Elite Processors. Stock up before you start crafting your arsenal.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:lepton_cannon"
+      },
+      "name:8": "Lepton Cannon",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 488,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:lepton_cannon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

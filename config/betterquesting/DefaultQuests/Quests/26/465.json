@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    447
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6BSCCO Superconducting Wire§f\n\n§aHigh-temperature superconductor. The backbone of every serious magnet and coil in QMD.§f\n\nBSCCO stands for Bismuth Strontium Calcium Copper Oxide. It is a high-temperature superconductor with critical temperatures above 100 K, meaning it needs less exotic cooling than alternatives.\n\nCraft BSCCO Dust from Bismuth, Strontium, Calcium, and Copper Oxide Dusts in an NC Assembler. Then combine the dust with Silver Ingots in an HBM Assembly Machine or NC Assembler to get the wire.\n\nBSCCO Wire goes into BSCCO Electromagnets, BSCCO RF Cavities, Vacuum Chamber Coils, Mass Spectrometers, and Elite Processors. If it looks high-tier, it probably uses BSCCO.\n\n§ePS:§f Bismuth comes from your spallation Target Chamber setup. Strontium from neutron-activated Zirconium. Start those supply lines early.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "qmd:chemical_dust"
+      },
+      "name:8": "BSCCO Superconducting Wire"
+    }
+  },
+  "questID:3": 465,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "qmd:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

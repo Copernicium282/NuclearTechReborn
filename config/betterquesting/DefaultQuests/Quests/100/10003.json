@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6HeatProof Brick§f (internally called Blastbrick) is a fire-resistant building block for high-temperature machines. You need it for the Electric Arc Furnace, Precision Assembler, and blast furnace setups.\n\nCraft it shaped: 1 HBM Polymer Plate on top of 1 Brick Block. That makes it the cheapest fire-resistant block in the modpack, so use it liberally for any machine that runs hot.\n\n§cWARNING:§f This is NOT vanilla Nether Brick. The two are separate items. Polymer Plates come from HBM\u0027s petroleum processing chain, so you\u0027ll need to progress through oil refining first.\n\n§ePS:§f You can pair HeatProof Brick with Carbon Bricks for carbon processing recipes in the Arc Furnace.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:blastbrick"
+      },
+      "name:8": "HeatProof Brick (Blastbrick)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10003,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:blastbrick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

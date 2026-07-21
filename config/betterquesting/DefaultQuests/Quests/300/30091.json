@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30089
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fluiduct§f\n\n§aPipe fluids between tanks and machines through a pressurized network!§f\n\n§bFluiducts§f carry one fluid type per network. Throughput depends on fluid viscosity (§e80–600 mB/tick§f) and network pressure, full network runs max, empty runs half.\n\n§6Crafting§f:\n§b• Transparent§f: §e1× Copper Ingot§f + §e1× Glass§f → §e6× Fluiduct§f.\n§b• Opaque§f: §e1× Copper Ingot§f + §e1× Lead Ingot§f → §e6× Fluiduct (Opaque)§f.\n\nTransparent fluiducts glow when carrying luminous fluids like lava or §bEnergized Glowstone§f, handy as a visual indicator. Attach §bServos§f to pull fluids from inventories, and §bFilters§f to keep fluid types separated on shared lines.\n\n§cWARNING:§f Basic fluiducts break with extreme-temperature fluids (lava, Gelid Cryotheum). Use §bHardened Fluiducts§f for those.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermaldynamics:duct_16"
+      },
+      "name:8": "Fluiduct",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30091,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "thermaldynamics:duct_16"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    461
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Muonium Cell \u0026 Positronium Cell§f\n\n§aExotic bound states. Like hydrogen, but weirder.§f\n\nMuonium is a positive muon bound to an electron. Positronium is an electron bound to a positron. Both are exotic atoms used in endgame synthesis recipes.\n\nFill Empty Cells with Muonium or Positronium fluid in the Neutral Exotic Containment Chamber. The fluid comes from your particle production chain.\n\nUnlike antimatter cells, these are non-lethal in normal handling. You can carry them without detonating your base. They still need the Containment Chamber to fill, though.\n\nMuonium goes into Nucleosynthesis Chamber fusion recipes. Positronium is used in antimatter-flavor synthesis. Check JEI for the exact recipes.\n\n§ePS:§f Muonium has a limited lifetime due to muon decay. Use it or lose it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:cell",
+        "tag:10": {
+          "particle_storage:10": {
+            "particle_amount:3": 100000,
+            "particle_capacity:3": 100000
+          }
+        }
+      },
+      "name:8": "Muonium Cell"
+    }
+  },
+  "questID:3": 478,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:cell",
+          "tag:10": {
+            "particle_storage:10": {
+              "particle_amount:3": 100000,
+              "particle_capacity:3": 100000
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

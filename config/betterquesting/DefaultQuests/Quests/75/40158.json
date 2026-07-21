@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Logistics Drones§f\n\n§aSmarter drones that auto-detect provider and requester crates. No route programming needed.§f\n\nLogistics Drones work differently from transport drones. They automatically form networks and detect crates within a §e5§f chunk radius. They move at §e7.5§f blocks/s.\n\nComponents: §bLogistics Drone Dock§f (holds up to 9 drones), §bProvider Crate§f (supplies items), §bRequester Crate§f (requests specific items via filters), and §bWaypoints§f (extend range).\n\nCrafting: Logistics Drone \u003d Microchip + Transport Drone. Dock \u003d Steel Crate + Military Grade Circuit Board. Provider Crate \u003d Waypoint + Steel Crate + Blue Crayon. Requester Crate \u003d Waypoint + Steel Crate + Yellow Crayon.\n\n§ePS:§f Place a dock with drones, a provider crate, and a requester crate. They handle the rest. No manual routing required.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "hbm:drone"
+      },
+      "name:8": "Logistics Drones",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40158,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "hbm:drone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

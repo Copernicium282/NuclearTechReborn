@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10084
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Need to move data and power without running cables everywhere? Wireless Transceivers provide bidirectional data and RF transfer between paired devices. Link two transceivers with a Linker (10088) and they form a network.\n\nEach transceiver has an internal 100-unit data buffer and can be toggled between extract and inject modes. The GUI has an extract toggle and an enable/disable switch. You can chain multiple transceivers for longer range.\n\nThe transceiver moves data between the network and whatever tile it faces. Place one at the power source and one at the destination. For distances beyond 512 blocks, chain 3 transceivers with the middle one acting as a repeater.\n\n§ePS:§f The glass panes in the recipe must be colorless for the signal to focus properly. Multiple transceivers can form a mesh network for redundancy.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:wirelesstransciever"
+      },
+      "name:8": "§6Wireless Transceiver§f"
+    }
+  },
+  "questID:3": 10085,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:wirelesstransciever"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

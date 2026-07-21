@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [
+    30145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "AE2\u0027s §6Decorative Blocks§f are building materials with no network function. They don\u0027t provide channels, power, or storage.\n\nAvailable variants: §6Certus Quartz Block§f (4 Certus crystals), §6Pure Certus Quartz Block§f (4 Pure Certus crystals), §6Chiseled Certus Quartz§f, §6Certus Quartz Pillar§f, §6Fluix Block§f (4 Fluix crystals, emits light level 7 when powered), §6Sky Stone Block§f, §6Smooth Sky Stone§f, plus bricks, slabs, and stairs for each.\n\nThe §6Fluix Block§f is a great light source and looks fantastic in AE2-themed builds. Sky Stone variants come from meteorites and cannot be crafted.\n\n§ePS:§f Check the §6misc/deconstruction_*.json§f recipes to break decorative blocks back into raw materials.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:quartz_block"
+      },
+      "name:8": "Decorative Blocks",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30213,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "appliedenergistics2:quartz_block"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "appliedenergistics2:quartz_pillar"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "id:8": "appliedenergistics2:chiseled_quartz_block"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "id:8": "appliedenergistics2:quartz_glass"
+        },
+        "4:10": {
+          "Count:3": 2,
+          "id:8": "appliedenergistics2:quartz_vibrant_glass"
+        },
+        "5:10": {
+          "Count:3": 2,
+          "id:8": "appliedenergistics2:quartz_fixture"
+        },
+        "6:10": {
+          "Count:3": 4,
+          "id:8": "appliedenergistics2:fluix_block"
+        },
+        "7:10": {
+          "Count:3": 4,
+          "id:8": "appliedenergistics2:sky_stone_block"
+        },
+        "8:10": {
+          "Count:3": 2,
+          "id:8": "appliedenergistics2:smooth_sky_stone_block"
+        },
+        "9:10": {
+          "Count:3": 2,
+          "id:8": "appliedenergistics2:sky_stone_brick"
+        },
+        "10:10": {
+          "Count:3": 2,
+          "id:8": "appliedenergistics2:sky_stone_small_brick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    30055,
+    30263
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Thermonuclear Bomb§f\n\n§aFusion-boosted fission. The big one.§f\nThe §bThermonuclear Bomb§f is a two-stage weapon: a fission primary triggers a fusion secondary. It produces a much larger explosion than a standard nuclear bomb and generates unique byproducts.\n\nCrafted with §bFusor Cores§f, §bFusion Fuel§f, and a fission primary stage. The detonation sequence is more complex than a standard bomb and requires careful wiring.\n\n§cWARNING:§f This will generate massive amounts of lag! The explosion is enormous. Test in a dedicated void world if possible.\n\n§ePS:§f The Thermonuclear Bomb is more of an endgame curiosity than a practical tool. But it\u0027s satisfying to watch from a safe distance.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "trinity:thermonuclear_core_pu239"
+      },
+      "name:8": "Thermonuclear Bomb",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30056,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "trinity:thermonuclear_core_pu239"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:gold_block"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "trinity:salted_bomb_u235"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

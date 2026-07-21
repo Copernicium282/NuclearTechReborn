@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Exploring Structures§f\n\n§aFree stuff is scattered across the world. Go find it.§f\n\nHBM structures spawn in every biome type and are packed with steel, circuits, diesel, machines, and other early-game essentials. Some are easy loot, others will kill you.\n\nThe safe ones: §bRadio Stations§f, §bBroadcasting Towers§f, §bAntennas§f (most common), §bSatellite Dishes§f (highly valuable loot underneath), §bCrashed Spaceships§f, and §bFactories§f. §bBunkers§f sprawl underground and are hard to spot from the surface.\n\nOcean structures include §bOil Rigs§f, §bAircraft Carriers§f, and §bLighthouses§f (weak RTG fuel in the basement). Jungle §bEnargite Temples§f hide under the canopy.\n\n§cWARNING:§f The §bDesert Atom§f is a fully radioactive nuclear plant. The entire site is lethally radioactive. Stay out until you have hazmat gear.\n\n§ePS:§f Start with antennas and radio stations in plains biomes. They\u0027re the easiest and safest.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:deco_steel"
+      },
+      "name:8": "Exploring Structures",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40029,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:deco_steel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

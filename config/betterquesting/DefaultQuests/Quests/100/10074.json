@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10073
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Moon was cold and gray. This one is red, hot, and actively trying to kill you. §6Hot Turf§f (officially called Oxidized Ferric Sand) spawns on volcanic planets with surface temperatures above 200C.\n\nCan\u0027t be crafted, must be mined from a hot planet during a landing mission. The block is cosmetic on its own but opens up the volcanic planet materials chain.\n\nHot planets deal §62 HP per second§f from heat damage without a Space Suit with thermal protection. Your suit\u0027s fuel tank drains at double rate in these environments, so plan accordingly.\n\n§cWARNING:§f Without thermal protection, you\u0027re on a timer. Bring extra fuel, keep your return rocket fueled and ready, and don\u0027t get caught mining when the tank runs dry.\n\n§ePS:§f Plan a multi-day mission. Landing, mining, and return takes at least 30 minutes of real-time. A Fueling Station on your home planet and a Gas Charge Pad for the suit are non-negotiable.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:hotturf"
+      },
+      "name:8": "§6Hot Turf§f"
+    }
+  },
+  "questID:3": 10074,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:hotturf"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

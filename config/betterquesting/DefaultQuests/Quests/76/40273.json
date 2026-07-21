@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40203
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Research Reactor Fuels \u0026 Breeding§f\n\n§aMaster the fuel types and improve your breeding setup!§f\n\nPlate fuel is made in a §bTier 4 Anvil§f using an ingot of the corresponding material. Neutron sources use billets instead. All fuels have two key stats: §bflux function§f (how output flux relates to input) and §byield§f (interactions before depletion). Radiation increases with depletion.\n\n§6Neutron Sources§f:\n§b• Ra226Be§f, constant flux §e30§f, yield §e1.3M§f. Starts at 3.75 RAD/s, ends at 22.5 RAD/s (Po-210 buildup). Recycling: 2 Be nuggets, 2 Po-210 nuggets, 1 coal powder, 1 lead nugget.\n§b• Pu238Be§f, constant flux §e50§f (best source!), yield §e1M§f. Starts at 5 RAD/s, drops to 1 RAD/s (Pu-238 decay). Recycling: 1 Be nugget, 1 Pu-238 nugget, 2 coal powder, 2 lead nuggets.\n\n§6Fuel Types§f:\n§b• MOX§f, flux: log₁₀(x+1)·0.5·50. High yield §e2.4M§f. Starts 2.5 RAD/s, ends 187.5 RAD/s. Recycling: Sr-90, Pu-239, Cs-137, nuclear waste.\n§b• U-235§f, flux: √x · 4.0. Yield §e2.2M§f. Starts 1 RAD/s, ends 100 RAD/s. Recycling: Np-237, Pu-238, Tc-99, nuclear waste.\n§b• U-233§f, flux: √x · 5.0 (stronger than U-235). Yield §e2.2M§f. Starts 5 RAD/s, ends 500 RAD/s. Recycling: U-235, I-131, Sr-90, nuclear waste.\n§b• Pu-239 (HEP)§f, flux: (x - x²/10000)/100 · 25. Very strong! Yield §e2M§f. Starts 5 RAD/s, ends 500 RAD/s. Best for advanced breeding. Recycling: Pu-240, Tc-99, Cs-137, nuclear waste.\n§b• Sa-326 (HES)§f, flux: x/100 · 80 (extremely strong). Yield §e2M§f. Starts 15 RAD/s, ends 1,500 RAD/s! Recycling: Solinium, neodymium, tantalium, nuclear waste.\n\n§6Breeding Mechanics§f:\n§b• Only the §etotal flux value§f matters for breeder recipes\n§b• Outer fuel plates receive less flux and deplete slower than inner plates\n§b• Pu-239 HEP fuel has low critical mass, risk of runaway chain reaction!\n§b• §c⚠§f Use a Reactor Remote Control Block or manual control rods to prevent meltdown with Pu-239\n\n§eTip§f: Sa-326 is enormously radioactive but produces immense flux for the most demanding breeding recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:plate_fuel_pu239"
+      },
+      "name:8": "Research Reactor Fuels \u0026 Breeding",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40273,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:plate_fuel_pu239"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

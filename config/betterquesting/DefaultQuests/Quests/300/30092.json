@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30091
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Hardened Fluiduct§f\n\n§aHandle lava, Cryotheum, and other extreme-temperature fluids without your pipes melting!§f\n\n§bHardened Fluiducts§f work like basic fluiducts but don\u0027t break when carrying hot or cold fluids, essential for §bMagma Crucible§f output, §bCryotheum§f cooling loops, and any high-temp refinery setup.\n\n§6Crafting§f:\n§b• Transparent§f: §e1× Invar Ingot§f + §e1× Glass§f → §e6× Hardened Fluiduct§f.\n§b• Opaque§f: §e1× Invar Ingot§f + §e1× Lead Ingot§f → §e6× Hardened Fluiduct (Opaque)§f.\n\nHigher tiers (§bSignalum-Plated§f, §bSuper-Laminar§f) give more throughput, but only Hardened unlocks temperature resistance.\n\n§eTip§f: If you\u0027re running §bGelid Cryotheum§f as coolant or §bBlazing Pyrotheum§f as fuel, Hardened Fluiducts are mandatory, basics will break on contact.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "thermaldynamics:duct_16"
+      },
+      "name:8": "Hardened Fluiduct",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30092,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 2,
+          "id:8": "thermaldynamics:duct_16"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

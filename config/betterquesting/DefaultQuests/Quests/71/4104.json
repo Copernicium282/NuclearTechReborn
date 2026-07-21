@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4103
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6The Builder§f\\n\\n§aThe ultimate all-in-one machine for building, quarrying, pumping, and voiding.§f\\n\\nThe §bBuilder§f places blocks, digs quarries, moves entities, and pumps liquids over huge areas. It\u0027s the Swiss Army knife of RFTools.\\n\\n§6Specs§f: §e1,000,000 RF§f buffer, §e20,000 RF/t§f input, shapes up to §e512×512×512§f blocks.\\n\\n§6Energy Per Operation§f:\\n§b• Build§f: §e500 RF§f/block\\n§b• Pump§f: §e300 RF§f/block\\n§b• Quarry§f: §e300 RF§f base (scales with hardness)\\n§b• Move entity§f: §e5,000 RF§f\\n§b• Teleport player§f: §e40,000 RF§f\\n\\n§6Quarry Cards§f:\\n§b• Normal§f: Mines and replaces with Dirt. §e1.0×§f\\n§b• Fortune§f: Fortune on ores. §c2.0×§f\\n§b• Silk Touch§f: Silk Touch on everything. §c3.0×§f\\n§b• Clearing§f: Mines and leaves void. §a0.5×§f\\n\\n§9Note:§f Place an inventory above or below the Builder to supply blocks (building) or receive drops (quarrying).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:builder"
+      },
+      "name:8": "Builder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4104,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:builder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

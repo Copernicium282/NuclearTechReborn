@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    30037,
+    30085,
+    30035,
+    30036,
+    30033
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Elite Plating§f\n\n§aThe top-tier plate in NuclearCraft.§f\n§bElite Plating§f is crafted from §bDU Plating§f and other high-end materials. It gates access to the most powerful machines and reactor components. You won\u0027t need many of these early on, but once you\u0027re building endgame reactors and particle accelerator parts, you\u0027ll want a steady supply.\n\nThis is also the plate that gates QMD content. If you\u0027re trying to progress into QMD\u0027s tech tree and hitting a wall, check if you need more Elite Plating.\n\n§ePS:§f Elite Plating is expensive to produce. Don\u0027t overproduce it until you know exactly what you need it for. The Assembler recipe requires DU Plating as input.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "nuclearcraft:part"
+      },
+      "name:8": "Elite Plating",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30038,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "nuclearcraft:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

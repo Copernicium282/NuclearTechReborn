@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    30050
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6High Pressure Steam§f\n\n§aThe intermediate energy carrier for nuclear power.§f\n§bHigh Pressure Steam§f is produced by heating water with reactor heat or burning fuel. It\u0027s the standard fluid used to transfer thermal energy from reactors to turbines in NuclearCraft\u0027s power chain.\n\nProduce it by piping water into a §bCoolant Heater§f or §bSteam Generator§f connected to your reactor\u0027s heat output. Then pipe the steam into a §bSteam Turbine§f to generate RF.\n\n§ePS:§f Steam is the most common way to get power out of nuclear reactors. Direct RF generation is possible but less efficient for most fuel types. Steam scales better with reactor size.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:bucket"
+      },
+      "name:8": "High Pressure Steam",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30051,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {},
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

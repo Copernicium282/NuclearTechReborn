@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30220
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6FTB Ultimine§f\n\n§aNo more mining coal one block at a time. You\u0027re past that.§f\nHold the Ultimine key (default: §9`§f) and break one block to harvest up to §c64 connected blocks§f of the same type. Works with your bare hands too, though tools are way faster.\n\nStone types are merged together, so you can clear huge pathways of mixed smooth stone and cobblestone in one sweep. §9Shift-scroll§f while holding the Ultimine key to cycle through shape modes: standard vein mining, tunnels, or flat layers.\n\nFair warning: Ultimine drains §c4.0 exhaustion per block§f. You\u0027ll burn through food fast, so stock up on high-saturation §9Pam\u0027s HarvestCraft§f meals before going on a mining spree.\n\n§ePS:§f Plant twerking near crops and saplings is §cdisabled§f in this pack. Don\u0027t bother trying.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:diamond_pickaxe"
+      },
+      "name:8": "FTB Ultimine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30223,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:diamond_pickaxe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

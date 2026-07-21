@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Landing Float§f is landing gear for rockets that land on liquid surfaces, water, oil, or any AR-compatible fluid. It replaces standard landing legs when the destination is a gas giant or ocean world where solid ground does not exist.\n\nThe float provides buoyancy and prevents the rocket from sinking on touchdown. It occupies one cell of the rocket frame\u0027s bottom layer and generates an upward force equal to the gravity of the landing planet.\n\n§ePS:§f Place at the center bottom of the rocket frame. Multiple floats can be stacked on wide rockets for extra buoyancy on gas giants where dense atmosphere requires positive lift.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:landingfloat"
+      },
+      "name:8": "Landing Float",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10032,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:landingfloat"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

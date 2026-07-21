@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40073
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Desh§f\\n\\n§aNine rare earth metals forged into a superalloy that refuses to break  -  unbreakable tools, advanced machines, and radiation shielding!§f\\n\\nDesh is a fictional superalloy made from nine rare earth metals: Boron, Lanthanum (x2), Lithium, Cobalt, Neodymium, Cerium, and Niobium. It has extreme blast, heat, and corrosion resistance, and actually shields against radiation.\\n\\n§6Making it§f:\\n§b•§f Craft §bDesh Blend§f from 9 rare earth powders (shapeless), or get it from asteroid mining.\\n§b•§f Chemical Plant: §e1×§f Desh Blend + §e200mB§f Mercury + §e200mB§f Light Oil yields §e1×§f Desh Ingot.\\n§b•§f Ore Acidizer: DeshReady Blend + §e500mB§f Hydrogen Peroxide yields ingot.\\n\\n§6Key uses§f:\\n§b•§f Desh Compound Plate (Tier 3 Anvil) for machines and missiles.\\n§b•§f Unbreakable tools with iron harvest level.\\n§b•§f Fracking Tower components.\\n\\n§ePS:§f Mercury comes from centrifuging redstone. Light Oil is an early refinery product. Both are prerequisites!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_desh"
+      },
+      "name:8": "Desh",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40105,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "hbm:ingot_desh"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

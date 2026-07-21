@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30054
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6First Nuclear Bomb§f\n\n§aYour first atomic detonation.§f\nCraft a §bNuclear Bomb§f using enriched uranium or plutonium, conventional explosives, and detonation wiring. Place it, wire it to a §bRedstone§f signal, and detonate from a safe distance.\n\nThe explosion destroys a significant area and leaves behind §bTrinitite Glass§f. The blast also generates radiation that will contaminate the surrounding area for a while. Make sure you\u0027re prepared for the cleanup.\n\n§cWARNING:§f This will destroy terrain. Test far from your base. We are not responsible for your house or your cat.\n\n§ePS:§f The Trinitite Glass left behind has uses in advanced recipes. Don\u0027t just ignore the crater, collect the glass before it despawns.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "trinity:bomb_u233"
+      },
+      "name:8": "First Nuclear Bomb",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30055,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "trinity:bomb_u233"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

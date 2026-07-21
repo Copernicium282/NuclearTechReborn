@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10087
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Want to project a holographic 3D model of a planet, a satellite, or whatever else you point it at? The §6Holo-Projector§f does exactly that.\n\nIt\u0027s a single block from libVulpes that emits a redstone-controlled hologram. Apply a signal and it renders what you\u0027re looking at as a floating 3D projection. Chain multiple projectors together for a wall of holograms, great for mission briefings or showing off your orbital network.\n\nNo GUI on this one, it\u0027s purely visual. The real power comes from combining it with satellite data to display planet surfaces, ore distributions, or orbital paths in three dimensions.\n\n§ePS:§f The Satellite Primary Function in the recipe acts as the holographic emitter. Without it, you just get a fancy redstone lamp.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "libvulpes:holoprojector"
+      },
+      "name:8": "§6Holo-Projector§f"
+    }
+  },
+  "questID:3": 10044,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:holoprojector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

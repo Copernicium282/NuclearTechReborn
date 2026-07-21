@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    30192
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Crafting Storage§f units are multiblock components of the §6Crafting CPU§f. They hold intermediate ingredients during multistep autocrafting jobs.\n\nFour tiers: §61k§f (1,024 items), §64k§f (4,096), §616k§f (16,384), §664k§f (65,536). Each is a Crafting Unit + matching Storage Component. Place them on the inner walls of the 3x3x3 CPU multiblock.\n\nWithout Crafting Storage, any craft requiring intermediate ingredients will fail. Start with 1-2 units of §64k§f and expand to §616k§f once your network grows.\n\n§ePS:§f Pair with a §6Crafting Monitor§f to see real-time intermediate counts. Crafting Storage units are not Storage Cells and cannot hold items from the ME Terminal.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:crafting_storage_1k"
+      },
+      "name:8": "Crafting Storage",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30215,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "appliedenergistics2:crafting_storage_1k"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:crafting_storage_4k"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:crafting_storage_16k"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:crafting_storage_64k"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

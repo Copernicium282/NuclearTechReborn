@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Opening a door straight into vacuum is a bad idea. The §6Airlock Door§f gives you a pressurized transition between sealed rooms and the void.\n\nIt\u0027s a 2x3 double-door system that opens in two stages: inner door first, then outer, maintaining pressure on both sides. The GUI shows oxygen levels on each side and warns you if you try to open the outer door without a suit.\n\nThis is not a vanilla door. No redstone control, right-click to open, right-click again to close. Both halves move together.\n\nFor a proper airlock setup, place two doors in series with a Gas Charge Pad between them. Inner door, charge pad, outer door. That way you can suit up, charge, and exit without losing atmosphere.\n\n§cWARNING:§f Placing two airlock doors in series is the correct way to build an airlock. A single door won\u0027t maintain pressure properly.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:airlock_door"
+      },
+      "name:8": "Airlock Door",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10053,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:smallairlockdoor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

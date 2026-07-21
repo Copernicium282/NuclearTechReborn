@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Quartz Crucible§f is the first machine in the silicon-processing pipeline. It melts quartz, sand, and other silicon-bearing materials into molten silicon at 1,800 degrees C.\n\nThe structure is a 3x3x3 hollow cube with Structure Towers on the corners. Use Liquid IO Circuit Boards on the inner faces to pipe fluid in and out. Feed molten silicon into a Crystallizer for automated wafer production.\n\n§cWARNING:§f The crucible must heat up to operating temperature before melting begins, which can take several minutes. Also, never place water above it. A quench will damage the block.\n\n§ePS:§f Power draw is 500 RF/t at idle, scaling with throughput. Plan your power supply accordingly.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:iquartzcrucible"
+      },
+      "name:8": "Quartz Crucible",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10005,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:iquartzcrucible"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

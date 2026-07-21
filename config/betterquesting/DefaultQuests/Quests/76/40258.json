@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40257
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Heavy Magnetic Storage Tank§f §a512,000 mB of any fluid, including antimatter. Nothing else comes close.§f §bThe Heavy Magnetic Storage Tank§f is the only multiblock tank capable of holding §e512,000 mB§f of any fluid. It is the only tank that can safely store antimatter-class fluids. §6Crafting§f (§bAssembly Machine§f):\n§b• 8×§f Welded Technetium Steel Plate, §b4×§f Cast Saturnite Plate\n§b• 8×§f Dense BSCCO Wire, §b1×§f Polonium-210 Self-Charging Battery §6Features§f:\n§b• Capacity§f: §e512,000 mB§f (over 512 buckets)\n§b• Ports§f: 4 on top + 4 on bottom for I/O\n§b• Antimatter-safe§f, the only tank that handles antimatter fluids §ePS:§f Build multiple tanks if you\u0027re running a particle accelerator or fusion reactor producing exotic fluids in bulk. There is no smaller alternative for antimatter storage.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_orbus"
+      },
+      "name:8": "Heavy Magnetic Storage Tank",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40258,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_orbus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

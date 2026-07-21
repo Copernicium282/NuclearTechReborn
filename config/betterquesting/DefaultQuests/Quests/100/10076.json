@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10073
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found on crystal-rich and volcanic planets, Geodes can\u0027t be crafted. You have to land on a crystal planet and mine them by hand.\n\nMine a geode with a pickaxe and it drops 4-8 random-color crystals directly. You can also break it down at the Crystallizer (10006) for specific crystal colors. Geodes show up embedded in basalt on volcanic worlds or as standalone deposits on crystal planets.\n\nFortune III maximizes your crystal drop rate per geode. The Crystallizer converts geodes into specific colors (red, blue, yellow, etc.) depending on the input material. Stock up on red crystals, they\u0027re the bottleneck for the Vacuum Laser Emitter.\n\n§ePS:§f Crystal colors are used across multiple chains. Red powers the Vacuum Laser Emitter, blue enables circuit production, and yellow fuels the Solar Generator.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:geode"
+      },
+      "name:8": "§6Geode§f"
+    }
+  },
+  "questID:3": 10076,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:geode"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

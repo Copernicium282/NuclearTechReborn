@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40204
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cyclotron\\n\\n§aParticle accelerator that smashes elements into heavier ones and spits out antimatter.\\n\\nThe §bCyclotron§f bombards element powders with element boxes to produce heavier elements. It guzzles power at §e690 MHE§f per operation and can create antimatter as a byproduct. If not cooled, it explodes like a small nuke.\\n\\n§6Element Boxes§f (Assembly Machine: 1 powder \u003d 1 box):\\n§bLithium, Beryllium, Carbon, Copper, Plutonium§f\\n\\n§6Stats§f:\\n• §e100 MHE§f buffer, §e32,000 mB§f water, §e8,000 mB§f antimatter storage\\n• Use all 3 slots at once for efficiency\\n• Heavier boxes \u003d more antimatter byproduct\\n• Water converts to Low-Pressure Steam fast; needs §bhalf an auxiliary cooling tower§f\\n\\n§6Antischrabidium§f: Bombard an antimatter cell with plutonium. No antimatter byproduct from this recipe.\\n\\n§ePS:§f Only run this for very rare elements like nitanium, desh, or antimatter. At 690 MHE per op you need serious power infrastructure.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_cyclotron"
+      },
+      "name:8": "Cyclotron",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40206,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_cyclotron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

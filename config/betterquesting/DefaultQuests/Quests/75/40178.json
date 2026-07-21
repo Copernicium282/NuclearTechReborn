@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40176
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Plutonium-239§f\n\n§aThe weapons-grade one. Best for warheads and high-strength fuel.§f\n\nPu-239 is the most valuable plutonium isotope, a neutron capture product of §bU-238§f in nuclear reactors.\n\nProperties: §e5.0§f RAD/s, §e44.4%§f of raw plutonium, fissile category.\n\nProduction: neutron capture of U-238 in reactors. Often found mixed with Pu-240, which is a problem if you need pure Pu-239.\n\nUses: Plutonium Fuel, MOX Fuel, all thermonuclear warheads using plutonium cores, Mini-Nuke weapons (nuggets only), and contributes an impressive §e25§f to the custom nuke.\n\nBreeds into Pu-240 (disappointing isotope).\n\n§ePS:§f Pure Pu-239 is essential for high-yield warheads. Use the SILEX to separate it from Pu-240. Reactor-bred plutonium always has some Pu-240 contamination.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_pu239"
+      },
+      "name:8": "Plutonium-239",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40178,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_pu239"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40006,
+    40010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Crucible \u0026 Foundry§f\n\n§aMelt metal, pour it into molds, get stuff. The core of NTM metallurgy.§f\n\nThe §bCrucible§f needs at least 50,000 TU of heat (a firebox or heating oven). Toss in ingots, and molten metal comes out the green side. Route it through §bFoundry Channels§f to basins where molds shape it into plates, wires, blocks, and more.\n\nThe units: 1 Block \u003d 9 Ingots \u003d 81 Nuggets \u003d 648 Quanta.\n\n§6Basins§f:\n§b• Shallow Basin§f: 5 mold slots, accepts side input\n§b• Full Basin§f: 9 mold slots (blocks, large batches), top input only\n\nCraft a §bBlank Mold§f first (firebrick + iron ingot), then combine it with a sample item at an anvil to get the specific mold you need. Molds are reusable.\n\nRoute metal from the crucible through channels to the basin. It fills up, cools, and you extract the finished product. A §bSpill Outlet§f voids waste, a §bSlag Outlet§f handles byproducts.\n\n§cWARNING:§f The crucible produces soot pollution. No way around it.\n\n§ePS:§f Check JEI for all mold recipes. Use a shovel on foundry blocks to recover scrap.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_crucible"
+      },
+      "name:8": "Crucible \u0026 Foundry",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40024,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_crucible"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

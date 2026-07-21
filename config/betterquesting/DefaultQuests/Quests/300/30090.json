@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    30089
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fluxduct Tiers§f\n\n§aMove RF between machines through tiered pipes with escalating transfer rates!§f\n\n§bFluxducts§f carry §6Redstone Flux§f. Each tier bumps the max transfer per connection. The whole network stores energy proportional to its size, so it buffers power across unloaded chunks.\n\n§b• Leadstone§f: §e1,000 RF/tick§f.\n§b• Hardened§f: §e4,000 RF/tick§f.\n§b• Redstone Energy§f: §e9,000 RF/tick§f.\n§b• Signalum§f: §e16,000 RF/tick§f.\n§b• Resonant§f: §e25,000 RF/tick§f.\n§b• Cryo-Stabilized§f: §enolimit§f. No internal buffer. Uses §bGelid Cryotheum§f.\n\nAll recipes yield §e4× fluxducts§f. Match the tier to your generator output, a §e4,000 RF/tick§f dynamo doesn\u0027t need Signalum. Cryo-Stabilized is great for long trunk lines where you want zero loss, but it has no buffer so pair it with machines that have their own internal storage.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "thermaldynamics:duct_0"
+      },
+      "name:8": "Fluxduct Tiers",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30090,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "thermaldynamics:duct_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "thermaldynamics:duct_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "thermaldynamics:duct_0"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "thermaldynamics:duct_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

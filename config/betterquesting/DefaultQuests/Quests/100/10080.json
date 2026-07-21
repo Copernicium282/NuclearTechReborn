@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10073
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Found on forested alien planets, Alien Wood can\u0027t be crafted. Land on a forested planet and chop down the alien trees with an axe.\n\nConvert Alien Wood to Alien Wood Planks at a 4:1 ratio using a vanilla crafting table. The wood feeds into the Thermite Torch (10081) recipe and the HBM Combination Oven chain. You can also process it into sawdust via the HBM Sawmill, which is a carbon source for the CO2 Scrubber (10050).\n\nAlien forests are a renewable resource for carbon and wood. Bring a Treecapacitor or Timber axe to clear entire forests fast.\n\n§ePS:§f Sawdust is a high-density carbon source that feeds the CO2 Scrubber more efficiently than mining charcoal logs. Process wood to planks first for the 4:1 efficiency gain, then into sawdust.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:alienwood"
+      },
+      "name:8": "§6Alien Wood§f"
+    }
+  },
+  "questID:3": 10080,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:alienwood"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

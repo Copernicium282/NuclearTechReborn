@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40024
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6High-Speed Steel§f\n\n§aSteel that went to college. Harder, tougher, and it knows it.§f\n\nAlloy steel with tungsten in the §bCrucible§f and you get High-Speed Steel. It\u0027s the material behind the best shredder blades, press stamps, and cutting tools in the mod.\n\nThe durability jump over regular steel is significant. HSS stamps last longer, shred more, and cut cleaner. If you\u0027re scaling up ore processing or building advanced machines, this is the alloy that makes it all work.\n\nYou\u0027ll need it for most late-early-game machines, including upgraded press stamps and shredder components. Get comfortable with the crucible, because HSS is just the beginning of your alloying career.\n\n§ePS:§f HSS is also used in some high-tier weapon components.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_dura_steel"
+      },
+      "name:8": "High-Speed Steel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40028,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_dura_steel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

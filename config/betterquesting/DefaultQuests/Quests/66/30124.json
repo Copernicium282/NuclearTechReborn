@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30110
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Beekeeping \u0026 Honey§f\n\n§aHarvest honey, beeswax, and bee grubs from the apiary.§f\n\nThe §bApiary§f with a §bQueen Bee§f produces Honeycombs, Waxcombs, Bee Grubs (edible, §e1 hunger§f), and Royal Jelly. Process combs in the §bPresser§f:\n§b•§f Honeycomb → §e2× Honey§f + Grain Bait\n§b•§f Waxcomb → §e2× Beeswax§f + Grain Bait\n\nFlowers near the Apiary speed production. Hardened Leather gear can be crafted from animal drops.\n\n§6Queen Bee§f obtained from the §bMarket§f.\n\n§6Apiary Production§f:\n§b• Base Cycle§f: §e3,500 ticks§f (≈§e2.9 minutes§f) per produce cycle.\n§b• Speed Bonus§f: Each flower within §e2-block radius§f reduces cycle time by §e15%§f. A full ring of §e8 flowers§f gives maximum speed.\n§b• Output§f: Honeycomb (§e35%§f), Waxcomb (§e35%§f), Bee Grub (§e30%§f) per cycle.\n§b• Durability§f: Queen Bee takes §e1 damage§f per cycle. After §e36 cycles§f, the queen is consumed. Replace it with a new one from the Market.\n\n§6Honey Uses§f:\n§b• Food§f: Honey restores §e2 hunger§f directly.\n§b• Recipes§f: Used in Honey Bread, Honey Bun, Honey Glazed Carrots, Honey Glazed Ham, Honey Soy Ribs.\n§b• Marzipan§f: Honey + Almonds \u003d Marzipan (specialty food).\n\n§eTip§f: Set up multiple Apiaries in a flower garden to scale up honey, beeswax, and bee grub production for downstream Presser automation.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:honeyitem"
+      },
+      "name:8": "Beekeeping \u0026 Honey",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30124,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "harvestcraft:honeyitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:grubitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

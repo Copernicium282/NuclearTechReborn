@@ -1,0 +1,22 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Introduction: Quantum Minecraft Dynamics§f\n\n§aWelcome to particle physics.§f\n\nQMD turns your Minecraft world into a particle accelerator lab. Build straight-line or ring accelerators, fire particles at targets, and chase antimatter. It is a lot.\n\nThe questline follows a progression: grow doped silicon, build a LINAC, route beams to target chambers, then graduate to synchrotrons for the real energy scales. Eventually you will slow particles down with decelerators, trigger fusion in nucleosynthesis chambers, and contain antimatter in exotic containment fields.\n\nParticles carry §efocus§f, §eenergy§f, and §eintensity§f. Use the §bBeam Meter§f to read them. If focus hits zero, the beam dissipates. Plan your routes accordingly.\n\nThis is a checkbox quest. Click it, then go build a Fission Reactor or Fission Irradiator to start the silicon doping chain.\n\n§eTip: §rYou can read the wiki at §9https://github.com/Lach01298/QMD/wiki§r, or even watch my friend Pole\u0027s video guides on how to get started with QMD at §9https://www.youtube.com/@thepolethatfishes/playlists§r",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:containment_laser",
+        "tag:10": {
+          "patchouli:book:8": "qmd:guide"
+        }
+      },
+      "name:8": "Dawn of Quantum Dynamics"
+    }
+  },
+  "questID:3": 409,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

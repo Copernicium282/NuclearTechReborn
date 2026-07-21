@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Laboratory Glassware§f\n\n§aYour chemical plant before you have a chemical plant. Handy for the early grind.§f\n\nLaboratory Glassware is a hand-held utensil that replaces the Chemical Plant for simple recipes. Two variants: §bNormal§f (Glass + Iron Ingot) and §bBoron§f (Boron Glass + Steel + Cobalt Ingot, higher durability).\n\nRecipes you can make: TNT, C-4, Solid Fuel, Bakelite Powder (Aromatic HC + Petroleum Gas), Engine Lubricant, and Dynamite.\n\nBoth variants can be crafted or found in abandoned structures, most commonly §bBunkers§f.\n\n§ePS:§f Invaluable early on when you don\u0027t have a Chemical Plant. The Boron variant lasts much longer. Use it for Bakelite powder and solid fuel, two critical mid-game materials.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:chemistry_set"
+      },
+      "name:8": "Laboratory Glassware",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40162,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:chemistry_set"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

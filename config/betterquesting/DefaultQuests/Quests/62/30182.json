@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    30160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Want to place or break blocks using your ME network? Planes are the answer.\n\n§6Annihilation Plane §f: breaks the block in front of it and sends the drops into the network. One block per 8 ticks by default, speed up with Acceleration Cards.\n\n§6Formation Plane §f: places items from the network into the world in front of it. Great for automated building.\n\n§6Identity Annihilation Plane §f: same as the regular Annihilation Plane but preserves block entity data. Needed for chests with items or machines with stored energy.\n\nBoth come in fluid variants. Slap an Inverter Card on any plane to flip the push/pull direction.\n\n§cWARNING:§f Planes consume power when active. Place them thoughtfully or your energy cell will notice.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 300,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "Network Planes",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30182,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 300,
+          "id:8": "appliedenergistics2:part"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 320,
+          "id:8": "appliedenergistics2:part"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 302,
+          "id:8": "appliedenergistics2:part"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 321,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

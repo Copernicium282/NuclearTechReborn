@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40239
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Arsenic Bronze§f\n\n§aDrop-in bismuth bronze replacement. Same recipes, cheaper ingredients.§f\n\n§bArsenic Bronze§f is a copper-arsenic alloy that swaps into nearly every bismuth bronze recipe. If bismuth is scarce, this is your answer.\n\n§6Make It§f (Crucible):\n§b•§f 8 Copper Nuggets + 1 Arsenic Nugget + 3 Flux\n§b•§f Output: §e1 Arsenic Bronze Ingot§f + 3 Slag Nuggets\n\n§6Where It Replaces Bismuth Bronze§f:\n§b•§f §eTier 5 Anvil§f, iron anvil + 10 arsenic bronze ingots\n§b•§f §ePlasma Forge§f, same recipe, swap the cast plate\n§b•§f §eHeavy Duty Element§f, plasma forge recipe\n§b•§f §eMHD Turbine§f, high-end power component\n§b•§f §eICF Reactor§f, cast plates\n§b•§f §eOverdrive Upgrade Mk.III§f, replaces bismuth bronze\n§b•§f Laser rifle bronze parts\n\n§ePS:§f Direct swap in most cases. If your recipe calls for cast bismuth bronze plate, try cast arsenic bronze plate. Check JEI to confirm the specific recipe accepts it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_arsenic_bronze"
+      },
+      "name:8": "Arsenic Bronze",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40240,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_arsenic_bronze"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

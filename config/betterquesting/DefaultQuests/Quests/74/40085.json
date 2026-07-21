@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40105
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Vacuum Refinery§f\\n\\n§aFour products from one barrel of crude, the advanced refiner you have been working toward.§f\\n\\nThe §bVacuum Refinery§f is a post-RBMK machine that takes pressurized crude oil (§e2 PU§f via §e2 Compressors§f) and splits it into four liquid products. Combined with its compressors it draws §e300 kHE/s§f and has a §e1 MHE§f power buffer.\\n\\nPer §e1,000mB§f of crude oil you get: §e400mB§f Vacuum Heavy Oil, §e250mB§f Reformate, §e200mB§f Vacuum Light Oil, and §e150mB§f Sour Gas. If you run desulfurized crude instead, that last output swaps to §e150mB§f Reformate Gas, which is critical for endgame materials.\\n\\n§6Crafting§f (Assembly Factory): §e16×§f Cast Steel Plate, §e16×§f Copper Plate, §e4×§f Cadmium Steel Ingot, §e1×§f Steel Sphere, §e12×§f Steel Pipe, §e3×§f Desh Motor, §e4×§f Versatile Integrated Circuit.\\n\\n§cWARNING:§f This machine requires §bBismuth§f for the Versatile Integrated Circuit. Get your bismuth production online before you start building.\\n\\n§ePS:§f The Reformate and Vacuum Light Oil outputs feed directly into the Catalytic Reformer and Fractioning Tower. This is where the real progression begins.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_vacuum_distill"
+      },
+      "name:8": "Vacuum Refinery",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40085,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_vacuum_distill"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

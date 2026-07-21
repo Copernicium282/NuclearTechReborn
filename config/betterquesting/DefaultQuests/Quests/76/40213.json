@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40198
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Xenon-135\\n\\n§aThe reactor poison. Builds up when your RBMK runs too cool and kills reactivity.\\n\\n§bXenon-135§f is an extremely radioactive isotope (§e3,750 RAD/s§f, naturally pyrophoric) that poisons RBMK reactors at low power. When fuel receives low flux, Xe-135 accumulates faster than it burns.\\n\\n§6Mechanics§f:\\n• Xenon generated at rate ×0.5 of flux (most fuels)\\n• Xenon burned at rate x²/50 of flux\\n• At §e25+ flux§f output, fuel stays xenon-free\\n• At §e100% poisoning§f, no flux reaches the rod\\n• Neutron sources and some late-game fuels are immune\\n\\n§6Management§f: If Xe-135 builds up, expose the fuel rod to a neutron source to burn it off before disassembly. Burning too aggressively can cause dangerous flux spikes.\\n\\n§6Extraction§f: §e1%§f chance for a tiny pile when recycling poisoned fuel in a SILEX.\\n\\n§6Uses§f: Currently none beyond combining 9 tiny piles into 1 powder. Pure waste to manage.\\n\\n§ePS:§f Xenon reduces recycling yields. Burn it off before processing spent fuel for better returns.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:powder_xe135"
+      },
+      "name:8": "Xenon-135",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40213,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:powder_xe135_tiny"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

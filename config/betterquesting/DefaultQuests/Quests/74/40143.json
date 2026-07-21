@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40096
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Vitriol§f\n\n§aRoasting bedrock ore fragments gives you this - process it for mercury, sulfuric acid, and chlorine!§f\n\nVitriol is a viscous liquid produced by roasting any bedrock ore fragment in the §bCombination Oven§f or §bPyrolysis Oven§f. Every roasted fragment yields §e50mB§f Vitriol as a byproduct.\n\n§6Production§f:\n§b•§f Any bedrock ore fragment → Roasted Fragment + §e50mB§f Vitriol.\n\n§6Uses§f:\n§b•§f SILEX: Vitriol + CO2-Desh Laser Crystal → Bromine (§e16.6%§f), Iron (§e16.6%§f), Iodine (§e16.6%§f), Sulfur (§e50%§f).\n§b•§f Coker Unit: §e4,000mB§f → Iron Powder + §e500mB§f Sulfuric Acid.\n§b•§f Electrolysis Machine: §e1,000mB§f → §e500mB§f Sulfuric Acid + §e500mB§f Chlorine Gas + Iron Powder + Drop of Mercury.\n\n§ePS:§f Vitriol is the most reliable renewable source of §bMercury§f in the mod. The Electrolysis Machine route gives you Sulfuric Acid, Chlorine Gas, AND Mercury from one byproduct - three valuable outputs from something you\u0027d otherwise throw away!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 141,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Vitriol",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40143,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 141,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30146
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Charged Staff§f is a lightweight powered tool that interacts with §6Charged Certus Quartz§f. Right-click a §6Charged Certus Quartz Ore§f to trigger growth of nearby quartz buds, or use it to detect meteorites in the world.\n\nCrafted from §b1 Charged Certus Quartz Crystal§f and §b3 Iron Ingots§f. It holds §b8,000 AE§f internally and costs §b300 AE§f per use.\n\nThe Charged Staff is the most accessible powered AE2 tool, needing only a §6Charger§f to keep it topped up. Pair it with the §6Meteorite Compass§f quest for early-game quartz prospecting.\n\n§ePS:§f The Charged Staff is inferior to the §6Entropy Manipulator§f for block maintenance. Use the Entropy Manipulator for rotation and dismantling; keep the Charged Staff for quartz work.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:charged_staff"
+      },
+      "name:8": "Charged Staff",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30203,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:charged_staff"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

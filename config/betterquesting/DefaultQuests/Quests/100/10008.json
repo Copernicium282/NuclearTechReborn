@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    10006,
+    10007
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cutting Machine§f turns ingots into plates, which is the primary way to produce plates in Advanced Rocketry. Most high-tier recipes need plates, so this machine is foundational.\n\nThe multiblock is a 3x3x3 hollow cube with the controller block in the center. Place a Saw Blade Assembly in the inventory slot, feed in ingots via Item IO Circuit Boards, and get plates out the back. It runs at 1 plate per 2 seconds.\n\n§cWARNING:§f The exposed saw blade damages nearby entities every 10 ticks. Keep your base animals away from this thing.\n\n§ePS:§f A Diamond Saw Blade lasts 4x longer than Iron. Steel and titanium plate production here feeds the Lathe, Rolling Machine, and Precision Assembler.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:cuttingmachine"
+      },
+      "name:8": "Cutting Machine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10008,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:cuttingmachine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

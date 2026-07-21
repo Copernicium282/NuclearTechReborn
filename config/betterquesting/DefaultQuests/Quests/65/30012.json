@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    30010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Flow Control \u0026 Routing§f\n\n§aDirect your fluids exactly where they need to go.§f\n\n§6Check Valve§f lets fluid flow in one direction only (follow the arrow). No redstone means flow is enabled. Apply a redstone signal to block it. Rotate with a wrench.\n\n§6Pipe Sensor§f emits a §bredstone signal§f whenever fluid passes through it. It has input and output sides marked by small arrows. Fluid only flows input to output. Rotate with a wrench.\n\n§6High Pressure Router§f is the advanced option. It has §b6 colored sides§f, each set as input, output, or disabled. Outputs have §bthree priority levels§f: High, Medium, and Low. Fluid fills higher priority outputs first. Inputs can be Active (pulls from tanks) or Passive (waits for push). Every side has independent redstone control and filter settings. Works with both pressure pipes and standard pipes/tanks.\n\n§cWARNING:§f Output-to-input loops without filtering will blow up.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pressure:router"
+      },
+      "name:8": "Flow Control \u0026 Routing",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30012,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pressure:check_valve"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "pressure:pipe_sensor"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "pressure:router"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

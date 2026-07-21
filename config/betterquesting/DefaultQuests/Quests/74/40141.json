@@ -1,0 +1,28 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6BTX§f\n\n§aBenzene, Toluene, Xylene - the aromatic feedstock that gates hard plastic and fullerene!§f\n\nBTX is a flammable, combustible, viscous, polluting liquid at §e3.15 MTU§f and §e7.87 MHE§f per bucket. It is produced by fractionating §bReformate§f or §bDesulfurized Naphtha§f in the §bFractioning Tower§f.\n\n§6Production§f:\n§b•§f §e100mB§f Reformate → §e60mB§f BTX + §e40mB§f Aromatic Hydrocarbons.\n§b•§f §e100mB§f Desulfurized Naphtha → §e60mB§f BTX + §e40mB§f High-Octane Diesel.\n\n§6Uses§f:\n§b•§f Hard Plastic (Chemical Plant): §e500mB§f BTX + §e500mB§f Phosgene → §e1×§f Hard Plastic Bar.\n§b•§f Crystalline Fullerite (Ore Acidizer): §e1,000mB§f BTX + §e4×§f Fullerene.\n§b•§f Cracking Tower: §e100mB§f → §e80mB§f Aromatic Hydrocarbons + §e20mB§f Petroleum Gas.\n\n§ePS:§f BTX is the primary gate to §bHard Plastic§f, which enables the §bCatalytic Converter§f, which in turn enables the §bCatalytic Reformer§f and §bHydrotreater§f. Keep a steady BTX supply by dedicating a Fractioning Tower to Reformate processing!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 95,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "BTX",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40141,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 95,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

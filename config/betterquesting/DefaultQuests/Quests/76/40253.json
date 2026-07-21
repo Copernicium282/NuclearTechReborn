@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40252
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Versatile Circuit Board§f §aThe final circuit tier. Costs bismuth, hard plastic, and nearly 55 insulators per board.§f §bThe Versatile Circuit Board§f is the most expensive circuit board in the mod, requiring bismuth and hard plastic (post-bismuth oil refinery). Used rarely but in critical machines. §6Production§f (§bSoldering Station§f, 20s, 200 kHE/s, §e4 MHE§f total):\n§b• 24×§f Capacitor, §b16×§f Microchip, §b4×§f Versatile Integrated Circuit\n§b• 2×§f PVC Bar, §b12×§f Printed Circuit Board, §b12×§f Lead Wire\n§b• 1,000 mB§f Solvent §6Used In§f:\n§b• Fusion Reactor, Hydrotreater§f\n§b• Inertial Confinement Fusion Reactor§f (large quantities)\n§b• Various advanced machines§f §ePS:§f Each board costs 4 MHE in the soldering station. Automate capacitor, microchips, and PCB production first, or you\u0027ll burn through your power budget just making circuit boards.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11,
+        "id:8": "hbm:circuit"
+      },
+      "name:8": "Versatile Circuit Board",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40253,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "hbm:circuit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

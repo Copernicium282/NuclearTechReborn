@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40193
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6PWR Operation \u0026 GUI§f\n\n§aMaster the PWR control panel, fuel strategy, and cooling loop!§f\n\nThe PWR GUI (right-click controller) gives you full control over your reactor. Here\u0027s everything you need to know to operate it safely and efficiently.\n\n§6GUI Layout§f:\n§b• Cold Coolant Buffer§f, §e128,000 mB§f, holds fluid to be heated\n§b• Hot Coolant Buffer§f, §e128,000 mB§f, stores heated fluid for external use\n§b• Fluid Identifier§f, specifies coolant type; must be a valid PWR coolant\n§b• Fuel Input§f, auto-distributes fuel to empty rods. One fuel type only!\n§b• Fuel Type/Count§f, shows current fuel icon and rod count\n§b• Depletion Progress§f, white arrow fills as fuel depletes\n§b• Spent Fuel Output§f, hot spent fuel ejected here automatically\n§b• Control Rod Extension§f, 0 (full insert) to 100 (full remove), accepts numeric input\n§b• Heat Warning§f, ominous glow above 80% heat capacity\n§b• Core Heat§f, dial + numeric, base capacity §e10,000,000 TU§f\n§b• Hull Heat§f, dial + numeric, max §e10,000,000 TU§f\n§b• Total Flux§f, flux between fuel rods and reflectors\n\n§6Fuel Management§f:\n§b• Fuel is §eauto-distributed§f to empty rods from the input slot\n§b• Adding a full stack at once can cause a rapid uncontrolled reactivity rise\n§b• Fuel cannot be removed once inserted\n§b• Last few rods deplete §eexponentially slower§f, making full shutdown difficult\n§b• Breaking the controller voids all coolant and stored fuel, last resort only\n\n§6Cooling Loop§f:\n§b• Access ports on casing handle fluid I/O via fluid ducts\n§b• Requires external heat exchanger + boiler to convert heat to steam\n§b• Typical coolant quantity: §e10,000–30,000 mB§f depending on heat output\n§b• Insufficient coolant leads to rapid meltdown (game ticks at 20/s!)\n§b• Heat exchanging heaters self-balance, equilibrium prevents overheating\n\n§6Pros§f: Incredibly safe, stable, 100% modular, no xenon poisoning at low temp, gentlest meltdown, easy automation, 3D design saves chunks.\n§6Cons§f: Less efficient than RBMK, expensive, fewer late-game fuels, harder for medium enrichment, no item irradiation.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:pwr_fuelrod"
+      },
+      "name:8": "PWR Operation \u0026 GUI",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40270,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pwr_fuelrod"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

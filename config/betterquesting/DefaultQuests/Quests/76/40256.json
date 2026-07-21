@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40255
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Turbofan§f §aA stripped jet engine that burns kerosene or jet fuel. Watch your step, it kills anything in front.§f §bThe Turbofan§f is a power generator available after the first tier of oil processing. It burns aviation-grade fuels for substantial power production. §6Crafting§f (§bAssembly Factory§f):\n§b• 8×§f Titanium Shell, §b4×§f High-Speed Steel Pipe, §b12×§f Bakelite Bar\n§b• 1×§f Reinforced Turbofan Blade, §b12×§f Dense Gold Wire, §b3×§f Integrated Circuit Board §6Power Output§f:\n§b• Upgrade 0§f: 20 mB/s → 77 kHE/s (kerosene) or 192 kHE/s (jet fuel)\n§b• Upgrade 1§f: 40 mB/s → 205 kHE/s or 512 kHE/s\n§b• Upgrade 2§f: 60 mB/s → 385 kHE/s or 960 kHE/s\n§b• Upgrade 3§f: 80 mB/s → 616 kHE/s or 1,540 kHE/s §6Function§f: Kills entities in front by sucking them in; burns entities behind with afterburners.\n§6Bonus§f: Collects §e1,000 mB§f of blood per entity killed by the fan blades. §ePS:§f Jet Fuel is significantly more efficient than kerosene. Afterburner level 3 for max power density. The Cartoon Pony painting produces 20 GHE/s but eats 2 buckets per tick, absurd but real.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_turbofan"
+      },
+      "name:8": "Turbofan",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40256,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_turbofan"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

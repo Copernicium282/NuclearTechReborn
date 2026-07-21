@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30170
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No more running back to base every time you need to check storage. The Wireless Terminal gives you portable access to the ME network, as long as you are within range of a Wireless Access Point.\n\nThe terminal has an internal battery that drains while in use. Recharge it in an AE Charger when it runs low. Range depends on Wireless Boosters in the Access Point: more boosters means bigger range, but the power drain increases non-linearly.\n\nYou need a Wireless Access Point on your network and the terminal must be bound to that network\u0027s security system.\n\n§ePS:§f Carry a charger in your base or set up wireless charging near your main area so you never run out of power mid-use.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:wireless_terminal"
+      },
+      "name:8": "Wireless Terminal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30175,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_terminal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

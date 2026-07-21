@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40189
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Pressurized Water Reactor (PWR)§f\n\n§aModular, 3D, and won\u0027t kill you in your sleep. The safe option for nuclear power.§f\n\nThe §bPWR§f is a modular fission reactor built in 3D. Unlike the RBMK, it doesn\u0027t calculate flux iteratively, so §eno runaway feedback loops§f. It\u0027s safer, more stable, and melts down gently (just corium dripping, no debris explosion).\n\n§6Construction Requirements§f:\n§b•§f Fully enclosed casing of any shape, single Controller block\n§b•§f Minimum §e1 Fuel Rod§f + §e1 Neutron Source§f\n§b•§f §bControl Rods§f between adjacent fuel rods to regulate the reaction\n§b•§f §bHeat Exchangers§f + §bCoolant Channels§f to move heat out\n§b•§f §bAccess Ports§f for fluid I/O and fuel handling\n\n§6Component Blocks§f:\n§b•§f §bFuel Rod§f, holds PWR fuel, emits flux 15 blocks in 6 directions\n§b•§f §bControl Rod§f, restricts flux; all rods work in unison\n§b•§f §bHeat Exchanger§f, transfers core heat to coolant channels\n§b•§f §bCoolant Channel§f, transfers heat to the cooling fluid\n§b•§f §bHeatsink§f, increases max core temp by §e5%§f each (reduces cooling efficiency)\n§b•§f §bNeutron Source§f, provides constant flux to start the reaction\n§b•§f §bNeutron Reflector§f, reflects neutrons back, reduces loss\n§b•§f §bPressure Vessel§f, casing block, blocks neutron radiation\n§b•§f §bAccess Port§f, fuel and fluid I/O\n§b•§f §bController§f, one per reactor, opens the GUI\n\n§6Cooling Fluids§f (tagged [PWR Coolant]): Coolant, MUG Root Beer, Heavy Water, Liquid Sodium, Liquid Thorium Salt.\n\nRight-click the controller to assemble. Issues show in red.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:pwr_controller"
+      },
+      "name:8": "Pressurized Water Reactor (PWR)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40193,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pwr_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

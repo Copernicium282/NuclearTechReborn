@@ -229,11 +229,7 @@
 					"nitro:backgrounds/12.png",
 					"nitro:backgrounds/13.png",
 					"nitro:backgrounds/14.png",
-					"nitro:backgrounds/15.png",
-					"nitro:backgrounds/16.png",
-					"nitro:backgrounds/17.png",
-					"nitro:backgrounds/18.png",
-					"nitro:backgrounds/19.png"
+					"nitro:backgrounds/15.png"
 				],
 				"shuffle": false,
 				"displayDuration": 100,

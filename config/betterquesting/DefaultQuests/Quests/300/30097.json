@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30095
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Dense \u0026 Vacuum Itemducts§f\n\n§aControl item routing priority by tweaking path weight!§f\n\n§bDense Itemducts§f add massive path weight behind them, pushing items away from that destination. §bVacuum Itemducts§f do the opposite, pulling items toward them.\n\n§6Recipes (shapeless)§f:\n§b• Dense§f: §e1× Itemduct§f + §e3× Lead Nugget§f → §e2× Dense Itemduct§f.\n§b• Vacuum§f: §e1× Itemduct§f + §e3× Silver Nugget§f → §e2× Vacuum Itemduct§f.\n\nDrop a §bVacuum§f right after a chest to make items route there first. Use §bDense§f to deprioritize overflow destinations so primary buffers fill before secondary ones.\n\n§eTip§f: Chain multiple Vacuum Itemducts to amplify the priority boost, two in series behave like a much shorter path.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermaldynamics:duct_32"
+      },
+      "name:8": "Dense \u0026 Vacuum Itemducts",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30097,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "thermaldynamics:duct_32"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "thermaldynamics:duct_32"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

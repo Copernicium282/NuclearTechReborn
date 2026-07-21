@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40107
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Bedrock Ore Processor§f\\n\\n§aAlso known as the ore slopper  -  splits raw bedrock ore into six categories for further processing!§f\\n\\nThe §bBedrock Ore Processor§f takes raw bedrock ore from your Large Mining Drill and sorts it into six types: §bLight Metal§f, §bHeavy Metal§f, §bRare Earth§f, §bActinide§f, §bNon-Metal§f, and §bCrystalline§f. The mix depends on the vein composition.\\n\\n§6Crafting§f (Assembly Machine):\\n§b•§f 6x Cast Steel Plate, 8x Titanium Plate, 3x Copper Pipe\\n§b•§f 3x Motor, 1x Analog Circuit Board\\n\\n§6Operation§f:\\n§b•§f Feed raw ore through any fluid port.\\n§b•§f Needs water and power to run.\\n§b•§f Outputs six ore types plus §bOre Slop§f as a byproduct.\\n\\n§6Ore Slop§f can go into an §bElectrolysis Machine§f for Mercury, Niter, Limestone Dust, and Sulfur.\\n\\n§ePS:§f All six ore types follow the same downstream processing chain. One set of machines handles everything!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_ore_slopper"
+      },
+      "name:8": "Bedrock Ore Processor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40102,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_ore_slopper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

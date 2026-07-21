@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    10022,
+    10049
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Rocket Fuel Tanks§f store the propellant your engines burn. Monopropellant Fuel Tanks hold hydrogen-peroxide-based fuel, Bipropellant Tanks hold fuel and oxidizer separately, and Oxidizer Tanks store the oxidizer half of bipropellant combustion.\n\nEach tank occupies one cell of the rocket frame\u0027s middle layer. The Rocket Assembling Machine requires at least one fuel tank per rocket. Stack multiple tanks to extend range, larger rockets with more fuel tanks can reach further destinations.\n\n§ePS:§f Each HBM fuselage component contributes 10,000 mB of fuel capacity. For a 3x3 monopropellant rocket, 3 fuel tanks give 30,000 mB, enough for a single Earth-orbit round trip. Larger missions need Bipropellant Fuel Tanks.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:fueltank"
+      },
+      "name:8": "Rocket Fuel Tanks",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10027,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:fueltank"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:bipropellantfueltank"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:oxidizerfueltank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

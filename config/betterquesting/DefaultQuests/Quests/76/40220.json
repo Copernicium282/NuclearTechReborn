@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40219
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Uranium-233 \u0026 Radium-226\\n\\n§aBred fissile material and the neutron source that starts every reactor.\\n\\n§6Uranium-233§f (atomic 92):\\nUnnatural isotope bred from thorium. Fissile component of thorium fuel. Can be bred further into U-235.\\nUses: §bThorium fuel§f (primary), §bHEU-233 RBMK fuel§f (linear flux, dangerous), PWR and ZIRNOX fuel, breeding U-235 via breeding reactor.\\n\\n§6Radium-226§f (atomic 88):\\nMildly radioactive (§e7.5 RAD/s§f) uranium/plutonium decay product. From ore processing or cyclotron (carbon box + lead powder).\\nUses: §bRa226Be neutron sources§f for RBMK, Research Reactor, and Chicago Pile. Passive flux (constant §e30 output§f), low heat (§e0.035 °C/flux§f), but melting point only §e700°C§f. Also §bRTG pellets§f at §e3 power/tick§f, lasting §e11.5 billion ticks§f (~18 real years). And radium coffee, if you\u0027re feeling brave.\\n\\n§ePS:§f Start breeding Th-232 immediately. The thorium cycle produces more U-233 than it consumes, making it a renewable fuel source for RBMK stabilization.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_u233"
+      },
+      "name:8": "Uranium-233 \u0026 Radium-226",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40220,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_u233"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

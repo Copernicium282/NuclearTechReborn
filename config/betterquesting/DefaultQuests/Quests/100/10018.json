@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10015
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Centrifuge§f spins a single fluid input at high RPM to separate dissolved or suspended components. It handles isotope enrichment (uranium hexafluoride into U-235/U-238), water desalinization, lava processing, and ore processing.\n\nThe multiblock is 3x3x3 with casing blocks and Structure Blocks. It needs a Steel Fan for tier 1 recipes, but tier 3 isotope separation requires a Titanium Fan to handle the higher RPM. Power is 30 RF/t baseline.\n\nThis machine works hand-in-hand with the Chemical Reactor and Electrolyser to form a fluid-processing pipeline that feeds satellites and atmospheric processors.\n\n§ePS:§f Watch the GUI progress bar, recipes scale with input amount. A single Steel Fan covers most early recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:centrifuge"
+      },
+      "name:8": "Centrifuge",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10018,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:centrifuge"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

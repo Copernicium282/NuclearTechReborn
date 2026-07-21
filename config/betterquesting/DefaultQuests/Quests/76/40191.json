@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40190
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Steam Turbine§f\n\n§aThe workhorse that turns your reactor\u0027s steam into actual electricity.§f\n\nThe §bSteam Turbine§f is a single-block generator. Feed it steam, get HE. It has a §e1 MHE§f power buffer, §e64,000 mB§f input, and §e128,000 mB§f output buffer.\n\n§6Crafting§f:\n§b•§f 2× Steel Ingot, 2× Copper Coil, 2× Polymer Bar, 1× Titanium Steam Turbine\n\n§6Setup§f:\n§b•§f Set the §bFluid ID§f to match your reactor\u0027s steam type (normal / dense / super dense)\n§b•§f Connect a steam pipe from your reactor\n§b•§f The turbine steps down one density level and outputs power\n§b•§f Low-Pressure Steam output must be condensed back to water\n\n§6Density Chain§f: Super Dense → Dense → Steam → Low-Pressure Steam\n\nThe single-block turbine handles a §bZIRNOX§f fine. For a §bPWR§f or §bRBMK§f, you need the Industrial Steam Turbine. The small one can\u0027t keep up with the throughput.\n\n§ePS:§f Check JEI for the full crafting recipe. Turbines are dirt cheap compared to the reactor they\u0027re attached to.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_turbine"
+      },
+      "name:8": "Steam Turbine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40191,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_turbine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

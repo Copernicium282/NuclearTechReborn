@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Ground Trap \u0026 Water Trap§f\n\n§aPassively generate animal products and fish without killing mobs.§f\n\nThe §bGround Trap§f and §bWater Trap§f are automated bait-based resource generators. Place them in the correct environment, add bait, and they passively produce animal drops or fish over time, with no hunting required.\n\n§6Ground Trap§f:\n§b• Environment§f: Must be placed with at least §e5 dirt or grass blocks§f within a §e2-block radius§f.\n§b• Bait Types§f: Grain Bait, Fruit Bait, or Veggie Bait (placed in the top slot).\n§b• Output§f: Random animal products, such as raw beef, chicken, pork, mutton, turkey, duck, rabbit, plus leather, feathers, eggs, and bones.\n§b• Base Cycle§f: §e3,500 ticks§f (≈§e2.9 minutes§f), reduced §e5%§f per adjacent dirt/grass block.\n\n§6Ground Trap Crafting§f:\n§eShaped recipe:§f\n§b• 4× Sticks§f\n§b• 1× Trapdoor§f\n§b• 3× String§f\n§b• 1× Chest§f\n\n§6Water Trap§f:\n§b• Environment§f: Must be placed with at least §e5 water source blocks§f within a §e2-block radius§f.\n§b• Bait Type§f: Fish Trap Bait (placed in the top slot).\n§b• Output§f: Random fish, including vanilla Cod, Salmon, Pufferfish, Clownfish, plus HarvestCraft species (Anchovy, Bass, Carp, Catfish, Char, Clam, Crab, Crayfish, Eel, Frog, Grouper, Herring, and many more).\n§b• Base Cycle§f: §e3,500 ticks§f (≈§e2.9 minutes§f), reduced §e5%§f per adjacent water block.\n\n§6Water Trap Crafting§f:\n§eShaped recipe:§f\n§b• 4× Sticks§f\n§b• 1× Fishing Rod§f\n§b• 3× String§f\n§b• 1× Chest§f\n\n§6Bait Production§f:\n§b• Grain Bait§f: Produced by the §bPresser§f from various grain items.\n§b• Fruit Bait§f: Produced by the §bPresser§f from fruits and juices.\n§b• Veggie Bait§f: Produced by the §bPresser§f from vegetables and seaweed.\n§b• Fish Trap Bait§f: Crafted separately or obtained from the §bMarket§f.\n\n§6Automation§f:\nBoth traps have §e19 inventory slots§f (18 output + 1 bait slot). Items can be piped in from the top and extracted from the bottom using §bhoppers§f, §bitemducts§f, or §bdrawers§f. The traps drop their inventory when broken.\n\n§eTip§f: Set up a row of Ground Traps near a crop farm and a row of Water Traps in an ocean for passive meat and fish income. Feed the fish into a §bGrinder§f for §bGround Fish§f used in many meal recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:groundtrap"
+      },
+      "name:8": "Ground Trap \u0026 Water Trap",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30109,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:groundtrap"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:watertrap"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

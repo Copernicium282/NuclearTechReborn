@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40074
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Diesel Generator§f\n\n§aCompact liquid-fuel generator that burns oil byproducts for mid-game power!§f\n\nThe §bDiesel Generator§f is a single-block generator that burns liquid fuels. Despite its name, it accepts many fuels with effectiveness scaling by grade.\n\n§6Crafting§f (Assembly Machine):\n§b•§f §e1×§f Steel Shell, §e2×§f Cast Copper Plate, §e4×§f Copper Coil.\n\n§6Operation§f:\n§b•§f §e16,000mB§f internal tank, drains at §e20 mB/s§f.\n§b•§f §e50 kHE§f energy buffer - fuel does NOT halt when full, so avoid waste.\n§b•§f Change accepted fuel with a Fluid Identifier.\n\n§6Fuel Efficiency§f:\n§b•§f Low Grade: §e0%§f (won\u0027t accept).\n§b•§f Medium Grade: §e50%§f.\n§b•§f High Grade: §e75%§f.\n§b•§f Aviation: §e10%§f.\n§b•§f Gaseous: §e0%§f (won\u0027t accept).\n\n§ePS:§f Don\u0027t waste your best fuels here! Diesel burns at §e75%§f efficiency, ideal for this generator. Save Gasoline, Kerosene, and Reformate for crafting. The §e50 kHE§f buffer fills fast - use a Redstone Comparator to shut it off when your battery bank is full!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_diesel"
+      },
+      "name:8": "Diesel Generator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40150,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_diesel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

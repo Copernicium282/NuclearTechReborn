@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Cable routing got messy? Cable Anchors keep things tidy without forming unwanted network connections.\n\nPlace a §6Cable Anchor §fon any ME Cable face and the cable visually attaches to the adjacent block without forming a network branch. Purely cosmetic, purely useful.\n\nCraft 3 anchors from an ingot and a knife. Works with any metal ingot in the AE2 quartz ingot tag.\n\nFun fact: anchors act as ladders. Place one on a wall and you can climb it. Free vertical shaft access if you are short on resources.\n\n§ePS:§f Anchors work on glass, covered, smart, and dense cables but not on ME Controller or ME Drive faces. Use them to route cables along facades without creating extra branches.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 120,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "Cable Anchor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30185,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 120,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

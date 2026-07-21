@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40201
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Iodine-131§f\n\n§aExtremely radioactive fission product, roughly 6.3% of short-lived nuclear waste.§f\n\n§bIodine-131§f (Radioiodine) is an extremely radioactive and hazardous iodine isotope. It is naturally pyrophoric, meaning it can spontaneously ignite in air.\n\n§6Production§f:\n§b• Short-Lived Nuclear Waste§f, I-131 makes up approximately 6.3% of short-lived waste on average\n\n§6Where It Comes From§f:\nI-131 is produced during nuclear fission of uranium and plutonium fuels. When you reprocess spent fuel in the §bPUREX§f, or let fuel rods decay in a §bSpent Fuel Pool Drum§f, the short-lived waste you get contains this isotope among others.\n\n§cWARNING:§f I-131 is extremely radioactive. Wear radiation-resistant armor when handling short-lived nuclear waste, and store it in proper containment.\n\n§ePS:§f While I-131 has limited direct use, it contributes significantly to the overall radioactivity of short-lived waste. Processing it through waste disposal drums or the SILEX is the way to manage it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_iodine"
+      },
+      "name:8": "Iodine-131",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40266,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_iodine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Bakeware§f\n\n§aBake breads, cakes, cookies, pies, and muffins!§f\n\nThe §bBakeware§f is the oven-equivalent utensil for all baking recipes: breads (Cornbread, Zucchini Bread, etc.), cakes (Carrot Cake, Cheesecake, Red Velvet, etc.), cookies, pies, muffins, and dinner pies (Meat Pie, Spinach Pie). It is a reusable crafting utensil that stays in the crafting grid after use.\n\n§6Crafting§f: §e8× Bricks§f.\n\n§6Recipe Categories§f:\n§b• Breads§f: White Bread, Wheat Bread, Cornbread, Zucchini Bread, Gingerbread, Banana Bread.\n§b• Cakes§f: Carrot Cake, Cheesecake, Cherry Cheesecake, Chocolate Sprinkle Cake, Holiday Cake, Lamington, Pavlova, Pineapple Upside Down Cake, Pumpkin Cheesecake, Red Velvet Cake.\n§b• Cookies§f: Peanut Butter Cookies, Raisin Cookies, Cream Cookie, Sugar Cookie, Butter Cookie, Creeper Cookie, Lavender Shortbread, Meringue Cookie, Tim Tam.\n§b• Pies§f: Sweet Potato Pie, Pecan Pie, Lemon Meringue, Keylime Pie, Peach Cobbler, Gooseberry Pie, Strawberry Rhubarb Pie, Cobblestone Cobbler, Spider Eye Pie, Slime Pie, Butter Tart, River Mud Cake, Battenberg, Fruitcake.\n§b• Dinner Pies§f: Chicken Pot Pie, Shepherd\u0027s Pie, Meat Pie, Spinach Pie, Cottage Pie.\n\n§6Best Foods§f:\n- §bChocolate Sprinkle Cake§f (§e8 hunger per slice§f, 4-8 slices per cake), the best cake for hunger restoration.\n- §bRiver Mud Cake§f (§e11 hunger per slice§f), a top-tier pie.\n- §bHearty Bread-based meals§f, staple foods in many multi-step recipes.\n\n§6Usage§f:\n§9Place the Bakeware§f in a crafting grid with the ingredients for the baked good. The Bakeware is reusable and does not get consumed. Cakes are placeable blocks. Once placed, players can take slices one at a time.\n\n§eTip§f: The Bakeware is one of the most versatile cooking utensils. Set up a sugar cane farm and a wheat farm to keep it supplied for continuous baking.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:bakewareitem"
+      },
+      "name:8": "Bakeware",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30117,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:bakewareitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

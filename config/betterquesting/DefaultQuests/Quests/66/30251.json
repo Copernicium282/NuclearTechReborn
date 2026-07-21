@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30250
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cow in a Jar§f\n\n§aPut a whole cow inside a glass jar to secure a lifetime supply of milk!§f\nThe §9Cow in a Jar§f is one of the most iconic, hilarious, and useful utility blocks in the modpack. It provides an automated, infinite supply of fresh milk, completely removing the hassle of manual bucket milking for your high-tier baking and culinary recipes.\n\n§6How to Craft§f:\n1. §bPlace a Milk Jar§f on the ground.\n2. §bLure a Cow§f (using wheat or a lead) until it stands directly on top of the Milk Jar.\n3. §9Drop an Anvil§f from at least a few blocks high directly onto the cow.\n4. §aPLOP!§f The cow will be squished into the jar, and you will have a fully functioning Cow in a Jar.\n\n§6Production Rates§f:\n§b• Generation Rate§f: Generates milk passively at a rate of §e0.5 mB per tick§f (§e10 mB per second§f).\n§b• Milk Yield§f: You will accumulate §a1 bucket of milk (1,000 mB) every 100 seconds§f.\n§b• Automation§f: Place the Cow in a Jar adjacent to your kitchen network (or attach fluid pipes to it) to instantly pull fresh milk into your culinary crafting database.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "cookingforblockheads:recipe_book"
+      },
+      "name:8": "Kitchen Upgrades",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30251,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "cookingforblockheads:heating_unit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

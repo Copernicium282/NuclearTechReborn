@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40186
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Neptunium-237§f\n\n§aFissile, underrated, and contributes 30 to the custom nuke. The highest of any ingot.§f\n\nNeptunium-237 is a radioisotope mainly used as fuel material, either alone or as an additive for schrabidium fuels.\n\nProperties: §e2.5§f RAD/s, fissile, atomic number §e93§f.\n\nProduction: breed §bU-235§f in a breeding reactor, find in Desert Atom structures, or smash Lithium with natural Uranium in a Cyclotron.\n\nUses: §bSchrabidium Fuels§f (fuel additive), breeding into Pu-238 (breeding reactor), §bWatz Power Plant§f pellet (weak but cheap), §bRBMK Fuel§f (medium and highly enriched neptunium fuel, runs on fast neutrons), and contributes §e30§f to the custom nuke.\n\n§ePS:§f That §e30§f contribution to the custom nuke is the highest of any ingot. Set up U-235 breeding early for a steady supply.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_neptunium"
+      },
+      "name:8": "Neptunium-237",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40183,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_neptunium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

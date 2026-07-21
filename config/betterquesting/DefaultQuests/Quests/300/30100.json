@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    30089
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Filters§f\n\n§aWhitelist or blacklist specific items and fluids on duct connections, no unwanted stuff gets through!§f\n\n§bFilters§f attach to duct connections and restrict flow. Unlike servos which extract, filters only gate what passes.\n\n§6Tiers§f:\n§b• Basic§f: §e3 slots§f, Blacklist/Whitelist.\n§b• Hardened§f: §e6 slots§f, + Metadata.\n§b• Reinforced§f: §e9 slots§f, + NBT, Ore Dict, Mod Owner. Max stock: §e64§f.\n§b• Signalum§f: §e12 slots§f, Max stock: §e128§f.\n§b• Resonant§f: §e15 slots§f, Max stock: §e320§f.\n\nReinforced+ can disable path-based over-sending (prevents loops) and cap stored amounts per item.\n\n§eTip§f: Combine a filter with a §bServo§f on the same connection to both extract and restrict what gets pulled.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermaldynamics:filter"
+      },
+      "name:8": "Filters",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30100,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermaldynamics:filter"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "thermaldynamics:filter"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "thermaldynamics:filter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

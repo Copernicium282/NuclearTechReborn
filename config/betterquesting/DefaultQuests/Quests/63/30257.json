@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30255
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Advanced Solars§f\n\n§aSolar power that actually matters.§f\n§bAdvanced Solar Panels§f generate significantly more RF than basic solar panels. They\u0027re a clean, passive power source that works during the day without any fuel or reactor setup required.\n\nThe §bDU Solar Panel§f and §bElite Solar Panel§f tiers produce enough RF to power several machines continuously. They\u0027re great for early-game power while you work toward nuclear, or as supplementary power for your base.\n\n§ePS:§f Advanced Solars are expensive but require zero maintenance once placed. They\u0027re the lazy player\u0027s power source and a good backup when your reactor runs out of fuel or needs maintenance.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ncsteamadditions:quantum_solar_panel"
+      },
+      "name:8": "Advanced Solars",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30257,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ncsteamadditions:quantum_solar_panel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

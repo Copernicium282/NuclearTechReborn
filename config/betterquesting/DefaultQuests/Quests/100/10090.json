@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10049,
+    10053
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Atmosphere Detector checks whether the surrounding air is breathable and outputs a redstone signal based on the result. It\u0027s the simplest life support diagnostic.\n\nThe detector checks every 10 ticks and outputs redstone 15 when the air is safe, 0 when it\u0027s not. Detection range is 8 blocks in all directions. Wire it to an Airlock Door (10053) to prevent the door from opening when the air is unsafe.\n\nThe detector works with any atmosphere type, not just oxygen. You can select which atmosphere to detect in the GUI.\n\n§ePS:§f Place the detector on the inner wall of an airlock with the redstone output wired to the inner door. When the air is unsafe, the inner door won\u0027t open, preventing accidental vacuum exposure. Pair with a Seal Detector (10063) for full coverage.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:oxygendetection"
+      },
+      "name:8": "§6Atmosphere Detector§f"
+    }
+  },
+  "questID:3": 10090,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:oxygendetection"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

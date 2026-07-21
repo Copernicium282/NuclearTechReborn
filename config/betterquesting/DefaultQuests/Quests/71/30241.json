@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30240
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Power Core (High)§f\\n\\n§aThe elite core. For when your reactors output more power than you know what to do with.§f\\n\\nThe §bPower Core (High)§f builds §bPowercell (High)§f blocks. A 9×9×9 High network pushes §e729,000 RF/t§f per side. That\u0027s enough to feed any reactor in this pack directly, no intermediate storage needed. The recipe combines both a Diamond and an Emerald in one core, so it\u0027s pricier than Medium.\\n\\n§6Crafting§f: §b1 Redstone Block§f + §b1 Diamond§f + §b1 Emerald§f + §b4 Redstone or Dimensional Shards§f\\n\\n§cWARNING:§f Each Powercell (High) upgrade burns §e4 cores§f, and a full 9×9×9 network eats hundreds. Start stockpiling diamonds and emeralds now.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftoolspower:power_core3"
+      },
+      "name:8": "Power Core (High)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30241,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolspower:power_core3"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

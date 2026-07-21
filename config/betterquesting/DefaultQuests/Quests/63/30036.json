@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30025
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Crystallizer§f\n\n§aGrows crystals from supersaturated fluid solutions.§f\nThe §bCrystallizer§f takes §b1 fluid input§f and produces §b1 item output§f. Default cycle is §b1600 ticks§f at §b10 RF/t§f. It\u0027s the slowest basic NC machine, but it produces materials you can\u0027t get any other way.\n\nUsed for growing §bQuartz§f variants, §bFluorite§f crystals, and other specialty materials needed in advanced recipes. Patience is key with this one. The long processing time is the tradeoff for producing unique materials.\n\n§ePS:§f The Crystallizer\u0027s long processing time makes Speed Upgrades particularly valuable here. Two or three upgrades cut the wait significantly and are worth the power cost.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:crystallizer"
+      },
+      "name:8": "Crystallizer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30036,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:crystallizer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

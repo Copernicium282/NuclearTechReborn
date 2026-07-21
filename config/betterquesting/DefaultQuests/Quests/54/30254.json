@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30252
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Personal Protection§f\n\n§aYou cannot walk through pollution unprotected. Craft a respirator before your lungs give out.§f\n\nAs your base expands, chunks fill with carbon, sulfur, and dust. Stepping into these zones without breathing gear means instant debuffs. A §9Respirator§f in your head slot keeps you alive.\n\n§6Respirator Tiers§f:\n§b- Iron Respirator§f: §e600 seconds§f of filtration. The bare minimum.\n§b- Gold Respirator§f: §e720 seconds§f. A bit more breathing room.\n§b- Diamond Respirator§f: §e1440 seconds§f. Twice the gold tier.\n\n§6Filter Materials§f: Respirators filter §eCarbon§f and §eSulfur§f. You insert filter materials into the respirator, and they deplete as you breathe. Each material handles §e8 blocks§f of capacity:\n§b- Tree Leaves§f: yields §bCoal Dust§f as you use them\n§b- Wool§f (any color): yields §bSulfur Dust§f\n§b- Paper§f: yields §bClay Balls§f\n\n§cWARNING:§f Keep spare filters in your inventory. When the respirator runs dry, you are exposed to everything in the air. Check the durability bar and swap materials before it hits zero.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "adpother:iron_respirator"
+      },
+      "name:8": "Personal Protection",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30254,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "adpother:iron_respirator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

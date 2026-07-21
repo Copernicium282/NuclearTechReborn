@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30125
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Italian \u0026 Pasta§f\n\n§aCraft pasta dishes, pizza, and Italian classics.§f\n\nItalian cuisine uses the §bSkillet§f, §bCutting Board§f, and §bBakeware§f. Most dishes restore §e3-14 hunger§f.\n\n§6Pasta§f: Spaghetti (3), Spaghetti and Meatballs (5), Lasagna (6), Mushroom Lasagna (7), Broccoli Mac (4), Spaghetti Dinner (13), Squid Ink Spaghetti (2).\n\n§6Pizza§f: Pizza, Supreme Pizza (14), Anchovy Pepperoni Pizza, BBQ Chicken Pizza (9), Ham and Pineapple Pizza (9), Meat Feast Pizza (24).\n\n§6Other§f: Chicken Pot Pie (7), Shepherd\u0027s Pie (8), Meat Pie (10), Spinach Pie (10), Cottage Pie (8).\n\n§6Crafting Tools§f:\n§b• Skillet§f: Spaghetti, Spaghetti and Meatballs, Lasagna, Mushroom Lasagna, Broccoli Mac.\n§b• Cutting Board§f: Pizza, Supreme Pizza, Meat Feast Pizza, Anchovy Pepperoni Pizza.\n§b• Bakeware§f: Chicken Pot Pie, Shepherd\u0027s Pie, Meat Pie, Spinach Pie, Cottage Pie.\n\n§eTip§f: Supreme Pizza (14 hunger) and Meat Feast Pizza (24 hunger) are among the highest-restoration foods in the game.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:pizzaitem"
+      },
+      "name:8": "Italian \u0026 Pasta",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30131,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:pizzaitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:spagettiandmeatballsitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40044
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aAbout to poke around radioactive stuff? Suit up first.§f\n\nThe basic Hazmat Suit gives you 0.6 total Radiation Resistance across all four pieces. It\u0027s made from hazmat cloth (lead plus latex), glass, and iron plates in the Assembly Machine using the hazmat blueprint.\n\nThe Advanced Hazmat uses upgraded cloth for noticeably better protection. Same crafting process, just better materials.\n\n§cWARNING:§f Hazmat does NOT protect you from direct contact with spent fuel, debris, or waste. You still need Radaway on hand for that. Think of it as reducing ambient radiation, not making you immune.\n\n§ePS:§f Check JEI for the exact Assembly Machine recipe for each piece.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:hazmat_helmet"
+      },
+      "name:8": "Hazmat Suits",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40045,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:hazmat_helmet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Silicon§f\n\n§aThe backbone of every circuit from here to endgame. No silicon, no progress.§f\n\nSilicon is a semiconducting element vital for creating advanced circuit boards. You need an §bElectric Arc Furnace§f to produce it.\n\nYields from the Arc Furnace: §bSand§f gives 1 nugget, §bNether Quartz§f gives 3, §bFlint§f gives 4 + quanta, §bAsbestos§f gives 4 + quanta, §bFiberglass§f gives 4 + quanta.\n\nProcessing chain: Silicon Boule gets stamped with a §bCircuit Stamp§f to make a §bPrinted Silicon Wafer§f. That wafer + Insulator + Copper Wire \u003d §bMicrochip§f. Microchip + Printed Wafer + Bismuth + Copper Wire \u003d §bVersatile Integrated Circuit§f.\n\n§ePS:§f Use §bliquid mode§f on the Arc Furnace (red button) for a small yield bonus. Set up a Strand Caster under the outlet for automated billet casting.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_silicon"
+      },
+      "name:8": "Silicon",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40159,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_silicon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

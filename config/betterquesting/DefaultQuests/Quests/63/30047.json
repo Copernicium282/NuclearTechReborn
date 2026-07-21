@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    30044
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Moderator Lines§f\n\n§aRedirect neutrons to fuel cells for more power.§f\nModerators sit between fuel cells and redirect neutrons back into the reaction. They come in three tiers:\n\n§bGraphite§f: +10 neutron flux, 1.1x efficiency multiplier\n§bBeryllium§f: +22 flux, 1.05x efficiency\n§bHeavy Water§f: +36 flux, 1.0x efficiency\n\nHigher flux means more neutrons reach adjacent fuel cells, boosting power output. Efficiency multiplier affects how much fuel is consumed per cycle.\n\nPlace moderators in lines between fuel cells for maximum effect. A single moderator between two cells boosts both.\n\n§ePS:§f Graphite is the most efficient per-flux. Heavy Water gives the most raw flux. Pick based on what you\u0027re optimizing for.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:solid_fission_cell"
+      },
+      "name:8": "Moderator Lines",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30047,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:solid_fission_cell"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "nuclearcraft:ingot_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

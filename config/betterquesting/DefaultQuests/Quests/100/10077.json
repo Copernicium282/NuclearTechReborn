@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10073
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Coming in 8 colors, each with a different use in the AR progression. Red powers the Vacuum Laser Emitter (10014), blue enables advanced circuit production, and yellow is the energy source for the Solar Generator chain.\n\nYou get crystals from mining Geodes directly (4-8 random colors), processing them at the Crystallizer (10006) for specific colors, asteroid mining missions, or lava planet mining (yellow crystals specifically).\n\nStockpile red crystals, they\u0027re the bottleneck ingredient for the Vacuum Laser Emitter recipe. Use the Crystallizer with redstone dust to convert other crystal colors to red. Blue crystals work best for the Astrobody Data Processor (10020) data storage.\n\nOnce you have crystals, you can build the Vacuum Laser Emitter and the Precision Laser Etcher, which unlock advanced circuits and the Satellite Builder (10039).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:crystal"
+      },
+      "name:8": "§6Crystals§f"
+    }
+  },
+  "questID:3": 10077,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:crystal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

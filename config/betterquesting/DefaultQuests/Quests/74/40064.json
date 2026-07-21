@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Flare Stack§f\n\n§aGot excess gas or fluids clogging your system? Burn it off and reclaim some energy.§f\n\nThe Flare Stack eliminates excess flammable or gaseous fluids and recovers a small amount of power. It is the safety valve for your oil extraction setup.\n\n§6Operation§f:\nSupply a fluid and toggle the §bflow control valve§f and/or §bignition switch§f.\n§b• Gas venting§f: Flow control valve only. Consumes §e50mB/t§f, no power generated.\n§b• Liquid combustion§f: Both switches on. Generates §e10%§f of the fluid\u0027s combustion energy at §e10mB/t§f.\n§b• Gas combustion§f: Both switches on. Generates §e20%§f of combustion energy at §e10mB/t§f.\n§b• Speed upgrades§f: Each tier adds §e10mB/t§f consumption.\n\nCrafted in the §bAssembly Factory§f with steel, iron, copper plates, pipes, shells, and thermoelectric elements.\n\n§ePS:§f The §bDrainage Pipe§f voids fluids faster and cheaper, but the flare stack can recover marginal power from energy-dense fuels like §bKerosene§f.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_flare"
+      },
+      "name:8": "Flare Stack",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40064,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_flare"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

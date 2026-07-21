@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Starmetal§f\n\n§aAn alloy from space. Obscenely dense, reacts violently with moon rock, and essential for exotic crafting.§f\n\n§bStarmetal§f is a natural alloy found in asteroids and meteorites. You do not need to go to space for it though. Combine §bSaturnite§f with §bMeteorite Powder§f in a blast furnace for a reliable Earth-side source.\n\n§6Make It§f:\n§b•§f Blast Furnace: Saturnite + Meteorite Powder -\u003e §eStarmetal§f\n§b•§f Meteorite mining or Asteroid Mining Ship (slow)\n\n§6What It Is For§f:\n§b•§f §bSchrabidium Clusters§f, exotic material crafting\n§b•§f §bRadiation-Powered Engine§f, generates power from static or radiation\n§b•§f §bTesla Coils§f, static electricity generation\n§b•§f §bTrottenheimer\u0027s Folly§f, the starmetal-moonrock reaction is what makes it devastating\n§b•§f Artillery shells and armor-piercing bullets\n§b•§f Tom\u0027s final stage\n\n§ePS:§f Saturnite is a mid-game alloy from the rotary furnace. If you have been keeping up with petroleum processing, you already have the ingredients.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_starmetal"
+      },
+      "name:8": "Starmetal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40238,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_starmetal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

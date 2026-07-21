@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    30026
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Lithium Ion Battery§f\n\n§aA portable energy storage item you can carry.§f\nThe §bLithium Ion Battery§f is an item (not a block) that stores §b800,000 RF§f and transfers up to §b80,000 RF/t§f. Charge it in any FE-powered charger or machine, then carry it around to power tools or emergency setups.\n\nCraft it with §bLithium-6§f cells, §bAdvanced Plating§f, and wiring. It\u0027s a mid-game item that\u0027s genuinely useful for exploration and mobile power needs when you\u0027re away from your base.\n\n§ePS:§f The battery recharges in any NC machine that accepts FE. The Nuclear Furnace works in a pinch if you don\u0027t have a dedicated charger yet.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:lithium_ion_battery_basic"
+      },
+      "name:8": "Lithium Ion Battery",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30040,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:lithium_ion_battery_basic",
+          "tag:10": {
+            "energyStorage:10": {
+              "capacity:4": 3200000,
+              "energy:4": 0,
+              "maxTransfer:3": 320000
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

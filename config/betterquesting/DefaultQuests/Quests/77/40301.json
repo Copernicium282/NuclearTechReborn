@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40300
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Soyuz Satellites§f\n\n§aOrbital payloads launched on the Soyuz-FG. Link them or lose them.§f\n\nSatellites are expensive items with specific functions. Every satellite needs a §bSatellite Control Interface§f tuned to the same frequency as the satellite itself. Use the §bSatellite ID Manager§f to generate a random code, apply it to the satellite, then copy that code to your interface.\n\n§6Types§f: Surface Mapping (basic map), Depth-Resource Scanner (underground ores), Radar Survey (sky entities), Orbital Death Ray (targeted strikes), Xenium Resonator (teleportation), Asteroid Mining Ship (periodic resource drops), and Lunar Mining Ship.\n\n§6Linking§f: The ID Manager has three slots. Put the satellite in the right slot to randomize its ID, then copy to your interface or chip in the middle slot. Two satellites with the same ID make the older one useless.\n\n§cWARNING:§f An unlinked satellite is permanently lost on launch. Triple-check frequency matching before pressing the launch button.\n\n§ePS:§f Practice with cheaper satellites first. The Mining Ship is the most useful long-term satellite. Gerald also launches via Soyuz but uses an Orbital Module instead of a standard satellite base.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:sat_scanner"
+      },
+      "name:8": "Soyuz Satellites",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40301,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:sat_designator",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

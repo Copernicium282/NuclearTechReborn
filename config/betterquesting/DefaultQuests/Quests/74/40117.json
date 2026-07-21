@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40096
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Syngas§f\\n\\n§aCoal plus steam in a pyrolysis oven  -  a gaseous fuel that supplements your power grid!§f\\n\\nSyngas is made in the §bPyrolysis Oven§f from coal, biomass, or charcoal combined with steam. It provides §e1.65 MTU§f and §e2.06 MHE§f per bucket.\\n\\n§6Recipes§f:\\n§b•§f Coal + §e500mB§f Steam yields §e1,000mB§f Syngas.\\n§b•§f Coal Powder + §e500mB§f Steam yields §e1,000mB§f.\\n§b•§f Coal Coke + §e250mB§f Steam yields §e1,000mB§f (most efficient).\\n§b•§f 4x Biomass yields §e1,000mB§f.\\n§b•§f Charcoal yields §e1,000mB§f.\\n\\n§6Uses§f:\\n§b•§f Solid Fuel: §e260mB§f Syngas in Pyrolysis Oven yields §e1×§f Solid Fuel.\\n§b•§f Also works in Industrial Solidification (§e650mB§f per Solid Fuel).\\n§b•§f Burns directly in generators.\\n\\n§ePS:§f Not part of the oil chain, but a solid power supplement. Coal Coke + Steam gives the best conversion rate. Pipe it into a Fluid Burner for a self-sustaining heating loop!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 86,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Syngas",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40117,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 86,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

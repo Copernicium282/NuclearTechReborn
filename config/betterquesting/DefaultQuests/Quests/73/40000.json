@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Welcome to HBM\u0027s Nuclear Tech§f\n\n§aFrom punching trees to splitting atoms. This mod has a LOT going on.§f\n\nHBM is one of the biggest content mods for 1.12.2. Blacksmithing, oil refining, nuclear reactors, particle accelerators, thermonuclear weapons... it goes deep.\n\n§6Your First Steps§f:\nGather §biron§f, §bcopper§f, §bredstone§f, and §bfuel§f. Wander the world for §bAntennas§f, §bRadio Stations§f, and §bFactories§f. They have free steel, circuits, and diesel just sitting there.\n\n§cWARNING:§f §bNuclear Power Plants§f and §bSellafield§f craters will kill you. Radiation is no joke. Stay away until you have gear.\n\n§6The Road Ahead§f:\nBlacksmithing -\u003e Factory -\u003e Electrical Age -\u003e Oil \u0026 Power -\u003e Foundry -\u003e Nuclear Age\n\n§ePS:§f Press R on any item in JEI to see recipes. HBM has thousands of them. You\u0027ll need JEI.\n\n§eTip: §rThe quests guide is pretty minimal. I would highly recommend you to take a look at the NTM wiki at §9https://nucleartech.wiki/wiki/Main_Page§r if you need more info regarding anything in this mod.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:book_guide"
+      },
+      "name:8": "Introduction to HBM\u0027s Nuclear Tech",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40000,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:book_guide"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

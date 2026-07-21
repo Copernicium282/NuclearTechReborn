@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40097
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Wood Oil§f\n\n§aFully renewable from trees - crack it into heating oil, mix it into biofuel, or dye things!§f\n\nWood Oil is a viscous, flammable, polluting liquid at §e110 kTU§f per bucket. It is produced from wood products in the §bCombination Oven§f, making it one of the few fully renewable petrochemical feedstocks.\n\n§6Production§f (Combination Oven):\n§b•§f Sawdust Briquette → Charcoal + §e500mB§f Wood Oil.\n§b•§f Oak Wood → Charcoal + §e250mB§f.\n§b•§f Spruce Sapling → Wood Ash + §e50mB§f.\n\n§6Uses§f:\n§b•§f Cracking Tower: §e100mB§f + §e200mB§f Steam → §e40mB§f Heating Oil + §e10mB§f Aromatic Hydrocarbons.\n§b•§f Biofuel: §e500mB§f + §e500mB§f Fish Oil / Sunflower Seed Oil → §e1,000mB§f Biofuel.\n§b•§f Wood Tar: §e1,000mB§f → §e1×§f (Industrial Solidification Machine).\n§b•§f Coker Unit: §e3,000mB§f → Charcoal + §e300mB§f Coker Gas.\n§b•§f Chemical Dyes: Ore Acidizer with powders.\n\n§ePS:§f Wood Oil is excellent for §bbiofuel§f and early polymer crafting. A single stack of wood through the Combination Oven yields hundreds of buckets. Combine with the §bStirling Sawmill§f for maximum log-to-oil efficiency!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 79,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Wood Oil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40140,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 79,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40297
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Heavy Duty Element§f\n\n§aReinforced panels forged with stellar flux. Gerald eats 256 of these.§f\n\nHeavy Duty Elements are forged in the Plasma Forge from welded combine steel plates, cast bismuth bronze plates, crystalline fullerite, and §e4,000 mB§f of stellar flux each. Duration is 30 seconds at §e25 MHE/t§f.\n\n§6The Gerald problem§f: Forging Gerald requires §e4 stacks of 64§f heavy duty elements (256 total). That\u0027s 256 individual forge operations at 30 seconds each. With the 4x fragment bonus, each takes 7.5 seconds, but you\u0027re still looking at 32 minutes of forge time.\n\nYou need a running ICF reactor to produce stellar flux at a reasonable rate. The flux production formula is Q \u003d E x 10^-11, where E is reactor heat in TU. At max heat, you get about 1 mB/t.\n\n§ePS:§f Build your ICF first and stockpile stellar flux before attempting Gerald. Route fragments to the forge continuously. This is the single biggest material bottleneck in endgame.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "hbm:part_generic"
+      },
+      "name:8": "Heavy Duty Element",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40299,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "hbm:part_generic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

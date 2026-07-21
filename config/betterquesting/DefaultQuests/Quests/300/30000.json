@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Basic Ores§f\n\n§aTime to go mining for some new metals!§f\n\nThermal Foundation adds §e9§f metal ores: Copper, Tin, Silver, Lead, Aluminum, Nickel, Platinum, Iridium, and Mana Infused (Mithril). The first six mine with stone-tier pickaxes; Platinum, Iridium, and Mithril need diamond.\n\nSmelt ores 1:1 for ingots, or run them through the §bPulverizer§f for §e2x§f dust output. The §bInduction Smelter§f gives §e2§f ingots from ore + sand, and adding Rich Slag or Cinnabar bumps that to §e3§f. Cinnabar comes from processing Redstone in the Pulverizer, so keep an eye out for it.\n\n§ePS:§f A Smashing-enchanted pickaxe drops §e2x§f pulverized metal directly, no machine needed.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalfoundation:ore"
+      },
+      "name:8": "Basic Ores",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30000,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalfoundation:ore"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

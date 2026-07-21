@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40113
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Electric Arc Furnace§f\n\n§aThe only NTM machine that makes silicon - and it smelts everything else too!§f\n\nThe §bElectric Arc Furnace§f is a large multiblock that fills the role of both crucible and automated smelter. It is required for progression as the only machine that can produce §bSilicon§f from sand, flint, fiberglass, or asbestos.\n\n§6Crafting§f (Assembly Factory):\n§b•§f §e12×§f Concrete, §e8×§f Bakelite Bar, §e16×§f Firebrick, §e8×§f Cast Steel Plate, §e1×§f 10k-20Hz Transformer, §e1×§f Analog Circuit Board.\n\n§6Operation§f:\n§b•§f Consumes §e20 kHE/s§f with a §e2.5 MHE§f buffer.\n§b•§f Needs §e3§f electrodes installed. Four types: Graphite (§e10§f ops), Lanthanum (§e100§f), Desh (§e500§f), Saturnite (§e1,500§f).\n\n§6Two Modes§f:\n§b• Solid§f: Simple ingot output.\n§b• Liquid§f: Molten ore output with a small yield bonus. Place a Strand Caster under the outlet for rapid casting.\n\n§6Silicon§f: Sand (1 nugget), Nether Quartz (3 nuggets), Asbestos (4 nuggets + quanta), Flint (4 nuggets + quanta).\n\n§ePS:§f Silicon is essential for higher-tier circuits. Always use Liquid Mode once you have a Strand Caster - the free yield bonus adds up fast!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_arc_furnace"
+      },
+      "name:8": "Electric Arc Furnace",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40119,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_arc_furnace"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

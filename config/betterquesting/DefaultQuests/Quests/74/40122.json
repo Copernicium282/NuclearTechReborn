@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40072
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Solvent§f\n\n§aCorrosive chemical feedstock for Mk.III upgrades, versatile circuits, and bedrock ore!§f\n\nSolvent is a corrosive, flammable liquid produced by mixing §bAromatic Hydrocarbons§f and §bDesulfurized Naphtha§f in the §bIndustrial Mixer§f. It provides §e100 kTU§f per bucket, but its real value is in advanced crafting.\n\n§6Production§f:\n§b•§f §e500mB§f Aromatic Hydrocarbons + §e500mB§f Desulfurized Naphtha → §e1,000mB§f Solvent.\n\n§6Uses§f:\n§b•§f Effectiveness Upgrade Mk.III (Soldering Station): §e500mB§f Solvent + Capacitors + Microchips + Rubber.\n§b•§f Versatile Circuit Board (Soldering Station): §e1,000mB§f Solvent + advanced components.\n§b•§f Ore Acidizer: dissolves bedrock ore components.\n\n§ePS:§f Solvent bridges the gap between basic petroleum processing and §bHPS§f. You need Desulfurized Naphtha from the Hydrotreater, so set up a dedicated Industrial Mixer feeding into your circuit production line!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 83,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Solvent",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40122,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 83,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

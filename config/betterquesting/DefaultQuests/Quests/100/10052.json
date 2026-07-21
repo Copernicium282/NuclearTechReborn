@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10049
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your Space Suit is out of oxygen and you\u0027re about to step into vacuum. Better hit the §6Gas Charge Pad§f first.\n\nWalk onto the pad, right-click, and your suit refills in about two seconds. It draws liquid oxygen from an adjacent tank or fluid duct and can also top off jet boot fuel. Every launch pad, station, and outpost needs at least one.\n\nPlace this inside an airlock so players can suit up before opening the outer door. Nothing ruins a launch like forgetting to charge your suit.\n\n§cWARNING:§f A Space Suit without oxygen in vacuum means death. Don\u0027t skip this step.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:oxygencharger"
+      },
+      "name:8": "Oxygen Charger",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10052,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:oxygencharger"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

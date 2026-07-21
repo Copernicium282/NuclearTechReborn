@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    437
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Beam Dump§f\n\n§aThe \u0027I don\u0027t need this beam anymore\u0027 machine. Absorbs particles and outputs fluids.§f\n\nA Beam Dump is a square-hollow particle chamber that eats an incoming beam and produces fluids as byproducts. All beam ports must be set to INPUT, and you need at least one active fluid output port plus an energy port.\n\nUse it to dispose of unwanted beams, capture neutron or alpha byproducts, or harvest fluids for downstream processing. The recipes vary by particle species.\n\nBuild it like any other chamber: square footprint with odd dimensions, Particle Chamber at center, beam blocks to the center, beam ports on the outside.\n\n§cWARNING:§f A Beam Dump with a beam incoming but no fluid output will back up and stop working. Make sure your fluid ports are active and piping somewhere.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:beam_dump_controller"
+      },
+      "name:8": "Beam Dump"
+    }
+  },
+  "questID:3": 436,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:beam_dump_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "qmd:particle_chamber_fluid_port"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

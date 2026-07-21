@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30125
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Mexican \u0026 American§f\n\n§aTacos, burritos, BBQ, and hearty American comfort food.§f\n\nMexican and American dishes use the §bSkillet§f and §bCutting Board§f. Many are large meals.\n\n§6Mexican§f: Taco (8), Fish Taco (8), Bean Burrito (7), Avocado Burrito (8), Nachos (5), Quesadilla (5), Enchilada, Chimichanga (17), Suadero (3), Random Taco (12), Fiesta Corn Salad (7).\n\n§6American§f: BBQ Pulled Pork (8), Corn Dog (6), Chili Dog (10), Chili (4), Cornbread (4), Corn on the Cob (3), Hushpuppies (5), Fried Green Tomatoes (5), Chicken and Waffles (14), BBQ Platter (14), Steak and Chips (4), Poutine (7).\n\n§6British§f: Bangers and Mash (9), Cornish Pasty (8), Sunday Roast (8), Yorkshire Pudding (7), Mince Pie (9).\n\n§6Crafting Tools§f:\n§b• Skillet§f: Tacos, burritos, chili, corn dogs, BBQ, stir-fries.\n§b• Cutting Board§f: Sandwiches, wraps, nachos, quesadillas.\n§b• Pot§f: Chili, soups, stews, chili dogs.\n\n§eTip§f: Chimichanga (17 hunger) and BBQ Platter (14 hunger) are excellent late-game foods. Stock up on Tortillas (from Cutting Board) for Mexican recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:tacoitem"
+      },
+      "name:8": "Mexican \u0026 American",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30133,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:tacoitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:nachoesitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

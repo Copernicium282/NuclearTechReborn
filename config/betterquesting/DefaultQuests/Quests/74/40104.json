@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40106,
+    40141
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Crystalline Fullerite§f\\n\\n§aThe carbon allotrope that gates pyrolysis ovens, quantum batteries, and endgame machinery!§f\\n\\nCrystalline Fullerite is a late-game material made by combining §bFullerene§f with §bBTX§f in the §bOre Acidizer§f. Recipe: §e4×§f Fullerene + §e1,000mB§f BTX yields §e1×§f Crystalline Fullerite.\\n\\n§6What it builds§f:\\n§b•§f Pyrolysis Oven (4 needed)  -  your first access to advanced thermal processing.\\n§b•§f Quantum Batteries (16 per battery)  -  via Chemical Plant with Perfluoromethyl.\\n§b•§f Heavy Duty Elements in the Plasma Forge for Gerald the Construction Android.\\n§b•§f FEnSU (64 needed)  -  the most expensive machine in the mod.\\n§b•§f Overdrive Upgrades Mk.I, Mk.II, and Mk.III.\\n\\n§ePS:§f Fullerene supply depends on HPS production, and BTX comes from the catalytic reformer chain. Neither is renewable until your infrastructure is running. Plan your supply lines before committing to big builds!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_cft"
+      },
+      "name:8": "Crystalline Fullerite",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40104,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "hbm:ingot_cft"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

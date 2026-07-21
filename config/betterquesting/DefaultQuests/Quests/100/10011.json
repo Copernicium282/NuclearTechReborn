@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10087
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Rolling Machine§f is a 2x5x3 multiblock that compresses ingots and double-ingots into plates at industrial scale. Every AR metalworking pipeline depends on it, from steel to titanium.\n\nThe frame uses Structure Blocks with Motors, Power Plug, Control Circuit Board, Input and Output Hatches, plus a Lubricant Hatch for high-tier recipes. Three Steel Blocks form the rolling column on the right side.\n\nPower is 30 RF/t baseline. The Lubricant Hatch accepts creosote oil or lubricant to reduce energy cost on later recipes.\n\n§ePS:§f The Lubricant Hatch is optional for initial recipes but becomes mandatory for titanium and titanium aluminide plates. Without the Rolling Machine you cannot build a single rocket stage.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:rollingmachine"
+      },
+      "name:8": "Rolling Machine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10011,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:rollingmachine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

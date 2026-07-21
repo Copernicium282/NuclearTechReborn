@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    10080
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Craft a Thermite Torch from HBM Thermite Powder, an Unlit Torch, and a Matchbox. Place it, light it, and it burns at 2000°C for 10 minutes.\n\nThe torch welds metal blocks together, seals pressurized rooms, and ignites anything flammable within 3 blocks. It also emits a 20-block light radius. Use it for airlock sealing: place on the inner surface of the airlock door and light it to weld all metal blocks within 3 blocks into a single airtight structure.\n\n§cWARNING:§f The torch can\u0027t be extinguished once lit. Not even water. Place it far from wooden structures or use a Force Field Projector (10092) to contain the fire. It will set the player on fire too.\n\nThe torch is consumed on use. The Thermite Torch is also a prerequisite for the Planetary Engineering and Volcanic Planet Mission chains.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:thermitetorch"
+      },
+      "name:8": "§6Thermite \u0026 Thermite Torches§f"
+    }
+  },
+  "questID:3": 10081,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:thermite"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:thermitetorch"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:unlittorch"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

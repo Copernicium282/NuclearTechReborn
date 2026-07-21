@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40112
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Rubber§f\\n\\n§aSynthetic polymer that replaces latex in every recipe  -  automation and nuclear power depend on it!§f\\n\\nRubber is made from §bUnsaturated Hydrocarbons§f and §bSulfur§f in the §bChemical Plant§f. Recipe: §e500mB§f Unsaturated Hydrocarbons + Sulfur yields §e1×§f Rubber Bar.\\n\\n§6Why it matters§f:\\n§b•§f Replaces Latex in all recipes.\\n§b•§f Way easier to automate than tapping rubber trees.\\n§b•§f Conveyor Belts: 64 per batch for item transport.\\n§b•§f Pneumatic Tubes: 8-24 per batch for automation.\\n§b•§f ZIRNOX Nuclear Reactor: 16 Rubber Bars required.\\n§b•§f Improved armor and hazmat suits.\\n\\n§6Alternate recipes§f exist in the Ore Acidizer (Sour Gas + Latex, or Cadmium + Fish Oil) but the Chemical Plant method is the easiest to automate.\\n\\n§ePS:§f You will need thousands of rubber for a conveyor-based factory. Set up Unsaturated Hydrocarbon production from your cracked oil line and keep it flowing!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_rubber"
+      },
+      "name:8": "Rubber",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40116,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "hbm:ingot_rubber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

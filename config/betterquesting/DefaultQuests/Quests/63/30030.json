@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Supercooler§f\n\n§aCools hot fluids down to usable temperatures.§f\nThe §bSupercooler§f takes §b1 hot fluid input§f and produces §b1 cooled fluid output§f. Default cycle is §b600 ticks§f at §b20 RF/t§f. It\u0027s essential for processing reactor coolant and other high-temperature fluids that need to be brought down to usable levels.\n\nIf you\u0027re running any kind of nuclear setup, you\u0027ll be using this machine regularly. Hot coolant goes in, cooled coolant comes out. Simple but absolutely critical for reactor operation and coolant循环.\n\n§ePS:§f Like the Infuser, the Supercooler loses progress on interruption. Keep your fluid supply consistent to avoid wasted cycles and power draw.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:supercooler"
+      },
+      "name:8": "Supercooler",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30030,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:supercooler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

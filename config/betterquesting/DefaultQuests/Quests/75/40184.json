@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40186
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Americium-241§f\n\n§aFive-year RTG pellets. The ultimate passive power source.§f\n\nAmericium-241 is a rare radioisotope produced only by the decay of §bPu-241§f in RBMK reactors. Useful for late-game power generation and nuclear fuel.\n\nProperties: §e8.5§f RAD/s, radiation emitter, hard difficulty.\n\nProduction via SILEX: Short-Lived Nuclear Waste + BiSmUTh crystal gives 25% Am-241, 35% Am-242, etc. Reactor Grade Americium gives 33% Am-241, 66% Am-242.\n\nUses: §bRBMK Fuel§f (Low, Medium, and Highly Enriched Americium rods; HEA-241 uses fast neutrons), §bRTG Pellet§f (20 thermal power for §e3.384B§f ticks, over 5 real years, §e67.68B§f HE total, decays to Neptunium), §bSelf-Charging Battery§f (20 HE/tick).\n\n§ePS:§f Americium-241 RTG pellets are the most powerful passive power source. Each lasts over 5 real years. Start Pu-241 RBMK fuel to produce americium.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_americium_fuel"
+      },
+      "name:8": "Americium-241",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40184,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_americium_fuel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

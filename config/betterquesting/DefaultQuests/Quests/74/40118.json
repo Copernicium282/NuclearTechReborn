@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40132
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Weapon Steel§f\n\n§aSteel forged with coker gas and flux - your gateway to better guns and ammo!§f\n\nWeapon Steel is a steel alloy made by further refining regular steel in the §bRotary Furnace§f using Coker Gas and Flux. It is the next tier of weapons-grade alloy after gunmetal.\n\n§6Production§f (Rotary Furnace):\n§b•§f §e1×§f Steel Ingot + §e2×§f Flux + §e100mB§f Coker Gas → §e1×§f Weapon Steel Ingot.\n\n§6Uses§f:\n§b•§f Higher-tier ammunition casings for advanced rounds.\n§b•§f Weapon parts like barrels and receivers for advanced firearms.\n§b•§f Alternative recipe for PWR Neutron Reflectors (before oil 3): §e2×§f Cast Steel Plate + §e16×§f Weapon Steel Plate → §e4×§f PWR Neutron Reflector.\n\n§ePS:§f Weapon Steel needs §bCoker Gas§f, so set up your Coker Unit first. Each ingot consumes §e100mB§f - a single batch of Aromatic Hydrocarbons (§e1,700mB§f) yields §e170mB§f Coker Gas, enough for §e1.7§f ingots. Scale up your coker for mass production!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_weaponsteel"
+      },
+      "name:8": "Weapon Steel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40118,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "hbm:ingot_weaponsteel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

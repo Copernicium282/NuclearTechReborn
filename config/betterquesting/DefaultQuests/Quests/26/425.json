@@ -1,0 +1,26 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Beamline Transport§f\n\n§aPipes for particles. Route beams between accelerators and chambers without losing them.§f\n\nBeamline pipes carry particle streams between multiblocks. Place them outside multiblocks to connect accelerator outputs to chamber inputs. They work with beam ports, beam blocks, and accelerating barrels.\n\nThe catch is focus loss. Every block of beamline eats into your beam focus. The formula is: loss equals attenuation rate times distance times a charge factor. Default attenuation is 0.02 per block. If focus drops to zero, the beam dissipates. Plan your routes short.\n\nThe Beam Meter tool lets you check focus, energy, and intensity on any pipe or port. Right-click to read.\n\n§ePS:§f Stainless Steel Ingots are the base material for beamline pipes. Check JEI for the recipe.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:beamline"
+      },
+      "name:8": "Relativistic Beamline Transport"
+    }
+  },
+  "questID:3": 425,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "qmd:beamline"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

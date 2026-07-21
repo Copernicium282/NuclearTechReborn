@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40161,
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6FEL (Free Electron Laser)§f\n\n§aA 7x3x3 laser cannon that powers your SILEX machines. Don\u0027t stand in front of it.§f\n\nThe FEL is a pseudo-multiblock that produces laser wavelengths for the §bSILEX§f. It needs §e10.0 MHE§f to activate and a §bLaser Crystal§f as wavelength filter.\n\nCrafted in the Assembly Factory (20s, 100HE/t): 1 Lithium-Ion Battery, 64 Dense Gold Wire, 12 Triple Steel Plate, 16 Plastic Bars, 4 Polarized Lens, 16 Capacitor, 4 Integrated Circuit Board.\n\nCrystal options: §bCO2-Desh§f (Infrared, 75 kHE/s, burns you), §bBismuth§f (Visible, 225 kHE/s, blinds you), §bCMB-Schrabidate§f (UV, 675 kHE/s, burns you), §bSpark§f (Gamma, 2.03 MHE/s, ~400 RAD/s), §bDigamma§f (6.08 MHE/s, ~0.2 DRX/s).\n\n§cWARNING:§f Place SILEX at least §e2§f blocks away or it melts. One FEL powers §e5§f SILEX units. Concrete stops the laser; glass lets it through!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_fel"
+      },
+      "name:8": "FEL (Free Electron Laser)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40164,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_fel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

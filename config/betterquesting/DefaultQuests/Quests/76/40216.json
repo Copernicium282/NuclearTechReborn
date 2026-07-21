@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40189
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Boron\\n\\n§aNeutron-absorbing metalloid that makes reactors controllable and the ZIRNOX possible.\\n\\n§bBoron§f (atomic 5) is a bluish-grey metalloid whose neutron-absorbing properties make it essential for reactor control.\\n\\n§6Production§f (no dedicated ore, mostly byproducts):\\n• Process §brare earth ore§f in anvil for boron fragments\\n• Centrifuge §bcoal ash§f for tiny piles\\n• Acidize §bborax§f with sulfuric acid (most efficient)\\n• Electrolyze §brare earth crystals§f or §blithium crystals§f for larger quantities\\n• Cyclotron: beryllium + lithium or vice versa\\n\\n§6Key Uses§f:\\n• §bRBMK Neutron Absorbers§f, 8 ingots around structural column\\n• §bZIRNOX Reactor§f, requires 8 boron ingots\\n• §bRBMK Console§f and Crane Console\\n• Chicago Pile and PWR control rods\\n• Boron glass for RBMK cover panels\\n\\n§ePS:§f Boron is relatively abundant as a byproduct. Centrifuge your coal ash and rare earth chunks instead of mining for it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_boron"
+      },
+      "name:8": "Boron",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40216,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_boron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

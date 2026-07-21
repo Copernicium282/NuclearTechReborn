@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40248
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Automatic Buzz Saw§f §aFuel it with ethanol, point it at a forest, and walk away. It chops, collects, and replants.§f §bThe Automatic Buzz Saw§f automates tree chopping in a §e10-block radius§f. It detects trees, cuts them, and replants saplings automatically. Also supports crop farming. §6Crafting§f (§bSteel Anvil or above§f):\n§b• 4×§f Steel Plate, §b12×§f Iron Ingot, §b2×§f Industrial Grade Copper\n§b• 2×§f Vacuum Tube, §b1×§f Sawblade §6Acceptable Fuels§f (burnable oils, not electricity):\n§b• Wood Oil, Ethanol, Heavy Oil, Fish Oil§f §6Automates§f:\n§b• Wood§f (logs, planks), §bLatex§f (rubber), §bHemp§f (fiber), §bMustard Willows§f (nuclear waste processing) §ePS:§f Fuel it with Ethanol for clean burning. Place it in the center of your tree farm for maximum coverage. The green area in the GUI shows detection range, red shows cutting range, black shows areas it cannot reach.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_autosaw"
+      },
+      "name:8": "Automatic Buzz Saw",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40249,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_autosaw"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

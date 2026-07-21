@@ -1,0 +1,87 @@
+{
+  "preRequisites:11": [
+    30149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Upgrade Cards§f modify AE2 block behavior. The family includes §6Basic§f and §6Advanced Cards§f as base tiers, plus specialized variants for specific upgrades.\n\n§6Basic Card§f: Gold Ingots + Iron + Redstone + Calculation Processor. §6Advanced Card§f: same recipe with Diamonds instead of Gold. Shapeless upgrades: Basic + Certus Quartz crystal \u003d §6Capacity Card§f; Advanced + Fluix crystal \u003d §6Speed Card§f.\n\nKey cards: §6Capacity§f (Storage Cell tiers), §6Acceleration§f (Import/Export Bus speed), §6Speed§f (Molecular Assembler speed), §6Crafting§f (Level Emitter trigger), §6Fuzzy§f (OreDict-aware filtering), §6Inverter§f (whitelist/blacklist flip), §6Pattern Expansion§f (Pattern Provider slots), §6Redstone§f (redstone control on parts), §6Sticky§f (keep items when inventory is full).\n\n§ePS:§f Most blocks accept §b4-8 upgrade slots§f. The Inverter Card is underrated, pair it with Fuzzy Mode for OreDict-aware item exclusion.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 25,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Upgrade Cards",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30210,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 25,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 28,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 26,
+          "id:8": "appliedenergistics2:material"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 27,
+          "id:8": "appliedenergistics2:material"
+        },
+        "4:10": {
+          "Count:3": 2,
+          "Damage:2": 29,
+          "id:8": "appliedenergistics2:material"
+        },
+        "5:10": {
+          "Count:3": 2,
+          "Damage:2": 30,
+          "id:8": "appliedenergistics2:material"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 31,
+          "id:8": "appliedenergistics2:material"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 53,
+          "id:8": "appliedenergistics2:material"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 58,
+          "id:8": "appliedenergistics2:material"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 60,
+          "id:8": "appliedenergistics2:material"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "Damage:2": 59,
+          "id:8": "appliedenergistics2:material"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "Damage:2": 61,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

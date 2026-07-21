@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Pumpjack§f\n\n§aThree times the efficiency, half the depletion. This is your long-term oil extractor.§f\n\nThe Pumpjack replaces the Oil Derrick with better numbers across the board. It uses more power but extracts oil §e3×§f faster and depletes deposits at §ehalf§f the rate.\n\n§6Stats§f:\n§b• Power§f: §e4kHE/s§f\n§b• Oil output§f: §e750mB§f crude + §e50-250mB§f natural gas per §e1.25s§f cycle\n§b• Buffers§f: §e64,000mB§f each\n§b• Depletion§f: §c2.5%§f chance per cycle\n\nThe pumpjack requires oil-derived materials to craft, so you need a derrick first to bootstrap production.\n\n§cWARNING:§f Same drilling hazard as the derrick. §bUranium§f or §bAsbestos§f in the drill path releases poison gas.\n\n§ePS:§f The §e3×§f efficiency advantage means your oil field lasts significantly longer. Upgrade as soon as you can.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_pumpjack"
+      },
+      "name:8": "Pumpjack",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40063,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_pumpjack"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

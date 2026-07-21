@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    10062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Want free, renewable power? Solar Panels generate RF from direct sunlight and output to a Forge Power Output Hatch on their bottom face. They\u0027re the primary power source for surface-based AR machines.\n\nThe panel needs a clear sky view to work. Underground, under a roof, or at night drops output to zero. Output scales with the planet\u0027s insolation multiplier, so panels work better on some worlds than others.\n\nA Solar Array Panel gives you 8x solar panels in a 3×3 pattern with a Structure Tower at center. Chain panels side-by-side and connect via Tesseract or EnderIO Power Conduit for long-distance transmission.\n\n§ePS:§f Build the Solar Array Panel for better panel density. For night-time backup, pair with a Fusion Reactor or switch to the Black Hole Generator (10083) for endgame power.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:solarpanel"
+      },
+      "name:8": "§6Solar Power Systems§f"
+    }
+  },
+  "questID:3": 10082,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:solarpanel"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:solararraypanel"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:solararray"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40279
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Balefire§f\n\n§aGreen fire that transmutes matter. Handle with extreme caution.§f\n\n§bBalefire§f is an extremely energetic substance of unknown composition. It\u0027s pyrophoric, obscenely radioactive, and a potent energy source.\n\n§6Sources§f:\n§b• Dud bombs§f, easiest for initial euphemium production, no fueling needed, small footprint\n§b• Flashgold RBMK fuel§f, spent rods yield thermonuclear ashes, §e4 ashes§f → §e1 balefire shard§f\n§b• Balefire Bomb§f, generates large amounts, but destroys terrain\n§b• Fusion reactor§f, antimatter-BF rocket fuel plasma produces thermonuclear ashes as a byproduct\n\n§6Uses§f:\n§b• Euphemium production§f, clusters near balefire transmute into euphemium-etched clusters\n§b• RBMK fuel§f, balefire rods are among the most powerful in the mod\n§b• Custom nukes§f, shards give §e15§f antimatter stage, eggs give §e150§f\n§b• BF Rocket Fuel§f, chemical plant recipe: §e6,000 mB§f kerosene + shard → §e8,000 mB§f fuel + ashes\n\n§cWARNING:§f Balefire spreads fast and kills unprotected players instantly. Never detonate near your base without proper containment. The dud method is safest for initial euphemium.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:balefire"
+      },
+      "name:8": "Balefire",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40283,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:balefire"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

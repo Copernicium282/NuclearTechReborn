@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Petroleum Gas§f\n\n§aThe least common refinery output but the most versatile. Polymer, bakelite, fuel, fracking, it does everything.§f\n\nPetroleum Gas is a flammable gas from the §bOil Refinery§f. Every §e1,000mB§f of hot crude oil yields only §e100mB§f of it, but its uses are everywhere.\n\n§6Production§f:\n§b• Oil Refinery§f: §e100mB§f per §e1,000mB§f hot crude oil.\n§b• Cracking Tower§f: Crack §bNatural Gas§f, §bKerosene§f, §bDiesel§f, §bBTX§f, §bIndustrial Oil§f, or §bCrude Oil§f.\n§b• Hydrotreater§f: §bNatural Gas§f → §e800mB§f Petroleum Gas.\n\n§6Key Uses§f:\n§b• Polymer§f: §e500mB§f + Coal Powder + Fluorite → §e1× Polymer Bar§f.\n§b• Bakelite§f: §e500mB§f + §e500mB§f Aromatic Hydrocarbons → §e1× Bakelite Bar§f.\n§b• LPG§f: §e2,000mB§f → §e1,000mB§f LPG in a §bCompressor§f.\n§b• Fracking Solution§f: §e100mB§f + §e900mB§f Sulfuric Acid.\n§b• Nitroglycerin§f: §e1,000mB§f + Nitric Acid.\n\nAlso found in §bGas Shale§f blocks (§e250mB§f each) above oil deposits.\n\n§ePS:§f Burns at §e1.65 MTU§f and §e2.47 MHE§f per bucket. Decent fuel, but its chemical uses are way more valuable.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 24,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Petroleum Gas",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40070,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 24,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

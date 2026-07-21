@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40111
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Bakelite§f\\n\\n§aPlastic from oil fluids only  -  no coal, no fluorite, just aromatic hydrocarbons and petroleum gas!§f\\n\\nBakelite (formally polyoxybenzylmethyleneglycolanhydride) is a polymer substitute made from §bAromatic Hydrocarbons§f and §bPetroleum Gas§f in the §bChemical Plant§f. Recipe: §e500mB§f of each yields §e1×§f Bakelite Bar.\\n\\n§6Why use it§f:\\n§b•§f Replaces Polymer in virtually every recipe.\\n§b•§f No coal powder or fluorite needed, just oil products.\\n§b•§f Far easier to mass-produce once your oil refinery is running.\\n\\n§6Main use§f:\\n§b•§f Insulators: §e1×§f Bakelite Bar yields §e8×§f Insulators in a crafting table. Essential for circuits.\\n§b•§f Industrial Boiler: Required in the anvil recipe.\\n\\nThere is also a lab glassware method using Hazardous Material Tanks, but the Chemical Plant is faster.\\n\\n§ePS:§f Once your cracked oil line produces Aromatic Hydrocarbons and Petroleum Gas, run a dedicated Chemical Plant for bakelite. It solves your plastic needs!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_bakelite"
+      },
+      "name:8": "Bakelite",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40113,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "hbm:ingot_bakelite"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

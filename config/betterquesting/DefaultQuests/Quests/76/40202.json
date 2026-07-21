@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40201
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cadmium Steel§f\n\n§aThe reliable swap for technetium steel. Same recipes, different farming chain.§f\n\n§bCadmium Steel§f is cadmium alloyed with steel. It\u0027s a §efully interchangeable substitute§f for technetium steel in §ealmost all§f recipes, giving you a parallel path when technetium is scarce.\n\n§6How to Make It§f (Blast Furnace or Crucible):\n§b•§f §e1×§f Steel Ingot + §e1×§f Cadmium Nugget → §e1×§f Cadmium Steel Ingot\n\n§6What It Replaces§f:\n§b•§f §bReactor Remote Control Block§f\n§b•§f §bModerated RBMK Fuel Rods§f\n§b•§f §bGas Centrifuge Overclock Upgrade§f\n§b•§f §bMagnetic Extractor§f\n§b•§f §bReinforced Block of Niter§f\n§b•§f All Technetium Steel recipes except a few edge cases\n\n§6Two Paths§f: Technetium steel comes from waste reprocessing (passive, you get it as a byproduct). Cadmium steel requires active farming (mustard willow cultivation) but can be fully automated. Pick whichever suits your resource situation.\n\n§ePS:§f Check JEI to confirm a specific recipe accepts cadmium steel before you commit to that path.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_cdalloy"
+      },
+      "name:8": "Cadmium Steel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40202,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_cdalloy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

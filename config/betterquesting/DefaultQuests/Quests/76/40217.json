@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40189
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Lithium, Graphite \u0026 Asbestos\\n\\n§aThree materials your reactors cannot function without.\\n\\n§6Lithium§f (atomic 3):\\nSemi-rare alkali metal. §cExplodes if wet§f. Found in schist ore, nether quartz, meteorites.\\nUses: §bLithium-Ion Batteries§f (with cobalt), §btritium breeding§f for fusion, thermonuclear warheads, custom nukes.\\n\\n§6Graphite§f:\\nCrystalline carbon, the essential neutron moderator. Press lignite coke with flat stamp for ingots, or acidize coal blocks with hydrogen peroxide.\\nUses: §bRBMK moderators and control rods§f, ZIRNOX reactor (16 ingots), Chicago Pile blocks, graphite electrodes for arc furnace, Watz fuel pellets.\\n\\n§6Asbestos§f:\\nRare silicate mineral. §cToxic when airborne§f, causes lung damage without protection. Found as underground ore or chrysotile cave walls.\\nUses: §bInsulators§f (2 sheets \u003d 16 insulators, very efficient), §basbestos concrete§f for RBMK columns, laboratory tiles, breeding reactor.\\n\\n§ePS:§f Set up schist processing for lithium. Graphite from lignite coke is the easiest path. Asbestos, you only need modest amounts.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_graphite"
+      },
+      "name:8": "Lithium, Graphite \u0026 Asbestos",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40217,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:powder_lithium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fluid Extractor§f\n\n§aExtracts fluid properties from solid items.§f\nThe §bFluid Extractor§f takes §b1 item input§f and produces §b1 item output§f plus §b1 fluid output§f. Default cycle is §b2400 ticks§f at §b10 RF/t§f. It\u0027s the slowest of the fluid processors, but it extracts fluids that can\u0027t be obtained any other way.\n\nUsed for extracting molten metals from ores, producing chemical fluids from solid precursors, and similar extraction tasks. The slow speed is the tradeoff for producing unique fluids.\n\n§cWARNING:§f 2400 ticks is slow. Speed Upgrades are practically mandatory for this machine if you want reasonable throughput.\n\n§ePS:§f The Extractor produces both an item and fluid output. Plan your piping for both streams to avoid one backing up and stalling the machine.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:extractor"
+      },
+      "name:8": "Fluid Extractor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30086,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:extractor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

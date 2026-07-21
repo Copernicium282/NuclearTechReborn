@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Need to connect two bases on opposite sides of the world, or bridge the Overworld to the End? The §6Quantum Network Bridge §fmakes it happen.\n\nBuild a 3x3x3 structure with a Quantum Ring at the centre and 8 Quantum Link Chambers on the corners. Place two of these structures anywhere in any dimension and they link automatically.\n\nItems in storage cells on one side are visible on the other. It does not share power, so each side needs its own energy supply.\n\nCraft the Quantum Ring from Iron, Logic and Engineering Processors, an Energy Cell, and a Dense Smart Cable.\n\n§ePS:§f Transfer speed is 1 item per 20 ticks, not as fast as direct cable. Use it for convenience, not for bulk transfers.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:quantum_ring"
+      },
+      "name:8": "Quantum Network Bridge",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30198,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "appliedenergistics2:quantum_ring"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:quantum_link"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

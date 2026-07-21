@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40215
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Magnetized Tungsten\\n\\n§aTungsten infused with schrabidium. The gate to CMB Steel.\\n\\n§bMagnetized Tungsten§f is tungsten alloyed with trace schrabidium-326. The schrabidium boosts durability, conductivity, heat resistance, and magnetism. Lighter than normal tungsten with distinctive stripes.\\n\\n§6Production§f:\\n• §bBlast Furnace§f: 1 Tungsten Ingot + 1 Schrabidium Nugget → 1 Magnetized Tungsten Ingot\\n• §bCrucible§f: 8 Tungsten Nuggets + 1 Schrabidium Nugget → 1 Ingot (more efficient)\\n\\n§6Key Uses§f:\\n• §bCMB Steel§f: 6 Magnetized Tungsten Nuggets + 3 Poisonous Mud Nuggets in crucible\\n• §bSuperconductors§f rated to 4,000K, late-game equivalent of advanced alloy\\n• Energy Powder: Glowstone + Diamond Powder + Magnetized Tungsten Powder\\n• Contained Counter-Resonant Singularity for DFC\\n\\n§ePS:§f No schrabidium, no magnetized tungsten, no CMB Steel. Get your schrabidium chain running first.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_magnetized_tungsten"
+      },
+      "name:8": "Magnetized Tungsten",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40222,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_magnetized_tungsten"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

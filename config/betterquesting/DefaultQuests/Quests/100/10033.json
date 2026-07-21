@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10022
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Rocket Monitoring Station§f displays real-time status of every linked AR rocket, altitude, fuel level, oxygen, hull integrity, and crew status. It is a Network Machine that can be linked to a Planet Holo Selector or Guidance Computer.\n\nCraft it: Copper Sticks, Satellite Primary Function, Machine Structure, and a Battery in the pattern \u0027c o c / c b c / c p c\u0027. It uses a Data Bus to communicate with linked rockets.\n\nThe station can also send Redstone signals when a rocket enters or leaves a zone, enabling automated launch and recovery systems.\n\n§ePS:§f Place within 32 blocks of the rockets it tracks, beyond that the Data Bus signal degrades. Use a Linker to bind the station to a Planet Holo Selector for fleet status on the holographic globe.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:monitoringstation"
+      },
+      "name:8": "Rocket Monitoring Station",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10033,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:monitoringstation"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

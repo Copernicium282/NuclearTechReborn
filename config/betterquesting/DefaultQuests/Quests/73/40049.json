@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40048
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aSteel feeling a little thin? Upgrade time.§f\n\nAdvanced Alloy Armor gives 10 defense and 0.07 RR with a 0.75 damage modifier. Decent side-grade but not the main path.\n\nCobalt Armor is the real step up. It upgrades directly from Steel pieces, so keep your old helmet and boots as bases. 10 defense, 0.13 RR, 0.7 damage modifier. The damage reduction improvement is worth it.\n\nThere\u0027s also PaA Alloy Armor, which doesn\u0027t have a helmet slot (uses hazmat instead). Protection plates for chest, legs, and feet. Needs PaA processing to make.\n\n§ePS:§f Cobalt upgrades steel, so don\u0027t dismantle your old set. Advanced Alloy is a side-grade, not a strict upgrade.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:cobalt_helmet"
+      },
+      "name:8": "Alloy \u0026 Cobalt Armor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40049,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:cobalt_helmet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30054
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Thermonuclear Weapons§f\n\n§aFusion-boosted fission weapons. The ultimate deterrent.§f\n§bThermonuclear Weapons§f are two-stage devices: a fission primary triggers a fusion secondary. They produce much larger explosions than standard fission bombs and generate unique byproducts.\n\nCrafted with §bFusor Cores§f, §bFusion Fuel§f, and a fission primary. The detonation sequence is complex and the explosion is enormous. Wire it up carefully and stand very far away.\n\n§cWARNING:§f This will generate massive amounts of lag! The explosion is enormous. Use in dedicated test worlds only. Your FPS will thank you.\n\n§ePS:§f Thermonuclear weapons are more of an endgame curiosity than a practical tool. But watching the explosion from a safe distance is satisfying in a destructive kind of way.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "trinity:detonator"
+      },
+      "name:8": "Thermonuclear Weapons",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30263,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "trinity:detonator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

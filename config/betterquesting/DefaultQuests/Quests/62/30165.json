@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    30149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Fluid storage components work just like item storage components but for fluids. Four tiers: 1k, 4k, 16k, and 64k.\n\nThe recipe is the same pattern as item components but uses Printed Engineering Circuits instead of Printed Calculation Circuits. Each tier needs the previous tier in its recipe, so you work your way up.\n\nFluid cells are essential for any automation that moves liquids around. Water, lava, fuel, coolant, molten metals, all of it goes into fluid cells for network storage.\n\n§ePS:§f Fluid storage is separate from item storage. Fluid cells go in the same drives as item cells, but they use a different storage channel.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 54,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Fluid Storage Components",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30165,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 54,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 55,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 56,
+          "id:8": "appliedenergistics2:material"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 57,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

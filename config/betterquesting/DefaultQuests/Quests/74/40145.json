@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Centrifuge§f\n\n§aSecond-tier ore processor with higher yields - and the earliest renewable mercury source!§f\n\nThe §bCentrifuge§f is the next tier of ore processing after the Shredder. It draws §e4 kHE/s§f with a §e100 kHE§f buffer, taking §e10 seconds§f per operation. Two upgrade slots support speed, efficiency, or overdrive.\n\n§6Crafting§f (Assembly Machine):\n§b•§f §e4×§f Polymer Bar, §e8×§f Steel Plate, §e4×§f Copper Plate, §e1×§f Analog Circuit Board.\n§b•§f Centrifuge Element (Assembly Machine): §e4×§f High-Speed Steel Plate, §e4×§f Titanium Plate, §e1×§f Motor.\n\n§6Processing§f:\n§b•§f Redstone Ore → §e6×§f Redstone + §e1×§f Drop of Mercury + Gravel.\n§b•§f Redstone Crystals → §e9×§f Redstone + §e2×§f Drops of Mercury.\n\n§ePS:§f The Centrifuge is the earliest renewable source of §bMercury§f, essential for §bDesh§f production. Redstone is cheap and easy to farm - run it through a Centrifuge for a steady mercury supply!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_centrifuge"
+      },
+      "name:8": "Centrifuge",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40145,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_centrifuge"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

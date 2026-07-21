@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10022
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Rocket Seat§f goes at the top of every AR rocket. It defines passenger capacity, control surface, and inventory that the pilot uses during flight.\n\nCraft it: 1 Wool (any color for the cushion) + 1 Steel Plate. Each rocket needs at least one Seat to be considered valid by the Rocket Assembling Machine. You can place up to six seats for a multiplayer crew.\n\nThe seat stores inventory items for the pilot, oxygen, food, and tools are drawn from the seat\u0027s slot during flight.\n\n§cWARNING:§f Place the seat at the highest Y level of the rocket frame. The assembler rejects rockets where the seat is buried inside the structure rather than on top.\n\n§ePS:§f Without a seat, the assembler flags the rocket as \u0027unmanned\u0027 and it can only be flown by an Unmanned Vehicle Assembler.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:seat"
+      },
+      "name:8": "Rocket Seat",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10024,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:seat"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

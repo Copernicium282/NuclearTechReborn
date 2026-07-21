@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Multi-Fluid Identifier§f\n\n§aYour pipes are carrying something. But what?§f\n\nRight-click any tank, pipe, or machine with the §bMulti-Fluid Identifier§f and it tells you what\u0027s inside: fluid type, amount, and temperature. Made at the §bAssembly Machine§f.\n\nSounds simple, but it\u0027s a lifesaver when your oil processing setup has three different hydrocarbons running through similar-looking pipes and you can\u0027t remember which line carries the naphtha. Essential for debugging pipe networks, verifying chemical plant inputs, and sorting out which fraction ended up where.\n\n§ePS:§f Keep one in your hotbar. You\u0027ll need it more often than you think once you start chaining chemical plants and refineries together.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:fluid_identifier_multi"
+      },
+      "name:8": "Multi-Fluid Identifier",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40021,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:fluid_identifier_multi"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

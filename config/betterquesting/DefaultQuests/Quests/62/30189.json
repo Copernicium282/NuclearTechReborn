@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30163
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your storage cells need configuration, and the §6Cell Workbench §fis where it happens.\n\nPlace a storage cell in the workbench and you get access to its internal inventory. Partition cells to accept only specific items, apply upgrades, rename them, or lock them so nobody accidentally empties your precious 64k cell.\n\nCopy Mode lets you duplicate a cell\u0027s configuration. Set it to §6KEEP §fand the config persists when you remove the cell. Set it to §6CLEAR_ON_REMOVE §f(default) and the cell resets.\n\nYou can also manage Acceleration, Capacity, Inverter, Fuzzy, and Equal Distribution upgrades through the workbench.\n\n§ePS:§f Right-click with a Lock upgrade on a cell to prevent accidental clearing. Trust me, you will want this.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:cell_workbench"
+      },
+      "name:8": "Cell Workbench",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30189,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:cell_workbench"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

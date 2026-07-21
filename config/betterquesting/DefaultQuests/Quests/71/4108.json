@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Matter Transmitters \u0026 Receivers§f\\n\\n§aTeleport anywhere, no more walking like a peasant.§f\\n\\nSet up a §bMatter Transmitter§f (departure) and §bMatter Receiver§f (destination), then use a §bDialing Device§f to connect them. A blue beam appears, step in and you\u0027re there.\\n\\n§6Specs§f:\\n§b• Transmitter§f: §e200,000 RF§f buffer, §e1,000 RF/t§f\\n§b• Receiver§f: §e100,000 RF§f buffer, §e500 RF/t§f\\n§b• Dialing Device§f: §e50,000 RF§f, connects within §e10h×5v§f range\\n\\n§6Teleport Costs§f:\\n§b• Same dimension§f: §e5,000 RF§f base + §e10 RF/block§f\\n§b• Cross-dimension§f: §e100,000 RF§f flat\\n§b• Receiver arrival§f: §e5,000 RF§f from receiver buffer\\n§b• Beam maintenance§f: §e500 RF/t§f while active\\n\\nIf a receiver runs dry, a §bMatter Booster§f next to the transmitter forces it through for §c20,000 RF§f extra.\\n\\n§9Note:§f Name your transmitters and receivers in their GUIs for easy identification in the dialing device.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:matter_transmitter"
+      },
+      "name:8": "Matter Transmitters",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4108,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:matter_transmitter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

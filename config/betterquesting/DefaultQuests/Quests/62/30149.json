@@ -1,0 +1,62 @@
+{
+  "preRequisites:11": [
+    30148
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Making a Processor is a two-step process in the Inscriber:\n\n§bStep 1:§f Press + Pure Crystal \u003d Printed Circuit\n§bStep 2:§f Printed Circuit + Printed Silicon \u003d Processor\n\nThree processor types exist:\n§b-§f Calculation Processor (Calculation Press + Pure Certus Quartz)\n§b-§f Engineering Processor (Engineering Press + Pure Nether Quartz)\n§b-§f Logic Processor (Logic Press + Pure Fluix)\n\nPrinted Silicon is made by combining Silicon and Sand in the Inscriber (no press needed).\n\nProcessors are the core ingredient for AE2 machines, storage cells, cables, and basically everything else. Automate this chain early. You will thank yourself later.\n\n§ePS:§f One Inscriber per recipe type keeps things organized. Use Import/Export Buses for full automation.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 22,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Printed Circuits \u0026 Processors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30149,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 16,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 17,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 18,
+          "id:8": "appliedenergistics2:material"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 20,
+          "id:8": "appliedenergistics2:material"
+        },
+        "4:10": {
+          "Count:3": 2,
+          "Damage:2": 22,
+          "id:8": "appliedenergistics2:material"
+        },
+        "5:10": {
+          "Count:3": 2,
+          "Damage:2": 23,
+          "id:8": "appliedenergistics2:material"
+        },
+        "6:10": {
+          "Count:3": 2,
+          "Damage:2": 24,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

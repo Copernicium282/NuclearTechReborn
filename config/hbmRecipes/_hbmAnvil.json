@@ -79,17 +79,6 @@
     },
     {
       "inputs": [
-        ["dict","ingotAdvancedAlloy"]
-      ],
-      "outputs": [
-        ["hbm:plate_advanced_alloy",1.0]
-      ],
-      "tierLower": 3,
-      "tierUpper": -1,
-      "overlay": "SMITHING"
-    },
-    {
-      "inputs": [
         ["dict","ingotGunMetal"]
       ],
       "outputs": [
@@ -259,17 +248,6 @@
       ],
       "outputs": [
         ["hbm:wire_fine",8,31,1.0]
-      ],
-      "tierLower": 4,
-      "tierUpper": -1,
-      "overlay": "SMITHING"
-    },
-    {
-      "inputs": [
-        ["dict","ingotAdvancedAlloy"]
-      ],
-      "outputs": [
-        ["hbm:wire_fine",8,32,1.0]
       ],
       "tierLower": 4,
       "tierUpper": -1,
@@ -600,17 +578,6 @@
     },
     {
       "inputs": [
-        ["item","hbm:coil_advanced_alloy",2]
-      ],
-      "outputs": [
-        ["hbm:coil_advanced_torus",1.0]
-      ],
-      "tierLower": 1,
-      "tierUpper": -1,
-      "overlay": "CONSTRUCTION"
-    },
-    {
-      "inputs": [
         ["item","hbm:coil_gold",2]
       ],
       "outputs": [
@@ -650,11 +617,11 @@
     {
       "inputs": [
         ["item","minecraft:stonebrick",4],
-        ["item","hbm:ingot_firebrick",4],
-        ["dict","plateCopper",4]
+        ["item","hbm:ingot_firebrick",32],
+        ["dict","plateCopper",8]
       ],
       "outputs": [
-        ["hbm:machine_difurnace_off",1.0]
+        ["hbm:machine_blast_furnace",1.0]
       ],
       "tierLower": 1,
       "tierUpper": -1,
@@ -1086,7 +1053,7 @@
         ["item","hbm:steel_wall",2],
         ["dict","dustRedstone",4],
         ["item","minecraft:lever",2],
-        ["item","hbm:wire_dense",3,32]
+        ["item","hbm:wire_dense",3,31]
       ],
       "outputs": [
         ["hbm:bm_power_box",1.0]
@@ -1202,7 +1169,7 @@
     },
     {
       "inputs": [
-        ["dict","plateAdvancedAlloy",4],
+        ["dict","plateDuraSteel",4],
         ["item","hbm:plate_armor_titanium"],
         ["dict","wireFineTungsten",8]
       ],
@@ -2730,13 +2697,11 @@
     },
     {
       "inputs": [
-        ["item","hbm:barrel_tcalloy"]
+        ["item","hbm:machine_bat9000",1,1]
       ],
       "outputs": [
-        ["hbm:ingot_titanium",2,1.0],
-        ["hbm:ingot_tcalloy",4,1.0],
-        ["hbm:ingot_tcalloy",0.5],
-        ["hbm:ingot_tcalloy",0.25]
+        ["hbm:plate_welded",4,36,1.0],
+        ["hbm:plate_steel",16,1.0]
       ],
       "tierLower": 3,
       "tierUpper": -1,

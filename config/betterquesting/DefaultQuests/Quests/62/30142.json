@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30140
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Before you have power, the Quartz Grindstone is how you turn crystals into dust. It has 7 inventory slots: 3 input, 3 output, and 1 processing slot.\n\nAttach a Wooden Crank to the top and right-click to grind. Each click processes one item. No AE power needed, just good old-fashioned elbow grease.\n\nYou can also feed it rotational power from other tech mods for hands-free grinding, but that is overkill for early game.\n\nDusts are used for circuits, processors, and a bunch of AE2 recipes, so you will be grinding a lot. Consider building a few of these.\n\n§cWARNING:§f The grindstone does not accept items that have no grinder recipe. Check JEI first.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:grindstone"
+      },
+      "name:8": "Quartz Grindstone",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30142,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:grindstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40233
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6HBM: Endgame§f\n\n§aYou\u0027ve beaten the nuclear age. Now the real grind begins.§f\n\nEndgame is where NTM throws its wildest toys at you: exotic particles, reality-bending materials, and reactors that output more power than you\u0027ll ever need. Your §bParticle Accelerator§f and §bExposure Chamber§f from the nuclear questline are your entry ticket, so make sure they\u0027re operational.\n\nThe path ahead breaks down into a few branches:\n§b• Advanced Particle Accelerator§f, push momentum limits for exotic particle production\n§b• Exotic Elements§f, Schrabidium (accelerator method), Euphemium, Dineutronium, Electronium\n§b• Digamma§f, optional branch, extremely dangerous, unlocks unique RBMK fuels\n§b• Endgame Armors§f, DNT Nano Suit, Fau Armor, Euphemium Armor\n§b• Soyuz-FG \u0026 Satellites§f, launch infrastructure for orbital payloads\n§b• ICF Reactor§f, Inertial Confinement Fusion, the second most powerful reactor\n§b• Gerald \u0026 Osmiridium§f, launch the android, harvest exotic metal from the crater\n§b• FEnSU§f, unlimited energy storage\n§b• DFC§f, the Dark Fusion Core, the ultimate reactor\n\n§ePS:§f Endgame machines consume MHEs to GHEs of power per tick. Set up a serious power source before you start building. A well-tuned ICF or several fusion reactors should keep you going.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:particle_hydrogen"
+      },
+      "name:8": "HBM: Endgame",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40275,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:particle_hydrogen"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

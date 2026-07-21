@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    30241,
+    30243
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Powercell (High)§f\\n\\n§a40× the Low\u0027s capacity. The final form of modular RF storage.§f\\n\\nThe §bPowercell (High)§f holds §e20,000,000 RF§f and transfers §e4,000 RF/t§f per side. A full 9×9×9 network pushes §e729,000 RF/t§f per side. That\u0027s enough for any reactor in the pack. Each upgrade preserves 100% of stored energy via Copy NBT.\\n\\n§6Upgrade§f: Copy NBT recipe, §bPowercell (Medium)§f + §b4× Power Core (High)§f + §b4× Redstone§f.\\n\\nSame wrench I/O, wireless linking, and energy retention as the lower tiers. Wireless linking works across dimensions too, so a High network can feed remote bases.\\n\\n§cWARNING:§f Stockpile diamonds and emeralds. A 9×9×9 High network eats hundreds of cores.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftoolspower:cell3"
+      },
+      "name:8": "Powercell (High)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30244,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolspower:cell3"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

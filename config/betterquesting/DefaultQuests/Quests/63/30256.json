@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30255
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Steam Processing§f\n\n§aUsing steam as a processing medium.§f\nBeyond power generation, §bHigh Pressure Steam§f can be used as a processing fluid in various machines. Some recipes require steam as an input rather than just as a power intermediary.\n\nSteam processing is used in certain chemical reactions, material treatments, and advanced fabrication steps. It\u0027s a niche but important part of the NuclearCraft ecosystem that you\u0027ll encounter as you progress through the mod\u0027s recipe chains.\n\n§ePS:§f Check JEI for steam-required recipes. They show up in unexpected places, sometimes in machines you wouldn\u0027t associate with steam power. The versatility of steam as both power carrier and processing medium is one of NC\u0027s strengths.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ncsteamadditions:steam_crusher"
+      },
+      "name:8": "Steam Processing",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30256,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ncsteamadditions:steam_crusher"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

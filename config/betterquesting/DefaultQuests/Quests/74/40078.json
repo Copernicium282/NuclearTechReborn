@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40077
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Engine Lubricant§f\n\n§aKeep your machines oiled and your production chains moving.§f\n\nEngine Lubricant is a specialized fluid from §bHeavy Oil§f or §bIndustrial Oil§f. Required for various advanced machine recipes.\n\n§6Production§f:\n§b• Fractioning Tower§f: §e100mB§f Industrial Oil → §e60mB§f Heating Oil + §e40mB§f Engine Lubricant.\n§b• Chemical Plant§f: §e2,000mB§f Heavy Oil → §e1,000mB§f Engine Lubricant (requires §bBlueprint: Lubricant from Heavy Oil§f).\n\n§6Uses§f:\n§b• Advanced Machinery§f: Crafting component for various HBM machines.\n§b• Paraffin Wax§f: Solidify engine lubricant in the §bIndustrial Solidification Machine§f for §bParaffin Wax§f, which combines with §bChlorine Gas§f for §bChlorinated Petroleum Wax§f.\n\n§ePS:§f The §bChemical Plant§f route gives a §e50%§f conversion (§e2,000mB§f → §e1,000mB§f). The §bFractioning Tower§f route produces lubricant as a co-product alongside Heating Oil, best when you are already fractioning Industrial Oil.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 18,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Engine Lubricant",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40078,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 18,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

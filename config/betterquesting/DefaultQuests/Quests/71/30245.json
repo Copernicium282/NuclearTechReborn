@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    30239,
+    30242
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Information Screen§f\\n\\n§aA slim panel that shows real-time RF stats from any adjacent power block.§f\\n\\nThe §bInformation Screen§f sits flush against any face (only §e0.05 blocks§f deep) and displays live energy data from any RF/FE-compatible block. Useful for monitoring input, output, and total storage at a glance.\\n\\n§9Right-click§f with a wrench to cycle display modes, storage capacity, percentage full, and RF/t flow rates. Works with Powercells, standard energy cells, or any FE block.\\n\\n§6Crafting§f: §b3 Glass Panes§f (top) + §b2 Redstone§f (sides) + §b1 Machine Base§f (center)\\n\\n§9Note:§f Place multiple screens on different sides of one Powercell to monitor input, output, and total storage simultaneously.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftoolspower:information_screen"
+      },
+      "name:8": "Information Screen",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30245,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolspower:information_screen"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

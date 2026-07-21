@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    456,
+    437
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Beam Splitter§f\n\n§aOne beam in, three beams out. One straight, two at 90 degrees.§f\n\nThe Beam Splitter fans a single incoming beam into three directions: one straight-through and two perpendicular outputs. All three share the same input intensity, with focus loss applied per path.\n\nBuild it like the Beam Diverter but larger, with dipole magnets at corners and output faces, quadrupole yokes, RF cavities, and beam ports. The controller needs an Advanced Processor and Super Alloy Ingots.\n\nThis is for when a Diverter is not enough. Route one beam to three different chambers simultaneously. Just watch the focus loss on longer paths.\n\n§ePS:§f Focus loss is per-path, not shared. Each output gets its own focus calculation based on the distance traveled through the splitter.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:beam_splitter_controller"
+      },
+      "name:8": "Beam Splitter"
+    }
+  },
+  "questID:3": 460,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:beam_splitter_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

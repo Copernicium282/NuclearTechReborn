@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    10022,
+    10023
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Tired of manually loading cargo onto rockets? The §6Rocket Loader§f and §6Rocket Unloader§f automate the whole process.\n\nThe loader pushes items into the rocket\u0027s cargo slots before launch, and the unloader pulls them out on landing. They\u0027re the ground-side counterpart to the Fueling Station and work on both Launch Pads and Docking Pads.\n\nThese are shapeless recipes: Input Hatch plus Tracking Circuit for the loader, Output Hatch plus Tracking Circuit for the unloader. There are also fluid-specific variants for liquid transfers.\n\nFor a fully automated cargo hub, place the loader on one face of the pad and the unloader on another. Tracking Circuits in the hatches enable smart routing by destination.\n\n§ePS:§f These are the foundation of every automated cargo mission in the late game. Get comfortable with them now.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "advancedrocketry:loader"
+      },
+      "name:8": "Loaders \u0026 Unloaders",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10046,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "advancedrocketry:loader"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "advancedrocketry:loader"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "advancedrocketry:loader"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "advancedrocketry:loader"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

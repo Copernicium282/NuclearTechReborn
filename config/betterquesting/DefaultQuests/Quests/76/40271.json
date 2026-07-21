@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40189
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6ZIRNOX Operation \u0026 Fuel Reprocessing§f\n\n§aExtract maximum value from your ZIRNOX through proper fuel management and waste processing!§f\n\n§6Fuel Strategy§f: Center rods in a full ZIRNOX deplete faster than edge rods (this does not apply to breeding rods). Mixed fuel types can produce higher power but are riskier to automate.\n\n§6Efficiency Table§f (at 14,000 mB CO2, peak kHE/s):\n§b• Natural Uranium§f, §e190.40§f\n§b• Uranium Fuel§f, §e280.84§f\n§b• Thorium Fuel§f, §e238.00§f\n§b• MOX Fuel§f, §e376.04§f\n§b• Plutonium Fuel§f, §e342.72§f\n§b• U-233§f, §e433.16§f\n§b• U-235§f, §e414.12§f\n§b• ZFB Fuel§f, §e214.20§f\n\n§6Fuel Reprocessing§f:\n§b• Depleted fuel removed manually or via §bconveyor extractor§f\n§b• Extract fuel from spent rod → §e2 hot spent fuel§f + original ZIRNOX rod\n§b• Cool hot fuel in a §bSpent Fuel Pool Drum§f before PUREX processing\n§b• §6Key Isotopes§f: Technetium-99 (essential for technetium steel!), plutonium-239, plutonium-238, uranium-233, tritium\n§b• All uranium fuels (except NU, MOX, Pu, ZFB MOX) yield technetium\n\n§c⚠ Safety§f: Depleted fuel and rods are highly radioactive and pyrophoric! Use autonomous handling (conveyors, autocrafters), or hazmat + Tungsten Reacher + Decontaminator in a pinch.\n\n§6Meltdown§f: Exceeding 800°C or 30 BAR \u003d violent explosion + radioactive debris + gas. Destroyed reactor emits constant radiation until removed.\n\n§6Pros§f: Cheap infrastructure, simple operation, rapidly yields useful isotopes (especially Tc-99), runs on unenriched fuels.\n§6Cons§f: Low power (\u003c700 kHE/s), rapid fuel depletion, few powerful fuel options, no bismuth breeding.\n\n§eTip§f: After upgrading to stronger reactors, keep the ZIRNOX running as a dedicated breeding reactor to supply your RBMK/PWR with fissile material.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:rod_zirnox_depleted"
+      },
+      "name:8": "ZIRNOX Operation \u0026 Reprocessing",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40271,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:rod_zirnox_depleted"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

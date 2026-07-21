@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Market§f\n\n§aBuy seeds, saplings, and spawn eggs with emeralds.§f\n\nThe Market is your one-stop shop for hard-to-find seeds and supplies. Right-click it to browse and buy crop seeds, fruit tree saplings (over 30 types), animal spawn eggs (pig, cow, chicken, horse, and more), leads, nametags, bone meal, and queen bees. Seeds cost §e1 emerald§f each.\n\nCraft it with §e4 planks§f, §e4 wool§f, and §e1 emerald§f. Pair it with a §bShipping Bin§f to sell your crops for emeralds, then reinvest those emeralds into seeds you can\u0027t find naturally.\n\n§ePS:§f Apple trees are common in forest biomes, and all fruit trees generate naturally in their preferred biomes, but the Market is the reliable source for saplings.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:market"
+      },
+      "name:8": "Market",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30106,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:market"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

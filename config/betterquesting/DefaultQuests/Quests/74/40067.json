@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fractioning Tower§f\n\n§aNo power, no heat, no fuss. Just passively break down refinery products into something actually useful.§f\n\nThe Fractioning Tower takes output fractions from the §bOil Refinery§f and further separates them into usable fuels and materials. It works passively with no power requirement.\n\n§9Right-click§f the bottom block with a §bFluid Identifier§f to select what to process.\n\n§6Key Recipes§f:\n§b• Heavy Oil§f (§e100mB§f): §e70mB§f Industrial Oil + §e30mB§f Bitumen\n§b• Naphtha§f (§e100mB§f): §e60mB§f Diesel + §e40mB§f Heating Oil\n§b• Light Oil§f (§e100mB§f): §e40mB§f Diesel + §e60mB§f Kerosene\n§b• Industrial Oil§f (§e100mB§f): §e60mB§f Heating Oil + §e40mB§f Engine Lubricant\n\n§6Stacking§f:\nStack multiple towers on top of each other to speed up processing. Input fluid goes up the stack, outputs flow down. Connect pipes to the bottom.\n\n§bFractioning Tower Separators§f are decorative blocks for visual separation between stacked units.\n\n§ePS:§f Build parallel setups for each refinery output stream. §bNaphtha§f processing gives you §bDiesel§f and §bKerosene§f, which are your most valuable early fuels.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_fraction_tower"
+      },
+      "name:8": "Fractioning Tower",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40067,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_fraction_tower"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Dimension Building§f\\n\\n§aPlay God, build custom pocket dimensions powered by RF.§f\\n\\nThe §bDimension Enscriber§f writes parameters onto an §bEmpty Dimension Tab§f. The §bDimension Builder§f (§e10M RF§f buffer, §e50,000 RF/t§f) then constructs and sustains the world.\\n\\n§6Steps§f:\\n1. Place an Empty Tab in the Enscriber and hit Write (or add dimlets first for customization)\\n2. Put the §bRealized Dimension Tab§f in the Dimension Builder\\n3. Power it up and wait for construction\\n4. Set up a §bMatter Transmitter§f + §bReceiver§f to teleport in\\n\\nRicher dimensions (more dimlets, rare ores) drain more RF/t to stay open. Plan your power grid around the most expensive one before leaving it running.\\n\\n§9Note:§f Pair with an §bActivity Probe§f (halts drain when nobody\u0027s inside) and a §bPhased Field Generator§f (emergency shield if power fails).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftoolsdim:dimension_builder"
+      },
+      "name:8": "Dimension Building",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30265,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:empty_dimension_tab"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

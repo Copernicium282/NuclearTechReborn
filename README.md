@@ -3,56 +3,38 @@
 [![CurseForge](https://img.shields.io/badge/CurseForge-Download-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/modpacks/nuclear-tech-reborn)
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?style=for-the-badge&logo=discord)](https://discord.gg/VDhKDprsJ2)
 
-> Deep nuclear tech progression blending [HBM's Nuclear Tech](https://www.curseforge.com/minecraft/mc-mods/hbm-nuclear-tech-mod-community-edition) and [NuclearCraft: Overhauled](https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-overhauled) with custom fuel reprocessing, radiation mechanics, and guided quests.
+A nuclear technology progression pack for Minecraft 1.12.2 that integrates [HBM's Nuclear Tech](https://www.curseforge.com/minecraft/mc-mods/hbm-nuclear-tech-mod-community-edition) with [NuclearCraft: Overhauled](https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-overhauled). 717 quests across 23 questlines guide you from raw uranium to orbital stations.
 
 ---
 
 ## Features
 
-- ☢️ **Complete Nuclear Fuel Cycle:** Uranium enrichment → Fuel fabrication → Fission reactors → SILEX reprocessing → Waste management
-- ⚙️ **18 Custom Multiblock Machines:** Gas Centrifuge, SILEX, Decay Pool, Steam Condensers, and more
-- 🔧 **30+ CraftTweaker Scripts:** HBM + NuclearCraft seamlessly bridged together
-- ☣️ **Radiation & Hazards:** Trinity fallout, custom RadAway, hazmat suits, pollution mechanics
-- 🚀 **Space Exploration:** Advanced Rocketry with Dilithium-powered propulsion
-- 📋 **Guided Progression:** 219 quests across 5 ages (Metallurgical → Steam → Oil → Nuclear → Endgame)
-
----
-
-## What is NITRO?
-
-A nuclear technology progression pack for Minecraft 1.12.2 that deeply integrates HBM's Nuclear Tech with NuclearCraft: Overhauled. Over multiple years of development, NITRO has grown from a simple exploration pack into a challenging tech experience with over 30 custom CraftTweaker scripts, 18 custom multiblock machines, and thousands of modified recipes — all without needing GregTech.
-
-The main intention of this pack is to experience the complete nuclear fuel cycle as realistically as Minecraft allows:
-- Mine uranium and process it into yellowcake
-- Enrich through gas centrifugation
-- Fabricate fuel rods
-- Run fission reactors
-- Reprocess depleted fuel through custom SILEX laser isotope separation
-- Handle radioactive waste products
-
-Every step matters, and every waste product needs to be handled.
+- **Complete Nuclear Fuel Cycle:** Uranium enrichment, fuel fabrication, fission reactors, SILEX reprocessing, waste management
+- **18 Custom Multiblock Machines:** Gas Centrifuge, SILEX, Decay Pool, Steam Condensers, and more
+- **30+ CraftTweaker Scripts:** HBM and NuclearCraft bridged through custom recipe modifications
+- **Radiation and Hazards:** Trinity fallout, custom RadAway, hazmat suits, pollution mechanics
+- **Space Exploration:** Advanced Rocketry with Dilithium-powered propulsion
+- **Guided Progression:** 717 quests across 23 questlines covering Metallurgical, Steam, Oil, Nuclear, and Endgame ages
 
 ---
 
 ## Key Systems
 
 ### Nuclear Processing
-- **SILEX:** Custom laser isotope separation machine replacing default fuel reprocessing. Recovers U, Pu, Am, Cm, Bk, Cf isotopes plus toxic waste (Sr-90, Cs-137, Eu-155)
-- **Gas Centrifuge:** UF6 enrichment from low to weapons-grade
-- **Steam Condensers (Mk1-3):** Recycle exhaust steam back to water
-- **Decay Pool:** Radioactive waste processing with preheated water output
+
+SILEX replaces the default fuel reprocessor with laser isotope separation. Depending on fuel type, you recover uranium, plutonium, americium, curium, berkelium, or californium isotopes, along with radioactive waste products like Sr-90, Cs-137, and Eu-155. The Gas Centrifuge handles UF6 enrichment. Steam Condensers in three tiers recycle exhaust steam. The Decay Pool processes radioactive waste while outputting preheated water.
 
 ### Mod Integration
+
 HBM and NuclearCraft bridged through careful recipe modifications:
-- Craft NC machines using HBM's anvil and crucible
-- Solenoids ↔ Copper Coils interchangeable
+- Craft NuclearCraft machines using HBM's anvil and crucible
+- Solenoids and copper coils are interchangeable
 - Motors shared between both mods
 - Basic plating requires crucible-cast steel from HBM
 
-### Exploration & Space
-- Biomes O' Plenty, Better Caves, Better Nether, The Beneath
-- [Advanced Rocketry](https://www.curseforge.com/minecraft/mc-mods/advanced-rocketry) for rockets, orbital stations, and planetary exploration
-- Dilithium powers highest-tier propulsion (found off-world)
+### Exploration and Space
+
+Biomes O' Plenty, Better Caves, Better Nether, and The Beneath for diverse world generation. [Advanced Rocketry](https://www.curseforge.com/minecraft/mc-mods/advanced-rocketry) for rockets, orbital stations, and planetary exploration. Dilithium powers highest-tier propulsion (found off-world).
 
 ---
 

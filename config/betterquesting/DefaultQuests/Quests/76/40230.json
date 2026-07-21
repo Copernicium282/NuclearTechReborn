@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40227
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Solinium§f\n\n§aSchrabidium\u0027s heavier isotope. More energy-dense, more dangerous, and a key to euphemium.§f\n\n§bSolinium§f (Sa-327) is a neutron-capture product of schrabidium-326. It runs at §e17.5 RAD/s§f and blinds you like regular schrabidium. The critical difference: it is more energy dense, making it a stronger reactor fuel.\n\n§6How To Get It§f:\n§b•§f Irradiate schrabidium-326 in a nuclear reactor (neutron capture)\n§b•§f Extract from schrabidium clusters that failed to convert into euphemium\n\n§6What It Is For§f:\n§b•§f §bPWR Fuel§f, stronger than HES-326, recycling solinium fuel has higher euphemium yield\n§b•§f §bThe Blue Rinse§f, a bomb that deletes all living matter in its radius\n\n§ePS:§f Solinium is a bottleneck for euphemium production. Dedicated schrabidium-breeding reactor cells plus reprocessing spent fuel will keep your supply flowing.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_solinium"
+      },
+      "name:8": "Solinium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40230,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_solinium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

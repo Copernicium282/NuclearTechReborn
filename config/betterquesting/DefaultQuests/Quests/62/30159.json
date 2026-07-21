@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30158
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Dense Energy Cell stores 1,600,000 AE, eight times the capacity of a regular Energy Cell. If your network is doing heavy crafting with Molecular Assemblers and Crafting CPUs, this is what keeps the lights on.\n\nCraft with 4 Energy Cells, 4 Fluix Crystals, and an Iron Block. Stack multiple Dense Cells for even more buffer capacity.\n\nLike regular Energy Cells, Dense Cells do not consume channels. Place them on any cable in the network.\n\n§cWARNING:§f A single Dense Cell is not enough for large networks. Plan for at least 2-3 to handle peak demand during sustained crafting operations.\n\n§ePS:§f Dedicate a power room with Dense Cells and your main Energy Acceptor. Keeps things organized and makes scaling easier.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:dense_energy_cell"
+      },
+      "name:8": "Dense Energy Cell",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30159,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:dense_energy_cell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

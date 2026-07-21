@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    413
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Beam Diverter§f\n\n§aOne beam in, two beams out. Split your particles at a 90-degree angle.§f\n\nThe Beam Diverter takes a single incoming beam and splits it into two perpendicular outputs. One goes straight through, one gets diverted 90 degrees. Useful for routing beams to multiple chambers from a single accelerator.\n\nBuild it as a hollow rectangular multiblock with dipole magnets at corners, quadrupole yokes for focus, RF cavities, vents, and beam ports. The controller needs an Advanced Processor.\n\nFocus loss applies to both output paths based on the full path length through the diverter. Keep your routes short to preserve beam quality.\n\n§ePS:§f The Beam Splitter does three outputs if you need even more routing flexibility.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:beam_diverter_controller"
+      },
+      "name:8": "Beam Diverter"
+    }
+  },
+  "questID:3": 457,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:beam_diverter_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

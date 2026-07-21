@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40045
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aWhen basic hazmat isn\u0027t cutting it anymore.§f\n\nThe High-Performance Hazmat uses lead-reinforced cloth for 2.0 total RR across the set. Noticeable improvement over the basic and Advanced variants.\n\nThe Liquidator goes even further at 2.4 total RR, built from lead cladding, empty gas tanks, and High-Performance parts. It\u0027s the best protection you can get before PaA, but it comes with a pretty big catch.\n\n§cWARNING:§f The Liquidator cuts your movement speed by 40%. Don\u0027t wear it for anything other than reactor work or short trips through contaminated zones.\n\n§ePS:§f The Liquidator upgrades directly from High-Performance pieces, so don\u0027t skip that tier.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:liquidator_helmet"
+      },
+      "name:8": "Advanced Hazard Protection",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40046,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:liquidator_helmet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

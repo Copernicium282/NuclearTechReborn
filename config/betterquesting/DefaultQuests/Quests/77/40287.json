@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40286
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Digamma Fuel§f\n\n§aThe ultimate RBMK fuel. Balefire plus digamma particle equals raw power.§f\n\n§bDigamma RBMK Fuel§f combines a §bBalefire RBMK Fuel Rod§f with the §bDigamma Particle§f at a crafting table. The recipe is shapeless.\n\n§6Properties§f:\nOne of the most powerful RBMK fuels in the mod. Produces §bdigamma radiation§f when burned, the most dangerous radiation type. If it melts down, the RBMK columns turn to darkened debris, lingering digamma fire covers the ground, and a mysterious spear stabs the reactor from the sky.\n\n§6Recycling§f:\nSpent fuel rods go into a §bSILEX§f with a Spark Laser Crystal at §e6.0x§f yield. Output: §e6× Undefined§f (§e16.6%§f chance each slot, §e6 slots§f). The result is the same regardless of depletion level.\n\n§6Undefined§f is used for:\n§b• Murky Anvil§f, §e8 Undefined§f + Steel Anvil\n§b• Digamma Laser Crystal§f, §e6 Undefined§f + Electronium Ingot + Quartz Glass\n\n§cWARNING:§f Digamma radiation cannot be blocked by standard hazmat suits. Only Fau Armor provides resistance. Keep your RBMK in a remote location and never approach spent fuel without protection.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:particle_digamma"
+      },
+      "name:8": "Digamma Fuel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40287,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:particle_digamma"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

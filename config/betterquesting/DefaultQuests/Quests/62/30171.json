@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30170
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The terminal you will actually use the most. The ME Crafting Terminal adds a 3x3 crafting grid to the standard terminal interface, pulling ingredients directly from network storage.\n\nCraft something, and the result goes back into the network or into your inventory. No more running back and forth between chests and crafting tables. It is the single biggest quality-of-life upgrade in AE2.\n\nThe crafting grid remembers its contents when you close the GUI, so you can step away mid-craft and come back.\n\n§ePS:§f Place Crafting Terminals at every major work area. They cost 1 channel each and save you hours of inventory juggling.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 360,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Crafting Terminal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30171,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 360,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

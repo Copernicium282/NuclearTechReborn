@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40030
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Firebricks§f\n\n§aEverything hot in HBM needs these. Blast furnaces, crucibles, you name it.§f\n\nFirebricks start with §bFireclay§f. Mix clay with aluminium (or limestone with sand) to get fireclay balls, then smelt them into bricks.\n\nThey\u0027re the building block for the §bBlast Furnace§f, §bCrucible§f, §bBricked Furnace§f, and high-temp machine casings. You\u0027ll want a good stockpile before you start building anything serious.\n\nFireclay is a simple recipe, but you\u0027ll need a lot of it. One blast furnace alone eats dozens of firebricks.\n\n§ePS:§f Use a §bBricked Furnace§f to smelt fireclay balls. It gets a 200% speed bonus for that exact job, so bulk production is painless.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ball_fireclay"
+      },
+      "name:8": "Firebricks",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40006,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ball_fireclay"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

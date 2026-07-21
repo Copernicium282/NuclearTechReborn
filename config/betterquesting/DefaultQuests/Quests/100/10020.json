@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10019
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Astrobody Data Processor§f researches Planet ID Chips produced by the Observatory. It runs three parallel research tracks, atmosphere, mass, and distance, each with its own progress bar in the GUI.\n\nThe multiblock is compact, a 2x3 footprint of Structure Blocks with a slab top row, Power Plug, Input and Output Hatches, and a Block of Iron as the Data Bus connector. Power draw is 100 RF/t and each track completes in 20 ticks.\n\nWithout this machine, planet ID chips are inert and you cannot target any world other than the Overworld and The Beyond. The researched chip must be inserted into a Guidance Computer for the flight computer to recognize the destination.\n\n§ePS:§f Connect Data Buses to the output face to wire researched data to a Planet Holo Selector or satellite system.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:planetanalyser"
+      },
+      "name:8": "Astrobody Data Processor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10020,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:planetanalyser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

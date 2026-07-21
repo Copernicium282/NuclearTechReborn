@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Iron Anvil§f\n\n§aEverything in HBM starts here. This is your workbench for the entire early game.§f\n\nThe §bIron Anvil§f is how you shape plates, wire, and build machines. Right-click it, pick a recipe from the catalog, load your materials, and hit the hammer.\n\nIt\u0027s also the only way to craft the assembly machine and blast furnace, so you need one ASAP.\n\n§6Anvil Tiers§f:\n§bTier 1§f: Iron / Lead\n§bTier 2§f: Steel\n§bTier 3§f: Desh\n§bTier 4§f: Ferrouranium\n§bTier 5+§f: Saturnite, Bismuth Bronze, Ferric Schrabidate, Dineutronium, Osmiridium, Murky\n\nHigher tiers unlock more recipes. Upgrade by putting 10 ingots of the new material plus your current anvil into the GUI.\n\n§ePS:§f A §blead anvil§f works at Tier 1 too. Same thing, different metal.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:anvil_iron"
+      },
+      "name:8": "Iron Anvil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40001,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:anvil_iron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

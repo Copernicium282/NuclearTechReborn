@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10073
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Dark, dense volcanic rock that covers most of a volcanic planet\u0027s surface. §6Basalt§f can\u0027t be crafted; it has to be mined on-site during a landing mission.\n\nBasalt is the most common volcanic block in AR, covering roughly 70% of volcanic planet surfaces. It\u0027s cosmetic by itself, but it\u0027s where you find §6Geodes§f, the shiny embedded deposits that drop crystals when broken.\n\nThis quest opens up the geode and crystal chains. Look for slightly different colored blocks with a subtle shimmer when mining basalt deposits, those are your geodes.\n\n§ePS:§f A Diamond Pickaxe with Fortune III maximizes geode drops. Geodes drop themselves when broken, and you process them separately for crystals. Mine broadly, not deeply, to find more deposit clusters.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:basalt"
+      },
+      "name:8": "§6Basalt§f"
+    }
+  },
+  "questID:3": 10075,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:basalt"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

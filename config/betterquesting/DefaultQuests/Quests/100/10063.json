@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Built a sealed room and not sure it\u0027s actually airtight? The §6Seal Detector§f lights up red when the room has any unsealed edges that would leak oxygen into vacuum.\n\nSimple vanilla crafting recipe: redstone torches, glass pane, steel fan, and a comparator. The detector emits a redstone signal proportional to the leakage rate. A fully sealed room gives a §60§f signal, a leaking room gives §615§f.\n\nPlace one inside each room to test. Wire the output to a NOT gate and an alarm for automated leak detection. The detector also feeds into the Space Suit GUI, showing green for sealed, red for compromised.\n\n§ePS:§f For complex bases, place one detector per 20x20 area. Multiple detectors don\u0027t interfere with each other.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:sealdetector"
+      },
+      "name:8": "Seal Detector",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10063,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:sealdetector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

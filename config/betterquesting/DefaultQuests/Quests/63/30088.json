@@ -1,0 +1,33 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    30025
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Rock Crusher§f\n\n§aBreaks down stone into component minerals.§f\nThe §bRock Crusher§f takes §b1 item input§f and produces §b3 item outputs§f. Default cycle is §b400 ticks§f at §b20 RF/t§f. It\u0027s NuclearCraft\u0027s answer to the Macerator, breaking down stone and other hard materials into their mineral components.\n\nUse it for processing stone into gravel, sand, and mineral dusts. It\u0027s faster than the Manufactory for stone-based recipes and produces more diverse outputs per cycle. The 3 output slots give you variety.\n\n§ePS:§f The Rock Crusher has 3 output slots. Make sure your piping can handle all three output streams to avoid one backing up and stalling the entire machine.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:rock_crusher"
+      },
+      "name:8": "Rock Crusher",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30088,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:rock_crusher"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

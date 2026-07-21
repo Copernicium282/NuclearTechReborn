@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10073
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Landing on a charred, fire-scorched planet? Charcoal Logs can\u0027t be crafted. Mine them during a landing mission from planets with burnt forests or volcanic activity.\n\nThese logs are the source of carbon for the CO2 Scrubber (10050) recipe, and they feed into the Carbon Brick (10002) chain for the Electric Arc Furnace (10004). Bring at least 32 logs per mission, the CO2 Scrubber eats through carbon fast.\n\nLook for planets with Charred Forest biomes, typically high-temperature, low-oxygen worlds. Carbon can be smelted into carbon ingots for the Electric Arc Furnace.\n\n§cWARNING:§f The planet\u0027s atmosphere might be flammable. Wear a Space Suit (10049) before mining or you\u0027ll catch fire.\n\n§ePS:§f Charcoal logs also work as a decorative block if you\u0027re into that sort of thing.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:charcoallog"
+      },
+      "name:8": "§6Charcoal Log§f"
+    }
+  },
+  "questID:3": 10078,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:charcoallog"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

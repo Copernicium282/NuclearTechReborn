@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    30125
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fruit Trees§f\n\n§aGrow fruit and nut trees for a renewable harvest of food and ingredients.§f\n\nHarvestCraft adds §e40+ fruit trees§f with logs, leaves, saplings, and fruit. Plant a sapling and wait for the tree to grow, and leaves drop fruit when mature. §bApple§f trees are common in forest biomes. Most other fruit trees generate in warm biomes (jungle, savanna), but the §bMarket§f is the reliable source for saplings.\n\n§6Fruit Trees§f: Apple, Apricot, Avocado, Banana, Cherry, Date, Dragonfruit, Durian, Fig, Gooseberry, Grapefruit, Guava, Jackfruit, Lemon, Lime, Lychee, Mango, Olive, Orange, Papaya, Passion Fruit, Pawpaw, Pear, Persimmon, Plum, Pomegranate, Rambutan, Soursop, Starfruit.\n\n§6Nut Trees§f: Almond, Cashew, Chestnut, Coconut, Hazelnut, Pecan, Pistachio, Walnut.\n\n§6Spice Trees§f: Cinnamon, Nutmeg, Peppercorn, Tamarind, Vanilla Bean.\n\n§6Fruit Usage§f:\n§b• Juicer§f: Press fruits into §b26+ juice types§f (each restores §e2 hunger§f + Speed boost).\n§b• Presser§f: Extract cooking oil from olives, sunflower seeds, and avocados.\n§b• Saucepan§f: Cook fruits into §bjellies§f (27 types) and candies.\n§b• Mortar and Pestle§f: Grind spices into powders for recipes.\n\n§eTip§f: Fruit trees are a renewable food source. Once established, they drop fruit periodically without replanting. Build an orchard near your base for a steady supply of juice and jelly ingredients.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:pamcherry"
+      },
+      "name:8": "Fruit Trees",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30122,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "harvestcraft:pamcherry"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "harvestcraft:pamapple"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "id:8": "harvestcraft:pambanana"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

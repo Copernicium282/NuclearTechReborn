@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    476
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Antimatter Cell (KABOOM!!!!!)§f\n\n§aCells that store antimatter. The title is not joking.§f\n\nAntimatter Cells come in five flavors: Anti-Hydrogen, Anti-Deuterium, Anti-Tritium, Anti-Helium-3, and Anti-Helium. Each is made by feeding the corresponding antiparticle into an Accelerator Ion Source with an Empty Cell.\n\nCraft Empty Cells from BSCCO Wire, Elite Processors, Osmiridium, and RTG Californium. Then fill them with antiprotons, antideuterons, or antialphas from your Synchrotron setup.\n\nThe antiproton pipeline goes: Synchrotron to high energy, Target Chamber spallation to produce antiprotons, Decelerator to slow them, Ion Source to capture into a cell.\n\n§cWARNING:§f Antimatter cells detonate catastrophically if mishandled. Store them in the Neutral Exotic Containment Chamber. Not in your inventory. Not in a chest. Not anywhere near normal matter.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:cell",
+        "tag:10": {
+          "particle_storage:10": {
+            "particle_amount:3": 100000,
+            "particle_capacity:3": 100000
+          }
+        }
+      },
+      "name:8": "Antimatter Cell (KABOOM!!!!!)"
+    }
+  },
+  "questID:3": 477,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:cell",
+          "tag:10": {
+            "particle_storage:10": {
+              "particle_amount:3": 100000,
+              "particle_capacity:3": 100000
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

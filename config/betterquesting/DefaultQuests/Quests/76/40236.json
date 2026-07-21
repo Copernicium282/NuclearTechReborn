@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40235
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Antischrabidium§f\n\n§aThe antimatter equivalent of schrabidium. Now with 50% more schrabidium. Yes, really.§f\n\n§bAntischrabidium§f is the gaseous antimatter form of schrabidium. Same storage rules as antimatter: magnetic containment barrels only. It is the precursor to dark matter and thus euphemium.\n\n§6Make It§f (Particle Accelerator, score §e400§f):\n§b•§f 2x Antimatter Capsule -\u003e §eAntischrabidium Capsule§f (empty capsule returned)\n\n§6What It Is For§f:\n§b•§f §bDark Matter Capsule§f, 2x antischrabidium (score §e10,000§f) in accelerator\n§b•§f §bVibrant Singularity§f, for AMS/DFC core\n§b•§f §bSingularity§f, euphemium nuggets + antischrabidium + schrabidium block\n§b•§f §bCMB-Schrabidate Laser Crystal§f, ferric schrabidate + antischrabidium + CMB steel\n§b•§f §bSchrabidium Missile§f, small missile assembly + antischrabidium cell\n§b•§f Cyclotron alternative: Box of Plutonium Dust + Antimatter Cell\n\n§ePS:§f The chain is: antimatter -\u003e antischrabidium -\u003e dark matter -\u003e euphemium. Each dark matter capsule eats 2 antischrabidium, which eat 4 antimatter. Your accelerator will be busy.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 34,
+        "id:8": "hbm:cell"
+      },
+      "name:8": "Antischrabidium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40236,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 34,
+          "id:8": "hbm:cell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

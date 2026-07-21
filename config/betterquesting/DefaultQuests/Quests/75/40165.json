@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40164
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Laser Isotope Separation Chamber (SILEX)§f\n\n§aThe upgrade to gas centrifuges. Separates isotopes with lasers instead of spinning.§f\n\nThe SILEX separates isotopes via laser excitation. It needs a §bFEL§f nearby to operate. Unlike the Gas Centrifuge, it can process materials in liquid, powder, or compound form.\n\nCrafted in the Assembly Factory: 16 Quartz Glass, 8 Triple Steel Plate, 4 Workers Alloy Ingot, 8 Rubber Bar, 8 Steel Pipe.\n\nInputs: liquids (UF6, PuF6) or powders liquified with §bHydrogen Peroxide§f. Output goes into the right-side slots.\n\nProcessable materials: UF6, PuF6, Lapis Lazuli (into sulfur, aluminium, cobalt), Spent RBMK Fuel, and Schraranium.\n\n§ePS:§f The SILEX skips a step compared to gas centrifuges. One FEL powers up to §e5§f SILEX units. Place concrete between them and your base to block the laser beam.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_silex"
+      },
+      "name:8": "Laser Isotope Separation Chamber (SILEX)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40165,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_silex"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

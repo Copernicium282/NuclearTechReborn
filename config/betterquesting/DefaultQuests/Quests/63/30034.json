@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30045
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fuel Reprocessor§f\n\n§aTurns spent nuclear fuel back into usable material.§f\nThe §bFuel Reprocessor§f takes §b1 spent fuel input§f and produces §bup to 8 different outputs§f. Default cycle is §b400 ticks§f at §b20 RF/t§f. It recovers fissile material, fission products, and other useful byproducts from used fuel rods.\n\nThis is how you close the nuclear fuel cycle. Without reprocessing, your spent fuel is just waste. With it, you recover uranium, plutonium, and other materials to fuel your next batch of reactors.\n\n§ePS:§f The Fuel Reprocessor has the most output slots of any NC machine at 8 slots. Plan your piping accordingly to handle all the different output streams.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:fuel_reprocessor"
+      },
+      "name:8": "Fuel Reprocessor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30034,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:fuel_reprocessor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

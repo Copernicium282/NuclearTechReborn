@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40294
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Balls-O-Tron§f\n\n§aA mechanical worm boss guarding the final armor recipe.§f\n\nThe Balls-O-Tron is a hostile boss mob shaped like a giant mechanical worm. It spawns when you use a Large Silver Key at a mechanist\u0027s circle, or anytime with the Balls-O-Tron Prime item. It has 15,000 HP, regenerates when not engaged, and has 100% knockback resistance.\n\n§6Combat§f: Only its head takes damage. Its segments fire slow but hard-hitting green laser beams. The head itself deals 1000 damage on contact. Use a mobility set like Lunar Cybernetic Armor to dodge lasers, or Schrabidium Armor to tank them. Weapons like the Minigun or Shredder work well. Nukes are an option, but you risk destroying the dropped coin.\n\n§6Loot§f: On death, it drops one §bBalls-O-Tron Coin§f. This coin is required for the §bDNT Nano Suit§f (leggings) and the Martian Invasion Ship. The coin is a one-time drop, so don\u0027t waste it on the Balls-O-Tron Prime recipe unless you want to fight it again.\n\n§ePS:§f You only need one coin total. Save it for the DNT Nano Suit.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:coin_worm"
+      },
+      "name:8": "Balls-O-Tron",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40295,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:coin_worm"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

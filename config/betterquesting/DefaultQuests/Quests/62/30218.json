@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Matrix Frame§f is an internal block used by AE2\u0027s §6Spatial IO§f system. It wraps the destination region during a Spatial IO transfer and is automatically removed when the transfer completes.\n\nIt has no crafting recipe and cannot be obtained in survival. The block is §bunbreakable§f (hardness -1.0, resistance 6,000,000) and fully transparent for lighting.\n\nIf you see Matrix Frames in your world, a Spatial IO transfer is in progress. Wait for it to finish. Stuck frames usually indicate a crashed transfer.\n\n§cWARNING:§f Do not attempt to mine Matrix Frames with a pickaxe. They will not drop and your tool will lose durability. Break the §6Spatial IO Port§f and reassemble the multiblock to fix stuck transfers.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:matrix_frame"
+      },
+      "name:8": "Matrix Frame",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30218,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "appliedenergistics2:matrix_frame"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

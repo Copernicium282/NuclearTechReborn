@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Pot§f\n\n§aBoil soups, stocks, sodas, and teas!§f\n\nThe §bPot§f is used for all soup, stock, soda, tea, and specialty drink recipes. It is a reusable crafting utensil that stays in the crafting grid after use.\n\n§6Crafting§f: §e4× Bricks§f + §e1× Stick§f.\n\n§6Recipe Categories§f:\n§b• Soups§f: Vegetable, Chicken Noodle, Tomato, Carrot, Potato, Cucumber, Beet, Celery, Rice, Seed, Cactus, Spider Eye, Pumpkin, Creamed Corn, Creamed Broccoli, Cream of Avocado.\n§b• Stews§f: Old World Veggie, Miner\u0027s Stew, Lamb Barley, Chicken Gumbo, Split Pea, Turnip, Leek Bacon.\n§b• Stocks§f: Vegetable Stock, Chicken Stock, Fish Stock, used as the base for many soup recipes.\n§b• Sodas§f: Cherry, Cola, Ginger Ale, Grape, Grapefruit, Lemon-Lime, Orange, Root Beer, Strawberry.\n§b• Teas§f: Tea, Green Tea, Chai Tea, Raspberry Iced Tea, Rose Petal Tea, Dandelion Tea, Earl Grey, Sweet Tea.\n§b• Specialty§f: Energy Drink, Bubble Tea, Boba Tea.\n\n§6Stock Production§f:\nStock is a base ingredient for many soups. §9Place a Water Bucket§f in the Pot alongside §bseeds§f, §bspider eye§f, or §bdirt§f to craft a generic stock that unlocks downstream soup recipes.\n\n§6Soda Production§f:\nSodas require §bBubbly Water§f (from the §bPresser§f) + §bSugar§f + a flavoring fruit. The §bEnergy Drink§f is a special Pot recipe (§bWater Bucket§f + §bRedstone§f) that grants §e5 hunger§f and a §eSpeed§f boost.\n\n§eTip§f: The Pot is essential for both food and drink production. Pair with a Presser (for Bubbly Water) and a Sugar Cane farm to scale your soda output.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:potitem"
+      },
+      "name:8": "Pot",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30115,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:potitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

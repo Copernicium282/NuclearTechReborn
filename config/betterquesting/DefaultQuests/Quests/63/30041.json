@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    30081
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Isotope Separator§f\n\n§aSplits elements into their isotopic variants.§f\nThe §bIsotope Separator§f takes §b1 item input§f and produces §b2 item outputs§f. Default cycle is §b800 ticks§f at §b10 RF/t§f. It separates materials into their constituent isotopes, which is essential for producing reactor fuels like §bUranium-235§f and §bPlutonium-239§f.\n\nThis is where your nuclear fuel chain really begins. Raw uranium goes in, enriched fissile material comes out. Without the Isotope Separator, you can\u0027t make any advanced fuels for your reactors.\n\n§ePS:§f The Separator produces two outputs per recipe. Make sure your piping can handle both output streams, as they go to different destinations.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "nuclearcraft:uranium"
+      },
+      "name:8": "Isotope Separator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30041,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {},
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

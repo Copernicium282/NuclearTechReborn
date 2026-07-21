@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40060
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Oil Reservoir Detector§f\n\n§aCan\u0027t find oil? This thing solves that problem fast.§f\n\nThe Oil Reservoir Detector is a cheap handheld device that scans a thin column §e8 blocks§f wide directly below you. §9Right-click§f any block to scan, then move chunk by chunk until you get a hit.\n\n§6How It Works§f:\n§b• §e\"Oil detected nearby\"§f (orange ping) means you are close.\n§b• §e\"Oil deposit directly below!\"§f (green ping) means you are standing on it.\n§b• Each deposit block holds §e250mB§f of crude oil.\n\n§cWARNING:§f Patches of oily dirt or sand on the surface mark §bbedrock deposits§f, not standard oil. Those need a §bFracking Tower§f much later. Don\u0027t confuse the two.\n\n§ePS:§f Mark confirmed deposit coordinates. A single deposit has multiple blocks, so fully extract before moving on.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:oil_detector"
+      },
+      "name:8": "Oil Reservoir Detector",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40061,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:oil_detector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

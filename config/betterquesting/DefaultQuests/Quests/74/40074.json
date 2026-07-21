@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40072
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Diesel§f\n\n§aThe workhorse fuel. Generators, flamethrowers, power armor, diesel runs it all.§f\n\nDiesel is a high-grade fuel with §e550 kTU§f and §e1.37 MHE§f per bucket. It is produced by fractioning §bNaphtha§f or §bLight Oil§f.\n\n§6Production§f:\n§b• From Naphtha§f: §e100mB§f → §e60mB§f Diesel + §e40mB§f Heating Oil.\n§b• From Light Oil§f: §e100mB§f → §e40mB§f Diesel + §e60mB§f Kerosene.\n§b• Hydrotreater§f: §e1,000mB§f Cracked Diesel + §e100mB§f Liquid Hydrogen → §e800mB§f Diesel + §e300mB§f Sour Gas.\n\n§6Key Uses§f:\n§b• Diesel Generator§f: Burns at §e75%§f fuel efficiency (High grade).\n§b• Catalytic Cracking Tower§f: §e100mB§f → §e40mB§f Kerosene + §e30mB§f Petroleum Gas.\n§b• Industrial Mixer§f: §e900mB§f + §e100mB§f Reformate → §e1,000mB§f §bHigh-Octane Diesel§f.\n§b• Coker Unit§f: §e590mB§f → §e1× Petroleum Coke§f.\n\n§bMister Topaz§f flamethrower (§e100§f ammo per tank), §bChainsaw§f (holds §e5,000mB§f), §bDiesel-Powered Armor§f (§e64,000mB§f per piece, only consumes on damage).\n\n§ePS:§f Diesel is one of the best early-game fuels for power generation. Start stockpiling once your fractioning tower is running.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 20,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Diesel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40074,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 20,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

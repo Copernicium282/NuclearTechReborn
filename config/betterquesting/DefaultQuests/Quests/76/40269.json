@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40196
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Guide: Recycling Depleted Fuel§f\n\n§aCool your spent fuel rods, then recycle them for valuable materials!§f\n\nWhen a nuclear reactor depletes its fuel, the rods become hot, pyrophoric, and highly radioactive. They must be cooled before recycling.\n\n§6Cooling Process§f:\n§b1.§f Depleted rods are automatically removed from large reactors\n§b2.§f Extract via empty rods or waste ejector with adjacent crate/chest\n§b3.§f Place in a §bSpent Fuel Pool Drum§f (holds 12 pieces), requires water (natural body or cooling tower)\n§b4.§f Each piece takes ~5 minutes to cool\n§b5.§f Wear fire proximity suit or fire resistance potion when handling\n§b6.§f Can be fully automated with Thermal Dynamics pipes\n\n§6Recycling§f (§bCentrifuge§f), after cooling:\n§b• Depleted Uranium§f → 2× Tiny Nuclear Waste + 1× U-238 Nugget + 2× Reactor-Grade Pu Nuggets + 1× Tc-99 Nugget\n§b• Uranium nugget§f, reusable for fuel\n§b• Reactor-grade Plutonium§f, used for Plutonium or MOX fuel\n§b• Technetium-99§f, used for Technetium Steel\n\n§6Waste Disposal§f:\n§b• Tiny piles of nuclear waste§f must be disposed of or used unconventionally\n§b• RBMK waste§f can be used in the Radiation-Powered Engine\n\n§eTip§f: Never handle hot depleted fuel without protection, it will burn you alive! Automate the full cooling→recycling pipeline with Thermal Dynamics pipes from reactor → pool drum → centrifuge for a hands-free fuel reprocessing loop!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_waste_drum"
+      },
+      "name:8": "Recycling Depleted Fuel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40269,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_waste_drum"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40176
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Reactor Grade Plutonium§f\n\n§aTwo-thirds Pu-239, one-third Pu-240. Good for fuel, not for bombs.§f\n\nReactor Grade Plutonium (RGPu) is a mixture of §e66.6%§f Pu-239 (§e6§f nuggets) and §e33.3%§f Pu-240 (§e3§f nuggets). It\u0027s a natural product of raw plutonium enrichment.\n\nProperties: §e6.25§f RAD/s, fuel mixture category.\n\nProduction: Plutonium Hexafluoride enrichment in a Gas Centrifuge, byproduct of uranium fuel recycling, breeding U-238 in a Chicago Pile, recycling plutonium and MOX fuel, or crafting (6 Pu-239 nuggets + 3 Pu-240 nuggets, shapeless).\n\nUses: standard plutonium fuel, MOX fuel production, and SILEX separation to refine into pure Pu-239 and Pu-240.\n\n§ePS:§f RGPu is fine for fuel but not for weapons due to Pu-240 content. Use the SILEX to separate it for weapons-grade Pu-239.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_pu_mix"
+      },
+      "name:8": "Reactor Grade Plutonium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40182,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_pu_mix"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40083
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Bedrock Oil Extraction§f\\n\\n§aInfinite crude oil from the bedrock layer  -  never run out of oil again!§f\\n\\nBedrock oil deposits never deplete. They sit deep under the bedrock layer, marked on the surface by patches of dead, oily dirt or sand. You need a §bFracking Tower§f to extract from them, and it is the only machine that works on these deposits.\\n\\n§6Locating§f:\\n§b•§f Look for oily dirt/sand patches on the surface.\\n§b•§f Use a §bSurvey Scanner§f to scan below you in a small radius.\\n§b•§f A §bNeutrino Lens§f linked to a Depth-Resource Scanning Module Satellite also detects them.\\n\\n§6Extraction§f:\\n§b•§f The Fracking Tower needs power, §bSulfur§f, and §bPetroleum§f to make fracking solution.\\n§b•§f Slower than a Derrick or Pumpjack, but infinite.\\n\\n§ePS:§f Mark every oily dirt patch you find early. They are easy to forget and hard to relocate later!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Bedrock Oil Extraction",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40101,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Network Switches \u0026 Cables§f\\n\\n§aWire your machines together and move data across your base.§f\\nComputers, screens, servers, and external devices communicate through a wired or wireless network.\\n\\n§6Infrastructure§f:\\n§bNetwork Cable§f: Physical link for power and data.\\n§bNetwork Card§f: Lets a computer send and receive wired messages. 16 open ports max.\\n§bWireless Network Card§f: Tier 1 range is 16 blocks, Tier 2 is 400 blocks. Costs 0.05 energy per block of range.\\n§bAccess Point§f: Bridges wired to wireless. Stores 600 energy.\\n\\n§6Switch Upgrades§f:\\nA Switch routes packets between sub-networks. Default: 5 tick relay delay, 20 packet queue, 1 packet per cycle.\\n§bCPU§f: Reduces delay by 1.5 ticks per tier.\\n§bHDD§f: Increases queue by 10 packets per tier.\\n§bRAM§f: Increases packets per cycle by 1 per half-tier.\\n\\n§9AE2 Gate§f:\\nME 1k Storage and Fluid Storage Components both need a Tier 2 Server and a Network Card. Networking is mandatory for digital storage.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "opencomputers:cable"
+      },
+      "name:8": "Network Switches \u0026 Cables",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4005,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "opencomputers:cable"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

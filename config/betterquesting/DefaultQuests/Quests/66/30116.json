@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Saucepan§f\n\n§aCook jellies, candies, and caramel!§f\n\nThe §bSaucepan§f handles all jelly recipes (§e27 types§f from Apple to Watermelon), candy (Peppermint, Taffy, Caramel, etc.), and Caramel Sauce. Jellies are used in Jelly Sandwiches and various dessert recipes.\n\n§6Crafting§f: §e1× Brick§f + §e1× Stick§f.\n\n§6Recipe Categories§f:\n§b• Jellies§f: Apple, Apricot, Blackberry, Blueberry, Cherry, Cranberry, Fig, Grape, Grapefruit, Kiwi, Lemon, Lime, Mango, Orange, Papaya, Peach, Pear, Plum, Pomegranate, Raspberry, Strawberry, Watermelon (plus more).\n§b• Candies§f: Peppermint, Taffy, Caramel, Cotton Candy, Jellybeans, Salted Caramel, Chocolate Caramel Fudge.\n§b• Sauces§f: Caramel Sauce (used in dessert recipes).\n\n§6Jelly Use Cases§f:\n- §bJelly Sandwiches§f (Cutting Board): a quick snack combining any jelly with bread.\n- §bPB\u0026J Sandwich§f (Cutting Board): a more substantial version.\n- §bJelly Donut§f and other dessert recipes (Mixing Bowl).\n- §bFruit Tart§f and §bPavlova§f (Bakeware): showpiece desserts requiring multiple jellies.\n\n§6Usage§f:\n§9Place the Saucepan§f in a crafting grid with the recipe\u0027s ingredients. The Saucepan is reusable and does not get consumed. For jellies, you need the matching fruit + sugar. For candy, you need sugar plus flavoring ingredients.\n\n§eTip§f: Set up a fruit tree farm (apples, oranges, berries) to feed a Saucepan production chain. Jellies are a high-value processed product useful in many dessert recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:saucepanitem"
+      },
+      "name:8": "Saucepan",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30116,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:saucepanitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

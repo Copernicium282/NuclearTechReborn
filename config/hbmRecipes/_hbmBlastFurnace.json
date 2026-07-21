@@ -1,170 +1,189 @@
 {
-  "comment": "Inputs can use the unique 'dictframe' type which is an ore dictionary material suffix. The recipes will accept most ore dictionary entries equivalent to one ingot (gems, dust, plates, etc).\nThis file also contains fuel definitions for the blast furnace.",
   "recipes": [
     {
-      "output": ["hbm:ingot_steel"],
-      "input1": ["dictframe","Iron"],
-      "input2": ["dictframe","Coal"]
+      "name": "blast.steelFromIngot",
+      "inputItem": [
+        ["dict","ingotIron",2],
+        ["dict","sand"]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_steel",2]],
+        ["single",["hbm:ingot_raw",1,41]]
+      ],
+      "duration": 800,
+      "power": 0
     },
     {
-      "output": ["hbm:ingot_steel"],
-      "input1": ["dictframe","Iron"],
-      "input2": ["dictframe","AnyCoke"]
+      "name": "blast.steelFromDust",
+      "inputItem": [
+        ["dict","dustIron",2],
+        ["dict","sand"]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_steel",2]],
+        ["single",["hbm:ingot_raw",1,41]]
+      ],
+      "duration": 800,
+      "power": 0
     },
     {
-      "output": ["hbm:ingot_steel",2],
-      "input1": ["dict","oreIron"],
-      "input2": ["dictframe","Coal"]
+      "name": "blast.steelFromOre",
+      "inputItem": [
+        ["dict","oreIron"],
+        ["dict","sand"]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_steel",2]],
+        ["single",["hbm:ingot_raw",2,41]]
+      ],
+      "duration": 800,
+      "power": 0
     },
     {
-      "output": ["hbm:ingot_steel",3],
-      "input1": ["dict","oreIron"],
-      "input2": ["dictframe","AnyCoke"]
+      "name": "blast.steelWithFlux",
+      "inputItem": [
+        ["dict","oreIron"],
+        ["item","hbm:powder_flux"]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_steel",3]],
+        ["single",["hbm:ingot_raw",2,41]]
+      ],
+      "duration": 1200,
+      "power": 0
     },
     {
-      "output": ["hbm:ingot_steel",3],
-      "input1": ["dict","oreIron"],
-      "input2": ["item","hbm:powder_flux"]
+      "name": "blast.mingrade",
+      "inputItem": [
+        ["dict","ingotCopper"],
+        ["dict","dustRedstone"]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_red_copper",2]]
+      ],
+      "duration": 400,
+      "power": 0
     },
     {
-      "output": ["hbm:ingot_red_copper",2],
-      "input1": ["dictframe","Copper"],
-      "input2": ["dictframe","Redstone"]
+      "name": "blast.mingradeDust",
+      "inputItem": [
+        ["dict","dustCopper"],
+        ["dict","dustRedstone"]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_red_copper",2]]
+      ],
+      "duration": 400,
+      "power": 0
     },
     {
-      "output": ["hbm:ingot_advanced_alloy",2],
-      "input1": ["dictframe","Steel"],
-      "input2": ["dictframe","Mingrade"]
+      "name": "blast.mingradeIngot",
+      "inputItem": [
+        ["dict","ingotCopper"],
+        ["dict","ingotRedstone"]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_red_copper",2]]
+      ],
+      "duration": 400,
+      "power": 0
     },
     {
-      "output": ["hbm:neutron_reflector",2],
-      "input1": ["dictframe","Tungsten"],
-      "input2": ["dictframe","Coal"]
+      "name": "blast.mingradeCursed",
+      "inputItem": [
+        ["dict","dustCopper"],
+        ["dict","ingotRedstone"]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_red_copper",2]]
+      ],
+      "duration": 400,
+      "power": 0
     },
     {
-      "output": ["hbm:neutron_reflector",2],
-      "input1": ["dictframe","Tungsten"],
-      "input2": ["dictframe","AnyCoke"]
+      "name": "blast.mingradeOre",
+      "inputItem": [
+        ["dict","oreCopper"],
+        ["dict","dustRedstone",6]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_red_copper",6]],
+        ["single",["hbm:ingot_raw",1,41]]
+      ],
+      "duration": 1200,
+      "power": 0
     },
     {
-      "output": ["hbm:canister_napalm"],
-      "input1": ["item","hbm:canister_fuel",1,46],
-      "input2": ["dict","slimeball"]
+      "name": "blast.meteorSword",
+      "inputItem": [
+        ["dict","ingotCobalt"],
+        ["item","hbm:meteorite_sword_hardened"]
+      ],
+      "outputItem": [
+        ["single",["hbm:meteorite_sword_alloyed"]]
+      ],
+      "duration": 1200,
+      "power": 0
     },
     {
-      "output": ["hbm:ingot_magnetized_tungsten"],
-      "input1": ["dictframe","Tungsten"],
-      "input2": ["dict","nuggetSchrabidium"]
+      "name": "blast.meteor",
+      "inputItem": [
+        ["dict","ingotCobalt"],
+        ["item","hbm:powder_meteorite"]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_meteorite"]]
+      ],
+      "duration": 600,
+      "power": 0
     },
     {
-      "output": ["hbm:ingot_tcalloy"],
-      "input1": ["dictframe","Steel"],
-      "input2": ["dict","nuggetTechnetium99"]
+      "name": "blast.starmetal",
+      "inputItem": [
+        ["dict","ingotSaturnite"],
+        ["item","hbm:ingot_meteorite"]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_starmetal"]]
+      ],
+      "duration": 600,
+      "power": 0
     },
     {
-      "output": ["hbm:plate_paa",2],
-      "input1": ["dict","plateGold"],
-      "input2": ["item","hbm:plate_mixed"]
+      "name": "blast.paa",
+      "inputItem": [
+        ["dict","ingotGold"],
+        ["item","hbm:plate_mixed"]
+      ],
+      "outputItem": [
+        ["single",["hbm:plate_paa"]]
+      ],
+      "duration": 600,
+      "power": 0
     },
     {
-      "output": ["hbm:ingot_starmetal",2],
-      "input1": ["dictframe","Saturnite"],
-      "input2": ["item","hbm:ingot_meteorite"]
+      "name": "blast.firebrick",
+      "inputItem": [
+        ["dict","dustAluminum"],
+        ["item","minecraft:clay_ball",7]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_firebrick",8]]
+      ],
+      "duration": 800,
+      "power": 0
     },
     {
-      "output": ["hbm:ingot_meteorite"],
-      "input1": ["dictframe","Cobalt"],
-      "input2": ["item","hbm:powder_meteorite"]
-    },
-    {
-      "output": ["hbm:meteorite_sword_alloyed"],
-      "input1": ["item","hbm:meteorite_sword_hardened"],
-      "input2": ["dictframe","Cobalt"],
-      "hidden": true
-    },
-    {
-      "fuel": ["dict","gemCoal"],
-      "power": 200
-    },
-    {
-      "fuel": ["dict","dustCoal"],
-      "power": 220
-    },
-    {
-      "fuel": ["dict","blockCoal"],
-      "power": 2000
-    },
-    {
-      "fuel": ["dict","gemLignite"],
-      "power": 150
-    },
-    {
-      "fuel": ["dict","dustLignite"],
-      "power": 150
-    },
-    {
-      "fuel": ["dict","blockLignite"],
-      "power": 1500
-    },
-    {
-      "fuel": ["item","hbm:briquette"],
-      "power": 200
-    },
-    {
-      "fuel": ["dict","gemCharcoal"],
-      "power": 150
-    },
-    {
-      "fuel": ["dict","blockCharcoal"],
-      "power": 1500
-    },
-    {
-      "fuel": ["dict","fuelCoke"],
-      "power": 400
-    },
-    {
-      "fuel": ["dict","gemAnyCoke"],
-      "power": 400
-    },
-    {
-      "fuel": ["dict","blockAnyCoke"],
-      "power": 4000
-    },
-    {
-      "fuel": ["item","minecraft:lava_bucket"],
-      "power": 12800
-    },
-    {
-      "fuel": ["item","minecraft:blaze_rod"],
-      "power": 1000
-    },
-    {
-      "fuel": ["item","minecraft:blaze_powder"],
-      "power": 300
-    },
-    {
-      "fuel": ["item","minecraft:coal",1,1],
-      "power": 200
-    },
-    {
-      "fuel": ["dict","gemInfernalCoal"],
-      "power": 300
-    },
-    {
-      "fuel": ["dict","blockInfernalCoal"],
-      "power": 3000
-    },
-    {
-      "fuel": ["item","hbm:solid_fuel"],
-      "power": 400
-    },
-    {
-      "fuel": ["item","hbm:solid_fuel_presto"],
-      "power": 800
-    },
-    {
-      "fuel": ["item","hbm:solid_fuel_presto_triplet"],
-      "power": 2400
+      "name": "blast.firebrickLimestone",
+      "inputItem": [
+        ["dict","oreLimestone"],
+        ["item","minecraft:clay_ball",6]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_firebrick",8]]
+      ],
+      "duration": 800,
+      "power": 0
     }
   ]
 }

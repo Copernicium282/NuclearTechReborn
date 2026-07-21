@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40195
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Mustard Willow§f\n\n§aThe alien plant that gives you cadmium. Farm it or find it near bedrock oil deposits.§f\n\nThe §bMustard Willow§f grows near bedrock oil deposits. Its leaves produce cadmium, the key ingredient for cadmium steel.\n\n§6Growing It§f:\n§b•§f Place on §bDead or Oily Dirt§f, it won\u0027t fully mature on normal dirt\n§b•§f §bWater§f must be adjacent to the block below, otherwise it won\u0027t grow at all\n§b•§f §bNo light§f required, grows in total darkness\n\n§6Growth Stages§f:\n§b•§f §bStage 2§f, needs §e1 extra block§f of space above\n§b•§f §bStage 4§f, consumes the dead/oily dirt underneath to mature\n§b•§f §bStage 5§f, fully red and matured, break the top for §e3-6§f leaves + §e1§f plant\n\n§6Automation§f: Use an §bAutomatic Buzz Saw§f to harvest. A §bFracking Tower§f keeps polluting the ground to supply oily dirt. The full lifecycle can be fully automated.\n\n§6Processing§f:\n§b•§f §bLeaves§f → Ore Acidizer with §e250 mB High-Performance Solvent§f + §e10 leaves§f \u003d §e1 Cadmium Powder§f\n§b•§f §bPlant§f → Industrial Liquefaction Machine \u003d §e50 mB Ethanol§f\n\n§ePS:§f Check the in-game guide by hovering over the plant and pressing §bLSHIFT+F1§f.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "hbm:plant_flower"
+      },
+      "name:8": "Mustard Willow",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40200,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "hbm:plant_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4108
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Charged Porter§f\\n\\n§aPersonal teleporter, warp back to base from anywhere, no portal network needed.§f\\n\\nThe §bCharged Porter§f is a handheld device that teleports you to a bound Matter Receiver. Great for emergency escapes or when you\u0027re lost in a mine.\\n\\n§6Tiers§f:\\n§b• Standard§f: §e200,000 RF§f, charges at §e2,000 RF/t§f, stores §e1 destination§f\\n§b• Advanced§f: §e1,000,000 RF§f, §e8 destinations§f, §a4× faster§f teleport\\n\\n§6How to Use§f:\\n1. §9Sneak + Right-click§f a Matter Receiver to bind it\\n2. For Advanced, repeat on up to §e8 receivers§f\\n3. §9Shift + Right-click§f in air to pick destination from the wheel\\n4. §9Right-click§f to charge up and warp\\n\\n§cWARNING:§f Charged Porters cost §c50% more RF§f than standard transmitter portals. Make sure it\u0027s fully charged before you head out.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:charged_porter"
+      },
+      "name:8": "Charged Porter",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4109,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:charged_porter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

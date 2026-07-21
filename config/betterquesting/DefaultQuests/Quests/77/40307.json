@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40306
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6ICF Components \u0026 Laser§f\n\n§aBuild the laser assembly. Casework must be airtight or it won\u0027t assemble.§f\n\nThe ICF laser starts with a controller facing the reactor chamber. Behind it, place laser cells in a line, with flash bulbs adjacent to cells, capacitors adjacent to flash bulbs, and turbochargers adjacent to capacitors. Encase everything in ICF casing (like PWR casing), add ports for power, then right-click the controller to assemble.\n\n§6Laser power§f: Calculated from capacitor and turbocharger count. Divide by 20 to convert HE/s to HE/t.\n\n§6Stellar flux formula§f: Q \u003d E x 10^-11, where Q is mB/t and E is reactor heat in TU. At max heat, 1 mB/t requires about 101.6 M TU/t.\n\n§6Assembly check§f: If casing blocks show a gray border after right-clicking the controller, the laser assembled correctly. No border means something is wrong.\n\n§ePS:§f Start with a conservative laser design and expand later. The ICF casing must be complete with zero gaps. Turbochargers are required for the laser to function.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:icf_block"
+      },
+      "name:8": "ICF Components \u0026 Laser",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40307,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:icf_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

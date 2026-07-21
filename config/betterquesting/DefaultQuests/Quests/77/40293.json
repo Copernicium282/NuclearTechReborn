@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40279
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Singularity§f\n\n§aA contained gravitational anomaly. Drop it and reality breaks.§f\n\n§bSingularities§f are exotic matter constructs that serve as DFC cores. Each type has a different power multiplier for your reactor.\n\n§6Base Singularity§f:\nCrafted in a table: §e4 Euphemium Nuggets§f + §e2 Antischrabidium Cells§f + §e1 Block of Schrabidium§f. The starting point.\n\n§6Upgrades§f:\n§b• Superheated Resonating§f, adds energy powder and advanced alloy plates. §e500×§f multiplier.\n§b• Contained Counter-Resonant§f, adds CMB steel and magnetized tungsten. §e650×§f multiplier.\n§b• Miniature Black Hole§f, §e6 Artificial Xen Crystals§f + Singularity. §e800×§f multiplier, infinite duration.\n§b• Spark Singularity§f, DNT compound plates + counter-resonant + superheated + miniature black hole. §e2,500×§f multiplier.\n\n§cWARNING:§f Singularities break containment and become black holes if dropped. The base singularity lasts §e30§f seconds, superheated and counter-resonant last §e50§f, and the miniature black hole is permanent. Spark singularity lasts §e160§f seconds. Only the singularity screwdriver is safe to drop.\n\n§ePS:§f The core type directly determines your DFC\u0027s power output. A Spark Singularity gives §e5×§f more power than a Vibrant Singularity.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:singularity_counter_resonant"
+      },
+      "name:8": "Singularity",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40293,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:singularity_counter_resonant"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

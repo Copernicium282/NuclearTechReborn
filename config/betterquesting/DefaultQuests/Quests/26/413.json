@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    425,
+    417,
+    484
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Linear Accelerator (LINAC)§f\n\n§aYour first particle accelerator. A straight line of magnets and cavities that goes pew pew.§f\n\nThe LINAC is a multiblock you build from accelerator casings, beam blocks, vents, an ion source, magnets, and RF cavities. It produces early particle beams like protons, deuterons, and boron ions for use in target chambers and beyond.\n\nMinimum size is 6 blocks long, maximum is 100. Place the controller at one end, an ion source at the other, and fill the middle with beam blocks, magnets, vents, and cavities. Check JEI for the exact controller recipe.\n\n§ePS:§f You will need an N-Type Doped Silicon wafer for the controller, so start your fission irradiator chain first.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:linear_accelerator_controller"
+      },
+      "name:8": "Linear Accelerator (LINAC)"
+    }
+  },
+  "questID:3": 413,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:linear_accelerator_controller"
+        },
+        "1:10": {
+          "Count:3": 6,
+          "id:8": "qmd:accelerator_beam"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "id:8": "qmd:accelerator_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

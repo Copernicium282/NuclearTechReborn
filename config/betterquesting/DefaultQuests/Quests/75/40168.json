@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Mercury§f\n\n§aToxic, essential, and surprisingly annoying to get in bulk. But worth it.§f\n\nMercury is critical for Desh production and NITAN super fuel. It comes as fluid (mB) and drops (125mB each, equivalent to an ingot). Tiny drops are nugget-equivalent (9:1).\n\nProduction methods: §bCentrifuge§f (Redstone Crystals give 3 drops, Redstone Ore gives 1), §bOre Acidizer§f (Cinnabar + H2O2 \u003d 3 drops), §bElectrolysis§f (Vitriol, Nitric Acid + Starmetal/Gold), §bCoker Unit§f (10,000mB Fish Oil \u003d 1,000mB Mercury), and §bCyclotron§f (Lithium + Gold).\n\nMain uses: §bDesh Ingot§f (200mB Mercury + 200mB Light Oil + Desh Blend in Chemical Plant), §bNITAN Fuel§f (Kerosene + Mercury + Nitanium Blend in Industrial Mixer), and Fluorescent Lights.\n\n§cWARNING:§f Mercury emits toxic fumes! Handle with appropriate protection.\n\n§ePS:§f The Coker Unit (Fish Oil to Mercury) is the most efficient bulk method once you have fish oil automation.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 42,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Mercury",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40168,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 42,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

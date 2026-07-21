@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40005
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Circuit Components§f\n\n§aVacuum tubes, capacitors, PCBs, microchips. The atoms of your electronics.§f\n\nAll higher circuits are built from these base components. Automate them early or you\u0027ll drown in manual crafting.\n\n§bVacuum Tube§f: Glass + tungsten wire + insulator. Also found in IBM PCs and satellite dishes.\n§bCapacitor§f: Insulator + copper wire + aluminium powder. You\u0027ll need hundreds.\n§bPCB§f: Insulator + copper plate.\n§bMicrochip§f: Printed silicon wafer + copper wire + insulator.\n§bVersatile IC§f: PCB + microchips + bismuth.\n\nUpgrades: §bTantalium Capacitor§f (better insulator + tantalium nugget), §bAtomic Clock§f (microchips + strontium), §bQuantum Processor§f (hard plastic + BSCCO wire + ionized particles).\n\n§ePS:§f Capacitors and PCBs are the bottleneck. Set up automation before you scale.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "hbm:circuit"
+      },
+      "name:8": "Circuit Components",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40039,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:circuit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

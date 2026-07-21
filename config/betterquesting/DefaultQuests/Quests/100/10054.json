@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    10004
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Steel and iron won\u0027t cut it for high-stress rocket components. Time to work with §6Titanium Alloys§f.\n\nThe Electric Arc Furnace produces two key alloys: §6Titanium Iridium§f (iridium plus titanium, 2:1 output ratio) for fuel tanks, and §6Titanium Aluminide§f (7 aluminum to 3 titanium) for nuclear rocket motors and high-temperature parts.\n\nTitanium Iridium goes into the Bipropellant and Monopropellant Fuel Tanks. Titanium Aluminide powers the Nuclear Thermal Rocket Engine and Fusion Reactor Hull. Both are gated behind the EAF, so make sure you have that running first.\n\nStock up on Iridium from HBM before starting. The alloy recipes burn through it faster than you\u0027d expect.\n\n§ePS:§f The Titanium Aluminide recipe needs a 7:3 aluminum-to-titanium ratio. Plan your stockpiles or you\u0027ll be waiting on smelting.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:productingot"
+      },
+      "name:8": "Titanium Alloy Processing",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10054,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:productingot"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "advancedrocketry:productingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

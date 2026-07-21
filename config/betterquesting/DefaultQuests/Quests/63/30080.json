@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30018
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Manufactory§f\n\n§aThe ore processing workhorse.§f\nThe §bManufactory§f takes §b1 item input§f and produces §b1 item output§f. Default cycle is §b400 ticks§f at §b20 RF/t§f. It\u0027s NuclearCraft\u0027s primary ore processor, doubling or tripling your ore yields depending on the recipe.\n\nPut ores in, get dusts out. Put ingots in, get dusts out. It\u0027s versatile and fast. The Manufactory also handles some specialized recipes beyond basic ore doubling, like producing certain dusts from ingots.\n\n§ePS:§f Build extras. You\u0027ll be using the Manufactory constantly throughout your playthrough. It\u0027s one of the most-used machines in the mod, and having multiples speeds up your early game significantly.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:manufactory"
+      },
+      "name:8": "Manufactory",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30080,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:manufactory"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

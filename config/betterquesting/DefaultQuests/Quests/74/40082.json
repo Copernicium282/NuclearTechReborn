@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Natural Gas§f\\n\\n§aThat gaseous byproduct from your oil derrick is more useful than you think.§f\\n\\nNatural Gas flows out of your §bOil Derrick§f and §bPumpjack§f alongside crude oil. It is also available from bedrock deposits via the §bHydraulic Fracking Tower§f. Each bucket gives you §e50 kTU§f heat and §e75 kHE§f combustion energy at a gaseous fuel grade.\\n\\nThe gas itself is not much to burn directly, but it shines in conversion. Run §e1,000mB§f through a §bHydrotreater§f with §e50mB§f Liquid Hydrogen and you get §e800mB§f Petroleum Gas plus §e150mB§f Sour Gas, a way better deal. Other options in JEI include §e200mB§f making §e4×§f Cordite in the Chemical Plant (great for early explosives), or §e1,000mB§f converting to Carbon Dioxide.\\n\\nThe Pyrolysis Oven can crack §e12,000mB§f of it into §e8,000mB§f Liquid Hydrogen and a Graphite Ingot, which is a solid late-game path.\\n\\n§ePS:§f Natural Gas is technically renewable since pumpjacks keep pumping. Do not waste it burning in a fluid burner when converting it to Petroleum Gas gives you so much more.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 23,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Natural Gas",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40082,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 23,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Renewable Generators§f\\n\\n§aClean, passive power. No fuel, no fuss.§f\\n\\nIndustrial Renewal gives you several ways to generate energy without burning through coal reserves.\\n\\n§bSolar Panel§f: Generates §e15 FE/t§f in direct sunlight. Drop it inside a §bSolar Frame§f and output doubles to §e30 FE/t§f. Simple and reliable.\\n\\n§bSmall Wind Turbine§f: Needs a Wind Blade item installed by right-clicking. Generates up to §e128 FE/t§f. Output depends on weather and height, with rain giving the best performance. Blades wear out over time, so keep spares.\\n\\n§bDam Generator§f: A multiblock that outputs a solid §e1,024 FE/t§f from flowing water. Build it between dam intake and outflow blocks with water streaming through.\\n\\n§bPortable Generator§f: Burns solid fuels for §e32 FE/t§f with a §e16,000 FE§f internal buffer. Good for powering field equipment or remote mining drills.\\n\\n§ePS:§f The wind turbine\u0027s output barely changes with height. Weather is the bigger factor.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialrenewal:infinity_generator"
+      },
+      "name:8": "Renewable Generators",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4200,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialrenewal:infinity_generator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

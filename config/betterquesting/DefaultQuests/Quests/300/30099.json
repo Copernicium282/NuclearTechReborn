@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    30089
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Servos§f\n\n§aPull items and fluids from blocks into duct networks, the engine that makes everything move!§f\n\n§bServos§f attach to fluiduct and itemduct connections, extracting from the adjacent block into the duct.\n\n§6Tiers§f:\n§b• Basic§f: §e3s§f delay, §e8× stack§f, §e50%§f fluid, §e3 slots§f.\n§b• Hardened§f: §e2s§f, §e16× stack§f, §e75%§f, §e6 slots§f.\n§b• Reinforced§f: §e1s§f, §e32× stack§f, §e100%§f, §e9 slots§f.\n§b• Signalum§f: §e0.5s§f, §e64× stack§f, §e2× speed§f, §e150%§f, §e12 slots§f.\n§b• Resonant§f: §e0.5s§f, §e64× stack§f, §e3× speed§f, §e200%§f, §e15 slots§f.\n\nFilter modes: Blacklist/Whitelist, Metadata, NBT, Ore Dictionary, Mod Owner (tier-dependent). Routing modes (Reinforced+): Nearest, Furthest, Random, Round Robin.\n\n§eNote§f: Servos need a redstone signal by default (High mode). Configurable per-servo.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermaldynamics:servo"
+      },
+      "name:8": "Servos",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30099,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermaldynamics:servo"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "thermaldynamics:servo"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "thermaldynamics:servo"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40003
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Copper Plates§f\n\n§aYou\u0027ll burn through stacks of these. Better start pressing early.§f\n\nSmelt copper ore into ingots, then press them into §bcopper plates§f at the burner press (plate stamp), assembly machine, or anvil.\n\nCopper plates go into almost everything: machine casings, circuits, preheaters, blast furnaces. They\u0027re also half of §bred copper§f, which you\u0027ll need for wires and advanced alloy.\n\nYou\u0027ll be making these constantly from now on. Keep a chest full and your press running. The assembly machine can also press them if you\u0027ve got one set up.\n\n§ePS:§f No such thing as too many copper plates. You\u0027ll thank yourself later when you\u0027re not waiting on them.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:plate_copper"
+      },
+      "name:8": "Copper Plates",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40005,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:plate_copper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

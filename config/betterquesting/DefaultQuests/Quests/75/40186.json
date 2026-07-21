@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6MOX Fuel§f\n\n§aUranium plus plutonium. Mid-range in most reactors, but the RBMK loves it.§f\n\nMOX Fuel (Mixed Oxide Fuel) is a mixture of §e2/3rds§f uranium and §e1/3rd§f plutonium fuel. In most reactors it\u0027s mid-range, but in the §bRBMK§f it\u0027s considerably strong for its cost.\n\nComposition: §e2/3§f Medium Enriched U-235 Fuel + §e1/3§f Pu-239.\n\nCrafting (shapeless): Nugget \u003d 4 Uranium Fuel Nuggets + 2 Pu-239 Nuggets \u003d 1 MOX Fuel Billet. Billet \u003d 2 Uranium Fuel Billets + 1 Pu-239 Billet \u003d §e3§f MOX Fuel Billets.\n\nZIRNOX performance: §e75§f heat/tick (stronger than plutonium), §e165k§f ticks lifespan, radiation goes from §e2.5§f to §e150§f RAD/s.\n\nRBMK: §e1B§f yield, logarithmic function, §e7.5§f TU per flux.\n\nRecycling via PUREX: Depleted MOX \u003d Reactor Grade Pu Nugget + Tc-99 Nugget + 3 Nuclear Waste.\n\n§ePS:§f The billet recipe gives §e3§f billets instead of 1. Extremely efficient for bulk production.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_mox_fuel"
+      },
+      "name:8": "MOX Fuel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40186,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_mox_fuel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

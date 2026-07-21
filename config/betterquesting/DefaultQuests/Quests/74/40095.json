@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Industrial Liquefaction Machine§f\\n\\n§aTurn solids into fluids, the machine that makes reactor coolants possible.§f\\n\\nThe §bIndustrial Liquefaction Machine§f melts, hydrates, and catalyzes solid items into fluids. It is the opposite of the §bSolidification Machine§f and is essential for late-game reactor cooling.\\n\\nThe big recipes: §eLead Powder§f → §e100mB§f Liquid Lead for PWR and ICF cooling. §eSodium§f → §e100mB§f Liquid Sodium, another reactor coolant. §eJungle Wood§f → §e100mB§f Mug Root Beer, which is one of the best coolants for the ICF. It also handles §eTar Sand§f → §e100mB§f Bitumen, §eLignite Powder§f → §e50mB§f Coal Oil, §eSugar§f → §e100mB§f Ethanol, and §eObsidian§f → §e500mB§f Lava for infinite cobblestone automation.\\n\\n§6Crafting§f (Assembly Factory): §e4×§f Steel Shell, §e12×§f Copper Plate, §e4×§f Wood Tar, §e12×§f Capacitor, §e8×§f Heating Coil.\\n\\n§ePS:§f Even if you are not near the nuclear age yet, build one early. You will need Liquid Lead and Liquid Sodium the moment you start working on PWR or ICF reactors, and the liquefaction machine is the only way to get them.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_liquefactor"
+      },
+      "name:8": "Industrial Liquefaction Machine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40095,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_liquefactor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

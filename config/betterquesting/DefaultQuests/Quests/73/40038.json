@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    40010,
+    40053
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Health Hazards§f\n\n§aYour lungs don\u0027t appreciate coal dust. Or asbestos. Wear a mask.§f\n\nNTM adds lung diseases that build up over time:\n\n§6Black Lung§f: From coal dust when mining or handling coal. Builds to 72,000, then kills. Causes weakness and coughing at high levels. §bPrevention:§f Crude protective mask (damp cloth from wool + string soaked in water) works fine. §bCure:§f SiOX Cancer Medication or herbal paste.\n\n§6Mesothelioma§f: From asbestos particles. Same 72,000 buildup, same death. Comes with a \"entitled to financial compensation\" message. §bPrevention:§f Gas mask with Particulates filter. A crude mask won\u0027t stop asbestos.\n\n§ePS:§f Craft a crude mask before bulk coal mining. It\u0027s cheap and saves you a lot of pain.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:gas_mask"
+      },
+      "name:8": "Health Hazards",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40038,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:gas_mask",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

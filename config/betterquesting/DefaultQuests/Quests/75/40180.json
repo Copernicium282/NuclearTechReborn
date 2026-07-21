@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40176
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Plutonium-241§f\n\n§aThe rarest plutonium isotope. Your gateway to americium.§f\n\nPu-241 is the least common plutonium isotope but much more potent than Pu-239. It\u0027s the gateway to producing §bAmericium-241§f and §bAmericium-242m§f.\n\nProperties: §e25.0§f RAD/s (hottest Pu isotope), fissile, hard difficulty.\n\nProduction: RBMK Reactor Pu-239 fuel depletes to produce Pu-239 and Pu-240 waste. Process waste in a SILEX: Pu-239 waste contains §e25%§f Pu-241, Pu-240 waste contains §e15%§f. Pu-241 ZFB rods require an initial investment but return substantially more.\n\nMain use is §bHEP-241§f RBMK fuel (8 Pu-241 billets per rod), the strongest plutonium fuel with high heat output. Depletes into Am-241 and Am-242m.\n\nAlso used in ZFB fuels (Bismuth ZFB, Pu-241 ZFB, Reactor Grade Americium ZFB).\n\n§ePS:§f Set up RBMK Pu-239 fuel, process the waste in a SILEX, and extract Pu-241 for HEP-241 fuel rods.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_pu241"
+      },
+      "name:8": "Plutonium-241",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40180,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_pu241"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

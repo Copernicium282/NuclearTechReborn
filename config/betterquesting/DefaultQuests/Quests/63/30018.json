@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Welcome to NuclearCraft§f\n\n§aNuclear power, isotopes, and fission reactors. This is the big one.§f\nNuclearCraft adds the full nuclear lifecycle: mining ore, processing it into fuel, running fission reactors, reprocessing spent fuel, and eventually building particle accelerators for isotope separation. It integrates with HBM, AE2, and QMD in this modpack.\n\n§6The path§f:\nYou start with basic power storage and simple machines, work your way through isotope separation and chemistry, then graduate to reactor construction. The §bSolid Fission Reactor§f is your first real reactor. After that, the §bMolten Salt Reactor§f and eventually §bFusion§f are waiting.\n\n§6Key machines§f:\n§bNuclear Furnace§f, §bAlloy Furnace§f, §bManufactory§f, §bIngot Former§f, §bChemical Reactor§f, §bIsotope Separator§f, §bFuel Reprocessor§f. Check JEI for the full list.\n\n§ePS:§f This tree is long. Take it one machine at a time.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:solid_fission_controller"
+      },
+      "name:8": "NuclearCraft: Overhauled",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30018,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

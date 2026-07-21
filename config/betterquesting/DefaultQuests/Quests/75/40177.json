@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40176
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Plutonium-238§f\n\n§aThe hot one. Glows from heat, powers RTG generators for over a year.§f\n\nPu-238 is primarily obtained by breeding. It visibly glows from incandescence and is most useful as §bRTG fuel pellets§f.\n\nProperties: §e10.0§f RAD/s radioactivity, §e33.3%§f of raw plutonium.\n\nMain use is the §bRTG Pellet§f: §e10§f HE/tick. With decay enabled, each pellet lasts §e631M§f ticks (over 1 real year, 131 in-game years) producing §e6.3B§f HE total. They decay to lead.\n\nOther uses: RT Generator, RTG Blast Furnace, Minigun crafting, Pu238Be RBMK Neutron Source, Radio Isotope Cell, Self-Charging Battery (100 HE/tick), breeding Pu-239, and contributes §e1.15§f to the custom nuke.\n\nRight-clicking with a pellet spouts random nuclear science facts.\n\n§ePS:§f Stack Pu-238 pellets in an RT Generator for maintenance-free passive power.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_pu238"
+      },
+      "name:8": "Plutonium-238",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40177,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_pu238"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

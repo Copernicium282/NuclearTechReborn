@@ -1,0 +1,28 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Silicon Boule \u0026 Wafer Growth§f\n\n§aThe raw crystal that becomes every processor in QMD. Grow it, slice it, dope it.§f\n\nA Silicon Boule is grown in an NC Manufactory from silicon and hafnium. Then slice it into a Silicon Wafer using the Manufactory with a Boule Slicing Wire.\n\nOne boule gives one wafer. You need a lot of these. Wafer supply is the bottleneck for every processor tier, so set up bulk production early.\n\nThe wafer is a blank. N-Type doping happens in a Fission Irradiator. P-Type doping happens in a Target Chamber with Boron-11 ions. Both are mandatory for progression.\n\n§ePS:§f Check JEI for the boule growth recipe. The hafnium comes from your Ore Leacher chain.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "qmd:semiconductor"
+      },
+      "name:8": "Silicon Boule \u0026 Wafer Growth"
+    }
+  },
+  "questID:3": 441,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "qmd:semiconductor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40275
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Plasma Forge§f\n\n§aThe 11x11 multiblock that forges every endgame item you need.§f\n\nThe Plasma Forge is assembled in an assembly machine from welded cadmium steel plates, dense BSCCO wire, cast arsenic bronze plates, and versatile circuit boards. It runs on §e10 MHE/t§f and §e1 MTU/t§f of plasma input.\n\n§6What it forges§f: Gerald, DFC components, ICF laser parts, the FEnSU, euphemium compound plates, and fusion reactor vessels. Most endgame recipes have long durations, so speed matters.\n\n§6Speed bonus§f: The forge does NOT accept upgrades, but you can feed it fission fragments and unstable isotopes for a §e4x speed boost§f. The usable materials are Cobalt-60, Strontium-90, Gold-198, Iodine-131, Xenon-135, Caesium-137, and Astatine-209. Ingot form lasts longest.\n\n§6Plasma chaining§f: The forge can pass through 75% of unused plasma energy to downstream forges or turbines. This lets you chain multiple forges or recover waste energy.\n\n§ePS:§f Stockpile fragments before tackling Gerald (600s, becomes 150s with 4x) or the FEnSU (300s, becomes 75s). Automate fragment delivery to the forge.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:fusion_plasma_forge"
+      },
+      "name:8": "Plasma Forge",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40297,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:fusion_plasma_forge"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

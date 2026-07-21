@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    30163
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Combine a storage component with an ME Storage Housing and you get a storage cell. The housing is reusable, so when you upgrade from 1k to 4k, you get the old housing back.\n\nItem cells store up to 63 different item types per cell. That is the hard limit, regardless of tier. A 64k cell holds 65536 bytes of items but still only 63 types. If you hit that limit, split items across multiple smaller cells instead.\n\nEach tier also has different idle power drain: 1k cells pull 0.5 AE/t, 4k pulls 1.0, 16k pulls 1.5, and 64k pulls 2.0. More capacity means more drain.\n\n§cWARNING:§f Do not put cells with the same items in different priority cells. AE2 will try to balance between them and cause unnecessary lag.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:storage_cell_1k"
+      },
+      "name:8": "Item Storage Cells",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30164,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:storage_cell_1k"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:storage_cell_4k"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:storage_cell_16k"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:storage_cell_64k"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

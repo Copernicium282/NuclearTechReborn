@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4206
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Emergency Gear§f\\n\\n§aEquip personal protective gear and emergency response items to survive industrial accidents!§f\\nWorking around high-voltage power lines, radiation, steam, and lava increases the risk of accidents. Prepare proper safety equipment.\\n\\n§6First Aid \u0026 Medkits§f:\\n§b• Medkit§f: A high-tier medical supply. When used, it regenerates player health almost instantly, with an effect duration of only §e150 milliseconds§f. Keep one on your hotbar for emergency healing.\\n§b• First Aid Cabinet§f: A wall-mounted container to store medkits, bandages, and fire extinguishers for quick access.\\n\\n§6Fire Extinguishers§f:\\n§b• Fire Extinguisher§f: Discharges a pressurized carbon dioxide spray to put out fires and suppress steam leaks.\\n§b• Nether Utility§f: Fully functional on §bNether Lava§f (`fireExtinguisherOnNether\u003dtrue`), allowing you to freeze lava surfaces and pave safe walking paths through the Underworld.\\n\\n§6Personal Protective Equipment (PPE)§f:\\n§b• HAZMAT Suit§f: Protects your body from toxic environments, radiation leaks, and industrial waste.\\n§b• Safety Helmets \u0026 Safety Glasses§f: Protect against head injuries and flash blindness around arc furnaces.\\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialrenewal:medkit"
+      },
+      "name:8": "Emergency Gear",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4207,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialrenewal:medkit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

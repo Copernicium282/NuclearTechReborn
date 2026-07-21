@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30044
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fission Irradiator§f\n\n§aTransmutes items using reactor neutron flux.§f\nThe §bFission Irradiator§f is a reactor component that uses neutron flux to transmute items placed inside it. It doesn\u0027t generate power or consume fuel directly. Instead, it converts materials into different isotopes or enriched variants.\n\nPlace it inside your reactor where neutron flux is highest. The irradiation rate depends on the flux level and the irradiator\u0027s efficiency setting.\n\nUsed for producing §bLEU-233§f, §bHEU-235§f, and other advanced fuels that require neutron bombardment. It\u0027s also used for some material transmutation recipes.\n\n§ePS:§f The Irradiator has three efficiency tiers. Higher tiers process faster but generate more heat.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:fission_irradiator"
+      },
+      "name:8": "Fission Irradiator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30049,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:fission_irradiator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4006
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Robots§f\\n\\n§aAutonomous mobile computers that mine, build, farm, and level up.§f\\nRobots are fully programmable. Write Lua scripts, deploy them, and watch them work.\\n\\n§6Movement§f:\\nMoving costs §e15 energy§f per block, turning costs §e2.5 energy§f. Default flight height is §e8 blocks§f above a solid surface. Hover Upgrade Tier 1 raises it to §e64§f, Tier 2 to §e256§f.\\n\\n§6Leveling§f:\\nRobots gain XP from actions (breaking, placing, attacking). Max level is 30. Each level adds §e+5000 energy buffer§f (20,000 at level 0, 170,000 at level 30), §e+1% tool efficiency§f (base 10% durability loss per use), and §e+2% harvest speed§f.\\n\\n§6Charging§f:\\nPlace a Charger block next to a robot. It transfers up to §e100 energy/tick§f at full redstone signal (15). Signal 8 charges at half speed.\\n\\n§cWARNING:§f Robots consume 0.25 energy/tick just existing. Running out of power mid-job is embarrassing.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "opencomputers:robot"
+      },
+      "name:8": "Robots",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4007,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "opencomputers:robot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

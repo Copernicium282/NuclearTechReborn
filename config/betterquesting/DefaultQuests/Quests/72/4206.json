@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Perimeter Security: Alarms \u0026 Fences§f\\n\\n§aSecure your base boundary with high-voltage fences, razor wire, and industrial alarms!§f\\nDefending your base from hostiles is critical. Set up automated perimeter defenses to shock, slow, and alert you of intruders.\\n\\n§6Electric Fences§f:\\n§b• Damage \u0026 Knockback§f: Shocking contact deals §c2.0 damage (1 heart)§f and inflicts §e0.3 knockback§f.\\n§b• Safety Mode§f: The fence is configured to §cMode 0§f: It deals damage to monsters, but only applies knockback (no damage) to players. You won\u0027t accidentally kill yourself or your teammates.\\n§b• Power Connection§f: Wire the fence blocks to an active energy line to power the perimeter.\\n\\n§6Razor Wire \u0026 Barriers§f:\\n§b• Razor Wire§f: Deals §c2.0 damage§f on contact. Unlike electric fences, razor wire does not require power, but it slows down and traps any entity trying to walk through it.\\n\\n§6Industrial Alarms§f:\\n§b• Alarms§f: Triggered by redstone signals (e.g. from motion sensors or tripwires). Sounds a loud, echoing siren with a default §evolume of 4.0§f to warn you of breaches.\\n\\n§6Industrial Catwalks§f:\\n§b• Catwalks§f: Steel walkways, handrails, ladders, and scaffolding. Catwalks allow you to walk safely at high altitudes around your boilers, turbines, and turbines without the risk of slipping off and falling to your death.\\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialrenewal:electric_fence"
+      },
+      "name:8": "Alarms \u0026 Fences",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4206,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialrenewal:electric_fence"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

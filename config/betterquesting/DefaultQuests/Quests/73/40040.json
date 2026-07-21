@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    40018
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aYour analog circuits won\u0027t cut it for what\u0027s coming next.§f\n\nOnce you\u0027ve got the Soldering Station running, you can start making the higher-tier circuit boards that reactors, warheads, and fusion all demand.\n\n§6Integrated Circuit Board§f: Your first upgrade. Adds microchips to the mix. You\u0027ll need the arc furnace for silicon wafers. Used in geiger counters, missiles, and mid-game machines.\n\n§6Military Grade Circuit Board§f: The workhorse of late game. Needs sulfuric acid and rubber, plus heavy capacitor and microchip investment. Goes into particle accelerators, nuclear warheads, and advanced reactors.\n\n§6Versatile Circuit Board§f: The expensive one. Bismuth, hard plastic, and solvent. Each board eats roughly 55 insulators. Reserved for fusion reactors and hydrotreaters.\n\n§6Control Units§f: The Control Unit handles mid-late nukes like Gadget. The Advanced Control Unit adds atomic clocks for Ivy Mike tier.\n\n§ePS:§f Military Grade is the one you\u0027ll make the most. Automate rubber, sulfuric acid, and tantalium before you start scaling.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9,
+        "id:8": "hbm:circuit"
+      },
+      "name:8": "Advanced Circuits",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40040,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "hbm:circuit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

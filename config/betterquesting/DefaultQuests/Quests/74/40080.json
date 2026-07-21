@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40068
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Catalytic Cracking Tower§f\\n\\n§aReady to crack open some serious oil processing?§f\\n\\nThis is the machine that takes your refining to the next level. The §bCatalytic Cracking Tower§f is a §e15-block§f tall multiblock that breaks down complex petroleum fluids into simpler, more useful products using steam. No GUI here, look directly at the tower to see what it is doing.\\n\\nIt processes §e100mB§f batches and burns §e200mB§f steam per operation, outputting §e2mB§f low-pressure steam. Check JEI for the full recipe list, but the key one is §e100mB§f Crude Oil + steam → §e80mB§f Cracked Oil + §e20mB§f Petroleum Gas. That Cracked Oil feeds directly into the next tier of refining.\\n\\n§6Crafting§f (Assembly Machine): §e16×§f Steel Scaffold, §e6×§f Steel Shell, §e12×§f Desh Ingot, §e4×§f Niobium Ingot.\\n\\n§ePS:§f The §bRadiolysis Machine§f can do the same cracking recipes with power instead of steam. Either way, you need this tower to unlock Cracked Oil and the products that come with it, Aromatic Hydrocarbons, Unsaturated Hydrocarbons, and more.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_catalytic_cracker"
+      },
+      "name:8": "Catalytic Cracking Tower",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40080,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_catalytic_cracker"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

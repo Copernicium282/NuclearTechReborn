@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40207
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6RBMK Components \u0026 Controls\\n\\n§aEvery column type explained, from fuel channels to the console that saves your reactor.\\n\\n§6Essential§f:\\n§b• Fuel Channel§f, holds fuel rods, generates heat and flux\\n§b• Steam Channel§f, converts water to steam at 4 density levels: Steam/Dense/Super Dense/Ultra Dense\\n§b• Cover Panel§f, blocks radiation leakage, mandatory on every flux-carrying column\\n\\n§6Control§f:\\n§b• Control Rod§f, varies flux 0-100% in 25% steps. Console allows any value.\\n§b• Automatic Control Rod§f, self-regulates based on temperature. Ignores AZ-5.\\n§b• RBMK Console§f, 17x17 display, remote rod control, AZ-5 SCRAM button\\n§b• Crane Console§f, spawns crane for fuel rod removal/placement\\n\\n§6Moderation \u0026 Reflection§f:\\n§b• Graphite Moderator§f, fast neutrons become slow\\n§b• Neutron Reflector§f, bounces flux back. Dangerous with linear/quadratic fuels!\\n§b• Neutron Absorber§f, absorbs all flux, converts to heat (1C per 20 flux)\\n\\n§6Specialized§f: Irradiation Channel (thorium breeding, Gold-198), Fluid Heater, Cooler (5x5 area, 50 mB/t cold perfluoromethyl), Storage Column (12-item buffer), Structural Column.\\n\\n§ePS:§f Steam connectors let you hide pipes under the reactor. Worth the extra cost.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:rbmk_console"
+      },
+      "name:8": "RBMK Components \u0026 Controls",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40208,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:rbmk_console"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

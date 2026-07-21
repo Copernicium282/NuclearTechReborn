@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Mortar and Pestle§f\n\n§aGrind spices, grains, and make marzipan!§f\n\nThe §bMortar and Pestle§f is a manual grinding utensil used to process grains into flour, spices into powders, and craft specialty foods like marzipan and mochi.\n\n§6Crafting§f: §e3× Stone§f + §e1× Stick§f.\n\n§6Grinding Recipes§f:\n§b• Grains§f (Barley, Oats, Rye, Corn, Wheat) → §e2× Flour§f.\n§b• Peppercorn§f → §bBlack Pepper§f.\n§b• Cinnamon§f → §bGround Cinnamon§f.\n§b• Nutmeg§f → §bGround Nutmeg§f.\n§b• Cocoa Beans§f → §bCocoa Powder§f.\n\n§6Specialty Crafts§f:\n§b• Marzipan§f: §bHoney§f + §bAlmonds§f.\n§b• Mochi§f: §bRice§f + §bSugar§f.\n\n§6Usage§f:\n§9Place the Mortar and Pestle§f in a crafting grid with the source ingredient. The Mortar and Pestle is reusable and does not get consumed. Most recipes yield §e2× output§f per input.\n\n§6Comparison§f:\nThe Mortar and Pestle and the §bGrinder§f overlap on grain → flour, but the Grinder also handles raw meat → ground meat and is more powerful overall. The Mortar and Pestle\u0027s unique value is its spice and cocoa processing, plus Marzipan/Mochi.\n\n§eTip§f: Use the Mortar and Pestle early-game for flour production. Once you upgrade to a §bGrinder§f, repurpose it for cocoa processing and specialty crafts.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:mortarandpestleitem"
+      },
+      "name:8": "Mortar and Pestle",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30118,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:mortarandpestleitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

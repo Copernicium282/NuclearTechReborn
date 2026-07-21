@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40087
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Coker Oil§f\n\n§aThe heaviest coker output - fraction it, don\u0027t burn it!§f\n\nCoker Oil is a flammable, polluting, viscous liquid produced when coking heavy petroleum products in the §bCoker Unit§f. Every §e16,000mB§f of Bitumen yields §e1,600mB§f Coker Oil plus Heavy Heating Oil and Coke. At §e31.2 kTU§f per bucket, it is a poor fuel - its real value is as a feedstock.\n\n§6Production§f (Coker Unit):\n§b•§f Bitumen (§e16,000mB§f) → §e1,600mB§f Coker Oil + §e500mB§f Heavy Heating Oil.\n§b•§f Heavy Oil (§e11,000mB§f) → §e1,100mB§f Coker Oil.\n§b•§f Industrial Oil (§e7,900mB§f) → §e790mB§f Coker Oil.\n§b•§f Engine Lubricant (§e12,000mB§f) → §e1,200mB§f Coker Oil.\n\n§6Uses§f:\n§b•§f Fractioning Tower: §e100mB§f Coker Oil → §e30mB§f Cracked Oil + §e70mB§f Heating Oil.\n\n§cWARNING:§f Do NOT burn Coker Oil directly - §e31.2 kTU§f is among the worst fuel values in the chain. Route it through a Fractioning Tower to recover Cracked Oil and Heating Oil!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 105,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Coker Oil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40130,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 105,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

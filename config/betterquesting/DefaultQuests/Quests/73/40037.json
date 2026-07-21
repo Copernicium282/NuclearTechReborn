@@ -1,0 +1,33 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    40000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Material Safety§f\n\n§aSome things in this mod will kill you. Here\u0027s what to watch for.§f\n\n§6Radiation§f: Accumulates, never decreases naturally. 1000 RAD kills you. §bHazmat armor§f for base protection, §bRad-X§f (+0.2 resistance) early on, §bDecontaminator§f to remove 10 RAD/s. The §bLiquidator Suit§f is the best pre-oil armor.\n\n§6Pyrophoric§f: Ignites when held. Use §bTungsten Reachers§f to handle them safely (they also reduce radiation from held items).\n\n§6Hydroreactive§f: Explodes on contact with water. Don\u0027t carry these in rain or near water. No mitigation.\n\n§6Flammable / Explosive§f: Ignites in lava or fire. Flammable + pyrophoric without reachers is a bad time.\n\n§6Blinding§f: Schrabidium causes blindness while held (fades 5s after removal). The FEL with visible-light crystal causes permanent blindness (cure: milk or iodine pill).\n\n§6Digamma§f: Rare radiation from balefire bombs. Treat like normal radiation but with no early-game mitigation.\n\n§cWARNING:§f Read this before you start handling nuclear materials.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:gas_mask_filter"
+      },
+      "name:8": "Material Safety",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40037,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:gas_mask_filter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

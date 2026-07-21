@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40042
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aThings get dangerous from here.§f\n\nWhite phosphorus is rarer than its red cousin. It drops about 10% of the time from Nether phosphorus ore, or you can centrifuge the ore and phosphorus crystals for more. Crystals give the best yield at 2 WP per batch.\n\nThe main use is WP ammunition, which applies Phosphorus Burns. Unlike regular fire, water only temporarily slows the damage. Nasty stuff.\n\n§cWARNING:§f Holding white phosphorus hurts you. It\u0027s not pyrophoric like the red variant, so it won\u0027t ignite your inventory, but direct contact damages you on contact. Wear gloves. Or better yet, don\u0027t hold it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_phosphorus"
+      },
+      "name:8": "White Phosphorus",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40043,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_phosphorus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

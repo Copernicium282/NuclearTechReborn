@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40224,
+    40222
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6CMB Steel \u0026 Nitanium\\n\\n§aEndgame alloys for the DFC, Spark Capacitor, and elite radiation shielding.\\n\\n§6CMB Steel (Combine Steel)§f:\\nLate-game superalloy. Crucible: §e6 Magnetized Tungsten Nuggets§f + §e3 Poisonous Mud Nuggets§f → 1 ingot. Poisonous mud comes from the §bWatz Power Plant§f, so you cannot skip it. Also from smelting CMB scrap dropped by the Hunter Chopper.\\nUses: §bCMB-Schrabidate Laser Crystal§f (UV FEL range), §bSpark Capacitor§f, DFC fuel injector, Hunter Chopper, CMB Steel Tiles (§e3,000§f blast resist) and Reinforced CMB Bricks (§e30,000§f blast resist).\\n\\n§6Nitanium§f:\\nPurple powdery blend, no refined form. Craft from 6 cyclotron-produced powders: Neptunium + Iodine + Thorium + Astatine + Neodymium + Caesium. Also from trixite crystals or asteroid mining.\\nUses: §bElite Radiation Absorber§f (Saturnite + Nitanium + Advanced Absorber), §bNITAN 100 Octane Super Fuel§f.\\n\\n§ePS:§f CMB Steel requires poisonous mud from the Watz, so plan accordingly. Nitanium is optional until you need elite radiation protection.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_combine_steel"
+      },
+      "name:8": "CMB Steel \u0026 Nitanium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40223,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_combine_steel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

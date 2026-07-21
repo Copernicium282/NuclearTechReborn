@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    30240,
+    30242
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Powercell (Medium)§f\\n\\n§a8× the storage, 4× the transfer, the backbone of mid-game power grids.§f\\n\\nThe §bPowercell (Medium)§f holds §e4,000,000 RF§f and transfers §e1,000 RF/t§f per side. Integrates into existing networks (up to §e729 blocks§f) with the same +0.25× per-block scaling.\\n\\n§6Upgrade§f: Craft a §bCopy NBT recipe§f, a Powercell (Low) surrounded by §b4× Power Core (Medium)§f + §b4× Redstone§f. §a100% of stored energy is preserved§f.\\n\\nWrench I/O, wireless linking with Powercell Cards, and energy retention on break all work the same as Low. The 729-block max is a 9×9×9 cube, which is more than enough for most bases.\\n\\n§9Note:§f Plan your upgrade during low-load moments so you can hand-carry the buffer to your new Medium network without draining it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftoolspower:cell2"
+      },
+      "name:8": "Powercell (Medium)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30243,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolspower:cell2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30179
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Molecular Assembler §fis where autocrafting actually happens. Without at least one, your patterns are just instructions gathering dust.\n\nWhen a crafting job is requested, the Molecular Assembler picks up the pattern and executes it. It holds 9 intermediate items internally during multi-step crafts. Place multiple assemblers on a single Crafting CPU for parallel job execution.\n\nCraft it from Iron, Quartz Glass, an Annihilation Core, a Crafting Table, and a Formation Core. It has 5 upgrade slots for Acceleration Cards, each adding 50% speed.\n\n§9Note:§f A bare Molecular Assembler does not open a Crafting Terminal. Place a Pattern Terminal on it to drive crafting.\n\n§ePS:§f Power draw scales with crafting complexity. Keep your energy cells charged during big jobs.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:molecular_assembler"
+      },
+      "name:8": "Molecular Assembler",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30191,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:molecular_assembler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

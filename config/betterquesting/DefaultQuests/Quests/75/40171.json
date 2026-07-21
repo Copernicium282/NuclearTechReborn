@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6M1TTY Environment Suit§f\n\n§aMid-game power armor that handles radiation, chemicals, and underwater exploration. A serious upgrade.§f\n\nThe M1TTY Environment Suit is a powered armor set. Each piece holds §e100kHE§f charge and charges at §e1kHE/t§f. Full set gives §bSpeed§f and §bJump Boost§f bonuses plus §e89.99%§f radiation reduction.\n\nCrafting per piece uses Titanium Plate, Rubber Bar, and a Microchip (helmet only). You\u0027ll need Titanium production set up first.\n\nProtection covers airborne particles, particulates, chemical gas, bacteria, corrosive fumes, carbon monoxide, bright lights, eye irritants, and radiation (1.0 resistance).\n\nBonuses: high mobility on ground and underwater, underwater night vision, vectored jetpack-like propulsion, 75% fire resistance, 75% fall damage reduction.\n\n§ePS:§f Upgrade from basic hazmat gear once you have Titanium. The M1TTY suit makes hazardous area exploration dramatically safer.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:envsuit_helmet"
+      },
+      "name:8": "M1TTY Environment Suit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40171,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:envsuit_helmet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

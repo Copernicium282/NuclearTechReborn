@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30268
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nether Ecology§f\n§aThe Nether is alive. Time to explore.§f\n\nThe Nether is no longer just red netherrack and lava. Better Nether adds multiple distinct biomes: §bMushroom Forests§f with giant fungi, §bNether Jungles§f, §bWart Forests§f, §bGrasslands§f, §bGravel Deserts§f, and §bBone Reefs§f. Each has its own flora and terrain quirks.\n\n§6Stalagnate§f\nThese pillar-like plants grow from floor to ceiling. Chop the §bStalagnate Stem§f and §bBark§f to craft §bStalagnate Planks§f, or use §bStalagnate Bowls§f to brew Mushroom, Apple, or Wart Stew for solid Nether food.\n\n§6Nether Reed \u0026 Crops§f\nFind §bNether Reed§f near lava pools for doors, fences, and ladders. You can also farm §bWart Seeds§f, §bBlack Apple Seeds§f, and §bInk Bush Seeds§f once you track them down.\n\n§cWARNING:§f The §bEgg Plant§f applies Poison IV on contact. It won\u0027t kill you, but you\u0027ll regret stepping on it. Ghasts and Piglins don\u0027t care, though.\n\n§9Note:§f Right-click a §bPig Statue Respawner§f to anchor your spawn point in the Nether.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betternether:stalagnate_seed"
+      },
+      "name:8": "Nether Ecology \u0026 Biomes",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30269,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betternether:stalagnate_seed"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

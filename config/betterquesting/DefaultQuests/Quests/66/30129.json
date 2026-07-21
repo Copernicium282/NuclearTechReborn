@@ -1,0 +1,35 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Sandwiches \u0026 Burgers§f\n\n§aAssemble stacked meals using the Cutting Board.§f\n\nThe §bCutting Board§f crafts all sandwich and burger recipes. Most require cooked meat, vegetables, and bread.\n\n§6Sandwiches§f: BLT (8), Chicken Sandwich (6), Fish Sandwich (6), PB\u0026J (6), Grilled Cheese (8), Leafy Chicken (7), Leafy Fish (7), Ham \u0026 Cheese (7), Monte Cristo (11), Tunafish (10), Cucumber (8), Bologna (9), Fried Bologna (8).\n\n§6Burgers§f: Hamburger (6), Cheeseburger (8), Deluxe Cheeseburger (10), Bacon Cheeseburger, Onion Hamburger (8), Coleslaw Burger (10), Beet Burger (13), Paradise Burger, Gourmet variants (6 each).\n\n§6Assembly Method§f:\n§9Place the Cutting Board§f in the crafting grid with the recipe\u0027s ingredients. The Cutting Board is reusable and does not get consumed. Most recipes require bread, cooked meat, and vegetables.\n\n§eTip:§f Deluxe Cheeseburger (10 hunger) is an excellent mid-game food. Craft multiple Cutting Boards for parallel sandwich production.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:hamburgeritem"
+      },
+      "name:8": "Sandwiches \u0026 Burgers",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30129,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:hamburgeritem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:cheeseburgeritem"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:bltitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

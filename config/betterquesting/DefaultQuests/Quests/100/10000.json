@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Concrete Tile§f is the basic building block for Advanced Rocketry structures. You need it for launch pads, docking pads, space elevator controllers, and just about every AR multiblock out there.\n\nShapeless crafting: 1 Sand + 1 Gravel + 1 Water Bucket yields 16 Concrete Tiles. The water bucket returns empty, so you can cycle them through. Craft in a regular Crafting Table, not a machine.\n\n§cWARNING:§f This is NOT vanilla Minecraft concrete. It is a separate AR block with blast resistance 30, full light opacity, and a smooth grey texture. Don\u0027t confuse it with white concrete or coloured concrete from vanilla.\n\n§ePS:§f Stock up before building launch pads, they eat a lot of these.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:concrete"
+      },
+      "name:8": "Concrete Tile",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10000,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:concrete"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

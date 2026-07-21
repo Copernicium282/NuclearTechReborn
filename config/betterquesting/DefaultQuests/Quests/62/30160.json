@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30149
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The heart of your AE2 network. Every network needs at least one ME Controller, and it does three things: defines the network boundary, stores 8000 AE of power buffer, and provides channels to connected devices.\n\nControllers form a multiblock up to 7x7x7. Each face on the multiblock provides 32 channels via dense cable, so a 3x3x3 cube gives you 6 usable faces with 32 channels each. Bigger cube means more channels per face.\n\nThe controller also has 3.0 AE/t idle power draw, so make sure your power setup can handle it.\n\n§ePS:§f You can only have ONE controller multiblock per network. Two controllers that try to form separate networks on the same cables will conflict.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:controller"
+      },
+      "name:8": "ME Controller",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30160,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

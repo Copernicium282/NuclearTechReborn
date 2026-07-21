@@ -263,7 +263,35 @@
       ],
       "duration": 60,
       "power": 500,
-      "blueprintpool": "discover."
+      "blueprintpool": "discover..stone"
+    },
+    {
+      "name": "chem.obsidian",
+      "inputFluid": [
+        ["WATER",1000],
+        ["LAVA",500],
+        ["AIR",4000]
+      ],
+      "outputItem": [
+        ["single",["minecraft:obsidian"]]
+      ],
+      "duration": 60,
+      "power": 500,
+      "blueprintpool": "discover..stone"
+    },
+    {
+      "name": "chem.aggregate",
+      "inputItem": [
+        ["item","minecraft:cobblestone",16]
+      ],
+      "outputItem": [
+        ["single",["minecraft:gravel",8]],
+        ["single",["minecraft:sand",8]]
+      ],
+      "duration": 320,
+      "power": 500,
+      "named": true,
+      "blueprintpool": "discover..stone"
     },
     {
       "name": "chem.concrete",
@@ -818,6 +846,21 @@
       ],
       "duration": 100,
       "power": 1000
+    },
+    {
+      "name": "chem.napalm",
+      "inputItem": [
+        ["item","hbm:canister_empty"]
+      ],
+      "inputFluid": [
+        ["GASOLINE",100],
+        ["AROMATICS",50]
+      ],
+      "outputItem": [
+        ["single",["hbm:canister_napalm"]]
+      ],
+      "duration": 40,
+      "power": 100
     },
     {
       "name": "chem.laminate",

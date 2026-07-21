@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40172
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Uranium-235§f\n\n§aThe fissile one. The one you actually want for fuel and bombs.§f\n\nU-235 is the rare, fissile isotope of uranium, making up only a small fraction of natural uranium. Infamous for Little Boy, but also essential for reactor fuel.\n\nProduction: §bGas Centrifuge Cascade§f of §e4§f centrifuges processing UF6 gives §e1§f U-235 nugget + §e11§f U-238 + §e4§f fluorite per §e10§f operations (last centrifuge needs Overclocking upgrade). The §bSILEX§f can also process uranium powder, UF6, or depleted uranium fuel.\n\nUses: Uranium Reactor Fuel, Nuclear Warheads (gun-type bombs), and breeding chains (U-235 to Np-237 to Pu-238 for infinite RTG power). Contributes §e15§f to the custom nuke.\n\n§ePS:§f U-235 is the gatekeeper for nuclear power. Set up a centrifuge cascade early. Switch to SILEX later for faster enrichment.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_u235"
+      },
+      "name:8": "Uranium-235",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40173,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_u235"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Lunar Cybernetic Armor§f\n\n§aThe armor you build specifically to destroy it. DNT Nano Suit demands a full set as sacrifice.§f\n\nLunar Cybernetic Armor is a mid-to-late-game power armor set with 10 MHE capacity per piece and 10 kHE/t charge rate. It gives speed, jump boost, saturation, radiation resistance (93.69% reduction at full set), an integrated jetpack (winged chestplate variant), thermal sight, and an auditory Geiger counter.\n\n§6Crafting§f: Lunar plating is forged at a Tier 4 anvil from weapon steel plates, starmetal ingots, and magnetized tungsten wire. Each armor piece is crafted on a crafting table using lunar plating plus starmetal base armor, desh motors, and circuit boards.\n\n§6The catch§f: The entire set is consumed as a crafting ingredient for the §bDNT Nano Suit§f. You can\u0027t skip this step. Build it, wear it for a while if you want, then sacrifice it.\n\n§ePS:§f If any piece runs out of charge while worn, you die instantly with the message \u0027forgot to charge their organs.\u0027 Keep them topped up.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:plate_armor_lunar"
+      },
+      "name:8": "Lunar Cybernetic Armor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40302,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:plate_armor_lunar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

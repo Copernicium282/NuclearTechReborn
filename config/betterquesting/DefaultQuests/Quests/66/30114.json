@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Skillet§f\n\n§aFry, grill, and stir-fry meals at high heat!§f\n\nThe §bSkillet§f handles frying and high-heat recipes: breakfasts (Bacon and Eggs, Fried Egg), stir-fries (Veggie Stirfry, Meaty Stirfry), grilled cheese, breaded items, omelets, and dinner combos. It is a reusable crafting utensil, and it stays in the crafting grid after use.\n\n§6Crafting§f: §e2× Bricks§f + §e1× Stick§f.\n\n§6Recipe Categories§f:\n§b• Breakfasts§f: Fried Egg, Scrambled Egg, Omelet, Bacon and Eggs, French Toast, Pancakes, Hearty Breakfast.\n§b• Stir-fries§f: Veggie Stirfry, Meaty Stirfry, Chicken Curry, Kung Pao Chicken, Sweet and Sour Chicken, General Tso\u0027s Chicken.\n§b• Grilled§f: Grilled Cheese, Ham and Cheese, Leafy Chicken, Leafy Fish, Monte Cristo.\n§b• Breaded \u0026 Fried§f: Fried Green Tomatoes, Hushpuppies, Corn Dogs, Fish Cakes.\n\n§6Usage§f:\n§9Place the Skillet§f in a crafting grid alongside the recipe\u0027s ingredients to craft the meal. The Skillet is reusable and does not get consumed during crafting. The output is the cooked food item, which can be eaten directly or stored in your inventory.\n\n§6Best Foods§f:\n- §bHearty Breakfast§f (§e15 hunger§f), Cooked Pork + Fried Egg + Toast + Potato Cakes + Chocolate Milk.\n- §bMonte Cristo§f (§e11 hunger§f), ham, cheese, and bread, skillet-fried.\n- §bChicken and Waffles§f (§e14 hunger§f), a late-game skillet meal.\n\n§eTip§f: The Skillet is one of the most-used utensils, so craft multiple for parallel processing, or build your meal production around a single Skillet integrated with a §bDrawer Controller§f.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:skilletitem"
+      },
+      "name:8": "Skillet",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30114,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:skilletitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

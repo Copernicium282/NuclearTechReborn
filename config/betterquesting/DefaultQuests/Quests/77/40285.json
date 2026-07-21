@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40284
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Gold-198§f\n\n§aRadioactive gold, the seed for flashgold and balefire.§f\n\n§bGold-198§f (Au-198) is a radioactive gold isotope that emits §e500 RAD/s§f. It\u0027s naturally pyrophoric from its own heat, so you need tungsten reachers to handle it safely.\n\n§6Production§f:\n§b• RBMK irradiation§f, breed natural gold in an irradiation channel\n§b• SILEX extraction§f, §e1%§f chance from fallout piles, also extractable from spent flashgold and australium fuel\n\n§6Uses§f:\n§b• Flashgold§f, combine with antimatter cell and ionized particles for the balefire chain\n§b• Liquidator Medal§f, armor modifier that removes §e10 RAD/s§f\n§b• Self-charging Battery§f, produces §e2.5 kHE/tick§f\n§b• RTG Pellet§f, §e100 HE/tick§f baseline, §e200 HE/tick§f with decay enabled (§e194,400 tick§f lifespan, yields §e58.3M HE§f total)\n\n§ePS:§f Gold-198 is mostly a stepping stone to flashgold. Stockpile it in billet form for RBMK breeding, or extract from fallout if you\u0027ve got a processing setup.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_au198"
+      },
+      "name:8": "Gold-198",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40285,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_au198"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40013
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Wood-Burning Generator§f\n\n§aYour first taste of electricity. Burn stuff, get power. Simple.§f\n\nCraft it at a table (not the assembly). Drop fuel in the top slot, flip the switch. §e100kHE§f internal buffer, stops when full so fuel doesn\u0027t waste. Ash collects in the bottom slot, clear it occasionally.\n\nLogs get §e+300%§f burn time, wood gets §e+100%§f. So yes, tossing in whole logs is worth it.\n\nClick the arrow in the GUI to switch to fluid burning. It works, but at 50% efficiency compared to dedicated fluid burners.\n\n§ePS:§f This is your stepping stone. Upgrade to a §bStirling Engine§f or §bSteam Engine§f when you outgrow it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_wood_burner"
+      },
+      "name:8": "Wood-Burning Generator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40014,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_wood_burner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

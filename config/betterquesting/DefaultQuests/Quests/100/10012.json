@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    10010,
+    10009
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Precision Assembler§f is the most important crafting multiblock in Advanced Rocketry. It produces the precise components that a Crafting Table cannot: Lens Blocks, Circuit Plates, Block Coils, and other AR assemblies.\n\nThe structure is 3x4x4 with Structure Blocks, Glass observation windows on layer 2 (required, substituting Structure Blocks breaks the structure), Block Coils in the middle bay, and Motors on the bottom layer. Power draw is 30 RF/t baseline.\n\nThe assembler runs recipes in three stages, visible in the GUI progress bars. Both the Lens Block and Basic Circuit Plate feed the Vacuum Laser and Precision Laser Etcher that etch Integrated Circuits.\n\n§ePS:§f Sneak-right-click the controller to open the GUI. The glass windows are load-bearing, not decorative.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:precisionassemblingmachine"
+      },
+      "name:8": "Precision Assembler",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10012,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:precisionassemblingmachine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

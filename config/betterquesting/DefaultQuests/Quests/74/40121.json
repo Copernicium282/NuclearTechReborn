@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40077
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Reclaimed Industrial Oil§f\n\n§aRecycled industrial oil - the base fluid for petroil and a decent solid fuel source!§f\n\nReclaimed Industrial Oil is produced by processing §bIndustrial Oil§f in the §bChemical Plant§f. It has low fuel value at §e113 kTU§f and §e141 kHE§f per bucket, and is primarily used as the base fluid for §bPetroil§f production.\n\n§6Production§f:\n§b•§f §e1,000mB§f Industrial Oil → §e800mB§f Reclaimed Industrial Oil (requires the Reclaimed Oil template).\n\n§6Uses§f:\n§b•§f Petroil: §e800mB§f + §e200mB§f Engine Lubricant → §e1,000mB§f Petroil.\n§b•§f Solid Fuel: §e15,000mB§f → §e1×§f (Industrial Solidification) or §e6,300mB§f → §e1×§f (Pyrolysis Oven).\n§b•§f Coker Unit: §e5,800mB§f → Petroleum Coke + §e580mB§f Coker Naphtha.\n\n§ePS:§f The §e20%§f volume loss from Industrial Oil to Reclaimed is worth it - the resulting Petroil has better fuel properties. If you have excess Industrial Oil, this is a great way to use it!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 16,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Reclaimed Industrial Oil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40121,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 16,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

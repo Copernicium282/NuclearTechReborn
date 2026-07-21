@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Crop Farming§f\n\n§aGrow vegetables, fruits, and berries on farmland for food and ingredients.§f\n\nHarvestCraft adds §e65+ crop types§f. Plant seeds on farmland like vanilla crops. Each crop drops its harvest when mature. Crops restore §e1 hunger, 0.6§f saturation raw, so cook or combine them for better food.\n\n§6Basic Crops§f: Asparagus, Beet, Broccoli, Cabbage, Corn, Cucumber, Eggplant, Lettuce, Onion, Peas, Pepper, Radish, Soybean, Spinach, Sweet Potato, Tomato, Turnip, and many more.\n\nUse §bGarden Seeds§f (Arid, Frost, Shaded, Soggy, Tropical, Windy) to grow world-gen garden patches with multiple crop types.\n\n§6Crop Usage§f:\n§b• Direct Food§f: Eat raw crops for quick hunger restoration (§e1 hunger§f each).\n§b• Grinder§f: Grind grains (Wheat, Barley, Oats, Rye, Corn) into §bFlour§f for baking.\n§b• Presser§f: Press crops into juices, cooking oil, tofu, and sugar.\n§b• Mortar and Pestle§f: Grind spices (Peppercorn, Cinnamon, Nutmeg) into seasonings.\n§b• Cooking Tools§f: Use crops in Skillet, Pot, Cutting Board, and Juicer recipes.\n\n§eTip§f: Set up a §bCrop Farm§f with automated harvesters to feed your food processing line. Combine with a §bGrinder§f and §bPresser§f for a self-sustaining ingredient supply.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:tomatoitem"
+      },
+      "name:8": "Crop Farming",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30121,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:tomatoitem"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:onionitem"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:beanitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

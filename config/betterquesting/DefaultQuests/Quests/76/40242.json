@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40241
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Poisonous Mud§f §aThe Watz Power Plant makes terrible power and even worse waste. That waste is your CMB Steel ingredient.§f §bPoisonous Mud§f is a strongly corrosive, polluting, radioactive viscous liquid (NFPA 4/0/3, ACID). It spews out of the §bWatz Power Plant§f during operation and can also be produced from depleted Watz pellets in a §bPUREX§f. §6Production§f:\n§b• Watz Power Plant§f, continuous output during operation\n§b• PUREX§f, depleted Watz pellets + kerosene + nitric acid §6Key Uses§f:\n§b• §eCombine Steel§f, crucible: 6 nuggets of one metal + 3 nuggets of poisonous mud bricks → CMB Steel Ingot\n§b• §eGas Centrifuge§f, 2 centrifuges produce dust, lead, iron, and tiny piles of nuclear waste\n§b• §eIncinerate Excess§f, mud containers hold up to 64,000 mB for disposal §ePS:§f Don\u0027t throw away your poisonous mud. It\u0027s a valuable source of lead, iron, and the only way to get CMB Steel. Each Watz cycle produces significant quantities, so set up a processing pipeline early!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 36,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Poisonous Mud",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40242,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 36,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

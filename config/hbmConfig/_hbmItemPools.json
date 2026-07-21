@@ -14,7 +14,8 @@
       [["hbm:can_smart"],1,3,2],
       [["hbm:can_mrsugar"],1,2,2],
       [["hbm:cap_nuka"],1,16,2],
-      [["hbm:book_guide_book",1,3],1,1,1]
+      [["hbm:book_guide_book",1,3],1,1,1],
+      [["hbm:coin_token"],1,1,2]
     ],
     "POOL_BLACK_PART": [
       [["hbm:item_secret",1,2],4,4,10],
@@ -82,7 +83,7 @@
       [["hbm:pin"],8,8,1],
       [["hbm:gun_am180"],1,1,1],
       [["hbm:bottle_quantum"],1,3,1],
-      [["hbm:ingot_advanced_alloy"],4,12,1],
+      [["hbm:ingot_cobalt"],4,12,1],
       [["hbm:ammo_standard",1,34],24,48,1],
       [["hbm:ammo_standard",1,22],48,64,2],
       [["hbm:circuit",1,5],3,6,1],
@@ -121,7 +122,9 @@
       [["hbm:toothpicks"],1,16,10],
       [["hbm:dust"],1,1,40],
       [["hbm:dust_tiny"],1,3,75],
-      [["hbm:ink"],1,1,1]
+      [["hbm:ink"],1,1,1],
+      [["hbm:blueprint_folder"],1,1,5],
+      [["hbm:coin_token"],1,1,30]
     ],
     "POOL_VERTIBIRD": [
       [["hbm:t51_helmet"],1,1,15],
@@ -258,6 +261,19 @@
       [["hbm:circuit",1,5],18,32,1],
       [["hbm:circuit",1,8],6,12,1]
     ],
+    "POOL_PILE_GEAR": [
+      [["hbm:defuser"],1,1,40],
+      [["hbm:screwdriver"],1,1,30],
+      [["hbm:canteen_vodka"],1,1,40],
+      [["hbm:casing",1,2],1,4,30],
+      [["hbm:casing"],3,8,40],
+      [["hbm:casing",1,5],3,8,40],
+      [["hbm:canned_conserve"],2,5,40],
+      [["hbm:taurun_helmet"],1,1,20],
+      [["hbm:taurun_plate"],1,1,20],
+      [["hbm:taurun_legs"],1,1,20],
+      [["hbm:taurun_boots"],1,1,20]
+    ],
     "POOL_SUPPLIES": [
       [["hbm:definitelyfood"],3,10,25],
       [["hbm:syringe_metal_stimpak"],1,3,10],
@@ -284,6 +300,15 @@
       [["hbm:bomb_caller"],1,1,1],
       [["hbm:bomb_caller",1,3],1,1,1],
       [["hbm:bottle_nuka"],1,3,10]
+    ],
+    "POOL_SODA": [
+      [["hbm:bottle_nuka"],1,1,10],
+      [["hbm:bottle_cherry"],1,1,5],
+      [["hbm:bottle_quantum"],1,1,1],
+      [["hbm:can_bepis"],1,1,10],
+      [["hbm:can_luna"],1,1,10],
+      [["hbm:can_mug"],1,1,10],
+      [["hbm:can_breen"],1,1,1]
     ],
     "POOL_AMMO": [
       [["hbm:ammo_standard",1,5],12,12,10],
@@ -369,7 +394,8 @@
       [["hbm:canister_fuel",1,27],1,2,3],
       [["hbm:gas_mask_m65",1,60],1,1,2],
       [["hbm:gas_mask_filter"],1,1,3],
-      [["hbm:blueprint_folder"],1,1,1]
+      [["hbm:blueprint_folder"],1,1,1],
+      [["hbm:coin_token"],1,1,2]
     ],
     "POOL_POWDER": [
       [["hbm:powder_neptunium"],1,32,1],
@@ -436,6 +462,15 @@
       [["hbm:ammo_standard",1,75],1,1,10],
       [["hbm:ammo_standard",1,76],1,1,10]
     ],
+    "POOL_PILE_MECHANICAL": [
+      [["hbm:defuser"],1,1,30],
+      [["hbm:screwdriver"],1,1,30],
+      [["hbm:wire_fine",1,2900],8,12,120],
+      [["hbm:plate_steel"],3,8,40],
+      [["hbm:plate_copper"],2,5,40],
+      [["hbm:coil_copper"],2,5,40],
+      [["hbm:coil_tungsten"],2,5,40]
+    ],
     "POOL_VAULT_LOCKERS": [
       [["hbm:robes_helmet"],1,1,1],
       [["hbm:robes_plate"],1,1,1],
@@ -455,6 +490,8 @@
       [["hbm:armor_polish"],1,1,3],
       [["hbm:gun_kit_1"],1,1,3],
       [["hbm:rag"],1,3,5],
+      [["hbm:ammo_container"],1,1,1],
+      [["hbm:coin_token"],1,1,5],
       [["minecraft:paper"],1,6,7],
       [["minecraft:clock"],1,1,3],
       [["minecraft:book"],1,5,10],
@@ -542,17 +579,23 @@
       [["hbm:circuit"],12,16,1],
       [["hbm:circuit",1,5],2,6,1]
     ],
+    "POOL_SNACKS": [
+      [["hbm:definitelyfood"],1,1,10],
+      [["hbm:canned_conserve"],1,1,5],
+      [["hbm:canned_conserve",1,9],1,1,5],
+      [["hbm:twinkie"],1,1,10],
+      [["hbm:chocolate"],1,1,10]
+    ],
     "POOL_SPACESHIP": [
       [["hbm:battery_pack",1,1],1,1,2],
-      [["hbm:ingot_advanced_alloy"],2,16,5],
-      [["hbm:wire_fine",1,32],8,32,5],
-      [["hbm:coil_advanced_alloy"],2,16,5],
+      [["hbm:coil_copper"],2,16,5],
+      [["hbm:wire_fine",1,31],8,32,5],
       [["hbm:cell",1,8],1,8,5],
       [["hbm:cell",1,9],1,8,5],
       [["hbm:cell",1,33],1,1,1],
       [["hbm:powder_neodymium"],1,1,1],
       [["hbm:powder_niobium"],1,1,1],
-      [["hbm:wire_dense",1,32],2,4,5],
+      [["hbm:wire_dense",1,31],2,4,5],
       [["hbm:wire_dense",1,7900],1,3,5],
       [["hbm:pwr_fuelrod"],1,2,5],
       [["hbm:block_tungsten"],3,8,5],

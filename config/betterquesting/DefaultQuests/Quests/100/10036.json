@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    10034,
+    10035
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Station Docking Port§f goes on a deployed space station to let rockets dock and refuel. It is the station-side counterpart to the Docking Pad on the planet surface, providing a return point for crewed and cargo missions.\n\nCraft it shapeless: 1 Battery + 1 Tracking Circuit + 1 Satellite Bay. The port binds to a Space Station ID Chip when placed. Rockets with the same chip automatically home in on the port and dock, transferring fuel and crew.\n\n§ePS:§f Place on the outer hull with a 3x3 air column in front. Multiple ports work but each must be bound to a unique Space Station ID Chip, duplicate bindings cause random docking.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:stationmarker"
+      },
+      "name:8": "Station Docking Port",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10036,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:stationmarker"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

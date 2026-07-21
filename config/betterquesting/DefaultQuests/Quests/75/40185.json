@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40186
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Americium-242m§f\n\n§aThe fissile americium. Comes free when you make Am-241.§f\n\nAmericium-242m (specifically Am-242m1) is a rare fissile radioisotope used in advanced reactor fuels. Produced only by the decay of §bPu-241§f in RBMK reactors.\n\nProperties: §e9.5§f RAD/s, fissile, hard difficulty.\n\nProduction via SILEX: same process as Am-241. Short-Lived Nuclear Waste + BiSmUTh crystal yields Am-242 alongside Am-241. Reactor Grade Americium gives §e66%§f Am-242, §e33%§f Am-241.\n\nUses: §bRBMK Fuel (HEA-242)§f (8 Am-242 billets \u003d HEA-242 rod), §bPWR Fuel (HEA-242)§f (Am-242 billet + Insulator + Am-242 billet \u003d PWR rod), and Reactor Grade Americium (combine with Am-241).\n\n§ePS:§f Both Am-241 and Am-242m come from the same SILEX process. You get both simultaneously when processing Pu-241 waste.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_americium_fuel"
+      },
+      "name:8": "Americium-242m",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40185,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_americium_fuel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    30010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fluid Transport§f\n\n§aGet fluids moving between your pipes, machines, and tanks.§f\n\n§6High Pressure Output§f pushes fluid from the pipe network into adjacent blocks. The back (darker side) connects to pressure pipes, the front (brighter side with arrows) outputs outward. Filterable.\n\n§6High Pressure Input§f pulls fluid into the pipe network. Without redstone it only accepts fluids passively. Give it a §bredstone signal§f and it actively extracts from tanks and machines. It distributes fluid evenly across all connected outputs. Filterable.\n\n§6High Pressure Pump§f moves fluid at maximum rate between tanks, pipes, and machines. It needs a §bredstone signal§f to work. Filterable.\n\n§ePS:§f An Input will not accept fluid unless there is a valid Output connected somewhere downstream.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pressure:output"
+      },
+      "name:8": "Fluid Transport",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30011,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pressure:output"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "pressure:input"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "pressure:pump"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

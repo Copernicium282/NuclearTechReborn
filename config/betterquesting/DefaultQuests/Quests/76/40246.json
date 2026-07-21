@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40245
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Tritium§f §aRadioactive hydrogen for fusion, reactor rods, and glowing lamps that make your base look cool.§f §bTritium§f (T, Hydrogen-3) is a flammable, combustible, radioactive gas (NFPA 3/4/0) with high fuel grade. It provides §e5 kTU§f and §e10 kHE§f per bucket. Used primarily in the fusion reactor with deuterium. §6Production§f (§bRBMK Irradiation Channel§f):\n§b• Block of Lithium§f → §e10,000 mB§f Tritium\n§b• Lithium Powder§f → §e1,000 mB§f Tritium\n§b• Tiny Pile of Lithium Powder§f → §e100 mB§f Tritium §6Key Uses§f:\n§b• §eMakeshift Energy Core§f, Advanced Alloy + Superconducting Coil + Tungsten + Deuterium + Tritium Cells\n§b• §eCustom Nuke Hydrogen Rod§f, Lead Plate + Iron Plate + Tritium Cell\n§b• §eTritium Lamps§f, Glass + Red Phosphorus + Tritium Tank + Sulfur → Green Lamp; + Aluminium Powder → Blue Lamp\n§b• §eFusion Reactor§f, combined with deuterium for fusion fuel\n§b• §eZIRNOX Rods§f, tritium-enriched fuel rods §ePS:§f Lithium is the key input. Set up RBMK irradiation channels with blocks of lithium for bulk production. Each block yields 10,000 mB, enough for 10 tritium cells. The lamps are a nice bonus.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9,
+        "id:8": "hbm:cell"
+      },
+      "name:8": "Tritium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40246,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9,
+          "id:8": "hbm:cell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

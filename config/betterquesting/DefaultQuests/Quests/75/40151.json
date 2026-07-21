@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40080
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Pre-Nuclear Age§f\n\n§aThe bridge between punching oil and splitting atoms. Welcome to the serious stuff.§f\n\nWith your catalytic cracking tower humming along, you\u0027ve got the petrochemicals to push forward. This questline covers everything between basic oil processing and your first reactor: advanced materials, logistics, isotope enrichment, and the uranium/plutonium chains.\n\nThe §bSilicon§f branch unlocks advanced circuits, which gate most of the machines here. The §bGas Centrifuge§f and §bSILEX§f chains get you ready for nuclear fuel. You can tackle these paths in any order, but Silicon is the most common prerequisite.\n\n§ePS:§f Don\u0027t try to rush straight to nuclear. The pre-nuclear tools (conveyors, drones, acidizer) will save you hours of pain later.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8,
+        "id:8": "hbm:circuit"
+      },
+      "name:8": "Pre-Nuclear Age",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40151,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "hbm:circuit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

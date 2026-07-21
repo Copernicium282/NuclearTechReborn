@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Heavy Oil§f\n\n§aHalf of all crude oil output. Not much to burn, but fraction it down and you get the good stuff.§f\n\nHeavy Oil is the most common refinery product at §e500mB§f per §e1,000mB§f of hot crude oil. Low fuel value (§e55 kTU§f / §e68.7 kHE§f per bucket), so process it rather than burning it.\n\n§6Primary Path§f:\n§bFractioning Tower§f: §e100mB§f Heavy Oil → §e70mB§f Industrial Oil + §e30mB§f Bitumen.\n\n§6Other Uses§f:\n§b• Chemical Plant§f: §e2,000mB§f → §e1,000mB§f §bEngine Lubricant§f.\n§b• Pyrolysis Oven§f: Heavy Oil + Coal/Coal Powder/Petroleum Coke → §bCoal Gasoline§f.\n§b• Coker Unit§f: §e11,000mB§f → §e1× Petroleum Coke§f + §e1,100mB§f Coker Oil.\n§b• Solidification§f: §e150mB§f → §e1× Oil Tar§f.\n\n§6Other Sources§f:\n§bPyrolysis Oven§f (Liquid Hydrogen + Coal), §bCompressor§f (Blood at §e3 PU§f → §e250mB§f).\n\n§ePS:§f The §bFractioning Tower§f is your main upgrade path. §bDesulfurized Crude Oil§f produces a different ratio (§e300mB§f Heavy Oil per bucket) worth noting for later setups.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 12,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Heavy Oil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40071,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 12,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30122
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Tea, Coffee \u0026 Sodas§f\n\n§aBrew hot drinks and fizzy sodas for energy and buffs.§f\n\n§6Tea§f (Pot): Tea (2), Green Tea (2), Chai Tea (3), Raspberry Iced Tea (3), Rose Petal Tea (2), Dandelion Tea (3), Lychee Tea (3), Earl Grey (2), Sweet Tea (4). Made from §bTea Leaf§f crop.\n\n§6Coffee§f (Pot): Coffee (2), Espresso (4), Coffee con Leche (6), Pumpkin Spice Latte (8), Mocha Ice Cream (5), Hot Cocoa (5). Made from §bCoffee Beans§f crop.\n\n§6Sodas§f (Pot: Bubbly Water + Sugar + flavor): Cherry, Cola, Ginger Ale, Grape, Grapefruit, Lemon-Lime, Orange, Root Beer, Strawberry. §bEnergy Drink§f (Pot + Redstone) restores §e5 hunger§f + §eSpeed§f boost.\n\n§6Lemonade§f (Juicer: 2× Lemon + Sugar), yielding §e3 hunger§f + §eSpeed§f.\n\n§6Crafting Method§f:\n§b• Teas§f: §bTea Leaf§f + Water Bucket in Pot → §e2-4 hunger§f\n§b• Coffee§f: §bCoffee Beans§f + Water Bucket in Pot → §e2-8 hunger§f\n§b• Sodas§f: §bBubbly Water§f (from Presser) + Sugar + Fruit in Pot → §e2-3 hunger§f\n§b• Energy Drink§f: §bWater Bucket§f + §bRedstone§f in Pot → §e5 hunger§f + Speed\n\n§eTip§f: Set up a §bTea Leaf Farm§f and §bCoffee Bean Farm§f for a steady supply of hot drinks. Energy Drink is a cheap Speed boost, so craft a stack for exploration.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:teaitem"
+      },
+      "name:8": "Tea, Coffee \u0026 Sodas",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30139,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:teaitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:coffeeitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

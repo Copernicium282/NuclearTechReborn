@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4002
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Disk Drives \u0026 HDDs§f\\n\\n§aNo storage means no OS. No OS means no computer. Get a drive.§f\\nComputers have zero built-in persistent storage. Without a drive, everything you write vanishes on restart.\\n\\n§6Options§f:\\n§bFloppy Disk§f: 512 KB, portable. Used to install OpenOS.\\n§bHDD Tier 1§f: 1 MB.\\n§bHDD Tier 2§f: 2 MB.\\n§bHDD Tier 3§f: 4 MB.\\n\\n§6Installing OpenOS§f:\\n1) Put an HDD and a Disk Drive in your case.\\n2) Insert the OpenOS Floppy into the drive.\\n3) Boot up, type §9install§f in the terminal, copy OpenOS to the HDD.\\n4) Remove the floppy. Done.\\n\\n§cWARNING:§f Reading costs 0.1 energy/KB, writing costs 0.25 energy/KB. Booting eats a chunk of your power buffer.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "opencomputers:diskdrive"
+      },
+      "name:8": "Disk Drives \u0026 HDDs",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4003,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "opencomputers:diskdrive"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

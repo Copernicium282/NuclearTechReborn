@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fluid Mixer§f\n\n§aCombines two fluids into one.§f\nThe §bFluid Mixer§f (technically the §bSalt Mixer§f in NC) takes §b2 fluid inputs§f and produces §b1 fluid output§f. Default cycle is §b600 ticks§f at §b20 RF/t§f. It\u0027s used for mixing coolants, creating molten salt mixtures for the MSR, and various chemistry recipes.\n\nIf you\u0027re building a §bMolten Salt Reactor§f, this machine is essential for producing the fuel salt mixture. Even outside of reactor setups, you\u0027ll find it showing up in alloy and chemical processing chains.\n\n§ePS:§f The Salt Mixer accepts Speed Upgrades. If you\u0027re producing large volumes of coolant, upgrading it is worth the power cost.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:salt_mixer"
+      },
+      "name:8": "Fluid Mixer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30028,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:salt_mixer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Mixing Bowl§f\n\n§aMix salads, ice cream, and compound ingredients!§f\n\nThe §bMixing Bowl§f is a versatile crafting utensil used for salads, ice cream, doughs, batters, and various mixed dishes. It is a reusable item that stays in the crafting grid after use.\n\n§6Crafting§f: §e3× Wood Planks§f + §e1× Stick§f.\n\n§6Recipe Categories§f:\n§b• Salads§f: Fruit Salad, Egg Salad, Cucumber Salad, Potato Salad, Pasta Salad, Tuna Salad, Cole Slaw, Beet Salad, Garden Salad, Glistening Salad (regen buff).\n§b• Ice Cream§f: Vanilla, Chocolate, Strawberry, Mint Chocolate Chip, Cookies and Cream, Neapolitan, Cookie Dough.\n§b• Doughs and Batters§f:\n  - §bDough§f: §bFlour§f + §bWater§f.\n  - §bBatter§f: §bFlour§f + §bEgg§f + §bMilk§f.\n§b• Mixed Dishes§f: Trail Mix, Rice Pudding, Mashed Potatoes, Stuffing, various fruit blends.\n\n§6Glistening Salad§f:\nThe §bGlistening Salad§f is a special end-game salad that grants a §eRegeneration§f buff. It is crafted with §bGlistening Melon§f (a special melon variant) and is one of the few foods in HarvestCraft that grants a powerful regeneration effect.\n\n§6Usage§f:\n§9Place the Mixing Bowl§f in a crafting grid with the recipe\u0027s ingredients. The Mixing Bowl is reusable and does not get consumed. Dough and Batter are intermediate ingredients used in many downstream recipes (e.g., Pie Crusts, Fried Foods, Pancakes).\n\n§eTip§f: The Mixing Bowl is essential for any serious cooking operation. Craft a §bDough§f production line (Flour + Water) as the foundation for countless downstream recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:mixingbowlitem"
+      },
+      "name:8": "Mixing Bowl",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30119,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:mixingbowlitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

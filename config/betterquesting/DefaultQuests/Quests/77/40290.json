@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40289
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cryogel§f\n\n§aUltra-cold coolant. Without it, your DFC components melt into lava.§f\n\n§bCryogel§f is a viscous liquid at §e-170°C§f, produced in the §bIndustrial Mixer§f from §e1,800 mB§f Coolant + Cryo Powder, yielding §e2,000 mB§f.\n\n§6Uses§f:\n§b• DFC Emitters§f, must be constantly cooled with cryogel or they melt into a lava source block immediately\n§b• DFC Receivers§f, same requirement, both components consume §e20 mB/t§f\n\nThat\u0027s it. Cryogel exists for one purpose: keeping your DFC from destroying itself.\n\n§cWARNING:§f Never run a DFC emitter or receiver without cryogel supply. They melt instantly, and if the beam has nowhere to go, you\u0027re looking at a catastrophic Fölkvangr field event that will crater your base.\n\n§ePS:§f Set up automated cryogel production before you even think about building a DFC. You need a constant, uninterrupted supply during operation. AE2 or pipe systems handle this well.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 37,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Cryogel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40290,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 37,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40176
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Plutonium Hexafluoride§f\n\n§aThe plutonium equivalent of UF6. Corrosive, radioactive, gaseous. Fun stuff.§f\n\nPuF6 is a corrosive radioactive gas that serves as the intermediary in plutonium enrichment. Unlike uranium, plutonium requires no additional processing to become a hexafluoride.\n\nProduction (Chemical Plant, 7.5s, 500HE/t): §e1,000mB§f Water + §bPlutonium Powder§f + §e3§f Fluorite \u003d §e900mB§f PuF6.\n\nStorage requires a specialized tank or Fluid Barrels. Processing: §bGas Centrifuge§f enriches PuF6 to separate Pu-238 from Reactor Grade Plutonium. The §bSILEX§f can further separate RGP into pure Pu-239 and Pu-240, skipping a step.\n\n§cWARNING:§f PuF6 is corrosive, radioactive, and gaseous. Always wear full PPE.\n\n§ePS:§f The SILEX is more efficient than the Gas Centrifuge for plutonium. It processes PuF6 directly and separates RGP into pure isotopes in one step.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 30,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Plutonium Hexafluoride",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40181,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 30,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

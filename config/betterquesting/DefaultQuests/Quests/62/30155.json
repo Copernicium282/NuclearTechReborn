@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Dense Cable is the backbone of any serious AE2 network. It carries 32 channels per segment, 4 times the capacity of standard cables.\n\nUse Dense Cable for main trunk lines between sub-networks, then branch off with standard 8-channel cables to individual machines. This keeps your channel count manageable and your cable runs clean.\n\nDense Cable comes in two variants: Dense Covered and Dense Smart. Dense Smart shows channel usage visually, Dense Covered does not. Both carry 32 channels.\n\nAvailable in 16 colors. Dense cables only connect to other dense cables on the dense side, and to regular cables on the non-dense sides.\n\n§cWARNING:§f Dense cables are thick. They take up more visual space and do not connect to standard cables on all sides. Plan your routing carefully.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 76,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Dense Cable",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30155,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 76,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

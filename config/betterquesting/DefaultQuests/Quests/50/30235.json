@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Exchangers§f\n\n§aSwap blocks in-world without breaking and replacing. Much faster.§f\n§9Exchangers§f swap blocks in-place with blocks from your inventory. No need to break and re-place, which would mess up your machines and wiring.\n\nVanilla tiers go from Wooden (§c256 durability§f, §a1×1§f) up to End (§c32,768 durability§f, §a15×15§f). Powered tiers use FE: Thermal Resonant and Ender IO Vibrant both hit §a15×15§f range, while Endergy Stellar reaches §a19×19§f.\n\nAll exchangers have §aSilk Touch§f built in by default, so swapping grass, glass, or ores drops the block directly. Powered ones can be enchanted with §dHolding§f and §dUnbreaking§f.\n\nPlace the replacement block in your inventory, sneak and scroll to select it, then right-click the block you want to swap. The GUI keybind is §e.§f by default.\n\n§ePS:§f Massive time saver for re-texturing factory floors or upgrading building materials.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:emerald"
+      },
+      "name:8": "Exchangers",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30235,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:emerald"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

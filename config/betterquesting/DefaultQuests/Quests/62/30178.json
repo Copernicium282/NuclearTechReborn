@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30175
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The wireless version of the Fluid Terminal. Deposit and withdraw fluids from the network using fluid containers, all while on the move.\n\nUseful for remote fluid management: collecting lava from distant sources, distributing water to farms, or topping up coolant at a reactor site. Right-click with a bucket or fluid cell to interact with the network\u0027s fluid storage.\n\nSame range and power mechanics as the other wireless terminals: depends on Wireless Boosters in the Access Point and drains the internal battery.\n\n§ePS:§f The full wireless toolkit is Wireless Terminal, Wireless Crafting Terminal, Wireless Pattern Terminal, and this one. All four and you never need to be near your base again.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:wireless_fluid_terminal"
+      },
+      "name:8": "Wireless Fluid Terminal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30178,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_fluid_terminal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

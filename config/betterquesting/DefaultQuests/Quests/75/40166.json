@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6RT Generator§f\n\n§aRadioactive pellets that make power forever. Set it and forget it (with proper PPE).§f\n\nThe RT Generator produces power from §bRTG Pellets§f. It\u0027s compact, safe with proper protection, and provides consistent power without fuel consumption.\n\nCrafted in the Assembly Factory: 3 RTG Units, 4 Steel Plate, 16 Mingrade Fine Wire, 4 Plastic Bars.\n\nMax heat: §e600§f (accumulated from pellets). Max output: §e60 kHE/s§f at full heat. No battery slot, so place it adjacent to a battery socket or connect directly to your grid.\n\nPellet options by output: §bPu-238§f (10 HE/t, long lifespan), §bU-238§f (5 HE/t, cheaper), §bAm-241§f (20 HE/t, late game), §bSr-90§f (moderate, decays to recyclable zirconium).\n\n§cWARNING:§f Handle RTG pellets with proper radiation protection (hazmat suit or better)!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_rtg_grey"
+      },
+      "name:8": "RT Generator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40166,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_rtg_grey"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

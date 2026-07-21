@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Need to map biomes on a planet for terraforming? The §6Biome Scanner§f scans a 33x33 chunk area around itself and writes the biome map to a §6Data Unit§f.\n\nCrafted in vanilla: Biome Changer satellite function, structure machine, tin plates, and batteries. Runs at 50 RF/t for 600 ticks (30 seconds) per scan. The Data Unit output loads into the §6Astrobody Data Processor§f for the Holographic Planet Selector.\n\nThe scanner shows the biome map as a colored grid in its GUI. For large-scale mapping, throw it on a minecart rail and run it through the area to cover hundreds of chunks in a single pass.\n\n§ePS:§f Pair with a Warp Controller to transfer data to orbital stations. This is the foundation of the terraforming mission questline.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:biomescanner"
+      },
+      "name:8": "§6Biome Scanner§f"
+    }
+  },
+  "questID:3": 10064,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:biomescanner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

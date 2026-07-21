@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40105
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Hydraulic Fracking Tower§f\\n\\n§aInfinite oil from bedrock, just do not build it near your base.§f\\n\\nThe §bHydraulic Fracking Tower§f is a massive multiblock that extracts crude oil and natural gas from bedrock deposits without depleting. It needs §bFracking Solution§f (§e100mB§f Petroleum Gas + §e1,000mB§f Water + Sulfur in the Chemical Plant) and serious power.\\n\\nAt base level it pumps §e100 mB/s§f crude oil while consuming §e100 kHE/s§f and §e10mB/s§f fracking solution. With Speed 3 and Overdrive 2 you can push it to §e2,000 mB/s§f at §e525 kHE/s§f, and that is the hard cap since the tower can only extract once per tick.\\n\\n§6Crafting§f (Assembly Machine): §e24×§f Steel Shell, §e12×§f Steel Pipe, §e64×§f Concrete, §e1×§f Titanium Drill, §e2×§f Desh Motor, §e24×§f Desh Compound Plate, §e16×§f Capacitor.\\n\\n§cWARNING:§f The fracking tower pollutes the surrounding area. It converts grass, stone, and dirt into dead or oily blocks within roughly §e300§f blocks (σ\u003d75). Those blocks kill most plants and fall like sand. Keep it away from anything you care about.\\n\\n§ePS:§f Before the §bHydrotreater§f, you cannot recycle the fracking solution. Once you have it, both natural gas and crude oil outputs can be processed to recover sulfur components.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_fracking_tower"
+      },
+      "name:8": "Hydraulic Fracking Tower",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40083,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_fracking_tower"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

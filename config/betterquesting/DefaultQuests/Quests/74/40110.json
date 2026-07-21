@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40072
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Gasoline§f\\n\\n§aHigh-grade fuel from naphtha  -  burn it, toss it, or lead it for more power!§f\\n\\nGasoline is made from §bNaphtha§f in the Chemical Plant: §e1,000mB§f Naphtha yields §e800mB§f Gasoline. It provides §e605 kTU§f and §e1.51 MHE§f per bucket, making it a solid generator fuel.\\n\\n§6Leaded variant§f:\\n§b•§f 10,000mB Gasoline + Tetraethyllead in Chemical Plant yields 12,000mB Leaded Gasoline.\\n§b•§f Leaded gives §e907 kTU§f and §e2.26 MHE§f per bucket, roughly 50% more.\\n§b•§f Also works in the Industrial Mixer.\\n\\n§6Other uses§f:\\n§b•§f Napalm B: Gasoline + Slimeball in Blast Furnace.\\n§b•§f Tossable Gas Can: Throwable fire bomb from any gasoline container.\\n§b•§f Chainsaw fuel.\\n\\n§cWARNING:§f Leaded Gasoline adds heavy metal pollution, making nearby glyphids stronger. Use regular gasoline for daily operations!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 46,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Gasoline",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40110,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 46,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

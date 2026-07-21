@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    10039
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You\u0027ve built the satellite, now get it off the ground. A §6Satellite§f is a compact craftable item that performs a specific function once in orbit: ore scanning, biome mapping, mass detection, whatever you configured at the Satellite Builder.\n\nTo launch, you need a rocket with a §6Satellite Bay§f block installed. The bay loads the satellite into the payload slot, and once in orbit the satellite needs power (usually a Solar Panel) to stay operational. Data gets beamed down to your §6Satellite Control Center§f for processing.\n\nThe recipe in this pack uses an HBM Satellite Base and ID-Chip instead of the default AR materials, so check JEI for the actual components you need.\n\n§cWARNING:§f A satellite without a power source shuts down within one in-game day. Make sure you have a Solar Panel ready before launch.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:satellite"
+      },
+      "name:8": "Satellites \u0026 Launching",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10040,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:satellite"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "advancedrocketry:loader"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

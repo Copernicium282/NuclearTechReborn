@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40112,
+    40142
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6PVC§f\\n\\n§aCadmium-based plastic alternative  -  no BTX required, just unsaturated hydrocarbons and chlorine!§f\\n\\nPVC (Polyvinylchloride) is an alternative to Hard Plastic made in the §bChemical Plant§f. Recipe: §e250mB§f Unsaturated Hydrocarbons + §e250mB§f Chlorine Gas + Cadmium Powder yields §e2×§f PVC Bar. Needs the Polyvinylchloride Synthesis template.\\n\\n§6Vs Hard Plastic§f:\\n§b•§f Uses 50% less Unsaturated Hydrocarbons and Chlorine per bar.\\n§b•§f Produces 2x output per batch.\\n§b•§f But requires Cadmium instead of BTX.\\n\\n§6Uses§f:\\n§b•§f Replaces Hard Plastic in many machine and component recipes.\\n§b•§f Used directly in the Pyrolysis Oven recipe.\\n\\n§ePS:§f Pick PVC when you have Cadmium but limited BTX. Pick Hard Plastic when Cadmium is scarce. Both plastics are useful in different scenarios!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_pvc"
+      },
+      "name:8": "PVC",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40115,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "hbm:ingot_pvc"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

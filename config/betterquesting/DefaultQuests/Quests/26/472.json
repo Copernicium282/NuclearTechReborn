@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    465
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Elite Processor§f\n\n§aThe top-tier chip. Unlocks weapons, decelerators, and the endgame.§f\n\nThe Elite Processor is assembled in an NC Assembler from an Advanced Processor, 4 BSCCO Wire, Hafnium Oxide Dust, and a Platinum Ingot. It is the most expensive processor in the chain.\n\nThis chip goes into Gluon Guns, Lepton Cannons, Antimatter Launchers, Decelerators, Mass Spectrometers, and Laser Ion Sources. If it looks endgame, it needs an Elite Processor.\n\nYou cannot skip tiers. Advanced Processor requires Basic Processor, which requires N-Type Silicon. The full chain goes: Ore Leacher, Fission Irradiator, Target Chamber, NC Assembler, repeat.\n\n§ePS:§f Platinum comes from Sheldonite Ore or Platinum Dust processing. Set up your supply chain before you need a dozen of these.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "qmd:semiconductor"
+      },
+      "name:8": "Elite Processor"
+    }
+  },
+  "questID:3": 472,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "qmd:semiconductor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

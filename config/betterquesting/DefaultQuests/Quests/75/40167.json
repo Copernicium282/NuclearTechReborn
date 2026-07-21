@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Hydrogen Peroxide§f\n\n§aThe liquid that makes everything else possible. You\u0027ll need tons of this.§f\n\nHydrogen Peroxide (H2O2) is a corrosive liquid used in ore crystallization, bedrock cleaning, and as a precursor for Sulfuric Acid, Schrabidium Trisulfide, and Osmiridic Solution.\n\nProduction (Chemical Plant, 2.5s, 100HE/t): §e1,000mB§f Water \u003d §e800mB§f Hydrogen Peroxide.\n\nKey uses include the Ore Acidizer (sand to fiberglass, desh blend to desh, cinnabar to mercury, coal to graphite), the Chemical Plant (Sulfuric Acid, Yellowcake, and more), the Industrial Mixer, the Soldering Station, and rocketry recipes.\n\n§ePS:§f Hydrogen Peroxide is one of the most versatile liquids in the mod. Set up continuous production early. You will need vast quantities.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 35,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Hydrogen Peroxide",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40167,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 35,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

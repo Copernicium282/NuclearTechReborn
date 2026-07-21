@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Conveyor Inserters \u0026 Ejectors§f\n\n§aThe glue between your storage and your belts. Without these, items just sit there.§f\n\n§bConveyor Ejectors§f pull items from storage onto belts. They have 9 filter slots with whitelist/blacklist support. Upgrade them with §bEjection Speed§f and §bStack Ejection§f upgrades (up to level 3) for faster throughput.\n\n§bConveyor Inserters§f grab items from belts and dump them into adjacent storage. They have 21 buffer slots and destroy surplus when full.\n\nFilter setup: default is blacklist with no restrictions (everything passes). Add an item to the blue inventory square to set a filter. Click the white arrow to toggle whitelist/blacklist.\n\n§ePS:§f Ejectors with blacklist mode send specific items elsewhere. Whitelist mode extracts only what you want. Mix both for complex sorting setups.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:crane_ejector"
+      },
+      "name:8": "Conveyor Inserters \u0026 Ejectors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40153,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crane_ejector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

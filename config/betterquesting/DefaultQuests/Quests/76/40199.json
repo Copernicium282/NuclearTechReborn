@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40193
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Long-Lived Nuclear Waste§f\n\n§aThe good stuff lives in the long-lived waste. Plutonium, bismuth, rare isotopes.§f\n\n§bLong-Lived Nuclear Waste§f is a class of waste with long half-lives, derived from transuranic elements and neutron capture products. There are §e5 sub-classes§f: Th-232, U-233, U-235, Np-237, and Sa-326.\n\n§6Non-Decayed Recycling§f:\n§b•§f §bTh-232§f → §e40% U-233§f, §e35% U-235§f, §e25% waste\n§b•§f §bU-233§f → §e15% U-235§f, §e25% Np-237§f, §e45% Pu-239§f, §e15% Tc-99§f\n§b•§f §bU-235§f → §e25% Np-237§f, §e45% Pu-239§f, §e15% Pu-240§f, §e15% Tc-99§f\n§b•§f §bNp-237§f → §e15% U-238§f, §e40% Pu-239§f, §e15% Pu-240§f, §e15% Tc-99§f, §e15% waste\n§b•§f §bSa-326§f → §e25% Sa-327§f, §e18% Euphemium§f, §e16% Ghiorsium-336§f, §e8% Tantalium§f, §e8% Neodymium§f, §e25% waste\n\n§6Decayed Yields§f (after §bNuclear Waste Disposal Drum§f):\n§b•§f §bTh-232§f → Lead, Bismuth, Dust, waste\n§b•§f §bU-233§f → mostly Lead\n§b•§f §bNp-237§f → U-238, Lead, Dust, waste\n\n§6Alternative§f: Feed it into a §bRadiation-Powered Engine§f to generate energy while it decays.\n\n§ePS:§f Long-Lived Waste is §evaluable§f. It\u0027s loaded with Pu-239 and U-233 that recycle back into fuel. Don\u0027t dump it, process it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nuclear_waste_long"
+      },
+      "name:8": "Long-Lived Nuclear Waste",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40199,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nuclear_waste_long"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

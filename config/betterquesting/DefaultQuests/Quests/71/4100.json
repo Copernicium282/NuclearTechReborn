@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Modular Storage§f\\n\\n§aTired of chest monsters? Stuff thousands of items into one neat block with search and filters.§f\\n\\nThe §bModular Storage§f block stores items digitally on modular cards. It does nothing on its own, so you need to insert a §bStorage Card§f to define capacity:\\n§b• Tier 1§f: §e100 stacks§f\\n§b• Tier 2§f: §e200 stacks§f\\n§b• Tier 3§f: §e300 stacks§f\\n\\n§9Right-click§f to open the GUI. It has a search bar, sorting modes, a built-in crafting grid, and category filtering. You can also insert a §bStorage Filter§f to whitelist or blacklist items before piping anything in.\\n\\n§9Note:§f Use a Storage Filter early if you plan to automate input, keeps junk out of your carefully organized storage.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:modular_storage"
+      },
+      "name:8": "Modular Storage",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4100,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:modular_storage"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30089
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Structuralduct \u0026 Covers§f\n\n§aHide your duct networks inside decorative blocks, because aesthetics matter!§f\n\n§bStructuralducts§f are decorative blocks that connect to most ducts with no transfer function, but they\u0027re the crafting base for §bCovers§f.\n\n§6Crafting§f:\n§b• Structuralduct§f: §e2× Iron Nugget§f + §e1× Lead Ingot§f → §e6× Structuralduct§f.\n§b• Covers§f (shapeless): §e1× Structuralduct§f + §e1× any block§f → §e6× Covers§f.\n\n§bCovers§f install on any duct side to make it look like a full block. They don\u0027t affect functionality, ducts passing through create a hole automatically.\n\nAvailable cover materials: Stone, Granite, Diorite, Andesite, Grass, Dirt, Cobblestone, all Wood Planks, Sandstone, Nether Brick, Obsidian, Moss Stone, Bricks, Polished variants, End Stone Bricks.\n\n§eTip§f: Covers let you run transport networks inside your base\u0027s walls. The duct still works, but you\u0027d never know it was there.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermaldynamics:duct_48"
+      },
+      "name:8": "Structuralduct \u0026 Covers",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30105,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "thermaldynamics:duct_48"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "thermaldynamics:cover"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

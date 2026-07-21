@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    409
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Ore Leacher§f\n\n§aTurn exotic ores into useful elements. The foundation of QMD material processing.§f\n\nThe Ore Leacher is a multiblock that processes Boron, Lithium, Beryllium, Samarium, Hafnium, and other exotic ores into dusts and ingots using Nitric Acid and leaching fluids. It is the first tier of QMD\u0027s ore processing chain.\n\nBuild it from Elite Plating, a Rock Crusher, Chemical Reactor, Machine Chassis, and Hard Carbon Alloy Ingot. Then feed it exotic ores plus Nitric Acid.\n\nThe outputs include Boron Dust (for BSCCO), Samarium Dust (for magnets), and Hafnium byproducts (for Hafnium Oxide, used in processors). Every downstream chain starts here.\n\n§ePS:§f Set up a steady Nitric Acid supply before you commit to mass leaching. The acid consumption adds up fast.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:ore_leacher"
+      },
+      "name:8": "Ore Leacher",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 486,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:ore_leacher"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

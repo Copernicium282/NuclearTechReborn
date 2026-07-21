@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40287
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Digamma Radiation§f\n\n§aThe most dangerous radiation in NTM. Standard hazmat does nothing against it.§f\n\n§bDigamma Radiation§f (DRX) is a fictional incremental effect that targets entities, not objects. Dense materials won\u0027t shield you. It reduces your max HP over time and at high exposure levels makes you hallucinate figures in hazmat suits that vanish when you look at them.\n\n§6Sources§f:\n§b• Digamma Particle§f: §e333.3 mDRX/s§f\n§b• Digamma Fuel Rods§f: §e333.3 mDRX/s§f\n§b• Digamma Fuel Pellets§f: §e41.6 mDRX/s§f\n§b• Balefire Bomb§f: §e10 mDRX/s§f\n§b• Holotape§f: §e1,000 mDRX/s§f\n§b• Damaged Holotape§f: §e1,000,000 mDRX/s§f\n\n§6Protection§f:\nOnly §bFau Armor§f provides complete resistance (§e99.99%§f reduction). No hazmat suit works.\n\n§6Removal§f:\n§b• NAXA Pills§f, remove §e500 mDRX§f each\n§b• Flunitrazepam Tablet§f, clears everything above §e2,000 mDRX§f\n§b• Enteramine Pills§f, removes all DRX, grants §e10 minutes§f immunity\n\n§ePS:§f Craft a §bDigamma Diagnostic§f (Geiger Counter + Asbestos Sheet + Polonium-210 Billet) to measure your exposure precisely.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:digamma_diagnostic"
+      },
+      "name:8": "Digamma Radiation",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40288,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:digamma_diagnostic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

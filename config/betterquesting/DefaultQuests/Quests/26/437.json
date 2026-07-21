@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    430
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Advanced Processor§f\n\n§aThe mid-tier brain chip. Unlocks ring accelerators and everything beyond.§f\n\nThe Advanced Processor is assembled in an NC Assembler from a Basic Processor, 4 Redstone, Hafnium Oxide Dust, and P-Type Doped Silicon. No shortcuts here.\n\nThis chip is the gate to ring accelerators. It goes into Synchrotron, Beam Diverter, and Beam Splitter controllers, plus laser assemblies and wire chambers. You will burn through a lot of these.\n\nP-Type Doped Silicon has no assembler recipe. You must build a working Target Chamber and bombard silicon wafers with Boron-11 ions first. Plan accordingly.\n\n§ePS:§f Check JEI for the full crafting chain. The supply line goes: Ore Leacher, Fission Irradiator, Target Chamber, NC Assembler, and finally your Advanced Processor.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "qmd:semiconductor"
+      },
+      "name:8": "Advanced Processor"
+    }
+  },
+  "questID:3": 437,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "qmd:semiconductor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nitra§f\n\n§aRed dust from killing things. Your guns will thank you.§f\n\nNitra is obtained by killing mobs with a weapon that has the §bPainsaw§f ability (chainsaw, etc.). It can\u0027t be found naturally.\n\nThe amount depends on mob max health. An Iron Golem drops §e10§f small piles + §e10§f XP. Almost every mob drops at least 1 small pile. You can also buy §e4§f Nitra for §e16§f caps at the Bobmazon.\n\nConversion: §e4§f Small Piles \u003d §e1§f Nitra (and vice versa).\n\nUses: §bStimpak§f (3 Small Piles + Metal Syringe \u003d heals 2.5 hearts, shapeless) and §bAmmo Container§f (4 Nitra \u003d ammo for 3 random guns).\n\nCrafted ammo containers differ from found ones: they can\u0027t give expensive ammo (mini nukes, .35), come in blue instead of military green, and yield half as much ammo.\n\n§ePS:§f Farm Nitra by killing passive mobs with an Electric Chainsaw. Set up a mob farm with Painsaw weapons for continuous income.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nitra"
+      },
+      "name:8": "Nitra",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40170,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nitra"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

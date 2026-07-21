@@ -1,0 +1,26 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Empty Cooler \u0026 Passive Cooling§f\n\n§aThe building block for all 32 cooler variants. Yes, thirty-two.§f\n\nThe empty cooler is an intermediate item you combine with materials to make every accelerator cooler. Coolers go on the surface of LINACs, synchrotrons, and other accelerator multiblocks to dissipate heat.\n\nCraft 8 empty coolers from stainless steel, tough alloy, and thermoconducting alloy in a 3x3 grid. Then combine them with water buckets for water coolers, or surround them with iron, redstone, quartz, obsidian, and dozens of other materials for stronger variants.\n\nCryotheum and Liquid Helium coolers are the most powerful passive options. Water and iron are the weakest. Start with water coolers on a small LINAC to learn the rate, then scale up.\n\n§ePS:§f Each cooler block you place removes heat continuously. Over-cool a small build first to feel the progression.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:part"
+      },
+      "name:8": "Empty Cooler \u0026 Passive Cooling"
+    }
+  },
+  "questID:3": 417,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

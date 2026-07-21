@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    4001
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Server Racks§f\\n\\n§aOne block, four computers. Space-efficient computing.§f\\nA Server Rack holds up to 4 individual Servers. Each server is a card you slot in, with its own CPU, RAM, and upgrades.\\n\\n§6What It Does§f:\\nThe rack centralizes power intake and network connectivity. It also has a built-in switch (tier 1 by default) for routing packets between servers. Each rack consumes 50 energy per tick.\\n\\n§9AE2 Gate§f:\\nServer Racks are a progression gate for Applied Energistics 2. The ME Controller recipe requires a Server Rack, a Capacitor, and an Engineering Processor in a NuclearCraft Assembler. No rack, no ME network.\\n\\n§ePS:§f Servers come in tier 1, 2, and 3, just like regular cases. The rack itself is the block; servers are the items that go inside.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 13,
+        "id:8": "opencomputers:component"
+      },
+      "name:8": "Server Racks",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4004,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "id:8": "opencomputers:component"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

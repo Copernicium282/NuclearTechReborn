@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    10056
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Ready to step up your circuits? The §6Advanced Circuit Plate§f replaces redstone dust with a §6Block of Redstone§f, giving you double the circuit density of the basic plate.\n\nThe §6Precision Laser Etcher§f (1200 ticks, 600 RF/t) etches 1 gold ingot, 1 redstone block, and 1 silicon wafer into §62 Advanced Circuit Plates§f per craft. This is the only path since the Precision Assembler circuit plate recipes are disabled in this pack.\n\nThese plates feed into every §6Advanced Circuit§f (ic:2), which is the backbone of high-tier AR machines. You\u0027ll burn through them fast.\n\n§ePS:§f Stockpile §6Block of Redstone§f (9 dust \u003d 1 block) before you start. That block is the bottleneck ingredient, not the gold or wafers.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "advancedrocketry:itemcircuitplate"
+      },
+      "name:8": "Advanced Circuit Plate",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10057,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "advancedrocketry:itemcircuitplate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

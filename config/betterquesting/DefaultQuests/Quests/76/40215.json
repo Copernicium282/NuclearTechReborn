@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40208
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Bismuth\\n\\n§aThe post-RBMK gate element. No bismuth, no fusion, no endgame.\\n\\n§bBismuth§f is an extremely rare heavy element (atomic 83) that gates progression beyond the RBMK. You need it for advanced chipsets, fusion reactors, and the DFC.\\n\\n§6Production§f:\\n• Nuclear waste decay: ~15% from most waste, §e55%§f from decayed HEP-241 waste\\n• §bBiZFB breeders§f in RBMK: §e43.3%§f yield when fully depleted, invest 8 nuggets per rod, get ~20-21 back\\n• Lead-209 decay from spent LEA fuel\\n• Heavy metal bedrock ore with high-performance solvent\\n\\n§6Key Uses§f:\\n• §bVersatile Chipsets§f for Fusion Reactor and DFC control cores\\n• Vacuum Refinery and Hydrotreater\\n• Moderated RBMK fuel and control rods (compact designs)\\n• SiOX cancer medication, tier 5 anvil, bismuth pickaxe\\n\\n§ePS:§f The RBMK is a hard gate. Build one, get bismuth flowing via BiZFB breeders, then you can continue.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_bismuth"
+      },
+      "name:8": "Bismuth",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40215,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_bismuth"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

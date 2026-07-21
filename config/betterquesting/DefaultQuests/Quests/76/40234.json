@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fullerene Solution§f\n\n§aThe starting fluid for fullerene. Corrosive, polluting, and annoying to produce in bulk.§f\n\n§bFullerene Solution§f is a corrosive, polluting liquid (NFPA 3/3/3) used in the §bSILEX§f process to produce §bCrystalline Fullerite§f. You need high-performance solvent and fine soot, both late mid-game products.\n\n§6Make It§f (Industrial Mixer):\n§b•§f §e500 mB§f High-Performance Solvent\n§b•§f 1 Fine Soot\n§b•§f Output: §e250 mB§f Fullerene Solution\n\nThat is a §e2:1§f input-to-output ratio. Not great.\n\n§6The Full Chain§f:\n§b•§f Industrial Smokestack or Pyrolysis Oven -\u003e Fine Soot\n§b•§f Mixer: HPS + Fine Soot -\u003e Fullerene Solution\n§b•§f SILEX with BiSmUTh laser crystal -\u003e Fullerene at 100% efficiency\n\n§ePS:§f Automate fine soot production early. High-performance solvent comes from the RBMK irradiation channel or the industrial mixer. You need fullerenes for the ICF reactor and FEnSU.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 131,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Fullerene Solution",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40234,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 131,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

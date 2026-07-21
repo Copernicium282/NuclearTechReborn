@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30033
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Ingot Former§f\n\n§aTurns fluid molten metals into solid ingots.§f\nThe §bIngot Former§f takes a §bfluid input§f and casts it into an §bitem output§f. Default cycle is §b400 ticks§f at §b0 RF/t§f. That\u0027s right, it runs for free, no power required. Pipe in molten metal and get ingots out.\n\nThis is how you convert melted ores from the §bMelter§f back into usable ingots, or how you cast exotic fluids into solid form for certain NC recipes. It\u0027s a simple machine but one you\u0027ll use constantly.\n\n§ePS:§f Since it costs no power, the Ingot Former is great for passive processing lines. Just make sure your fluid supply keeps up with demand.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:ingot_former"
+      },
+      "name:8": "Ingot Former",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30027,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:ingot_former"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

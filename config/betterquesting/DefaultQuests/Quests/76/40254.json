@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40253
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Reactor Remote Control Block§f §aSet it and forget it. Auto-adjusts control rods so your reactor doesn\u0027t melt down while you\u0027re away.§f §bThe Reactor Remote Control Block§f remotely controls a research reactor\u0027s control rods based on parameters set in its GUI. §6Setup§f:\n§b• 1.§f Right-click a functioning reactor with the Remote Sensor, place it in the control block slot\n§b• 2.§f Display shows: §eLeft§f \u003d rod extension, §eMiddle§f \u003d neutron flux, §eRight§f \u003d core temperature\n§b• 3.§f Set min/max temperature (blue buttons) and rod levels at those temps (yellow buttons)\n§b• 4.§f Choose rod movement: §bLinear§f, §bExponential§f, or §bLogarithmic§f\n§b• 5.§f Save, rods auto-adjust to match temperature on the graph §6Features§f:\n§b• Comparator output§f, emits signal proportional to reactor temperature for redstone alarms\n§b• Maintains constant neutron rate§f for breeding operations\n§b• Prevents overheating§f, rods react instantly to arrest runaway reactions §ePS:§f A properly configured remote control block makes a reactor very safe. It reacts faster than you can click the control rod GUI. Essential for unattended breeding.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_controller"
+      },
+      "name:8": "Reactor Remote Control Block",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40254,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

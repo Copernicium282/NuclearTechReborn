@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40244
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Ethanol§f §aSugar cane into fuel. Burns clean at 275 kTU and 687 kHE per bucket.§f §bEthanol§f is a flammable, combustible, polluting liquid (NFPA 2/3/0) with high fuel grade. One bucket provides §e275 kTU§f and §e687 kHE§f. §6Production§f:\n§b• Chemical Plant§f (2.5s), 10× Sugar → 1,000 mB §eEthanol§f\n§b• Industrial Liquefaction§f, Sugar → 100 mB, Mustard Willow → 50 mB, Hemp → 150 mB\n§b• Combination Oven§f, Sugar Canes → 2 Sugar + 50 mB Ethanol §6Key Uses§f:\n§b• §eBiofuel§f, Chemical Plant: 1,500 mB Biogas + 250 mB Ethanol → 1,000 mB Biofuel (3s)\n§b• §eEngine Lubricant§f, Industrial Mixer: 200 mB Ethanol + 800 mB Fish Oil → 1,000 mB Lubricant\n§b• §eCombustion Power§f, directly burn for HE or TU in appropriate generators §ePS:§f Sugar is renewable through sugar cane farming. Automate it, pipe sugar straight to a Chemical Plant, and you\u0027ve got passive ethanol production. One stack of sugar yields roughly 6 buckets.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 59,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Ethanol",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40245,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 59,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

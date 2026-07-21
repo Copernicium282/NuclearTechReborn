@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30238
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Better Mineshafts§f\n\n§aThe old mineshafts were boring. These ones have personality.§f\nForget the vanilla straight-line corridors. §9Abandoned Mineshafts Overhauled§f replaces them with sprawling organic tunnel networks with §e13 biome variants§f, including a rare §5mushroom mineshaft§f.\n\nYou\u0027ll stumble into abandoned workstations with loot in the corners, underground cellars with hidden gear, and rare miner outposts where someone left behind beds and chests. Some tunnels end in ore deposits packed with coal, iron, redstone, gold, lapis, emerald, and sometimes diamond.\n\nVery rarely you\u0027ll find a surface opening that drops you straight into the middle of one of these networks.\n\n§cWARNING:§f These things are massive. Bring torches, bring weapons, and mark your path. You WILL get lost.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:iron_pickaxe"
+      },
+      "name:8": "Better Mineshafts",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30220,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_pickaxe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

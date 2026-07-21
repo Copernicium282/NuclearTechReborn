@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    30043
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nuclear Waste§f\n\n§aThe byproduct of running reactors.§f\nEvery fuel cycle produces §bNuclear Waste§f as a byproduct. Waste accumulates in your reactor and needs to be extracted and stored, or processed in the §bFuel Reprocessor§f to recover useful materials.\n\nWaste is radioactive and will contaminate your base if left unchecked. Store it in sealed containers or process it quickly. The §bRadiation Scrubber§f can help clean up contamination.\n\n§cWARNING:§f Nuclear waste is dangerous. Don\u0027t just pipe it into a void. Handle it properly or deal with the consequences.\n\n§ePS:§f Some waste products can be reprocessed back into usable fuel. Check the Fuel Reprocessor recipes in JEI.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9,
+        "id:8": "nuclearcraft:depleted_fuel_uranium"
+      },
+      "name:8": "Nuclear Waste",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30045,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {},
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

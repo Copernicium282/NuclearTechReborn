@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Launch Pad§f is the single-block foundation every AR rocket needs to take off. It defines the origin of the rocket and stores the launch coordinates that the Rocket Assembling Machine reads.\n\nCraft it shapeless: 1 Concrete Tile + 1 Black Dye + 1 Yellow Dye. The pad must be placed on a flat surface with a clear 3x3 column of air above for the rocket entity to spawn.\n\nThe pad has no GUI, right-clicking does nothing. Place a Rocket Assembling Machine adjacent and right-click the assembler to bind it to the pad.\n\n§cWARNING:§f If the assembler complains \u0027Invalid Launchpad\u0027, the pad is not on the same Y level as the assembler or the air column is obstructed. Clear at least a 5x5 area around the pad.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:launchpad"
+      },
+      "name:8": "Launch Pad",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10021,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:launchpad"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

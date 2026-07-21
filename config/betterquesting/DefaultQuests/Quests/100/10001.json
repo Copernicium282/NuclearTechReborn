@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Structure Tower§f is the invisible scaffolding that tells Advanced Rocketry multiblocks where they begin and end. Every AR machine uses these on its corners to define the bounding box.\n\nCraft 8 at a time with 8 Steel Sticks in the pattern \u0027xxx / x / xxx\u0027 (the hollow 3x3 minus center). In survival, Structure Towers appear automatically when you assemble a valid multiblock, so you usually only craft them when planning layouts.\n\n§cWARNING:§f Breaking a Structure Tower while a multiblock is active will dismantle the entire machine. Use F3 + B to see hitboxes if the towers are invisible in your render mode.\n\n§ePS:§f Most AR multiblocks are 3x3x3 hollow cubes with Structure Towers on the 8 corners.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:structuretower"
+      },
+      "name:8": "Structure Tower",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10001,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:structuretower"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

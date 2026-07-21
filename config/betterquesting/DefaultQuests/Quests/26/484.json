@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    424
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6QMD Basic Processor§f\n\n§aThe root of every processor chain. Start here.§f\n\nThe Basic Processor is assembled in an NC Assembler from N-Type Doped Silicon, 4 Redstone, a Gold Ingot, and a Silver Ingot. Simple recipe, massive impact.\n\nThis chip goes into LINAC Controllers, Target Chamber Controllers, Beam Meters, Silicon Trackers, Computer Ports, and Advanced Processors. Every QMD machine needs a processor, and this is where it starts.\n\nN-Type Doped Silicon comes from your Fission Irradiator chain. Gold and Silver are standard ores. Redstone is Redstone.\n\n§ePS:§f You will burn through these fast. Set up automated production in the NC Assembler and keep the N-Type Silicon flowing.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "qmd:semiconductor"
+      },
+      "name:8": "QMD Basic Processor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 484,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "qmd:semiconductor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

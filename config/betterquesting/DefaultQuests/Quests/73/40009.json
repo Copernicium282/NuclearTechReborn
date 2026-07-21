@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40008
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Blast Furnace Extension§f\n\n§aFree speed. No extra fuel. What\u0027s not to like?§f\n\nPlop this on top of your §bBlast Furnace§f and it runs 3× faster. Same fuel cost, same recipes, just faster processing. It activates the moment you place it, no configuration needed at all.\n\nCraft it at a table from copper plates, firebrick, and steel grates. One extension per furnace is the limit, but that 3× boost makes a huge difference for alloy production when you\u0027re waiting on steel.\n\n§ePS:§f Even with the extension, a single blast furnace will bottleneck you eventually. Build multiples when you need real throughput.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_difurnace_ext"
+      },
+      "name:8": "Blast Furnace Extension",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40009,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_difurnace_ext"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

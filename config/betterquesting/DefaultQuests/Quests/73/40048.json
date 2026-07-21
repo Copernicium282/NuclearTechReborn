@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40044
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aTime for some real armor.§f\n\nSteel Armor gives you 7.5 defense with 0.05 RR and a 0.9 damage modifier. Standard issue, nothing fancy, but it\u0027ll keep you alive long enough to get better stuff. Craft it from steel ingots.\n\nTitanium Armor bumps defense to 10 with a 0.85 damage modifier. Same RR, better damage reduction across the board. You\u0027ll need the Blast Furnace for titanium.\n\nAlso in this tier: Casual Armor (cloth, barely counts), Security Armor (Kevlar, Steel, and Bakelite), and Fire Proximity Armor for heat work around furnaces.\n\n§ePS:§f Steel armor is good enough until you reach Cobalt. Don\u0027t over-invest in titanium unless you really need the extra defense.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:steel_plate"
+      },
+      "name:8": "Steel \u0026 Titanium Armor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40048,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:steel_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

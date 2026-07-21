@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4101
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Storage Tablet§f\\n\\n§aCarry your entire storage network in your pocket, or just use it as a portable chest.§f\\n\\nThe §bStorage Tablet§f has two modes:\\n§b• Local Card§f: Insert a Storage Card to use it as a standalone portable chest. Costs §e100 RF§f per open, plus §e100 RF per tier§f extra.\\n§b• Wireless Network§f: Insert a linked §bStorage Control Library Module§f + §bWireless Network Card§f to access your Storage Scanner from anywhere.\\n\\n§6Wireless Costs§f:\\n§b• Same dimension§f: §e10 RF/t§f while connected\\n§b• Cross-dimension§f: §e50 RF/t§f while connected\\n\\n§bBuffer§f: §e20,000 RF§f, charges at §e500 RF/t§f.\\n\\n§cWARNING:§f Interdimensional access drains power fast. If your base\u0027s grid falters, the link drops and items in transit may be lost.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:storage_module_tablet"
+      },
+      "name:8": "Storage Tablet",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4102,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:storage_module_tablet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

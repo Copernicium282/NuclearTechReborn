@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    10064
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Ready to terraform? The §6Biome Changer Remote§f converts a 32x32 area from one biome to another. It\u0027s the only way to turn toxic, frozen, or volcanic terrain into breathable, farmable land without doing it biome by biome manually.\n\nMade in the Precision Assembler from a battery, Advanced Circuit, User Interface, Tracking Circuit, and tin plate. The remote\u0027s GUI shows a 32x32 grid color-coded by current biome. Select a target, click Convert, and it consumes RF power plus liquid oxygen. Takes about 60 seconds.\n\nThe §6Biome Changer Satellite§f is the orbital counterpart, handling 2048x2048 areas per pass. The remote is best for small corrections after a satellite sweep.\n\n§ePS:§f For massive terraforming projects, send up the satellite first and use the remote for touch-ups. The satellite does 4096x more area per activation.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:biomechanger"
+      },
+      "name:8": "§6Biome Changer§f"
+    }
+  },
+  "questID:3": 10065,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:biomechanger"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:biomechanger"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

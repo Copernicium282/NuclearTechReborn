@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Australium§f\n\n§aA stable, naturally occurring trans-schrabidic element. Looks like gold. Acts like a fission fuel.§f\n\n§bAustralium§f is a fictional ultra-heavy element that is fully stable yet undergoes fission. Visually gold-like. There is a mineral deposit at §eX: -400, Z: -400§f with ~490 average yield, but smelting gives only 1 nugget per ore. Shred first for 2 powders, then smelt.\n\n§6Make It§f:\n§b•§f §bCyclotron§f: Tennessine Powder + Plutonium Dust -\u003e §eAustralium Powder§f\n§b•§f Mineral deposit at -400,-400 (finite, ~490 avg)\n\n§6SILEX§f (9.0x multiplier, BiSmUTh crystal):\n§b•§f §bLesser Australium Nugget§f, §e83.3%§f\n§b•§f §bGreater Australium Nugget§f, §e16.6%§f, used as RBMK fuel\n\n§6What It Is For§f:\n§b•§f Market Gardener, shovel that crits on rocket jumps or falls\n§b•§f Mark III Life Extender, armor mod\n§b•§f Greater isotope as RBMK fuel\n\n§ePS:§f The cyclotron setup is more reliable than the finite deposit. Tennessine comes from earlier cyclotron recipes, so you may already have the chain running.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_australium"
+      },
+      "name:8": "Australium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40237,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_australium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

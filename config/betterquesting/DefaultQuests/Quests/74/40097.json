@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Combination Oven§f\\n\\n§aYour earliest source of wood oil and coal tar, and it can run itself.§f\\n\\nThe §bCombination Oven§f is a furnace that uses heat exchange to burn and coke materials while producing liquid byproducts. It needs a §bheat source§f from below, Firebox, Heating Oven, Electric Heater, or Fluid Burner, and it throws fire on top of itself during operation.\\n\\nThe self-sustaining trick: pipe the liquid output into a Fluid Burner below the oven. Wood Oil and Coal Tar Creosote both work as fuel. Use a §bHeating Oven§f instead of a Firebox for faster operation and a bigger heat buffer.\\n\\nCore recipes: Coal Briquette → Coal Coke + §e150mB§f Coal Tar Creosote. Lignite Briquette → Lignite Coke + §e100mB§f. Coal Powder → Coal Coke + §e100mB§f. It also handles Oil Tar and Crack Oil Tar conversion into Petroleum Coke, plus wood and sawdust briquettes into Charcoal and Wood Oil.\\n\\n§6Crafting§f (Tier 2 Anvil): §e8×§f Stone Bricks, §e16×§f Oak Wood, §e2×§f Cast Copper Plate, §e16×§f Brick.\\n\\n§ePS:§f The Combination Oven is available way before the Coker Unit. Use it for early coal processing and petroleum coke production, then transition to the coker once you have the resources.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:furnace_combination"
+      },
+      "name:8": "Combination Oven",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40097,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:furnace_combination"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4201
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Electrical Grid: Cables, Wires \u0026 Transformers§f\\n\\n§aConstruct a high-voltage electrical grid to distribute power throughout your factory!§f\\nGenerating power is only half the battle. You must build a secure, efficient transmission network to deliver electricity to your machines.\\n\\n§6Energy Cables§f:\\nIndustrial Renewal cables carry Forge Energy (FE) with strict transfer limits per connector:\\n§b• LV Energy Cable§f: Low Voltage. Handles up to §e256 FE/tick§f.\\n§b• MV Energy Cable§f: Medium Voltage. Handles up to §e1,024 FE/tick§f.\\n§b• HV Energy Cable§f: High Voltage. Handles up to §e10,240 FE/tick§f.\\n\\n§6HV Overhead Wires \u0026 Transformers§f:\\nTo transmit power over long distances without placing hundreds of cable blocks, use overhead utility poles:\\n§b• HV Wire§f: Can bridge a gap of up to §e64 blocks§f between wire connectors.\\n§b• HV Transformer§f: Converts wire currents back into cable currents. Handles up to §e10,240 FE/tick§f.\\n\\n§6Battery Storage Banks§f:\\nStore excess energy to prevent power outages during peak demand:\\n§b• Battery Bank§f: Capacity of §e1,000,000 FE§f. Max input/output is §e10,240 FE/tick§f.\\n§b• Industrial Battery Bank§f: Built for massive grids. Increases maximum transfer rate to §e102,400 FE/tick§f.\\n§b• Lithium Battery§f: A premium storage module holding up to §e5,000,000 FE§f.\\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialrenewal:battery_lithium"
+      },
+      "name:8": "Power Grid",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4202,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "industrialrenewal:battery_lithium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

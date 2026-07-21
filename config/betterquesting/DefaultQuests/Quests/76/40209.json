@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40207,
+    40210
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6RBMK Fuel Types \u0026 Mechanics\\n\\n§aEach fuel has a unique flux function. Pick wrong and your reactor goes critical.\\n\\n§6Assembly§f: 8 billets + Empty RBMK Fuel Rod \u003d filled rod (shapeless).\\n\\n§6Key Stats§f:\\n§b• Yield§f, total neutron capacity (most: §e100M§f, neutron sources: §e25-50M§f)\\n§b• Flux Function§f, determines output from input. 8 types, ascending danger:\\n  Passive (constant) → Euler → Sigmoid → Logarithmic → Square Root → Negative Quadratic → Linear → Quadratic\\n§b• Heat Per Flux§f, °C per output flux unit\\n§b• Diffusion§f, core-to-skin heat transfer rate\\n\\n§6Danger Tiers§f:\\n§aLow§f: Ra226Be, ThMEU, NU. Safe with cooling.\\n§eMedium§f: MEU, MOX, MEP239, LES. Needs control.\\n§cHigh§f: HEU233, HEP239, MES, Balefire, Digamma. Strict control required.\\n\\n§6Self-Igniting§f: LEA, MEA, HEA241, LEAus, Pu238Be, Flashgold, Flashlead, Balefire, Digamma. Produce heat without external flux.\\n\\n§6Decay Functions§f: Linear, Gentle Slope, Raising Slope, Boosted Slope, Static. Affect reactivity as fuel depletes.\\n\\n§ePS:§f ThMEU is the safest fuel. Its Euler function physically cannot exceed 20 flux output. Great for stabilizing dangerous fuels.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:rbmk_fuel_ueu"
+      },
+      "name:8": "RBMK Fuel Types \u0026 Mechanics",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40209,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:rbmk_fuel_ueu"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

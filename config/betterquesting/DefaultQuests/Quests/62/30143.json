@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30142
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Wooden Crank is your first tool for powering the Quartz Grindstone. Attach it to the top of the grindstone and right-click to turn it.\n\nEach right-click counts as one crank turn. The grindstone needs a certain number of turns to complete a recipe (varies by recipe, usually 4-8 turns). The crank has limited durability and will break after extended use, so craft a few spares.\n\nOnce you get rotational power from other tech mods like BuildCraft or Thermal Expansion, you can skip the crank entirely and automate your grinding.\n\n§ePS:§f The crank is cheap to make. Wood and sticks. You will go through a few before you automate.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:crank"
+      },
+      "name:8": "Wooden Crank",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30143,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:crank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

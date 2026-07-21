@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Electric Furnace§f\n\n§aNo fuel, no smoke, just plug it in and go.§f\n\nThe §bElectric Furnace§f runs on 1–4 kHE/s, smelts slightly faster than vanilla, and only draws power when actually working. Crafted from beryllium ingots, cast copper plates, a furnace, and heating coils.\n\nNot the fastest furnace in the mod, but it\u0027s clean and simple. No fuel management, no heat pipes, no soot pollution. Good for automated setups where convenience matters more than raw throughput.\n\nAccepts upgrade modules for speed and power efficiency. Pair it with a small generator and you have a fully self-contained smelting station.\n\n§ePS:§f The Steel Furnace is faster for bulk work, but the electric furnace wins on convenience.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_electric_furnace_off"
+      },
+      "name:8": "Electric Furnace",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40036,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_electric_furnace_off"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

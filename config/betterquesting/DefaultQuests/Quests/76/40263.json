@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40226
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Helium-4§f\n\n§aA fusion byproduct gas essential for quantum processing and advanced batteries.§f\n\n§bHelium-4§f (He-4) is a gas produced in fusion reactors. Used in the production of He-4-Tritium plasma, quantum processing units, and schrabidium batteries.\n\n§6Production§f (§bFusion Reactor Vessel§f):\n§b• 20 mB§f Helium-3 → §e1,000 mB§f Helium-4\n§b• 20 mB§f Deuterium → §e1,000 mB§f Helium-4\n§b• 10 mB§f Deuterium + 10 mB§f Tritium → §e1,000 mB§f Helium-4\n\n§6Key Uses§f:\n§b• Quantum Processing Unit§f, crafted at the Soldering Station with Atomic Clock, Versatile ICs, and 1,000 mB He-4\n§b• Schrabidium Battery§f, crafted in the Chemical Plant with schrabidium powder and 8,000 mB He-4\n§b• ICF Pellet Ingredient§f, used in inertial confinement fusion fuel\n\n§ePS:§f Helium-3 plasma is the most efficient He-4 source since it is aneutronic (0 flux). Each operation yields 1,000 mB, so automate extraction to bulk storage for continuous QPU and battery production!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15,
+        "id:8": "hbm:circuit"
+      },
+      "name:8": "Helium-4",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40263,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "id:8": "hbm:circuit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

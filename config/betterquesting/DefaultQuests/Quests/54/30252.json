@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6The Three Pollutants§f\n\n§aYour machines are poisoning the world. Time to learn what you are up against.§f\n\nThe §9Pollution of the Realms§f mod tracks emissions from combustion machines, smelting, and burning fuel. Pollutants accumulate in chunks and build into visible gas clouds. The more you industrialize, the worse it gets.\n\n§6Carbon§f (Black): Rises to §ealtitude 127§f. Standing in it causes §cBlindness§f. As chunk levels climb, you take §cMining Fatigue§f at 30%, §cHunger§f at 40%, §cWeakness§f at 50%, §cSlowness§f at 60%, §cPoison§f at 70%, §cNausea§f at 80%, and §cWither§f at 90%. Mobs get §aStrength§f and §aRegeneration§f buffs.\n\n§6Sulfur§f (Yellow): Also at §ealtitude 127§f. Direct contact causes §cNausea§f. Chunk debuffs: §cNausea§f at 30%, §cBlindness§f at 50%, §cWither§f at 80%. Mobs gain §aResistance§f and §aSpeed§f. Above §c5% Sulfur§f, rain turns to §cAcid Rain§f that corrodes stone into cobblestone and grass into podzol.\n\n§6Dust§f (White): Settles at §eground level (altitude 0)§f. Causes §cBlindness§f on contact and wrecks mining operations.\n\n§cWARNING:§f Pollutants are explosive. Carbon detonates at §e10§f adjacent blocks, Sulfur at §e16§f, Dust at §e20§f. Chain reactions can reach §c512 blocks§f.\n\n§ePS:§f Craft an §bAerometer§f to read chunk pollution percentages in real time.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "adpother:carbon"
+      },
+      "name:8": "The Three Pollutants",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30252,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "adpother:carbon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

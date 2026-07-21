@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30018
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Alloy Furnace§f\n\n§aWhere all your NC alloys get made.§f\nThe §bAlloy Furnace§f takes up to §b4 item inputs§f and §b1 fluid input§f, smelts them into alloy ingots, and runs entirely on FE. Default cycle is §b400 ticks§f at §b10 RF/t§f. It handles everything from §bTough Alloy§f (your early-game workhorse) to §bHard Carbon Alloy§f and beyond.\n\nCraft it with §bRedstone§f, §bBricks§f, a §bFurnace§f, and a §bCopper Solenoid§f. Pretty cheap for what it does.\n\nThis machine is the backbone of NuclearCraft\u0027s material chain. Almost every alloy you need flows through here, so build extras early if you\u0027re planning to scale up.\n\n§ePS:§f Check JEI for the full alloy recipe list. Some recipes have chance-based secondary outputs.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:alloy_furnace"
+      },
+      "name:8": "Alloy Furnace",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30021,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:alloy_furnace"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

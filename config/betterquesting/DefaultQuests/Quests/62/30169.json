@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30163
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The View Cell is not what most people think it is. It does not display the contents of another cell. Instead, it filters what items appear in your terminal GUI.\n\nPlace a View Cell in a terminal\u0027s view cell slot and configure it with items. Only those items (or items matching the filter) will show up in the terminal. Add a Fuzzy Card for ore-dict matching, or an Inverter Card to show everything except the configured items.\n\nThink of it as a search filter you can pre-set. Useful for terminals that only need to show a specific category of items, like a dedicated fluid terminal or a crafting-only view.\n\n§ePS:§f View cells are configured the same way as storage cells: right-click to open the config GUI and add filter items.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:view_cell"
+      },
+      "name:8": "View Cell",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30169,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:view_cell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

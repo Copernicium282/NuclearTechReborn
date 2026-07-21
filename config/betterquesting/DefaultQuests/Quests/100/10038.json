@@ -1,0 +1,37 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    10022
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your station is built, your orbit is stable, and now you want to go somewhere that isn\u0027t this planet.\n\nThe §6Warp Controller§f is the block that makes that happen. Pair it with a §6Warp Core§f (that big 3x3x3 multiblock filled with Schrabidium) and you can teleport your entire space station across the stellar map. Pick a destination, charge it up, and watch the stars shift.\n\nThe controller\u0027s GUI shows your destination, the fuel cost, and an arrival timer. It needs continuous power for a few minutes before activation, so hook it up to something beefy like a Fusion Reactor. A failed warp from insufficient power will damage station blocks and scatter the crew.\n\n§ePS:§f The Warp Core recipe has been tweaked to use HBM Schrabidium, so you\u0027ll need to progress through HBM\u0027s nuclear chain before this becomes available.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:warpmonitor"
+      },
+      "name:8": "Warp Travel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10038,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:warpcore"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:warpmonitor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

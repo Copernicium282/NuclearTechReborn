@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40003
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Latex§f\n\n§aNature\u0027s rubber. Cheap, renewable, and you probably have dandelions.§f\n\nLatex balls come from §bdandelions§f (2x2 crafting grid) or by pressing §bjungle wood§f with a flat stamp in the burner or electric press. Smelt the ball into a §blatex bar§f to use in recipes.\n\nEarly-game uses: §bconveyor belts§f (cheaper than rubber), the §bore acidizer§f (latex bar + sour gas → rubber), and various machine components like insulated wire and seals.\n\nOnce you automate a tree farm with a press, latex becomes infinite. It\u0027s not as good as processed rubber, but it gets you through the early game without much effort.\n\n§ePS:§f Rubber from the ore acidizer is the better long-term option, but latex gets you started.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ball_resin"
+      },
+      "name:8": "Latex",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40032,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ball_resin"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

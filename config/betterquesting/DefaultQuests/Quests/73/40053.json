@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40037
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aAirborne hazards are real in this mod. Keep your lungs intact.§f\n\nMasks handle what hits your eyes. Filters handle what hits your lungs. You need both.\n\nThe lineup runs from the Crude Protective Mask (particles only) through the Trench Mask, Half-Mask, Leather Gas Mask, Gas Mask, and up to the M65-Z. Better masks let you use better filters.\n\n§bMakeshift Filter§f covers particles and chemicals. The Standard Filter adds particulates. The §bCatalytic Filter§f adds CO protection, which you need for mining Infernal Coal. The §bCombo Filter§f handles everything but breaks fast.\n\nSome helmets have built-in protection. Hazmat handles eyes. PaA Hazmat adds CO. Schrabidium and Euphemium helmets handle everything.\n\n§cWARNING:§f Always carry a Catalytic or Combo filter before mining Infernal Coal. You will suffocate without one.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:gas_mask"
+      },
+      "name:8": "Gas Masks \u0026 Filters",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40053,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:gas_mask_filter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

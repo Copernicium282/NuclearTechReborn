@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40050
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aThe top of the food chain.§f\n\n§6Schrabidium Armor§f: 10 defense, 3.0 RR, hard cap 4, damage mod 0.1. Haste III, Strength III, Jump Boost II, Speed III. Fireproof. Needs Starmetal base plus Ionized Particles.\n\n§6CMB Steel Armor§f: 10 defense, 1.3 RR, hard cap 2, damage mod 0.05. Speed III, Haste III, Strength. Fireproof. More accessible than Schrabidium and arguably the better all-rounder.\n\n§6Dineutronium Armor§f: 2 defense, 5.0 damage mod. That damage modifier means you take MORE damage. Pure meme armor. Wear it for the flex.\n\n§ePS:§f Schrabidium and CMB are the two practical endgame sets. CMB is easier to craft, Schrabidium has the RR edge.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:schrabidium_helmet"
+      },
+      "name:8": "Endgame Armors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40051,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:schrabidium_helmet"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

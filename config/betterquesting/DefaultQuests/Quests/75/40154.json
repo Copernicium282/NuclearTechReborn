@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Conveyor Sorters§f\n\n§aSix outputs, five filter slots each, zero buffer. Items get routed instantly.§f\n\nConveyor Sorters route items to specific conveyor belts based on filter settings. They have three modes per output: §bWhitelist§f (route matching items), §bBlacklist§f (route non-matching items), and §bWildcard§f (route if nothing else matches).\n\nCrafting requires §b4x Pneumatic Piston§f, §b4x Insulator§f, and §b1x Integrated Circuit Board§f. That IC Board needs Silicon from the Electric Arc Furnace, so if you haven\u0027t got that yet, use an inserter into a crate with multiple filtered ejectors instead.\n\n§ePS:§f Sorters are perfect for centrifuges that produce multiple outputs. Route each product to a different belt for clean distribution to storage. No more manually splitting overflow!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:crane_router"
+      },
+      "name:8": "Conveyor Sorters",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40154,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crane_router"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

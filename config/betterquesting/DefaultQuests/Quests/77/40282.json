@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40280
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Spark \u0026 Stellar Flux§f\n\n§aTwo exotic byproducts, one from particle acceleration, one from fusion.§f\n\n§6Spark (Sparkticle)§f:\nAn exotic powder blend made from Desh Powder, Euphemium Powder, and Energy Powder. Sparkticle Capsules are produced in the PA:\nRecipe: Pulverized Enchantment + Strange Quark Capsule @ §e12,500 momentum§f → Sparkticle Capsule + Dust\n\nSparkticles are used to make §bDineutronium§f (exposure chamber) and §bSpark Blend§f (various high-tier recipes including DNT compound plates and DFC cores).\n\n§6Stellar Flux§f:\nGaseous antimatter byproduct of the §bICF Reactor§f. Production formula: §bQ \u003d E × 10^-11§f (Q \u003d mB/t, E \u003d reactor TU). The ICF stores up to §e24,000 mB§f.\n\n§6Uses§f:\n§b• Heavy Duty Elements§f, forged in the Plasma Forge with welded combine steel, cast bismuth bronze, crystalline fullerite, and §e4,000 mB§f stellar flux\n§b• Gerald The Construction Android§f, requires heavy duty elements\n§b• Fusion fuel§f, stellar plasma recipe produces §e1 GHE/s§f\n\n§ePS:§f Stellar flux production scales with ICF power output. Run your ICF hot to build reserves faster.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:particle_sparkticle"
+      },
+      "name:8": "Spark \u0026 Stellar Flux",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40282,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:particle_sparkticle"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

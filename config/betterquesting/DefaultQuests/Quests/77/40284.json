@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40283
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Flashgold§f\n\n§aGold fused with antimatter, the gateway to balefire production.§f\n\n§bFlashgold§f is a gold-198 billet fused with antimatter, creating a magnetized lattice that emits §e250 RAD/s§f. It\u0027s the starting material for balefire production without needing existing balefire.\n\n§6Crafting§f (shapeless):\nGold-198 Billet + Antimatter Cell + Ionized Particles → Flashgold Billet\n\nGold-198 is bred in an RBMK irradiation channel or extracted from fallout via SILEX (§e1%§f chance). Antimatter comes from the PA at §e300 momentum§f. Ionized particles are a fusion byproduct.\n\n§6Use§f:\nProcess flashgold into §bRBMK fuel rods§f. Spent rods yield §e44 thermonuclear ashes§f on average, which craft into §e11 balefire shards§f. This is how you bootstrap balefire production for the first time.\n\n§ePS:§f Flashgold rods are among the most energy-dense RBMK fuels. Process them with good cooling and containment, the radioactivity is no joke.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:billet_balefire_gold"
+      },
+      "name:8": "Flashgold",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40284,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:billet_balefire_gold"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

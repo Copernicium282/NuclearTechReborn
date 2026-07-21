@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    40291,
+    40292,
+    40314
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fau Armor§f\n\n§aThe only armor that survives digamma radiation. 10 MHE per piece to keep running.§f\n\nFau Armor is a power armor set requiring §e10 MHE§f per piece. It provides 99.99% radiation reduction and complete digamma resistance, which no other armor offers. Set bonuses include jump boost, thermal sight, hard landing, and auditory Geiger counter.\n\n§6Crafting§f: Each piece needs Fau armor platings (made from yharonite billets via the DFC), a demon core (closed form for the chestplate, which emits 100,000 RAD/s when closed), ancient scrap metal, and starmetal base armor.\n\n§6Resistances§f: Fire 100%, explosion 95%, fall 100%, laser 95%, other 99%. It\u0027s the cheaper alternative to the DNT Nano Suit with nearly as much protection.\n\n§cWARNING:§f Without power, Fau armor provides zero protection. You need a reliable charging solution. The closed demon core in the chestplate is extremely radioactive, handle with care.\n\n§ePS:§f Essential if you plan to work with digamma fuel or spend time near DFC fields. For general endgame use, euphemium armor is more convenient.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:fau_plate"
+      },
+      "name:8": "Fau Armor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40304,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:fau_helmet",
+          "tag:10": {
+            "charge:4": 10000000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

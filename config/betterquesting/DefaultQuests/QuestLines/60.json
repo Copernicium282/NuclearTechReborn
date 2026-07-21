@@ -1,0 +1,30 @@
+{
+  "lineID:3": 60,
+  "order:3": 4,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A living, breathing Nether with diverse biomes, unique flora, and native metallurgy. Mine Cincinnasite, explore Nether Cities, and cultivate underworld crops.\n\nProgression:\n    Cincinnasite Metallurgy - Nether-native metal tools and architecture\n    Nether Ecology \u0026 Biomes - Biomes, flora, and agriculture",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betternether:cincinnasite_ore"
+      },
+      "name:8": "Better Nether"
+    }
+  },
+  "quests:9": {
+    "0:10": {
+      "id:3": 30268,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 0,
+      "y:3": 0
+    },
+    "1:10": {
+      "id:3": 30269,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 80,
+      "y:3": 0
+    }
+  }
+}

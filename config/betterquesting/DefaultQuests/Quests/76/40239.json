@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Arsenic§f\n\n§aCheap bismuth replacement for circuits. Poison on the side.§f\n\n§bArsenic§f (As, atomic 33) is mostly made in nugget form. Its main trick: replacing bismuth in the §bVersatile Integrated Circuit§f recipe. Same pattern, swap the nugget. Cheaper per unit, slightly less efficient.\n\n§6Make It§f (Ore Acidizer):\n§b•§f §e100 mB§f High-Performance Solvent\n§b•§f 16 Oily Scraps\n§b•§f Output: §eArsenic Nugget§f\n\n§6What It Is For§f:\n§b•§f §bVersatile Integrated Circuit§f, replaces bismuth nugget in the recipe\n§b•§f §bArsenic Bronze§f, alloy with copper and flux\n\n§ePS:§f Oily scraps come from oil processing. If your refinery is automated, arsenic production scales for free alongside your petrochemical chain. Mass-produce circuits without burning through your bismuth stockpile.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_arsenic"
+      },
+      "name:8": "Arsenic",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40239,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_arsenic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

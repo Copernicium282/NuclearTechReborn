@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Basic Lens§f is an optical component used in Lens Blocks and precision instruments. You grind silicon wafers in a Precision Assembler to make them, yielding 1-3 Lenses per operation. Lenses are a core component in the AR tech tree, feeding into everything from the Observatory to the Precision Laser Etcher.\n\nThese are not vanilla glass panes. They are specialized AR items with different variants including synthetic sapphire and diamond for endgame recipes. Check JEI for the exact recipe since inputs are modpack-configured.\n\n§ePS:§f A single Lens Block requires 3 Basic Lenses, so craft in bulk. Keep a stock next to your Precision Assembler to avoid mid-craft shortages.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:lens"
+      },
+      "name:8": "Basic Lens",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10009,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:lens"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

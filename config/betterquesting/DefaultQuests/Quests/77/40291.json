@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40310
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Yharonite§f\n\n§aA DFC-exclusive material. Heat polonium in a tungsten crate and this comes out.§f\n\n§bYharonite§f is produced by placing §bPolonium-210 Billets§f inside a §bTungsten Crate§f attached to a running DFC. The crate intercepts the beam between the core and receiver, using the heat to smelt and transmute polonium into yharonite billets.\n\nThe tungsten crate needs at least §e10 MSpk§f of DFC energy to function. Check the receiver\u0027s GUI to verify the beam strength before loading polonium.\n\n§6Uses§f:\n§b• Fau Armor Platings§f, yharonite billets are forged into plating, required for Fau armor\n§b• Broken Pocket Watch§f, used in the euphemium armor chestplate recipe, needs yharonite billets\n§b• Crucible (Weapon)§f, forged meteorite ingot + euphemium + yharonite\n§b• Schrabidium Hammer§f, requires yharonite\n\n§ePS:§f Yharonite production means you need a DFC first. The tungsten crate is an alternative to the receiver: instead of generating electricity, it uses the beam for industrial processing. You can place as many billets as you need and extract them after the beam does its work.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:billet_yharonite"
+      },
+      "name:8": "Yharonite",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40291,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:billet_yharonite"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

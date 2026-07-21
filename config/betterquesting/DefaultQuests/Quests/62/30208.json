@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    30160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Memory Card§f copies and pastes settings between AE2 blocks. Right-click a configured block to save its settings, then right-click another block of the same type to paste them.\n\nCrafted from §6Calculation Processor§f, §b2 Iron Ingots§f, §b2 Gold Ingots§f, and §b1 Redstone Dust§f. It stores §b1 settings snapshot§f per card and lasts for §b100 uses§f.\n\nWorks with: ME Controller, ME Drive, ME Chest, ME Interface, Storage Bus, Import Bus, Export Bus, Level Emitter, Storage Monitor, Conversion Monitor, Crafting CPU, and Security Terminal.\n\n§cWARNING:§f Copying to a new block overwrites the card\u0027s previous settings. Keep a backup card if you need to preserve configurations.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:memory_card"
+      },
+      "name:8": "Memory Card",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30208,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:memory_card",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30025
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Chemical Reactor§f\n\n§aCombines fluids in controlled chemical reactions.§f\nThe §bChemical Reactor§f takes §b2 fluid inputs§f and produces §b2 fluid outputs§f. Default cycle is §b800 ticks§f at §b10 RF/t§f. It handles a wide range of chemistry: uranium purification, isotope processing, coolant production, and more.\n\nIf you\u0027re doing anything with nuclear fuel processing, this machine is unavoidable. It\u0027s where you convert yellowcake into usable fuel precursors, process waste streams, and create chemical intermediates for the fuel cycle. The dual fluid I/O makes it versatile.\n\n§ePS:§f The Chemical Reactor loses progress on interruption. Use buffer tanks on both input sides to prevent stalls and keep your processing line running smoothly.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:chemical_reactor"
+      },
+      "name:8": "Chemical Reactor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30035,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:chemical_reactor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

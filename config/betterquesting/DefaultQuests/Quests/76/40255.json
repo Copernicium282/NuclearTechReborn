@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Radiation-Powered Engine§f §aNuclear waste into power. 12 independent decay slots, consistent output, no radiation risk.§f §bThe Radiation-Powered Engine§f turns RBMK-type nuclear waste into usable energy with guaranteed decay times. The blueprint is only obtainable via the §bSurvivalist\u0027s Journal§f. §6Crafting§f (§bAssembly Factory§f):\n§b• 8×§f Steel Ingot, §b32×§f Steel Plate, §b64×§f 4000K Superconducting Coil\n§b• 24×§f 4000K Superconductor, §b16×§f Integrated Circuit Board\n§b• 1×§f Breeding Reactor Core, §b1×§f Starmetal Ingot, §b1×§f Red Dye §6Usage§f:\n§b• 12 input slots§f on the left, each with a corresponding progress bar\n§b• Hover§f over each bar to see decay process, ticks remaining, HE/tick output\n§b• Right slots§f, decayed items are dispensed here §6Acceptable Fuels§f:\n§b• Long-Lived Nuclear Waste, Short-Lived Nuclear Waste, Radioactive Scraps§f (from shredding Sellafite) §ePS:§f Great sink for long-lived waste that\u0027s otherwise hard to dispose of. Each slot decays independently, so filling all 12 maximizes output. Monitor the bars to see exact HE/tick.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_radgen"
+      },
+      "name:8": "Radiation-Powered Engine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40255,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_radgen"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

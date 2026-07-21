@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30237
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6ArchitectureCraft§f\n\n§aEverything is a box. Let\u0027s fix that.§f\nTired of building everything out of cubes? §9ArchitectureCraft§f carves standard blocks into slopes, arches, pillars, steps, and spheres while keeping the original texture.\n\nUse the §9Architect\u0027s Sawbench§f to reshape wood, stone, glass, or anything else. The §9Architect\u0027s Hammer§f rotates and aligns placed blocks. The §9Architect\u0027s Chisel§f picks up fragile blocks like glass panes without breaking them.\n\nReshaped blocks keep their texture properties, so a chiseled stone arch blends right into your factory wall.\n\n§ePS:§f Great for making sloped roofs, round arches, and custom columns. Your builds don\u0027t have to look like everyone else\u0027s.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "architecturecraft:sawblade"
+      },
+      "name:8": "ArchitectureCraft",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30230,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "architecturecraft:sawblade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

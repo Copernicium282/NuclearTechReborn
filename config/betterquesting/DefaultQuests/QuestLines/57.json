@@ -1,0 +1,30 @@
+{
+  "lineID:3": 57,
+  "order:3": 7,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Visual, modular storage system. Drawers display stored items on their front face for instant access. Upgrade capacity with storage multipliers and link into automated networks.\n\nProgression:\n    Core Drawers \u0026 Aesthetics - Basic drawers and custom styling\n    Drawer Networks \u0026 Upgrades - Controllers, slaves, and capacity upgrades",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "storagedrawers:upgrade_template"
+      },
+      "name:8": "Storage Drawers"
+    }
+  },
+  "quests:9": {
+    "0:10": {
+      "id:3": 30260,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 0,
+      "y:3": 0
+    },
+    "1:10": {
+      "id:3": 30261,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 80,
+      "y:3": 0
+    }
+  }
+}

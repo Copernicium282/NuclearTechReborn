@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    30140
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nether Quartz Tools§f use the same shapes as Certus Quartz Tools but substitute §6Nether Quartz§f (vanilla quartz from the Nether). Same iron-tier stats: §b250 durability§f, §b6.0 mining speed§f, §b2.0 attack damage§f.\n\nThe full family: Pickaxe, Axe, Hoe, Shovel, Sword, Cutting Knife, and Wrench. The §6Nether Quartz Wrench§f is required for crafting the §6Network Tool§f, so grab one early.\n\nNether Quartz is far more abundant than Certus Quartz, making these the practical workhorse tools for early AE2 setup. Mine a stack of Nether Quartz Ore in the Nether and you\u0027re set.\n\n§ePS:§f Both quartz tool types repair with their respective quartz in an anvil. The §6Cutting Knife§f does not drop mob heads in this modpack.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:nether_quartz_pickaxe"
+      },
+      "name:8": "Nether Quartz Tools",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30201,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:nether_quartz_axe"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:nether_quartz_hoe"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:nether_quartz_spade"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:nether_quartz_pickaxe"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:nether_quartz_sword"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:nether_quartz_wrench"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:nether_quartz_cutting_knife"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30211
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Tiny TNT§f is a miniature explosive with half the power of vanilla TNT (§b4§f vs §b8§f explosion power). Crafted from §b2 Quartz Dust§f + §b2 Gunpowder§f in a 2x2 pattern.\n\nIt\u0027s primarily a §6crafting component§f for advanced AE2 recipes like §6Spatial Pylons§f and §6Spatial IO Ports§f. When triggered by redstone, it explodes in place and does not drop as an item.\n\nBoth §6Certus Quartz Dust§f and §6Nether Quartz Dust§f work in the recipe, so use whichever you have in excess.\n\n§ePS:§f A cheap way to dispose of excess quartz dust. Place near a redstone clock for a small mining area, but watch your valuables in the blast radius.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:tiny_tnt"
+      },
+      "name:8": "Tiny TNT",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30217,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "appliedenergistics2:tiny_tnt"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

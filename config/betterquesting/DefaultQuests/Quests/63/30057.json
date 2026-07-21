@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30056
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Trinitite§f\n\n§aThe glassy residue of nuclear detonations.§f\n§bTrinitite§f is a unique material created when a nuclear bomb detonates. It forms as §bTrinitite Glass§f blocks in the blast zone. Collect it for use in advanced recipes and as a unique decorative block.\n\nTrinitite is used in some high-tier crafting recipes. It\u0027s also a reminder of what you just did to that chunk of terrain. The radiation fades eventually, but the glass stays forever as a monument to your destructive power.\n\n§ePS:§f Trinitite Glass can be mined with any pickaxe. It\u0027s not particularly rare if you\u0027re blowing up bombs regularly, but save some for crafting before you start building nuclear test sites everywhere.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "trinity:trinitite_shard"
+      },
+      "name:8": "Trinitite",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30057,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "trinity:trinitite_shard"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

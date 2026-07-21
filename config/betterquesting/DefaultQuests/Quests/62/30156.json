@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Energy Acceptor is how you get external power (RF, FE, or any Forge Energy) into your AE network. Place it on a cable and pipe in power from your generators.\n\nIt converts incoming RF/FE into AE power and distributes it across the connected cable network. Multiple Energy Acceptors can be placed on the same network for higher throughput.\n\nThis is the primary power input for most AE2 setups. You need at least one to get your network running.\n\n§9Note:§f The Energy Acceptor must be part of the cable network to function. Place it on a cable, not directly on a machine.\n\n§ePS:§f Place it close to your power source and your main cable backbone for efficient distribution.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:energy_acceptor"
+      },
+      "name:8": "Energy Acceptor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30156,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:energy_acceptor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

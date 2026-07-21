@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10022
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Gas Intake§f mounts on the side of a rocket frame to collect atmospheric gases during flight. It scoops oxygen, nitrogen, and trace gases from a planet\u0027s atmosphere at high altitude.\n\nCraft it: 4 Titanium Sticks in corners, 4 Hoppers on edges, 1 Machine Structure in center. Place the intake on the side of the rocket frame facing the planet\u0027s atmosphere during descent.\n\nThe intake draws gases from the air block in front of it and stores them in a small internal tank. Multiple intakes can be stacked on different faces for parallel collection.\n\n§ePS:§f For best gas collection, point the intake downward and forward of the rocket\u0027s nose. Gases accumulate at low pressure and the intake must face the airflow.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:intake"
+      },
+      "name:8": "Gas Intake",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10030,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:intake"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

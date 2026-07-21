@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30186
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Watching a crafting job crawl along? The §6ME Conversion Monitor §fshows you exactly how many items have been requested versus completed.\n\nPut an item in the config slot and the panel displays the ratio. When a crafting job is active, you see the numbers climb. When it stalls, the display stops changing and you know something is wrong.\n\nCraft it from a Formation Core, a Storage Monitor, and an Annihilation Core. It inherits the storage monitoring functions of the underlying Storage Monitor.\n\n§cWARNING:§f The counter resets when a new job starts for the same item. And it does not monitor power draw of the crafting job itself.\n\n§ePS:§f Place one near your Pattern Processor or Crafting CPU for live feedback on job progress.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 420,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Conversion Monitor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30187,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 420,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

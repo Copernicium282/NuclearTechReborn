@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40203
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6RBMK Reactor\\n\\n§aThe big one. Modular, powerful, and will destroy everything if you mess up.\\n\\nThe §bRBMK§f is a modular boiling-water fission reactor built from columns (default §e4 blocks§f tall). Each column exchanges heat with its neighbors. If any column hits §e1,500°C§f, the whole thing explodes violently, ignoring blast resistance, spraying radioactive scrap, and dripping corium.\\n\\n§6Core Concepts§f:\\n§b• Neutron Flux§f, drives fission. Fuel rods emit neutrons that sustain the chain reaction.\\n§b• Fast vs Slow Neutrons§f, most fuels need slow neutrons. §bGraphite Moderators§f convert fast to slow.\\n§b• Xenon Poisoning§f, Xe-135 buildup kills reactivity. Burn it off with strong flux, carefully.\\n§b• Cover Panels§f, every column with neutron flux needs one, or radiation leaks out.\\n\\n§6Column Types§f: Fuel Channel, Steam Channel, Control Rod, Moderator, Reflector, Absorber, Irradiation Channel, Fluid Heater, Cooler, Storage, Structural.\\n\\n§cWARNING:§f Meltdown is catastrophic and requires extensive cleanup with heavy radiation gear. Design carefully, test in creative with meltdowns disabled first.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:rbmk_rod"
+      },
+      "name:8": "RBMK Reactor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40207,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:rbmk_rod"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

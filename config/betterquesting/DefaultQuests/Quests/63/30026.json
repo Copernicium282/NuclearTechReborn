@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    30029,
+    30082
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Manganese Oxide Dust§f\n\n§aA processing intermediate for manganese-based materials.§f\n§bManganese Oxide Dust§f is produced by processing §bManganese§f ore or dust in the §bManufactory§f. It\u0027s used in several alloy recipes and chemical processes further down the NuclearCraft chain.\n\nNothing fancy here, just another dust to keep your processing lines running. Process it in the §bAlloy Furnace§f or §bChemical Reactor§f depending on what you\u0027re making. Manganese itself comes from standard ore processing, so you\u0027ll naturally accumulate this as you mine.\n\n§ePS:§f Check JEI to see what recipes use Manganese Oxide. It shows up in more places than you\u0027d expect, especially in advanced alloy blends and chemical intermediates.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11,
+        "id:8": "nuclearcraft:dust"
+      },
+      "name:8": "Manganese Oxide Dust",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30026,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "nuclearcraft:dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "nuclearcraft:ingot"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "nuclearcraft:ingot"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "nuclearcraft:dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

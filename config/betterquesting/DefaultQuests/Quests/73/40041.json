@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aGot a bunch of flammable fluids sitting around? Burn them for heat.§f\n\nThe Fluid Burner sits under a crucible or any TU-hungry machine and converts flammable fluids into thermal energy. Place it so the copper heat plate lines up with the machine above.\n\nCrafted at the Tier 2 Anvil from steel tanks, steel pipes, titanium ingots, and red copper.\n\nIt holds 16,000 mB of fluid and stores up to 100,000 TU before stopping. The burn rate is adjustable from 1 to 100 mB/t using a screwdriver. Four fluid ports on the lower block let you pipe fluids in from any side.\n\nThe block displays consumption and heat output right on the face, no GUI needed.\n\n§ePS:§f This bridges the gap between solid-fuel fireboxes and electric heaters. Perfect for those oil byproducts you\u0027ve been stockpiling.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:heater_oilburner"
+      },
+      "name:8": "Fluid Burner",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40041,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:heater_oilburner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

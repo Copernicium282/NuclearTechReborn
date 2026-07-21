@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40285
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Digamma Particle§f\n\n§aThe most momentum-hungry particle in the PA. Optional, but rewarding.§f\n\nThe §bDigamma Particle§f is a mysterious, anomalous particle that requires §e70,000 momentum§f in the PA, the highest of any recipe. It gives §e333.3 mDRX/s§f when held in your inventory and will form a black hole if dropped.\n\n§6Production§f:\nRecipe: Higgs Boson Capsule + Sparkticle Capsule @ §e70,000 momentum§f → Digamma Particle + Empty Capsule\n\nYou need Large Chlorophyte Coils (§e14,500-75,000§f range) and a well-designed accelerator layout to reach this momentum without crashing.\n\n§6Uses§f:\n§b• Digamma RBMK Fuel Rod§f, combine with balefire rod at a crafting table (shapeless)\n§b• SILEX recycling§f, spent digamma fuel yields Undefined material\n§b• Murky Anvil§f and §bDigamma Laser Crystal§f, both need Undefined\n\n§cWARNING:§f If digamma fuel melts down in an RBMK, it explodes violently, turns columns into darkened debris, covers the ground in lingering digamma fire, and kills you even in creative mode. The death message reads: \"stepped into the abyss.\"\n\n§ePS:§f Digamma is completely optional for progression. Skip it if you\u0027re focused on the DFC. The payoff is unique RBMK fuels and the Rod of Discord.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:particle_digamma"
+      },
+      "name:8": "Digamma Particle",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40286,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:particle_digamma"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

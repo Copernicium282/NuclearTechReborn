@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    40302,
+    40280,
+    40295,
+    40293
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6DNT Nano Suit§f\n\n§aThe apex armor. Perfect protection, 1 GHE per piece, requires nearly everything to craft.§f\n\nThe DNT Nano Suit is the strongest armor in the mod. It offers 100% protection against all damage types except explosions (which it blocks 99% of). Full set bonuses include strength, haste, jump boost, rocket boots, boosted sprint, and enemy HUD.\n\n§6Crafting§f: Requires a full §bLunar Cybernetic Armor§f set (consumed), §e24§f DNT compound plates (from dineutronium compound plates in an anvil), a spark singularity (helmet), the Balls-O-Tron coin (leggings), and a closed demon core (boots). That\u0027s a particle accelerator, a boss kill, and lunar satellites just for ingredients.\n\n§6Power§f: Each piece holds §e1 GHE§f and charges at 1 MHE/t. You need massive energy storage, the FEnSU, to keep this thing running.\n\n§cWARNING:§f 1 GHE per piece is enormous. Without power, no protection. The FEnSU is mandatory before you attempt this armor.\n\n§ePS:§f This is the absolute last thing you craft. Every other endgame project feeds into it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:dns_helmet",
+        "tag:10": {
+          "charge:4": 1000000000
+        }
+      },
+      "name:8": "DNT Nano Suit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40305,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:dns_helmet",
+          "tag:10": {
+            "charge:4": 1000000000
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:dns_plate",
+          "tag:10": {
+            "charge:4": 1000000000
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:dns_legs",
+          "tag:10": {
+            "charge:4": 1000000000
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:dns_boots",
+          "tag:10": {
+            "charge:4": 1000000000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Saw Blade Assembly§f is a consumable tool for the Cutting Machine. You put it in the machine\u0027s inventory and it cuts ingots into plates. Each blade has 250 uses before it is spent.\n\nCraft the Iron Saw Blade first (4 Iron Sticks + 1 Iron Plate), then combine it with 4 Iron Sticks and 4 Iron Plates to make the full Assembly. A Diamond Saw Blade variant lasts 4x longer but costs more.\n\n§cWARNING:§f A damaged Saw Blade will destroy items instead of cutting them. Replace it before it hits 0%.\n\n§ePS:§f Keep a stock of Saw Blades in a chest next to your Cutting Machine. You will go through them faster than you expect.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:sawblade"
+      },
+      "name:8": "Saw Blade Components",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10007,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:sawblade"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:sawbladeiron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30170
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Pattern Terminal is where you encode recipes for automated crafting. It has a crafting grid like the Crafting Terminal, but its real purpose is creating Encoded Patterns.\n\nTwo modes: Crafting Patterns for shaped and shapeless recipes, and Processing Patterns for machine recipes where input goes in and output comes out. Place a blank pattern, set the recipe, encode it, and stick the pattern in an Interface or Molecular Assembler.\n\nProcessing patterns are the backbone of AE2 automation. If you are manually crafting something more than twice, encode a pattern for it.\n\n§ePS:§f The Pattern Terminal also lets you view and edit existing patterns stored in the network\u0027s pattern providers.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 340,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Pattern Terminal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30172,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 340,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

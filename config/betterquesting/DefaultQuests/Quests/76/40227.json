@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40206
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Schrabidium§f\n\n§aThe most iconic material in the mod. Radioactive, blinding, and required for basically everything endgame.§f\n\n§bSchrabidium§f (Sa-326, atomic 126) is a transuranic superactinide at §e15 RAD/s§f per ingot. Hold it without tier 3 hazmat and you go blind. Density is §e39,700 kg/m³§f, roughly twice tungsten. It is magnetic enough to boost tungsten into Magnetized Tungsten.\n\n§6Production Methods§f:\n§b•§f Explode nuclear waste barrels near uranium ore (crude, unreliable)\n§b•§f §bPUREX§f, process depleted LEP ZIRNOX/MEP PWR fuel with §e500 mB Schrabidic Acid§f, yields §e0.75 ingots§f\n§b•§f §bExposure Chamber§f, Higgs Boson transmutes U-238 at §e100%§f efficiency, best bulk method\n§b•§f §bCyclotron§f, nuggets from ionized particles, tiny amounts\n\n§6What It Is For§f:\n§b•§f Magnetized Tungsten (1 tungsten + 1 schrabidium nugget)\n§b•§f SNB reactor fuel (HES/MES/LES)\n§b•§f Pure schrabidium Watz fuel pellets\n§b•§f Nuclear weapons, custom nuke schrabidium stage\n§b•§f Solinium, euphemium, and all trans-schrabidic elements\n\n§ePS:§f Set up PUREX with schrabidic acid for early supply. Build the Exposure Chamber with Higgs Bosons for bulk. Wear hazmat or enjoy the blindness.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_schrabidium"
+      },
+      "name:8": "Schrabidium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40227,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_schrabidium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

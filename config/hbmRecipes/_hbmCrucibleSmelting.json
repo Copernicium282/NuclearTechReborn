@@ -46,10 +46,6 @@
       "output": [["Aluminum",72],["Sodium",72]]
     },
     {
-      "input": ["item","hbm:blades_advanced_alloy"],
-      "output": [["AdvancedAlloy",288]]
-    },
-    {
       "input": ["item","hbm:stamp_titanium_flat"],
       "output": [["Titanium",216]]
     },

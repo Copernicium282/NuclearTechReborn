@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    30010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Multiblock Tank Structure§f\n\n§aBuild free-form fluid storage tanks in any shape you want.§f\n\nEvery tank needs a §bTank Controller§f. This is the main block. §cIf you break it, everything inside is gone.§f\n\n§bTank Blocks§f add §e32 buckets§f of storage each. You can use up to 50 of them. §bTank Indicator Blocks§f work the same way but also show the fluid level visually. Stack them vertically for a bigger display.\n\n§bPressure Intakes§f accept fluid from High Pressure Pipes. Up to 10 allowed. §bPressure Outlets§f push fluid into High Pressure Pipes automatically. Up to 6 can output, each with a unique color configured from the Tank GUI.\n\nThe tank can be any shape as long as all blocks are connected.\n\n§ePS:§f Check JEI for the full structure limits. The tank GUI shows you the current fluid level and lets you configure output colors.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "pressure:tank_controller"
+      },
+      "name:8": "Multiblock Tank Structure",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30014,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "pressure:tank_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "pressure:tank_block"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "pressure:tank_indicator"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "pressure:tank_pressure_input"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "pressure:tank_pressure_output"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

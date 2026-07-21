@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40207
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Designing \u0026 Recycling an RBMK\\n\\n§aBuild it right, burn fuel efficiently, and reprocess the waste.\\n\\n§6Beginner Design: The Standard§f:\\n1 Steam Channel, 4 Fuel Channels, 8 Boron Absorbers, 4 Graphite Moderators, 18 Cover Panels. Output: §e3.75 MHE/s§f with MEP fuel.\\n\\n§6Design Rules§f:\\n• Place steam channels diagonally from fuel rods for maximum heat capture\\n• Use moderators between fast-neutron sources and slow-neutron fuels\\n• Seal everything with cover panels\\n• Use reflectors on low-power fuels only, never with balefire/digamma\\n\\n§6Closed-Loop Cooling§f: Condense steam back to water. 100% efficiency. Never void fluids.\\n\\n§6Fuel Recycling§f:\\n• Remove rods at ≥1% depletion when they stop contributing flux\\n• Cool below §e50°C§f (let sit or use Spent Fuel Pool Drum, 12 rods each)\\n• Uncraft in 2x2 grid: 8 spent pellets + empty rod\\n• Process pellets in §bSILEX§f. Outputs vary by depletion level (5 tiers, each 20%)\\n\\n§6Xenon-135§f: Burns off with strong flux. Reduces recycling yields if extracted.\\n\\n§cWARNING:§f Test designs in creative with §egamerule dialDisableMeltdowns true§f first.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:rbmk_boiler"
+      },
+      "name:8": "Designing \u0026 Recycling an RBMK",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40210,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:rbmk_boiler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

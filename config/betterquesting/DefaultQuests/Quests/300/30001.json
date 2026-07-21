@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fluid Ores§f\n\n§aOres that drop fluids, handle with care!§f\n\nThese special ores release their fluids when mined. §bOil Sand§f appears in deserts (§eY 10-80§f) and drops Bitumen plus Crude Oil. The magical variants, §bDestabilized Redstone Ore§f (Overworld, §eY 0-20§f), §bEnergized Netherrack§f (Nether), and §bResonant End Stone§f (End), drop clathrates that melt to their respective fluids in a §bMagma Crucible§f.\n\nMelt the ore block for §e1,000 mB§f of fluid; clathrates give §e250 mB§f. You can solidify clathrates back using §bCryotheum Dust§f in a Fluid Transposer. Destabilized Redstone is useful for Signalum crafting later, so stockpile some.\n\n§ePS:§f Silk Touch collects the ore block without spilling its fluid, very handy for storage.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermalfoundation:ore_fluid"
+      },
+      "name:8": "Fluid Ores",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30001,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermalfoundation:ore_fluid"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

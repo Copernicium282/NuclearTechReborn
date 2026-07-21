@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ME Glass Cable is the basic building block of any AE2 network. It carries power and up to 8 channels per cable segment.\n\nAvailable in 16 colors for color-coded networks. Different colors do not connect to each other, which lets you run parallel networks on the same physical cable line without interference.\n\nUse a Color Applicator to recolor cables after placement. The default is Fluix-colored.\n\nEvery device on the network consumes channels from the cable it connects to. Count your devices and plan your cable routes accordingly. Hit 8 channels on a glass cable and you need to upgrade or branch.\n\n§ePS:§f Glass cables are transparent so you can see channel usage indicators. Handy for debugging.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 16,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "ME Glass Cable",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30152,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 16,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

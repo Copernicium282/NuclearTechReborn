@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40073
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Kerosene§f\n\n§aJetpacks, rockets, Soyuz launches. If it flies, it runs on kerosene.§f\n\nKerosene is an aviation-grade fuel providing §e2.56 MTU§f and §e3.85 MHE§f per bucket. Obtained by fractioning §bLight Oil§f or cracking §bDiesel§f.\n\n§6Production§f:\n§b• From Light Oil§f: §e100mB§f → §e40mB§f Diesel + §e60mB§f Kerosene.\n§b• From Vacuum Light Oil§f: §e100mB§f → §e70mB§f Kerosene + §e30mB§f Reformate Gas.\n§b• From Cracked Light Oil§f: §e100mB§f → §e70mB§f Kerosene + §e30mB§f Petroleum Gas.\n§b• Cracking Tower§f: §e100mB§f Diesel + Steam → §e40mB§f Kerosene.\n\n§6Key Uses§f:\n§b• Jetpacks§f: 3 of 4 types run on kerosene (up to §e16,000mB§f each).\n§b• Soyuz Launch§f: Requires §e128,000mB§f.\n§b• Jet Fuel§f: §e100mB§f Reformate + §e900mB§f Kerosene → §e1,000mB§f.\n§b• BF Rocket Fuel§f: §e6,000mB§f + §e1× Balefire Shard§f.\n§b• NITAN Super Fuel§f: §e600mB§f + Mercury + Nitanium Blend.\n\n§ePS:§f Kerosene is the only fuel for advanced transportation. Always keep a stock for refueling. The §bChainsaw§f also accepts it.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 22,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Kerosene",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40076,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 22,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

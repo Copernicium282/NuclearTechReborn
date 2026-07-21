@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    10062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Point a laser at the ground from orbit and mine anything. The §6Orbital Laser Drill§f fires from a space station straight down through the planet\u0027s surface, capable of pulling up any block regardless of harvest level.\n\nVanilla crafting recipe using Advanced Circuit, Tracking Circuit, battery, emerald, Control Circuit Board, titanium gears, and structure block. Requires §6Line of Sight§f to the target, and needs massive power inputs during operation.\n\nThe drill outputs mined blocks to an adjacent Output Hatch or Chest Interface. Place it on a low-orbit station (Y\u003d128) for best results and target rare ores like dilithium or titanium deposits.\n\n§cWARNING:§f The laser fires through ANY block in its line of sight, including your own structures. Put it on a dedicated station with nothing between it and the planet surface.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:spacelaser"
+      },
+      "name:8": "§6Orbital Laser Drill§f"
+    }
+  },
+  "questID:3": 10068,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:spacelaser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

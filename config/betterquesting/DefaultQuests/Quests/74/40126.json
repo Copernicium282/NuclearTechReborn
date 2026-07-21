@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40105
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Ore Acidizer§f\n\n§aThe only machine that makes cadmium, arsenic, and crystalline fullerite - plus ore multiplication!§f\n\nThe §bOre Acidizer§f (also called the crystallizer) processes items using various solvents. It requires §bDesh§f to craft, gating it at post-oil. It is essential for ore multiplication, crystalline fullerite, and obtaining resources that cannot be found anywhere else.\n\n§6Crafting§f (Assembly Factory):\n§b•§f §e2×§f Welded Steel Plate, §e3×§f Titanium Shell, §e4×§f Desh Ingot, §e1×§f Motor, §e2×§f Integrated Circuit Board.\n\n§6Operation§f:\n§b•§f Consumes §e1 kHE/t§f base, recipes take §e1–30 seconds§f (20 to 600 kHE total).\n§b•§f §e8,000 mB§f fluid tank, §e1 MHE§f energy buffer, 8 ports.\n§b•§f 2 upgrade slots: Speed, Effectiveness, and Overdrive (up to level 3).\n\n§6Exclusive Outputs§f:\n§b•§f Cadmium, Crystalline Fullerite, and Arsenic - only from the Acidizer.\n§b•§f 23 crystallizing recipes for ore multiplication.\n§b•§f Chemical Dyes from Wood Oil + powders.\n\n§ePS:§f The §eEffectiveness Upgrade§f gives a chance to not consume inputs - great for expensive recipes. The §eOverdrive Upgrade§f divides duration with no downside, strictly better than Speed!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_crystallizer"
+      },
+      "name:8": "Ore Acidizer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40126,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_crystallizer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

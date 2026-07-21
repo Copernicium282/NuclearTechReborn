@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    30041
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fission Fuels§f\n\n§aThe fuels that power your reactors.§f\nNuclearCraft has a whole catalog of fission fuels, from basic §bLEU-233§f and §bHEU-235§f to exotic §bMOX§f and §bThoriium§f fuels. Each fuel has different burn times, heat generation, and efficiency ratings. Check JEI for the full list.\n\nYour first reactor will probably run on §bLEU-233§f or §bLEU-235§f. These are produced by processing uranium through the §bIsotope Separator§f and then the §bChemical Reactor§f.\n\n§cWARNING:§f Higher-tier fuels generate more heat. Make sure your cooling can handle it before upgrading fuel grades. Meltdowns are expensive.\n\n§ePS:§f Start with low-enriched fuels and work your way up as your reactor design improves.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:pellet_uranium"
+      },
+      "name:8": "Fission Fuels",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30042,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {},
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

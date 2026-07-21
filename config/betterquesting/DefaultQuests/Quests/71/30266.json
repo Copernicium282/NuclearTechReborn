@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30265
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Dimlet Workbench§f\\n\\n§aCraft and deconstruct dimlets, the building blocks of custom dimensions.§f\\n\\nThe §bDimlet Workbench§f is your workshop for dimlet engineering. Use it to:\\n§b• Deconstruct§f: Break down dungeon dimlets into §bMemory Chips§f, §bControl Chips§f, and §bEnergy Cores§f\\n§b• Craft§f: Combine chips with a base item (Diamond Block, water bucket, etc.) to make custom dimlets\\n§b• Analyze§f: Open §bDimlet Parcels§f from exploration for random rare templates\\n\\n§6Dimlet Categories§f:\\n§bMaterial§f (terrain blocks), §bFluid§f (lakes/oceans), §bBiome§f, §bTime§f (day/night lock), §bWeather§f, §bStructure§f, §bFeature§f\\n\\n§cOrder matters§f in the Enscriber, modifier dimlets go §eimmediately before§f the feature they affect. A Diamond Material Dimlet before a Flat Terrain Dimlet gives you solid diamond flats.\\n\\n§9Note:§f Deconstruct every dimlet you find early on. You\u0027ll need the components to craft the dimlets you actually want.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftoolsdim:dimlet_base"
+      },
+      "name:8": "Dimlet Workbench",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30266,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftoolsdim:dimlet_base"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

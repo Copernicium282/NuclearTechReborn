@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40013
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Soldering Station§f\n\n§aCircuits. The thing that separates metalworking from real engineering.§f\n\nThe §bSoldering Station§f is how you make electronic circuits. Load the components (vacuum tubes, capacitors, lead wires, PCBs), give it power, and it solders them into working boards.\n\nCraft it at the assembly machine: cast steel plates, copper coils, tungsten bolts, vacuum tubes.\n\nYour first product is the §bAnalog Circuit Board§f, which opens up the chemical plant, arc welder, and all higher-tier machines. This is the machine that bridges the gap between basic metalworking and actual automation.\n\n§ePS:§f This is the gateway to the electrical age. Everything past this point needs circuits.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_soldering_station"
+      },
+      "name:8": "Soldering Station",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40017,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_soldering_station"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

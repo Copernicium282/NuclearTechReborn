@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Gas Centrifuge§f\n\n§aSpin hexafluoride fast enough and the isotopes sort themselves out. In theory.§f\n\nGas Centrifuge process fluids like §bUranium Hexafluoride§f and §bPlutonium Hexafluoride§f to separate isotopes. Each operation has §e4§f probabilistic outputs, where higher-weighted items are more common.\n\nCrafting: §b4x Centrifuge Element§f + §b8x Polymer Bar§f + §b2x Desh Ingot§f + §b8x Steel Plate§f + §b1x Military Grade Circuit Board§f. The Centrifuge Element itself needs 4 High-Speed Steel Plates, 4 Titanium Plates, and a Motor from the Assembly Factory.\n\nFor UF6 enrichment, you need §e4§f centrifuges in cascade. The last two need the §bOverclocking§f upgrade. On average you get §e8§f U-238, §e1§f U-235, and §e1§f Fluorite per §e10§f operations.\n\n§cWARNING:§f Place all centrifuges before pumping fluid. Switching the fluid ID dumps their tanks!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_gascent"
+      },
+      "name:8": "Gas Centrifuge",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40163,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_gascent"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

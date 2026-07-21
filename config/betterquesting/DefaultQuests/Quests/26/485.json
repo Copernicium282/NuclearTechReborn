@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [
+    472
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6HEV Armor§f\n\n§aRadiation-hardened suit for when you are standing next to antimatter and trying not to die.§f\n\nThe HEV (Hazard Encapsulated Vest) set is QMD\u0027s top-tier armor. It provides radiation shielding, exotic-matter containment protection, and built-in power storage. Four pieces: Helmet, Chestplate, Leggings, Boots.\n\nEach piece requires Super Alloy Ingots, Heavy Radiation Shielding, a Boron Nitride armor base, a Lithium Ion Cell for power, and an Elite Processor. The recipes are expensive because this is endgame armor.\n\nYou need this for working safely around antimatter cells, decay chambers, and vacuum chambers. Without it, radiation will eat you alive.\n\n§ePS:§f The armor stores 1,000,000 RF. Charge it before you go exploring the antimatter section of your base.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:chest_hev"
+      },
+      "name:8": "HEV Armor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 485,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:helm_hev",
+          "tag:10": {
+            "energyStorage:10": {
+              "capacity:4": 1000000,
+              "energy:4": 0,
+              "maxTransfer:3": 1000000
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "qmd:chest_hev",
+          "tag:10": {
+            "energyStorage:10": {
+              "capacity:4": 1000000,
+              "energy:4": 0,
+              "maxTransfer:3": 1000000
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "qmd:legs_hev",
+          "tag:10": {
+            "energyStorage:10": {
+              "capacity:4": 1000000,
+              "energy:4": 0,
+              "maxTransfer:3": 1000000
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "qmd:boots_hev",
+          "tag:10": {
+            "energyStorage:10": {
+              "capacity:4": 1000000,
+              "energy:4": 0,
+              "maxTransfer:3": 1000000
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

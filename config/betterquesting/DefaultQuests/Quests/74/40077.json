@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40071
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Industrial Oil§f\n\n§aNot much to burn, but fraction it into heating oil and lubricant or crack it into naphtha.§f\n\nIndustrial Oil comes from fractioning §bHeavy Oil§f. Every §e100mB§f of Heavy Oil yields §e70mB§f of Industrial Oil. Low fuel value (§e82.5 kTU§f / §e103 kHE§f per bucket).\n\n§6Fractioning Tower§f:\n§e100mB§f Industrial Oil → §e60mB§f Heating Oil + §e40mB§f Engine Lubricant.\n\n§6Catalytic Cracking Tower§f:\n§e100mB§f + Steam → §e60mB§f Naphtha + §e40mB§f Petroleum Gas.\n\n§6Other Uses§f:\n§b• Chemical Plant§f: §e1,000mB§f → §e800mB§f §bReclaimed Industrial Oil§f (for Petroil production).\n§b• Coker Unit§f: §e7,900mB§f → §e1× Petroleum Coke§f.\n§b• Solidification§f: §e21,000mB§f → §e1× Solid Fuel§f.\n§b• Pyrolysis Oven§f: §e8,700mB§f → §e1× Solid Fuel§f.\n\n§ePS:§f Industrial Oil is renewable. The §bReclaimed Industrial Oil§f route leads to §bPetroil§f, a key ingredient in high-performance chemical processing. Also obtainable from §bVacuum Heavy Oil§f fractioning.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Industrial Oil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40077,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 14,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30089
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Itemduct§f\n\n§aMove items between inventories through a shortest-path routed pipe network!§f\n\n§bItemducts§f carry items at §e40 ticks per block§f (half a block per second). Items route to the nearest valid destination. If nothing can accept, items stay put.\n\n§6Crafting§f:\n§b• Transparent§f: §e1× Tin Ingot§f + §e8× Hardened Glass§f → §e12× Itemduct§f.\n§b• Opaque§f: §e1× Tin Ingot§f + §e1× Lead Ingot§f → §e6× Itemduct (Opaque)§f.\n\nMultiple destinations split the load evenly by default. Manipulate routing priority with §bVacuum Itemduct§f (boost) and §bDense Itemduct§f (lower). Attach §bServos§f to extract items from inventories, and §bFilters§f to whitelist or blacklist specific items on a per-side basis.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermaldynamics:duct_32"
+      },
+      "name:8": "Itemduct",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30095,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "thermaldynamics:duct_32"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    0
+  ],
+  "preRequisites:11": [
+    10012,
+    10057
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Land on a planet and have no idea what you\u0027re breathing? The §6Atmosphere Analyzer§f scans the local atmosphere and tells you exactly what\u0027s in it: O2, N2, CO2 levels, breathability score (0-100), and toxicity warnings.\n\nRequires a §6Planet ID Chip§f set to your destination. Place it inside a sealed room on the target planet and it reads the atmosphere in a 16-block radius. Output goes to an adjacent tank for use with the Atmosphere Terraformer.\n\nMade in the Precision Assembler from a battery, Advanced Circuit, User Interface, lens, and tin plate. This block is the §6gateway§f to the Seal Detector, Biome Scanner, Navigation Beacon, Space Elevator, Orbital Laser Drill, and Railgun quest chains.\n\n§ePS:§f Bring at least 32 Advanced Circuits and 64 tin plates. You\u0027ll want to place analyzers across different biomes for full coverage.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:atmanalyser"
+      },
+      "name:8": "Atmosphere Analyzer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10062,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:atmanalyser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

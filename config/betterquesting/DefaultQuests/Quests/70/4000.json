@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Computer Cases§f\\n\\n§aBuild a custom computer by picking a case and stuffing it with parts!§f\\nOpenComputers doesn\u0027t give you a ready-made computer. You grab a case, slot in a CPU, RAM, a GPU, and whatever else you need, then boot it up.\\n\\n§6Case Tiers§f:\\n§bTier 1§f: 2 card slots, 2 container slots, 2 expansion slots.\\n§bTier 2§f: More room for mid-tier components.\\n§bTier 3§f: 3 card, 3 container, 3 expansion slots. The works.\\n\\n§6What Goes Inside§f:\\n§bCPU§f: Tier 1 supports 8 components, Tier 2 supports 12, Tier 3 supports 16.\\n§bRAM§f: Six levels from 192 KB up to 1024 KB, split across three tiers.\\n§bGPU§f: Tier 1 is 50x16 monochrome, Tier 2 is 80x25 with 16 colors, Tier 3 is 160x50 with 256 colors.\\n\\nShift-right-click a placed case to open the component GUI. Drag parts in, hit power, and you\u0027ve got a computer.\\n\\n§ePS:§f The computer costs 0.5 energy per tick when running. Cases charge at 5/10/20 energy per tick depending on tier.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "opencomputers:case1"
+      },
+      "name:8": "Computer Case",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4000,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "opencomputers:case1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

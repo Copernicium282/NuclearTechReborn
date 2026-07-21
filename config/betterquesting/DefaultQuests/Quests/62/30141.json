@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    30140
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Charged Certus Quartz Ore is much rarer than the regular variant, but you need those Charged Crystals for Fluix and everything downstream in AE2.\n\nYou have a few options for getting Charged Certus:\n§b-§f Mine Charged Certus Quartz Ore directly (rare, Fortune helps)\n§b-§f Run regular Certus through a Charger using AE power\n§b-§f Drop regular Certus Crystals into water next to Charged Ore for in-world conversion\n\nEvery processor, cable, and advanced component in the mod needs Charged Certus. Stockpile it early so you are not bottlenecked later.\n\n§ePS:§f The ore glows slightly in the dark. Handy for spotting it at night while mining deep underground.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:charged_quartz_ore"
+      },
+      "name:8": "Charged Certus Quartz Ore",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30141,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

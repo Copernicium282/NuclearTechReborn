@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40300
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Osmiridium \u0026 Gerald§f\n\n§aLaunch the biggest bomb in the mod, then dig through the rubble for osmiridium.§f\n\nGerald The Construction Android must be forged in the Plasma Forge (600s at 1 GHE/s, 500 MTU/s plasma, requires Gerald blueprint) and launched on a Soyuz-FG with an orbital module. Use the satellite ID manager to link Gerald to a designator, fuel the Soyuz (128k mB kerosene + LOX), and launch.\n\n§6Impact§f: Gerald creates a crater with §e600-block§f radius filled with lava and tektite. It sets everything on fire for a day and fills the sky with ash for 600 days. Mine the §bOsmiridium-Infused Tektite§f blocks from the crater.\n\n§6Refining§f: Shred tektite, centrifuge the powder, dissolve with fluorite/bismuth/hydrogen peroxide in a chemical plant to get osmiridic solution, process through a SILEX with a gamma laser crystal, then acidize with schrabidic acid to crystallize. Smelt crystals into ingots.\n\n§ePS:§f Osmiridium plates are needed for euphemium compound plates, DFC components, and the FEnSU. This crater is your only source. Choose a launch site far from your base.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:sat_gerald"
+      },
+      "name:8": "Osmiridium \u0026 Gerald",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40308,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_osmiridium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

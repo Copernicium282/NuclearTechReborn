@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Industrial Solidification Machine§f\\n\\n§aFreeze liquids into solids, oil tar, coal tar, and solid fuel on demand.§f\\n\\nThe §bIndustrial Solidification Machine§f does exactly what it says: it turns fluids into solid items through freezing, polymerization, and other processes. It is the mirror of the §bIndustrial Liquefaction Machine§f.\\n\\nThe most common recipe is solidifying §e13,000mB§f Petroil into §e1×§f Solid Fuel. You can also make Oil Tar from §e150mB§f Heavy Oil, Crack Oil Tar from §e200mB§f Cracked Oil, Coal Tar from §e200mB§f Coal Tar Creosote, and Wood Tar from §e1,000mB§f Wood Oil. Check JEI for the full list, it handles a surprising range of fluids.\\n\\n§6Crafting§f (Assembly Machine): §e4×§f Steel Shell, §e12×§f Aluminium Plate, §e4×§f Polymer Bar, §e12×§f Capacitor, §e4×§f Copper Coil.\\n\\n§ePS:§f The Pyrolysis Oven does the same solid fuel conversion but way more efficiently, §e300mB§f Reformate per solid fuel instead of §e750mB§f. But the solidification machine is available much earlier in the progression, so it fills the gap until you unlock the pyrolysis oven.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_solidifier"
+      },
+      "name:8": "Industrial Solidification Machine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40094,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_solidifier"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

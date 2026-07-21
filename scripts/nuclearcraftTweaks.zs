@@ -26,6 +26,15 @@ recipes.remove(<nuclearcraft:part:4>*2);
 recipes.remove(<nuclearcraft:part:8>);
 // added hbm anvil recipe via 1 Electric Motor to 1 Motor
 
+
+// Gate Rock Crusher behind Desh progression
+// Rock Crusher can process Andesite -> dustArsenic (30%), bypassing Desh Anvil tier progression
+// Requires Desh Ingot (from Ore Acidizer progression) instead of Tough Alloy
+recipes.removeByRecipeName("nuclearcraft:rock_crusher");
+recipes.addShaped("RockCrusher", <nuclearcraft:rock_crusher>,
+[[<ore:plateAdvanced>, <ore:motor>, <ore:plateAdvanced>],
+[<ore:actuator>, <ore:chassis>, <ore:actuator>],
+[<ore:plateAdvanced>, <hbm:ingot_desh>, <ore:plateAdvanced>]]);
 // Servomechanism uses motors
 recipes.removeByRecipeName("nuclearcraft:part_7");
 recipes.addShaped("Servo", <nuclearcraft:part:7>,

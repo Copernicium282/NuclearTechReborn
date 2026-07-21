@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40196
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6PUREX Reprocessing Plant§f\n\n§aDon\u0027t throw away spent fuel. The PUREX turns nuclear waste into profit.§f\n\nThe §bPUREX§f (Plutonium Uranium Reduction EXtraction) is a 5×5×5 pseudo-multiblock that reprocesses depleted fuel into useful materials. Most recipes need §bNitric Acid§f and §bKerosene§f.\n\n§6Crafting§f (Assembly Machine, 15s, 100 HE/t):\n§b•§f 4× Steel Shell, 8× Rubber Pipe, 4× Cast Lead Plate, 4× Desh Motor, 4× Integrated Circuit Board\n\n§6What It Can Reprocess§f:\n§b•§f §bDepleted ZIRNOX, PWR, Watz§f and §bPlate Fuel§f\n§b•§f §bDepleted Liquid Thorium Salt§f\n§b•§f §bDepleted ICF Fuel Pellets§f\n§b•§f §bVitrify Nuclear Waste§f into glass\n§b•§f §bExtract Schrabidium§f from schraranium, ZIRNOX Pu fuel, and PWR MEP/MEN fuel (requires Schrabidic Acid, yields §e2×§f the input)\n\n§6GUI§f: 3 input slots + 3 fluid inputs, 6 output slots + 1 fluid output, §e1.0 MHE§f buffer. Template button selects recipe.\n\n§6Auto Switch Groups§f: 5 groups that change recipe based on input, ZIRNOX, Plate, PWR, Watz, and Schrabidium Extraction.\n\n§ePS:§f The PUREX is expensive but pays for itself fast. Every piece of spent fuel you reprocess is material you don\u0027t have to mine or breed.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_purex"
+      },
+      "name:8": "PUREX Reprocessing Plant",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40197,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_purex"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

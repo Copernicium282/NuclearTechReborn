@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    10013,
+    10055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Precision Laser Etcher§f etches Gold, Redstone, and a Silicon Wafer into a §6Basic Circuit Plate§f. This is the board that backs every Basic Circuit and Tracking Circuit in the mod.\n\nThe plate is consumed at a 1:4 ratio by the Cutting Machine to produce Basic Circuits, and you\u0027ll need a lot of them. Every machine, every rocket component, every multiblock uses control circuits, and they all start here.\n\nThere\u0027s also a Precision Laser Etcher recipe that produces 2x plates per craft using four wafers and a lens module. If you can supply the materials, it\u0027s the more efficient path.\n\n§ePS:§f Bulk-produce 32+ plates at a time. You\u0027ll burn through them faster than you think, especially once you start building multiblocks.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:itemcircuitplate"
+      },
+      "name:8": "Basic Circuit Plate",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10056,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:itemcircuitplate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

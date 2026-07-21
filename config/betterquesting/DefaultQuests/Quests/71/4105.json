@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4103
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Shield System§f\\n\\n§aBuild customizable forcefields that block, damage, or camouflage, your base\u0027s invisible wall.§f\\n\\nThe §bShield Projector§f (tiers 1-4) creates energy barriers from shield template blocks. §e200,000 RF§f buffer, §e5,000 RF/t§f input. Tier 1 supports up to §e256 blocks§f of shield.\\n\\n§6Modes§f:\\n§b• Pass/Block§f: Filter by Players, Hostiles, Passives, or All Entities\\n§b• Camouflage§f: Mimic any solid block texture, or go invisible\\n§b• Damage§f: Deal §e5.0 damage§f per hit, costs §e1,000 RF§f per mob, §e2,000 RF§f per player\\n\\n§6Running Costs§f (per 10 active blocks):\\n§b• Base§f: §e8 RF/t§f\\n§b• Shield mode§f: §e+2 RF/t§f\\n§b• Camo mode§f: §e+2 RF/t§f\\n\\nKilling mobs with shield damage grants §bLooting III§f and §e2 Dimensional Shards§f per kill.\\n\\n§9Note:§f Use shield templates to define the shape, then the projector replaces them with energy blocks.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:shield_block1"
+      },
+      "name:8": "Shield System",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4105,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:shield_block1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

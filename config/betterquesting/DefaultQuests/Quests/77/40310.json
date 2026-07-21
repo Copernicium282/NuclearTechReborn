@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40308,
+    40290
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Dark Fusion Core (DFC)§f\n\n§aThe ultimate reactor. GHEs per tick. One mistake and it takes out a huge area.§f\n\nThe DFC is the most powerful reactor in NTM. Components are forged in the Plasma Forge with welded osmiridium plates.\n\n§6Core types§f: Vibrant Singularity (500x), Tiny Wormhole (650x), Eye of Harmony (800x), Thingy (2500x).\n\n§6Fuels§f ranked by energy multiplier: Antischrabidium (2.7), BF Rocket Fuel (2.5), Antimatter (2.2), Schrabidium trisulfide (2.0), Tritium (1.7), Deuterium/Xenon (1.5), Poisonous mud (1.4), Liquid oxygen (1.2), Liquid hydrogen (1.0).\n\n§6Power formula§f: P \u003d (w x 100) x f1 x f2 x c x 95000, where w \u003d emitter input (0-100%), f1/f2 \u003d fuel multipliers, c \u003d core multiplier.\n\n§6Setup§f: Place fuel injector at core position, receiver or tungsten crate within 15 blocks, emitter and stabilizers at matching height, core on top of injector. Compact 3x3 designs are possible.\n\n§cWARNING:§f The beam deals 50 damage and destroys most blocks. The core sets nearby entities on fire. Never approach without Fau armor.\n\n§ePS:§f Start with Vibrant Singularity and basic fuel (Deuterium + Liquid Oxygen). Scale up from there.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:dfc_core"
+      },
+      "name:8": "DFC Basics",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40310,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:dfc_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

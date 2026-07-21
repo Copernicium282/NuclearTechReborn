@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    437
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Particle Chamber Detectors§f\n\n§aTrack particles inside your chambers. Science needs data.§f\n\nDetectors are placed inside Target, Decay, and Collision Chambers to track particle paths. Some chamber recipes require a specific detector tier before they work.\n\nThe three types are: Silicon Tracker Detector (N-Type silicon), Wire Chamber Detector (BSCCO wire + Advanced Processor via NC Infuser), and Bubble Chamber Detector (Bubble Chamber fluid). Each has different capabilities.\n\nBuild at least one of each type. The Collision Chamber especially likes to demand specific detectors. The NC Infuser is the universal upgrader, so route it from your processor production line.\n\n§ePS:§f Detectors also contribute to diagnostic readouts. More detectors means better data about what is happening inside your chamber.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "qmd:particle_chamber_detector"
+      },
+      "name:8": "Particle Chamber Detectors"
+    }
+  },
+  "questID:3": 440,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "qmd:particle_chamber_detector"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "qmd:particle_chamber_detector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

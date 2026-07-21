@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40172
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Uranium-238§f\n\n§aThe boring uranium isotope. Turns out \u0027boring\u0027 has a lot of uses.§f\n\nU-238 makes up ~§e91.6%§f of natural NTM uranium. Not directly fissile, but don\u0027t toss it.\n\nProduction: primarily from the Gas Centrifuge as a byproduct of U-235 enrichment. Small amounts from spent thorium fuel reprocessing.\n\nUses: §bUranium Fuel§f (mixed with U-235 at 5:1 ratio), §bMOX Fuel§f (mixed with plutonium), §bRTG Pellets§f (5 HE/t, lasts 720M ticks with decay, total 3.6B HE), §bDepleted Uranium Weapons§f (increased damage and penetration), §bSelf-Charging Battery§f tier 1 (5 HE/t), and the §bTitanium Filter§f for Watz.\n\nContributes §e1.1§f to the custom nuke.\n\nIt also breeds into §bReactor Grade Plutonium§f.\n\n§ePS:§f U-238 is the workhorse. It\u0027s produced in large quantities as a byproduct. Store it for MOX fuel and DU ammunition.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_u238"
+      },
+      "name:8": "Uranium-238",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40174,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_u238"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

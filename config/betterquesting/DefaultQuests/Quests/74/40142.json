@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40097
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Chlorine Gas§f\n\n§aCorrosive and toxic - the gas that powers PVC, HPS, phosgene, and chemical weapons!§f\n\nChlorine Gas is a corrosive, toxic gas produced in the §bCombination Oven§f and §bElectrolysis Machine§f. It is critical for §bPVC§f, §bHPS§f, §bPhosgene§f, and various chemical weapons.\n\n§6Production§f:\n§b• Combination Oven§f: Chlorocalcite → §e250mB§f, Molysite → §e250mB§f, Sodalite → §e100mB§f, Glowstone Dust + Sulfur → §e100mB§f.\n§b• Electrolysis Machine§f: Potassiumchloride or Calciumchloride Solution → §e125mB§f Chlorine Gas.\n\n§6Uses§f:\n§b•§f PVC Bar: §e250mB§f + §e250mB§f Unsaturated Hydrocarbons + Cadmium Powder → §e2×§f PVC.\n§b•§f HPS: §e250mB§f + §e750mB§f Reformate Gas → §e1,000mB§f.\n§b•§f Phosgene: §e500mB§f + §e500mB§f Unsaturated Hydrocarbons → §e1,000mB§f.\n§b•§f Mustard Gas: §e250mB§f + §e750mB§f Reformate Gas + Sulfur.\n§b•§f Chlorinated Petroleum Wax: §e100–250mB§f + Oil Tar or Paraffin Wax.\n§b•§f 16\" Chlorine Gas Artillery Shells: §e4,000mB§f per shell.\n\n§ePS:§f The §bChlorocalcite§f route via the Combination Oven is most efficient at §e250mB§f per operation. Stockpile Chlorine Gas whenever you run your oven - it feeds into multiple mid-game chains!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 90,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Chlorine Gas",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40142,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 90,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

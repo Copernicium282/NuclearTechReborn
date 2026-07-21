@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40142
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6High-Performance Solvent§f\n\n§aRadioactive, corrosive, and essential for bedrock ore processing and fullerene production!§f\n\nHigh-Performance Solvent (HPS) is a corrosive, flammable, radioactive liquid made from §bReformate Gas§f and §bChlorine Gas§f in the §bIndustrial Mixer§f. It is required for full §bBedrock Ore§f processing and §bFullerene Solution§f production.\n\n§6Production§f:\n§b•§f §e750mB§f Reformate Gas + §e250mB§f Chlorine Gas → §e1,000mB§f HPS.\n§b•§f RBMK Irradiation Channel: Chlorinated Petroleum Wax → §e100mB§f HPS.\n\n§6Uses§f:\n§b•§f Ore Acidizer: §e250mB§f HPS for cleaning bedrock ore primary fractions.\n§b•§f Fullerene Solution: §e500mB§f HPS + Fine Soot → §e250mB§f.\n§b•§f Cadmium and Arsenic extraction from plants and scraps.\n\n§cWARNING:§f HPS is radioactive, corrosive, AND flammable. Store it only in §bHazardous Material Tanks§f - never standard fluid tanks!\n\n§ePS:§f HPS enables access to §bfullerene§f and §bcrystalline fullerite§f, critical for late-game machines. The Chlorine Gas + Reformate Gas recipe is the most practical route.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 88,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "High-Performance Solvent",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40123,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 88,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

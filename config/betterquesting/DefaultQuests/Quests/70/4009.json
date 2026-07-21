@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4001
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§63D Printer§f\\n\\n§aDesign custom blocks with weird shapes, colors, and light levels.§f\\nThe 3D Printer fabricates decorative blocks with custom models, collision boundaries, and redstone behavior. Great for building custom indicators, decorative facades, or light sources that look like nothing else in the game.\\n\\n§6Materials§f:\\n§bChamelium§f: Structural filament. Each piece gives §e2,000 material units§f.\\n§bInk Cartridge§f: Colorant. Each gives §e50,000 ink units§f.\\nPrinting costs §e100 energy§f per model.\\n\\n§6Print Properties§f:\\nMax base light level: §e8§f (boost with Glowstone Dust).\\nCustom redstone output (signal 1-14): costs §e300 extra material units§f.\\nNon-collidable states (noclip): §e2x§f Chamelium cost.\\nMax complexity: §e24 shapes§f per state.\\n\\nPut a bad print back into the printer for a §a75% material refund§f.\\n\\n§ePS:§f Chamelium is edible. Eating it grants Invisibility but also Blindness. Don\u0027t ask why.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "opencomputers:printer"
+      },
+      "name:8": "3D Printer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4009,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "opencomputers:printer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

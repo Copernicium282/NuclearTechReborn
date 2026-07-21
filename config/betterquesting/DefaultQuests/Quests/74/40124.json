@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    40112,
+    40070
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Perfluoromethyl§f\n\n§aThe only coolant with a cold variant - powers reactors, PWRs, and particle accelerators!§f\n\nPerfluoromethyl is a specialized coolant derived from oil. It has three temperature variants: §bStandard§f (§e15°C§f), §bHot§f (§e250°C§f), and §bCold§f (§e-150°C§f). It holds §e300 TU/mB§f, matching the best coolants in the mod.\n\n§6Production§f:\n§b•§f §e500mB§f Unsaturated Hydrocarbons + §e1,000mB§f Petroleum Gas + Fluorite → §e1,000mB§f Perfluoromethyl.\n\n§6Uses§f:\n§b•§f RBMK Fluid Heaters, PWR, and ICF: standard coolant at §e300 TU/mB§f.\n§b•§f Particle Accelerator: requires §bCold Perfluoromethyl§f (-150°C), compressed twice.\n§b•§f Control Units: standard perfluoromethyl for control units, cold variant for quantum computers.\n\n§ePS:§f Perfluoromethyl is not consumed in normal cooling cycles - it heats up and needs to be cooled back down. But §bparticle accelerators§f consume cold perfluoromethyl constantly, even when idle. Turn off compressors when not running experiments to save power!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 145,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Perfluoromethyl",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40124,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 145,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

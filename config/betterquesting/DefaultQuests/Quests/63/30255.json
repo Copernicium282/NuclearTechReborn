@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Steam Power Generation§f\n\n§aConverting thermal energy to electrical power via steam.§f\nSteam power is the standard way to get RF from nuclear reactors. Heat water in a §bCoolant Heater§f or §bSteam Generator§f, pipe the resulting §bHigh Pressure Steam§f into a §bSteam Turbine§f, and collect the RF.\n\nThe basic loop: Water in, heat from reactor, steam out, turbine spins, RF comes out. Simple in concept, but the execution requires careful pipe routing and fluid management.\n\n§ePS:§f Steam power scales well with reactor size. Build bigger turbines and more heaters as your reactor output grows. It\u0027s the most efficient way to convert nuclear heat to power.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ncsteamadditions:steam_boiler"
+      },
+      "name:8": "Steam Power Generation",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30255,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ncsteamadditions:steam_boiler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

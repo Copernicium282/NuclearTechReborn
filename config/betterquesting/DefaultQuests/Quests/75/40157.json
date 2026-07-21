@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Transport Drones§f\n\n§aFlying robots that carry items and fluids along programmed routes. The future of logistics.§f\n\nTransport Drones follow waypoint routes, loading and unloading at §bTransport Drone Crates§f. They carry both solids and fluids. Four variants exist:\n\n§bTransport Drone§f: 7.5 blocks/s. §bExpress Transport Drone§f: 22.5 blocks/s (needs Kerosene). §bChunkloading Transport Drone§f: loads chunks along route. §bChunkloading Express§f: fastest + chunkloading combined.\n\nSet routes with the §bDrone Linker§f (RMB to set, Shift+RMB to clear). Waypoints alter the path to avoid obstacles, with configurable height. Crates have 18 slots and 64,000mB fluid buffer.\n\n§ePS:§f Drones are ideal for transporting materials between distant bases. The Chunkloading Express Drone keeps chunks loaded along its route, preventing supply gaps.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:drone"
+      },
+      "name:8": "Transport Drones",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40157,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:drone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

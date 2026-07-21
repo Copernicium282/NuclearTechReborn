@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    40071
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Coal Gasoline§f\n\n§aCoal-derived fuel with massive energy density - 6.35 MTU per bucket from coal and heavy oil!§f\n\nCoal Gasoline is a hybrid fuel produced by processing §bHeavy Oil§f with coal products or by hydrotreating §bCoal Oil§f. At §e6.35 MTU§f and §e9.52 MHE§f per bucket, it is one of the most energy-dense liquid fuels available.\n\n§6Production§f:\n§b• Hydrotreater§f: §e1,000mB§f Coal Oil + §e100mB§f Liquid Hydrogen → §e800mB§f Coal Gasoline + §e150mB§f Sour Gas.\n§b• Fractioning Tower§f: §e100mB§f Coal Oil → §e30mB§f Coal Gasoline + §e70mB§f Crude Oil.\n\n§6Uses§f:\n§b•§f Leaded Coal Gasoline: §e10,000mB§f + Tetraethyllead → §e12,000mB§f (§e9.52 MTU§f / §e14.2 MHE§f).\n§b•§f Generator fuel for massive power output.\n§b•§f Chainsaw fuel.\n\n§ePS:§f Coal Gasoline has roughly §e10×§f the energy density of regular Gasoline! The Hydrotreater route is most efficient. Adding Tetraethyllead gives a §e20%§f volume bonus - worth the cost.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 47,
+        "id:8": "hbm:fluid_barrel_full"
+      },
+      "name:8": "Coal Gasoline",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40125,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16000,
+          "Damage:2": 47,
+          "id:8": "hbm:fluid_barrel_full"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

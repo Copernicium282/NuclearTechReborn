@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Charger turns Certus Quartz Crystals into Charged Certus Quartz Crystals. Drop a crystal in the slot, and it charges up automatically.\n\nIt has a 1600 AE internal buffer and charges at 160 AE per crank turn if you are using manual power, or draws directly from your AE network when connected via cable. One crystal per charge cycle.\n\nIt also charges other AE2 items like the Entropy Manipulator and Wireless Terminal, so keep it around.\n\nMultiple Chargers running in parallel speed up bulk charging. Worth the investment once you are processing a lot of Certus.\n\n§ePS:§f Place the Charger directly on a cable. It connects to the network like any other device.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:charger"
+      },
+      "name:8": "Charger",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30146,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:charger"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

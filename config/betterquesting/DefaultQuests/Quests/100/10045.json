@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10019
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "AR machines need to talk to each other, and they don\u0027t use pipes for that. The §6Data Bus§f is the cable that carries data signals between machines, satellites, and stations.\n\nThink of it as the data-layer equivalent of fluid ducts. Data Units flow through these, and you can run multiple channels simultaneously. Place them in a line, right-click each endpoint with a Linker to bind them, and you\u0027re set.\n\nNo power draw, no resource cost per tick, it just works. The catch is range: each segment handles about 32 blocks before the signal degrades. For longer runs, chain multiple buses with a repeater every 30 blocks.\n\nThis is the only way to move Planet ID Chip data, satellite ore maps, and research results between AR machines.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:loader"
+      },
+      "name:8": "Data Bus",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10045,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:loader"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

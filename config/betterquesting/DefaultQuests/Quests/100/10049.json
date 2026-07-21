@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    10048
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Space is trying to kill you. The §6Space Suit§f is the thing that stops it.\n\nCraft the full set at the Suit Workstation: helmet, chest-piece, leggings, boots. The chest-piece is the core, it holds the oxygen supply and provides pressure sealing, thermal regulation, and knockback resistance from rocket exhaust.\n\nWithout the full set, you don\u0027t get pressure sealing, and partial suits won\u0027t keep you alive in vacuum. The internal tank holds about 30 minutes of oxygen, refilled at a Gas Charge Pad.\n\nYou need this for any mission beyond Earth-like worlds, every space station visit, and basically anywhere that isn\u0027t breathable air.\n\n§cWARNING:§f Running out of oxygen in vacuum is instant death. Always refill at a Gas Charge Pad before leaving.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:spacechestplate"
+      },
+      "name:8": "Space Suit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10049,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:spacehelmet",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:spacechestplate",
+          "tag:10": {}
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:spaceleggings",
+          "tag:10": {}
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:spaceboots",
+          "tag:10": {}
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "advancedrocketry:pressuretank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

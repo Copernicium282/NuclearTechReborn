@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40008
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Steel§f\n\n§aThe backbone of every machine from here on out. Get used to making it.§f\n\n§bSteel§f unlocks the industrial age. You need it for machine casings, tools, weapons, and pretty much everything that isn\u0027t copper.\n\n§6Ways to make it§f:\n§b• Blast Furnace§f: iron + coal (ore + flux/coke gives 2-3 ingots per batch)\n§b• Crucible§f: iron + carbon for small batches\n§b• Rotary Furnace§f: iron + coal/coke for automation\n§b• Bedrock Fragments§f: iron bedrock ore + coal/coke/flux in rotary (2-4 ingots)\n\n§ePS:§f Smelting ore directly with flux or coke in the blast furnace gives the best yields. Four steel deco blocks scrappable at the anvil for 1 ingot in a pinch.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_steel"
+      },
+      "name:8": "Steel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40010,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_steel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

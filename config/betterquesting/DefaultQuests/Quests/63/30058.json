@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30043
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Reactor Builder§f\n\n§aAn automation tool for reactor construction.§f\nThe §bReactor Builder§f is a device that helps you construct multiblock reactors. It automates the placement of reactor components according to a predefined layout, saving you from manually placing hundreds of blocks one by one.\n\nUse it to speed up reactor construction, especially for large designs. Place the builder, load it with components, and let it do the work while you focus on other things in your base.\n\n§ePS:§f The Reactor Builder is useful but not essential. Manual placement works fine for smaller reactors. It really shines when you\u0027re building 15x15+ designs where placing every block by hand gets tedious.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:solid_fission_controller"
+      },
+      "name:8": "Reactor Builder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30058,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:solid_fission_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

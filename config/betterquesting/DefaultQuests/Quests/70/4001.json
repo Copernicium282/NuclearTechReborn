@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Screens \u0026 Keyboards§f\\n\\n§aA computer with no screen is just an expensive heater. Fix that.§f\\nComputers are headless by default. To see anything, you need a screen and a keyboard.\\n\\n§6Screen Tiers§f:\\n§bTier 1§f: 50x16 monochrome.\\n§bTier 2§f: 80x25, 16 colors.\\n§bTier 3§f: 160x50, 256 colors.\\n\\n§6Multiblock Displays§f:\\nPlace screens next to each other and they merge into one big display, up to 8 wide and 6 tall. Each screen block costs 0.05 energy per tick, so a 3x2 array eats 0.3/tick.\\n\\n§6Input§f:\\nScreens are output only. Attach a Keyboard to one face to type commands. Tier 2 and 3 screens also support direct mouse touch.\\n\\n§ePS:§f Right-click a screen with a keyboard attached to open the terminal.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "opencomputers:screen1"
+      },
+      "name:8": "Screens \u0026 Keyboards",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4001,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "opencomputers:screen1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Juicer§f\n\n§aExtract juices, make smoothies, milkshakes, butters, and condiments.§f\n\nThe §bJuicer§f is the most versatile cooking utensil in HarvestCraft. It produces all fruit juices (§e26+ types§f), smoothies, milkshakes, nut butters, and many condiments and specialty drinks.\n\n§6Crafting§f:\n§eShapeless recipe:§f\n§b• 1× Stone§f\n§b• 1× Pressure Plate§f\n\n§6Recipe Categories§f:\n§b• Juices§f (§e2 fruit per juice§f): Apple, Carrot, Blackberry, Raspberry, Blueberry, Cactus Fruit, Cherry, Cranberry, Grape, Kiwi, Lime, Mango, Plum, Pear, Apricot, Fig, Grapefruit, Persimmon, Orange, Papaya, Peach, Pomegranate, Starfruit, Strawberry.\n§b• Smoothies§f (fruit + snowball): Strawberry, Blueberry, Melon, Lemon, Papaya, Starfruit, Banana, Coconut, Mango, Pomegranate, Kiwi, Apple, Cranberry, Grape, Plum, Pear, Blackberry, Raspberry.\n§b• Milkshakes§f: Strawberry, Chocolate, Banana, Raspberry.\n§b• Nut Butters§f: Almond Butter, Cashew Butter, Chestnut Butter, Peanut Butter, Pistachio Butter.\n§b• Condiments§f: Mayo, Ketchup, Mustard, Soy Sauce, Vinegar, BBQ Sauce, Salsa, Hot Sauce.\n§b• Specialty§f: Cooking Oil, Sesame Oil, Egg Nog, Fruit Punch, Hot Chocolate, Pina Colada, Bubbly Water, Lemonade, Energy Drink.\n\n§6Usage§f:\n§9Place the Juicer§f in a crafting grid with the recipe\u0027s ingredients. The Juicer is reusable and does not get consumed. Most juice recipes yield §e2 juice§f per §e2 fruit§f input.\n\n§eTip§f: The Juicer pairs with a fruit tree farm for juice production and a §bPresser§f for cooking oil. Set up a juicer early, as juices are a reliable food source and many are used in downstream recipes (smoothies, sodas, cocktails).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:juiceritem"
+      },
+      "name:8": "Juicer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30120,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:juiceritem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

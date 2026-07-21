@@ -1,0 +1,77 @@
+{
+  "preRequisites:11": [
+    30142
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "AE2\u0027s §6Dusts and Materials§f are the foundation for processors, cores, and tools. The key variants:\n\n§6Certus Quartz Dust§f (material:2): grind Certus Quartz Crystal or Ore in a Macerator. §6Nether Quartz Dust§f (material:3): grind vanilla Nether Quartz. §6Fluix Dust§f (material:8): grind a Fluix Crystal.\n\n§6Charged Certus Quartz Crystal§f (material:1): charge a Certus Quartz Crystal in a §6Charger§f. §6Pure Certus Quartz Crystal§f (material:10): grow a Certus Quartz Bud in a §6Crystal Growth Accelerator§f. §6Pure Nether Quartz Crystal§f (material:11): grow a Nether Quartz variant similarly.\n\n§ePS:§f Set up a Macerator farm with both Certus and Nether Quartz Ore to produce dusts in bulk. The §6Quartz Grindstone§f is a cheap early alternative to the Macerator.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Dusts \u0026 Materials",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30211,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 2,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 3,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 8,
+          "id:8": "appliedenergistics2:material"
+        },
+        "3:10": {
+          "Count:3": 8,
+          "Damage:2": 5,
+          "id:8": "appliedenergistics2:material"
+        },
+        "4:10": {
+          "Count:3": 4,
+          "Damage:2": 9,
+          "id:8": "appliedenergistics2:material"
+        },
+        "5:10": {
+          "Count:3": 4,
+          "Damage:2": 6,
+          "id:8": "appliedenergistics2:material"
+        },
+        "6:10": {
+          "Count:3": 4,
+          "Damage:2": 52,
+          "id:8": "appliedenergistics2:material"
+        },
+        "7:10": {
+          "Count:3": 4,
+          "Damage:2": 40,
+          "id:8": "appliedenergistics2:material"
+        },
+        "8:10": {
+          "Count:3": 2,
+          "Damage:2": 41,
+          "id:8": "appliedenergistics2:material"
+        },
+        "9:10": {
+          "Count:3": 2,
+          "Damage:2": 42,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

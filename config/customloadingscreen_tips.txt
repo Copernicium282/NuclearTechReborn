@@ -1,30 +1,25 @@
-Connect with other players on the official Discord server, which can be accessed from the Main Menu.
-Contribute or report bugs on GitHub.
-Use the JEI search bar to find any recipe or item info.
-Refer to the quest book for guidance (note that it is a work in progress).
-Machines produce visible pollution — plan your factory layout accordingly.
-Never explore without good armor, weapons, and a plan for retreat.
-Research any SCPs you encounter, but proceed with extreme caution.
-You cannot craft a Nether Portal; dig down to reach the Nether instead.
-Dig to bedrock to access The Beneath.
-Never build multiblocks on chunk borders — they will break.
-If something feels too tedious, you are probably doing it wrong. Check JEI.
-Automate tasks as early as possible to save time in the long run.
-The SILEX machine reprocesses depleted nuclear fuel — the Fuel Reprocessor is disabled for most fuels.
-SILEX recipes require Nitric Acid and a Laser Crystal (CO₂ for LEU, Bismuth for HEU).
-Craft Nitric Acid using the Catalytic Chemistry Reactor: Nitrogen → Nitric Oxide → NO₂ → Nitric Acid.
-All Chemistry Reactor recipes require a Catalyst, made in the NC Assembler.
-HBM and NuclearCraft share plates — the NC Pressurizer outputs HBM plates for Iron, Gold, Titanium, Copper, Aluminum, and Steel.
-Steam Condensers (Mk I–III) convert exhaust steam back to water. Build one early for your turbines.
-Basic Plating, Solenoids, and Electric Motors are crafted at the HBM Anvil, not in the crafting table.
-The Decay Hastener is an endgame item — it requires Solinium nuggets and Euphemium.
-Solinium fuels come in three enrichment tiers: HES, MES, and LES. Made from HBM Solinium billets.
-Rocket engines and fuel tanks use HBM thrusters and fuselages — check JEI for the new recipes.
-The Warp Core requires Schrabidium blocks — save your Schrabidium for space travel.
-Use Iron Backpacks for extra inventory space.
-Build radiation protection pills early: Iodine Pills, FNZP Tablets, and Radaway are craftable.
-For serious radiation, craft Strong Radaway or Radaway Flush for greater decontamination.
+Use the JEI search bar to look up recipes and item uses before asking in Discord.
+The quest book guides your progression. Press the quest key to open it.
+Machines produce visible pollution. Plan your factory layout to keep pollution away from your base.
+Never explore without armor, weapons, and a way home.
+You cannot craft a Nether Portal in this pack. Dig down to reach the Nether instead.
+Dig to bedrock to access The Beneath dimension.
+Never build multiblocks across chunk borders. They will break when chunks unload.
+The SILEX machine reprocesses depleted nuclear fuel. The default Fuel Reprocessor is disabled for most fuels.
+SILEX recipes need Nitric Acid and a Laser Crystal. CO2 crystals work for LEU fuel, Bismuth for HEU.
+Craft Nitric Acid in the Catalytic Chemistry Reactor: Nitrogen to Nitric Oxide to NO2 to Nitric Acid.
+All Chemistry Reactor recipes require a Catalyst, crafted in the NC Assembler.
+HBM and NuclearCraft share plates. The NC Pressurizer outputs HBM plates for Iron, Gold, Titanium, Copper, Aluminum, and Steel.
+Steam Condensers (Mk I-III) convert exhaust steam back into water. Build one early if you use turbines.
+Basic Plating, Solenoids, and Electric Motors are crafted at the HBM Anvil, not in a crafting table.
+The Decay Hastener is an endgame machine. It requires Solinium nuggets and Euphemium to craft.
+Solinium fuels come in three enrichment tiers: HES, MES, and LES. They are made from HBM Solinium billets.
+Rocket engines and fuel tanks use HBM thrusters and fuselages. Check JEI for the crafting recipes.
+The Warp Core requires Schrabidium blocks. Save your Schrabidium for space travel.
+Craft radiation protection early: Iodine Pills, FNZP Tablets, and Radaway are all available.
+For severe radiation exposure, use Strong Radaway or Radaway Flush.
 Speed and Energy Upgrades for NuclearCraft machines require the Researcher machine.
-Modular Machinery hatches come in 7 tiers: upgrading requires the previous tier + circuits.
-Jetpacks start at Copper tier — the Wood and Stone tiers are disabled.
-Allocate at least 4 GB of RAM and lower render distance for better FPS.
+Jetpacks start at Copper tier. The Wood and Stone tiers are disabled in this pack.
+If something feels too tedious, you are probably doing it wrong. Check JEI for alternative recipes.
+Never leave a reactor running unattended. Check your coolant levels and neutron flux regularly.
+Connect with other players on the official Discord server, linked from the Main Menu.

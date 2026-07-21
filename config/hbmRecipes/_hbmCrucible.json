@@ -3,11 +3,12 @@
   "recipes": [
     {
       "name": "crucible.steel",
-      "frequency": 2,
+      "frequency": 20,
       "icon": ["hbm:ingot_steel"],
       "input": [
         ["Iron",16],
-        ["Carbon",8]
+        ["Carbon",24],
+        ["Flux",8]
       ],
       "output": [
         ["Steel",16]
@@ -49,18 +50,6 @@
       ],
       "output": [
         ["Mingrade",16]
-      ]
-    },
-    {
-      "name": "crucible.aa",
-      "frequency": 2,
-      "icon": ["hbm:ingot_advanced_alloy"],
-      "input": [
-        ["Steel",8],
-        ["Mingrade",8]
-      ],
-      "output": [
-        ["AdvancedAlloy",16]
       ]
     },
     {

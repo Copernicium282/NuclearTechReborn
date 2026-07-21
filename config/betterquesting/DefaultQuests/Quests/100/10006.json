@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    10004,
+    10005
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Crystallizer§f grows silicon crystals from molten silicon and is the only way to produce silicon wafers in Advanced Rocketry. It is the second step in the silicon pipeline after the Quartz Crucible.\n\nThe multiblock is a 3x3x3 hollow cube. Pipe molten silicon in via Liquid IO Circuit Boards and the machine grows crystals over time, yielding 1-2 wafers per cycle.\n\n§cWARNING:§f The Crystallizer needs continuous power. A power loss breaks the growing crystal and you start over. Never place water above a growing crystal either, it will be destroyed.\n\n§ePS:§f The Crystallizer is slow but produces high-purity crystals. Gravity matters too, the crystalliserMaximumGravity config is set to 0.0 in this pack, which disables it entirely. You will need to change this config value if you want to use the Crystallizer.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:crystallizer"
+      },
+      "name:8": "Crystallizer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10006,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:crystallizer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

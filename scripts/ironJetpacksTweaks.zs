@@ -48,7 +48,7 @@ recipes.removeByRecipeName("ironjetpacks:advanced_coil");
 recipes.removeByRecipeName("ironjetpacks:elite_coil");
 recipes.removeByRecipeName("ironjetpacks:ultimate_coil");
 recipes.addShapeless("advancedcoil", <ironjetpacks:advanced_coil>, [<hbm:coil_copper>, <minecraft:redstone>]);
-recipes.addShapeless("elitecoil", <ironjetpacks:elite_coil>, [<hbm:coil_advanced_alloy>, <minecraft:redstone>]);
+recipes.addShapeless("elitecoil", <ironjetpacks:elite_coil>, [<hbm:coil_gold>, <minecraft:redstone>]);
 recipes.addShapeless("ultimatecoil", <ironjetpacks:ultimate_coil>, [<hbm:coil_magnetized_tungsten>, <minecraft:redstone>]);
 
 //Upgraded cell recipes

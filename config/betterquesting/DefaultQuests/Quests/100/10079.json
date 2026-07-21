@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10078,
+    10073
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Tired of hunting for redstone? Electric Mushrooms grow on fungus-dominated planets with glowing purple caps that emit redstone-level signals. They\u0027re the final milestone in the alien planet materials questline.\n\nThe mushroom emits a 15-block redstone signal when placed and zaps any mob within 2 blocks with lightning. You can use them as a natural redstone source in remote bases.\n\nAfter completing this quest, you have samples from 7 unique planet types and are ready to begin the Atmosphere Terraformer (10070) and Interstellar Mission chains.\n\n§cWARNING:§f The mushroom emits lightning when touched. Without a Space Suit (10049) with electrical insulation, you take 4 HP per touch. The standard suit handles this.\n\n§ePS:§f Place a ring of 8 mushrooms around a Redstone Lamp for a 15-block-radius redstone alarm system. They also provide light level 12, useful for underground farms.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:electricmushroom"
+      },
+      "name:8": "§6Electric Mushroom§f"
+    }
+  },
+  "questID:3": 10079,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:electricmushroom"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

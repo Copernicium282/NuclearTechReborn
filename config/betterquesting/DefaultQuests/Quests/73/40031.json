@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Lead§f\n\n§aSoft, toxic, and essential for everything from circuits to reactor shielding.§f\n\nLead ore spawns between Y 5 and 35, fairly common at 6 veins per chunk. Smelt it in any furnace. You\u0027ll also get lead nuggets as decay products from reactor fuels later on.\n\nUses are everywhere: §bsoldering§f for circuit production, §bammunition§f, §bradiation protection§f in hazmat suits, §breactor components§f, and a §bLead Anvil§f as an alternative to iron.\n\nKeep a steady supply. It\u0027s cheap, you\u0027ll burn through it fast once electronics come into play, and it only gets more important as you progress.\n\n§ePS:§f Lead is also used in the Watz and breeding reactors. Plan ahead.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_lead"
+      },
+      "name:8": "Lead",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40031,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_lead"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

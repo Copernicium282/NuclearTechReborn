@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Conveyor Splitter§f\n\n§aOne belt in, two belts out, evenly split. Simple but surprisingly useful.§f\n\nConveyor Splitters divide items between two output belts. Good for balancing lanes and preventing clogging in bigger factory setups.\n\nCrafting: §b6x Steel Ingot§f + §b2x Pneumatic Piston§f + §b1x Vacuum Tube§f.\n\n§cImportant:§f Ejectors place items onto whatever belt is directly in front of them. If an ejector faces a splitter with no gap, items skip the splitting entirely and go straight to output. Always leave at least one belt between the ejector and splitter.\n\n§ePS:§f Splitters let you build §bbelt balancers§f, setups that evenly distribute items across multiple lanes so one side doesn\u0027t clog while the other runs empty.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:crane_splitter"
+      },
+      "name:8": "Conveyor Splitter",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40155,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crane_splitter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

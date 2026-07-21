@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    4000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6EEPROM \u0026 BIOS§f\\n\\n§aThe tiny chip that tells your computer how to wake up.§f\\nEvery OC computer needs an EEPROM to boot. The default Lua BIOS looks for a disk drive with an operating system on it.\\n\\n§6Size Limits§f:\\nThe EEPROM holds §e4096 bytes§f of executable code and §e256 bytes§f of configuration data. That\u0027s it. Don\u0027t try to write your OS to it.\\n\\n§6Custom BIOS§f:\\nUse a Blank EEPROM in an EEPROM Writer to flash custom boot code. Writing costs §e50 energy§f, which is deliberately expensive to discourage constant rewrites.\\n\\n§9Boot Order§f:\\nIf you have multiple drives, use §bcomputer.setBootAddress(address)§f in the Lua shell to pick which one to boot from.\\n\\n§ePS:§f OpenComputers runs Lua 5.3 by default. Your BIOS code must conform to the Lua API.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "opencomputers:storage"
+      },
+      "name:8": "EEPROM \u0026 BIOS",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4002,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "opencomputers:storage"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

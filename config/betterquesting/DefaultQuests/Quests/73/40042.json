@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aNether mining pays off with this one.§f\n\nRed phosphorus generates in the Nether as ore veins and is also a byproduct of centrifuging blaze rods. The cyclotron can make it from lithium dust and quartz powder too.\n\nYou\u0027ll need it for matches and for incendiary weapons. It doubles as furnace fuel, smelting 32 operations per piece. Not the most exciting use, but it adds up quickly when you\u0027re processing a lot of materials.\n\n§cWARNING:§f The block form is pyrophoric. Leave it in your inventory long enough and it catches fire. Store it in a chest or drawer, not your hotbar.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:crystal_phosphorus"
+      },
+      "name:8": "Red Phosphorus",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40042,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crystal_phosphorus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

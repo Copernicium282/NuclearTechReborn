@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40277
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Schrabidium Cluster§f\n\n§aConcentrate schrabidium into dense blocks. These are your ticket to euphemium.§f\n\n§bSchrabidium Clusters§f are crafted blocks made from §bStarmetal§f, §bSchrabidium§f, and §bFerric Schrabidate§f. The recipe goes:\n\nSchrabidium + Starmetal + Schrabidium\nStarmetal + Ferric Schrabidate + Starmetal\nSchrabidium + Starmetal + Schrabidium\n\nEach cluster needs starmetal (from the cyclotron), schrabidium (from any production method), and ferric schrabidate (requires a fusion reactor and chemical processing). The ferric schrabidate is usually the bottleneck, so keep your fusion reactor running.\n\n§6What they\u0027re for§f: Place clusters around a balefire bomb, detonate, and the ones touched by balefire become §bEuphemium-Etched Schrabidium Clusters§f. Centrifuge those for euphemium nuggets. Each cluster is expensive, and you need multiple for a meaningful yield.\n\n§ePS:§f Build a big batch before attempting euphemium production. Clusters are immune to all nukes, even the Tsar Bomba, so you can safely detonate without destroying them.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:block_schrabidium_cluster"
+      },
+      "name:8": "Schrabidium Cluster",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40278,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:block_schrabidium_cluster"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

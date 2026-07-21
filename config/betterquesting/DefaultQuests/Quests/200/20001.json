@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    20000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Smoker Block§f\n\n§aSmoke on demand. No fireplace required.§f\nThe §bSmoker§f generates smoke independently without needing a furnace or heat source underneath. Right-click it to open the GUI and tweak everything: particle amount (up to §e16§f), blow-out intensity (up to §e4 blocks§f), particle scale, and color.\n\nThe color picker uses ARGB hex values. The alpha channel controls tint probability: §eFF§f \u003d always tinted, §e7F§f \u003d 50% chance, §e00§f \u003d never. You can also toggle whether it emits smoke from adjacent chimneys and whether it needs a redstone signal.\n\n§9Note:§f Smoke still collides with obstacles and flows around walls. It has a §e10% chance§f of being tinted by any chimney material it passes through.\n\n§ePS:§f Great for atmospheric effects in bases or as visual indicators when machines are running.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "adchimneys:smoker"
+      },
+      "name:8": "Smoker Block",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 20001,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "adchimneys:smoker"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40198
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fission Products: I-131, Cs-137, Sr-90, Po-210\\n\\n§aIsotopes from nuclear waste. Some are trash, some power your RTGs for years.\\n\\n§6Iodine-131 (Radiodine)§f:\\nExtremely radioactive, pyrophoric. ~6.3% of Short-Lived Nuclear Waste. No current uses.\\n\\n§6Caesium-137§f (§e20 RAD/s§f):\\n~9% of short-lived waste. Planned for salted nukes, not yet implemented.\\n\\n§6Strontium-90§f (§e15 RAD/s§f):\\n~5.5% of short-lived waste. Makes §bRTG pellets§f at §e15 power/tick§f, lasting §e208.8M ticks§f (~4 real months). Decays to zirconium.\\n\\n§6Polonium-210§f (§e75 RAD/s§f, pyrophoric):\\nFrom recycling Ra226Be sources or cyclotron. Makes §bPo210Be neutron sources§f (better than Ra226Be), §bRTG pellets§f at §e50 power/tick§f, and §bSelf-Charging Batteries§f at §e1.25 kHE/t§f.\\n\\n§ePS:§f Sr-90 and Po-210 are the money isotopes. Set up a SILEX to process short-lived waste and extract them. Iodine and caesium are just noise for now.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:powder_sr90"
+      },
+      "name:8": "Fission Products: I-131, Cs-137, Sr-90, Po-210",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40214,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:powder_sr90"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

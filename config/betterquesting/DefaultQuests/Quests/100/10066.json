@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    10062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Tired of rockets landing in random fields? The §6Navigation Beacon§f emits a signal that guides rockets to a precise landing zone.\n\nCrafted in vanilla: copper coils, Control Circuit Board, structure block, Tracking Circuit, and iron sheets. Burns 30 RF/t continuously. Any rocket with a Tracking Circuit installed will home in on the beacon and land within 10 blocks of it.\n\nThe GUI shows active rockets in range and their distance. Place a Docking Pad within 10 blocks of the beacon for best results, the rocket prefers the pad over bare ground.\n\n§ePS:§f Put the beacon on a tall pillar, at least 10 blocks high, to maximize signal range. The taller it is, the further rockets can find it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:beacon"
+      },
+      "name:8": "§6Navigation Beacon§f"
+    }
+  },
+  "questID:3": 10066,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:beacon"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:beaconfinder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

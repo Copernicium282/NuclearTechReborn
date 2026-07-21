@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30021
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Energy Upgrade§f\n\n§aCuts power consumption without changing processing speed.§f\nThe §bEnergy Upgrade§f reduces FE consumption per recipe while keeping processing time the same. Pair it with Speed Upgrades to offset the extra power draw, or use it standalone to save energy on machines that aren\u0027t time-critical.\n\nCraft them with §bLapis§f, §bRedstone§f, and a §bLight Weighted Pressure Plate§f. Same cost as Speed Upgrades, different pressure plate.\n\nThe practical difference: Speed Upgrades make things faster but hungrier. Energy Upgrades make things cheaper but don\u0027t speed anything up. The optimal setup is usually a mix of both, depending on how much power you have spare.\n\n§ePS:§f If you\u0027re power-limited, Energy Upgrades are the better first investment. Speed can wait until your generation is solid.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "nuclearcraft:upgrade"
+      },
+      "name:8": "Energy Upgrade",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30023,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "nuclearcraft:upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

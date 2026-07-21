@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40250
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Tungsten Reacher§f §aWithout this, handling radioactive materials is a death sentence.§f §bThe Tungsten Reacher§f is an accessory that cuts radiation dose from handled materials by the §esquare root§f of the original value. Keep it in your inventory for its effects to apply. §6Crafting§f:\n§b• 3×§f Tungsten Bolts + §b1×§f Tungsten Ingot + §b2×§f Rubber Bar → §eTungsten Reacher§f §6Key Benefits§f:\n§b• Radioactive Materials§f, reduces radiation dose by sqrt(original value)\n§b• Pyrophoric Materials§f, prevents self-immolation when handling fire-prone items §ePS:§f This is non-negotiable for handling schrabidium, antimatter, and spent nuclear fuel. It doesn\u0027t need to be equipped, just sitting in your inventory is enough. Craft one before you touch anything glowing.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:reacher"
+      },
+      "name:8": "Tungsten Reacher",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40251,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:reacher"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

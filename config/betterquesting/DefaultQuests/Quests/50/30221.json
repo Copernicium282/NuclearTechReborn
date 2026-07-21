@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30236
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Bloodmoon§f\n\n§aThe moon is red. Something is very wrong.§f\nEvery night has a §c5% chance§f of triggering a §cBloodmoon§f. When it happens, the sky turns crimson, the fog goes pitch black, and the surface becomes a warzone.\n\nMonsters spawn §c4× faster§f with §c4× the normal cap§f, and they can appear as close as §c12 blocks§f away instead of the usual 24. The entire night. No sleeping it off either, since beds and sleeping bags are §cdisabled§f during a Bloodmoon.\n\nThe good news: it\u0027s surface only. Caves are safe. The bad news: those monsters don\u0027t burn at dawn. You either fight them or hide until the area is clear.\n\nYou\u0027ll get a chat warning at dusk when one starts.\n\n§cWARNING:§f Stock up on weapons and food before nightfall. You never know when the next Bloodmoon is coming.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:rotten_flesh"
+      },
+      "name:8": "Bloodmoon",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30221,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:rotten_flesh"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

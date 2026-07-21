@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40197,
+    40209
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Zirconium \u0026 Tantalum\\n\\n§aFuel rod skins and high-end capacitors. One common, one painful to produce.\\n\\n§6Zirconium§f (atomic 40):\\nRare earth metal, high corrosion resistance and melting point. From rare earth ore splinters, cyclotron (strontium + lithium), or depth ore (destroy by explosion to collect).\\nUses: §bRBMK fuel rod skins§f (every rod needs it), §bZFB binders§f for breeder rods, PWR fuel and neutron reflectors, ZIRNOX fuel rods.\\n\\n§6Tantalum§f (atomic 73):\\nVery rare, produced through a long chain: Find §bcoltan deposit§f (one per 1,000 blocks, use coltass to locate) → shred → chemical plant (purified tantalite) → chemical plant (pandemonium solution) → chemical plant (polycrystal) → shred and smelt. Also from PUREX reprocessing of schrabidium Watz fuel.\\nUses: §bTantalum Capacitors§f for bomb control units, quantum computers, and 528 Mode capacitor boards.\\n\\n§ePS:§f Zirconium is everywhere in reactor fuel. Tantalum is a one-time stockpile, set up the coltan chain and grab enough for your capacitor needs.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_zirconium"
+      },
+      "name:8": "Zirconium \u0026 Tantalum",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40218,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_zirconium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

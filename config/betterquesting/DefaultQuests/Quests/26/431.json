@@ -1,0 +1,28 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Samarium Cobalt Magnets§f\n\n§aRare-earth magnets for high-tier cooling. Samarium is not easy to find.§f\n\nSamarium Cobalt Magnets are crafted in an NC Assembler from cobalt ingots and samarium dust. They are used to build Samarium Cobalt Liquefier Compressors, one of the top-tier cooling machines in QMD.\n\nSamarium dust comes from Samarium Ore via the Ore Leacher or NC Mass Spectrometer. The ore is rare, so set up your processing pipeline before committing to multiple compressors. A single compressor needs 4 magnets, and each magnet costs 2 cobalt plus 1 samarium dust.\n\n§ePS:§f Check JEI for the assembler recipe. The magnet chain is short but the ore gathering is not.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 13,
+        "id:8": "qmd:part"
+      },
+      "name:8": "Doped Samarium Oxide"
+    }
+  },
+  "questID:3": 431,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "id:8": "qmd:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

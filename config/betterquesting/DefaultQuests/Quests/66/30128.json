@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30125
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Breakfast Meals§f\n\n§aStart your day with hearty breakfast combos.§f\n\nBreakfast foods restore §e3-15 hunger§f and are crafted using the §bSkillet§f and §bCutting Board§f.\n\n§6Examples§f: Fried Egg (3), Scrambled Egg (3), Omelet (4), Bacon and Eggs (4), Biscuits and Gravy (8), French Toast (8), Pancakes (4), Blueberry Pancakes (7), Cinnamon Toast (7), Hearty Breakfast (15), made from Cooked Pork + Fried Egg + Toast + Potato Cakes + Chocolate Milk).\n\n§eTip:§f Hearty Breakfast is one of the best early-to-mid game foods at 15 hunger per serving.\n\n§6Breakfast Recipes§f:\n§b• Fried Egg§f: Egg in Skillet → §e3 hunger§f\n§b• Scrambled Egg§f: Egg + Milk in Skillet → §e3 hunger§f\n§b• Omelet§f: 2× Egg + Cheese in Skillet → §e4 hunger§f\n§b• Bacon and Eggs§f: Pork + Egg in Skillet → §e4 hunger§f\n§b• French Toast§f: Bread + Egg + Milk in Skillet → §e8 hunger§f\n§b• Pancakes§f: Flour + Egg + Milk in Skillet → §e4 hunger§f\n§b• Hearty Breakfast§f: Cooked Pork + Fried Egg + Toast + Potato Cakes + Chocolate Milk in Cutting Board → §e15 hunger§f\n\n§eTip§f: Craft a §bSkillet§f early, as breakfast foods are quick to make and provide solid hunger restoration for exploration.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:friedeggitem"
+      },
+      "name:8": "Breakfast Meals",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30128,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:friedeggitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:pancakesitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30160
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Interface is how AE2 talks to the rest of your machines. It pushes items from the network into adjacent inventories and pulls items back, bridging the gap between AE2 storage and your processing setup.\n\nIt has 9 config slots to define what items it should keep stocked in the adjacent inventory, 9 storage slots as a buffer, and 36 pattern slots for processing patterns. Configure it with a pattern and it will request crafted items from the network on demand.\n\nInterfaces also work as crafting providers. When a crafting job needs an item that an Interface can supply, it will push the ingredients out automatically.\n\n§ePS:§f Place an Interface on every machine you want AE2 to automate. It is the fundamental building block of any autocrafting setup.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:interface"
+      },
+      "name:8": "ME Interface",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30179,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:interface"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    413
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Target Chamber§f\n\n§aFire particles at things and see what comes out. Science!§f\n\nThe Target Chamber is a square-hollow multiblock that shoots an incoming beam at a central target. Different recipes produce different particles, items, and fluids depending on the target material and beam species.\n\nBuild it as a square footprint with odd dimensions (3x3, 5x5, 7x7). Place a Particle Chamber at the center, beam blocks from the outer face to the center, beam ports on the outside, plus energy and fluid ports. Exactly one beam port must be set to INPUT.\n\nThe P-Type Doped Silicon recipe, for example, takes a Silicon Wafer plus a Boron-11 ion beam at 600 keV and focus 2.0. Check JEI for all available recipes.\n\n§ePS:§f Use the Beam Meter to verify your beam meets the energy and focus requirements before it enters the chamber.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:target_chamber_controller"
+      },
+      "name:8": "Target Chamber"
+    }
+  },
+  "questID:3": 427,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:target_chamber_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "qmd:particle_chamber_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "qmd:particle_chamber_beam"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "qmd:particle_chamber"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "qmd:particle_chamber_beam_port"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "qmd:particle_chamber_energy_port"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

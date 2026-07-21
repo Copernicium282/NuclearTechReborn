@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    30043
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Steam Turbine§f\n\n§aConverts steam into RF power.§f\nThe §bSteam Turbine§f is a multiblock that takes §bHigh Pressure Steam§f and converts it into RF. It\u0027s the primary power generation method for nuclear setups that use steam as an intermediary between reactor heat and electrical output.\n\nBuild the turbine structure with §bTurbine Blades§f, §bShafts§f, and §bRotors§f. The more blades and the larger the structure, the more power it produces. A basic turbine generates around §b16,000 RF§f base capacity.\n\n§ePS:§f The turbine needs a steady steam supply. Pair it with a §bTurbine Controller§f and pipe in steam from your reactor or steam production setup for continuous power generation.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:turbine_controller"
+      },
+      "name:8": "Steam Turbine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30050,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:turbine_controller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:turbine_rotor_bearing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:turbine_rotor_shaft"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:turbine_rotor_blade_steel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40204
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Thorium Fuel\\n\\n§aCheap, self-breeding, and the safest RBMK fuel in the game.\\n\\n§bThorium Fuel§f is a 2:1 mix of Th-232 (fertile) and U-233 (fissile). One of the weakest fuels, but breeds more fissile material than it consumes.\\n\\n§6Production§f:\\n• §bBreeding Reactor§f: Th-232 quad rod at §e1,500§f flux → thorium fuel\\n• §bManual§f: 2 U-233 nuggets + 4 Th-232 nuggets → thorium fuel billet (shapeless)\\n\\n§6ZIRNOX Thorium Fuel§f (§e40 heat/t§f, §e200,000 ticks§f):\\nSits between NU and MEU in power. Recycling yields more U-233 than consumed, making it self-sustaining.\\n\\n§6Breeding Rods (ZIRNOX)§f:\\nTh-232 → U-233 via neutron activation. No flux/heat until breeding completes. §e20,000 tick§f lifespan.\\n\\n§6RBMK ThMEU§f: Euler flux function, physically cannot exceed §e20 flux§f output. Boosted slope depletion means it gets stronger as it burns. Excellent for stabilizing dangerous fuels.\\n\\n§ePS:§f The thorium cycle is renewable. Breed Th-232 in a breeding reactor, process spent rods in SILEX, reinvest the U-233.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_th232"
+      },
+      "name:8": "Thorium Fuel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40219,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_th232"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

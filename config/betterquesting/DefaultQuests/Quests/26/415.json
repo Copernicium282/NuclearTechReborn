@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    413
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Accelerator Ion Source§f\n\n§aThe fuel injector. Without it, no particles. No particles, no science.§f\n\nThe ion source sits at one end of the LINAC center beamline, pointing inward. Feed it fuel canisters like Hydrogen Canisters and it produces a particle beam. The multiblock validation requires an ion source on one end and a beam port on the other.\n\nWithout an ion source, the accelerator will not form. The validation error will tell you something like \u0027no_source\u0027 if you forget.\n\nCraft it from advanced plating and accelerator casing. Check JEI for the exact recipe.\n\n§ePS:§f The laser ion source variant exists too, but that is a later upgrade.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:accelerator_source"
+      },
+      "name:8": "Accelerator Ion Source"
+    }
+  },
+  "questID:3": 415,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:accelerator_source"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

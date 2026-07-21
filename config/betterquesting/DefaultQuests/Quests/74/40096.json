@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40085
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Pyrolysis Oven§f\\n\\n§aLate-game thermal processor, fullerene, fine soot, and way more efficient solid fuel.§f\\n\\nThe §bPyrolysis Oven§f is a post-RBMK machine that processes items with optional fluid inputs. It requires §bCrystalline Fullerite§f to craft, which means you need an initial supply before you can build your first one.\\n\\nThe biggest win: it converts §e4×§f Coal Tar into Fine Soot plus §e1,000mB§f CO2, eliminating the RNG of the industrial smokestack for soot production. It also makes solid fuel at §e300mB§f per piece instead of §e750mB§f in the solidification machine, more than double the efficiency.\\n\\nOther recipes in JEI: §e12,000mB§f Natural Gas → §e8,000mB§f Liquid Hydrogen + Graphite Ingot, and various coal-to-fuel conversions like Coal Gasoline and Syngas.\\n\\n§6Crafting§f (Assembly Machine): §e16×§f Welded Steel Plate, §e16×§f PVC Bar, §e4×§f Crystalline Fullerite, §e12×§f Copper Pipe, §e1×§f Desh Motor, §e1×§f Versatile Circuit Board.\\n\\n§ePS:§f The pyrolysis oven is the primary machine for bulk Crystalline Fullerite production. Once you have one, it starts feeding itself, but you need that first batch from somewhere else to kick things off.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_pyrooven"
+      },
+      "name:8": "Pyrolysis Oven",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40096,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_pyrooven"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

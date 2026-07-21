@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40310
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6DFC Components \u0026 Operation§f\n\n§aEmitter, receiver, stabilizer, injector. Cool the emitter or it becomes lava.§f\n\n§bEmitter§f: Supplies energy to trigger the reaction. §cMust be cooled with cryogel§f or it melts into a lava source block instantly. Output adjustable 1-100%. Multiple emitters can be chained at 95% efficiency each.\n\n§bReceiver§f: Absorbs the beam and outputs electricity. Must point toward the beam arrival direction. Also requires cryogel cooling.\n\n§bStabilizer§f: Contains the core reaction via a restriction field. Requires a lens (high durability, eventually needs replacement). Output adjustable 1-100%, higher values mean stronger restriction but more power and lens wear. If restriction hits 0%, the DFC explodes.\n\n§bFuel Injector§f: Supplies two fuel types to the core via pipes. No container slots, fluid identifiers auto-update fuel types. No power required.\n\n§bTungsten Crate§f: Alternative to the receiver. Uses beam heat to instantly smelt items and transmute polonium-210 into yharonite.\n\n§cWARNING:§f Heat saturation reaching 100% also causes an explosion. Monitor both restriction and heat levels at all times.\n\n§ePS:§f Use 2 stabilizers for redundancy. Install a High Energy Field Jammer before first startup.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:dfc_emitter"
+      },
+      "name:8": "DFC Components \u0026 Operation",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40311,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:dfc_emitter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40102
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Bedrock Ore Processing§f\\n\\n§aMulti-stage processing for infinite resources  -  centrifuge, wash, roast, repeat!§f\\n\\nBedrock ore processing has several stages, each adding byproducts and boosting yields. All ore types share the same chain, so one setup handles everything.\\n\\n§6The Chain§f:\\n§b1. Slopping§f: Processor splits raw ore into categories.\\n§b2. Centrifuging§f: First pass creates second-stage ore.\\n§b3. Washing§f (Ore Acidizer)  -  the key step:\\n§b•§f §bWater§f before centrifuging doubles all products. Free and huge.\\n§b•§f Sulfuric Acid adds tier 1 byproducts.\\n§b•§f Solvent adds tier 2 byproducts.\\n§b•§f High-Performance Solvent adds all three tiers.\\n§b•§f Liquid Hydrogen boosts primary yield.\\n§b•§f Chlorine Gas boosts secondary yield.\\n§b4. Roasting§f (Combination/Pyrolysis Oven) gives Vitriol as a free bonus.\\n\\n§6Stages§f: Raw to Centrifuged to Cleaned to Separated to Purified or Nitrated to Nitrocrystalline to Deep Cleaned or Seared.\\n\\n§cWARNING:§f Never skip the water wash. It doubles everything for zero cost!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:bedrock_ore_base"
+      },
+      "name:8": "Bedrock Ore Processing",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40103,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:bedrock_ore_base"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

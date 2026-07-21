@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    10028
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Need to change your rocket\u0027s destination without climbing into the seat? The §6Guidance Computer Access Hatch§f gives you remote access to the Guidance Computer from outside the rocket frame.\n\nPlace it adjacent to the Rocket Assembling Machine, link it with a Linker, and you get a mirror of the computer\u0027s GUI. Insert Planet ID Chips, Space Station ID Chips, configure launch parameters, all from ground level.\n\nThis is essential for automated launch systems where you don\u0027t want someone sitting in every rocket. The hatch works within a short range of the computer, so you\u0027ve got some flexibility in placement.\n\n§ePS:§f Use a Wrench to rotate the hatch so its GUI face points toward your logistics corridor. Multiple hatches can connect to the same computer.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "advancedrocketry:loader"
+      },
+      "name:8": "Guidance Computer Access Hatch",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10047,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "advancedrocketry:loader"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

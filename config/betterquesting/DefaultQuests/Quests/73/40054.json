@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40039
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aYour gateway to mid-game and beyond.§f\n\nThe Soldering Station is where circuits and machine upgrades get made. Craft it at the Tier 2 Anvil from cast steel plates, copper coils, tungsten bolts, and vacuum tubes.\n\nIt starts with the Analog Circuit Board, the first circuit tier and the gate to everything mid-game. From there you unlock machine upgrades like Speed, Effectiveness, and Overclock, plus the higher circuit tiers.\n\nThe station draws 100 HE/t for basic recipes and more for upgrades. Feed it capacitors, PCBs, and lead wire.\n\n§ePS:§f This machine is worth automating early. You\u0027ll be coming back to it constantly.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_soldering_station"
+      },
+      "name:8": "Circuit Production",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40054,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_soldering_station"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    10015
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Electrolyser§f uses electrical current to break down molten compounds into their elements. Water becomes hydrogen and oxygen, sapphire oxide becomes aluminum and other metals. It is the keystone machine for fluid chemistry in the AR progression.\n\nThe multiblock is 3x4x4 with Structure Blocks, Coils, Liquid IO Boards, and a Control Circuit Board. Power is 20 RF/t baseline, scaling with recipe tier.\n\nThis machine gates the Atmosphere Terraformer and Atmosphere Analyzer chains because both need liquid oxygen. It is also the only path to large-scale aluminum for the Vacuum Laser and Rocket Assembler.\n\n§ePS:§f Pipe water in via a Liquid IO Board and route hydrogen output to a Chemical Reactor for rocket fuel without an oil refinery setup.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:electrolyser"
+      },
+      "name:8": "Electrolyser",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10016,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:electrolyser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

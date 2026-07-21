@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    30106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Well \u0026 Water Filter§f\n\n§aGenerate water and produce fresh water + salt passively.§f\n\nThe §bWell§f provides an infinite water source. Right-click with a bucket for Water Buckets, or with a Glass Bottle for Water Bottles. It also accepts §bFresh Water§f items to duplicate them. The Well tooltip reads: \"Oh, maybe not very useful. - Sjin\", but it is essential for early-game water access.\n\n§6Well Crafting§f:\n§eShaped recipe:§f (check JEI for exact arrangement of stone and water-related materials)\n\n§6Water Filter§f:\nThe §bWater Filter§f sits in the center of a §e5×5§f water source area and converts §bWoven Cotton§f into §eFresh Water§f + §eSalt§f. The filter requires at least §e5 water source blocks§f within a §e2-block radius§f to function. Place it surrounded by water on a flat surface.\n\n§6Water Filter Crafting§f:\n§eShaped recipe:§f\n§b• 8× Iron Bars§f (surrounding)\n§b• 1× Stone§f (center)\n\n§6Filter Operation§f:\n§b• Input§f: §bWoven Cotton§f (top slot)\n§b• Output§f: §eFresh Water§f (configurable amount) + §eSalt§f (configurable amount)\n§b• Processing Time§f: Configurable via §bHarvestCraft config§f (default ~§e25 seconds§f)\n§b• Speed Bonus§f: More water blocks nearby \u003d faster processing (radius §e2§f)\n\n§6Automation§f:\nThe Water Filter is fully automatable via §bhoppers§f, §bitemducts§f, or any item transport. Insert §bWoven Cotton§f from the top, extract §bFresh Water§f and §bSalt§f from the bottom. Pair with a §bCotton Farm§f for a self-sustaining salt and water supply.\n\n§eTip§f: Fresh Water and Salt are used in dozens of HarvestCraft recipes, including soups, sodas, sauces, and more. Set up a row of Water Filters near an ocean for maximum throughput.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:waterfilter"
+      },
+      "name:8": "Well \u0026 Water Filter",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30108,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:well"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:waterfilter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30226
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Chunk Pregenerator§f\n\n§aFlying at high speed and the game is chugging? Yeah, that\u0027s chunk generation.§f\n§9Chunk Pregenerator§f generates chunks ahead of time so your system just loads pre-existing files while you travel. No more stuttering when you\u0027re zooming around in a jetpack.\n\nGeneration runs in background threads, so you can kick off a task and keep playing without a hitch. There\u0027s also a live world profiler that shows block updates, block ticks, and ticking entities. Super useful for figuring out what\u0027s lagging your base.\n\nYou can manage everything through a GUI instead of typing console commands, which is nice.\n\n§ePS:§f Pregenerate around your base and along travel routes. You\u0027ll thank yourself later when you\u0027re flying at full speed with zero lag.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:map"
+      },
+      "name:8": "Chunk Pregenerator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30222,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:map"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

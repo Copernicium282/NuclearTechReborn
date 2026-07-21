@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40279
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Artificial Xen Crystal \u0026 Ghiorsium§f\n\n§aTwo exotic endgame materials, one for black holes, one for radiation shielding.§f\n\n§6Artificial Xen Crystal§f:\nCrafted: §e7 Energy Powder§f + §e1 Euphemium Ingot§f in a table. Place it and it teleports a chunk of ground §e75 blocks§f into the air.\n\n§bUses§f:\n§b• Miniature Black Hole§f, §e6 Xen Crystals§f + Singularity, the best DFC core (§e800×§f multiplier)\n§b• Xenium Resonator§f, §e1 Xen Crystal§f + Steel, Starmetal, Polymer, and Military Grade Circuits\n§b• Dyson Receivers§f, used in the Space Fork for advanced space infrastructure\n\n§6Ghiorsium-336§f:\nA non-fissile radioisotope (§e5 RAD/s§f) produced by recycling long-lived nuclear waste from schrabidium fuels or flashlead fuels. Stable for such a heavy element.\n\n§bUses§f:\n§b• Radiation Shielding§f, heavy shielding material due to stability\n§b• Armor Inserts§f, provides radiation protection in armor\n§b• Cladding and Billet Forms§f, used in advanced fuel elements\n\n§ePS:§f Xen crystals are gated behind euphemium. Ghiorsium is a byproduct of schrabidium fuel processing, so if you\u0027re burning schrabidium fuels, you\u0027re already producing it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:crystal_xen"
+      },
+      "name:8": "Artificial Xen Crystal \u0026 Ghiorsium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40294,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crystal_xen"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

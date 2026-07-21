@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40054
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aSpeed up, power down, or both.§f\n\nMachine upgrades are plug-and-play buffs for most machines. Craft the Machine Upgrade Template first (copper wire, polymer, insulator, integrated circuit board), then use it to build the actual upgrades.\n\nSpeed Mk.I through III cuts process time but increases power draw. Effectiveness is machine-dependent. Power Saving does the opposite. Overdrive is the nuclear option, highly reducing time at enormous power cost, and requires Saturnite plus the Assembly Factory.\n\nSpecialized upgrades handle conveyor ejection, forcefield tweaks, and mining laser mods. The 5G Radiation Emitter turns Maxwell turret targets into Astolfo, if that\u0027s your thing.\n\nInstall them by opening a machine GUI and hovering over the blue square to see compatible slots.\n\n§ePS:§f Speed and Power Saving together can balance each other. Templates are consumed per upgrade, so make extras.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:upgrade_template"
+      },
+      "name:8": "Machine Upgrades",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40056,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:upgrade_speed_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

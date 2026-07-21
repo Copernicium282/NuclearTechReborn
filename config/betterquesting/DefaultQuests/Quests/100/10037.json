@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    10028,
+    10035
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Station Control Blocks§f include the Gravity Controller, Orientation Controller, Altitude Controller, Planet Selector, and Holo Selector. Together they manage your space station\u0027s environment and navigation.\n\nThe Gravity Controller creates a spherical gravity field up to 64 blocks radius. It needs RF power, 100 RF/t baseline plus 1 RF/t per block of radius. Without it, the station is zero-G and you need jetpacks to move.\n\nThe Orientation and Altitude Controllers stabilize the station. The Planet Selector and Holo Selector provide 3D navigation previews.\n\n§ePS:§f Multiple Gravity Controllers can link to extend the field for larger stations. Place them spread out for even coverage.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:gravitycontroller"
+      },
+      "name:8": "Station Control Blocks",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 10037,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:orientationcontroller"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:altitudecontroller"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:gravitycontroller"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:planetselector"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:planetholoselector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

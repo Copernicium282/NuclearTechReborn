@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    30044,
+    30047
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Heat Sink§f\n\n§aKeeps your reactor from melting down.§f\nHeat Sinks are placed inside a Solid Fission Reactor to absorb heat from adjacent fuel cells. Each type has a specific cooling rate and placement rule. Water Sinks cool at §b55 H/t§f and need exactly one adjacent chamber. Iron Sinks do §b50 H/t§f. Redstone Sinks hit §b85 H/t§f.\n\nThe best coolers have strict adjacency requirements. Diamond Sinks cool at §b200 H/t§f but need specific neighboring blocks. Plan your layout carefully.\n\n§cWARNING:§f Not enough cooling means meltdown. Always calculate your heat budget before powering on.\n\n§ePS:§f Check the placement rules in JEI. Each cooler type has different adjacency requirements.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 7,
+        "id:8": "nuclearcraft:solid_fission_sink"
+      },
+      "name:8": "Heat Sink",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30046,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "nuclearcraft:solid_fission_sink"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "nuclearcraft:solid_fission_sink"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

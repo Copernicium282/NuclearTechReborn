@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    40151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Conveyors§f\n\n§aThe dumbest, cheapest way to move items. And honestly, sometimes that\u0027s exactly what you need.§f\n\nConveyor Belts transport items between machines. They pick up dropped items or items from ejectors and drop them at the end of the line if nothing grabs them. Items don\u0027t collide, so throughput is unlimited.\n\nYou\u0027ve got four flavors: §bStandard§f (yellow), §bDouble-Lane§f (red, 3-wide for grabbers), §bTriple-Lane§f (purple, 3-wide with steel plates), and §bExpress§f (green, faster with Engine Lubricant).\n\nFor crafting, always use the §brubber recipe§f (3 rubber + 2 ingots \u003d 64 belts). Leather and rope recipes exist but give way fewer belts for the same cost.\n\n§ePS:§f Double-lane and triple-lane belts are mainly decorative unless you\u0027re using conveyor grabbers. Standard belts do the job for 99% of setups.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:conveyor"
+      },
+      "name:8": "Conveyors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40152,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:conveyor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

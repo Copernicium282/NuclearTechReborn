@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30227
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6RS Gauges§f\n\n§aLevers are boring. These are not.§f\n§9Gauges and Switches§f gives you configurable control interfaces for your industrial builds. Toggle switches, push buttons, dimmer switches, observer sensors, contact switches, door sensors, and visual gauges. Way better than vanilla levers.\n\nUse a §9Redstone Torch§f as a wrench to configure settings. Link switches remotely with §9Ender Pearls§f or §9Switch Link Pearls§f up to §c48 blocks§f away. Set custom pulse timers with §9Redstone Dust§f.\n\nGauges sample power every §c8 ticks§f. Linear laser sensors scan every §c4 ticks§f. Infrared sensors scan for movement every §c10 ticks§f.\n\n§ePS:§f Perfect for controlling reactor containment grids, automated machinery, or heavy doors without messy redstone trails across your factory floor.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:comparator"
+      },
+      "name:8": "RS Gauges",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30233,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rsgauges:bistableswitch8"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

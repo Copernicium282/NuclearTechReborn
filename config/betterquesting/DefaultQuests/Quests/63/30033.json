@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30025
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Melter§f\n\n§aMelts items into fluid form.§f\nThe §bMelter§f takes §b1 item input§f and produces §b1 fluid output§f. Default cycle is §b800 ticks§f at §b40 RF/t§f. It\u0027s the reverse of the Ingot Former: solid goes in, liquid comes out. Use it to melt ores, ingots, or other materials into their molten form for fluid-based processing.\n\nThe Melter is useful for creating molten metals that can then be cast with the Ingot Former, or for producing fluids needed in chemical recipes.\n\n§ePS:§f The Melter uses more power than most basic machines at 40 RF/t. Make sure your power setup can handle it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:melter"
+      },
+      "name:8": "Melter",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30033,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:melter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

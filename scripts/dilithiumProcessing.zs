@@ -12,7 +12,7 @@ mods.nuclearcraft.Assembler.addRecipe(<hbm:rod_quad_empty>, <hbm:ingot_schrabida
 
 //Schrabidate Depletion and Lithium Transformation
 
-SolidFission.addRecipe(<contenttweaker:li_infused_schrabidate_quad_rod>, <contenttweaker:rod_dilithium_pure>, 3000, 500, 4.00, 200, 0.5, true, 8.0e-2);
+SolidFission.addRecipe(<contenttweaker:li_infused_schrabidate_quad_rod>, <contenttweaker:rod_dilithium_pure>, 3000, 500, 4.00, 200, 0, 0.5, true, 8.0e-2);
 
 //Dilithium Extraction
 

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30025
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Centrifuge§f\n\n§aSpins fluids to separate components by density.§f\nThe §bCentrifuge§f takes §b1 fluid input§f and produces §bup to 6 fluid outputs§f. Default cycle is §b1200 ticks§f at §b10 RF/t§f. It separates fluid mixtures into their constituent components based on density differences.\n\nThe Centrifuge is essential for uranium enrichment and isotope separation in fluid form. It\u0027s also used for separating chemical mixtures in various processing chains throughout the NuclearCraft recipe tree.\n\n§ePS:§f The Centrifuge can produce up to 6 different fluids per recipe. Make sure you have enough output pipes and tanks to handle all the different streams without one backing up.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:centrifuge"
+      },
+      "name:8": "Centrifuge",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30087,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:centrifuge"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

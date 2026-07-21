@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    40000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Aluminium§f\n\n§aLight, soft, and absolutely everywhere in your future.§f\n\nAluminium ore spawns between Y 5 and 45. Smelt it directly, or process bauxite for better yields. Powdered aluminium is used in thermite, so keep some on hand.\n\nThe real value: §bfireclay§f (clay + aluminium → firebricks for the crucible), §bfluid ducts§f for transporting fluids, §bgunmetal§f (aluminium + red copper in the rotary furnace), and §baluminium plates§f for arc welding.\n\nYou\u0027ll burn through aluminium fast once you start building foundry infrastructure. It\u0027s also used in low-density element storage and liquid containers. Stockpile it.\n\n§ePS:§f Bauxite ore drops aluminium directly when processed.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_aluminium"
+      },
+      "name:8": "Aluminium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 40030,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_aluminium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

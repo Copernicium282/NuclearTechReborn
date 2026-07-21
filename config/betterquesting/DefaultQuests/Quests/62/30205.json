@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    30158
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §6Color Applicator§f paints §6ME Cables§f, §6ME Parts§f, and §6ME Facades§f with any of the 16 dye colors. Right-click a cable to apply the currently loaded color.\n\nCrafted from §6Formation Core§f, §b2 Iron Ingots§f, §64k ME Storage Component§f, and §6ME Energy Cell§f. It holds §b20,000 AE§f and costs §b100 AE§f per paint operation.\n\nLoad a §6Paintball§f (crafted in the §6Inscriber§f) into the inventory slot to apply its color. You can also cycle colors without paintballs, but the applicator needs charge for that.\n\n§cWARNING:§f Coloring a §6Dense Cable§f will color the entire segment. There is no per-channel coloring on dense cables.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:color_applicator"
+      },
+      "name:8": "Color Applicator",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30205,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:color_applicator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

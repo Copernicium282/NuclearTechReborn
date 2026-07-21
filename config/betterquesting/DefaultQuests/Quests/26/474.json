@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    472
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Collision Chamber§f\n\n§aTwo beams, head-on, maximum chaos. The biggest chamber in QMD.§f\n\nThe Collision Chamber smashes two particle beams from opposite faces into a central collision point. The interaction produces new particles, items, and fluids depending on the beam species and energy.\n\nBuild it as a square multiblock with odd dimensions. Place beam ports on at least two opposite faces, beam blocks to the center, energy ports, fluid ports, and detectors inside. The controller needs an Elite Processor.\n\nFocus loss applies to both beams independently. Keep paths short or your beams will collapse before they collide.\n\n§ePS:§f Some Collision Chamber recipes require specific detector types inside the chamber. Build a variety of detectors for flexibility.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "qmd:collision_chamber_controller"
+      },
+      "name:8": "Collision Chamber"
+    }
+  },
+  "questID:3": 474,
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "qmd:collision_chamber_controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

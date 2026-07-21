@@ -1,0 +1,27 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Environmental Controller§f\\n\\n§aBeacon on steroids, apply potion effects, flight, and peace over a massive radius.§f\\n\\nThe §bEnvironmental Controller§f broadcasts passive status effects to everyone in range. §e500,000 RF§f buffer, §e20,000 RF/t§f input. Inserts a §bRange Module§f (tiers 1-3) to set the radius.\\n\\n§6Modules§f (cost scales with radius volume):\\n§b• Flight§f: Creative flight, §e0.004 RF/t per block§f\\n§b• Regeneration§f: §e0.0015 RF/t per block§f (Plus: §e0.0045§f)\\n§b• Saturation§f: No hunger, §e0.001 RF/t per block§f\\n§b• Speed / Haste§f: §e0.001 RF/t per block§f each\\n§b• Night Vision§f: §e0.001 RF/t per block§f\\n§b• Peaceful§f: Prevents hostile spawns, §e0.001 RF/t per block§f\\n\\nToggle §bMob Multiplier§f to affect mobs too (§c2.0× power cost§f).\\n\\n§9Note:§f Poison, Blindness, and Weakness modules are disabled in this pack. They can only target mobs, not players.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:redstone_receiver_block"
+      },
+      "name:8": "Environmental Controller",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4106,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:redstone_receiver_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

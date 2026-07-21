@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    30025
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6DU Plating§f\n\n§aThe workhorse plate of NuclearCraft.§f\nDepleted uranium is dense, and that density makes it perfect for absorbing radiation. Mix it with sulfur and an advanced plate core to get a composite that shows up in almost every higher-tier recipe.\n\nCraft it with sulfur, uranium-238, and advanced plates in a 3x3 grid. Check JEI for the exact pattern. You\u0027ll burn through a lot of these, so get your uranium and sulfur lines running first.\n\nDU Plating feeds into DU batteries, DU solar panels, heavy radiation shielding, and the Elite Plating that gates QMD content. If you\u0027re progression-gated somewhere, chances are you need more DU Plating.\n\n§ePS:§f The Ingot Former and Alloy Furnace are your best friends for bulk-producing uranium-238 ingots and advanced plates.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "nuclearcraft:part"
+      },
+      "name:8": "DU Plating",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 30037,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "nuclearcraft:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
