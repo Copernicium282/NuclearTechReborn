@@ -1,3 +1,5 @@
+
+
 # NITRO - Nuclear Integrated Tech Research: Overhauled
 
 [![CurseForge](https://img.shields.io/badge/CurseForge-Download-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/modpacks/nuclear-tech-reborn)
@@ -15,6 +17,7 @@ A nuclear technology progression pack for Minecraft 1.12.2 that integrates [HBM'
 - **Radiation and Hazards:** Trinity fallout, custom RadAway, hazmat suits, pollution mechanics
 - **Space Exploration:** Advanced Rocketry with Dilithium-powered propulsion
 - **Guided Progression:** 717 quests across 23 questlines covering Metallurgical, Steam, Oil, Nuclear, and Endgame ages
+- **Starter Kit:** Four torches and a boat in the starting inventory
 
 ---
 
